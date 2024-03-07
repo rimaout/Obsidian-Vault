@@ -1,0 +1,20 @@
+{
+  "alwaysUpdateLinks": true,
+  "promptDelete": false,
+  "spellcheckLanguages": null,
+  "attachmentFolderPath": "./",
+  "tabSize": 4,
+  "propertiesInDocument": "visible",
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 50
+  },
+  "newFileLocation": "folder",
+  "newFileFolderPath": "To-Do",
+  "readableLineLength": false,
+  "vimMode": false,
+  "showLineNumber": false
+}

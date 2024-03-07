@@ -1,0 +1,53 @@
+---
+Created: 2024-02-03
+Type: Uni Note
+Class:
+  - "[[Progettazione Sistemi Digitali (class)]]"
+Academic Year: 2023/2024
+Related:
+  - "[[Circuiti combinatori]]"
+Completed: true
+---
+---
+## Index
+
+1. [[#Definizione]]
+2. [[#Calcolo numero variabili]]
+3. [[#Circuito interno]]
+
+---
+## Definizione
+
+**Comparatore logico** confronta due sequenze di pit per verificarne l’uguaglianza 
+
+>[!warning] Rappresentazione circuitale
+>![[Pasted image 20240203112236.png|250]]
+
+**Input:** Due sequenze di bit A e B
+
+**Output:** Z (bit singolo)
+
+$$
+Z= \begin{cases}
+0 &\text{if }\ A \not= B \\
+1 &\text{if }\ A = B \\
+\end{cases} \\
+$$
+
+---
+## Circuito interno
+
+Il comparatore logico confronta sequenze di n bit, *utilizzando porte [[Operatori Booleani e Porte Logiche#XOR|xor]] per comparare ogni coppia di bit*, gli output delle xor confluiscono in una [[Operatori Booleani e Porte Logiche#NOR|nor]], che restituisce 1 se le sequenze sono uguali e 0 se sono diverse.
+
+>[!tip] xor
+>xor restituisce: 
+>- 0 quando due bit sono *uguali* 
+>- 1 quando sono *diversi*
+
+>[!warning] oss
+>Basta una xor con output 1 per far uscire la somma tra tutte le xor 1, che una volta negata viene 0
+
+>[!warning] Circuito
+>![[Pasted image 20240203120009.png|400]]
+
+---

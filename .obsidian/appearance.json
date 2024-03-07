@@ -1,0 +1,13 @@
+{
+  "accentColor": "",
+  "cssTheme": "Border",
+  "baseFontSize": 21,
+  "interfaceFontFamily": "",
+  "textFontFamily": "Inter",
+  "theme": "obsidian",
+  "translucency": false,
+  "monospaceFontFamily": "Cascadia Code PL",
+  "nativeMenus": true,
+  "showViewHeader": true,
+  "baseFontSizeAction": true
+}

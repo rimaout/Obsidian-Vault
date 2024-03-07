@@ -1,0 +1,14 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "Academic Year": "text",
+    "Completed": "checkbox",
+    "Created": "date",
+    "Programming Language": "text",
+    "Class": "multitext",
+    "Related": "multitext",
+    "sitefix": "text"
+  }
+}
