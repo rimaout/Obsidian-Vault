@@ -7,10 +7,11 @@ Link: https://twiki.di.uniroma1.it/twiki/view/Intro_algo/PZ/WebHome
 **Lezioni:**
 1. [[AL 26 Feb]]
 2. [[AL 29 Feb]]
+3. [[Al 07 Mar]]
 
 **Argomenti:**
 - [[Concetti di base x Algoritmi]]
 - [[Notazione asintotica per calcolo costo computazionale]]
+- [[Algoritmi di ricerca]]
 
 - [[Algoritmi]], [[Algoritmi Iterativi]], [[Algoritmi Ricorsivi]]
-- gdvjgsvdcjgcvdsjhg

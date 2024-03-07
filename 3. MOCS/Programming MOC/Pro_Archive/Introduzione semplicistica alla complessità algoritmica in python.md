@@ -9,12 +9,18 @@ Related:
 Completed: true
 ---
 ---
-# Index:
-1. [[#Complessità Temporale]]
-2. [[#Complessità Spaziale]]
+>[!info]
+>1. [[#Complessità Temporale]]
+>	1. [[#Complessità di alcune funzioni Python più comuni]]
+>	2. [[#Liste, tuple, e stringhe]]
+>	3. [[#Dizionari]]
+>	4. [[#Set]]
+>2. [[#Complessità Spaziale]]
+>	1. [[#Cose da sapere]]
+>	2. [[#Complessità Spaziale Funzioni Ricorsive]]
 
 ---
-# Complessità Temporale 
+## Complessità Temporale 
 
 ### Complessità di alcune funzioni Python più comuni
 
@@ -28,7 +34,7 @@ Completed: true
 > -  **Esempio:** sappiamo che l'operazione `append` ha una complessità nel *caso peggiore O(n)*, ma sappiamo anche che se eseguiamo n operazioni consecutive di append, una di queste avrà costo lineare mentre tutte le altre avranno costo costante. Quindi, siano `c0` e `c1` due opportune costanti, il costo delle n operazioni di append sarà: `(n-1)c0 + n*c1 = n(c0+c1) - c0 `
 > - Dividendo tutto per n si ottiene il *costo medio* di una operazione che risulterà *O(1)*.
 
-**Liste, tuple, e stringhe:**
+### Liste, tuple, e stringhe
 
 |Operazione|Costo caso peggiore|Costo caso medio|
 |---|---|---|
@@ -49,10 +55,11 @@ Completed: true
 **oss:** Le operazioni contrassegnate con *°* sono esclusive delle liste.
 
 **Info extra:**
-		- *Costo slicing* = costo della clonazione di k-n (indifferentemente da caso peggiore o medio).
-		- *Costo estensione* = costo di accodare n elementi (dove n è la dimensione delle iterabile da cui prendiamo gli elementi), esempio a.extended(b) dove n = len(b)
+- *Costo slicing* = costo della clonazione di k-n (indifferentemente da caso peggiore o medio).
+- *Costo estensione* = costo di accodare n elementi (dove n è la dimensione delle iterabile da cui prendiamo gli elementi), esempio a.extended(b) dove n = len(b)
 
-**Dizionari:**
+---
+### Dizionari
 
 |Operazione|Costo caso peggiore|Costo caso medio|
 |---|---|---|
@@ -63,21 +70,22 @@ Completed: true
 |*Iterazione*|O(n)|O(n)|
 |*Ricerca*|O(n)|O(1)|
 
-**Set:**
+---
+### Set
 
-|Operazione|Costo caso peggiore|Costo caso medio|
-|---|---|---|
-|*Inserimento*|O(n)O(1)|
-|*Ricerca*|O(n)|O(1)|
-|*Inserimento*|O(n)|O(1)|
-|*Iterazione*|O(n)|O(n)|
-|*Lunghezza*|O(1)|O(1)|
-|*Unione*|||
-|*Intersezione*|||
-|*Differenza*|||
+| Operazione     | Costo caso peggiore | Costo caso medio |
+| -------------- | ------------------- | ---------------- |
+| *Inserimento*  | O(n)O(1)            |                  |
+| *Ricerca*      | O(n)                | O(1)             |
+| *Inserimento*  | O(n)                | O(1)             |
+| *Iterazione*   | O(n)                | O(n)             |
+| *Lunghezza*    | O(1)                | O(1)             |
+| *Unione*       |                     |                  |
+| *Intersezione* |                     |                  |
+| *Differenza*   |                     |                  |
 
 ---
-# Complessità Spaziale
+## Complessità Spaziale
 
 - La complessità spaziale di un programma (funzione o frammento di codice), indica la *quantità di spazio utilizzato dal programma in funzione della dimensione dell'input*. 
 - Anche in questo caso si può usare l'analisi del caso peggiore o medio e le notazioni asintotiche O-grande o Theta-grande.
@@ -127,6 +135,7 @@ def prima_pari(a):
 
 - La **seconda soluzione** *non utilizza liste di appoggio* ma soltanto la lista che verrà restituita in output, quindi è evidente che questa *soluzione è più efficiente* della prima ma questo non si evince dall'analisi asintotica. Ma se dal computo dello spazio occupato sottraessimo quello (necessario) utilizzato per l'input e per l'output otterremmo che la prima soluzione manterrebbe un costo O(n) per via delle liste d'appoggio pari e dispari, mentre la seconda soluzione avrebbe complessità spaziale O(1).
 
+---
 ## Complessità Spaziale Funzioni Ricorsive
 
 ```python
@@ -146,3 +155,5 @@ def somma(n):
 - Tuttavia, la chiamata somma(n) crea uno stack frame (o ambiente) che resta aperto fintanto che non viene restituito il risultato dalla chiamata di somma(n-1) che a sua volta crea un nuovo stack frame per somma(n-2) e così via fino all'invocazione di somma(0) che fa terminare la catena liberando la memoria di tutti i frame aperti.
  
 - In **numero massimo di frame** aperti in contemporanea è proprio *n*, ciascuno di questi occupa una quantità di memoria costante e quindi la **complessità spaziale** di somma(n) è *O(n)*.
+
+---

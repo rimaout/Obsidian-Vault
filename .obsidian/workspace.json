@@ -22,31 +22,31 @@
             }
           },
           {
-            "id": "a9a0551863484a10",
+            "id": "30fb9e882cbadfcf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Easy Notes/Civilization VI.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Algoritmi di ricerca.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "203c5fb34e164f3a",
+            "id": "42d947c14697ab27",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/AL 29 Feb.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Al 07 Mar.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/AL 29 Feb.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Algoritmi di ricerca.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/AL 29 Feb.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Algoritmi di ricerca.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/AL 29 Feb.md"
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Algoritmi di ricerca.md"
               }
             }
           },
@@ -241,10 +241,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "203c5fb34e164f3a",
+  "active": "30fb9e882cbadfcf",
   "lastOpenFiles": [
-    "1. Easy Notes/Civilization VI.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Al 07 Mar.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Algoritmi di ricerca.md",
     "3. MOCS/Uni MOC/Uni_Classes/Algoritmi (class).md",
+    "To-Do/To-Do.md",
+    "3. MOCS/Programming MOC/Pro_Archive/Introduzione semplicistica alla complessità algoritmica in python.md",
+    "3. MOCS/Programming MOC/Pro_Archive/Python MOC.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Notazione asintotica per calcolo costo computazionale.md",
+    "3. MOCS/Uni MOC/Uni_Archive/AL 29 Feb.md",
+    "1. Easy Notes/Civilization VI.md",
     "Storage/Files/Media",
     "1. Easy Notes/idee.md",
     "1. Easy Notes/Minecraft Vanilla Mods.md",
@@ -259,18 +266,12 @@
     "3. MOCS/Tech MOC/Tech_Archive/Latex Suit Plugin.md",
     "3. MOCS/Tech MOC/Tech_Archive/How To Correctly Export And Migrate Away From Google Photos — Web.md",
     "2. Litterateur Notes/High School/High School.md",
-    "To-Do/To-Do.md",
     "3. MOCS/Uni MOC/Uni_Storage/Matematica 0.pdf",
     "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
     "3. MOCS/Uni MOC/Uni_Storage/Progettazione sistemi digitali appunti completi Giada.pdf",
     "To-Do/Projects.md",
     "3. MOCS/Uni MOC/Uni_Classes/Architettura (class).md",
     "3. MOCS/Uni MOC/Uni_Archive/Notazione Omega (Ω).md",
-    "Storage/changelog.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Notazione Theta (Θ).md",
-    "3. MOCS/Uni MOC/Uni_Archive/AL 29 Feb.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Notazione asintotica per calcolo costo computazionale.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Notazione Big O (O).md",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240306174105.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240306172911.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240306172850.png",
