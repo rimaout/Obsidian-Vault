@@ -46,7 +46,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -100,8 +100,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -122,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. Easy Notes/Civilization VI.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/AL 29 Feb.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -139,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Easy Notes/Civilization VI.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/AL 29 Feb.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Easy Notes/Civilization VI.md"
+                "file": "3. MOCS/Uni MOC/Uni_Archive/AL 29 Feb.md"
               }
             }
           },
@@ -242,12 +241,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "a9a0551863484a10",
+  "active": "203c5fb34e164f3a",
   "lastOpenFiles": [
+    "1. Easy Notes/Civilization VI.md",
+    "3. MOCS/Uni MOC/Uni_Classes/Algoritmi (class).md",
     "Storage/Files/Media",
     "1. Easy Notes/idee.md",
     "1. Easy Notes/Minecraft Vanilla Mods.md",
-    "1. Easy Notes/Civilization VI.md",
     "Index.md",
     "3. MOCS/Tech MOC/Tech MOC.md",
     "3. MOCS/Uni MOC/Uni MOC.md",
@@ -264,7 +264,6 @@
     "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
     "3. MOCS/Uni MOC/Uni_Storage/Progettazione sistemi digitali appunti completi Giada.pdf",
     "To-Do/Projects.md",
-    "3. MOCS/Uni MOC/Uni_Classes/Algoritmi (class).md",
     "3. MOCS/Uni MOC/Uni_Classes/Architettura (class).md",
     "3. MOCS/Uni MOC/Uni_Archive/Notazione Omega (Ω).md",
     "Storage/changelog.md",
@@ -291,7 +290,6 @@
     "3. MOCS/Personal MOC",
     "2. Litterateur Notes/Books/L'avvocato dell'atomo (book)",
     "2. Litterateur Notes/Books",
-    "3. MOCS/Projects ",
     "Storage/Untitled.canvas",
     "Untitled 1.canvas",
     "Senza nome.canvas"
