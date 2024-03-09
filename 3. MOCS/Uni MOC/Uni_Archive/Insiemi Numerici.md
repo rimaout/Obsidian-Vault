@@ -7,7 +7,9 @@ Class:
 Academic Year: 2023/2024
 Related:
   - "[[Teoria degli insiemi]]"
-Completed:
+Completed: 
+share_link: https://share.note.sx/j922q5sj#dNV7R2PWKSXUyAxPlesC4QbKgS0SCYk/zvcS1w7CCQc
+share_updated: 2024-03-07T21:37:54+01:00
 ---
 ---
 ## Indice

@@ -16,6 +16,11 @@ Java can be classified into 5 types:
 5. [[Java Unary Operators|Unary Operators]]
 6. [[Java Bitwise Operators|Bitwise Operators]]
 
+**Extra:** [[Java Increments Operators]]
+
+|Operators|Precedence|
+|---|---|
+|*, /, %|Evaluated first from left to right|
+|+, -|Evaluated second from left to right|
+
 ---
-
-

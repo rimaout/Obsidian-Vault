@@ -37,6 +37,8 @@ Here, the `+` operator is used to add two variables a and b. Similarly, there ar
 |`/`|Division|
 |`%`|Modulo Operation (Remainder after division)|
 
+**P**
+
 ---
 ## Arithmetic Operators on Numbers
 

@@ -5,16 +5,31 @@ Related:
   - "[[Programmazione ad Oggetti]]"
 ---
 ---
-**Introduction:**
-- [[Hello Word in java]]
-- [[How to run a java program]]
+##### Basics
+- [[Hello Word in java]] 🟢
+- [[Java Variables]] 🟢
+- [[Java Literals]] 🟢
+- [[Java Input]]
+- [[Java Output]]
 
-- [[Java Variables]], [[Java Literals]] 
-- [[Java data types]], [[Java Casting]]
+##### Data Types
+- [[Java built-in data types]] 🟢
 - [[Java Operators]] 🟡
-- [[Java Keywords and Identifiers]]
-
+- [[Java Casting]] 🟢
 - [[Java Strings]]
+
+##### Object Oriented Programming
+- [[Java Class and Objects]]
+- [[Java Fields]]
+- [[Java Methods]]
+- [[Java Constructor]]
+- [[Java access modifiers]]
+- [[Java Incapsulamento]]
+
+##### Extras
+- [[UML]]
+- [[Java Memory]]
+
 
 **To-Do:**
 - https://dzone.com/articles/jvm-architecture-explained

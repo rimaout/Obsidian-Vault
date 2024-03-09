@@ -7,10 +7,11 @@ Type: Uni Note
 - [[Serie Numeriche]]
 - [[Serie Geometriche]]
 - [[Serie Armonica]]
+- [[Serie Telescopiche]]
 
 
 **Lezioni:**
 - [[CI 26 feb]]
 - [[CI 1 mar]]
 - [[CI 4 mar]]
-- 
+- [[CI 8 Mar]]

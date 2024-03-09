@@ -6,16 +6,12 @@ Related:
 Completed: true
 ---
 ---
-## Index
-1. [[]]
-
----
 ## Java data types
 
 - Data types specify the type of data that can be stored inside [[Java Variables]].
 - Java is a **statically-typed language**. This means that all variables must be declared before they can be used.
 
-Java has 9 build in data types:
+Java has 9 built-in data types:
 - 8 [[#Primitive Data Types]] + [[#String type]]
 
 ---
@@ -31,7 +27,20 @@ There are 8 different primitive data types:
 7. [[#float type]]
 8. [[#char type]]
 
-![[Pasted image 20240301170731.png|500]]
+| Tipo             | Operatori |      Esempio      | Intervallo                               | Space  |
+| ---------------- | :-------: | :---------------: | ---------------------------------------- | ------ |
+| `byte`           | + - * / % |      27 + 1       | -128…127                                 | 1 byte |
+| `short`          | + - * / % |      27 + 1       | -32768...32767                           | 2 byte |
+| <u>`int`</u>     | + - * / % |      27 + 1       | -2147483648…2147483647                   | 4 byte |
+| `long`           | + - * / % |      27 + 1       | -1e9…1e9                                 | 8 byte |
+| `float`          | + - * / % |  3.14 * 5.01e23   | 7 cifre decimali significative           | 4 byte |
+| <u>`double`</u>  | + - * / % |  3.14 * 5.01e23   | 15 cifre decimali significative          | 8 byte |
+| <u>`boolean`</u> | && \|\| ! |  true \|\| false  | true, false                              | 1 byte |
+| <u>`char`</u>    |    + -    |        ‘a’        | Tutti i caratteri codificati con unicode | 2 byte |
+| <u>`String`</u>  |    + -    | “Hello” + “World” |                                          |        |
+|                  |           |                   |                                          |        |
+
+**oss:** Strings are not primitive data types
 
 ---
 ### boolean type
@@ -199,7 +208,7 @@ class Main {
 ---
 ## String type
 
-Java also provides support for character strings via` java.lang.String class`. Strings in Java are not primitive types. Instead, they are objects. 
+Java also provides support for character strings via `java.lang.String class`. Strings in Java are not primitive types. Instead, they are objects. 
 
 ```java
 String myString = "Java Programming";

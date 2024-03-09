@@ -71,14 +71,20 @@ System.out.println(a <= b); // true
 ---
 ### Relational Operators with Strings
 
-Relational operators cannot be directly applied to strings as they are with numeric types. Instead, the `compareTo()` method should be used to compare strings. The `compareTo()` method returns an integer value that indicates the relationship between the two strings:
+Relational operators cannot be directly applied to strings as they are with numeric types. Instead, the `compareTo()` or `equals()` methods should be used to compare strings. 
 
+The `compareTo()`method returns an integer value that indicates the relationship between the two strings:
 - If `a.compareTo(b) > 0`, then `a` is greater than `b`.
 - If `a.compareTo(b) < 0`, then `a` is less than `b`.
 - If `a.compareTo(b) == 0`, then `a` is equal to `b`.
 
-Example:
+The `equals()`method returns a boolean value that indicates the relationship between the two strings:
+- If `a.equals(b) == True`, then `a` is equal to `b`.
+- If `a.equals(b) == False`, then `a` is not equal to `b`.
 
+Read [[Java Strings]] to learn more.
+
+Example:
 ```java
 String a = "Hello";
 String b = "World";

@@ -1,6 +1,8 @@
 ---
 Academic Year: 2023/2024
 Type: Uni Note
+Related:
+  - "[[Uni MOC]]"
 ---
 ---
 **Argomenti:**
@@ -12,3 +14,5 @@ Type: Uni Note
 
 **Lezioni:**
 2. [[Arch 05 Mar]]
+3. [[Arch 08 Mar]]
+

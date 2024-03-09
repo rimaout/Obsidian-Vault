@@ -73,7 +73,7 @@ int main() {
 
 ---
 
-## Example: [[Java]] Programming
+## Example: [[Java MOC|Java]] Programming
 
 ```Java
 class Operator {

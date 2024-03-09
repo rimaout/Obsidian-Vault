@@ -22,7 +22,7 @@ Completed: true
 >[!def] Definition
 >A variable is a location in memory (storage area) to hold data.
 
-To indicate the storage area, each variable should be given a unique name (identifier). Learn more about [[Java Keywords and Identifiers|Java identifiers]]
+To indicate the storage area, each variable should be given a unique name (identifier). 
 
 >[!info]
 There are 4 types of variables in Java programming language:
@@ -46,7 +46,7 @@ type variable
 int speedLimit = 80;
 ```
 
-The int data type suggests that the variable can only hold integers. To learn more, visit [[Java data types]]
+The int data type suggests that the variable can only hold integers. To learn more, visit [[Java built-in data types]]
 
 You can also declare variables and assign variables separately:
 
@@ -114,7 +114,7 @@ Java programming language has its own set of rules and conventions for naming va
     
 ###### Naming conventions
 
-[[signal-2024-03-03-130943_002.png|600]]
+![[signal-2024-03-03-130943_002.png|600]]
 
 If you choose **one-word variable names**, use all lowercase letters. 
 ```java

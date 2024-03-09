@@ -3,13 +3,17 @@ Created: 2024-03-05
 Type: Programming Note
 Programming Language: "[[Java MOC]]"
 Related:
-  - "[[Java data types]]"
-Completed: false
+  - "[[Java built-in data types]]"
+Completed: true
 ---
 ---
 
 >[!info] Index
->1. 
+>1. [[#Type Casting]]
+>2. [[#Explicit conversion]]
+>3. [[#Implicit Type Casting]]
+>4. [[#Explicit Type Casting]]
+>5. [[#Examples]]
 
 ---
 ## Type Casting
@@ -27,8 +31,14 @@ To learn about other types of type conversion, visit [Java Type Conversion (offi
 ---
 ## Explicit conversion
 Using a method that takes an argument of one type and returns a value of another type
-- `Integer.parseInt()`, `Double.parseDouble()`, `Math.round()`, `Math.floor()`, `Math.ceil()`, etc.
 
+Some of this methods are:
+- `Integer.parseInt()`
+- `Double.parseDouble()`
+- `Integer.toString()`
+- `Math.round()`
+- `Math.floor()`
+- `Math.ceil()`
 
 ---
 ## Implicit Type Casting
@@ -89,5 +99,21 @@ int data = (int)num;
 Here, the `int` keyword inside the parenthesis indicates that that the num variable is converted into the `int` type.
 
 In the case of **Narrowing Type Casting**, the higher data types (having larger size) are converted into lower data types (having smaller size). Hence there is the loss of data. This is why this type of conversion does not happen automatically.
+
+---
+## Examples 
+
+| Expressions                | Type   | Value  |
+| -------------------------- | ------ | ------ |
+| `(int)2.71828`             | int    | 2      |
+| `Math.round(2.71828)`      | long   | 2      |
+| `(int)Math.round(2.71828)` | int    | 2      |
+| `(int)Math.round(3.14159)` | int    | 3      |
+| `Integer.parseInt("42")`   | int    | 42     |
+| `"42" + 99`                | String | “4299” |
+| `42 * 0.4`                 | double | 16.8   |
+| `(int)42 * 0.4`            | double | 16.8   |
+| `42 * (int)0.4`            | int    | 0      |
+| `(int)(42 * 0.4)`          | int    | 16     |
 
 ---

@@ -16,7 +16,7 @@ $$
 $$
 
 
-## Serie Armonica  Generalizzate 
+## Serie Armonica  Generalizzata 
 $$
 \sum^{+\infty }_{n=1} \frac{1}{n^{\alpha}}
 $$
@@ -78,18 +78,3 @@ $$
 $$
 
 ---
-## Serie Telescopica 
-
-**Esempio:** 
-$$
-a_{k} = \frac{1}{k(k+1)} = \frac{1}{k} = \frac{1}{k} - \frac{1}{k+1} = b_{n} - b_{k+1}
-$$
-dove: $b_{k} = \frac{1}{k}$
-
-**Caso generale:
-- sia ${b_{n}}$ una successione infinitesima
-- sia $a_{ n }:= b_{n}-b_{n+1}$
-- Allora:
-	- $\sum^{+\infty}_{n=1}a_{ n }=b_{1}$
-	- $S_{n} =  a_{1}-a_{ n }$
-

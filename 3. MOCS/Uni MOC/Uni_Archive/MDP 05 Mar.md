@@ -18,6 +18,9 @@ Completed: false
 >7. [[#Metodi]]
 >8. [[#Costruttori]]
 >9. [[#Variabili locali vs Campi]]
+>10. [[#Incapsulamento]]
+>11. [[#Interazione tra classi]]
+>12. [[#UML (Unified Modeling Laguage)]]
 
 ---
 ## Basi
@@ -51,13 +54,16 @@ i membri di una classe sono `campi` e `metodi`
 ![[Pasted image 20240305092435.png|600]]
 
 
-### Esempio classe
+**Esempio classe**
 
 ![[Pasted image 20240305093325.png|800]]
 
 >[!warning] oss
 >- `void` indica che il metodo non ritorna niente come output 
 
+[[Java Class and Objects]]
+
+---
 ### Modificatore della visibilità
 - `public`
 - `private`
@@ -65,6 +71,9 @@ i membri di una classe sono `campi` e `metodi`
 >[!warning] oss
 >Metodi privati possono essere utilizzati da gli altri metodi della sua stessa classe ma non da metodi di classi esterne
 
+[[Java access modifiers]]
+
+---
 ### Campi 
 
 >[!note] Definizione
@@ -80,6 +89,9 @@ i membri di una classe sono `campi` e `metodi`
 >
 >*oss:* le parentesi quadre indicano l’opzionalità del parametro
 
+[[Java Fields]]
+
+---
 ### Metodi 
 - Un metodo è tipicamente pubblico, ovvero visibile a tutti
 - Il nome di un metodo per convenzione inizia con una lettera minuscola, mentre le parole seguenti iniziano con lettera maiuscola 
@@ -106,7 +118,7 @@ public void reset(int newValue) {value = newValue;}
 >public void reset(int newValue) {value = newValue} 
 >```
 
-
+[[Java Methods]]
 
 ---
 ### Costruttori 
@@ -142,6 +154,8 @@ static public void main(String[] args)
 >[!danger] Non è obbligatorio definire un costruttore
 >Infatti se non definiamo un costruttore utilizzerà un costruttore  di default che non ha nessun input e non ritorna nessun output
 
+[[Java Constructor]]
+
 ---
 ## Variabili locali vs Campi 
 
@@ -152,6 +166,8 @@ I **campi** sono variabili dell’oggetto
 Le **variabili locali** sono variabili definite all’interno di un metodo
 -  Come parametri del metodo o all’interno del corpo del metodo
 - Esistono dal momento in cui sono definite fino al termine dell’esecuzione della chiamata al metodo in questione
+
+[[Java Fields#Campi vs. variabili locali]]
 
 ---
 ## Incapsulamento
@@ -169,6 +185,8 @@ Si semplifica e modularizza il lavoro di sviluppo assumendo un certo funzionamen
 - Non è necessario sapere tutto, soprattutto molti inutili dettagli
 - L’incapsulamento facilita il lavoro di gruppo e l’aggiornamento del codice (maintenance)
 - Aiuta a rilevare errori: in presenza di moltissime classi, un certo errore si verifica solo in una determinata classe per cui ci si può concentrare su di essa
+
+[[Java Incapsulamento]]
 
 ---
 ## Interazione tra classi
@@ -189,5 +207,9 @@ Si semplifica e modularizza il lavoro di sviluppo assumendo un certo funzionamen
 
 
 **Reverse Engineering:**
+
+
+
+---
 
  

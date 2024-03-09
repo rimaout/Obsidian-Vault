@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "086fa48ccb045afd",
+        "id": "5ede1e3b850f9096",
         "type": "tabs",
         "children": [
           {
-            "id": "6e1d70bfbe19415d",
+            "id": "7006fcbcb07b4fc0",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Classes/Algoritmi (class).md",
+                "file": "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
                 "mode": "source",
                 "source": false
               },
@@ -22,31 +22,45 @@
             }
           },
           {
-            "id": "30fb9e882cbadfcf",
+            "id": "e21fcf3010b7d8e1",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Java MOC.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "34d902d35bbfc7bf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Algoritmi di ricerca.md",
+                "file": "3. MOCS/Programming MOC/Pro_Archive/Java Incapsulamento.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "42d947c14697ab27",
+            "id": "3bbe58fd3e26f8e1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Al 07 Mar.md",
+                "file": "To-Do/Git Submodules.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -104,7 +118,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 360.5
+    "width": 360.5,
+    "collapsed": true
   },
   "right": {
     "id": "1599d9a7234429ed",
@@ -121,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Algoritmi di ricerca.md",
+                "file": "To-Do/Git Submodules.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -138,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Algoritmi di ricerca.md",
+                "file": "To-Do/Git Submodules.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Algoritmi di ricerca.md"
+                "file": "To-Do/Git Submodules.md"
               }
             }
           },
@@ -226,7 +241,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 471.5,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -238,59 +253,60 @@
       "command-palette:Open command palette": false,
       "audio-recorder:Start/stop recording": false,
       "workspaces:Manage workspace layouts": false,
-      "omnisearch:Omnisearch": false
+      "omnisearch:Omnisearch": false,
+      "markdown-importer:Open format converter": false
     }
   },
-  "active": "30fb9e882cbadfcf",
+  "active": "3bbe58fd3e26f8e1",
   "lastOpenFiles": [
-    "3. MOCS/Uni MOC/Uni_Archive/Al 07 Mar.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Algoritmi di ricerca.md",
-    "3. MOCS/Uni MOC/Uni_Classes/Algoritmi (class).md",
-    "To-Do/To-Do.md",
-    "3. MOCS/Programming MOC/Pro_Archive/Introduzione semplicistica alla complessità algoritmica in python.md",
-    "3. MOCS/Programming MOC/Pro_Archive/Python MOC.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Notazione asintotica per calcolo costo computazionale.md",
-    "3. MOCS/Uni MOC/Uni_Archive/AL 29 Feb.md",
-    "1. Easy Notes/Civilization VI.md",
-    "Storage/Files/Media",
-    "1. Easy Notes/idee.md",
-    "1. Easy Notes/Minecraft Vanilla Mods.md",
-    "Index.md",
-    "3. MOCS/Tech MOC/Tech MOC.md",
-    "3. MOCS/Uni MOC/Uni MOC.md",
-    "3. MOCS/Programming MOC/Programming MOC.md",
-    "3. MOCS/Personal MOC/Personal MOC.md",
-    "3. MOCS/Tech MOC/Tech_Archive/Privacy.md",
-    "3. MOCS/Tech MOC/Tech_Archive/SSH Key Github.md",
-    "3. MOCS/Tech MOC/Tech_Archive/Obsidian Setup.md",
-    "3. MOCS/Tech MOC/Tech_Archive/Latex Suit Plugin.md",
-    "3. MOCS/Tech MOC/Tech_Archive/How To Correctly Export And Migrate Away From Google Photos — Web.md",
-    "2. Litterateur Notes/High School/High School.md",
-    "3. MOCS/Uni MOC/Uni_Storage/Matematica 0.pdf",
+    "3. MOCS/Programming MOC/Pro_Archive/Java Incapsulamento.md",
+    "3. MOCS/Uni MOC/Uni_Archive/MDP 05 Mar.md",
+    "3. MOCS/Uni MOC/Uni_Archive/MDP 07 Mar.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Java MOC.md",
     "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
-    "3. MOCS/Uni MOC/Uni_Storage/Progettazione sistemi digitali appunti completi Giada.pdf",
-    "To-Do/Projects.md",
+    "3. MOCS/Programming MOC/Pro_Archive/Java Constructor.md",
+    "3. MOCS/Programming MOC/Pro_Archive/Java Fields.md",
+    "To-Do/Java Incapsulamento.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Java Constructor.md",
+    "3. MOCS/Programming MOC/Pro_Archive/Java Methods.md",
+    "3. MOCS/Programming MOC/Pro_Archive/Java Class and Objects.md",
+    "3. MOCS/Programming MOC/Pro_Archive/Pasted image 20240308174926.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Java Methods.md",
+    "3. MOCS/Programming MOC/Pro_Archive/Java input/Java Input.md",
+    "3. MOCS/Uni MOC/Uni_Archive/MDP Lab 06 Mar.md",
+    "To-Do/Java Class and Objects.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Java Output.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Java_printf_method_quick_reference.pdf",
+    "3. MOCS/Programming MOC/Pro_Archive/Java input",
+    "3. MOCS/Programming MOC/Pro_Archive/Java Operators.md",
+    "3. MOCS/Programming MOC/Pro_Archive/Java Increments Operators.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Istruzioni MIPS.md",
     "3. MOCS/Uni MOC/Uni_Classes/Architettura (class).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Notazione Omega (Ω).md",
+    "3. MOCS/Uni MOC/Uni_Archive/MIPS.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Organizzazione della memoria MIPS.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Arch 08 Mar.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Rappresentazione dell'istruzione MIPS.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240308113041.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240308112921.png",
+    "3. MOCS/Uni MOC/Uni_Classes/Calcolo Integrale (class).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Serie Telescopiche.md",
+    "3. MOCS/Programming MOC/Pro_Archive/Pasted image 20240301170731.png",
+    "3. MOCS/Programming MOC/Pro_Archive/Pasted image 20240307162739.png",
+    "3. MOCS/Programming MOC/Pro_Archive/Recording 20240307171929.webm",
+    "3. MOCS/Programming MOC/Pro_Archive/Pasted image 20240307162715.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240307132048.png",
+    "Storage/Files/Media",
+    "3. MOCS/Uni MOC/Uni_Storage/Matematica 0.pdf",
+    "3. MOCS/Uni MOC/Uni_Storage/Progettazione sistemi digitali appunti completi Giada.pdf",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240306174105.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240306172911.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240306172850.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240306172732.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240306164531.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240306164144.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240306163855.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240306160913.png",
-    "3. MOCS/Uni MOC/Uni_Archive/1 FkQzWqqIMlAHZ_xNrEPKeA.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240305151702.png",
     "Spaces/Home",
     "Spaces",
     "3. MOCS/Personal MOC/Personal_Storage",
     "3. MOCS/Personal MOC/Personal_Archive",
     "Buy List/Skin Care Buy List.canvas",
     "Buy List/Clothing Buy List.canvas",
-    "3. MOCS/Personal MOC",
-    "2. Litterateur Notes/Books/L'avvocato dell'atomo (book)",
-    "2. Litterateur Notes/Books",
     "Storage/Untitled.canvas",
     "Untitled 1.canvas",
     "Senza nome.canvas"

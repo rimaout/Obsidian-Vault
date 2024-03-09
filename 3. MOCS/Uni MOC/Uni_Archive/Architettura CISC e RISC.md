@@ -10,7 +10,7 @@ Completed: false
 ---
 
 >[!info] Index
->1. 
+>1. [[#Differenze]]
 
 ---
 
@@ -19,50 +19,11 @@ Completed: false
 
 ## Differenze
 
-
->[!info] CISC
->**Istruzioni di dimensione variabile:**
->- Per il fetch della successiva è necessaria la decodifica della prededente
->
->**Formato variabile:**
->- Decodifica complessa
->
->**Operandi in memoria:**
->- Molti accessi alla memoria per istruzione
->
->**Pochi registri interni:**
->- Maggior numero di accessi in memoria
->
->**Modi di indirizzamento complessi:**
->- Maggior numero di accessi in memoria
->- Durata variabile della istruzione
->- Conflitti tra istruzioni più complicati
->
->**Istruzioni Complesse:** 
->- Pipeline più complicata
->- Più veloci a nello svolgere operazioni complesse
-
-
->[!info] RISC
->**Istruzioni di dimensione fissa:**
->- Fetch della successiva senza decodifica della precedente
->
->**Istruzioni di formato uniforme:**
->- Per semplificare la fase di decodifica
->
->**Operazioni ALU solo tra registri:**
->- Senza accesso a memoria
->
->**Molti registri interni:**
->- Per i risultati parziali senza accessi alla memoria
->
->**Modi di indirizzamento semplici:**
->- Con spiazzamento, 1 solo accesso a memoria
->- Durata fissa della istruzione
->- Conflitti semplici
->
->**Istruzioni Semplici:** 
->- Pipeline più veloce
->- Più lento nello svolgere operazioni complesse
-
----
+| CISC                                                                                                                                                              | RISC                                                                                                                                            |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Istruzioni di dimensioni variabile**<br>- Per il fetch della successiva è necessaria la decodifica della precedente                                             | **Istruzioni di dimensione fissa**<br>- Fetch della successiva senza decodifica della precedente                                                |
+| **Formato variabile**<br>- Decodifica complessa                                                                                                                   | **Istruzioni di formato uniforme**<br>- Per semplificare la fase di decodifica                                                                  |
+| **Operandi in memoria**<br>- Molti accessi alla memoria per istruzione                                                                                            | **Operazioni ALU solo tra registri**<br>- Senza accesso a memoria                                                                               |
+| **Pochi registri interni**<br>- Maggior numero di accessi in memoria                                                                                              | **Molti registri interni**<br>- Per i risultati parziali senza accessi alla memoria                                                             |
+| **Modi di indirizzamento complessi**<br>- Maggior numero di accessi in memoria<br>- Durata variabile dell’istruzione<br>- Conflitti tra istruzioni più complicati | **Modi di indirizzamento semplici**<br>- Con spiazzamento (un solo accesso a memoria)<br>- Durata fissa dell’istruzione<br>- Conflitti semplici |
+| **Istruzioni complesse**<br>- Pipeline più complicata<br> - Più veloci a svolgere operazioni complesse                                                            | **Istruzioni semplici**<br>- Pipeline più veloce<br>- Più lento nello svolgere operazioni complesse                                             |
