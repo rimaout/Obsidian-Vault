@@ -35,6 +35,11 @@ $se \ \ \textcolor{orange}{a_{n}\to 0}\ \text{ allora:}$
 6. $arctg(a_{n})\backsimeq a_{n}$
 7. $1-cos(a_{n})\backsimeq \frac{{a_{n}}^2}{2}$ 
 
+>[!warning] oss
+Se $a_{ n }\to 0$  $\implies$ $\log(1+a_{ n }) = a_{ n }$
+>
+>Se $a_{ n } \to 1$ $\implies$ $\log(a_{ n }) = a_{ n }-1$
+
 ---
 ## Teoremi
 

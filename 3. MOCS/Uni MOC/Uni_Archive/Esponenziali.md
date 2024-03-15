@@ -44,9 +44,13 @@ $$
 & \\
 & 3.~~~~ \frac{a^n}{a^m} = a^{n-m} \\
 & \\
-& 4.~~~~ (a+b)^n = a^n + b^n \\
+& 4.~~~~ (a\pm b)^n = a^n \pm\ b^n \\
 & \\
-& 5.~~~~ - se~a>1 \to a^n > a^m ~~~~~~~ oss: se ~n>m \\
+& 5.~~~~ (a \cdot b)^n = a^n \cdot  b^n \\
+& \\
+& 6.~~~~ \left( \frac{a}{b} \right)^n = \frac{{a^n}}{b^n}  \\
+& \\
+& 7.~~~~ - se~a>1 \to a^n > a^m ~~~~~~~ oss: se ~n>m \\
 & ~~~~~~~ - se~a<1 \to a^n < a^m ~~~~~~~oss: se ~n>m \\
 \end{align*}
 $$

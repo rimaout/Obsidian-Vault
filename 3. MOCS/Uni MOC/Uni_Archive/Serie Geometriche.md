@@ -16,7 +16,6 @@ Completed: true
 >3. [[#^bf34ea|Limite di somme parziali geometriche]]
 ---
 
-
 ---
 ## Serie geometriche 
 
@@ -51,9 +50,8 @@ Completed: true
 >$$\sum^{\infty }_{n=0}q^{n}\ \text{ è} \begin{cases}
 \text{Divergente} &\text{se}\ \ q\geq 1 \\
 \text{Convergente (ad } \frac{1}{1-q} \text{)} &\text{se}\ \ -1<q<1\ \ \ (q\not= 0) \\
-\text{indeterminata} & \text{se }\ \ q\leq 1
+\text{Indeterminata} & \text{se }\ \ q\leq 1
 \end{cases}$$
-
 ^bf34ea
 
 >[!example] Esempio:

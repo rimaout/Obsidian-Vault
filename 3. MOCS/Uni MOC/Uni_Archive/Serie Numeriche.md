@@ -14,7 +14,8 @@ Completed: true
 >1. [[#Definizione di Serie]]
 >2. [[#Successione delle somme parziali]]
 >3. [[#Limite somme parziali]]
->4. [[#Esempi]]
+>4. [[#Teoremei]]
+>5. [[#Esempi]]
 
 ---
 ## Definizione di Serie
@@ -22,12 +23,12 @@ Completed: true
 >[!info] Serie
 Data una successione reale $\{a_{n}\}$, si chiama **serie** dei termini $a_{n}$ la somma degli infiniti termini della successione
 
-La serie viene indicata con $\sum^{\infty}_{n=0}a_{n}$ che si legge "serie o somma per $n$ che va da $0$ a $\infty$ di $a_{n}$ 
+La serie viene indicata con $\sum^{\infty}_{n=0}a_{n}$ che si legge serie o somma per $n$ che va da $0$ a $\infty$ di $a_{n}$ 
 
 ---
 ## Successione delle somme parziali 
 
-Una  **successione delle somme parziali della serie** $\{ S_{n} \}$ è la somma tra gli elementi di una serie finita.
+Una **successione delle somme parziali della serie** $\{ S_{n} \}$ è la somma tra gli elementi di una serie finita.
 
 >[!def] Definizione
 >Data $\{ a_{k} \}_{k\in \mathbb{N}}$ poniamo $S_{n} = \sum_{k=0}^{n}a_{k}$
@@ -49,6 +50,11 @@ Una  **successione delle somme parziali della serie** $\{ S_{n} \}$ è la somma 
 
 Facendo il limite a $+\infty$ si una somma parziale $\{ S_{n} \}$ possiamo ottenere 4 possibili risultati diversi:
 
+$$
+
+S_{ n } = \sum^{+\infty }_{n=1}a_{k}
+$$
+
 >[!note] Serie convergente ad un numero finito
 >$$ \lim_{ n \to +\infty } S_{n} = \ell \in\mathbb{R}$$
 
@@ -61,6 +67,19 @@ Facendo il limite a $+\infty$ si una somma parziale $\{ S_{n} \}$ possiamo otten
 >[!note] Serie indeterminata
 >$$ \lim_{ n \to +\infty } S_{n} \text{ non esiste}$$
 >- ovvero se successione $\{ S_{n} \}$ è oscillante $\implies$ $\lim_{ n \to \infty }S_{n}$ è indeterminato
+
+---
+## Teoremei
+
+>[!danger] Teo
+>Se $a_{ n }$ non è infinitesima 
+>- Allora $\sum_{n=1}^{+\infty}a_{ n }=+\infty$ (diverge)
+
+>[!warning] NON è vero che
+>Se $a_{ n }$ è infinitesima 
+>- Allora $\sum^{+\infty}_{n=1}a_{ n } =\ell \in \mathbb{R}$ (converge)
+
+infatti [[Serie Armonica]] non si comporta in questo modo
 
 ---
 ## Esempi

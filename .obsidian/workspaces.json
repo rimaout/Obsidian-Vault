@@ -24,6 +24,18 @@
                 }
               },
               {
+                "id": "346d88261310a2d3",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/MDP 14 Mar.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
                 "id": "e21fcf3010b7d8e1",
                 "type": "leaf",
                 "pinned": true,
@@ -36,21 +48,268 @@
                   },
                   "pinned": true
                 }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "ea17b4a25a7f38c6",
+        "type": "split",
+        "children": [
+          {
+            "id": "ed1111de2574fd88",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "ba7d0379bd9741ad",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
               },
               {
-                "id": "6233a6cc6adb56ee",
+                "id": "d4aca3edb3bdc908",
                 "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": true,
+                    "explainSearch": true,
+                    "collapseAll": true,
+                    "extraContext": true,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "7f34f9e8b8261cab",
+                "type": "leaf",
+                "state": {
+                  "type": "starred",
+                  "state": {}
+                }
+              },
+              {
+                "id": "8720924e16a6a7ab",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "horizontal",
+        "width": 360.5,
+        "collapsed": true
+      },
+      "right": {
+        "id": "1599d9a7234429ed",
+        "type": "split",
+        "children": [
+          {
+            "id": "b33702b1304e824a",
+            "type": "tabs",
+            "dimension": 35.19736842105263,
+            "children": [
+              {
+                "id": "f96f6d8092dbcb18",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
+                    "collapseAll": true,
+                    "extraContext": true,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "d57d9880445751cf",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "73d6fce2365a09ef",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "55d2dfc580205f70",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md"
+                  }
+                }
+              },
+              {
+                "id": "e0c1c70f5b07b717",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  }
+                }
+              },
+              {
+                "id": "cac60df207efa5a4",
+                "type": "leaf",
+                "state": {
+                  "type": "advanced-tables-toolbar",
+                  "state": {}
+                }
+              },
+              {
+                "id": "1cfc5dd77c657d61",
+                "type": "leaf",
+                "state": {
+                  "type": "smart-connections-view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "5bcdee51916718ac",
+                "type": "leaf",
+                "state": {
+                  "type": "smart-connections-chat-view",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 3
+          },
+          {
+            "id": "0ee4f1dd2040ea54",
+            "type": "tabs",
+            "dimension": 64.80263157894737,
+            "children": [
+              {
+                "id": "08bb0d9d4b18b672",
+                "type": "leaf",
+                "pinned": true,
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/MDP 07 Mar.md",
+                    "file": "To-Do/To-Do.md",
                     "mode": "source",
                     "source": false
+                  },
+                  "pinned": true
+                }
+              },
+              {
+                "id": "6217f74dd2639932",
+                "type": "leaf",
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
+                    "options": {
+                      "collapse-filter": true,
+                      "search": "",
+                      "localJumps": 1,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": false,
+                      "showTags": false,
+                      "showAttachments": false,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": true,
+                      "colorGroups": [],
+                      "collapse-display": true,
+                      "showArrow": false,
+                      "textFadeMultiplier": 0,
+                      "nodeSizeMultiplier": 1,
+                      "lineSizeMultiplier": 1,
+                      "collapse-forces": true,
+                      "centerStrength": 0.518713248970312,
+                      "repelStrength": 10,
+                      "linkStrength": 1,
+                      "linkDistance": 250,
+                      "scale": 1,
+                      "close": true
+                    }
                   }
                 }
               }
             ],
             "currentTab": 1
+          }
+        ],
+        "direction": "horizontal",
+        "width": 350.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "switcher:Open quick switcher": false,
+          "graph:Open graph view": false,
+          "canvas:Create new canvas": false,
+          "templates:Insert template": false,
+          "command-palette:Open command palette": false,
+          "audio-recorder:Start/stop recording": false,
+          "workspaces:Manage workspace layouts": false,
+          "omnisearch:Omnisearch": false,
+          "markdown-importer:Open format converter": false
+        }
+      },
+      "active": "7006fcbcb07b4fc0"
+    },
+    "Algoritmi": {
+      "main": {
+        "id": "c0e3ba1eaba3cf97",
+        "type": "split",
+        "children": [
+          {
+            "id": "086fa48ccb045afd",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "6e1d70bfbe19415d",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Classes/Algoritmi (class).md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "pinned": true
+                }
+              }
+            ]
           }
         ],
         "direction": "vertical"
@@ -126,7 +385,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Java MOC.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Classes/Algoritmi (class).md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "alphabetical",
@@ -143,7 +402,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Java MOC.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Classes/Algoritmi (class).md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -166,7 +425,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Java MOC.md"
+                    "file": "3. MOCS/Uni MOC/Uni_Classes/Algoritmi (class).md"
                   }
                 }
               },
@@ -206,7 +465,8 @@
                   "state": {}
                 }
               }
-            ]
+            ],
+            "currentTab": 3
           },
           {
             "id": "0ee4f1dd2040ea54",
@@ -226,73 +486,39 @@
                   },
                   "pinned": true
                 }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 471.5,
-        "collapsed": true
-      },
-      "left-ribbon": {
-        "hiddenItems": {
-          "switcher:Open quick switcher": false,
-          "graph:Open graph view": false,
-          "canvas:Create new canvas": false,
-          "templates:Insert template": false,
-          "command-palette:Open command palette": false,
-          "audio-recorder:Start/stop recording": false,
-          "workspaces:Manage workspace layouts": false,
-          "omnisearch:Omnisearch": false,
-          "markdown-importer:Open format converter": false
-        }
-      },
-      "active": "e21fcf3010b7d8e1"
-    },
-    "Algoritmi": {
-      "main": {
-        "id": "c0e3ba1eaba3cf97",
-        "type": "split",
-        "children": [
-          {
-            "id": "086fa48ccb045afd",
-            "type": "tabs",
-            "children": [
+              },
               {
-                "id": "6e1d70bfbe19415d",
+                "id": "7517b7f0f38af1c8",
                 "type": "leaf",
-                "pinned": true,
                 "state": {
-                  "type": "markdown",
+                  "type": "localgraph",
                   "state": {
                     "file": "3. MOCS/Uni MOC/Uni_Classes/Algoritmi (class).md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "pinned": true
-                }
-              },
-              {
-                "id": "30fb9e882cbadfcf",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Algoritmi di ricerca.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "42d947c14697ab27",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Al 07 Mar.md",
-                    "mode": "source",
-                    "source": false
+                    "options": {
+                      "collapse-filter": true,
+                      "search": "",
+                      "localJumps": 1,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": false,
+                      "showTags": false,
+                      "showAttachments": false,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": true,
+                      "colorGroups": [],
+                      "collapse-display": true,
+                      "showArrow": false,
+                      "textFadeMultiplier": 0,
+                      "nodeSizeMultiplier": 1,
+                      "lineSizeMultiplier": 1,
+                      "collapse-forces": true,
+                      "centerStrength": 0.518713248970312,
+                      "repelStrength": 10,
+                      "linkStrength": 1,
+                      "linkDistance": 250,
+                      "scale": 2.1169972178441094,
+                      "close": true
+                    }
                   }
                 }
               }
@@ -300,188 +526,13 @@
             "currentTab": 1
           }
         ],
-        "direction": "vertical"
-      },
-      "left": {
-        "id": "ea17b4a25a7f38c6",
-        "type": "split",
-        "children": [
-          {
-            "id": "ed1111de2574fd88",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "ba7d0379bd9741ad",
-                "type": "leaf",
-                "state": {
-                  "type": "file-explorer",
-                  "state": {
-                    "sortOrder": "alphabetical"
-                  }
-                }
-              },
-              {
-                "id": "d4aca3edb3bdc908",
-                "type": "leaf",
-                "state": {
-                  "type": "search",
-                  "state": {
-                    "query": "",
-                    "matchingCase": true,
-                    "explainSearch": true,
-                    "collapseAll": true,
-                    "extraContext": true,
-                    "sortOrder": "alphabetical"
-                  }
-                }
-              },
-              {
-                "id": "7f34f9e8b8261cab",
-                "type": "leaf",
-                "state": {
-                  "type": "starred",
-                  "state": {}
-                }
-              },
-              {
-                "id": "8720924e16a6a7ab",
-                "type": "leaf",
-                "state": {
-                  "type": "bookmarks",
-                  "state": {}
-                }
-              }
-            ]
-          }
-        ],
         "direction": "horizontal",
-        "width": 360.5
-      },
-      "right": {
-        "id": "1599d9a7234429ed",
-        "type": "split",
-        "children": [
-          {
-            "id": "b33702b1304e824a",
-            "type": "tabs",
-            "dimension": 30.905511811023622,
-            "children": [
-              {
-                "id": "f96f6d8092dbcb18",
-                "type": "leaf",
-                "state": {
-                  "type": "backlink",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Algoritmi di ricerca.md",
-                    "collapseAll": true,
-                    "extraContext": true,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": true
-                  }
-                }
-              },
-              {
-                "id": "d57d9880445751cf",
-                "type": "leaf",
-                "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Algoritmi di ricerca.md",
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": true
-                  }
-                }
-              },
-              {
-                "id": "73d6fce2365a09ef",
-                "type": "leaf",
-                "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "useHierarchy": true
-                  }
-                }
-              },
-              {
-                "id": "55d2dfc580205f70",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Algoritmi di ricerca.md"
-                  }
-                }
-              },
-              {
-                "id": "e0c1c70f5b07b717",
-                "type": "leaf",
-                "state": {
-                  "type": "all-properties",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "showSearch": false,
-                    "searchQuery": ""
-                  }
-                }
-              },
-              {
-                "id": "cac60df207efa5a4",
-                "type": "leaf",
-                "state": {
-                  "type": "advanced-tables-toolbar",
-                  "state": {}
-                }
-              },
-              {
-                "id": "1cfc5dd77c657d61",
-                "type": "leaf",
-                "state": {
-                  "type": "smart-connections-view",
-                  "state": {}
-                }
-              },
-              {
-                "id": "5bcdee51916718ac",
-                "type": "leaf",
-                "state": {
-                  "type": "smart-connections-chat-view",
-                  "state": {}
-                }
-              }
-            ]
-          },
-          {
-            "id": "0ee4f1dd2040ea54",
-            "type": "tabs",
-            "dimension": 69.09448818897637,
-            "children": [
-              {
-                "id": "08bb0d9d4b18b672",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "To-Do/To-Do.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "pinned": true
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 471.5,
+        "width": 380.5,
         "collapsed": true
       },
       "left-ribbon": {
         "hiddenItems": {
+          "markdown-importer:Open format converter": false,
           "switcher:Open quick switcher": false,
           "graph:Open graph view": false,
           "canvas:Create new canvas": false,
@@ -492,7 +543,7 @@
           "omnisearch:Omnisearch": false
         }
       },
-      "active": "30fb9e882cbadfcf"
+      "active": "6e1d70bfbe19415d"
     },
     "Calcolo Integrale": {
       "main": {
@@ -518,54 +569,19 @@
                 }
               },
               {
-                "id": "64d77ee6f7c5e03e",
+                "id": "666907bd6c28b9b3",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Serie Telescopiche.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "4eb3f1c546156463",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/CI 4 mar.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "a64334e758fb8c0e",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/CI 8 Mar.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "73d3f8610b9149d9",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Serie Armonica.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Classes/Calcolo Integrale (class).md",
                     "mode": "source",
                     "source": false
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -762,7 +778,7 @@
           "omnisearch:Omnisearch": false
         }
       },
-      "active": "e297cb9ac14bcafd"
+      "active": "666907bd6c28b9b3"
     },
     "Architettura": {
       "main": {
@@ -788,67 +804,19 @@
                 }
               },
               {
-                "id": "6a597d1eb2a77db3",
+                "id": "f6efb703e027566f",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Arch 08 Mar.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "0215352c4b025642",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/MIPS.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "0c97fa8e65c09580",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Organizzazione della memoria MIPS.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "882dfc5ffcb4551f",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Istruzioni MIPS.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "b4ba5780d0bb8758",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Istruzioni MIPS.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Arch 12 Mar.md",
                     "mode": "source",
                     "source": false
                   }
                 }
               }
             ],
-            "currentTab": 5
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -924,7 +892,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Istruzioni MIPS.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Arch 12 Mar.md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "alphabetical",
@@ -941,7 +909,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Istruzioni MIPS.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Arch 12 Mar.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -964,7 +932,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Istruzioni MIPS.md"
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Arch 12 Mar.md"
                   }
                 }
               },
@@ -1045,8 +1013,8 @@
           "omnisearch:Omnisearch": false
         }
       },
-      "active": "b4ba5780d0bb8758"
+      "active": "f6efb703e027566f"
     }
   },
-  "active": "Metodologie di Programmazione"
+  "active": "Architettura"
 }

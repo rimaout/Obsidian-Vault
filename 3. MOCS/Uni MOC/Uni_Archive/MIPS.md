@@ -18,7 +18,8 @@ La memoria MIPS è indicizzata al byte. Dunque se mi trovo all’indirizzo t e d
 >[!info] Index
 >1. [[Rappresentazione dell'istruzione MIPS]]
 >2. [[Organizzazione della memoria MIPS]]
->3. [[Istruzioni MIPS]]
+>3. [[Architettura MIPS 2000]]
+>4. [[Istruzioni MIPS]]
 
 ---
 ## Operandi MIPS

@@ -209,7 +209,6 @@ int index = str.indexOf('w');    // 7
 ```
 
 ---
-
 ## `replace()`
 
 **Description:**  
@@ -269,4 +268,4 @@ boolean isEqual = str1.equals(str2);    // true
 >
 >Therefore, when comparing `String` values in Java, it's generally recommended to use `equals()`, not `==`.
 
-
+---

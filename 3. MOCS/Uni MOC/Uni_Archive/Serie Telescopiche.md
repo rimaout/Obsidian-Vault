@@ -17,7 +17,7 @@ Completed: false
 
 **Esempio:** 
 $$
-a_{k} = \frac{1}{k(k+1)} = \frac{1}{k} = \frac{1}{k} - \frac{1}{k+1} = b_{n} - b_{k+1}
+a_{k} = \frac{1}{k(k+1)} = \frac{1}{k} - \frac{1}{k+1} = b_{n} - b_{k+1}
 $$
 dove: $b_{k} = \frac{1}{k}$
 

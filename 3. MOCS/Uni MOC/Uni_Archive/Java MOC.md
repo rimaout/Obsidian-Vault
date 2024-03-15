@@ -9,14 +9,24 @@ Related:
 - [[Hello Word in java]] 🟢
 - [[Java Variables]] 🟢
 - [[Java Literals]] 🟢
-- [[Java Input]]
+- [[Java Input]] 🟢
 - [[Java Output]]
+- [[Java Packages]] 
 
 ##### Data Types
 - [[Java built-in data types]] 🟢
 - [[Java Operators]] 🟡
 - [[Java Casting]] 🟢
 - [[Java Strings]]
+
+##### Java Flow Control
+- [[Java if...else]]
+- ﻿﻿[[Java switch Statement]]
+- [[Java for Loop]]
+- [[﻿﻿Java for-each Loop]]
+- [[﻿﻿Java while Loop]]
+- [[﻿﻿Java break Statement]]
+- [[﻿﻿Java continue Statement]]
 
 ##### Object Oriented Programming
 - [[Java Class and Objects]]
@@ -26,8 +36,10 @@ Related:
 - [[Java access modifiers]]
 - [[Java Incapsulamento]]
 
+
+
 ##### Extras
-- [[UML]]
+- [[UML MOC]] finisci metodo [[Metodo ULM Step by Step]]
 - [[Java Memory]]
 
 

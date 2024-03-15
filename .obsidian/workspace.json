@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "5ede1e3b850f9096",
+        "id": "086fa48ccb045afd",
         "type": "tabs",
         "children": [
           {
-            "id": "7006fcbcb07b4fc0",
+            "id": "bcf89c24c29f7f00",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
+                "file": "3. MOCS/Uni MOC/Uni_Classes/Architettura (class).md",
                 "mode": "source",
                 "source": false
               },
@@ -22,57 +22,31 @@
             }
           },
           {
-            "id": "e21fcf3010b7d8e1",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Java MOC.md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "34d902d35bbfc7bf",
+            "id": "7439dc23d052d28e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Programming MOC/Pro_Archive/Java Incapsulamento.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Arch 15 Mar.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "3bbe58fd3e26f8e1",
+            "id": "f6efb703e027566f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Tech MOC/Tech_Archive/Git Submodules.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e1433fc39cf50e00",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Tech MOC/Tech_Archive/Git Submodules.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Arch 12 Mar.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -101,7 +75,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "wol",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -126,11 +100,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 360.5
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "1599d9a7234429ed",
@@ -147,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. MOCS/Tech MOC/Tech_Archive/Git Submodules.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Arch 15 Mar.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -164,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. MOCS/Tech MOC/Tech_Archive/Git Submodules.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Arch 15 Mar.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. MOCS/Tech MOC/Tech_Archive/Git Submodules.md"
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Arch 15 Mar.md"
               }
             }
           },
@@ -252,11 +228,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 471.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "markdown-importer:Open format converter": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -264,54 +241,53 @@
       "command-palette:Open command palette": false,
       "audio-recorder:Start/stop recording": false,
       "workspaces:Manage workspace layouts": false,
-      "omnisearch:Omnisearch": false,
-      "markdown-importer:Open format converter": false
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "e1433fc39cf50e00",
+  "active": "7439dc23d052d28e",
   "lastOpenFiles": [
-    "3. MOCS/Tech MOC/Tech_Archive/Git.md",
-    "To-Do/To-Do.md",
-    "To-Do/Java.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Java MOC.md",
+    "3. MOCS/Uni MOC/Uni_Classes/Architettura (class).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Arch 15 Mar.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Arch 12 Mar.md",
+    "3. MOCS/Uni MOC/Uni_Classes/Calcolo Integrale (class).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Serie Telescopiche.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Serie Armonica.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Serie Numeriche.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Serie Geometriche.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Successioni Reali.md",
+    "3. MOCS/Uni MOC/Uni_Classes/Algoritmi (class).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Al 11 Mar.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Al 07 Mar.md",
     "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
-    "3. MOCS/Programming MOC/Pro_Archive/Java Incapsulamento.md",
-    "3. MOCS/Tech MOC/Tech_Archive/Git Submodules.md",
-    "3. MOCS/Uni MOC/Uni_Archive/MDP 05 Mar.md",
-    "3. MOCS/Uni MOC/Uni_Archive/MDP 07 Mar.md",
-    "3. MOCS/Programming MOC/Pro_Archive/Java Constructor.md",
+    "3. MOCS/Uni MOC/Uni_Archive/MDP 14 Mar.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240314132155.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240314132003.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240314131957.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240314122223.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240314122220.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Java MOC.md",
+    "3. MOCS/Programming MOC/Pro_Archive/Java if...else.md",
+    "3. MOCS/Programming MOC/Pro_Archive/UML MOC.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Metodo ULM Step by Step.md",
+    "3. MOCS/Uni MOC/Uni_Archive/MDP 12 Mar.md",
+    "3. MOCS/Programming MOC/Pro_Archive/Java Strings.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Al 14 Mar.md",
+    "To-Do/CACCAAAAAAAAAAAAAAAAA 💩.md",
     "3. MOCS/Programming MOC/Pro_Archive/Java Fields.md",
-    "To-Do/Java Incapsulamento.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Java Constructor.md",
+    "3. MOCS/Programming MOC/Pro_Archive/UML Class Diagrams.md",
     "3. MOCS/Programming MOC/Pro_Archive/Java Methods.md",
-    "3. MOCS/Programming MOC/Pro_Archive/Java Class and Objects.md",
+    "3. MOCS/Programming MOC/Pro_Archive/Pasted image 20240313174431.png",
+    "3. MOCS/Programming MOC/Pro_Archive/Pasted image 20240313172451.png",
+    "3. MOCS/Programming MOC/Pro_Archive/Java Incapsulamento.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240312122241.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240312112641.png",
     "3. MOCS/Programming MOC/Pro_Archive/Pasted image 20240308174926.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Java Methods.md",
-    "3. MOCS/Programming MOC/Pro_Archive/Java input/Java Input.md",
-    "3. MOCS/Uni MOC/Uni_Archive/MDP Lab 06 Mar.md",
-    "To-Do/Java Class and Objects.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Java Output.md",
     "3. MOCS/Uni MOC/Uni_Archive/Java_printf_method_quick_reference.pdf",
     "3. MOCS/Programming MOC/Pro_Archive/Java input",
-    "3. MOCS/Programming MOC/Pro_Archive/Java Operators.md",
-    "3. MOCS/Programming MOC/Pro_Archive/Java Increments Operators.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Istruzioni MIPS.md",
-    "3. MOCS/Uni MOC/Uni_Classes/Architettura (class).md",
-    "3. MOCS/Uni MOC/Uni_Archive/MIPS.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Organizzazione della memoria MIPS.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240308113041.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240308112921.png",
-    "3. MOCS/Programming MOC/Pro_Archive/Pasted image 20240301170731.png",
-    "3. MOCS/Programming MOC/Pro_Archive/Pasted image 20240307162739.png",
     "3. MOCS/Programming MOC/Pro_Archive/Recording 20240307171929.webm",
-    "3. MOCS/Programming MOC/Pro_Archive/Pasted image 20240307162715.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240307132048.png",
     "Storage/Files/Media",
     "3. MOCS/Uni MOC/Uni_Storage/Matematica 0.pdf",
     "3. MOCS/Uni MOC/Uni_Storage/Progettazione sistemi digitali appunti completi Giada.pdf",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240306174105.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240306172911.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240306172850.png",
     "Spaces/Home",
     "Spaces",
     "3. MOCS/Personal MOC/Personal_Storage",

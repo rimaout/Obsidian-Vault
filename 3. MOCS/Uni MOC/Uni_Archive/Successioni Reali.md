@@ -17,6 +17,7 @@ Completed:
 **Altro:**
 - [[Successioni limitate e illimitate]]
 - [[Limiti di successioni]]
+- [[Definizione Successione infinitesima]]
 - [[Successioni Monotone]]
 - [[Numero di Nepero]]
 - [[Sotto-successioni]]

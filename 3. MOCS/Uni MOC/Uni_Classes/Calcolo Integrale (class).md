@@ -4,10 +4,15 @@ Type: Uni Note
 ---
 ---
 **Argomenti:**
-- [[Serie Numeriche]]
-- [[Serie Geometriche]]
-- [[Serie Armonica]]
-- [[Serie Telescopiche]]
+- [[Successioni Reali]] --> [[Definizione Successione infinitesima]]
+- [[Serie Numeriche]] 🟢
+- [[Serie Geometriche]] 🟢
+- [[Serie Armonica]] 🟢
+- [[Serie Telescopiche]] 🟡
+
+- [[Criterio del confronto (Gauss)]]
+- [[Criterio del confronto asintotico]]
+- [[Criterio del rapporto]]
 
 
 **Lezioni:**
@@ -15,3 +20,4 @@ Type: Uni Note
 - [[CI 1 mar]]
 - [[CI 4 mar]]
 - [[CI 8 Mar]]
+

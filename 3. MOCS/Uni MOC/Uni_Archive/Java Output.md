@@ -1,8 +1,7 @@
 ---
 Created: 2024-03-08
-Type: Uni Note
-Class: 
-Academic Year: 2023/2024
+Type: "[[Programming MOC]]"
+Programming Language: "[[Java MOC]]"
 Related: 
 Completed: false
 ---
