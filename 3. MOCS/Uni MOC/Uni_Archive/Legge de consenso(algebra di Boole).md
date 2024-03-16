@@ -5,7 +5,7 @@ Class:
   - "[[Progettazione Sistemi Digitali (class)]]"
 Academic Year: 2023/2024
 Related:
-  - "[[Algebra Booleana#Leggi Booleane|Leggi Booleane]]"
+  - "[[Algebra Booleana]]"
 Completed: true
 ---
 ---

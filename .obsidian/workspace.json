@@ -105,8 +105,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 360.5,
-    "collapsed": true
+    "width": 360.5
   },
   "right": {
     "id": "1599d9a7234429ed",
@@ -281,11 +280,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "d4aca3edb3bdc908",
+  "active": "1bb013758b4e13e9",
   "lastOpenFiles": [
+    "3. MOCS/Tech MOC/Tech_Archive/Git Submodules.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Legge de consenso(algebra di Boole).md",
     "3. MOCS/Uni MOC/Uni_Archive/Algebra Booleana.md",
     "3. MOCS/Uni MOC/Uni_Archive/Leggi Booleane.md",
-    "3. MOCS/Tech MOC/Tech_Archive/Git Submodules.md",
     "3. MOCS/Uni MOC/Uni_Classes/Algoritmi (class).md",
     "3. MOCS/Uni MOC/Uni_Archive/Serie Telescopiche.md",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240315145429.png",
@@ -315,7 +315,6 @@
     "3. MOCS/Programming MOC/Pro_Archive/Java Strings.md",
     "3. MOCS/Uni MOC/Uni_Archive/Al 14 Mar.md",
     "To-Do/CACCAAAAAAAAAAAAAAAAA 💩.md",
-    "3. MOCS/Programming MOC/Pro_Archive/Java Fields.md",
     "3. MOCS/Programming MOC/Pro_Archive/Pasted image 20240313174431.png",
     "3. MOCS/Programming MOC/Pro_Archive/Pasted image 20240313172451.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240312122241.png",
