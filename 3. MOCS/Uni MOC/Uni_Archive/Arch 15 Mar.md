@@ -40,4 +40,23 @@ I assembli esistono diversi tipi di vettori che differiscono dalla grandezza dei
 - Il processore mips permette l'ordinamento dei byte di una word in due modi:
 	- *Big-endian:* i byte della word sono memorizzati dal most significant Byte al least significant Byte
 	- *Little-endian:* i byte della word sono memorizzati dal least significant Byte al most significant Byte
-	
+---
+### Accesso elementi per indice
+
+Indirizzo dell'elemento  = indirizzo base del vettore + i x dimensione elemento
+
+---
+## Cicli (scansione di un vettore)
+
+**Scansione per indice:**
+
+**Scansione per puntatore:**
+
+---
+## Matrici 
+una matrice $M \cdot M$ è una successione di M vettori, ciascuno di n elementi
+- il numero di elementi totali è: $M\cdot N$
+- la dimensione in numero di byte è: $M\cdot N\cdot \text{dimensione-elemento}$
+- la si definisce staticamente come un vettore contenente $M\cdot N$ elementi uguali 
+
+**Matrice 3d:** 2 righe, 3 colonne, 2 stati 

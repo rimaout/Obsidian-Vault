@@ -12,7 +12,8 @@ Type: Uni Note
 
 - [[Criterio del confronto (Gauss)]]
 - [[Criterio del confronto asintotico]]
-- [[Criterio del rapporto]]
+- [[Criterio del rapporto e radice]]
+- [[]]
 
 
 **Lezioni:**
