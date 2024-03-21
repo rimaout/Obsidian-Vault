@@ -10,14 +10,20 @@ Completed: false
 ---
 
 >[!info] Index
->1. [[#Differenze]]
+>1. [[#Introduzione]]
+>2. [[#Differenze]]
 
 ---
+## Introduzione
+In era moderna, possiamo individuare due tipologie principali di architetture di calcolatori:
+- **RISC (Reduced Instruction Set Computer**
+- **CISC (Complex Instruction Set Computer**
 
-[[CISC (Complex Instruction Set Computer)]]
-[[RISC (Reduced Instruction Set Computer)]]
+In breve, possiamo dire che le Architetture CISC risultano più complesse ma ottimizzate per scopi singoli, mentre le Architetture RISC, in quanto più semplici, risultano adatte a scopi generic
 
+---
 ## Differenze
+
 
 | CISC                                                                                                                                                              | RISC                                                                                                                                            |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -27,3 +33,5 @@ Completed: false
 | **Pochi registri interni**<br>- Maggior numero di accessi in memoria                                                                                              | **Molti registri interni**<br>- Per i risultati parziali senza accessi alla memoria                                                             |
 | **Modi di indirizzamento complessi**<br>- Maggior numero di accessi in memoria<br>- Durata variabile dell’istruzione<br>- Conflitti tra istruzioni più complicati | **Modi di indirizzamento semplici**<br>- Con spiazzamento (un solo accesso a memoria)<br>- Durata fissa dell’istruzione<br>- Conflitti semplici |
 | **Istruzioni complesse**<br>- Pipeline più complicata<br> - Più veloci a svolgere operazioni complesse                                                            | **Istruzioni semplici**<br>- Pipeline più veloce<br>- Più lento nello svolgere operazioni complesse                                             |
+
+---

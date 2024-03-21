@@ -69,7 +69,7 @@ $$
 >- ovvero se successione $\{ S_{n} \}$ è oscillante $\implies$ $\lim_{ n \to \infty }S_{n}$ è indeterminato
 
 ---
-## Teoremei
+## Teoremi
 
 >[!danger] Teo
 >Se $a_{ n }$ non è infinitesima 
@@ -79,7 +79,7 @@ $$
 >Se $a_{ n }$ è infinitesima 
 >- Allora $\sum^{+\infty}_{n=1}a_{ n } =\ell \in \mathbb{R}$ (converge)
 
-infatti [[Serie Armonica]] non si comporta in questo modo
+infatti [[Serie Armoniche]] non si comporta in questo modo
 
 ---
 ## Esempi

@@ -8,18 +8,18 @@ Related:
 Completed: false
 ---
 ---
-
 ## Introduzione
-L’architettura MIPS (**M**icroprocessor without **I**nterlocked **P**ipelined **S**tages) è un'architettura per microprocessori RISC. Il disegno dell'architettura e del set di istruzioni è semplice e lineare, spesso utilizzato come caso di studio nei corsi universitari indirizzati allo studio delle architetture dei processori.
-La memoria MIPS è indicizzata al byte. Dunque se mi trovo all’indirizzo t e devo leggere la parola successiva incremento indirizzo come t+4, questo perché una parola sono 4 byte ossia 32 bit (1 byte = 8 bit)
+
+L’architettura MIPS (Microprocessor without Interlocked Pipelined Stages) è un'architettura per microprocessori RISC. 
+
+Il disegno dell'architettura e del set di istruzioni è semplice e lineare, spesso utilizzato come caso di studio nei corsi universitari indirizzati allo studio delle architetture dei processori.
 
 ---
 
->[!info] Index
->1. [[Rappresentazione dell'istruzione MIPS]]
->2. [[Organizzazione della memoria MIPS]]
->3. [[Architettura MIPS 2000]]
->4. [[Istruzioni MIPS]]
+- [[Strutta base MIPS]] 🟢
+- [[Rappresentazione dell'istruzione MIPS]]
+- [[Organizzazione della memoria MIPS]]
+- [[MIPS_Instruction_Set.pdf|Istruzioni Mips]]
 
 ---
 ## Operandi MIPS

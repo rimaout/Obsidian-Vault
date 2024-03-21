@@ -24,12 +24,12 @@
                 }
               },
               {
-                "id": "346d88261310a2d3",
+                "id": "906f41ff6c0e50a6",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/MDP 14 Mar.md",
+                    "file": "3. MOCS/Programming MOC/Pro_Archive/MDP 19 Mar.md",
                     "mode": "source",
                     "source": false
                   }
@@ -48,8 +48,21 @@
                   },
                   "pinned": true
                 }
+              },
+              {
+                "id": "b47d14ae8f6d8a83",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Programming MOC/Pro_Archive/Java access modifiers.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -126,7 +139,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
+                    "file": "3. MOCS/Programming MOC/Pro_Archive/MDP 19 Mar.md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "alphabetical",
@@ -143,7 +156,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
+                    "file": "3. MOCS/Programming MOC/Pro_Archive/MDP 19 Mar.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -166,7 +179,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md"
+                    "file": "3. MOCS/Programming MOC/Pro_Archive/MDP 19 Mar.md"
                   }
                 }
               },
@@ -234,7 +247,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
+                    "file": "3. MOCS/Programming MOC/Pro_Archive/MDP 19 Mar.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -284,7 +297,7 @@
           "markdown-importer:Open format converter": false
         }
       },
-      "active": "7006fcbcb07b4fc0"
+      "active": "906f41ff6c0e50a6"
     },
     "Algoritmi": {
       "main": {
@@ -367,8 +380,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 360.5,
-        "collapsed": true
+        "width": 360.5
       },
       "right": {
         "id": "1599d9a7234429ed",
@@ -569,31 +581,31 @@
                 }
               },
               {
-                "id": "666907bd6c28b9b3",
+                "id": "faa2906f2a168193",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Serie Armonica.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Serie Esponenziali.md",
                     "mode": "source",
                     "source": false
                   }
                 }
               },
               {
-                "id": "b1282e0972777872",
+                "id": "38651d17250623b2",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Serie Telescopiche.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Serie Armoniche.md",
                     "mode": "source",
                     "source": false
                   }
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -669,7 +681,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Serie Telescopiche.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Serie Esponenziali.md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "alphabetical",
@@ -686,7 +698,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Serie Telescopiche.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Serie Esponenziali.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -709,7 +721,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Serie Telescopiche.md"
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Serie Esponenziali.md"
                   }
                 }
               },
@@ -790,7 +802,8 @@
           "omnisearch:Omnisearch": false
         }
       },
-      "active": "b1282e0972777872"
+      "active": "faa2906f2a168193",
+      "mtime": "2024-03-20T21:29:21+01:00"
     },
     "Architettura": {
       "main": {
@@ -816,31 +829,31 @@
                 }
               },
               {
-                "id": "7439dc23d052d28e",
+                "id": "e06bc0ac239af420",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Arch 15 Mar.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Arch 19 Mar.md",
                     "mode": "source",
                     "source": false
                   }
                 }
               },
               {
-                "id": "f6efb703e027566f",
+                "id": "7439dc23d052d28e",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Arch 12 Mar.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Architettura MIPS.md",
                     "mode": "source",
                     "source": false
                   }
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -917,7 +930,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Arch 15 Mar.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Architettura MIPS.md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "alphabetical",
@@ -934,7 +947,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Arch 15 Mar.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Architettura MIPS.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -957,7 +970,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Arch 15 Mar.md"
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Architettura MIPS.md"
                   }
                 }
               },
@@ -1039,7 +1052,257 @@
         }
       },
       "active": "7439dc23d052d28e"
+    },
+    "Default": {
+      "main": {
+        "id": "c0e3ba1eaba3cf97",
+        "type": "split",
+        "children": [
+          {
+            "id": "f08ab7115ba83cd8",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "97c8dd396cba3cb6",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "ea17b4a25a7f38c6",
+        "type": "split",
+        "children": [
+          {
+            "id": "ed1111de2574fd88",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "ba7d0379bd9741ad",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "d4aca3edb3bdc908",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": true,
+                    "explainSearch": true,
+                    "collapseAll": true,
+                    "extraContext": true,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "7f34f9e8b8261cab",
+                "type": "leaf",
+                "state": {
+                  "type": "starred",
+                  "state": {}
+                }
+              },
+              {
+                "id": "8720924e16a6a7ab",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "horizontal",
+        "width": 360.5,
+        "collapsed": true
+      },
+      "right": {
+        "id": "1599d9a7234429ed",
+        "type": "split",
+        "children": [
+          {
+            "id": "b33702b1304e824a",
+            "type": "tabs",
+            "dimension": 35.19736842105263,
+            "children": [
+              {
+                "id": "f96f6d8092dbcb18",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "collapseAll": true,
+                    "extraContext": true,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "d57d9880445751cf",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "73d6fce2365a09ef",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "55d2dfc580205f70",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {}
+                }
+              },
+              {
+                "id": "e0c1c70f5b07b717",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  }
+                }
+              },
+              {
+                "id": "cac60df207efa5a4",
+                "type": "leaf",
+                "state": {
+                  "type": "advanced-tables-toolbar",
+                  "state": {}
+                }
+              },
+              {
+                "id": "1cfc5dd77c657d61",
+                "type": "leaf",
+                "state": {
+                  "type": "smart-connections-view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "5bcdee51916718ac",
+                "type": "leaf",
+                "state": {
+                  "type": "smart-connections-chat-view",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 3
+          },
+          {
+            "id": "0ee4f1dd2040ea54",
+            "type": "tabs",
+            "dimension": 64.80263157894737,
+            "children": [
+              {
+                "id": "08bb0d9d4b18b672",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "To-Do/To-Do.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "pinned": true
+                }
+              },
+              {
+                "id": "6217f74dd2639932",
+                "type": "leaf",
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "options": {
+                      "collapse-filter": true,
+                      "search": "",
+                      "localJumps": 1,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": false,
+                      "showTags": false,
+                      "showAttachments": false,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": true,
+                      "colorGroups": [],
+                      "collapse-display": true,
+                      "showArrow": false,
+                      "textFadeMultiplier": 0,
+                      "nodeSizeMultiplier": 1,
+                      "lineSizeMultiplier": 1,
+                      "collapse-forces": true,
+                      "centerStrength": 0.518713248970312,
+                      "repelStrength": 10,
+                      "linkStrength": 1,
+                      "linkDistance": 250,
+                      "scale": 1,
+                      "close": true
+                    }
+                  }
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "horizontal",
+        "width": 350.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "switcher:Open quick switcher": false,
+          "graph:Open graph view": false,
+          "canvas:Create new canvas": false,
+          "templates:Insert template": false,
+          "command-palette:Open command palette": false,
+          "audio-recorder:Start/stop recording": false,
+          "workspaces:Manage workspace layouts": false,
+          "omnisearch:Omnisearch": false,
+          "markdown-importer:Open format converter": false
+        }
+      },
+      "active": "97c8dd396cba3cb6",
+      "mtime": "2024-03-20T16:01:18+01:00"
     }
   },
-  "active": "Algoritmi"
+  "active": "Metodologie di Programmazione"
 }

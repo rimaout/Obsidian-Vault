@@ -12,7 +12,6 @@ Completed: true
 3. [[#Mutable and Unmutable data types]]
 4. [[#Ordered and Unordered data types]]
 
-
 ---
 ## Introduction
 
@@ -61,7 +60,7 @@ print(type(x)) #Output: <class 'int'>
 ![[ Python Casting]]
 
 ---
-## Mutable and  Unmutable data types
+## Mutable and Unmutable data types
 An unmutable datatype can't be modified, it can be only copied, rewritten and deleted.
 
 **Unmutable data types:**

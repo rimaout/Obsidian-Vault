@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "086fa48ccb045afd",
+        "id": "5ede1e3b850f9096",
         "type": "tabs",
         "children": [
           {
-            "id": "6e1d70bfbe19415d",
+            "id": "7006fcbcb07b4fc0",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Classes/Algoritmi (class).md",
+                "file": "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
                 "mode": "source",
                 "source": false
               },
@@ -22,31 +22,21 @@
             }
           },
           {
-            "id": "c831166d762f5cc6",
+            "id": "e21fcf3010b7d8e1",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Tech MOC/Tech_Archive/Git Submodules.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1bb013758b4e13e9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Legge de consenso(algebra di Boole).md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Java MOC.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "pinned": true
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -75,7 +65,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "final",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -100,8 +90,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -114,7 +103,7 @@
       {
         "id": "b33702b1304e824a",
         "type": "tabs",
-        "dimension": 30.905511811023622,
+        "dimension": 35.19736842105263,
         "children": [
           {
             "id": "f96f6d8092dbcb18",
@@ -122,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Legge de consenso(algebra di Boole).md",
+                "file": "Storage/Templates/Standard Note (Template).md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -139,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Legge de consenso(algebra di Boole).md",
+                "file": "Storage/Templates/Standard Note (Template).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Legge de consenso(algebra di Boole).md"
+                "file": "Storage/Templates/Standard Note (Template).md"
               }
             }
           },
@@ -208,7 +197,7 @@
       {
         "id": "0ee4f1dd2040ea54",
         "type": "tabs",
-        "dimension": 69.09448818897637,
+        "dimension": 64.80263157894737,
         "children": [
           {
             "id": "08bb0d9d4b18b672",
@@ -225,12 +214,12 @@
             }
           },
           {
-            "id": "7517b7f0f38af1c8",
+            "id": "6217f74dd2639932",
             "type": "leaf",
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Legge de consenso(algebra di Boole).md",
+                "file": "Storage/Templates/Standard Note (Template).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -253,7 +242,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 2.1169972178441094,
+                  "scale": 1,
                   "close": true
                 }
               }
@@ -264,12 +253,11 @@
       }
     ],
     "direction": "horizontal",
-    "width": 380.5,
+    "width": 350.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "markdown-importer:Open format converter": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -277,47 +265,49 @@
       "command-palette:Open command palette": false,
       "audio-recorder:Start/stop recording": false,
       "workspaces:Manage workspace layouts": false,
-      "omnisearch:Omnisearch": false
+      "omnisearch:Omnisearch": false,
+      "markdown-importer:Open format converter": false
     }
   },
-  "active": "1bb013758b4e13e9",
+  "active": "ba7d0379bd9741ad",
   "lastOpenFiles": [
-    "3. MOCS/Tech MOC/Tech_Archive/Git Submodules.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Legge de consenso(algebra di Boole).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Algebra Booleana.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Leggi Booleane.md",
-    "3. MOCS/Uni MOC/Uni_Classes/Algoritmi (class).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Serie Telescopiche.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240315145429.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240315145247.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Serie Armonica.md",
-    "3. MOCS/Uni MOC/Uni_Classes/Calcolo Integrale (class).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Arch 15 Mar.md",
-    "3. MOCS/Uni MOC/Uni_Classes/Architettura (class).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Arch 12 Mar.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Serie Numeriche.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Serie Geometriche.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Successioni Reali.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Al 11 Mar.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Al 07 Mar.md",
-    "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
-    "3. MOCS/Uni MOC/Uni_Archive/MDP 14 Mar.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240314132155.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240314132003.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240314131957.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240314122223.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240314122220.png",
+    "3. MOCS/Tech MOC/Tech MOC.md",
+    "3. MOCS/Tech MOC/Tech_Archive/quartz add deploy.yaml.md",
+    "3. MOCS/Tech MOC/Tech_Archive/Quartz Setup.md",
+    "3. MOCS/Tech MOC/Tech_Archive/quartz layout config.md",
+    "To-Do/To-Do.md",
     "3. MOCS/Uni MOC/Uni_Archive/Java MOC.md",
-    "3. MOCS/Programming MOC/Pro_Archive/Java if...else.md",
-    "3. MOCS/Programming MOC/Pro_Archive/UML MOC.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Metodo ULM Step by Step.md",
-    "3. MOCS/Uni MOC/Uni_Archive/MDP 12 Mar.md",
-    "3. MOCS/Programming MOC/Pro_Archive/Java Strings.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Al 14 Mar.md",
-    "To-Do/CACCAAAAAAAAAAAAAAAAA 💩.md",
-    "3. MOCS/Programming MOC/Pro_Archive/Pasted image 20240313174431.png",
-    "3. MOCS/Programming MOC/Pro_Archive/Pasted image 20240313172451.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240312122241.png",
+    "3. MOCS/Programming MOC/Pro_Archive/MDP 19 Mar.md",
+    "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
+    "3. MOCS/Programming MOC/Pro_Archive/Java Fields.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Serie Esponenziali.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Serie Armoniche.md",
+    "3. MOCS/Uni MOC/Uni_Classes/Calcolo Integrale (class).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Criterio della convergenza assoluta.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Segno di una serie.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Serie Numeriche.md",
+    "To-Do/Serie a termini Positivi o Negativi.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Criterio di Leibniz.md",
+    "To-Do/Criterio della convergenza assoluta.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Serie Telescopiche.md",
+    "3. MOCS/Tech MOC/Tech_Archive/Git Submodules.md",
+    "Index.md",
+    "To-Do/quartz my config.md",
+    "3. MOCS/Tech MOC/Tech_Archive/Git.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Java Output.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Architettura MIPS.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Arch 19 Mar.md",
+    "3. MOCS/Uni MOC/Uni_Archive/MIPS_Instruction_Set.pdf",
+    "3. MOCS/Programming MOC/Pro_Archive/Pasted image 20240319114915.png",
+    "3. MOCS/Programming MOC/Pro_Archive/Pasted image 20240319101837.png",
+    "3. MOCS/Programming MOC/Pro_Archive/Pasted image 20240319101402.png",
+    "3. MOCS/Programming MOC/Pro_Archive/Pasted image 20240319100626.png",
+    "3. MOCS/Programming MOC/Pro_Archive/Pasted image 20240319095756.png",
+    "3. MOCS/Programming MOC/Pro_Archive/Pasted image 20240319095640.png",
+    "3. MOCS/Programming MOC/Pro_Archive/Pasted image 20240319095046.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240316122901.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240316113012.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240316112927.png",
     "3. MOCS/Uni MOC/Uni_Archive/Java_printf_method_quick_reference.pdf",
     "3. MOCS/Programming MOC/Pro_Archive/Java input",
     "3. MOCS/Programming MOC/Pro_Archive/Recording 20240307171929.webm",
@@ -327,7 +317,6 @@
     "Spaces/Home",
     "Spaces",
     "3. MOCS/Personal MOC/Personal_Storage",
-    "3. MOCS/Personal MOC/Personal_Archive",
     "Buy List/Skin Care Buy List.canvas",
     "Buy List/Clothing Buy List.canvas",
     "Storage/Untitled.canvas",

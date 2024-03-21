@@ -12,6 +12,8 @@ Related:
 4. [[MDP 07 Mar]]
 5. [[MDP 12 Mar]]
 6. [[MDP 14 Mar]]
+7. [[MDP 19 Mar]]
+8. [[MDP 20 Mar]]
 
 **Lab:**
 1. [[MDP Lab 28 Feb]]

@@ -25,8 +25,8 @@ Completed: true
 >\sum^{+\infty }_{n=1} \frac{1}{n} = +\infty 
 >$$
 
-- È una [[serie a termini positivi]] e diverge sempre positivamente indipendentemente dal valore di $n$.
-- Quindi è non può essere una serie irregolare (indeterminata)
+- È una [[Segno di una serie]] e diverge sempre positivamente indipendentemente dal valore di $n$.
+- Quindi non può essere una serie irregolare (indeterminata)
 ---
 ## Serie Armonica Generalizzata 
 
@@ -40,7 +40,7 @@ Completed: true
 >\end{cases}
 >$$
 
-- É una [[serie a termini positivi]] indipendentemente dal valore di $\alpha$.
+- É una [[Segno di una serie]] indipendentemente dal valore di $\alpha$.
 - Quindi è non può essere una serie irregolare (indeterminata)
 
 ---

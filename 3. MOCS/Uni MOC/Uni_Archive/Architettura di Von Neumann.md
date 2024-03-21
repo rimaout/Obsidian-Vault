@@ -9,41 +9,35 @@ Completed: true
 ---
 ---
 >[!info] Index
->1. [[#Struttura]]
->2. [[#CPU]]
->3. [[#Memoria]]
->4. [[#Dispositivi I/O]]
+>1. [[#Introduzione]]
+>2. [[#Struttura]]
+>3. [[#CPU]]
+>4. [[#Memoria]]
+>5. [[#Dispositivi I/O]]
+>6. [[#Bus di Sistema]]
+
+---
+## Introduzione
+L’esempio classico di architettura generica di un computer è l’Architettura di Von Neumann, concepita da John Von Neumann, un noto matematico, fisico e informatico che visse nei tempi della seconda guerra mondiale. 
+
+Neumann concepì un’architettura per i calcolatori semplice e rivoluzionaria, tanto che ancora oggi viene utilizzata come base per la realizzazione della maggior parte dei calcolatori comuni. 
 
 ---
 ## Struttura
-
-Il modello di architettura di von Neumann è costituito da tre sottosistemi interconnessi: 
-- **[[#CPU]]** (Central Processing Unit - Processore)
+ Il modello prevedeva che il calcolatore dovesse essere costituito da quattro elementi fondamentali:
+- **[[#CPU]]**
 - **[[#Memoria]]**
-- **[[#Dispositivi I/O]]** (Input/Output o Ingresso/Uscita).  
-
-La connessione tra questi sottosistemi è realizzata mediante i **Bus**.
+- **[[#Dispositivi I/O]]** (Input/Output o Ingresso/Uscita)
+- [[#Bus di Sistema]]
 
 ![[Pasted image 20240305151702.png|600]]
 
-
-
-**Compiti:**
-- Elaborazione (CPU)
-- Memorizzazione (Memorie)
-- Scambio di informazioni (che avviene attraverso I/O)
-- Controllo (che sincronizza tutti i compiti) (svolto da CPU )
-
 ---
 ## CPU
-Il processore (CPU, Central Processing Unit) è un interprete di istruzioni, costituito da tre componenti:
-
-- **ALU** (Unità Aritmetico Logica): esegue le operazioni matematiche e logiche.
-- **Unità di Controllo**: legge le istruzioni, le decodifica e le esegue ed effettua i controlli delle attività necessarie per l’esecuzione
+Il processore (CPU, Central Processing Unit) è un interprete di istruzioni, che si occupa di eseguire una dopo l’altra tutte le istruzioni che compongono un processo, ossia un programma caricato in memoria. È a sua volta costituita da tre elementi:
+- **Arithmetic Logic Unit (ALU):** esegue le operazioni aritmetiche e logiche.
+- **Control Unit (CU):** legge le istruzioni, le decodifica e le esegue ed effettua i controlli delle attività necessarie per l’esecuzione
 - **Registri:** sono molto veloci e con una capacità ridotta, costituiscono una memoria speciale (di supporto) per l’ALU poiché contengono le istruzioni di controllo necessarie per il suo funzionamento e i risultati temporanei delle elaborazioni.
-- **Bus:**
-	- bus di comunicazione con la memoria 
-	- bus di comunicazione con periferiche (non necessario con memory mapping)
 
 ![[Pasted image 20240305121228.png|300]]
 
@@ -53,11 +47,6 @@ Il processore (CPU, Central Processing Unit) è un interprete di istruzioni, cos
 ***NON SPIEGATO DAL PROF***
 
 La Memoria contiene i dati e i programmi e la sua capacità è espressa in multipli del Byte.  
-Il Byte è una sequenza di otto bit, che insieme rappresentano un singolo carattere alfabetico e/o numerico. Le dimensioni della memoria sono espresse come multipli molto più grandi:  
-– Kilobytes (1.024 bytes),  
-– Megabytes (1.024 Kilobytes),  
-– GigaBytes (1.024 Megabytes),  
-– TeraBytes (1.024 Gigabytes).
 
 I dispositivi di memoria possono essere suddivisi in più classi, in dipendenza della capacità e della velocità. Esistono due classi principali: la memoria centrale e la memoria secondaria.
 
@@ -76,5 +65,16 @@ La **Memoria secondaria** (o di massa) è più lenta, ha una elevata capacità d
 ## Dispositivi I/O
 
 I Dispositivi di Input/Output (o periferiche), sotto il controllo e coordinamento del processore, consentono l’interazione tra il computer e l’utente (più in generale, l’interazione tra il computer e l’ambiente), in particolare consentono l’immissione dei dati all’interno del computer e la comunicazione all’esterno dei risultati ottenuti con l’elaborazione.
+
+---
+## Bus di Sistema
+
+Bus di Sistema, ossia un canale unico di comunicazione fra tutti i componenti, suddiviso in tre sotto-canali:
+
+- **Control Bus**, sul quale vengono comunicati i segnali di controllo che permet- tono ai componenti di coordinarsi
+- **Address Bus**, sul quale vengono comunicati gli indirizzi delle istruzioni da eseguire
+- **Data Bus**, sul quale vengono scambiati i dati all’interno del sistema
+
+![[Pasted image 20240316122901.png|600]]
 
 ---

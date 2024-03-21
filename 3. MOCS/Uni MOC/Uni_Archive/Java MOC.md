@@ -20,7 +20,7 @@ Related:
 - [[Java Strings]]
 
 ##### Java Flow Control
-- [[Java if...else]]
+- [[Java if...else]] 🟢
 - ﻿﻿[[Java switch Statement]]
 - [[Java for Loop]]
 - [[﻿﻿Java for-each Loop]]
@@ -35,8 +35,6 @@ Related:
 - [[Java Constructor]]
 - [[Java access modifiers]]
 - [[Java Incapsulamento]]
-
-
 
 ##### Extras
 - [[UML MOC]] finisci metodo [[Metodo ULM Step by Step]]
