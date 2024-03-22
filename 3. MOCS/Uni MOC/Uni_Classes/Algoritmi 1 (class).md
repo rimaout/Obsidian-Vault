@@ -16,28 +16,5 @@ Link: https://twiki.di.uniroma1.it/twiki/view/Intro_algo/PZ/WebHome
 - [[Notazione asintotica per calcolo costo computazionale]]
 - [[Algoritmi di ricerca]]
 
-- [[Algoritmi]], [[Algoritmi Iterativi]], [[Algoritmi Ricorsivi]]
-
-```python
-def SommaLista(L, i=0):
-	if len(L)-i == 0:
-			return 0
-	else:
-		return Sommalista(L, ++i) + L[len(i)-i]
-```
-
-$$
-T(n) = \begin{cases}
-\Theta(1) &\text{if } n-i=0 \\
-T(n-1)+\Theta(1)
-\end{cases}
-$$
-
----
-```python
-def MinList(L, i=0)
-if len(L)==1:
-	return L[0]
-	
-	
-```
+- [[Calcolo costo computazionale algoritmo ricorsivo]]
+- [[Risoluzione Equazione di Ricorrenza]]

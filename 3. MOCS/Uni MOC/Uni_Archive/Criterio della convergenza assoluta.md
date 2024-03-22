@@ -35,7 +35,7 @@ Metodo di convergenza per [[Serie a segno variabile]]
 ## Teorema 
 
 1. Una serie $\sum a_{ n }$ si dice assolutamente convergente se converge la serie $\sum |a_{ n }|$ 
-2. Se $\sum a_{ n }$ converge assolutamente allora converge semplicemte
+2. Se $\sum a_{ n }$ converge assolutamente allora converge semplicemente
 
 >[!warning] oss
 

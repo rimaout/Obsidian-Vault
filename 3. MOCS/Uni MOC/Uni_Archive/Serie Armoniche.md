@@ -48,27 +48,29 @@ Completed: true
 
 >[!note] Definition
 >Sia $\alpha$ un numero reale positivo, si dice serie armonica generalizzata:
+>
 >$$
-> \sum^{+\infty }_{n=1} (-1)^{n} \frac{1}{n^{a}} = \begin{cases}
+>\sum^{+\infty }_{n=1} (-1)^{n} \frac{1}{n^{a}} = \begin{cases}
 >\text{Converge assolutamente} &\text{se }\ \alpha>1 \\
-\text{Diverge semplicemente} &\text{se }\ 0<\alpha<1 
-\end{cases} 
+>\text{Diverge semplicemente} &\text{se }\ 0<\alpha<1 
+>\end{cases} 
 >$$
 
-Per capire meglio questi risultati leggere [[Convergenza assoluta]] [link spiegazione](https://www.youmath.it/lezioni/analisi-matematica/serie-numeriche/749-convergenza-assoluta.html)
+Per capire meglio questi risultati leggere [[Criterio della convergenza assoluta]]
 
 ---
 ## Serie Armonica Modificata
 
 >[!note] Definition
 > Sia  un numero reale positivo, si dice serie armonica modificata:
+>
 >$$
 >\sum^{+\infty }_{n=2} \frac{1}{n^{\alpha}\cdot (\log n)^{\beta}} = \begin{cases}
 >\text{Converge} &\text{se }\ \alpha>1 \\
 >\text{Converge} &\text{se }\ \alpha=1\ \ e\ \ \beta>1 \\
 >\text{Diverge positivamente} &\text{se }\ \alpha>1 \ \ e\ \ \beta \leq 1 \\
 >\text{Diverge positivamente} &\text{se }\ \alpha<1
-\end{cases}
+>\end{cases}
 >$$
 
 ---

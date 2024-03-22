@@ -2,7 +2,7 @@
 Created: 2024-03-07
 Type: Uni Note
 Class:
-  - "[[Algoritmi (class)]]"
+  - "[[Algoritmi 1 (class)]]"
 Academic Year: 2023/2024
 Related:
   - "[[Notazione asintotica per calcolo costo computazionale]]"

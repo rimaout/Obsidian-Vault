@@ -24,12 +24,12 @@
                 }
               },
               {
-                "id": "906f41ff6c0e50a6",
+                "id": "9c86a743d5ffefa0",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Programming MOC/Pro_Archive/MDP 19 Mar.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/MDP 21 Mar.md",
                     "mode": "source",
                     "source": false
                   }
@@ -50,12 +50,12 @@
                 }
               },
               {
-                "id": "b47d14ae8f6d8a83",
+                "id": "5a6baeb7c7fc34a2",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Programming MOC/Pro_Archive/Java access modifiers.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Java Output.md",
                     "mode": "source",
                     "source": false
                   }
@@ -91,7 +91,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "",
+                    "query": "overloading",
                     "matchingCase": true,
                     "explainSearch": true,
                     "collapseAll": true,
@@ -121,8 +121,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 360.5,
-        "collapsed": true
+        "width": 360.5
       },
       "right": {
         "id": "1599d9a7234429ed",
@@ -139,7 +138,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "3. MOCS/Programming MOC/Pro_Archive/MDP 19 Mar.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/MDP 21 Mar.md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "alphabetical",
@@ -156,7 +155,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "3. MOCS/Programming MOC/Pro_Archive/MDP 19 Mar.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/MDP 21 Mar.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -179,7 +178,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "3. MOCS/Programming MOC/Pro_Archive/MDP 19 Mar.md"
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/MDP 21 Mar.md"
                   }
                 }
               },
@@ -247,7 +246,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "3. MOCS/Programming MOC/Pro_Archive/MDP 19 Mar.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/MDP 21 Mar.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -297,7 +296,8 @@
           "markdown-importer:Open format converter": false
         }
       },
-      "active": "906f41ff6c0e50a6"
+      "active": "9c86a743d5ffefa0",
+      "mtime": "2024-03-21T16:16:01+01:00"
     },
     "Algoritmi": {
       "main": {
@@ -315,14 +315,27 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Classes/Algoritmi (class).md",
+                    "file": "3. MOCS/Uni MOC/Uni_Classes/Algoritmi 1 (class).md",
                     "mode": "source",
                     "source": false
                   },
                   "pinned": true
                 }
+              },
+              {
+                "id": "5bb51a636f9eac78",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Risoluzione Equazione di Ricorrenza.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -397,7 +410,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Classes/Algoritmi (class).md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Risoluzione Equazione di Ricorrenza.md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "alphabetical",
@@ -414,7 +427,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Classes/Algoritmi (class).md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Risoluzione Equazione di Ricorrenza.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -437,7 +450,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Classes/Algoritmi (class).md"
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Risoluzione Equazione di Ricorrenza.md"
                   }
                 }
               },
@@ -505,7 +518,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Classes/Algoritmi (class).md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Risoluzione Equazione di Ricorrenza.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -555,7 +568,8 @@
           "omnisearch:Omnisearch": false
         }
       },
-      "active": "6e1d70bfbe19415d"
+      "active": "5bb51a636f9eac78",
+      "mtime": "2024-03-22T10:49:22+01:00"
     },
     "Calcolo Integrale": {
       "main": {
@@ -1304,5 +1318,5 @@
       "mtime": "2024-03-20T16:01:18+01:00"
     }
   },
-  "active": "Metodologie di Programmazione"
+  "active": "Calcolo Integrale"
 }

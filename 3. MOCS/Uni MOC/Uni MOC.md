@@ -8,7 +8,7 @@
 
 - [[Calcolo Integrale (class)]]
 - [[Architettura (class)]]
-- [[Algoritmi (class)]]
+- [[Algoritmi 1 (class)]]
 - [[Metodologie di Programmazione (class)]]
 
 ---

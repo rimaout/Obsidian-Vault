@@ -33,13 +33,14 @@ Completed:
 - In modo equivalente una successione è una *sequenza ordinata di numeri reali* con termini eventualmente ripetuti.
 $$ a: N \to R $$
 **Definizione Rigorosa:**
-$$ \begin{align}
+
+$$ 
+\begin{align}
 & \text{Una Successione Reale} ~~~\{a_{n}\}_{n\geq n_{0}} \\
 & \\
 & \text{è una funzione che associa ad ogni n intero} \geq di~~n_{0} ~~\text{un numeo reale}~~a_{n} \\
 \end{align}
- $$
-
+$$
 
 ---
 

@@ -24,7 +24,7 @@ I Criteri del **Rapporto** e della **Radice** sono utilizzati per la risoluzione
 ## Teorema 
 
 >[!note] \
-Sia $a_{ n }>0\ \ \forall n \in \mathbb{N}$  (serie a termini positivi)
+>Sia $a_{ n }>0\ \ \forall n \in \mathbb{N}$  (serie a termini positivi)
 >
 >Supponiamo che:
 >
@@ -41,7 +41,7 @@ Sia $a_{ n }>0\ \ \forall n \in \mathbb{N}$  (serie a termini positivi)
 >\text{Converge} &\text{Se }\ 0\leq \ell <1 \\
 >\text{Diverge }(+\infty ) &\text{Se }\ \ell>1 \\
 >\text{Indeterminato (usare altro metodo)} &\text{Se }\ \ell=1
-\end{cases}
+>\end{cases}
 >$$
 
 >[!warning] oss

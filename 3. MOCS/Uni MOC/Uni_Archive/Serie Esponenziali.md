@@ -6,12 +6,13 @@ Class:
 Academic Year: 2023/2024
 Related:
   - "[[Serie Numeriche]]"
-Completed: false
+Completed: true
 ---
 ---
 
 >[!info] Index
->1. 
+>1. [[#Serie Esponenziale]]
+>2. [[#Serie Esponenziale generalizzata]]
 
 ---
 ## Serie Esponenziale
@@ -39,3 +40,4 @@ $$
  >[!warning] oss
 >Funziona anche con $A<0$ infatti con $\frac{|a^{k}|}{k!}$​ possiamo utilizzare il [[Criterio di Leibniz]]
 
+---
