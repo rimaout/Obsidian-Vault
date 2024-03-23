@@ -55,12 +55,14 @@ $$
 >Allora:
 >- Il risultato della somma è uguale a: $S_{n}= b_{1} + b_{2} + \dots + b_{n}$
 >- La il carattere della serie $S_{n}$ dipende dal limite della successione $a_{ n }$ ovvero:
+>
 >$$
 >S_{ n } = \begin{cases}
->\text{Converge} &\text{se } \lim_{ n \to +\infty }a_{ n } =\ell \in\mathbb{R} \\
->\text{Diverge a}\pm \infty  &\text{se }\lim_{ n \to +\infty }a_{ n } =\pm \infty \\
->\text{Indeterminato} &\text{se } \lim_{ n \to +\infty }a_{ n } \text{ non esiste}
->\end{cases}$$
+>\text{Converge} &\text{se } \lim_{ n \to + \infty }a_{ n } = \ell \in \mathbb{R} \\
+>\text{Diverge a} \pm \infty  &\text{se } \lim_{ n \to + \infty } a_{ n } = \pm \infty \\
+>\text{Indeterminato} &\text{se } \lim_{ n \to + \infty } a_{ n } \text{ non esiste}
+>\end{cases}
+>$$
 
 ---
 ## Esempi
@@ -112,5 +114,3 @@ $$
 >\text{La serie } \sum^{+\infty }_{n=1} \ln(1+n)\ \text{diverge a }+\infty 
 >$$
 ^a681b0
-
----

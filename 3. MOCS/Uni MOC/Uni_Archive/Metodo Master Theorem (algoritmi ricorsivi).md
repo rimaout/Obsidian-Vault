@@ -6,7 +6,7 @@ Class:
 Academic Year: 2023/2024
 Related:
   - "[[Risoluzione Equazione di Ricorrenza]]"
-Completed: false
+Completed: true
 ---
 ---
 

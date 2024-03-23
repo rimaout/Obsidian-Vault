@@ -38,6 +38,5 @@ $$
 $$
 
  >[!warning] oss
+ >
 >Funziona anche con $A<0$ infatti con $\frac{|a^{k}|}{k!}$​ possiamo utilizzare il [[Criterio di Leibniz]]
-
----

@@ -21,7 +21,7 @@ Completed: true
 ## Definizione di Serie
 
 >[!info] Serie
-Data una successione reale $\{a_{n}\}$, si chiama **serie** dei termini $a_{n}$ la somma degli infiniti termini della successione
+>Data una successione reale $\{a_{n}\}$, si chiama **serie** dei termini $a_{n}$ la somma degli infiniti termini della successione
 
 La serie viene indicata con $\sum^{\infty}_{n=0}a_{n}$ che si legge serie o somma per $n$ che va da $0$ a $\infty$ di $a_{n}$ 
 

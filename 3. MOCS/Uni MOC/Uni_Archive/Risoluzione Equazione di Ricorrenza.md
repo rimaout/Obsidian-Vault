@@ -16,7 +16,9 @@ Completed: false
 ---
 
 Esistono 4 metodi per la risoluzione di un equazione di ricorrenza:
-- [[Metodo Iterazione (algoritmi ricorsivi)]]
-- [[Metodo Albero (algoritmi ricorsivi)]]
+- [[Metodo Iterativo (algoritmi ricorsivi)]] 🟡 (aggiungi esempi)
+- [[Metodo Alberi di Ricorsione (algoritmi ricorsivi)]]
 - [[Metodo Master Theorem (algoritmi ricorsivi)]] 🟡 (aggiungere esempi)
 - [[Metodo Sostituzione (algoritmi ricorsivi)]]
+
+Vedi anche: [[Esercizi risoluzione equazioni di ricorrenza]]

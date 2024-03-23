@@ -22,55 +22,19 @@
             }
           },
           {
-            "id": "ce7e487e158764e0",
+            "id": "7653b1b879af0426",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Serie Esponenziali.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ba4ecf4d81bd1cfa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Criterio del rapporto e radice.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bc0c7daddd9732c1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Criterio della convergenza assoluta.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1a23062b1f50feed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Criterio di Leibniz.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Serie Telescopiche.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -146,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Criterio di Leibniz.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Serie Telescopiche.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -163,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Criterio di Leibniz.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Serie Telescopiche.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Criterio di Leibniz.md"
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Serie Telescopiche.md"
               }
             }
           },
@@ -267,45 +231,45 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "1a23062b1f50feed",
+  "active": "7653b1b879af0426",
   "lastOpenFiles": [
     "3. MOCS/Uni MOC/Uni_Classes/Calcolo Integrale (class).md",
+    "3. MOCS/Uni MOC/Uni_Classes/Algoritmi 1 (class).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Metodo Alberi di Ricorsione (algoritmi ricorsivi).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Metodo Iterativo (algoritmi ricorsivi).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Risoluzione Equazione di Ricorrenza.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240322200042.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240322195433.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Metodo Master Theorem (algoritmi ricorsivi).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Algoritmi Iterativi.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Al 14 Mar.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Al 11 Mar.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Al 07 Mar.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Casi particolari nel calcolo del costo si un algoritmo iterativo.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Complessità Algoritmica.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Notazione Big O (O).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Analisi Asintotica degli Algoritmi.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Algoritmi di ricerca.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Qualunque logaritmo è dominato da una radice (notazione asintotica).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Notazione Theta (Θ).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Notazione Omega (Ω).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Concetti di base x Algoritmi.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Serie Telescopiche.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Serie Esponenziali.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Serie Geometriche.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Serie Numeriche.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Criterio di Leibniz.md",
     "3. MOCS/Uni MOC/Uni_Archive/Criterio della convergenza assoluta.md",
     "3. MOCS/Uni MOC/Uni_Archive/Criterio del rapporto e radice.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Serie Esponenziali.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Successioni Reali.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Serie Armoniche.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Serie Telescopiche.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Serie Geometriche.md",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240322114809.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Segno di una serie.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Risoluzione Equazione di Ricorrenza.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Metodo Master Theorem (algoritmi ricorsivi).md",
-    "3. MOCS/Uni MOC/Uni_Classes/Algoritmi 1 (class).md",
-    "To-Do/Metodo Iterazione (algoritmi ricorsivi).md",
-    "3. MOCS/Uni MOC/Uni_Archive/MDP 21 Mar.md",
-    "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240321130156.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240321125904.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240321125722.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Java MOC.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Java Output.md",
-    "3. MOCS/Programming MOC/Pro_Archive/Java Constructor.md",
-    "3. MOCS/Programming MOC/Pro_Archive/Programmazione ad Oggetti.md",
-    "3. MOCS/Tech MOC/Tech_Archive/Git Submodules.md",
-    "3. MOCS/Tech MOC/Tech_Archive/Quartz Setup.md",
-    "3. MOCS/Tech MOC/Tech MOC.md",
     "3. MOCS/Uni MOC/Uni_Storage/Teo1.png",
-    "Storage/Templates/Standard Note (Template).md",
-    "3. MOCS/Tech MOC/Tech_Archive/quartz add deploy.yaml.md",
-    "3. MOCS/Tech MOC/Tech_Archive/quartz layout config.md",
-    "To-Do/To-Do.md",
     "3. MOCS/Uni MOC/Uni_Archive/MIPS_Instruction_Set.pdf",
     "3. MOCS/Programming MOC/Pro_Archive/Pasted image 20240319114915.png",
     "3. MOCS/Programming MOC/Pro_Archive/Pasted image 20240319101837.png",
     "3. MOCS/Programming MOC/Pro_Archive/Pasted image 20240319101402.png",
-    "3. MOCS/Programming MOC/Pro_Archive/Pasted image 20240319100626.png",
-    "3. MOCS/Programming MOC/Pro_Archive/Pasted image 20240319095756.png",
     "3. MOCS/Uni MOC/Uni_Archive/Java_printf_method_quick_reference.pdf",
     "3. MOCS/Programming MOC/Pro_Archive/Java input",
     "3. MOCS/Programming MOC/Pro_Archive/Recording 20240307171929.webm",

@@ -103,21 +103,12 @@ Completed: false
 
 >[!note] **Risolvere** $T(n) = T\left( \frac{n}{2} \right)+\Theta (1)$ Ricerca binaria
 
-
-
-
-[[CACCAAAAAAAAAAAAAAAAA 💩]]
-
-
-
-
 ---
 ## Teorema Principale (master theorem)
 
 
 ---
 ## Metodo di Sostituzione
-
 
 
 ---

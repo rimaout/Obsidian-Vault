@@ -311,315 +311,40 @@
               {
                 "id": "6e1d70bfbe19415d",
                 "type": "leaf",
-                "pinned": true,
                 "state": {
                   "type": "markdown",
                   "state": {
                     "file": "3. MOCS/Uni MOC/Uni_Classes/Algoritmi 1 (class).md",
                     "mode": "source",
                     "source": false
-                  },
-                  "pinned": true
+                  }
                 }
               },
               {
-                "id": "5bb51a636f9eac78",
+                "id": "c2447b6e47b4b77f",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Risoluzione Equazione di Ricorrenza.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Metodo Alberi di Ricorsione (algoritmi ricorsivi).md",
                     "mode": "source",
                     "source": false
                   }
                 }
-              }
-            ],
-            "currentTab": 1
-          }
-        ],
-        "direction": "vertical"
-      },
-      "left": {
-        "id": "ea17b4a25a7f38c6",
-        "type": "split",
-        "children": [
-          {
-            "id": "ed1111de2574fd88",
-            "type": "tabs",
-            "children": [
+              },
               {
-                "id": "ba7d0379bd9741ad",
+                "id": "09e103ebec766910",
                 "type": "leaf",
                 "state": {
-                  "type": "file-explorer",
+                  "type": "markdown",
                   "state": {
-                    "sortOrder": "alphabetical"
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Metodo Iterativo (algoritmi ricorsivi).md",
+                    "mode": "source",
+                    "source": false
                   }
-                }
-              },
-              {
-                "id": "d4aca3edb3bdc908",
-                "type": "leaf",
-                "state": {
-                  "type": "search",
-                  "state": {
-                    "query": "",
-                    "matchingCase": true,
-                    "explainSearch": true,
-                    "collapseAll": true,
-                    "extraContext": true,
-                    "sortOrder": "alphabetical"
-                  }
-                }
-              },
-              {
-                "id": "7f34f9e8b8261cab",
-                "type": "leaf",
-                "state": {
-                  "type": "starred",
-                  "state": {}
-                }
-              },
-              {
-                "id": "8720924e16a6a7ab",
-                "type": "leaf",
-                "state": {
-                  "type": "bookmarks",
-                  "state": {}
                 }
               }
             ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 360.5
-      },
-      "right": {
-        "id": "1599d9a7234429ed",
-        "type": "split",
-        "children": [
-          {
-            "id": "b33702b1304e824a",
-            "type": "tabs",
-            "dimension": 30.905511811023622,
-            "children": [
-              {
-                "id": "f96f6d8092dbcb18",
-                "type": "leaf",
-                "state": {
-                  "type": "backlink",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Risoluzione Equazione di Ricorrenza.md",
-                    "collapseAll": true,
-                    "extraContext": true,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": true
-                  }
-                }
-              },
-              {
-                "id": "d57d9880445751cf",
-                "type": "leaf",
-                "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Risoluzione Equazione di Ricorrenza.md",
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": true
-                  }
-                }
-              },
-              {
-                "id": "73d6fce2365a09ef",
-                "type": "leaf",
-                "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "useHierarchy": true
-                  }
-                }
-              },
-              {
-                "id": "55d2dfc580205f70",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Risoluzione Equazione di Ricorrenza.md"
-                  }
-                }
-              },
-              {
-                "id": "e0c1c70f5b07b717",
-                "type": "leaf",
-                "state": {
-                  "type": "all-properties",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "showSearch": false,
-                    "searchQuery": ""
-                  }
-                }
-              },
-              {
-                "id": "cac60df207efa5a4",
-                "type": "leaf",
-                "state": {
-                  "type": "advanced-tables-toolbar",
-                  "state": {}
-                }
-              },
-              {
-                "id": "1cfc5dd77c657d61",
-                "type": "leaf",
-                "state": {
-                  "type": "smart-connections-view",
-                  "state": {}
-                }
-              },
-              {
-                "id": "5bcdee51916718ac",
-                "type": "leaf",
-                "state": {
-                  "type": "smart-connections-chat-view",
-                  "state": {}
-                }
-              }
-            ],
-            "currentTab": 3
-          },
-          {
-            "id": "0ee4f1dd2040ea54",
-            "type": "tabs",
-            "dimension": 69.09448818897637,
-            "children": [
-              {
-                "id": "08bb0d9d4b18b672",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "To-Do/To-Do.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "pinned": true
-                }
-              },
-              {
-                "id": "7517b7f0f38af1c8",
-                "type": "leaf",
-                "state": {
-                  "type": "localgraph",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Risoluzione Equazione di Ricorrenza.md",
-                    "options": {
-                      "collapse-filter": true,
-                      "search": "",
-                      "localJumps": 1,
-                      "localBacklinks": true,
-                      "localForelinks": true,
-                      "localInterlinks": false,
-                      "showTags": false,
-                      "showAttachments": false,
-                      "hideUnresolved": false,
-                      "collapse-color-groups": true,
-                      "colorGroups": [],
-                      "collapse-display": true,
-                      "showArrow": false,
-                      "textFadeMultiplier": 0,
-                      "nodeSizeMultiplier": 1,
-                      "lineSizeMultiplier": 1,
-                      "collapse-forces": true,
-                      "centerStrength": 0.518713248970312,
-                      "repelStrength": 10,
-                      "linkStrength": 1,
-                      "linkDistance": 250,
-                      "scale": 2.1169972178441094,
-                      "close": true
-                    }
-                  }
-                }
-              }
-            ],
-            "currentTab": 1
-          }
-        ],
-        "direction": "horizontal",
-        "width": 380.5,
-        "collapsed": true
-      },
-      "left-ribbon": {
-        "hiddenItems": {
-          "markdown-importer:Open format converter": false,
-          "switcher:Open quick switcher": false,
-          "graph:Open graph view": false,
-          "canvas:Create new canvas": false,
-          "templates:Insert template": false,
-          "command-palette:Open command palette": false,
-          "audio-recorder:Start/stop recording": false,
-          "workspaces:Manage workspace layouts": false,
-          "omnisearch:Omnisearch": false
-        }
-      },
-      "active": "5bb51a636f9eac78",
-      "mtime": "2024-03-22T10:49:22+01:00"
-    },
-    "Calcolo Integrale": {
-      "main": {
-        "id": "c0e3ba1eaba3cf97",
-        "type": "split",
-        "children": [
-          {
-            "id": "c955f70ef39e33ef",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "e297cb9ac14bcafd",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Classes/Calcolo Integrale (class).md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "pinned": true
-                }
-              },
-              {
-                "id": "faa2906f2a168193",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Serie Esponenziali.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "38651d17250623b2",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Serie Armoniche.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ],
-            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -695,7 +420,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Serie Esponenziali.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Classes/Algoritmi 1 (class).md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "alphabetical",
@@ -712,7 +437,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Serie Esponenziali.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Classes/Algoritmi 1 (class).md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -735,7 +460,267 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Serie Esponenziali.md"
+                    "file": "3. MOCS/Uni MOC/Uni_Classes/Algoritmi 1 (class).md"
+                  }
+                }
+              },
+              {
+                "id": "e0c1c70f5b07b717",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  }
+                }
+              },
+              {
+                "id": "cac60df207efa5a4",
+                "type": "leaf",
+                "state": {
+                  "type": "advanced-tables-toolbar",
+                  "state": {}
+                }
+              },
+              {
+                "id": "1cfc5dd77c657d61",
+                "type": "leaf",
+                "state": {
+                  "type": "smart-connections-view",
+                  "state": {}
+                }
+              },
+              {
+                "id": "5bcdee51916718ac",
+                "type": "leaf",
+                "state": {
+                  "type": "smart-connections-chat-view",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 3
+          },
+          {
+            "id": "0ee4f1dd2040ea54",
+            "type": "tabs",
+            "dimension": 69.09448818897637,
+            "children": [
+              {
+                "id": "08bb0d9d4b18b672",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "To-Do/To-Do.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "pinned": true
+                }
+              },
+              {
+                "id": "7517b7f0f38af1c8",
+                "type": "leaf",
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Classes/Algoritmi 1 (class).md",
+                    "options": {
+                      "collapse-filter": true,
+                      "search": "",
+                      "localJumps": 1,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": false,
+                      "showTags": false,
+                      "showAttachments": false,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": true,
+                      "colorGroups": [],
+                      "collapse-display": true,
+                      "showArrow": false,
+                      "textFadeMultiplier": 0,
+                      "nodeSizeMultiplier": 1,
+                      "lineSizeMultiplier": 1,
+                      "collapse-forces": true,
+                      "centerStrength": 0.518713248970312,
+                      "repelStrength": 10,
+                      "linkStrength": 1,
+                      "linkDistance": 250,
+                      "scale": 2.1169972178441094,
+                      "close": true
+                    }
+                  }
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "horizontal",
+        "width": 380.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "markdown-importer:Open format converter": false,
+          "switcher:Open quick switcher": false,
+          "graph:Open graph view": false,
+          "canvas:Create new canvas": false,
+          "templates:Insert template": false,
+          "command-palette:Open command palette": false,
+          "audio-recorder:Start/stop recording": false,
+          "workspaces:Manage workspace layouts": false,
+          "omnisearch:Omnisearch": false
+        }
+      },
+      "active": "6e1d70bfbe19415d",
+      "mtime": "2024-03-23T11:59:55+01:00"
+    },
+    "Calcolo Integrale": {
+      "main": {
+        "id": "c0e3ba1eaba3cf97",
+        "type": "split",
+        "children": [
+          {
+            "id": "c955f70ef39e33ef",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "e297cb9ac14bcafd",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Classes/Calcolo Integrale (class).md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "pinned": true
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "ea17b4a25a7f38c6",
+        "type": "split",
+        "children": [
+          {
+            "id": "ed1111de2574fd88",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "ba7d0379bd9741ad",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "d4aca3edb3bdc908",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": true,
+                    "explainSearch": true,
+                    "collapseAll": true,
+                    "extraContext": true,
+                    "sortOrder": "alphabetical"
+                  }
+                }
+              },
+              {
+                "id": "7f34f9e8b8261cab",
+                "type": "leaf",
+                "state": {
+                  "type": "starred",
+                  "state": {}
+                }
+              },
+              {
+                "id": "8720924e16a6a7ab",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 360.5,
+        "collapsed": true
+      },
+      "right": {
+        "id": "1599d9a7234429ed",
+        "type": "split",
+        "children": [
+          {
+            "id": "b33702b1304e824a",
+            "type": "tabs",
+            "dimension": 30.905511811023622,
+            "children": [
+              {
+                "id": "f96f6d8092dbcb18",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Classes/Calcolo Integrale (class).md",
+                    "collapseAll": true,
+                    "extraContext": true,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "d57d9880445751cf",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Classes/Calcolo Integrale (class).md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "73d6fce2365a09ef",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "55d2dfc580205f70",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Classes/Calcolo Integrale (class).md"
                   }
                 }
               },
@@ -816,8 +801,8 @@
           "omnisearch:Omnisearch": false
         }
       },
-      "active": "faa2906f2a168193",
-      "mtime": "2024-03-20T21:29:21+01:00"
+      "active": "e297cb9ac14bcafd",
+      "mtime": "2024-03-22T13:07:03+01:00"
     },
     "Architettura": {
       "main": {

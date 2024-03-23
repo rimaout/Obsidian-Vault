@@ -5,7 +5,7 @@ Class:
   - "[[Algoritmi 1 (class)]]"
 Academic Year: 2023/2024
 Related:
-  - "[[Notazione asintotica per calcolo costo computazionale]]"
+  - "[[Analisi Asintotica degli Algoritmi]]"
 Completed: false
 ---
 ---

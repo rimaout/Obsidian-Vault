@@ -13,8 +13,10 @@ Link: https://twiki.di.uniroma1.it/twiki/view/Intro_algo/PZ/WebHome
 
 **Argomenti:**
 - [[Concetti di base x Algoritmi]]
-- [[Notazione asintotica per calcolo costo computazionale]]
+- [[Analisi Asintotica degli Algoritmi]]
+	- [[Algoritmi Iterativi]] --> [[Esempi calcolo costo algoritmi iterativi]]
+	- [[Algoritmi Ricorsivi]]
+
 - [[Algoritmi di ricerca]]
 
-- [[Calcolo costo computazionale algoritmo ricorsivo]]
 - [[Risoluzione Equazione di Ricorrenza]]
