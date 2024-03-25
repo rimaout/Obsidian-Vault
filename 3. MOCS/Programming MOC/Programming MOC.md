@@ -7,7 +7,7 @@
 **Algorithms:**
 - [[Binary search]]<--
 - [[Bubble sort]]
-- [[Marge sort]] <--
+- [[Marge Sort]] <--
 
 **Ide/Terminal:**
 - [[VS Code]]

@@ -10,6 +10,7 @@ Link: https://twiki.di.uniroma1.it/twiki/view/Intro_algo/PZ/WebHome
 3. [[Al 07 Mar]]
 4. [[Al 11 Mar]]
 5. [[Al 14 Mar]]
+6. [[Al 25 Mar]]
 
 **Argomenti:**
 - [[Concetti di base x Algoritmi]]
@@ -19,4 +20,5 @@ Link: https://twiki.di.uniroma1.it/twiki/view/Intro_algo/PZ/WebHome
 
 - [[Algoritmi di ricerca]]
 
+- [[come trovare equazione di ricorrenza]]
 - [[Risoluzione Equazione di Ricorrenza]]

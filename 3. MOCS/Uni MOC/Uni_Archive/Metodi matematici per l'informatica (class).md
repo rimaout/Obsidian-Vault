@@ -10,7 +10,7 @@ Type: "[[Uni MOC]]"
 - [[Funzioni]] ([[Funzioni Invertibili]], [[Funzione identità]], [[Cardinalità ed equipollenza, insiemi finiti ed infiniti, numerabili ed innumerabili]])
 
 **Prima seconda (Logica):**
-- [[Principio di Induzione]], [[Sommatoria]] 
+- [[Principio dell'Induzione Matematica]], [[Sommatoria]] 
 - [[Logica Proposizionale]]
 - [[Logica del primo ordine (predicativa)]]
 

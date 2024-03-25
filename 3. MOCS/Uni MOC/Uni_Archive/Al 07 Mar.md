@@ -9,7 +9,7 @@ Completed: false
 share_link: https://share.note.sx/0apkrtqy#9bNxrxWIiba9EvCKsOZ2VLIS0worQdvJPHI7tPpdL8I
 share_updated: 2024-03-11T08:58:11+01:00
 ---
----
+c---
 
 >[!info] Index
 >1. 
