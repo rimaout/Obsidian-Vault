@@ -76,7 +76,7 @@ $$ \begin{align}
 **oss:** 
 
 $$
-\lim_{ x \to 0 } \frac{f(x)-f(x_{0})}{x-x_{0}} = \lim_{ h \to 0 } \frac{f(x_{0}+h)-f(x_{0})}{h}
+\lim_{ x \to 0 }\frac{f(x) - f(x_{0})}{x - x_{0}} = \lim_{ h \to 0 }\frac{f(x_{0} + h) - f(x_{0})}{h}
 $$
 
 ---
