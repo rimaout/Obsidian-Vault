@@ -105,7 +105,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 360.5
+    "width": 360.5,
+    "collapsed": true
   },
   "right": {
     "id": "1599d9a7234429ed",
@@ -280,7 +281,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "a2beb29200f2e065",
+  "active": "d4aca3edb3bdc908",
   "lastOpenFiles": [
     "3. MOCS/Uni MOC/Uni_Archive/Operazioni tra derivate prime.md",
     "3. MOCS/Uni MOC/Uni_Archive/Definizione derivata prima.md",

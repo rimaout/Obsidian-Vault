@@ -67,10 +67,13 @@ $$\lim_{ x \to 0 } \frac{f(x)-f(x_{0})}{x-x_{0}} $$
 	- $\exists \lim_{ x \to x_{0} } \frac{f(x)-f(x_{0})}{x-x_{0}} = L\in \mathbb{R}$
 
 - Allora:
-$$ \begin{align}
-&- \ \ f\text{ si dice \color{orange}{Derivabile}}\ in\ x_{0} \\
-&- \ \ L=f(x_{0})^{'}\text{ è la \color{orange}{derivata prima }} di\ f(x)\ in\  x_{0}
-\end{align}$$
+
+$$ 
+\begin{align}
+&- \ \ f \text{ si dice \color{orange}{Derivabile}}\ in\ x_{0} \\
+&- \ \ L=f(x_{0})^{'} \text{ è la \color{orange}{derivata prima }} di\ f(x)\ in\  x_{0}
+\end{align}
+$$
 
 ---
 **oss:** 
