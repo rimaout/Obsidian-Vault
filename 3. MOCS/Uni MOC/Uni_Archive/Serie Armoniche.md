@@ -62,7 +62,7 @@ Per capire meglio questi risultati leggere [[Criterio della convergenza assoluta
 ## Serie Armonica Modificata
 
 >[!note] Definition
-> Sia  un numero reale positivo, si dice serie armonica modificata:
+> Sia un numero reale positivo, si dice serie armonica modificata:
 >
 >$$
 >\sum^{+\infty }_{n=2} \frac{1}{n^{\alpha}\cdot (\log n)^{\beta}} = \begin{cases}

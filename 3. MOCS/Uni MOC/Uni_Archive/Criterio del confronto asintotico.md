@@ -36,7 +36,7 @@ Questo ci permette di trovare il carattere di una serie confrontandola con serie
 >
 >Allora:
 >$$
->\text{Le serie} su\sum^{+\infty }_{n=1} a_{n} e \sum^{+\infty }_{n=1}b_{n} \text{ hanno lo stesso carattere}
+>\text{Le serie} su\sum^{+\infty }_{n=1} a_{n}\ e \sum^{+\infty }_{n=1}b_{n} \text{ hanno lo stesso carattere}
 >$$
 
 ---
@@ -58,5 +58,3 @@ Questo ci permette di trovare il carattere di una serie confrontandola con serie
 ---
 ## Esempi
 
-
----

@@ -23,24 +23,7 @@ Type: "[[Uni MOC]]"
 - [[Derivata funzione costante]], [[Derivata funzione continua]], [[Funzione derivabile in x]]
 -  [[Utilizzi delle derivate]], [[Teorema di Lagrange]], [[Massimi e Minimi di una funzione]], [[Teorema di Rolle]]
 
-**Quarta parte (Taylor):**
+**Quarta parte ([[Serie di Taylor]]):**
 - [[o piccolo di h]]
 -  [[Formula di Taylor]], [[Sviluppi di Taylor centrati in 0]], [[Limiti con Taylor]] (to-do)
 
----
-## Cose da finire:
-
-**Unisci:** [[Intervalli Insiemi]] e [[Estremo Superiore e Inferiore, Massimo, Minimo, Maggiorante e Minorante di un insieme]]
-
-- [[Equazioni]]
-- [[Disequazioni]]
-
-- Disequazioni ed equazioni 1° grado
-- Disequazioni ed equazioni 2° grado
-- Disequazioni ed equazioni fratte
-- moduli
-- [[Razionalizzazioni]]
-- [[Formula di Stirling]]
-- [[Limiti con Taylor]]
-
----

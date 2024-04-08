@@ -31,7 +31,7 @@ Completed: true
 
 >[!note] Definizione
 >$$
->S_{ n } = \sum^{n}_{=0}q^{k} = 1 + q + q^{2} + \dots + q^{n} = \begin{cases}
+>S_{ n } = \sum^{n}_{k=0}q^{k} = 1 + q + q^{2} + \dots + q^{n} = \begin{cases}
 >\frac{1-q^{n+1}}{1-q} &\text{se }\ q \not= 1 \\
 >n+1 &\text{se }\ q = 1
 >\end{cases}

@@ -24,6 +24,42 @@
                 }
               },
               {
+                "id": "8087731ae8fe3d71",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/MDP 04 Apr.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "e00ce77e56a7e977",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "To-Do/Untitled.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "ee2c6abd400167d8",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/MDP 26 Mar.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
                 "id": "e21fcf3010b7d8e1",
                 "type": "leaf",
                 "pinned": true,
@@ -36,45 +72,9 @@
                   },
                   "pinned": true
                 }
-              },
-              {
-                "id": "9c86a743d5ffefa0",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/MDP 21 Mar.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "5a6baeb7c7fc34a2",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Java Output.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "6a1e5502172b9fdb",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Programming MOC/Pro_Archive/Java input/Java Input.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
               }
             ],
-            "currentTab": 4
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -128,8 +128,7 @@
                   "state": {}
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "horizontal",
@@ -151,7 +150,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "3. MOCS/Programming MOC/Pro_Archive/Java input/Java Input.md",
+                    "file": "To-Do/Untitled.md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "alphabetical",
@@ -168,7 +167,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "3. MOCS/Programming MOC/Pro_Archive/Java input/Java Input.md",
+                    "file": "To-Do/Untitled.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -191,7 +190,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "3. MOCS/Programming MOC/Pro_Archive/Java input/Java Input.md"
+                    "file": "To-Do/Untitled.md"
                   }
                 }
               },
@@ -259,7 +258,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "3. MOCS/Programming MOC/Pro_Archive/Java input/Java Input.md",
+                    "file": "To-Do/Untitled.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -305,12 +304,11 @@
           "command-palette:Open command palette": false,
           "audio-recorder:Start/stop recording": false,
           "workspaces:Manage workspace layouts": false,
-          "omnisearch:Omnisearch": false,
           "markdown-importer:Open format converter": false
         }
       },
-      "active": "6a1e5502172b9fdb",
-      "mtime": "2024-03-24T18:04:17+01:00"
+      "active": "e00ce77e56a7e977",
+      "mtime": "2024-04-04T15:44:28+02:00"
     },
     "Algoritmi": {
       "main": {
@@ -336,31 +334,43 @@
                 }
               },
               {
-                "id": "a15338d8b9836f3d",
+                "id": "60b92aeab893ad0d",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Metodo Sostituzione (algoritmi ricorsivi).md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Metodo Master Theorem (algoritmi ricorsivi).md",
                     "mode": "source",
                     "source": false
                   }
                 }
               },
               {
-                "id": "cc3400b20b931cb1",
+                "id": "c6a1b83c48fc4a28",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Al 07 Mar.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Concetti di base x Algoritmi.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "2053f0e40dcdaf98",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Analisi Asintotica degli Algoritmi.md",
                     "mode": "source",
                     "source": false
                   }
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -414,7 +424,8 @@
                   "state": {}
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "horizontal",
@@ -436,7 +447,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Al 07 Mar.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Metodo Master Theorem (algoritmi ricorsivi).md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "alphabetical",
@@ -453,7 +464,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Al 07 Mar.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Metodo Master Theorem (algoritmi ricorsivi).md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -476,7 +487,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Al 07 Mar.md"
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Metodo Master Theorem (algoritmi ricorsivi).md"
                   }
                 }
               },
@@ -544,7 +555,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Al 07 Mar.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Metodo Master Theorem (algoritmi ricorsivi).md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -590,12 +601,11 @@
           "templates:Insert template": false,
           "command-palette:Open command palette": false,
           "audio-recorder:Start/stop recording": false,
-          "workspaces:Manage workspace layouts": false,
-          "omnisearch:Omnisearch": false
+          "workspaces:Manage workspace layouts": false
         }
       },
-      "active": "cc3400b20b931cb1",
-      "mtime": "2024-03-25T10:20:13+01:00"
+      "active": "60b92aeab893ad0d",
+      "mtime": "2024-04-04T12:13:49+02:00"
     },
     "Calcolo Integrale": {
       "main": {
@@ -621,43 +631,55 @@
                 }
               },
               {
-                "id": "7653b1b879af0426",
+                "id": "8a810dcd177b30e9",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Serie Telescopiche.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Criterio di Leibniz.md",
                     "mode": "source",
                     "source": false
                   }
                 }
               },
               {
-                "id": "971da48d3bd2a41c",
+                "id": "3f249e7537c643eb",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Sviluppi di Taylor centrati in 0.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Serie Armoniche.md",
                     "mode": "source",
                     "source": false
                   }
                 }
               },
               {
-                "id": "3a54ef6aed231386",
+                "id": "9144be6777d94ecd",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Regole di derivazione.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Criterio del rapporto e radice.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "6b97e12d97948c76",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Criterio del confronto asintotico.md",
                     "mode": "source",
                     "source": false
                   }
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -711,12 +733,12 @@
                   "state": {}
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "horizontal",
-        "width": 360.5,
-        "collapsed": true
+        "width": 293.504789352417
       },
       "right": {
         "id": "1599d9a7234429ed",
@@ -733,7 +755,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Regole di derivazione.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Serie Armoniche.md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "alphabetical",
@@ -750,7 +772,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Regole di derivazione.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Serie Armoniche.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -773,7 +795,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Regole di derivazione.md"
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Serie Armoniche.md"
                   }
                 }
               },
@@ -850,12 +872,11 @@
           "templates:Insert template": false,
           "command-palette:Open command palette": false,
           "audio-recorder:Start/stop recording": false,
-          "workspaces:Manage workspace layouts": false,
-          "omnisearch:Omnisearch": false
+          "workspaces:Manage workspace layouts": false
         }
       },
-      "active": "3a54ef6aed231386",
-      "mtime": "2024-03-25T12:09:54+01:00"
+      "active": "d4aca3edb3bdc908",
+      "mtime": "2024-04-07T10:31:54+02:00"
     },
     "Architettura": {
       "main": {
@@ -898,14 +919,26 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Architettura MIPS.md",
+                    "file": "3. MOCS/Programming MOC/Pro_Archive/MIPS Assembly MOC.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "ef84f412f5089e01",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Programming MOC/Pro_Archive/MIPS Directives.md",
                     "mode": "source",
                     "source": false
                   }
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -982,7 +1015,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Architettura MIPS.md",
+                    "file": "3. MOCS/Programming MOC/Pro_Archive/MIPS Directives.md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "alphabetical",
@@ -999,7 +1032,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Architettura MIPS.md",
+                    "file": "3. MOCS/Programming MOC/Pro_Archive/MIPS Directives.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1022,7 +1055,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Architettura MIPS.md"
+                    "file": "3. MOCS/Programming MOC/Pro_Archive/MIPS Directives.md"
                   }
                 }
               },
@@ -1099,11 +1132,11 @@
           "templates:Insert template": false,
           "command-palette:Open command palette": false,
           "audio-recorder:Start/stop recording": false,
-          "workspaces:Manage workspace layouts": false,
-          "omnisearch:Omnisearch": false
+          "workspaces:Manage workspace layouts": false
         }
       },
-      "active": "7439dc23d052d28e"
+      "active": "ef84f412f5089e01",
+      "mtime": "2024-04-07T21:12:24+02:00"
     },
     "Default": {
       "main": {
@@ -1118,11 +1151,28 @@
                 "id": "97c8dd396cba3cb6",
                 "type": "leaf",
                 "state": {
-                  "type": "empty",
-                  "state": {}
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Tech MOC/Tech_Archive/Privacy.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "bf03c86a686193ca",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Logaritmi.md",
+                    "mode": "source",
+                    "source": false
+                  }
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -1151,7 +1201,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "",
+                    "query": "logaritmi",
                     "matchingCase": true,
                     "explainSearch": true,
                     "collapseAll": true,
@@ -1181,8 +1231,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 360.5,
-        "collapsed": true
+        "width": 360.5
       },
       "right": {
         "id": "1599d9a7234429ed",
@@ -1199,6 +1248,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Logaritmi.md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "alphabetical",
@@ -1215,6 +1265,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Logaritmi.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1236,7 +1287,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "outline",
-                  "state": {}
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Logaritmi.md"
+                  }
                 }
               },
               {
@@ -1303,6 +1356,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Logaritmi.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -1348,13 +1402,12 @@
           "command-palette:Open command palette": false,
           "audio-recorder:Start/stop recording": false,
           "workspaces:Manage workspace layouts": false,
-          "omnisearch:Omnisearch": false,
           "markdown-importer:Open format converter": false
         }
       },
-      "active": "97c8dd396cba3cb6",
-      "mtime": "2024-03-20T16:01:18+01:00"
+      "active": "bf03c86a686193ca",
+      "mtime": "2024-04-02T19:09:59+02:00"
     }
   },
-  "active": "Algoritmi"
+  "active": "Calcolo Integrale"
 }

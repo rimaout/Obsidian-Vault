@@ -17,9 +17,10 @@ Il disegno dell'architettura e del set di istruzioni è semplice e lineare, spes
 ---
 
 - [[Strutta base MIPS]] 🟢
-- [[Rappresentazione dell'istruzione MIPS]]
+- [[Rappresentazione dell'istruzione MIPS]] 🟡 (da sistemare non completo)
 - [[Organizzazione della memoria MIPS]]
-- [[MIPS_Instruction_Set.pdf|Istruzioni Mips]]
+- [[Registri MIPS]]
+![[MIPS Assembly MOC]]
 
 ---
 ## Operandi MIPS

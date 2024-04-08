@@ -3,6 +3,7 @@
 - [[C MOC]]
 - [[Rust MOC]]
 - [[Java MOC]]
+- [[MIPS Assembly MOC]]
 
 **Algorithms:**
 - [[Binary search]]<--

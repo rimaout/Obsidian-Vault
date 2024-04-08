@@ -55,7 +55,9 @@ $$
 & \\
 & 3.~~~~ \log_ab^n =  n \cdot \log_ab \textcolor{orange}{\dashrightarrow Potenza~~di~~ un~~logaritmo}\\
 & \\
-& 4.~~~~ \log_ab= \frac{\log_cb}{\log_cb} \textcolor{orange}{\dashrightarrow Cambio ~~ base}
+& 4.~~~~ \log_ab= \frac{\log_cb}{\log_cb} \textcolor{orange}{\dashrightarrow Cambio ~~ base}\\
+& \\
+& 4.~~~~ x^{\log_b y} = y^{\log_{b} x}
 \end{align*}
 $$
 
@@ -67,5 +69,7 @@ $$
 & - se~~a<0 ~~ m>n \implies \log_am < \log_an \textcolor{orange}{\dashrightarrow Decrescente}  \\
 \end{align*}
 $$
+
+*Dim caso 4:* $3^{\log_2 n}=(2^{\log_2 3})^{\log_2 n}= 2^{(\log_2 n)*(\log_2 3)}=(2^{\log_2 n})^{\log_2 3} =n^{\log_2 3}$
 
 ---

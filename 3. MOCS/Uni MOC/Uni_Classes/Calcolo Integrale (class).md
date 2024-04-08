@@ -11,24 +11,30 @@ Type: Uni Note
 - [[Serie Geometriche]] 🟢
 - [[Serie Telescopiche]] 🟢
 - [[Serie Armoniche]] 🟢
-- [[Serie Esponenziali]] 🟡 (aggiungi esempi + vedi differenza con appunti di Alessio [link](https://alem1105.github.io/Quartz/Secondo-Semestre/Calcolo-Integrale/Serie-Numeriche#serie-esponenziale))
+- [[Serie Esponenziali]] 🟢 (aggiungi esempi)
 
 **Proprietà:**
 - [[Segno di una serie]] 🔴
-- [[Proprietà delle serie]] 🟢
-- [[Completezza Decimale (Serie Numeriche)]]
-- [[Riordinamenti Serie]]
+- [[Operazioni tra Serie]] 🟡 (sistemare)  [link](https://www.youmath.it/lezioni/analisi-matematica/serie-numeriche/752-somma-di-due-serie-e-risultati-di-convergenza.html)
+- [[Completezza Decimale (Serie Numeriche)]] 🔴
+- [[Riordinamenti Serie]] 🔴
 
 **Criteri per serie a termini non negativi:**
 - [[Criterio del confronto (Gauss)]] 🟢 (aggiungi esempi)
 - [[Criterio del confronto asintotico]] 🟢 (aggiungi esempi)
-- [[Criterio del rapporto e radice]] 🟢 (aggiungi esempi)
+- [[Criterio del Rapporto e della Radice]] 🟢 (aggiungi esempi)
 
 **Criteri per serie di segno variabile:**
-- [[Criterio della convergenza assoluta]] 🟡 (da finire)
+- [[Criterio della convergenza assoluta]] 🟡 (da finire) [link](https://www.youmath.it/lezioni/analisi-matematica/serie-numeriche/749-convergenza-assoluta.html)
 - [[Criterio di Leibniz]] 🟢 (aggiungi esempi)
 
+**Taylor:**
+- [[Serie di Taylor]]
+- [[Principio della Sostituzione nella Serie Taylor]]
+- [[Taylor con resto di Lagrange]]
 
+**Serie di Potenze:**
+- [[Serie di Potenze]]
 
-
-
+**Funzioni Analitiche:**
+- [[Funzioni Analitiche]]

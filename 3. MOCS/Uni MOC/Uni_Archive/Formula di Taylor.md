@@ -11,22 +11,34 @@ Related:
 Completed: true
 ---
 ---
-## Index
-1. [[#Formula di Taylor (Teorema)]]
-2. [[#Sviluppo di f(x)]]
-3. [[#Conseguenze]]
+>[!info]
+
 
 ---
 ## Definizione
-La formula di Taylor consente di approssimare, almeno localmente, tutte le funzioni sufficientemente regolari con polinomi
+
+Lo sviluppo in serie di Taylor di una funzione in un punto, se esiste, permette di esprimere la funzione nell'intorno del punto come un polinomio con infiniti termini. 
+
+Arrestando lo sviluppo di Taylor ad un certo ordine è possibile esprimere i restanti termini sotto forma di resto.
+
+La formula di Taylor consente di approssimare, almeno localmente (nel punto $x_{0}$, tutte le funzioni sufficientemente regolari con dei polinomi.
 
 ---
-## Formula di Taylor (Teorema)
+## Introduzione
 
-$$\begin{align}
-& T_{n}(f(x),\ \ x_{0})=\textcolor{orange}{\sum_{k=0}^{+\infty } \frac{f^{k}(x_{0})}{k!}(x-x_{0})^{k}}+\textcolor{lightgreen}{o((x-x_{0})^{n})} \\ \\
+Vogliamo determinare un polinomio $P$​ di grado $n$ che calcolato nel punto $a$ sia uguale alla funzione calcolata nel punto a e che la derivata prima del polinomio calcolata nel punto a sia uguale alla derivata della funzione calcolata nel punto a. Così via per tutte le derivate, quindi:
+
+$$
+P^{(n)}(a)=f^{(n)}(a)
+$$
+
+---
+
+$$
+\begin{align}
+& T_{n}(f(x),\ \ x_{0})=\textcolor{orange}{\sum_{k=0}^{n-1} \frac{f^{k}(x_{0})}{k!}(x-x_{0})^{k}}+\textcolor{lightgreen}{o[(x-x_{0})^{n}]} \\ \\
 & \ \ \ \ \ \ \ \ \ \ \ - \textcolor{orange}{\text{polinomio di grado}\leq n} \\ 
-& \ \ \ \ \ \ \ \ \ \ \ - \textcolor{lightgreen}{\text{infinitesimo di grado superiore a n}} \\ \\
+& \ \ \ \ \ \ \ \ \ \ \ - \textcolor{lightgreen}{\text{infinitesimo di grado superiore a n (Resto di Peano)}} \\ \\
 & \text{Dove:} \\
 & \ \ \ \ \ \ \ -\ f(x)\ \text{è la funzione da approssimare} \\
 & \ \ \ \ \ \ \ -\ n\ \text{è il grado di approssimazione} \\
@@ -35,7 +47,8 @@ $$\begin{align}
 & \ \ \ \ \ \ \ -\ f(x)\ \text{è definita in un certo intervallo }(-\delta, \delta)\ \ \ \forall \delta>0 \\
 & \ \ \ \ \ \ \ -\ f(x)\ \text{è derivabile }n-1\text{ volte nell'intervallo}\\
 & \ \ \ \ \ \ \ -\ \text{esiste la derivata n-esima in }x_{0} \\ \\
-\end{align}$$
+\end{align}
+$$
 
 ---
 ## Sviluppo di f(x)

@@ -8,7 +8,7 @@ Related:
   - "[[Risoluzione Equazione di Ricorrenza]]"
 Completed: true
 ---
----
+	---
 
 >[!info] Index
 >1. [[#Introduzione]]
@@ -55,18 +55,20 @@ Ha 3 possibili soluzioni:
 
 >[!note] Caso 2
 >$$
->T(n) = \Theta(n^{\log_{b} (a)}\cdot \log n)\ \ \text{se}\ \ f(n) = O(n^{\log_{b} (a)})
+>T(n) = \Theta(n^{\log_{b} (a)}\cdot \log n)\ \ \text{se}\ \ f(n) = \Theta(n^{\log_{b} (a)})
 >$$
 
 >[!note] Caso 3
 >$$
 >T(n) = \Theta(f(n))
 >$$
->Se 
->- $f(n) = O(n^{\log_{b} (a) +\epsilon})$
+>Se:
+>- $f(n) = \Omega(n^{\log_{b} (a) +\epsilon})$
 >- $a\cdot f\left( \frac{a}{n} \right)\leq c\cdot f(n)$
 >
 >Sono entrambe vere per un qualche $\epsilon >0$ e $c>1$
+
+**vedi condizione di regolarità**
 
 ---
 ## Esempi

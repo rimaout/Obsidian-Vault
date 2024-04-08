@@ -22,3 +22,5 @@ Completed: true
 	- Registro `$sp` (`$29`), ossia Stack Pointer, utilizzato per la gestione dello Stack delle funzioni
 	- Registro `$fp` (`$30`), ossia Frame Pointer, utilizzato dalle funzioni di sistema
 	- Registro `$ra` (`$31`), ossia Return Address, utilizzato come puntatore di ritorno dalle funzioni
+
+![[Pasted image 20240326131704.png|800]]
