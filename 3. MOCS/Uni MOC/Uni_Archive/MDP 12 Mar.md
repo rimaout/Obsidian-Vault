@@ -103,14 +103,11 @@ import java.util. \*;
 
 
 **Switch case compatti**
-![[Pasted image 20240312112641.png|800]]
+
 
 **yield** 
 
 ---
-## var
-
->[!danger] Se usi `var` per dichiarare una variabile verrai decapitato pubblicamente a piazza del popolo dal prof F.
 
 ---
 ## while, do while, for

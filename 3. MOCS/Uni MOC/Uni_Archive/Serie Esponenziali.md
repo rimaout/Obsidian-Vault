@@ -17,7 +17,7 @@ Completed: true
 ---
 ## Serie Esponenziale
 
-La serie $\sum\limits^{+\infty}_{k=0}\frac{A^{k}}{k!}$ è detta serie esponenziale
+La [[Serie Numeriche|serie numerica]] $\sum\limits^{+\infty}_{k=0}\frac{A^{k}}{k!}$ è detta serie esponenziale
 
 >[!note] Studio Carattere
 >Per calcolare il suo carattere possiamo utilizzare il [[Criterio del Rapporto e della Radice|criterio del rapporto]]

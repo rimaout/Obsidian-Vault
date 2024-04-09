@@ -18,7 +18,7 @@ Completed: true
 
 ---
 ## Introduzione
-Il criterio del confronto asintotico ci permette di dire che una determinata serie a ha (o no) lo stesso carattere di una serie b, se a e b sono asintoticamente equivalenti.
+Il criterio del confronto asintotico ci permette di dire che una determinata serie $a_{n}$ ha (o no) lo stesso carattere di una serie $b_{n}$, se $a_{n}$ e $b_{n}$ sono asintoticamente equivalenti.
 
 Questo ci permette di trovare il carattere di una serie confrontandola con serie più semplici da studiare come [[Serie Armoniche]] e [[Serie Geometriche]].
 
@@ -36,7 +36,7 @@ Questo ci permette di trovare il carattere di una serie confrontandola con serie
 >
 >Allora:
 >$$
->\text{Le serie} su\sum^{+\infty }_{n=1} a_{n}\ e \sum^{+\infty }_{n=1}b_{n} \text{ hanno lo stesso carattere}
+>\text{Le serie } \sum^{+\infty }_{n=1} a_{n}\ e \sum^{+\infty }_{n=1}b_{n} \text{ hanno lo stesso carattere}
 >$$
 
 ---

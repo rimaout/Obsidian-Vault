@@ -10,9 +10,9 @@ Completed: false
 ---
 ---
 **Teoremi:**
-- [[Formula di Taylor]]
-- [[Taylor con resto di Peano]]
-- [[Taylor con resto di Lagrange]]
+- [[Formula di Taylor]] 🟢
+- [[Taylor con resto di Peano]] 🟢
+- [[Taylor con resto di Lagrange]] 🟢
 
 **Proprietà:**
 - [[Limiti con Taylor]]

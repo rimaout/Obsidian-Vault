@@ -15,14 +15,14 @@ Related:
 7. [[MDP 19 Mar]]
 8. [[MDP 21 Mar]]
 9. [[MDP 26 Mar]]
-10. 9. [[]]
+10. [[MDP 9 Apr]]
 
 **Lab:**
 1. [[MDP Lab 28 Feb]]
 2. [[MDP Lab 06 Mar]]
 
 **Argomenti:**
-
+- [[Rappresentazione della memoria]]
 
 **Progetto Esame:**
 [[Idee progetto java]]

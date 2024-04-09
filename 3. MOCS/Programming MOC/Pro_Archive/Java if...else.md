@@ -11,6 +11,7 @@ Completed: true
 >1. [[#Java if Statement]]
 >2. [[#Java if...else Statement]]
 >3. [[#Java if...else...if Statement]]
+>4. [[#Java short hand `if...else` statement]]
 
 ---
 ## Java if Statement
@@ -30,7 +31,7 @@ Here, condition is a boolean expression such as `age >= 18`.
 
 ---
 ## Java if...else Statement
-Statements inside the body of `else` block are executed if the test expression is evaluated to `false`. T
+Statements inside the body of `else` block are executed if the test expression is evaluated to `false`. 
 
 ```java
 if (condition) {
@@ -65,5 +66,16 @@ else {
 Here, `if` statements are executed from the top towards the bottom. When the test condition is `true`, codes inside the body of that `if` block is executed. And, program control jumps outside the **if...else...if** ladder.
 
 If all test expressions are `false`, codes inside the body of `else` are executed.
+
+---
+## Java short hand `if...else` statement
+There is also a short-hand if else, which is known as the **ternary operator** because it consists of three operands.
+
+It can be used to replace multiple lines of code with a single line, and is most often used to replace simple if else statements:
+
+**Syntax:**
+```java
+variable = (condition) ? expressionTrue :  expressionFalse;
+```
 
 ---

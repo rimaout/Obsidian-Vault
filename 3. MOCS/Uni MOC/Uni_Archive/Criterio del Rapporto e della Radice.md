@@ -52,10 +52,13 @@ I Criteri del **Rapporto** e della **Radice** sono utilizzati per la risoluzione
 ---
 ## Esempi
 
-![[Pasted image 20240316112523.png|800]]
+>[!example] Criterio Rapporto
+>![[Pasted image 20240316112523.png|800]]
+>
+>![[Pasted image 20240316112910.png|800]]
+>
+>![[Pasted image 20240316113012.png|800]]
 
-![[Pasted image 20240316112910.png|800]]
-
-![[Pasted image 20240316113012.png|800]]
+>[!example] Criterio Radice
 
 ---

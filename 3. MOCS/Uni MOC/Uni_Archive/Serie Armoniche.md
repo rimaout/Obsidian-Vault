@@ -20,13 +20,15 @@ Completed: true
 ## Serie Armonica
 
 >[!note] Definition
->Si dice serie armonica la serie:
+>Si dice serie armonica la [[Serie Numeriche|serie numericha]] di tipo:
+>
 >$$
 >\sum^{+\infty }_{n=1} \frac{1}{n} = +\infty 
 >$$
 
 - È una [[Segno di una serie]] e diverge sempre positivamente indipendentemente dal valore di $n$.
 - Quindi non può essere una serie irregolare (indeterminata)
+
 ---
 ## Serie Armonica Generalizzata 
 

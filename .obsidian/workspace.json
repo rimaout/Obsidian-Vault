@@ -22,31 +22,55 @@
             }
           },
           {
-            "id": "9a9072d3c2a9d768",
+            "id": "80cc349dac87ef2c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Serie Esponenziali.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Serie Armoniche.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "65481ec91c7776e7",
+            "id": "f5efcaee13ef3a52",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Formula di Taylor.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Serie Numeriche.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6278f113e8ef9170",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Limiti notevoli di Successioni-->0.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a0a79628f0b3e278",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Serie di Potenze.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -75,7 +99,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "limi",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -100,12 +124,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 293.504789352417,
-    "collapsed": true
+    "width": 293.504789352417
   },
   "right": {
     "id": "1599d9a7234429ed",
@@ -122,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Formula di Taylor.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Serie di Potenze.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -139,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Formula di Taylor.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Serie di Potenze.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Formula di Taylor.md"
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Serie di Potenze.md"
               }
             }
           },
@@ -242,45 +266,45 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "65481ec91c7776e7",
+  "active": "a0a79628f0b3e278",
   "lastOpenFiles": [
-    "3. MOCS/Uni MOC/Uni_Archive/Serie di Taylor.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Taylor con resto di Lagrange.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Taylor con resto di Peano.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Formula di Taylor.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Serie Esponenziali.md",
-    "3. MOCS/Uni MOC/Uni_Classes/Calcolo Differenziale (class).md",
     "3. MOCS/Uni MOC/Uni_Classes/Calcolo Integrale (class).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240408105836.png",
-    "To-Do/Taylor con resto di Lagrange.md",
-    "To-Do/Resto di Peano.md",
-    "To-Do/To-Do.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Operazioni tra Serie.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Criterio del Rapporto e della Radice.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Procedimento di sintesi e analisi.md",
-    "To-Do/Principio della sostituzione.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Serie Numeriche.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Criterio della convergenza assoluta.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Limiti con Taylor.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Segno di una serie.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Criterio di Leibniz.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Limiti notevoli di Successioni-->0.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Limiti.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Algebra dei limiti.md",
     "3. MOCS/Uni MOC/Uni_Archive/Serie Armoniche.md",
-    "3. MOCS/Programming MOC/Pro_Archive/MIPS Directives.md",
-    "3. MOCS/Programming MOC/Pro_Archive/MIPS Assembly MOC.md",
-    "3. MOCS/Programming MOC/Pro_Archive/MIPS Load Instructions.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Criterio del confronto asintotico.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Serie Geometriche.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Serie Telescopiche.md",
-    "2. Litterateur Notes/High School/High School Storage/JauntyDiligentAnemone-size_restricted.gif",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240404123821.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240404123713.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240404122833.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240404122607.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240326131704.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Serie Numeriche.md",
+    "3. MOCS/Uni MOC/Uni_Archive/MDP 9 Apr.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240409112842.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240409112642.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240409110640.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240409104358.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240409103616.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240409095759.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240409094332.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240409094039.png",
+    "3. MOCS/Programming MOC/Pro_Archive/Python Alias, Shallow and Deep copy.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240409092733.png",
+    "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Java MOC.md",
+    "3. MOCS/Uni MOC/Uni_Archive/MDP 26 Mar.md",
+    "3. MOCS/Programming MOC/Pro_Archive/Java if...else.md",
+    "3. MOCS/Programming MOC/Pro_Archive/Java switch Statement.md",
+    "3. MOCS/Uni MOC/Uni_Archive/MDP 12 Mar.md",
+    "3. MOCS/Uni MOC/Uni_Archive/MDP 14 Mar.md",
+    "3. MOCS/Programming MOC/Pro_Archive/MDP 19 Mar.md",
+    "3. MOCS/Uni MOC/Uni_Archive/MDP 21 Mar.md",
+    "3. MOCS/Programming MOC/Pro_Archive/UML Class Diagrams.md",
+    "3. MOCS/Programming MOC/Pro_Archive/UML MOC.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Metodo ULM Step by Step.md",
+    "To-Do/[[MDP.md",
+    "3. MOCS/Programming MOC/Pro_Archive/Java Incapsulamento.md",
+    "To-Do/Java Bi-dimensional Arrays.md",
+    "3. MOCS/Programming MOC/Pro_Archive/Java access modifiers.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Java Output.md",
+    "3. MOCS/Programming MOC/Pro_Archive/Java Strings.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240408105836.png",
     "3. MOCS/Uni MOC/Uni_Archive/MIPS_Instruction_Set.pdf",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240326113143.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240326112828.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240326111512.png",
     "3. MOCS/Uni MOC/Uni_Archive/Java_printf_method_quick_reference.pdf",
     "3. MOCS/Programming MOC/Pro_Archive/Java input",
     "3. MOCS/Programming MOC/Pro_Archive/Recording 20240307171929.webm",

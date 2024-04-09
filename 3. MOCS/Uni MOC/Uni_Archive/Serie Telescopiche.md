@@ -21,7 +21,7 @@ Completed: true
 ---
 ## Introduzione 
 
-Le **Serie Telescopiche** sono serie che effettuano la somma degli elementi di Successioni in cui sono perenti ==sia termini positivi che negativi che si "mangiano" a vicenda==, lasciando come risultato la somma di alcune dei termini della successione.
+Le **Serie Telescopiche** sono un tipo di [[Serie Numeriche]] che effettuano la somma degli elementi di Successioni in cui sono perenti ==sia termini positivi che negativi che si "mangiano" a vicenda==, lasciando come risultato la somma di alcune dei termini della successione.
 
 >[!warning] oss
 >Le [[Serie Telescopiche]] e le[[Serie Geometriche]] sono tra le poche serie di cui si riesce a calcolare esplicitamente il risultato della somma.

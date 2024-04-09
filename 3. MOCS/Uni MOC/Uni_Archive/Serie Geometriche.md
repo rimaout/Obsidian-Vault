@@ -16,11 +16,14 @@ Completed: true
 >3. [[#^bf34ea|Limite di somme parziali geometriche]]
 ---
 
+
+
 ---
 ## Serie geometriche 
 
 >[!note] Definizione
->La serie:
+>Sono un tipo di [[Serie Numeriche]] con struttura:
+>
 >$$
 >S_{ n } =\sum^{\infty}_{n=0}q^{n}
 >$$ 

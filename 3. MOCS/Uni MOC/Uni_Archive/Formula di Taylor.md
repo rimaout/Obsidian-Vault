@@ -11,54 +11,62 @@ Related:
 Completed: true
 ---
 ---
->[!info]
 
+>[!info] Index
+>1. [[#Definizione]]
+>2. [[#Formula Sviluppo serie di Taylor]]
+>3. [[#Sviluppo di Taylor con resto]]
 
 ---
 ## Definizione
 
 Lo sviluppo in serie di Taylor di una funzione in un punto, se esiste, permette di esprimere la funzione nell'intorno del punto come un polinomio con infiniti termini. 
 
-Arrestando lo sviluppo di Taylor ad un certo ordine è possibile esprimere i restanti termini sotto forma di resto.
-
-La formula di Taylor consente di approssimare, almeno localmente (nel punto $x_{0}$, tutte le funzioni sufficientemente regolari con dei polinomi.
-
----
-## Introduzione
-
-Vogliamo determinare un polinomio $P$​ di grado $n$ che calcolato nel punto $a$ sia uguale alla funzione calcolata nel punto a e che la derivata prima del polinomio calcolata nel punto a sia uguale alla derivata della funzione calcolata nel punto a. Così via per tutte le derivate, quindi:
-
-$$
-P^{(n)}(a)=f^{(n)}(a)
-$$
+>[!note]
+>Arrestando lo sviluppo di Taylor ad un certo ordine consente di **approssimare**, almeno **localmente** (nel punto $x_{0}$, tutte le funzioni sufficientemente regolari con dei polinomi.
 
 ---
+## Formula Sviluppo serie di Taylor
 
 $$
 \begin{align}
-& T_{n}(f(x),\ \ x_{0})=\textcolor{orange}{\sum_{k=0}^{n-1} \frac{f^{k}(x_{0})}{k!}(x-x_{0})^{k}}+\textcolor{lightgreen}{o[(x-x_{0})^{n}]} \\ \\
-& \ \ \ \ \ \ \ \ \ \ \ - \textcolor{orange}{\text{polinomio di grado}\leq n} \\ 
-& \ \ \ \ \ \ \ \ \ \ \ - \textcolor{lightgreen}{\text{infinitesimo di grado superiore a n (Resto di Peano)}} \\ \\
+& T_{n}(f(x),\ \ x_{0})=\textcolor{orange}{\sum_{k=0}^{n-1} \frac{f^{k}(x_{0})}{k!}(x-x_{0})^{k}}+\textcolor{lightgreen}{R_{n}(x)} \\ \\
+& \ \ \ \ \ \ \ \ \ \ \ - \textcolor{orange}{\text{Polinomio di grado}\leq n-1} \\ 
+& \ \ \ \ \ \ \ \ \ \ \ - \textcolor{lightgreen}{\text{Resto di ordine n}} \\ \\
 & \text{Dove:} \\
 & \ \ \ \ \ \ \ -\ f(x)\ \text{è la funzione da approssimare} \\
 & \ \ \ \ \ \ \ -\ n\ \text{è il grado di approssimazione} \\
-& \ \ \ \ \ \ \ -\ x_{0}\ \text{è il punto in cui approssimare} \\ \\
+& \ \ \ \ \ \ \ -\ x_{0}\in(a,\ b)\ \text{è il punto in cui approssimare (centro dello sviluppo)} \\ \\
 & \text{Prerequisiti:} \\
-& \ \ \ \ \ \ \ -\ f(x)\ \text{è definita in un certo intervallo }(-\delta, \delta)\ \ \ \forall \delta>0 \\
+& \ \ \ \ \ \ \ -\ f(x)\ \text{è definita in un certo intervallo }(a,\ b)\\
 & \ \ \ \ \ \ \ -\ f(x)\ \text{è derivabile }n-1\text{ volte nell'intervallo}\\
 & \ \ \ \ \ \ \ -\ \text{esiste la derivata n-esima in }x_{0} \\ \\
 \end{align}
 $$
 
----
-## Sviluppo di f(x)
-$$
-T_{k}((x), x_{0})= f(x_{0}) + f'(x_{0})(x-x_{0}) + \frac{f''(x_{0})}{2}(x-x_{0})^{2}+ \frac{f'''(x_{0})}{6}(x-x_{0})^{3}+\dots+\frac{f^{k}(x_{0})}{k!}(x-x_{0})^{k}
-$$
----
-## Conseguenze
+>[!tip] Sviluppo di una funzione
+>$$
+>T_{n}(f(x), x_{0})= f(x_{0}) + f'(x_{0})(x-x_{0}) + \frac{f''(x_{0})}{2}(x-x_{0})^{2}+ \frac{f'''(x_{0})}{6}(x-x_{0})^{3}+\dots+\frac{f^{k}(x_{0})}{n!}(x-x_{0})^{n}
+>$$
 
->[!warning] Teorema:
-> Polinomio di tailor di ordine n di un polinomio di grado n è il polinomio stesso
+---
+## Sviluppo di Taylor con resto
+
+Polinomio di Taylor abbiamo detto che **approssima** la funzione, ma se aggiungiamo un termine complementare (detto resto) possiamo ottenere la funzione stessa.
+
+>[!note]
+Arrestando lo sviluppo di Taylor ad un certo ordine è possibile esprimere i restanti termini sotto forma di resto.
+
+$$
+\begin{align}
+& T_{n}(f(x),\ \ x_{0})=\textcolor{orange}{\sum_{k=0}^{n-1} \frac{f^{k}(x_{0})}{k!}(x-x_{0})^{k}}+\textcolor{lightgreen}{R_{n}(x)} \\ \\
+& \ \ \ \ \ \ \ \ \ \ \ - \textcolor{orange}{\text{Polinomio di grado}\leq n-1} \\ 
+& \ \ \ \ \ \ \ \ \ \ \ - \textcolor{lightgreen}{\text{Resto di ordine n}} \\ \\
+\end{align}
+$$
+
+**Esistono due tipi di resto:**
+- [[Taylor con resto di Peano]]
+- [[Taylor con resto di Lagrange]]
 
 ---
