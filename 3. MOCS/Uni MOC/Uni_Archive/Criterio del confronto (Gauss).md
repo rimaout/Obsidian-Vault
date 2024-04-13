@@ -31,7 +31,7 @@ Il Criteri del **confronto (Gauss)** è utilizzato per la risoluzione di **serie
 >$$
 >\begin{align}
 >&1)\ \ \ \sum^{+\infty }_{n=1} b_{n}\ \textcolor{orange}{\text{Converge}}\ \ \implies \ \ \sum^{+\infty }_{n=1} a_{n}\ \textcolor{orange}{\text{Converge}} \\
->&2)\ \ \ \sum^{+\infty }_{n=1} b_{n}\ \textcolor{orange}{\text{Diverge a }+\infty }\ \ \implies \ \ \sum^{+\infty }_{n=1} a_{n}\ \textcolor{orange}{\text{Diverge a }+\infty } \\
+>&2)\ \ \ \sum^{+\infty }_{n=1} a_{n}\ \textcolor{orange}{\text{Diverge a }+\infty }\ \ \implies \ \ \sum^{+\infty }_{n=1} b_{n}\ \textcolor{orange}{\text{Diverge a }+\infty } \\
 >\end{align}
 >$$
 
@@ -41,8 +41,9 @@ Il Criteri del **confronto (Gauss)** è utilizzato per la risoluzione di **serie
 ---
 ## Serie più utilizzate per il confronto
 
-Solitamente se tende a confrontare una determinata serie con una di quest’ultime perche è facile copaire come si comportano:
+Solitamente si tende a confrontare una determinata serie con una di quest’ultime perché è facile confrontare come si comportano:
 - [[Serie Geometriche]]
 - [[Serie Armoniche]]
 
 ---
+## Esempi

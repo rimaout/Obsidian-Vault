@@ -14,6 +14,8 @@ Completed: true
 >1. [[#Serie geometriche]]
 >2. [[#Somme parziale geometrica]]
 >3. [[#^bf34ea|Limite di somme parziali geometriche]]
+>4. [[#Esempi]]
+
 ---
 
 
@@ -30,7 +32,7 @@ Completed: true
 >dove $q \in \mathbb{R}$ è detta **serie geometrica di ragione q**
 
 ---
-## Somme parziale geometrica
+## Limite Serie Geometrica
 
 >[!note] Definizione
 >$$
@@ -40,7 +42,7 @@ Completed: true
 >\end{cases}
 >$$
 
->[!danger] Limite di somma parziale geometrica
+>[!danger] Limite
 >
 >$$
 >\lim_{ n \to \infty } S_{ n } = \begin{cases}
@@ -60,6 +62,12 @@ Completed: true
 >$$
 
 ^bf34ea
+
+>[!warning] oss
+>Se $q\geq 1$ allora è una serie a segni alterni (non dimostrabile con [[Criterio di Leibniz]] o [[Criterio della convergenza assoluta]])
+
+---
+## Esempi
 
 >[!example] Esempio:
 >![[Pasted image 20240301161032.png|600]]

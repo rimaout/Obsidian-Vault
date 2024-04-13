@@ -41,3 +41,4 @@ $$
 Il resto di Lagrange, a differenza di quello di [[Taylor con resto di Peano|Peano]], fornisce informazioni **quantitative** sul resto.
 
 Anche in questo caso non sappiamo né ci interessa capire quale sia il punto c per cui vale l'asserto. È sufficiente sapere che c'è e che la valutazione della derivata n-esima in tale punto conduce ad una rappresentazione esatta.
+

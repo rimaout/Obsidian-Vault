@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "c955f70ef39e33ef",
+        "id": "086fa48ccb045afd",
         "type": "tabs",
         "children": [
           {
-            "id": "e297cb9ac14bcafd",
+            "id": "bcf89c24c29f7f00",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Classes/Calcolo Integrale (class).md",
+                "file": "3. MOCS/Uni MOC/Uni_Classes/Architettura (class).md",
                 "mode": "source",
                 "source": false
               },
@@ -22,55 +22,19 @@
             }
           },
           {
-            "id": "80cc349dac87ef2c",
+            "id": "eef5d939f82150af",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Serie Armoniche.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f5efcaee13ef3a52",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Serie Numeriche.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6278f113e8ef9170",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Limiti notevoli di Successioni-->0.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a0a79628f0b3e278",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Serie di Potenze.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Arch 12 Apr.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -99,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "limi",
+                "query": "mux",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -129,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 293.504789352417
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "1599d9a7234429ed",
@@ -146,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Serie di Potenze.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Arch 12 Apr.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -163,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Serie di Potenze.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Arch 12 Apr.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Serie di Potenze.md"
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Arch 12 Apr.md"
               }
             }
           },
@@ -266,44 +231,44 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "a0a79628f0b3e278",
+  "active": "eef5d939f82150af",
   "lastOpenFiles": [
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240412125253.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240412124945.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240412124829.png",
+    "3. MOCS/Uni MOC/Uni_Classes/Architettura (class).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Circuito Multiplexer.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Circuiti combinatori.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Circuito De-multiplexer.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Arch 12 Apr.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240412115752.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Architettura MIPS.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Arch 05 Mar.md",
+    "3. MOCS/Programming MOC/Pro_Archive/MIPS Directives.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Logaritmi.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Derivata di una Serie di Potenze.md",
     "3. MOCS/Uni MOC/Uni_Classes/Calcolo Integrale (class).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Limiti notevoli di Successioni-->0.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Limiti.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Algebra dei limiti.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Serie Armoniche.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Criterio del confronto (Gauss).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Criterio del confronto asintotico.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Sviluppi di Taylor centrati in 0.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Serie di Taylor.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Taylor con resto di Peano.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Serie di Potenze.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Taylor con resto di Lagrange.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Limiti con Taylor.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Criterio del Rapporto e della Radice.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Serie Geometriche.md",
     "3. MOCS/Uni MOC/Uni_Archive/Serie Numeriche.md",
-    "3. MOCS/Uni MOC/Uni_Archive/MDP 9 Apr.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Serie Armoniche.md",
+    "Storage/Templates/Uni Note (Template).md",
+    "To-Do/To-Do.md",
+    "3. MOCS/Uni MOC/Uni_Archive/IMG_3048.jpeg",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240411114928.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240409112842.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240409112642.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240409110640.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240409104358.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240409103616.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240409095759.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240409094332.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240409094039.png",
-    "3. MOCS/Programming MOC/Pro_Archive/Python Alias, Shallow and Deep copy.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240409092733.png",
-    "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Java MOC.md",
-    "3. MOCS/Uni MOC/Uni_Archive/MDP 26 Mar.md",
-    "3. MOCS/Programming MOC/Pro_Archive/Java if...else.md",
-    "3. MOCS/Programming MOC/Pro_Archive/Java switch Statement.md",
-    "3. MOCS/Uni MOC/Uni_Archive/MDP 12 Mar.md",
-    "3. MOCS/Uni MOC/Uni_Archive/MDP 14 Mar.md",
-    "3. MOCS/Programming MOC/Pro_Archive/MDP 19 Mar.md",
-    "3. MOCS/Uni MOC/Uni_Archive/MDP 21 Mar.md",
-    "3. MOCS/Programming MOC/Pro_Archive/UML Class Diagrams.md",
-    "3. MOCS/Programming MOC/Pro_Archive/UML MOC.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Metodo ULM Step by Step.md",
-    "To-Do/[[MDP.md",
-    "3. MOCS/Programming MOC/Pro_Archive/Java Incapsulamento.md",
-    "To-Do/Java Bi-dimensional Arrays.md",
-    "3. MOCS/Programming MOC/Pro_Archive/Java access modifiers.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Java Output.md",
-    "3. MOCS/Programming MOC/Pro_Archive/Java Strings.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240408105836.png",
     "3. MOCS/Uni MOC/Uni_Archive/MIPS_Instruction_Set.pdf",
     "3. MOCS/Uni MOC/Uni_Archive/Java_printf_method_quick_reference.pdf",
     "3. MOCS/Programming MOC/Pro_Archive/Java input",

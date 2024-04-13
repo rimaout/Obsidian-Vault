@@ -11,11 +11,14 @@ Completed: true
 ---
 ---
 
->[!info] Index
+>[!info] Page Index
 >1. [[#Definizione]]
 >2. [[#Insieme di Convergenza]]
 >3. [[#Raggio di convergenza]]
 >4. [[#Esempi]]
+
+>[!info] Related Content
+> - [[Derivata di una Serie di Potenze]]
 
 ---
 ## Definizione

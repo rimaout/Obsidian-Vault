@@ -1,9 +1,9 @@
-**Programming  Languages:**
-- [[Python MOC]]
-- [[C MOC]]
-- [[Rust MOC]]
-- [[Java MOC]]
-- [[MIPS Assembly MOC]]
+>**Programming  Languages:**
+>- [[Python MOC|Python]]
+>- [[C MOC|C]]
+>- [[Rust MOC|Rust]]
+>- [[Java MOC|Java]]
+>- [[MIPS Assembly MOC|MIPS Assembly]]
 
 **Algorithms:**
 - [[Binary search]]<--

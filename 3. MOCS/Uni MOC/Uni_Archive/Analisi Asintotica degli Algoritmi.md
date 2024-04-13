@@ -2,7 +2,7 @@
 Created: 2024-02-26
 Type: Uni Note
 Class:
-  - "[[Algoritmi 1 (class)]]"
+  - "[[Introduzione agli Algoritmi (class)]]"
 Academic Year: 2023/2024
 Related:
   - "[[Complessità Algoritmica]]"
@@ -58,7 +58,7 @@ Utilizzando la notazione asintotica, possiamo confrontare diversi algoritmi e sc
 ## Teoremi
 
 1. [[#^fd7e3b|Regole sulle costanti moltiplicative]]
-2. [[#^874e2f|Regole sulla combattività con la somma]]
+2. [[#^d2f65f|Regole sulla combattività con la somma]]
 3. [[#^aa3bf0|Regole sulla combattività com il prodotto]]
 
 >[!warning] Altre osservazioni utili:
@@ -75,7 +75,9 @@ Utilizzando la notazione asintotica, possiamo confrontare diversi algoritmi e sc
 
 ---
 ##### Regole sulla combattività con la somma
-^874e2f
+
+^d2f65f
+
 ![[Pasted image 20240306172850.png|600]]
 
 >[!warning] Informalmente

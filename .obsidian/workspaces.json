@@ -24,12 +24,12 @@
                 }
               },
               {
-                "id": "faa2439f93dfdbc1",
+                "id": "14788e509514bbb1",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/MDP 9 Apr.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/MDP Lab 10 Apr.md",
                     "mode": "source",
                     "source": false
                   }
@@ -48,33 +48,9 @@
                   },
                   "pinned": true
                 }
-              },
-              {
-                "id": "60e9d6d12b4246f3",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/MDP 26 Mar.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "5747acb309609cea",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/MDP 9 Apr.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
               }
             ],
-            "currentTab": 4
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -150,7 +126,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/MDP 9 Apr.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/MDP Lab 10 Apr.md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "alphabetical",
@@ -167,7 +143,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/MDP 9 Apr.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/MDP Lab 10 Apr.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -190,7 +166,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/MDP 9 Apr.md"
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/MDP Lab 10 Apr.md"
                   }
                 }
               },
@@ -258,7 +234,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/MDP 9 Apr.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/MDP Lab 10 Apr.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -307,8 +283,8 @@
           "markdown-importer:Open format converter": false
         }
       },
-      "active": "5747acb309609cea",
-      "mtime": "2024-04-09T12:52:22+02:00"
+      "active": "14788e509514bbb1",
+      "mtime": "2024-04-11T08:09:47+02:00"
     },
     "Algoritmi": {
       "main": {
@@ -326,51 +302,14 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Classes/Algoritmi 1 (class).md",
+                    "file": "3. MOCS/Uni MOC/Uni_Classes/Introduzione agli Algoritmi (class).md",
                     "mode": "source",
                     "source": false
                   },
                   "pinned": true
                 }
-              },
-              {
-                "id": "60b92aeab893ad0d",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Metodo Master Theorem (algoritmi ricorsivi).md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "c6a1b83c48fc4a28",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Concetti di base x Algoritmi.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "2053f0e40dcdaf98",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Analisi Asintotica degli Algoritmi.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "vertical"
@@ -447,7 +386,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Metodo Master Theorem (algoritmi ricorsivi).md",
+                    "file": "3. MOCS/Uni MOC/Uni_Classes/Introduzione agli Algoritmi (class).md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "alphabetical",
@@ -464,7 +403,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Metodo Master Theorem (algoritmi ricorsivi).md",
+                    "file": "3. MOCS/Uni MOC/Uni_Classes/Introduzione agli Algoritmi (class).md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -487,7 +426,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Metodo Master Theorem (algoritmi ricorsivi).md"
+                    "file": "3. MOCS/Uni MOC/Uni_Classes/Introduzione agli Algoritmi (class).md"
                   }
                 }
               },
@@ -555,7 +494,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Metodo Master Theorem (algoritmi ricorsivi).md",
+                    "file": "3. MOCS/Uni MOC/Uni_Classes/Introduzione agli Algoritmi (class).md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -604,8 +543,8 @@
           "workspaces:Manage workspace layouts": false
         }
       },
-      "active": "60b92aeab893ad0d",
-      "mtime": "2024-04-08T18:36:53+02:00"
+      "active": "6e1d70bfbe19415d",
+      "mtime": "2024-04-11T13:47:45+02:00"
     },
     "Calcolo Integrale": {
       "main": {
@@ -631,18 +570,19 @@
                 }
               },
               {
-                "id": "80cc349dac87ef2c",
+                "id": "5840dcb13561018a",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Serie Armoniche.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Derivata di una Serie di Potenze.md",
                     "mode": "source",
                     "source": false
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -696,13 +636,11 @@
                   "state": {}
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "horizontal",
-        "width": 293.504789352417,
-        "collapsed": true
+        "width": 293.504789352417
       },
       "right": {
         "id": "1599d9a7234429ed",
@@ -719,7 +657,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Classes/Calcolo Integrale (class).md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Derivata di una Serie di Potenze.md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "alphabetical",
@@ -736,7 +674,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Classes/Calcolo Integrale (class).md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Derivata di una Serie di Potenze.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -759,7 +697,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Classes/Calcolo Integrale (class).md"
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Derivata di una Serie di Potenze.md"
                   }
                 }
               },
@@ -839,8 +777,8 @@
           "workspaces:Manage workspace layouts": false
         }
       },
-      "active": "e297cb9ac14bcafd",
-      "mtime": "2024-04-08T18:36:50+02:00"
+      "active": "5840dcb13561018a",
+      "mtime": "2024-04-12T11:18:45+02:00"
     },
     "Architettura": {
       "main": {
@@ -1370,8 +1308,8 @@
         }
       },
       "active": "bf03c86a686193ca",
-      "mtime": "2024-04-02T19:09:59+02:00"
+      "mtime": "2024-04-12T11:18:47+02:00"
     }
   },
-  "active": "Calcolo Integrale"
+  "active": "Architettura"
 }

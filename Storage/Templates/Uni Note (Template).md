@@ -1,5 +1,5 @@
 ---
-Created: 
+Created: ""
 Type: Uni Note
 Class: 
 Academic Year: 2023/2024
@@ -8,7 +8,10 @@ Completed: false
 ---
 ---
 
->[!info] Index
+>[!info] Page Index
 >1. 
+
+>[!info] Related Content
+>- 
 
 ---

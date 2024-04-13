@@ -1,8 +1,8 @@
 ---
-Created: 2024-03-21
+Created: 2024-04-11
 Type: Uni Note
 Class:
-  - "[[Algoritmi 1 (class)]]"
+  - "[[Introduzione agli Algoritmi (class)]]"
 Academic Year: 2023/2024
 Related:
   - "[[Algoritmi Ricorsivi]]"
@@ -11,9 +11,11 @@ Completed: false
 ---
 
 >[!info] Index
->1. 
+>1. [[#Risolvere Equazione di ricorrenza]]
+>2. [[#Calcolare Equazione di Ricorrenza]]
 
 ---
+## Risolvere Equazione di ricorrenza
 
 Esistono 4 metodi per la risoluzione di un equazione di ricorrenza:
 - [[Metodo Iterativo (algoritmi ricorsivi)]] 🟡 (aggiungi esempi)
@@ -22,3 +24,10 @@ Esistono 4 metodi per la risoluzione di un equazione di ricorrenza:
 - [[Metodo Sostituzione (algoritmi ricorsivi)]]
 
 Vedi anche: [[Esercizi risoluzione equazioni di ricorrenza]]
+
+---
+## Calcolare Equazione di Ricorrenza
+
+
+
+---

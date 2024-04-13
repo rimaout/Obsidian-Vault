@@ -42,18 +42,33 @@ Questo ci permette di trovare il carattere di una serie confrontandola con serie
 ---
 ## Teorema unito con [[Criterio del confronto (Gauss)]]
 
->[!note] \
->Siano $a_{ n },\ b_{n} \geq 0\ \ \forall n\in\mathbb{N}$ (successioni a [[Segno di una serie|termini positivi]]) e $b_{n}\not=0$
->
->Dove:
+Siano:
+- $a_{ n },\ b_{n} \geq 0\ \ \forall n\in\mathbb{N}$ (successioni a [[Segno di una serie|termini positivi]]) 
+- $b_{n}\not=0$
+
+>[!note] $a_{ n } \sim b_{n}$
+>Quando:
 >$$
->\lim_{ n \to +\infty }  \frac{a_{ n }}{b_{n}} = \ell
+>\lim_{ n \to \infty } \frac{a_{ n }}{b_{n}} = \ell \in(0, +\infty )\ \  \text{(numero finito)}
 >$$
->
->Se:
->- $\ell \in(0,+\infty) \implies \sum\limits^{+\infty }_{n=1} a_{n} = \sum\limits^{+\infty }_{n=1}b_{n}$
->- $\ell =0 \text{ e}\sum\limits^{+\infty }_{n=1}b_{n} \text{ Converge}\implies \sum\limits^{+\infty }_{n=1} a_{n} \text{ Converge}\ \ \ \ \text{oss: }b_{n}<a_{ n }$
->- $\ell =+\infty\ \text{ e}\sum\limits^{+\infty }_{n=1}b_{n} \text{ Diverge}\implies \sum\limits^{+\infty }_{n=1} a_{n} \text{ Diverge}\ \ \ \ \text{oss: }b_{n}>a_{ n }$
+>Allora:
+>- $\sum a_{ n }$ ha lo stesso carattere di $\sum b_{n}$
+
+>[!note] $a_{ n } > b_{n}$
+>Quando:
+>$$
+>\lim_{ n \to \infty } \frac{a_{ n }}{b_{n}} = +\infty 
+>$$
+>Allora:
+>- se $\sum b_{n}$ diverge allora $\sum a_{ n }$ diverge 
+
+>[!note] $a_{ n }< b_{n}$
+>Quando:
+>$$
+>\lim_{ n \to \infty } \frac{a_{ n }}{b_{n}} = 0
+>$$
+>Allora:
+>- se $\sum b_{n}$ converge allora $\sum a_{ n }$ converge
 
 ---
 ## Esempi

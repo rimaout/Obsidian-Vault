@@ -14,7 +14,7 @@ Completed: true
 >1. [[#Definizione di Serie]]
 >2. [[#Successione delle somme parziali]]
 >3. [[#Limite somme parziali]]
->4. [[#Teoremei]]
+>4. [[#Limite della Successione]]
 >5. [[#Esempi]]
 
 ---
@@ -68,18 +68,20 @@ $$
 >$$ \lim_{ n \to +\infty } S_{n} \text{ non esiste}$$
 >- ovvero se successione $\{ S_{n} \}$ è oscillante $\implies$ $\lim_{ n \to \infty }S_{n}$ è indeterminato
 
----
-## Teoremi
+>[!warning] oss
+> Una serie a positivi non pò essere indeterminata
 
->[!danger] Teo
->Se $a_{ n }$ non è infinitesima 
+---
+## Limite della Successione
+
+>[!danger] $a_{ n }$ non Infinitesima
+>- Se $\lim_{ n \to \infty } a_{ n } \not =0$
 >- Allora $\sum_{n=1}^{+\infty}a_{ n }=+\infty$ (diverge)
 
->[!warning] NON è vero che
+>[!danger] $a_{ n }$ Infinitesima
 >Se $a_{ n }$ è infinitesima 
->- Allora $\sum^{+\infty}_{n=1}a_{ n } =\ell \in \mathbb{R}$ (converge)
-
-infatti [[Serie Armoniche]] non si comporta in questo modo
+>- Se $\lim_{ n \to \infty } a_{ n } = 0$
+>- Allora non sappiamo come si comporta $\sum^{+\infty}_{n=1}a_{ n }$
 
 ---
 ## Esempi

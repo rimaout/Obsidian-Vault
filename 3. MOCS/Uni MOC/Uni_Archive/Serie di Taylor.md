@@ -9,13 +9,16 @@ Related:
 Completed: false
 ---
 ---
-**Teoremi:**
+##### Teoremi
 - [[Formula di Taylor]] 🟢
 - [[Taylor con resto di Peano]] 🟢
 - [[Taylor con resto di Lagrange]] 🟢
 
-**Proprietà:**
+##### Proprietà
 - [[Limiti con Taylor]]
 - [[Sviluppi di Taylor centrati in 0]]
 - [[Principio della Sostituzione in Serie Taylor]]
+
+##### Altro
+]]
 

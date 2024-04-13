@@ -1,20 +1,13 @@
-**Year I:**
-- [[Matematica 0 (class)]]
+>**First year, first semester:**
+>- [[Matematica 0 (class)]]
+>- [[Progettazione Sistemi Digitali (class)]]
+>- [[Calcolo Differenziale (class)]]
+>- [[Metodi matematici per l'informatica (class)]]
+>- [[Programmazione Calcolatori (Class)]]
 
-- [[Progettazione Sistemi Digitali (class)]]
-- [[Calcolo Differenziale (class)]]
-- [[Metodi matematici per l'informatica (class)]]
-- [[Programmazione Calcolatori (Class)]]
+>**First year, first semester:**
+>- [[Calcolo Integrale (class)]]
+>- [[Architettura (class)]]
+>- [[Introduzione agli Algoritmi (class)]]
+>- [[Metodologie di Programmazione (class)]]
 
-- [[Calcolo Integrale (class)]]
-- [[Architettura (class)]]
-- [[Algoritmi 1 (class)]]
-- [[Metodologie di Programmazione (class)]]
-
----
-**Year II:**
-
----
-**Year III:**
-
----

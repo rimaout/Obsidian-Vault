@@ -11,15 +11,18 @@ Link: https://twiki.di.uniroma1.it/twiki/view/Intro_algo/PZ/WebHome
 4. [[Al 11 Mar]]
 5. [[Al 14 Mar]]
 6. [[Al 25 Mar]]
+7. [[Al 11 Apr]]
 
 **Argomenti:**
 - [[Concetti di base x Algoritmi]]
 - [[Analisi Asintotica degli Algoritmi]]
 	- [[Algoritmi Iterativi]] --> [[Esempi calcolo costo algoritmi iterativi]]
-	- [[Algoritmi Ricorsivi]]
+	- [[Algoritmi Ricorsivi]] --> [[Risolvere e calcolare Equazione di Ricorrenza]]
 
-- [[Algoritmi di ricerca]]
 
-- [[come trovare equazione di ricorrenza]]
-- [[Risoluzione Equazione di Ricorrenza]]
+- [[Strutture Dati]]
+- [[Algoritmi di Ricerca]]
+- [[Algoritmi di Ordinamento]]
+
+
 

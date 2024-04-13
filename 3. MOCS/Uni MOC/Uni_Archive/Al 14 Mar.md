@@ -2,7 +2,7 @@
 Created: 2024-03-14
 Type: Uni Note
 Class:
-  - "[[Algoritmi 1 (class)]]"
+  - "[[Introduzione agli Algoritmi (class)]]"
 Academic Year: 2023/2024
 Related: 
 Completed: false
