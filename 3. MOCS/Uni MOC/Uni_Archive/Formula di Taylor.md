@@ -55,7 +55,7 @@ $$
 Polinomio di Taylor abbiamo detto che **approssima** la funzione, ma se aggiungiamo un termine complementare (detto resto) possiamo ottenere la funzione stessa.
 
 >[!note]
-Arrestando lo sviluppo di Taylor ad un certo ordine è possibile esprimere i restanti termini sotto forma di resto.
+>Arrestando lo sviluppo di Taylor ad un certo ordine è possibile esprimere i restanti termini sotto forma di resto.
 
 $$
 \begin{align}

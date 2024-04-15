@@ -18,13 +18,14 @@ Completed: true
 ---
 ## Definizione
 
-$$\begin{align}
+$$
+\begin{align}
 & - \ \ \text{Siano f(x) e g(x) due funzioni definite in un introno di }x_{0}, \\ 
 & \ \ \ \ \ \  \ \text{dove }x_{0} \in \mathbb{R} \\ \\
 & - \ \ se \ \lim_{ x \to x_{0} }\frac{f(x)}{g(x)}=0\ \ \ \ allora: \\ \\
-&- \ \ f(x) = o(g(x))\ \ per\ \ x\to x_{0}
-  
-\end{align} $$
+&- \ \ f(x) = o(g(x))\ \ per\ \ x\to x_{0}  
+\end{align}
+$$
 
 **Intuitivamente:**
 - *f(x) è un o piccolo di di g(x)*  per $x\to x_{0}$ è equivalente a dire che:
@@ -71,6 +72,9 @@ $$\begin{align}
 
 >[!example] Example:
 >$x^{3}=o(x^{3})?$
->$$\lim_{ x \to 0 } =\lim_{ x \to 0 } $$ 
+>
+>$$
+>\lim_{ x \to 0 } =\lim_{ x \to 0 }
+>$$ 
 
 ---

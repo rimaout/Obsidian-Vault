@@ -804,43 +804,19 @@
                 }
               },
               {
-                "id": "e06bc0ac239af420",
+                "id": "eef5d939f82150af",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Arch 19 Mar.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "7439dc23d052d28e",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Programming MOC/Pro_Archive/MIPS Assembly MOC.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "ef84f412f5089e01",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Programming MOC/Pro_Archive/MIPS Directives.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Arch 12 Apr.md",
                     "mode": "source",
                     "source": false
                   }
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -869,7 +845,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "wol",
+                    "query": "mux",
                     "matchingCase": true,
                     "explainSearch": true,
                     "collapseAll": true,
@@ -917,7 +893,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "3. MOCS/Programming MOC/Pro_Archive/MIPS Directives.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Arch 12 Apr.md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "alphabetical",
@@ -934,7 +910,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "3. MOCS/Programming MOC/Pro_Archive/MIPS Directives.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Arch 12 Apr.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -957,7 +933,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "3. MOCS/Programming MOC/Pro_Archive/MIPS Directives.md"
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Arch 12 Apr.md"
                   }
                 }
               },
@@ -1037,8 +1013,8 @@
           "workspaces:Manage workspace layouts": false
         }
       },
-      "active": "ef84f412f5089e01",
-      "mtime": "2024-04-07T21:12:24+02:00"
+      "active": "eef5d939f82150af",
+      "mtime": "2024-04-13T13:02:10+02:00"
     },
     "Default": {
       "main": {
@@ -1311,5 +1287,5 @@
       "mtime": "2024-04-12T11:18:47+02:00"
     }
   },
-  "active": "Architettura"
+  "active": "Calcolo Integrale"
 }

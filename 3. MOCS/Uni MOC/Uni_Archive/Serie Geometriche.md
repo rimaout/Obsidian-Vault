@@ -48,7 +48,7 @@ Completed: true
 >\lim_{ n \to \infty } S_{ n } = \begin{cases}
 > +\infty  &\text{se}\ \ q\geq 1 \\
 >\frac{1}{1-q} &\text{se}\ \ -1<q<1\ \ \  (q\not= 0)\\
->\text{non esiste} & \text{se }\ \ q\leq 1
+>\text{non esiste} & \text{se }\ \ q\leq -1
 >\end{cases}
 >$$
 >
@@ -57,7 +57,7 @@ Completed: true
 >\sum^{\infty }_{n=0}q^{n}\ \text{ è} \begin{cases}
 >\text{Divergente} &\text{se}\ \ q\geq 1 \\
 >\text{Convergente (ad } \frac{1}{1-q} \text{)} &\text{se}\ \ -1<q<1\ \ \ (q\not= 0) \\
->\text{Indeterminata} & \text{se }\ \ q\leq 1
+>\text{Indeterminata} & \text{se }\ \ q\leq -1
 >\end{cases}
 >$$
 
