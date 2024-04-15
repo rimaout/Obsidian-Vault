@@ -22,6 +22,18 @@
             }
           },
           {
+            "id": "a431a9df332075fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Per Esonero.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "5840dcb13561018a",
             "type": "leaf",
             "state": {
@@ -46,24 +58,12 @@
             }
           },
           {
-            "id": "5186a59271dce557",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Formula di Taylor.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "c77370c499950bac",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Serie Numeriche.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Per Esonero.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -158,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Serie Geometriche.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Per Esonero.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -175,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Serie Geometriche.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Per Esonero.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Serie Geometriche.md"
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Per Esonero.md"
               }
             }
           },
@@ -278,17 +278,18 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "e3d92103d118c333",
+  "active": "c77370c499950bac",
   "lastOpenFiles": [
-    "3. MOCS/Uni MOC/Uni_Classes/Calcolo Integrale (class).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Serie Numeriche.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Sviluppi di Taylor centrati in 0.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Formula di Taylor.md",
-    "3. MOCS/Uni MOC/Uni_Archive/o piccolo di h.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Serie Geometriche.md",
-    "3. MOCS/Uni MOC/Uni_Classes/Calcolo Differenziale (class).md",
     "3. MOCS/Uni MOC/Uni_Archive/Derivata di una Serie di Potenze.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Per Esonero.md",
     "3. MOCS/Uni MOC/Uni_Archive/Serie di Taylor.md",
+    "3. MOCS/Uni MOC/Uni_Classes/Calcolo Integrale (class).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Serie Geometriche.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Serie Numeriche.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Formula di Taylor.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Sviluppi di Taylor centrati in 0.md",
+    "3. MOCS/Uni MOC/Uni_Archive/o piccolo di h.md",
+    "3. MOCS/Uni MOC/Uni_Classes/Calcolo Differenziale (class).md",
     "3. MOCS/Uni MOC/Uni_Archive/Arch 12 Apr.md",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240412125253.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240412124945.png",
@@ -309,7 +310,6 @@
     "3. MOCS/Uni MOC/Uni_Archive/Taylor con resto di Lagrange.md",
     "3. MOCS/Uni MOC/Uni_Archive/Limiti con Taylor.md",
     "3. MOCS/Uni MOC/Uni_Archive/Criterio del Rapporto e della Radice.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Serie Armoniche.md",
     "3. MOCS/Uni MOC/Uni_Archive/IMG_3048.jpeg",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240411114928.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240409112842.png",

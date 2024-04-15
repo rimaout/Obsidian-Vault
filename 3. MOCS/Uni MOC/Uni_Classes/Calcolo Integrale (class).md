@@ -3,6 +3,9 @@ Academic Year: 2023/2024
 Type: Uni Note
 ---
 ---
+
+[[Per Esonero]]
+
 **Basi:**
 - [[Successioni Reali]] --> [[Definizione Successione infinitesima]]
 
