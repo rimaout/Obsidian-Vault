@@ -2,7 +2,7 @@
 Created: 2024-03-05
 Type: Uni Note
 Class:
-  - "[[Architettura (class)]]"
+  - "[[Architettura dei calcolatori (class)]]"
 Academic Year: 2023/2024
 Related: 
 Completed: false
@@ -23,7 +23,6 @@ In breve, possiamo dire che le Architetture CISC risultano più complesse ma ott
 
 ---
 ## Differenze
-
 
 | CISC                                                                                                                                                              | RISC                                                                                                                                            |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |

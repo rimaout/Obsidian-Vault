@@ -7,7 +7,7 @@
 
 >**First year, first semester:**
 >- [[Calcolo Integrale (class)]]
->- [[Architettura (class)]]
+>- [[Architettura dei calcolatori (class)]]
 >- [[Introduzione agli Algoritmi (class)]]
 >- [[Metodologie di Programmazione (class)]]
 

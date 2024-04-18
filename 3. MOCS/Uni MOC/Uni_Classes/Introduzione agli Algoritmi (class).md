@@ -12,6 +12,8 @@ Link: https://twiki.di.uniroma1.it/twiki/view/Intro_algo/PZ/WebHome
 5. [[Al 14 Mar]]
 6. [[Al 25 Mar]]
 7. [[Al 11 Apr]]
+8. [[Al 15 Apr]]
+9. [[Al 18 Apr]]
 
 **Argomenti:**
 - [[Concetti di base x Algoritmi]]

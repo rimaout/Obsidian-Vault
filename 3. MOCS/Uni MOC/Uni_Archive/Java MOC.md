@@ -1,6 +1,6 @@
 ---
 Created: 2024-02-27
-Type: "[[Programming MOC]]"
+Type: "[[🏫 Programming MOC]]"
 Related:
   - "[[Programmazione ad Oggetti]]"
 ---

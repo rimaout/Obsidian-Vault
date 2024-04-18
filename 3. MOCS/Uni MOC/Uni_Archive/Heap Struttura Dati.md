@@ -55,9 +55,40 @@ Un Heap utilizza un ordinamento verticale del tipo `[0 ,1 ,3 ,2 ,4 ,5 ,7 ,8 ,9]`
 
 >[!warning] Rapporto padre figlio
 >![[IMG_3048.jpeg|400]]
+>
+>**oss:** Il valore del nodo padre è sempre più piccolo dei valori nodi dai figli 
+
+```python
+def heapfy1(H, i) //A = array, i = ?
+	L = 2i+1
+	R = 2i+2
+	min = i
+
+	if l < len(A) and A(L) < A(i):
+		min = L
+
+	if R < len(A) and H(R) < H(min):
+		min = R
+
+	if min != i:
+		A[i], A[min] = A[min], H[i]
+		heapfy1(H, min)
+```
 
 ##### `heapfy()`
 
+```python
+heapfy(H):
+	n = len(A)
+	
+	for i in range(len(A)//2, -1, -1) //for cha da -1 a len(A) ??????
+		heapfy(A, i)
+```
+
+>[!warning] Costo computazionale
+> - `heapfy1()` ha costo $\Theta(n\log n)$
+> - `heapfy()` si ripete $n$ volte dove $n$ è la lunghezza dell'array
+> 	- a ogni ripetizione la $\sum^{i}_{n=0}$
 
 ##### `heappop()`
 
@@ -68,5 +99,16 @@ def heappop(A):
 ```
 
 ##### `heappush()`
+```python
+def(A, x)
+	A.append(x)
+	i = len(A)-1
+
+	while True:
+		if A(i) < A((i-1)//2)
+			A[i], A((i-1)//2) = A((i-1)//2), A(i)
+			i = (i-1)//2
+			return booooooooo
+```
 
 ---

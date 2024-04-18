@@ -1,7 +1,7 @@
 ---
 Created: 2023-07-24
-Type: "[[Programming MOC]]"
-Related:
+Type: "[[🏫 Programming MOC]]"
+Related: 
 ---
 ---
 ## What is Rust?

@@ -19,7 +19,6 @@ Type: Uni Note
 **Proprietà Serie:**
 - [[Segno di una serie]] 🔴
 - [[Operazioni tra Serie]] 🟡 (sistemare)  [link](https://www.youmath.it/lezioni/analisi-matematica/serie-numeriche/752-somma-di-due-serie-e-risultati-di-convergenza.html)
-- [[Completezza Decimale (Serie Numeriche)]] 🔴
 - [[Riordinamenti Serie]] 🔴
 
 **Criteri per serie a termini non negativi:**
@@ -38,7 +37,7 @@ Type: Uni Note
 
 **Serie di Potenze:**
 - [[Serie di Funzioni]]
-- [[Serie di Potenze]] 🟡 (chiedi se giusto, aggiungi esempi)
+- [[Serie di Potenze]] 🟡 aggiungi calcolo insieme di convergenza
 - [[Derivata di una Serie di Potenze]]
 
 **Funzioni Analitiche:**

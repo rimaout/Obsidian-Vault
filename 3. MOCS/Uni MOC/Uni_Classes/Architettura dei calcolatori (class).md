@@ -5,12 +5,12 @@ Related:
   - "[[Uni MOC]]"
 ---
 ---
-##### Basi
+##### Introduzione
 - [[Prestazioni CPU]] 🟢
 - [[Architettura di Von Neumann]] 🟢
-- [[Architetture CISC e RISC]] 🟡
+- [[Architetture CISC e RISC]] 🟢
 
-##### Mips
+##### MIPS
 - [[Architettura MIPS]]
 - [[MIPS Assembly MOC|Assembly MIPS ]]
 
@@ -25,5 +25,4 @@ Related:
 4. [[Arch 12 Mar]]
 5. [[Arch 15 Mar]]
 6. [[Arch 19 Mar]]
-
 7. [[Arch 12 Apr]]

@@ -4,7 +4,7 @@ Type: Uni Note
 Academic Year: 2022/2023
 Class:
   - "[[Progettazione Sistemi Digitali (class)]]"
-  - "[[Architettura (class)]]"
+  - "[[Architettura dei calcolatori (class)]]"
 Related:
   - "[[Codifica complemento a uno (CA1)]]"
   - "[[Codifica modulo e segno (MS)]]"

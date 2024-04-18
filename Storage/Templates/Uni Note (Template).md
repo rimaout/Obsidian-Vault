@@ -8,10 +8,10 @@ Completed: false
 ---
 ---
 
->[!info] Page Index
+>[!abstract] Index
 >1. 
 
->[!info] Related Content
+>[!abstract] Related
 >- 
 
 ---

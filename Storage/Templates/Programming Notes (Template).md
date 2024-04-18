@@ -7,7 +7,10 @@ Completed: false
 ---
 ---
 
->[!info] Index
+>[!abstract] Index
+>1. 
+
+>[!abstract] Related
 >1. 
 
 ---

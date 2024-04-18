@@ -1,13 +1,14 @@
 ---
 Created: 2024-03-26
-Type: "[[Programming MOC]]"
-Related:
+Type: "[[🏫 Programming MOC]]"
+Related: 
 ---
 ---
 
 
 **Basi:**
-- [[MIPS Directives]]
+- [[MIPS Comments]]
+- [[MIPS Directives]] 
 
 
 **Tipi di istruzioni:**

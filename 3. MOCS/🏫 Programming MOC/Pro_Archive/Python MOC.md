@@ -1,7 +1,7 @@
 ---
 Created: 2023-09-10
-Type: "[[Programming MOC]]"
-Related:
+Type: "[[🏫 Programming MOC]]"
+Related: 
 ---
 ---
 # Index
