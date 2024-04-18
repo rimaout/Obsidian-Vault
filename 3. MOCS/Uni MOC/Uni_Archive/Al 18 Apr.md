@@ -49,7 +49,7 @@ Le `linked list` sono composte composte da un oggetto che chiameremo nodo defini
 >	# Constructor
 >	def __init__(self, key=none, next=none):
 >		self.key = next
->		self.nest = next
+>		self.next = next
 >```
 
 >[!note] Creazione di una `linked list`
@@ -64,7 +64,7 @@ Le `linked list` sono composte composte da un oggetto che chiameremo nodo defini
 >		q = Nodo(e)
 >		q = q.next
 >	
->	return q
+>	return p
 >```
 
 >[!warning] Python Garbage Collector
@@ -75,6 +75,11 @@ Le `linked list` sono composte composte da un oggetto che chiameremo nodo defini
 ## Manipolazione delle `linked list`
 
 >[!note] Aggiungere elemento in testa
+>```python
+>def Insert0(p, x):
+>	p = 
+>```
+>
 
 >[!note] Aggiungere elemento in coda
 
