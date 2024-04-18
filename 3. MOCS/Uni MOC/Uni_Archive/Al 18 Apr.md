@@ -77,7 +77,7 @@ Le `linked list` sono composte composte da un oggetto che chiameremo nodo defini
 >[!note] Aggiungere elemento in testa
 >```python
 >def Insert0(p, x):
->	p = 
+>	
 >```
 >
 
