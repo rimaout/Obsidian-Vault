@@ -10,7 +10,7 @@ Completed: true
 >[!info] Index
 >1. [[#Introduction]]
 >2. [[#`li`|li]]
->3. [[#`lw`]]
+>3. [[#lw]] --> [[#lw|`lw`]]
 >4. [[#`lh`]]
 >5. [[#`lb`]]
 >6. [[#`la`]]
@@ -69,7 +69,7 @@ The `li` instruction performs the following steps:
 > This sequence first loads the upper 16 bits of the constant into `$t1`, and then ORs the lower 16 bits into `$t1`.
 
 ---
-### `lw`
+### lw
 
 It stands for "load word". It is used to **load a 32-bit word from memory into a register**. T
 
