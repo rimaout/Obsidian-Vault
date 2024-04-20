@@ -36,8 +36,45 @@
                   },
                   "pinned": true
                 }
+              },
+              {
+                "id": "68b6717644cf2b68",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/🏫 Programming MOC/Pro_Archive/Java switch Statement.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "6e1dac48a28fc9f7",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/🏫 Programming MOC/Pro_Archive/Java Strings.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "8f09b890380fdea3",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Programming MOC/Pro_Archive/Java String Builder.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
               }
-            ]
+            ],
+            "currentTab": 4
           }
         ],
         "direction": "vertical"
@@ -95,7 +132,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 360.5
+        "width": 360.5,
+        "collapsed": true
       },
       "right": {
         "id": "1599d9a7234429ed",
@@ -112,7 +150,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
+                    "file": "3. MOCS/Programming MOC/Pro_Archive/Java String Builder.md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "alphabetical",
@@ -129,7 +167,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
+                    "file": "3. MOCS/Programming MOC/Pro_Archive/Java String Builder.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -152,7 +190,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md"
+                    "file": "3. MOCS/Programming MOC/Pro_Archive/Java String Builder.md"
                   }
                 }
               },
@@ -220,7 +258,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
+                    "file": "3. MOCS/Programming MOC/Pro_Archive/Java String Builder.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -269,8 +307,8 @@
           "markdown-importer:Open format converter": false
         }
       },
-      "active": "7006fcbcb07b4fc0",
-      "mtime": "2024-04-16T15:24:43+02:00"
+      "active": "8f09b890380fdea3",
+      "mtime": "2024-04-20T10:30:14+02:00"
     },
     "Algoritmi": {
       "main": {
@@ -296,31 +334,31 @@
                 }
               },
               {
-                "id": "0f82d6cb477677b7",
+                "id": "4094f4915b8104af",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Al 15 Apr.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Al 18 Apr.md",
                     "mode": "source",
                     "source": false
                   }
                 }
               },
               {
-                "id": "ef3b0e5dc19a9a2c",
+                "id": "790896148169ae25",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Heap Sort.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/L34 Programmazione dei Calcolatori (C Linked Lists).md",
                     "mode": "source",
                     "source": false
                   }
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -349,7 +387,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "",
+                    "query": "tag:#Constructor",
                     "matchingCase": true,
                     "explainSearch": true,
                     "collapseAll": true,
@@ -397,7 +435,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Heap Sort.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Al 18 Apr.md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "alphabetical",
@@ -414,7 +452,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Heap Sort.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Al 18 Apr.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -437,7 +475,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Heap Sort.md"
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Al 18 Apr.md"
                   }
                 }
               },
@@ -505,7 +543,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Heap Sort.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Al 18 Apr.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -554,8 +592,8 @@
           "workspaces:Manage workspace layouts": false
         }
       },
-      "active": "ef3b0e5dc19a9a2c",
-      "mtime": "2024-04-16T09:00:13+02:00"
+      "active": "4094f4915b8104af",
+      "mtime": "2024-04-18T13:07:41+02:00"
     },
     "Calcolo Integrale": {
       "main": {
@@ -839,31 +877,43 @@
                 }
               },
               {
-                "id": "a7d08425fabb8c92",
+                "id": "6da3f7bb3a5f53f0",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Java MOC.md",
+                    "file": "3. MOCS/🏫 Programming MOC/Pro_Archive/MIPS Load Instructions.md",
                     "mode": "source",
                     "source": false
                   }
                 }
               },
               {
-                "id": "4570a337b39bee2d",
+                "id": "293dcb847c2d1ede",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Programming MOC/Pro_Archive/﻿﻿Java for-each Loop.md",
+                    "file": "3. MOCS/🏫 Programming MOC/Pro_Archive/MIPS Assembly MOC.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "de136c78314f1495",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Rappresentazione dell'istruzione MIPS.md",
                     "mode": "source",
                     "source": false
                   }
                 }
               }
             ],
-            "currentTab": 5
+            "currentTab": 6
           }
         ],
         "direction": "vertical"
@@ -940,7 +990,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "3. MOCS/Programming MOC/Pro_Archive/﻿﻿Java for-each Loop.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Rappresentazione dell'istruzione MIPS.md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "alphabetical",
@@ -957,7 +1007,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "3. MOCS/Programming MOC/Pro_Archive/﻿﻿Java for-each Loop.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Rappresentazione dell'istruzione MIPS.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -980,7 +1030,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "3. MOCS/Programming MOC/Pro_Archive/﻿﻿Java for-each Loop.md"
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Rappresentazione dell'istruzione MIPS.md"
                   }
                 }
               },
@@ -1060,8 +1110,8 @@
           "workspaces:Manage workspace layouts": false
         }
       },
-      "active": "4570a337b39bee2d",
-      "mtime": "2024-04-18T09:04:56+02:00"
+      "active": "de136c78314f1495",
+      "mtime": "2024-04-19T13:55:32+02:00"
     },
     "Default": {
       "main": {
@@ -1334,5 +1384,5 @@
       "mtime": "2024-04-12T11:18:47+02:00"
     }
   },
-  "active": "Algoritmi"
+  "active": "Architettura"
 }

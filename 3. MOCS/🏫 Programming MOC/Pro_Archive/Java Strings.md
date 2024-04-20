@@ -7,14 +7,21 @@ Related:
 Completed: false
 ---
 ---
-## Java Strings
+>[!abstract] Page Index
+>1. [[#Introduction]]
+>2. [[#How to create a string]]
+>3. [[#f string]]
+
+>[!abstract] Related
+>- [[Java Strings Methods]]
+>- [[Java String Builder]]
+
+---
+## Introduction
+
 In Java, a `String` is a class, not a primitive data type. It represents a sequence of characters. 
 
 Unlike primitive data types, a `String` is an object, which means it has [[Java Strings Methods|methods]] you can use, support for character strings is implemented via `java.lang.String class`.
-
->[!info] Index
->- [[Java Strings Methods]]
->- [[#How to create a string]]
 
 ---
 ## How to create a string
@@ -34,5 +41,21 @@ However, it's important to note that it's more common and simpler to create a `
 String str = "Hello";
 System.out.println(str);  // Outputs: Hello 
 ```
+
+---
+## f string
+
+Java you can use `String.format()` method which works similarly to [[Java Output#printf()|`printf()`]]. It allows you to create a new string using a format string and arguments. Here is an example:
+
+```java
+String name = "John";
+int age = 30;
+
+String formattedString = String.format("Hello, my name is %s and I am %d years old.", name, age);
+System.out.println(formattedString);
+```
+
+
+In this example, `%s` is a placeholder for a string, and `%d` is a placeholder for an integer. The variables `name` and `age` are inserted into these placeholders respectively.
 
 ---

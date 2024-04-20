@@ -77,9 +77,14 @@ Le `linked list` sono composte composte da un oggetto che chiameremo nodo defini
 >[!note] Aggiungere elemento in testa
 >```python
 >def Insert0(p, x):
+>	# p: puntatore 1° nodo lista
+>	# x: elemento da aggiungere in testa alla lista
 >	
+>	q = p
+>	p = Nodo(x, q)
+>	return p
 >```
->
+>**note:** scritto da me, non dal prof
 
 >[!note] Aggiungere elemento in coda
 

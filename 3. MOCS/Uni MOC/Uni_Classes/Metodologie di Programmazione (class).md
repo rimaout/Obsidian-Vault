@@ -26,5 +26,5 @@ Related:
 - [[Rappresentazione della memoria]]
 
 **Progetto Esame:**
-[[Idee progetto java]]
+- `jpanel` ti permette di avere una finestra 
 

@@ -11,10 +11,11 @@ Related:
 - [[MIPS Directives]] 
 
 
+
 **Tipi di istruzioni:**
-- [[MIPS Load Instructions]]
-- [[MIPS Math Instructions]]
-- [[MIPS Logic Instructions]]
+- [[MIPS Load Instructions]] + [[MIPS Move Instruction|move]] 🟢
+- [[MIPS Math Instructions]] 
+- [[MIPS Logic Instructions]] --> [[ori]]
 
 
 - [[MPIS Jump Instructions]]
