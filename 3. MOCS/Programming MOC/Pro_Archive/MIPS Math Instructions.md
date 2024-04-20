@@ -11,6 +11,7 @@ Completed: true
 >[!abstract] Index
 >1. [[#Addition]]
 >2. [[#Subtraction]]
+>3. [[#Other]]
 
 >[!abstract] Related
 >1. [[MIPS Assembly MOC]]
@@ -116,8 +117,7 @@ addi $t1, $t2, -10
 If you're able to use `subi` in your Mars IDE, it's possible that it's a pseudo-instruction or a custom instruction added by the IDE or a plugin. However, `subi` is not part of the standard MIPS instruction set.
 
 ---
-
-## other
+## Other
 
 >[!note]- `mul`
 >

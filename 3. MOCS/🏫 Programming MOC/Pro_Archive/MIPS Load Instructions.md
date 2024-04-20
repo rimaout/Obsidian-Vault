@@ -9,7 +9,7 @@ Completed: true
 
 >[!info] Index
 >1. [[#Introduction]]
->2. [[#`li`]]
+>2. [[#`li`|li]]
 >3. [[#`lw`]]
 >4. [[#`lh`]]
 >5. [[#`lb`]]
@@ -38,7 +38,7 @@ Load instructions are a type of [[Rappresentazione dell'istruzione MIPS#I-type|I
 | `lwr`       | `Load Word Right`. Used for unaligned memory access.                                                  |
 
 ---
-### `li` 
+### `li 
 
 The `li` instruction stands for "load immediate". It is used to **load a constant value into a register**. Like `move`, `li` is also a pseudo-instruction. The assembler translates it into a combination of `lui` (load upper immediate) and `ori` (or immediate) instructions if the constant is larger than 16 bits.
 

@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Programming MOC/Pro_Archive/MIPS Math Instructions.md",
+                "file": "3. MOCS/🏫 Programming MOC/Pro_Archive/MIPS Load Instructions.md",
                 "mode": "source",
                 "source": false
               }
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. MOCS/Programming MOC/Pro_Archive/MIPS Math Instructions.md",
+                "file": "3. MOCS/🏫 Programming MOC/Pro_Archive/MIPS Load Instructions.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -128,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. MOCS/Programming MOC/Pro_Archive/MIPS Math Instructions.md",
+                "file": "3. MOCS/🏫 Programming MOC/Pro_Archive/MIPS Load Instructions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. MOCS/Programming MOC/Pro_Archive/MIPS Math Instructions.md"
+                "file": "3. MOCS/🏫 Programming MOC/Pro_Archive/MIPS Load Instructions.md"
               }
             }
           },
@@ -234,12 +234,13 @@
   "active": "9e6a5f88899650a0",
   "lastOpenFiles": [
     "3. MOCS/🏫 Programming MOC/Pro_Archive/MIPS Assembly MOC.md",
+    "3. MOCS/🏫 Programming MOC/🏫 Programming MOC.md",
+    "3. MOCS/Programming MOC/Pro_Archive/MIPS Math Instructions.md",
     "3. MOCS/Uni MOC/Uni_Classes/Architettura dei calcolatori (class).md",
     "3. MOCS/Programming MOC/Pro_Archive/MIPS Move Instruction.md",
     "3. MOCS/Uni MOC/Uni_Archive/Rappresentazione dell'istruzione MIPS.md",
     "3. MOCS/🏫 Programming MOC/Pro_Archive/MIPS Load Instructions.md",
     "To-Do/ori.md",
-    "3. MOCS/Programming MOC/Pro_Archive/MIPS Math Instructions.md",
     "3. MOCS/Programming MOC/Pro_Archive/Java String Builder.md",
     "3. MOCS/🏫 Programming MOC/Pro_Archive/Java Strings.md",
     "3. MOCS/🏫 Programming MOC/Pro_Archive/Java Strings Methods.md",
@@ -264,7 +265,6 @@
     "3. MOCS/Uni MOC/Uni_Classes/Programmazione Calcolatori (Class).md",
     "3. MOCS/🏫 Programming MOC/Pro_Archive/Programmazione ad Oggetti.md",
     "3. MOCS/Uni MOC/Uni_Archive/L2 Fondamenti di programmazione.md",
-    "3. MOCS/🏫 Programming MOC/Pro_Archive/Python Dictionaries in C.md",
     "3. MOCS/Programming MOC/Pro_Archive",
     "3. MOCS/Programming MOC",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240308112921.png",
