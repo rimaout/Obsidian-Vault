@@ -58,7 +58,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -135,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Proprietà Integrali.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Primitive.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -152,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Proprietà Integrali.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Primitive.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Proprietà Integrali.md"
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Primitive.md"
               }
             }
           },
@@ -255,10 +255,10 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "05b111fe9fd55fbc",
+  "active": "b76dff59756cf0cf",
   "lastOpenFiles": [
-    "3. MOCS/Uni MOC/Uni_Classes/Calcolo Integrale (class).md",
     "3. MOCS/Uni MOC/Uni_Archive/Proprietà Integrali.md",
+    "3. MOCS/Uni MOC/Uni_Classes/Calcolo Integrale (class).md",
     "3. MOCS/Uni MOC/Uni_Archive/Primitive.md",
     "3. MOCS/Uni MOC/Uni_Archive/Operazioni tra Serie.md",
     "3. MOCS/Uni MOC/Uni_Archive/Derivata di una Serie di Potenze.md",
