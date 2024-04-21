@@ -839,81 +839,8 @@
                   },
                   "pinned": true
                 }
-              },
-              {
-                "id": "d94967e7f45792ec",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/🏫 Programming MOC/Pro_Archive/MIPS Load Instructions.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "4f0e5117e6b24efe",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Programming MOC/Pro_Archive/MIPS Math Instructions.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "c6ca79df16f0c7bc",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Rappresentazione dell'istruzione MIPS.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "6da3f7bb3a5f53f0",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/🏫 Programming MOC/Pro_Archive/MIPS Load Instructions.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "293dcb847c2d1ede",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/🏫 Programming MOC/Pro_Archive/MIPS Assembly MOC.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "de136c78314f1495",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Rappresentazione dell'istruzione MIPS.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
               }
-            ],
-            "currentTab": 6
+            ]
           }
         ],
         "direction": "vertical"
@@ -990,7 +917,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Rappresentazione dell'istruzione MIPS.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Classes/Architettura dei calcolatori (class).md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "alphabetical",
@@ -1007,7 +934,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Rappresentazione dell'istruzione MIPS.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Classes/Architettura dei calcolatori (class).md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1030,7 +957,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Rappresentazione dell'istruzione MIPS.md"
+                    "file": "3. MOCS/Uni MOC/Uni_Classes/Architettura dei calcolatori (class).md"
                   }
                 }
               },
@@ -1110,8 +1037,8 @@
           "workspaces:Manage workspace layouts": false
         }
       },
-      "active": "de136c78314f1495",
-      "mtime": "2024-04-19T13:55:32+02:00"
+      "active": "bcf89c24c29f7f00",
+      "mtime": "2024-04-20T16:20:55+02:00"
     },
     "Default": {
       "main": {
@@ -1123,31 +1050,18 @@
             "type": "tabs",
             "children": [
               {
-                "id": "97c8dd396cba3cb6",
+                "id": "79421583157ce626",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Tech MOC/Tech_Archive/Privacy.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "bf03c86a686193ca",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Logaritmi.md",
+                    "file": "3. MOCS/Personal MOC/Personal_Archive/Perché  la Russia (e la Cina) vogliono testare l'articolo 5 della nato.md",
                     "mode": "source",
                     "source": false
                   }
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "vertical"
@@ -1176,7 +1090,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "logaritmi",
+                    "query": "",
                     "matchingCase": true,
                     "explainSearch": true,
                     "collapseAll": true,
@@ -1201,12 +1115,12 @@
                   "state": {}
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "horizontal",
-        "width": 360.5
+        "width": 360.5,
+        "collapsed": true
       },
       "right": {
         "id": "1599d9a7234429ed",
@@ -1223,7 +1137,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Logaritmi.md",
+                    "file": "3. MOCS/Personal MOC/Personal_Archive/Perché  la Russia (e la Cina) vogliono testare l'articolo 5 della nato.md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "alphabetical",
@@ -1240,7 +1154,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Logaritmi.md",
+                    "file": "3. MOCS/Personal MOC/Personal_Archive/Perché  la Russia (e la Cina) vogliono testare l'articolo 5 della nato.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1263,7 +1177,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Logaritmi.md"
+                    "file": "3. MOCS/Personal MOC/Personal_Archive/Perché  la Russia (e la Cina) vogliono testare l'articolo 5 della nato.md"
                   }
                 }
               },
@@ -1331,7 +1245,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Logaritmi.md",
+                    "file": "3. MOCS/Personal MOC/Personal_Archive/Perché  la Russia (e la Cina) vogliono testare l'articolo 5 della nato.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -1380,9 +1294,9 @@
           "markdown-importer:Open format converter": false
         }
       },
-      "active": "bf03c86a686193ca",
-      "mtime": "2024-04-12T11:18:47+02:00"
+      "active": "79421583157ce626",
+      "mtime": "2024-04-20T15:57:47+02:00"
     }
   },
-  "active": "Architettura"
+  "active": "Calcolo Integrale"
 }

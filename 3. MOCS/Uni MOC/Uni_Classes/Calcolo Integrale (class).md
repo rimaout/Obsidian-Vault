@@ -4,8 +4,7 @@ Type: Uni Note
 ---
 ---
 
-[[Per Esonero]]
-
+## 1° Parte (Serie)
 **Basi:**
 - [[Successioni Reali]] --> [[Definizione Successione infinitesima]]
 
@@ -36,9 +35,19 @@ Type: Uni Note
 - [[Taylor con resto di Lagrange]] 🟢
 
 **Serie di Potenze:**
-- [[Serie di Funzioni]]
+- [[Serie di Funzioni]] 🔴
 - [[Serie di Potenze]] 🟡 aggiungi calcolo insieme di convergenza
-- [[Derivata di una Serie di Potenze]]
+- [[Derivata di una Serie di Potenze]] 🟡
 
 **Funzioni Analitiche:**
-- [[Funzioni Analitiche]]
+- [[Funzioni Analitiche]] 🔴
+
+---
+## 2° parte (Integrali)
+
+- [[Definizione di Integrale]]
+- [[Primitive]]
+- [[Proprietà Integrali]]
+
+
+---

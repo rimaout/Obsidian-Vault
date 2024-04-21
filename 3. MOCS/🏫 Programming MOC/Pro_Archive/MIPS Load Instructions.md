@@ -9,19 +9,20 @@ Completed: true
 
 >[!info] Index
 >1. [[#Introduction]]
->2. [[#`li`|li]]
->3. [[#lw]] --> [[#lw|`lw`]]
->4. [[#`lh`]]
->5. [[#`lb`]]
->6. [[#`la`]]
->7. [[#`lui`]]
->8. [[#`lwr` and `lwl`]]
+>2. [[#li]]
+>3. [[#lw]]
+>4. [[#lh]]
+>5. [[#lb]]
+>6. [[#la]]
+>7. [[#lui]]
+>8. [[#lwr and lwl]]
+>9. [[#lbu and lhu]]
 
 >[!info] Related
 >- [[MIPS Assembly MOC]]
 
 ---
-## Introduction
+### Introduction
 
 Load instructions are a type of [[Rappresentazione dell'istruzione MIPS#I-type|I-type]] (immediate) MIPS instructions, they are used to 
 
@@ -38,7 +39,7 @@ Load instructions are a type of [[Rappresentazione dell'istruzione MIPS#I-type|I
 | `lwr`       | `Load Word Right`. Used for unaligned memory access.                                                  |
 
 ---
-### `li 
+### li 
 
 The `li` instruction stands for "load immediate". It is used to **load a constant value into a register**. Like `move`, `li` is also a pseudo-instruction. The assembler translates it into a combination of `lui` (load upper immediate) and `ori` (or immediate) instructions if the constant is larger than 16 bits.
 
@@ -92,7 +93,6 @@ The `lw` command performs the following steps:
  >   numbers: .word 1, 2, 3, 4, 5
 >
 >.text
->main:
 >    lw $t1, numbers  # Load the first number (at offset 0)
 >    lw $t1, 0(numbers)  # Load the first number (at offset 0)
 >    lw $t2, 4(numbers)  # Load the second number (at offset 4)
@@ -104,7 +104,7 @@ The `lw` command performs the following steps:
 >`lw $t2, $t4` it's not valid, infact in MIPS you can't load a word form a register to a other register instead use `move $t1, $t4` ([[MIPS Move Instruction]])
 
 ---
-### `lh`
+### lh
 
 The `lh` instruction stands for "load halfword". It is used to **load a 16-bit halfword from memory into a register**. Unlike `li`, `move`, and `la`, `lh` is not a pseudo-instruction.
 
@@ -137,7 +137,7 @@ The `lh` instruction performs the following steps:
 > The `lh` instruction sign-extends the fetched halfword to 32 bits. This means that if the most significant bit of the halfword is 1 (indicating a negative number in two's complement representation), the upper 16 bits of the register will be filled with 1's. If the most significant bit of the halfword is 0, the upper 16 bits of the register will be filled with 0's.
 
 ---
-### `lb`
+### lb
 
 The `lb` instruction stands for "load byte". It is used to **load an 8-bit byte from memory into a register**. Like `lh`, `lb` is not a pseudo-instruction.
 
@@ -171,7 +171,7 @@ The `lb` instruction performs the following steps:
 > The `lb` instruction sign-extends the fetched byte to 32 bits. This means that if the most significant bit of the byte is 1 (indicating a negative number in two's complement representation), the upper 24 bits of the register will be filled with 1's. If the most significant bit of the byte is 0, the upper 24 bits of the register will be filled with 0's.
 
 ---
-### `la`
+### la
 
 The `la` instruction stands for "load address". It is used to **load the address of a label into a register**. Like `li` and `move`, `la` is also a pseudo-instruction. The assembler translates it into a combination of `lui` (load upper immediate) and `ori` (or immediate) instructions.
 
@@ -208,7 +208,7 @@ The `la` instruction performs the following steps:
 > This sequence first loads the upper 16 bits of the address into `$t1`, and then ORs the lower 16 bits into `$t1`. The actual values for `upper16(numbers)` and `lower16(numbers)` depend on the address of the label `numbers`.
 
 ---
-### `lui`
+### lui
 
 The `lui` instruction stands for "load upper immediate". It is used to **load a 16-bit constant into the upper 16 bits of a register**, with the lower 16 bits being filled with zeros. Unlike `li`, `move`, and `la`, `lui` is not a pseudo-instruction.
 
@@ -236,7 +236,7 @@ The `lui` instruction performs the following steps:
 > The `lui` instruction is often used in combination with other instructions to form larger constants or addresses. For example, to load a 32-bit constant into a register, you could use `lui` to load the upper 16 bits and `ori` to load the lower 16 bits. Similarly, to load the address of a label into a register, you could use `lui` to load the upper 16 bits of the address and `ori` to load the lower 16 bits.
 
 ---
-##### `lwr` and `lwl`
+### lwr and lwl
 
 The `lwr` (load word right) and `lwl` (load word left) instructions are used to **load a word from memory into a register in a byte-addressable machine**. These instructions are used to handle word data that is not aligned on a word boundary.
 
@@ -275,7 +275,7 @@ The difference between `lwr` and `lwl` is in the way they merge the fetched 
 > The `lwr` and `lwl` instructions are used to handle word data that is not aligned on a word boundary. They are often used in pairs to load a full word from an unaligned address. The `lwl` instruction loads the leftmost bytes of the word, and the `lwr` instruction loads the rightmost bytes of the word.
 
 ---
-##### `lbu` and `lhu`
+### lbu and lhu
 
 The `lbu` (load byte unsigned) and `lhu` (load halfword unsigned) instructions are used to **load a byte or halfword from memory into a register**, respectively. Unlike `lb` and `lh`, `lbu` and `lhu` do not sign-extend the loaded value, they zero-extend it.
 

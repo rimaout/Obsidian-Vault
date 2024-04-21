@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "086fa48ccb045afd",
+        "id": "c955f70ef39e33ef",
         "type": "tabs",
         "children": [
           {
-            "id": "bcf89c24c29f7f00",
+            "id": "e297cb9ac14bcafd",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Classes/Architettura dei calcolatori (class).md",
+                "file": "3. MOCS/Uni MOC/Uni_Classes/Calcolo Integrale (class).md",
                 "mode": "source",
                 "source": false
               },
@@ -22,12 +22,36 @@
             }
           },
           {
-            "id": "9e6a5f88899650a0",
+            "id": "05b111fe9fd55fbc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/🏫 Programming MOC/Pro_Archive/MIPS Load Instructions.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Proprietà Integrali.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b76dff59756cf0cf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Primitive.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "03cc489e163501ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Operazioni tra Serie.md",
                 "mode": "source",
                 "source": false
               }
@@ -63,7 +87,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "java for",
+                "query": "foru",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -93,7 +117,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 345.504789352417,
+    "width": 293.504789352417,
     "collapsed": true
   },
   "right": {
@@ -111,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. MOCS/🏫 Programming MOC/Pro_Archive/MIPS Load Instructions.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Proprietà Integrali.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -128,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. MOCS/🏫 Programming MOC/Pro_Archive/MIPS Load Instructions.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Proprietà Integrali.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. MOCS/🏫 Programming MOC/Pro_Archive/MIPS Load Instructions.md"
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Proprietà Integrali.md"
               }
             }
           },
@@ -231,47 +255,47 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "9e6a5f88899650a0",
+  "active": "05b111fe9fd55fbc",
   "lastOpenFiles": [
+    "3. MOCS/Uni MOC/Uni_Classes/Calcolo Integrale (class).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Proprietà Integrali.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Primitive.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Operazioni tra Serie.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Derivata di una Serie di Potenze.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Definizione di Integrale.md",
+    "3. MOCS/Uni MOC/Uni_Archive/MIPS_Instruction_Set.pdf",
+    "3. MOCS/Uni MOC/Uni_Archive/Architettura MIPS.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Registri MIPS.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Strutta base dell'architettura MIPS.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Rappresentazione dell'istruzione MIPS.md",
+    "3. MOCS/Uni MOC/Uni_Classes/Architettura dei calcolatori (class).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Architetture CISC e RISC.md",
     "3. MOCS/🏫 Programming MOC/Pro_Archive/MIPS Assembly MOC.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240420164704.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Formula di Taylor.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Serie di Taylor.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Per Esonero.md",
+    "3. MOCS/🏫 Programming MOC/Pro_Archive/MIPS Load Instructions.md",
+    "3. MOCS/Programming MOC/Pro_Archive/MIPS Syscalls.md",
+    "3. MOCS/Personal MOC/Personal_Archive/Perché  la Russia (e la Cina) vogliono testare l'articolo 5 della nato.md",
+    "3. MOCS/Tech MOC/Tech_Archive/Privacy.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Logaritmi.md",
     "3. MOCS/🏫 Programming MOC/🏫 Programming MOC.md",
     "3. MOCS/Programming MOC/Pro_Archive/MIPS Math Instructions.md",
-    "3. MOCS/Uni MOC/Uni_Classes/Architettura dei calcolatori (class).md",
     "3. MOCS/Programming MOC/Pro_Archive/MIPS Move Instruction.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Rappresentazione dell'istruzione MIPS.md",
-    "3. MOCS/🏫 Programming MOC/Pro_Archive/MIPS Load Instructions.md",
     "To-Do/ori.md",
     "3. MOCS/Programming MOC/Pro_Archive/Java String Builder.md",
-    "3. MOCS/🏫 Programming MOC/Pro_Archive/Java Strings.md",
-    "3. MOCS/🏫 Programming MOC/Pro_Archive/Java Strings Methods.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Java MOC.md",
-    "3. MOCS/🏫 Programming MOC/Pro_Archive/Java switch Statement.md",
-    "3. MOCS/🏫 Programming MOC/Pro_Archive/Java Arithmetic Operators.md",
-    "3. MOCS/🏫 Programming MOC/Pro_Archive/Java input/Java Input.md",
-    "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
-    "3. MOCS/🏫 Programming MOC/Pro_Archive/Java access modifiers.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Architettura MIPS.md",
-    "3. MOCS/Programming MOC/Pro_Archive/﻿﻿Java for-each Loop.md",
-    "3. MOCS/🏫 Programming MOC/Pro_Archive/Java Operators.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Al 18 Apr.md",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240418095152.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240418095217.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240418095205.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240418094501.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240418094424.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240418093858.png",
-    "3. MOCS/Uni MOC/Uni_Archive/L34 Programmazione dei Calcolatori (C Linked Lists).md",
-    "3. MOCS/Uni MOC/Uni_Classes/Introduzione agli Algoritmi (class).md",
-    "3. MOCS/Uni MOC/Uni_Classes/Programmazione Calcolatori (Class).md",
-    "3. MOCS/🏫 Programming MOC/Pro_Archive/Programmazione ad Oggetti.md",
-    "3. MOCS/Uni MOC/Uni_Archive/L2 Fondamenti di programmazione.md",
     "3. MOCS/Programming MOC/Pro_Archive",
     "3. MOCS/Programming MOC",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240308112921.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240416154612.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240416100942.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240416100837.png",
-    "3. MOCS/Uni MOC/Uni_Archive/MIPS_Instruction_Set.pdf",
     "3. MOCS/Uni MOC/Uni_Archive/Java_printf_method_quick_reference.pdf",
     "3. MOCS/🏫 Programming MOC/Pro_Archive/Java input",
     "3. MOCS/Programming MOC/Pro_Archive/Recording 20240307171929.webm",
