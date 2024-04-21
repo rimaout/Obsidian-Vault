@@ -1,7 +1,7 @@
 ---
 Created: 2024-04-20
 Type: Programming Note
-Programming Language: "[[👨‍💻 Programming MOC]]"
+Programming Language: "[[Programming MOC]]"
 Related:
   - "[[MIPS Assembly MOC]]"
 Completed: true

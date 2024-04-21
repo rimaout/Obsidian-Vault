@@ -1,6 +1,6 @@
 ---
 Created: 2024-03-26
-Type: "[[👨‍💻 Programming MOC]]"
+Type: "[[Programming MOC]]"
 Related:
   - "[[Architettura dei calcolatori (class)]]"
   - "[[Architettura MIPS]]"

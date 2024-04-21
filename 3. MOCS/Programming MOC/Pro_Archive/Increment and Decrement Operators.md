@@ -1,4 +1,4 @@
-Tag: [[👨‍💻 Programming MOC]], [[C MOC]]
+Tag: [[Programming MOC]], [[C MOC]]
 
 ---
 

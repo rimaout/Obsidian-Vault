@@ -68,6 +68,9 @@ Upload to GitHub:
 
 3. run `npx quartz sync --no-pull` to upload to Github
 
+**fix last modified dates**
+- if you host 
+
 ### Git hub pages
 - Go to Github
 - Open quartz repository

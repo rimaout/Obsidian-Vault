@@ -47,5 +47,6 @@ Type: Uni Note
 - [[Definizione di Integrale]]
 - [[Primitive]]
 - [[Proprietà Integrali]]
+- [[Integrazione per Parti]]
 
 ---

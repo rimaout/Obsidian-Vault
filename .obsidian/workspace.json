@@ -14,23 +14,11 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/🏫 Uni MOC/Uni_Classes/Calcolo Integrale (class).md",
+                "file": "3. MOCS/Uni MOC/Uni_Classes/Calcolo Integrale (class).md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true
-            }
-          },
-          {
-            "id": "dc84dc35e8b561b0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Tech MOC/Tech_Archive/Quartz Setup.md",
-                "mode": "source",
-                "source": false
-              }
             }
           },
           {
@@ -39,14 +27,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/🏫 Uni MOC/Uni_Archive/Primitive di Derivate di Funzioni Composte.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Primitive di Derivate di Funzioni Composte.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "05cb0647669413fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. MOCS/Uni MOC/Uni MOC.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. MOCS/Tech MOC/Tech_Archive/Quartz Setup.md",
+                "file": "3. MOCS/Uni MOC/Uni MOC.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. MOCS/Tech MOC/Tech_Archive/Quartz Setup.md",
+                "file": "3. MOCS/Uni MOC/Uni MOC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. MOCS/Tech MOC/Tech_Archive/Quartz Setup.md"
+                "file": "3. MOCS/Uni MOC/Uni MOC.md"
               }
             }
           },
@@ -241,53 +241,53 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "dc84dc35e8b561b0",
+  "active": "ba7d0379bd9741ad",
   "lastOpenFiles": [
-    "3. MOCS/Tech MOC/Tech_Archive/quartz layout config.md",
-    "To-Do/quartz theme.md",
+    "3. MOCS/Programming MOC/Programming MOC.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Sistemi di Disequazioni.md",
+    "3. MOCS/Uni MOC/Uni_Classes/Matematica 0 (class).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Valore assoluto.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Media ponderata.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Logaritmi.md",
+    "3. MOCS/Uni MOC/Uni MOC.md",
+    "3. MOCS/Uni MOC/Uni_Classes/Progettazione Sistemi Digitali (class).md",
     "3. MOCS/Tech MOC/Tech_Archive/Quartz Setup.md",
+    "To-Do/quartz theme.md",
+    "3. MOCS/Uni MOC/Uni_Classes/Calcolo Integrale (class).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Primitive di Derivate di Funzioni Composte.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Primitive.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Primitive Elementari.md",
+    "3. MOCS/Tech MOC/Tech_Archive/quartz layout config.md",
     "3. MOCS/Tech MOC/Tech MOC.md",
-    "3. MOCS/🏫 Uni MOC/🏫 Uni MOC.md",
-    "3. MOCS/👨‍💻 Programming MOC/👨‍💻 Programming MOC.md",
-    "3. MOCS/👨‍💻 Programming MOC/Pro_Archive/﻿﻿Java for-each Loop.md",
+    "3. MOCS/Programming MOC/Pro_Archive/﻿﻿Java for-each Loop.md",
     "3. MOCS/Personal MOC/Personal MOC.md",
-    "3. MOCS/🏫 Uni MOC/Uni_Archive/Primitive Elementari.md",
-    "3. MOCS/🏫 Uni MOC/Uni_Archive/Pasted image 20240421190728.png",
-    "3. MOCS/🏫 Uni MOC/Uni_Archive/Primitive di Derivate di Funzioni Composte.md",
-    "3. MOCS/🏫 Uni MOC/Uni_Classes/Calcolo Integrale (class).md",
-    "3. MOCS/🏫 Uni MOC/Uni_Archive/Pasted image 20240421184821.png",
-    "3. MOCS/🏫 Uni MOC/Uni_Archive/Pasted image 20240421182553.png",
-    "3. MOCS/🏫 Uni MOC/Uni_Archive/Pasted image 20240421181612.png",
-    "3. MOCS/🏫 Uni MOC/Uni_Archive/Primitive.md",
-    "3. MOCS/🏫 Uni MOC/Uni_Archive/Pasted image 20240421181129.png",
-    "3. MOCS/🏫 Uni MOC/Uni_Archive/Definizione di Primitiva.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240421190728.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240421184821.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240421182553.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240421181612.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240421181129.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Definizione di Primitiva.md",
     "To-Do/Definizione di Primitiva.md",
-    "3. MOCS/🏫 Uni MOC/Uni_Archive/Operazioni tra derivate prime.md",
-    "3. MOCS/🏫 Uni MOC/Uni_Archive/Derivate.md",
-    "3. MOCS/🏫 Uni MOC/Uni_Archive/Utilizzi delle derivate.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Operazioni tra derivate prime.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Derivate.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Utilizzi delle derivate.md",
     "test.md",
     "Index.md",
-    "3. MOCS/🏫 Uni MOC/Uni_Archive/Proprietà Integrali.md",
-    "3. MOCS/🏫 Uni MOC/Uni_Archive/Operazioni tra Serie.md",
-    "3. MOCS/🏫 Uni MOC/Uni_Archive/Derivata di una Serie di Potenze.md",
-    "3. MOCS/🏫 Uni MOC/Uni_Archive/Definizione di Integrale.md",
-    "3. MOCS/🏫 Uni MOC/Uni_Archive/MIPS_Instruction_Set.pdf",
-    "3. MOCS/🏫 Uni MOC/Uni_Archive/Architettura MIPS.md",
-    "3. MOCS/🏫 Uni MOC/Uni_Archive/Registri MIPS.md",
-    "3. MOCS/🏫 Uni MOC/Uni_Archive/Strutta base dell'architettura MIPS.md",
-    "3. MOCS/🏫 Uni MOC/Uni_Archive/Pasted image 20240420164704.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Proprietà Integrali.md",
+    "3. MOCS/Uni MOC/Uni_Archive/MIPS_Instruction_Set.pdf",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240420164704.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240418095152.png",
-    "3. MOCS/🏫 Uni MOC/Uni_Archive/Pasted image 20240418095217.png",
-    "3. MOCS/🏫 Uni MOC/Uni_Archive/Pasted image 20240418095205.png",
-    "3. MOCS/🏫 Uni MOC/Uni_Archive/Pasted image 20240418094501.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240418095217.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240418095205.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240418094501.png",
     "3. MOCS/Programming MOC/Pro_Archive",
     "3. MOCS/Programming MOC",
     "3. MOCS/Uni MOC/Uni_Archive/Java_printf_method_quick_reference.pdf",
-    "3. MOCS/👨‍💻 Programming MOC/Pro_Archive/Java input",
+    "3. MOCS/Programming MOC/Pro_Archive/Java input",
     "3. MOCS/Programming MOC/Pro_Archive/Recording 20240307171929.webm",
     "Storage/Files/Media",
-    "3. MOCS/🏫 Uni MOC/Uni_Storage/Matematica 0.pdf",
-    "3. MOCS/🏫 Uni MOC/Uni_Storage/Progettazione sistemi digitali appunti completi Giada.pdf",
+    "3. MOCS/Uni MOC/Uni_Storage/Matematica 0.pdf",
+    "3. MOCS/Uni MOC/Uni_Storage/Progettazione sistemi digitali appunti completi Giada.pdf",
     "Spaces/Home",
     "Buy List/Skin Care Buy List.canvas",
     "Buy List/Clothing Buy List.canvas",

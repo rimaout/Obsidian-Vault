@@ -1,6 +1,6 @@
 ---
 Created: 2024-03-08
-Type: "[[👨‍💻 Programming MOC]]"
+Type: "[[Programming MOC]]"
 Programming Language: "[[Java MOC]]"
 Related: 
 Completed: false

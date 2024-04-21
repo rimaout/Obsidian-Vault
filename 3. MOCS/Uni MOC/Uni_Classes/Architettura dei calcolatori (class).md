@@ -2,7 +2,7 @@
 Academic Year: 2023/2024
 Type: Uni Note
 Related:
-  - "[[🏫 Uni MOC]]"
+  - "[[Uni MOC]]"
 ---
 ---
 ##### Introduzione
