@@ -1,7 +1,7 @@
 ---
 Created: 2023-09-24
 Type: Programming Note
-Programming Language: "[[🏫 Programming MOC]]"
+Programming Language: "[[👨‍💻 Programming MOC]]"
 Related: 
 Completed: true
 ---

@@ -3,7 +3,6 @@ Academic Year: 2023/2024
 Type: Uni Note
 ---
 ---
-
 ## 1° Parte (Serie)
 **Basi:**
 - [[Successioni Reali]] --> [[Definizione Successione infinitesima]]
@@ -48,6 +47,5 @@ Type: Uni Note
 - [[Definizione di Integrale]]
 - [[Primitive]]
 - [[Proprietà Integrali]]
-
 
 ---

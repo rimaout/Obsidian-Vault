@@ -1,5 +1,5 @@
 ---
-Type: "[[Uni MOC]]"
+Type: "[[🏫 Uni MOC]]"
 Academic Year: 2022/2023
 Related:
   - "[[Python MOC]]"

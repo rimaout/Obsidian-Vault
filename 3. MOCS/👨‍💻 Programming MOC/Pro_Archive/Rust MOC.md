@@ -1,6 +1,6 @@
 ---
 Created: 2023-07-24
-Type: "[[🏫 Programming MOC]]"
+Type: "[[👨‍💻 Programming MOC]]"
 Related: 
 ---
 ---

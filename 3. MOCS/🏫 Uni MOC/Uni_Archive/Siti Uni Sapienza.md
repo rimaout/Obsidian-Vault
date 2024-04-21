@@ -1,6 +1,6 @@
 ---
 Related:
-  - "[[Uni MOC]]"
+  - "[[🏫 Uni MOC]]"
 ---
 ---
 **Progettazione di sistemi digitali:** [[Progettazione Sistemi Digitali (class)|MOC]]

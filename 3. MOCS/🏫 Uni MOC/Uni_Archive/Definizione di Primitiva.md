@@ -1,11 +1,12 @@
 ---
-Created: 2024-04-20
+Created: 2024-04-21
 Type: Uni Note
 Class:
   - "[[Calcolo Integrale (class)]]"
 Academic Year: 2023/2024
 Related:
   - "[[Integrali]]"
+  - "[[Primitive]]"
 Completed: false
 ---
 ---
@@ -14,12 +15,9 @@ Completed: false
 >1. [[#Definizione]]
 >2. [[#Risoluzione di integrali con Primitive]]
 >3. [[#Notazioni]]
->4. [[#Primitive Elementari]]
-
->[!abstract] Related
->- 
 
 ---
+
 ## Definizione
 
 >[!note] Definizione di Primitiva 1
@@ -78,17 +76,3 @@ Completed: false
 >$$
 
 ---
-## Primitive Elementari
-
-| $f(x)$              | F(x)                                         |
-| ------------------- | -------------------------------------------- |
-| $\cos x$            | $\sin x$                                     |
-| $\sin x$            | $-\cos x$                                    |
-| $e^{x}$             | $e^{x}$                                      |
-| $a^{x}$             | $\frac{a^{x}}{\ln a}$                        |
-| $x^{n}$             | $\frac{x^{n+1}}{n+1}\ \ \ \forall n \not=-1$ |
-| $1/x$               | $\ln \mid x\mid$                             |
-| $\frac{1}{1+x^{2}}$ | $\text{arctg}\ x$                            |
-
->[!warning] oss
->Sono le inverse di una derivata
