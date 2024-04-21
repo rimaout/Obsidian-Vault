@@ -92,4 +92,3 @@ Completed: false
 
 >[!warning] oss
 >Sono le inverse di una derivata
-

@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Primitive.md",
+                "file": "test.md",
                 "mode": "source",
                 "source": false
               }
@@ -112,13 +112,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 293.504789352417,
-    "collapsed": true
+    "width": 293.504789352417
   },
   "right": {
     "id": "1599d9a7234429ed",
@@ -135,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Primitive.md",
+                "file": "test.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -152,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Primitive.md",
+                "file": "test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Primitive.md"
+                "file": "test.md"
               }
             }
           },
@@ -257,9 +255,11 @@
   },
   "active": "b76dff59756cf0cf",
   "lastOpenFiles": [
+    "3. MOCS/Uni MOC/Uni_Archive/Primitive.md",
+    "Index.md",
+    "test.md",
     "3. MOCS/Uni MOC/Uni_Archive/Proprietà Integrali.md",
     "3. MOCS/Uni MOC/Uni_Classes/Calcolo Integrale (class).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Primitive.md",
     "3. MOCS/Uni MOC/Uni_Archive/Operazioni tra Serie.md",
     "3. MOCS/Uni MOC/Uni_Archive/Derivata di una Serie di Potenze.md",
     "3. MOCS/Uni MOC/Uni_Archive/Definizione di Integrale.md",
@@ -283,8 +283,6 @@
     "3. MOCS/🏫 Programming MOC/🏫 Programming MOC.md",
     "3. MOCS/Programming MOC/Pro_Archive/MIPS Math Instructions.md",
     "3. MOCS/Programming MOC/Pro_Archive/MIPS Move Instruction.md",
-    "To-Do/ori.md",
-    "3. MOCS/Programming MOC/Pro_Archive/Java String Builder.md",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240418095152.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240418095217.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240418095205.png",
