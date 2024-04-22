@@ -15,5 +15,7 @@ Completed: false
 
 ---
 
-[[ricerca base]]
-[[ricerca binaria]]
+- [[ricerca base]]
+- [[ricerca binaria]]
+
+

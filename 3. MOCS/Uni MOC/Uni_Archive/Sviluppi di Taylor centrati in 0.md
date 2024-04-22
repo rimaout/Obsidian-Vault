@@ -12,7 +12,7 @@ Completed: true
 ---
 
 $$
-\begin{align} 
+\begin{align*} 
 &-\ \  \textcolor{orange}{e^{x}} = \sum^{n}_{k=0} \frac{x^{k}}{k!} = \textcolor{orange}{1+x+\frac{x^{2}}{2}+\frac{x^{3}}{6}+\dots+\frac{x^{n}}{n!} + o(x^{n})} \\ \\
 
 &-\ \ \textcolor{orange}{\sin(x)} = \sum^{n}_{k=0} \frac{(-1)^{k}\cdot x^{2k+1}}{(2k+1)!}+o(x^{2n+1}) = \textcolor{orange}{x- \frac{x^{3}}{6}+ \frac{x^{5}}{120}+\dots+\frac{(-1)^{n}\cdot x^{2n+1}}{(2n+1)!}+ o(x^{2n+1})} \\ \\
@@ -22,7 +22,7 @@ $$
 &-\ \ \textcolor{orange}{\frac{1}{1-x}} = \sum^{n}_{k=0} x^{k}+o(x^{n}) =\textcolor{orange}{1+ x+ x^{2} +x^{3}+ \cdot +x^{n}+o(x^{n})} \\ \\
 
 &-\ \ \textcolor{orange}{\log(1+x)} = \sum^{n}_{k=0} \frac{(-1)^{k}\cdot x^{2k+1}}{(2k+1)!}+o(x^{2n+1}) = \textcolor{orange}{x- \frac{x^{3}}{6}+ \frac{x^{5}}{120}+\dots+\frac{(-1)^{n}\cdot x^{2n+1}}{(2n+1)!}+ o(x^{2n+1})}
-\end{align}
+\end{align*}
 $$
 
 ---

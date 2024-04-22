@@ -334,24 +334,12 @@
                 }
               },
               {
-                "id": "4094f4915b8104af",
+                "id": "7c3ab63c33b05d17",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Al 18 Apr.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "790896148169ae25",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/L34 Programmazione dei Calcolatori (C Linked Lists).md",
+                    "file": "Al 22 Apr.md",
                     "mode": "source",
                     "source": false
                   }
@@ -435,7 +423,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Al 18 Apr.md",
+                    "file": "Al 22 Apr.md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "alphabetical",
@@ -452,7 +440,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Al 18 Apr.md",
+                    "file": "Al 22 Apr.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -475,7 +463,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Al 18 Apr.md"
+                    "file": "Al 22 Apr.md"
                   }
                 }
               },
@@ -543,7 +531,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Al 18 Apr.md",
+                    "file": "Al 22 Apr.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -592,8 +580,8 @@
           "workspaces:Manage workspace layouts": false
         }
       },
-      "active": "4094f4915b8104af",
-      "mtime": "2024-04-18T13:07:41+02:00"
+      "active": "7c3ab63c33b05d17",
+      "mtime": "2024-04-22T15:27:32+02:00"
     },
     "Calcolo Integrale": {
       "main": {
@@ -616,6 +604,18 @@
                     "source": false
                   },
                   "pinned": true
+                }
+              },
+              {
+                "id": "8e48107fd2bd6937",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Primitive di Derivate di Funzioni Composte.md",
+                    "mode": "source",
+                    "source": false
+                  }
                 }
               }
             ]
@@ -672,12 +672,12 @@
                   "state": {}
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "horizontal",
-        "width": 293.504789352417
+        "width": 293.504789352417,
+        "collapsed": true
       },
       "right": {
         "id": "1599d9a7234429ed",
@@ -815,7 +815,7 @@
         }
       },
       "active": "e297cb9ac14bcafd",
-      "mtime": "2024-04-15T12:09:30+02:00"
+      "mtime": "2024-04-22T12:06:24+02:00"
     },
     "Architettura": {
       "main": {

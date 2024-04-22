@@ -19,7 +19,7 @@ Completed: true
 Nelle ipotesi della formula di Taylor, e con l'ulteriore ipotesi aggiuntiva che esista la derivata $f^{(n)}(x_{0})$ allora esiste un punto $c \in (a,b)$ tale che:
 
 $$
-\begin{align}
+\begin{align*}
 & T_{n}(f(x),\ \ x_{0})=\textcolor{orange}{\sum_{k=0}^{n-1} \frac{f^{(k)}(x_{0})}{k!}(x-x_{0})^{k}} + \textcolor{lightgreen}{\frac{f^{(n)}(c)}{n!}(x-x_{0})^{n}} \\ \\
 & \ \ \ \ \ \ \ \ \ \ \ - \textcolor{orange}{\text{Polinomio di grado}\leq n-1} \\ 
 & \ \ \ \ \ \ \ \ \ \ \ - \textcolor{lightgreen}{\text{Resto di Lagrange}} \\ \\
@@ -32,7 +32,7 @@ $$
 & \ \ \ \ \ \ \ -\ c \in (a,\ b)\\
 & \ \ \ \ \ \ \ -\ f(x)\ \text{è derivabile }n-1\text{ volte nell'intervallo}\\
 & \ \ \ \ \ \ \ -\ \text{esiste la derivata n-esima in }x_{0} \\ \\ \\
-\end{align}
+\end{align*}
 $$
 
 ---

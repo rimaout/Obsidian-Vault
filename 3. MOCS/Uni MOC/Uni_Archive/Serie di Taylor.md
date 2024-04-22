@@ -20,5 +20,7 @@ Completed: false
 - [[Principio della Sostituzione in Serie Taylor]]
 
 ##### Altro
-]]
+
+
+---
 

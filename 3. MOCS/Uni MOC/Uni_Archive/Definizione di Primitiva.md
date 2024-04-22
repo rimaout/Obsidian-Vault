@@ -16,6 +16,10 @@ Completed: false
 >2. [[#Risoluzione di integrali con Primitive]]
 >3. [[#Notazioni]]
 
+>[!abstract] Related
+>- [[Integrali]]
+>- [[Calcolo Integrale (class)]]
+
 ---
 
 ## Definizione
@@ -72,7 +76,11 @@ Completed: false
 >[!warning] Generica primitiva di f(x)
 >
 >$$
->\int f( x ) \ dx
+>\int f( x ) \ dx = \{F:F'=f\}
 >$$
+>
+>ovvero insieme delle primitive
+
+
 
 ---

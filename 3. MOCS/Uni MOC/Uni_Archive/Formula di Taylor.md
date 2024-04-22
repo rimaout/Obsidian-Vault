@@ -29,7 +29,7 @@ Lo sviluppo in serie di Taylor di una funzione in un punto, se esiste, permette 
 ## Formula Sviluppo serie di Taylor
 
 $$
-\begin{align}
+\begin{align*}
 & T_{n}(f(x),\ \ x_{0})=\textcolor{orange}{\sum_{k=0}^{n-1} \frac{f^{k}(x_{0})}{k!}(x-x_{0})^{k}}+\textcolor{lightgreen}{R_{n}(x)} \\ \\
 & \ \ \ \ \ \ \ \ \ \ \ - \textcolor{orange}{\text{Polinomio di grado}\leq n-1} \\ 
 & \ \ \ \ \ \ \ \ \ \ \ - \textcolor{lightgreen}{\text{Resto di ordine n}} \\ \\
@@ -41,7 +41,7 @@ $$
 & \ \ \ \ \ \ \ -\ f(x)\ \text{è definita in un certo intervallo }(a,\ b)\\
 & \ \ \ \ \ \ \ -\ f(x)\ \text{è derivabile }n-1\text{ volte nell'intervallo}\\
 & \ \ \ \ \ \ \ -\ \text{esiste la derivata n-esima in }x_{0} \\ \\
-\end{align}
+\end{align*}
 $$
 
 >[!tip] Sviluppo di una funzione

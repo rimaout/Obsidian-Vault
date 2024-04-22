@@ -15,6 +15,6 @@ Completed: false
 ---
 Gli algoritmi ti arginamento  basiti sul confronto sono i più veloci e permettono di ordinare con un caso medio di $\theta(n\cdot \log n)$
 
+- [[Merge Sort]]
 - [[Quick Sort]]
 - [[Heap Sort]]
-- 

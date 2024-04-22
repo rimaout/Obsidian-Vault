@@ -30,7 +30,7 @@ Completed: true
 
 ## Struttura Dato:
 
-**oss:** possiamo costruire un dizionario utilizzando sia un array "normale" sia utilizzando le liste concatenate [[Linked list]], 
+**oss:** possiamo costruire un dizionario utilizzando sia un array "normale" sia utilizzando le liste concatenate [[Linked List]], 
 - in entrambi i casi non sarebbe possibile avere un costo medio costante per la maggior parte delle operazioni)
 
 ### Esempio utilizzando lista concatenata

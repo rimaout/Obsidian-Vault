@@ -22,31 +22,51 @@
             }
           },
           {
-            "id": "8e48107fd2bd6937",
+            "id": "f10a43ff59e858f3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Primitive di Derivate di Funzioni Composte.md",
+                "file": "Integrazione per Sostituzione.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "05cb0647669413fe",
+            "id": "513385c79b9d334e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni MOC.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Primitive Elementari.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e80bb0d46d4cc2a8",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "ee2071c8311757a8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Serie di Taylor.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -104,7 +124,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 293.504789352417
+    "width": 293.504789352417,
+    "collapsed": true
   },
   "right": {
     "id": "1599d9a7234429ed",
@@ -121,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni MOC.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Serie di Taylor.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -138,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni MOC.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Serie di Taylor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni MOC.md"
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Serie di Taylor.md"
               }
             }
           },
@@ -241,45 +262,45 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "ba7d0379bd9741ad",
+  "active": "ee2071c8311757a8",
   "lastOpenFiles": [
-    "3. MOCS/Programming MOC/Programming MOC.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Sistemi di Disequazioni.md",
-    "3. MOCS/Uni MOC/Uni_Classes/Matematica 0 (class).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Valore assoluto.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Media ponderata.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Logaritmi.md",
-    "3. MOCS/Uni MOC/Uni MOC.md",
-    "3. MOCS/Uni MOC/Uni_Classes/Progettazione Sistemi Digitali (class).md",
-    "3. MOCS/Tech MOC/Tech_Archive/Quartz Setup.md",
-    "To-Do/quartz theme.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Sviluppi di Taylor centrati in 0.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Serie di Taylor.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Taylor con resto di Lagrange.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Taylor con resto di Peano.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Formula di Taylor.md",
     "3. MOCS/Uni MOC/Uni_Classes/Calcolo Integrale (class).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Primitive di Derivate di Funzioni Composte.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Primitive.md",
     "3. MOCS/Uni MOC/Uni_Archive/Primitive Elementari.md",
-    "3. MOCS/Tech MOC/Tech_Archive/quartz layout config.md",
-    "3. MOCS/Tech MOC/Tech MOC.md",
-    "3. MOCS/Programming MOC/Pro_Archive/﻿﻿Java for-each Loop.md",
-    "3. MOCS/Personal MOC/Personal MOC.md",
+    "Integrazione per Sostituzione.md",
+    "Pasted image 20240422180839.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Primitive.md",
+    "Pasted image 20240422174233.png",
+    "Pasted image 20240422173129.png",
+    "Primitive Elementari Generalizzate.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Primitive di Derivate di Funzioni Composte.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Java MOC.md",
+    "3. MOCS/Programming MOC/Pro_Archive/Java String Builder.md",
+    "3. MOCS/Programming MOC/Pro_Archive/Java Arithmetic Operators.md",
+    "3. MOCS/Programming MOC/Pro_Archive/Java Operators.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Definizione di Primitiva.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Definizione di Integrale.md",
+    "Al 22 Apr.md",
+    "3. MOCS/Uni MOC/Uni_Classes/Introduzione agli Algoritmi (class).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Al 18 Apr.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Strutture Dati.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Algoritmi di Ordinamento.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Algoritmi di Ricerca.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Quick Sort.md",
+    "To-Do/Linked List.md",
+    "3. MOCS/Uni MOC/Uni MOC.md",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240421190728.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240421184821.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240421182553.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240421181612.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240421181129.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Definizione di Primitiva.md",
-    "To-Do/Definizione di Primitiva.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Operazioni tra derivate prime.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Derivate.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Utilizzi delle derivate.md",
-    "test.md",
-    "Index.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Proprietà Integrali.md",
     "3. MOCS/Uni MOC/Uni_Archive/MIPS_Instruction_Set.pdf",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240420164704.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240418095152.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240418095217.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240418095205.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240418094501.png",
     "3. MOCS/Programming MOC/Pro_Archive",
     "3. MOCS/Programming MOC",
     "3. MOCS/Uni MOC/Uni_Archive/Java_printf_method_quick_reference.pdf",

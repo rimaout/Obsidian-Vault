@@ -37,7 +37,7 @@ Completed: false
 
 ---
 
-![[Primitive Elementari#Primitive Elementari Generalizzate]] ^b41547
+![[Primitive Elementari Generalizzate#Primitive Elementari Generalizzate]] ^b41547
 
 ---
 ## Esempi
