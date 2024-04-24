@@ -5,12 +5,37 @@ Class:
   - "[[Calcolo Differenziale (class)]]"
 Academic Year: 2023/2024
 Related: 
-Completed: false
+Completed: true
 ---
 ---
 
 >[!info] Index
->1. 
+>1. [[#Tipi]]
+>2. [[#Definizione]]
+>	- [[#Insiemi Omogenei e Disomogenei]]
+>	- [[#Insiemi Dinamici e Statici]]
+
+>[!info] Related
+>- [[Introduzione agli Algoritmi (class)]]
+
+---
+## Tipi
+
+- [[Array (Struttura Dati)]] 🟢
+- [[Linked List (Struttura Dati)]]
+- [[Pile (Struttura Dati)]] 🟢
+- [[Code (Struttura Dati)]]
+- [[Heap (Struttura Dati)]]
+
+>[!warning] Ogni struttura dati compie due tipi di operazioni:
+>**Operazioni di interrogazione:**
+>- `Search(S,x)`: recuperare valore associato alla chiave `x` in `S`
+>- `Min(S)`: recuperare il minimo valore in `S`
+>- `Max(S)`: recuperare il massimo valore in `S`
+>
+>**Operazioni di manipolazione:**
+>- `Insert(S,x):` inserire un elemento di valore `x` in `S`
+>- `Delete(S,x):` rimuovere un elemento di valore `x` in `S`
 
 ---
 ## Definizione
@@ -45,11 +70,5 @@ Completed: false
 >Un insieme dinamico è una struttura dati in cui la dimensione può cambiare dinamicamente durante l'esecuzione del programma.
 >- Possono crescere o ridursi automaticamente per ospitare un numero variabile di elementi senza dover specificare una dimensione massima in anticipo.
 >- Sono utili quando la dimensione dell'insieme è incerta o può cambiare nel tempo.
-
----
-## Tipi
-
-- [[Heap Struttura Dati]]
-- [[Linked List]]
 
 ---

@@ -1,5 +1,5 @@
 ---
-Created: 2024-04-18
+Created: 2024-04-23
 Type: Uni Note
 Class:
   - "[[Introduzione agli Algoritmi (class)]]"
@@ -9,38 +9,52 @@ Related:
 Completed: false
 ---
 ---
-## Array
 
+>[!abstract] Index
+>1. [[#Definizione]]
+>2. [[#Struttura]]
+>3. [[#Operazioni]]
+>4. [[#Esempi]]
 
-Quando dichiariamo un classico array dobbiamo decidere la dimensione che non potrà mai più essere cambiata 
-
-```c
-int ANum[50]
-```
-
-Se riempiamo la capienza massima dell'array dobbiamo crearne uno nuovo (con dimensione maggiore) ed spostare tutti i dati dal vecchio array al nuovo
-
-Inoltre un classico array può contenere un solo data type, infatti per dichiarare un array dobbiamo specificare un tipo di dato e quanti elementi allocare 
-
-in questo caso ad ogni tipo di dato è associata un dimensione, per esempio un char occupa un byte, quindi quando allochiamo un array di 50 char stiamo allocando $50\cdot 1 \text{ byte}$ nella memoria
+>[!abstract] Related
+>- [[Strutture Dati]]
+>- [[Introduzione agli Algoritmi (class)]]
 
 ---
-## Linked List
+## Definizione
+La lista semplice (o lista concatenata) è una struttura dati nella quale gli elementi sono organizzati in successione.
+
+>[!abstract] Proprietà
+>- L'accesso avviene sempre ad una estremità della lista, per mezzo di un puntatore alla testa della lista;
+>- Ogni elemento contiene un puntatore che consente l’accesso all’elemento successivo;
+>- È permesso solo un **accesso sequenziale** agli elementi
+
+---
+## Struttura
 
 Le `linked list` sono composte composte da un oggetto che chiameremo nodo definito da due parametri:
 - `key:` ovvero l'elemento vero e proprio
-- `next:` un punitore utilizzato ad indicare il nodo successivo
+- `next:` un puntatore utilizzato per indicare il nodo successivo
 
 >[!note] Nodo
->![[Pasted image 20240418094424.png|500]]
+>![[Pasted image 20240418094424.png|350]]
 
 >[!note] Linked List
 >![[Pasted image 20240418094501.png|600]]
 
 ---
-## Creazione di una `linked list`
+## Operazioni
+
+>[!info]
+>1. [[#Creazione]]
+>2. [[#Inserimento]]
+>3. [[#Eliminazione]]
+>4. [[#Ricerca]]
 
 >[!danger] Tutti questi codici sono scritti in Python
+
+---
+#### Creazione
 
 >[!note] Definizione `Nodo` di una `linked list`
 >
@@ -72,7 +86,8 @@ Le `linked list` sono composte composte da un oggetto che chiameremo nodo defini
 >- Python in questo caso si occupa di liberare la memoria (cancellando il primo nodo della lista).
 >- Il secondo nodo della linked list ora non è più puntato da niente e verra "cancellato", e a sua volta accadrà la stessa cosa per il resto dei nodi della lista.
 
-## Manipolazione delle `linked list`
+---
+#### Inserimento
 
 >[!note] Aggiungere elemento in testa
 >```python
@@ -96,6 +111,36 @@ Le `linked list` sono composte composte da un oggetto che chiameremo nodo defini
 >**Posizione non finale:**
 >![[Pasted image 20240418095217.png|500]]
 
+
+---
+#### Eliminazione
+Cancella la prima occorrenza di un valore `x` nella list `p`
+
+```python
+def Cancella(p, x):
+	if p = None:
+		return p
+
+	p.key == x:
+		p = p.next
+	else:
+		q = p
+		while q.next != None and q.next.key != x:
+			q = q.next
+		
+		if q.next != None:
+			q.next = q.next.next
+		
+	
+```
+
+**Costo:** $O(n)$
+
+---
+#### Ricerca
+
+
+
 ---
 ## Esempi
 
@@ -114,10 +159,3 @@ P.next.next = Nodo(12)
 >		p = p.next
 >```
 >**note:** p is local variable and doesn’t change the original p
-
-
-
-
-
-
-

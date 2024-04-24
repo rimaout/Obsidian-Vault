@@ -16,7 +16,7 @@ Completed: false
 
 ---
 
-[[Heap Struttura Dati]]
+[[Heap (Struttura Dati)]]
 
 ```python
 def heapfy1(H, i) //A = array, i = ?

@@ -45,6 +45,7 @@ Related:
 ##### Extras
 - [[UML MOC]] finisci metodo [[Metodo ULM Step by Step]]
 - [[Java Memory]]
+- [[Java Lambda Function]]
 
 **To-Do:**
 - https://dzone.com/articles/jvm-architecture-explained

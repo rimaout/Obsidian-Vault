@@ -81,7 +81,7 @@ first in first out
 
 ```python
 def ins(Coda, x):
-	Cila.append(x)
+	Coda.append(x)
 ```
 - costo: $\theta(1)$
 

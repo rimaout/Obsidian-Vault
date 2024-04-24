@@ -5,7 +5,7 @@ Class:
   - "[[Introduzione agli Algoritmi (class)]]"
 Academic Year: 2023/2024
 Related:
-  - "[[Heap Struttura Dati]]"
+  - "[[Heap (Struttura Dati)]]"
 Completed: false
 ---
 ---
