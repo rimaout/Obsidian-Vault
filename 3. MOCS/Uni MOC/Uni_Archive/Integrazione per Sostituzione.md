@@ -9,7 +9,9 @@ Completed: false
 ---
 
 >[!abstract] Index
->1. 
+>1. [[#Introduzione]]
+>2. [[#Metodo]]
+>3. [[#Esempi]]
 
 >[!abstract] Related
 >- [[Integrali]]
@@ -29,15 +31,15 @@ Completed: false
 
 $\int^{b}_{a} f\big( g(x) \big) \cdot  g'(x)\, dx$
 
-**Calcolare nuova variabile di integrazione:**
+**1. Calcolare nuova variabile di integrazione:**
 -  $y=g(x)$
 -  $dy = g'(x)\, dx$
 
-**Calcolare nuovi estremi di integrazione:**
+**2. Calcolare nuovi estremi di integrazione:**
 - $a\to g(a)$ 
 - $b \to g(b)$
 
-**Risolvere integrale per y:**
+**3. Risolvere integrale per y:**
 - $\int^{g(b)}_{g(a)}f(y)\ dy$
 - Sostituire la $y$ del risultato dell'integrale con $g(x)$
 - Risolvere

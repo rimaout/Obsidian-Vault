@@ -15,6 +15,8 @@ Related:
 - [[MIPS Assembly MOC|Assembly MIPS ]]
 
 ##### Progettazione CPU
+- [[CPU Malfunzionante]]
+- 
 
 
 
@@ -26,3 +28,6 @@ Related:
 5. [[Arch 15 Mar]]
 6. [[Arch 19 Mar]]
 7. [[Arch 12 Apr]]
+8. [[Arch 26 Apr]]
+
+How  

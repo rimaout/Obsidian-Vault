@@ -24,6 +24,18 @@
                 }
               },
               {
+                "id": "cc59b3d5c6d95c9f",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/MDP 30 Apr.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
                 "id": "e21fcf3010b7d8e1",
                 "type": "leaf",
                 "pinned": true,
@@ -41,26 +53,12 @@
                 "id": "16bd02f9028aa0f3",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "MDP 23 Apr.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "4ec5cd1be9a00171",
-                "type": "leaf",
-                "state": {
-                  "type": "image",
-                  "state": {
-                    "file": "Pasted image 20240423100341.png"
-                  }
+                  "type": "empty",
+                  "state": {}
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -136,7 +134,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "MDP 23 Apr.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/MDP 30 Apr.md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "alphabetical",
@@ -153,7 +151,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "MDP 23 Apr.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/MDP 30 Apr.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -176,7 +174,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "MDP 23 Apr.md"
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/MDP 30 Apr.md"
                   }
                 }
               },
@@ -244,7 +242,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "MDP 23 Apr.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/MDP 30 Apr.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -293,8 +291,8 @@
           "markdown-importer:Open format converter": false
         }
       },
-      "active": "16bd02f9028aa0f3",
-      "mtime": "2024-04-23T12:22:01+02:00"
+      "active": "cc59b3d5c6d95c9f",
+      "mtime": "2024-04-30T15:15:14+02:00"
     },
     "Algoritmi": {
       "main": {
@@ -320,55 +318,78 @@
                 }
               },
               {
-                "id": "da6137a93bb40359",
+                "id": "14c28d0b6a359cf5",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Al 22 Apr.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Al 29 Apr.md",
                     "mode": "source",
                     "source": false
                   }
                 }
               },
               {
-                "id": "952483a694a68c01",
+                "id": "173782d8fb531021",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Pile (Struttura Dati).md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Algoritmi di Ordinamento.md",
                     "mode": "source",
                     "source": false
                   }
                 }
               },
               {
-                "id": "4eff78f1e64cd3d2",
+                "id": "ed3af63e2c2c602b",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Strutture Dati.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Algoritmi di Ricerca.md",
                     "mode": "source",
                     "source": false
                   }
                 }
               },
               {
-                "id": "75793f05cc214b55",
+                "id": "c77b281e81c83529",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Code (Struttura Dati).md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Heap (Struttura Dati).md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "a553f8be58e0d5ce",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Al 29 Apr.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "e1a8208c424a78e6",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/L37 Programmazione dei Calcolatori (C Dizionari).md",
                     "mode": "source",
                     "source": false
                   }
                 }
               }
-            ],
-            "currentTab": 4
+            ]
           }
         ],
         "direction": "vertical"
@@ -397,7 +418,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "tag:#Constructor",
+                    "query": "\"--->[!info] Index>1. ---## IntroduzioneL’algoritmo **quicksort** (ordinamento veloce) è un algoritmo ricorsivo che adotta una tecnica algoritmica detta [[Divide et Impera]]. Nonostante il costo nel caso peggiore sia $\\\\Theta(n)$ (ovvero costo $O(n)$) è spesso la soluzione migliore per grandi valori di $n$ perché:- Ha un tempo di esecuzione atteso di $O(n \\log n)$- I fattori costanti nascosti sono molto piccoli- permette ordinamento \\\"in loco\">[!info]>Riunisce i vantaggi del Selection sort (ordinamento in loco) e del Merge sort (ridotto tempo di esecuzione). Ha però lo svantaggio dell’elevato costo computazionale nel caso peggiore.---## Funzionamento Generale>[!info] Funzionamento Generale>L’approccio dell’algoritmo Quick Sort è il seguente:>- **Divide:** Si seleziona un pivot posizionato in modo da ottenere due sotto sequenze: >\t- Elementi minori o uguali al pivot, >\t- Elementi maggiori al pivot>- **Impera:**  Le due sotto sequenza vengono ordinate ricorsivamente>- **Passo base:** La ricorsione procede fino a quando le sotto sequenze sono costituite da un solo elemento che è ovviamente ordinato.>- **Combina:** non occorre.>>![[Pasted image 20240425192009.png|500]]---## Implementazione Base>[!info] Codice>```python>def Quick_sort(A):>    # Se la lista è vuota o ha un solo elemento, è già ordinata>    if len(A)<=1: return A  >    >    pivot = A[0]  # Sceglie il primo elemento come pivot>    left, middle, right = [], [], []  # Crea tre liste vuote>>    for x in A:  # Per ogni elemento in A>    >        # Se è minore del pivot, va a sinistra>        if x < pivot: left.append(x) >         >        # Se è uguale al pivot, va al centro>        elif x == pivot: middle.append(x)  >        >        # Se è maggiore del pivot, va a destra>        else: right.append(x)  >>    # Ordina left e right, e le concatena con middle>    return Quick_sort(left) + middle + Quick_sort(right)>```Non è una soluzione perfetta perché non è in loco e non scegli il pivot ---## Versione con Partition---### Costo Temporale**Caso Peggiore:** - $O(n^{2})$- It occurs when the pivot element picked is either the greatest or the smallest element.    >[!warning] oss>This condition leads to the case in which the pivot element lies in an extreme end of the sorted array. One sub-array is always empty and another sub-array contains `n - 1` elements. Thus, quick-sort is called only on this sub-array.  **Caso Migliore:** - $\\Omega(n\\cdot \\log n)$- It occurs when the pivot element is always the middle element or near to the middle element.**Caso Medio:** - $\\Theta(n\\cdot \\log n)$ - It occurs when the above conditions do not occur.---\"",
                     "matchingCase": true,
                     "explainSearch": true,
                     "collapseAll": true,
@@ -427,7 +448,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 360.5,
+        "width": 405.5062494277954,
         "collapsed": true
       },
       "right": {
@@ -445,7 +466,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "Code (Struttura Dati).md",
+                    "file": "3. MOCS/Uni MOC/Uni_Classes/Introduzione agli Algoritmi (class).md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "alphabetical",
@@ -462,7 +483,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "Code (Struttura Dati).md",
+                    "file": "3. MOCS/Uni MOC/Uni_Classes/Introduzione agli Algoritmi (class).md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -485,7 +506,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "Code (Struttura Dati).md"
+                    "file": "3. MOCS/Uni MOC/Uni_Classes/Introduzione agli Algoritmi (class).md"
                   }
                 }
               },
@@ -553,7 +574,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "Code (Struttura Dati).md",
+                    "file": "3. MOCS/Uni MOC/Uni_Classes/Introduzione agli Algoritmi (class).md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -602,8 +623,8 @@
           "workspaces:Manage workspace layouts": false
         }
       },
-      "active": "75793f05cc214b55",
-      "mtime": "2024-04-24T08:28:59+02:00"
+      "active": "6e1d70bfbe19415d",
+      "mtime": "2024-04-30T11:05:38+02:00"
     },
     "Calcolo Integrale": {
       "main": {
@@ -627,8 +648,33 @@
                   },
                   "pinned": true
                 }
+              },
+              {
+                "id": "6e9c175701cd8db4",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Integrazione per Parti.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "8fa669cb26c08bcc",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Integrazione per Sostituzione.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -657,7 +703,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "foru",
+                    "query": "strutture dati",
                     "matchingCase": true,
                     "explainSearch": true,
                     "collapseAll": true,
@@ -686,8 +732,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 293.504789352417,
-        "collapsed": true
+        "width": 293.504789352417
       },
       "right": {
         "id": "1599d9a7234429ed",
@@ -704,7 +749,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Classes/Calcolo Integrale (class).md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Integrazione per Parti.md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "alphabetical",
@@ -721,7 +766,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Classes/Calcolo Integrale (class).md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Integrazione per Parti.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -744,7 +789,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Classes/Calcolo Integrale (class).md"
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Integrazione per Parti.md"
                   }
                 }
               },
@@ -824,8 +869,8 @@
           "workspaces:Manage workspace layouts": false
         }
       },
-      "active": "e297cb9ac14bcafd",
-      "mtime": "2024-04-23T09:26:31+02:00"
+      "active": "6e9c175701cd8db4",
+      "mtime": "2024-04-29T12:02:14+02:00"
     },
     "Architettura": {
       "main": {
@@ -848,6 +893,18 @@
                     "source": false
                   },
                   "pinned": true
+                }
+              },
+              {
+                "id": "e9930dbcf4f3b659",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Arch 12 Apr.md",
+                    "mode": "source",
+                    "source": false
+                  }
                 }
               }
             ]
@@ -1048,7 +1105,7 @@
         }
       },
       "active": "bcf89c24c29f7f00",
-      "mtime": "2024-04-20T16:20:55+02:00"
+      "mtime": "2024-04-26T15:45:25+02:00"
     },
     "Default": {
       "main": {
@@ -1308,5 +1365,5 @@
       "mtime": "2024-04-20T15:57:47+02:00"
     }
   },
-  "active": "Metodologie di Programmazione"
+  "active": "Algoritmi"
 }

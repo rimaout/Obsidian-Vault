@@ -18,6 +18,7 @@ Related:
 10. [[MDP 9 Apr]]
 11.  [[MDP 16 Apr]]
 12. [[MDP 23 Apr]]
+13. [[MDP 30 Apr]]
 **Lab:**
 1. [[MDP Lab 28 Feb]]
 2. [[MDP Lab 06 Mar]]
@@ -28,4 +29,10 @@ Related:
 
 **Progetto Esame:**
 - `jpanel` ti permette di avere una finestra 
+
+**Rappresentazione memoria:**
+- Divedere schermo in stack, heap, metaspace
+- Prima cosa inserire le capi statici nell matasapace
+- Campi non statici vengono inizializzato solo quando chiavati da un metodo e vanno nella heap
+
 

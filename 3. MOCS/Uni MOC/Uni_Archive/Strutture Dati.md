@@ -22,10 +22,10 @@ Completed: true
 ## Tipi
 
 - [[Array (Struttura Dati)]] 🟢
-- [[Linked List (Struttura Dati)]]
+- [[Linked List (Struttura Dati)]] 🟡 (aggiungere codice)
 - [[Pile (Struttura Dati)]] 🟢
-- [[Code (Struttura Dati)]]
-- [[Heap (Struttura Dati)]]
+- [[Code (Struttura Dati)]] 🟢
+- [[Heap (Struttura Dati)]] 🟡 (da finire)
 
 >[!warning] Ogni struttura dati compie due tipi di operazioni:
 >**Operazioni di interrogazione:**

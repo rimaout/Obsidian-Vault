@@ -38,9 +38,6 @@ Type: Uni Note
 - [[Serie di Potenze]] 🟡 aggiungi calcolo insieme di convergenza
 - [[Derivata di una Serie di Potenze]] 🟡
 
-**Funzioni Analitiche:**
-- [[Funzioni Analitiche]] 🔴
-
 ---
 ## 2° parte (Integrali)
 

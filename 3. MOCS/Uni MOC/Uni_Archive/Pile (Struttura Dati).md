@@ -23,7 +23,7 @@ Completed: true
 ---
 ## Definizione 
 
-La pila è una struttura dati che esibisce un comportamento LIFO (Last In First Out)
+La **Pila** è una struttura dati che esibisce un comportamento **LIFO** (Last In First Out)
 
 >[!info] LIFO
 >Gli elementi vengono prelevati dalla pila nell’ordine inverso rispetto a quello col quale vi sono stati inseriti.
@@ -31,12 +31,17 @@ La pila è una struttura dati che esibisce un comportamento LIFO (Last In First 
 ---
 ## Operazioni
 
-Su una pila sono definite solo due operazioni: 
-- Inserimento ([[#Push]])
-- Estrazione ([[#Pop]])
+Su una **Pila** sono definite solo due operazioni: 
+- Inserimento ([[#Push (inserimento)|Push]])
+- Estrazione ([[#Pop (estrazione)|Pop]])
+
+>[!warning] Top
+>Per garantire la proprietà LIFO le operazioni Push e Pop operano sulla stessa estremità della pila (attraverso il puntatore top)
+>
+>![[signal-2024-04-25-131903.png|50]]
 
 ---
-#### Push
+#### Push (inserimento)
 
 >[!info] Implementazione lista python
 >
@@ -53,10 +58,14 @@ Su una pila sono definite solo due operazioni:
 >def push(top, x):
 >	return Nodo(x, top)
 >```
+>
+>Costo: $\Theta(1)$
+>
+>Risultato operazione `top = push(top, 3)`:
 >![[Pasted image 20240423175423.png|450]]
 
 ---
-#### Pop
+#### Pop (estrazione)
 
 >[!info] Implementazione lista python
 >
@@ -80,6 +89,9 @@ Su una pila sono definite solo due operazioni:
 >	return top.key, top.next
 >```
 >
+>Costo: $\Theta(1)$
+>
+>Risultato operazione `x, top = pop(top)`:
 >![[Pasted image 20240423182827.png|450]]
 
 

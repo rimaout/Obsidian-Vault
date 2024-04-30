@@ -34,5 +34,5 @@ Completed: false
 - Creazione: $O(n)$
 - Inserimento: $O(\log n)$
 - Estrazione: $O(\log n)$
-[[hea]]
+
 [[Heap Sort]]

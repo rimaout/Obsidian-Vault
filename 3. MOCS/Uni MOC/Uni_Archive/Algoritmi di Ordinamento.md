@@ -13,8 +13,24 @@ Completed: false
 >1. 
 
 ---
-Gli algoritmi ti arginamento  basiti sul confronto sono i più veloci e permettono di ordinare con un caso medio di $\theta(n\cdot \log n)$
+Esistono due "classi" di algoritmi di ordinamento:
+1. Algoritmi con costo $\Theta(n^{2})$
+2. Algoritmi con costo $\Theta(n \log n)$
 
-- [[Merge Sort]]
-- [[Quick Sort]]
-- [[Heap Sort]]
+>[!danger] Teorema
+>Gli algoritmi di ordinamento basiti sul confronto sono i più veloci e permettono di ordinare con un caso medio di $\theta(n\cdot \log n)$
+
+##### Algoritmi $\Theta(n^{2})$
+- [[Insertion Sort]] 🔴
+- [[Selection Sort]] 🔴
+- [[Bubble Sort]] 🔴
+
+##### Algoritmi $\Theta(n \log n)$
+- [[Marge Sort]] 🟢
+- [[Quick Sort]] 🟢 (sistemare solo costo computazionale)
+- [[Heap Sort]] 🟡
+
+---
+
+
+
