@@ -10,12 +10,17 @@ Completed: false
 ---
 
 >[!info] Index
->1. 
+>1. [[#Introduzione]]
+>2. [[#Algoritmi $ Theta(n {2})$|O(n^2)]]
+>3. [[#Algoritmi $ Theta(n log n)$|n log n]]
+>4. [[#Algoritmi "Lineari"]]
+>5. [[#Stable Sorting Algoritms]]
+
+>[!info] Related
+>- [[Introduzione agli Algoritmi (class)]]
 
 ---
-Esistono due "classi" di algoritmi di ordinamento:
-1. Algoritmi con costo $\Theta(n^{2})$
-2. Algoritmi con costo $\Theta(n \log n)$
+## Introduzione
 
 >[!danger] Teorema
 >Gli algoritmi di ordinamento basiti sul confronto sono i più veloci e permettono di ordinare con un caso medio di $\theta(n\cdot \log n)$
@@ -28,7 +33,17 @@ Esistono due "classi" di algoritmi di ordinamento:
 ##### Algoritmi $\Theta(n \log n)$
 - [[Marge Sort]] 🟢
 - [[Quick Sort]] 🟢 (sistemare solo costo computazionale)
-- [[Heap Sort]] 🟡
+- [[Heap Sort]] 🟡 (da finire)
+
+##### Algoritmi "Lineari"
+- [[Bucket Sort]]
+
+>[!warning] Non esistono algoritmi lineari
+>- scrivi che non esistono algoritmi di ordinamento realmente lineari ma che i più veloci sono i n log n (che usano il confronto)
+
+---
+## Stable Sorting Algoritms
+to-do
 
 ---
 

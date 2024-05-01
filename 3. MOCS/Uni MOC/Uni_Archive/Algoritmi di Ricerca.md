@@ -11,11 +11,13 @@ Completed: false
 ---
 
 >[!info] Index
->1. 
+>1. [[Ricerca Base]] 🔴
+>2. [[Ricerca Binaria]] 🔴
 
----
+>[!info] Related
+>- [[Introduzione agli Algoritmi (class)]]
 
-- [[ricerca base]]
-- [[ricerca binaria]]
+
+
 
 

@@ -4,9 +4,8 @@
     "type": "split",
     "children": [
       {
-        "id": "086fa48ccb045afd",
+        "id": "1000c870bbd20f5c",
         "type": "tabs",
-        "dimension": 32.576769025367156,
         "children": [
           {
             "id": "6e1d70bfbe19415d",
@@ -23,110 +22,43 @@
             }
           },
           {
-            "id": "14c28d0b6a359cf5",
+            "id": "a1801471813bcfc3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Al 29 Apr.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Strutture Dati.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "173782d8fb531021",
+            "id": "8b54395309cdf3f7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Algoritmi di Ordinamento.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Alberi Binari (Struttura Dati).md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "ed3af63e2c2c602b",
+            "id": "5a3c132828b60a4a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Algoritmi di Ricerca.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c77b281e81c83529",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Heap (Struttura Dati).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a553f8be58e0d5ce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Al 29 Apr.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e1a8208c424a78e6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/L37 Programmazione dei Calcolatori (C Dizionari).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2c5865bf8426653d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Marge Sort.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Alberi Binari (Struttura Dati).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 7
-      },
-      {
-        "id": "b77b5f3af351b0c9",
-        "type": "tabs",
-        "dimension": 67.42323097463284,
-        "children": [
-          {
-            "id": "ce0405281cb548e7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Marge Sort.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          }
-        ]
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -155,7 +87,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "merge sort",
+                "query": "\"merge sort\"",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -203,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Marge Sort.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Alberi Binari (Struttura Dati).md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -220,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Marge Sort.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Alberi Binari (Struttura Dati).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -243,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Marge Sort.md"
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Alberi Binari (Struttura Dati).md"
               }
             }
           },
@@ -311,7 +243,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Marge Sort.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Alberi Binari (Struttura Dati).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -357,47 +289,47 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "audio-recorder:Start/stop recording": false,
-      "workspaces:Manage workspace layouts": false
+      "workspaces:Manage workspace layouts": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ce0405281cb548e7",
+  "active": "5a3c132828b60a4a",
   "lastOpenFiles": [
-    "3. MOCS/Uni MOC/Uni_Archive/Marge Sort.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Algoritmi di Ordinamento.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Memorizzazione tramite puntatori (Alberi Binari).md",
+    "3. MOCS/Uni MOC/Uni_Archive/signal-2024-05-01-183854_002.png",
+    "3. MOCS/Uni MOC/Uni_Archive/signal-2024-05-01-182815_002.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Alberi Binari (Struttura Dati).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Strutture Dati.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Rappresentazione tramite vettore dei padri (Alberi Binari).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Rappresentazione posizionale (Alberi Binari).md",
     "3. MOCS/Uni MOC/Uni_Classes/Introduzione agli Algoritmi (class).md",
-    "3. MOCS/Uni MOC/Uni_Archive/MDP 30 Apr.md",
+    "3. MOCS/Uni MOC/Uni_Archive/signal-2024-05-01-122654_002.png",
+    "3. MOCS/Uni MOC/Uni_Archive/signal-2024-05-01-122736.png",
+    "3. MOCS/Uni MOC/Uni_Archive/signal-2024-05-01-122756.png",
+    "3. MOCS/Uni MOC/Uni_Archive/signal-2024-05-01-123451.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Linked List (Struttura Dati).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Alberi (Struttura Dati).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240501114121.png",
     "3. MOCS/Uni MOC/Uni_Archive/Al 29 Apr.md",
-    "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
-    "3. MOCS/Uni MOC/Uni_Archive/L37 Programmazione dei Calcolatori (C Dizionari).md",
-    "3. MOCS/Uni MOC/Uni_Archive/L36 Programmazione dei Calcolatori (C Dizionari).md",
-    "3. MOCS/Uni MOC/Uni_Classes/Programmazione Calcolatori (Class).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Heap (Struttura Dati).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Algoritmi di Ordinamento.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Bucket Sort.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Bubble Sort.md",
+    "3. MOCS/Tech MOC/Tech_Archive/Al 22 Apr.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Al 11 Apr.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Al 15 Apr.md",
     "3. MOCS/Uni MOC/Uni_Archive/Algoritmi di Ricerca.md",
-    "To-Do/Untitled.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Integrazione per Parti.md",
-    "3. MOCS/Uni MOC/Uni_Classes/Calcolo Integrale (class).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Integrazione per Sostituzione.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Array (Struttura Dati).md",
-    "To-Do/To-Do.md",
-    "3. MOCS/Uni MOC/Uni MOC.md",
+    "To-Do/Ricerca Binaria.md",
+    "To-Do/Ricerca Base.md",
+    "3. MOCS/Programming MOC/Pro_Archive/Bubble sort.md",
+    "3. MOCS/Uni MOC/Uni_Archive/L37 Programmazione dei Calcolatori (C Dizionari).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Heap (Struttura Dati).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Heap Sort.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Marge Sort.md",
+    "3. MOCS/Uni MOC/Uni_Archive/MDP 30 Apr.md",
+    "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
     "3. MOCS/Uni MOC/Uni_Storage/TeoResto1.png",
     "3. MOCS/Uni MOC/Uni_Storage/polinomialdicimage.jpeg",
     "3. MOCS/Uni MOC/Uni_Storage/Pasted image 20240425192009.png",
-    "3. MOCS/Uni MOC/Uni_Storage/Pasted image 20240228090958.png",
-    "3. MOCS/Uni MOC/Uni_Storage/Pasted image 20240305130940.png",
-    "3. MOCS/Uni MOC/Uni_Storage/Pasted image 20240305134628.png",
-    "3. MOCS/Uni MOC/Uni_Storage/IMG_324D87A74F6C-1.jpeg",
-    "3. MOCS/Uni MOC/Uni_Storage/IMG_3048.jpeg",
-    "3. MOCS/Tech MOC/Tech_Archive/Sketchybar.md",
-    "3. MOCS/Uni MOC/Uni_Storage/signal-2024-04-25-131903.png",
-    "3. MOCS/Uni MOC/Uni_Storage/signal-2024-04-25-132531_002.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Primitive Elementari Generalizzate.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Pile (Struttura Dati).md",
-    "Integrazione per Parti].md",
-    "3. MOCS/Uni MOC/Uni_Archive/Code (Struttura Dati).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Strutture Dati.md",
-    "3. MOCS/Programming MOC/Programming MOC.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Strutta base dell'architettura MIPS.md",
     "3. MOCS/Uni MOC/Uni_Archive/QuikSortCost.pdf",
     "3. MOCS/Uni MOC/Uni_Archive/MIPS_Instruction_Set.pdf",
     "3. MOCS/Programming MOC/Pro_Archive",

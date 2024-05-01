@@ -26,6 +26,8 @@ Completed: true
 - [[Pile (Struttura Dati)]] 🟢
 - [[Code (Struttura Dati)]] 🟢
 - [[Heap (Struttura Dati)]] 🟡 (da finire)
+- [[Alberi (Struttura Dati)]] 🟢
+- [[Alberi Binari (Struttura Dati)]]
 
 >[!warning] Ogni struttura dati compie due tipi di operazioni:
 >**Operazioni di interrogazione:**
