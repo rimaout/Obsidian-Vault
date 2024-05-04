@@ -24,7 +24,19 @@
                 }
               },
               {
-                "id": "cc59b3d5c6d95c9f",
+                "id": "a9976f1bd543671c",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/MDP 02 May.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "af78451812353f3f",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -36,21 +48,7 @@
                 }
               },
               {
-                "id": "e21fcf3010b7d8e1",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Java MOC.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "pinned": true
-                }
-              },
-              {
-                "id": "16bd02f9028aa0f3",
+                "id": "db4365bbb71914e8",
                 "type": "leaf",
                 "state": {
                   "type": "empty",
@@ -58,7 +56,7 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -281,6 +279,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "obsidian-excalidraw-plugin:Create new drawing": false,
           "switcher:Open quick switcher": false,
           "graph:Open graph view": false,
           "canvas:Create new canvas": false,
@@ -291,8 +290,8 @@
           "markdown-importer:Open format converter": false
         }
       },
-      "active": "cc59b3d5c6d95c9f",
-      "mtime": "2024-04-30T15:15:14+02:00"
+      "active": "af78451812353f3f",
+      "mtime": "2024-05-04T10:33:20+02:00"
     },
     "Algoritmi": {
       "main": {
@@ -300,90 +299,28 @@
         "type": "split",
         "children": [
           {
-            "id": "086fa48ccb045afd",
+            "id": "1000c870bbd20f5c",
             "type": "tabs",
             "children": [
               {
                 "id": "6e1d70bfbe19415d",
                 "type": "leaf",
-                "pinned": true,
                 "state": {
                   "type": "markdown",
                   "state": {
                     "file": "3. MOCS/Uni MOC/Uni_Classes/Introduzione agli Algoritmi (class).md",
                     "mode": "source",
                     "source": false
-                  },
-                  "pinned": true
-                }
-              },
-              {
-                "id": "14c28d0b6a359cf5",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Al 29 Apr.md",
-                    "mode": "source",
-                    "source": false
                   }
                 }
               },
               {
-                "id": "173782d8fb531021",
+                "id": "0c960f32abe91a74",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
                     "file": "3. MOCS/Uni MOC/Uni_Archive/Algoritmi di Ordinamento.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "ed3af63e2c2c602b",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Algoritmi di Ricerca.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "c77b281e81c83529",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Heap (Struttura Dati).md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "a553f8be58e0d5ce",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Al 29 Apr.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "e1a8208c424a78e6",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/L37 Programmazione dei Calcolatori (C Dizionari).md",
                     "mode": "source",
                     "source": false
                   }
@@ -418,7 +355,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "\"--->[!info] Index>1. ---## IntroduzioneL’algoritmo **quicksort** (ordinamento veloce) è un algoritmo ricorsivo che adotta una tecnica algoritmica detta [[Divide et Impera]]. Nonostante il costo nel caso peggiore sia $\\\\Theta(n)$ (ovvero costo $O(n)$) è spesso la soluzione migliore per grandi valori di $n$ perché:- Ha un tempo di esecuzione atteso di $O(n \\log n)$- I fattori costanti nascosti sono molto piccoli- permette ordinamento \\\"in loco\">[!info]>Riunisce i vantaggi del Selection sort (ordinamento in loco) e del Merge sort (ridotto tempo di esecuzione). Ha però lo svantaggio dell’elevato costo computazionale nel caso peggiore.---## Funzionamento Generale>[!info] Funzionamento Generale>L’approccio dell’algoritmo Quick Sort è il seguente:>- **Divide:** Si seleziona un pivot posizionato in modo da ottenere due sotto sequenze: >\t- Elementi minori o uguali al pivot, >\t- Elementi maggiori al pivot>- **Impera:**  Le due sotto sequenza vengono ordinate ricorsivamente>- **Passo base:** La ricorsione procede fino a quando le sotto sequenze sono costituite da un solo elemento che è ovviamente ordinato.>- **Combina:** non occorre.>>![[Pasted image 20240425192009.png|500]]---## Implementazione Base>[!info] Codice>```python>def Quick_sort(A):>    # Se la lista è vuota o ha un solo elemento, è già ordinata>    if len(A)<=1: return A  >    >    pivot = A[0]  # Sceglie il primo elemento come pivot>    left, middle, right = [], [], []  # Crea tre liste vuote>>    for x in A:  # Per ogni elemento in A>    >        # Se è minore del pivot, va a sinistra>        if x < pivot: left.append(x) >         >        # Se è uguale al pivot, va al centro>        elif x == pivot: middle.append(x)  >        >        # Se è maggiore del pivot, va a destra>        else: right.append(x)  >>    # Ordina left e right, e le concatena con middle>    return Quick_sort(left) + middle + Quick_sort(right)>```Non è una soluzione perfetta perché non è in loco e non scegli il pivot ---## Versione con Partition---### Costo Temporale**Caso Peggiore:** - $O(n^{2})$- It occurs when the pivot element picked is either the greatest or the smallest element.    >[!warning] oss>This condition leads to the case in which the pivot element lies in an extreme end of the sorted array. One sub-array is always empty and another sub-array contains `n - 1` elements. Thus, quick-sort is called only on this sub-array.  **Caso Migliore:** - $\\Omega(n\\cdot \\log n)$- It occurs when the pivot element is always the middle element or near to the middle element.**Caso Medio:** - $\\Theta(n\\cdot \\log n)$ - It occurs when the above conditions do not occur.---\"",
+                    "query": "\"merge sort\"",
                     "matchingCase": true,
                     "explainSearch": true,
                     "collapseAll": true,
@@ -443,8 +380,7 @@
                   "state": {}
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "horizontal",
@@ -620,11 +556,12 @@
           "templates:Insert template": false,
           "command-palette:Open command palette": false,
           "audio-recorder:Start/stop recording": false,
-          "workspaces:Manage workspace layouts": false
+          "workspaces:Manage workspace layouts": false,
+          "obsidian-excalidraw-plugin:Create new drawing": false
         }
       },
       "active": "6e1d70bfbe19415d",
-      "mtime": "2024-04-30T11:05:38+02:00"
+      "mtime": "2024-05-04T16:20:17+02:00"
     },
     "Calcolo Integrale": {
       "main": {
@@ -650,7 +587,7 @@
                 }
               },
               {
-                "id": "6e9c175701cd8db4",
+                "id": "06eb2e8a097fbde1",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -662,19 +599,31 @@
                 }
               },
               {
-                "id": "8fa669cb26c08bcc",
+                "id": "cb048d35d52bc685",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Integrazione per Sostituzione.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Primitive Elementari.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "a7cc334b93e04827",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Integrazione per Parti.md",
                     "mode": "source",
                     "source": false
                   }
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -859,6 +808,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "obsidian-excalidraw-plugin:Create new drawing": false,
           "markdown-importer:Open format converter": false,
           "switcher:Open quick switcher": false,
           "graph:Open graph view": false,
@@ -869,8 +819,8 @@
           "workspaces:Manage workspace layouts": false
         }
       },
-      "active": "6e9c175701cd8db4",
-      "mtime": "2024-04-29T12:02:14+02:00"
+      "active": "a7cc334b93e04827",
+      "mtime": "2024-05-03T11:16:44+02:00"
     },
     "Architettura": {
       "main": {
@@ -1094,6 +1044,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "obsidian-excalidraw-plugin:Create new drawing": false,
           "markdown-importer:Open format converter": false,
           "switcher:Open quick switcher": false,
           "graph:Open graph view": false,
@@ -1105,7 +1056,7 @@
         }
       },
       "active": "bcf89c24c29f7f00",
-      "mtime": "2024-04-26T15:45:25+02:00"
+      "mtime": "2024-05-03T18:06:47+02:00"
     },
     "Default": {
       "main": {
@@ -1365,5 +1316,5 @@
       "mtime": "2024-04-20T15:57:47+02:00"
     }
   },
-  "active": "Algoritmi"
+  "active": "Architettura"
 }

@@ -7,7 +7,7 @@ Academic Year: 2023/2024
 Related:
   - "[[Strutture Dati]]"
   - "[[Alberi (Struttura Dati)]]"
-Completed: false
+Completed: true
 ---
 ---
 
@@ -80,7 +80,9 @@ In un **Albero Binario Completo** di altezza $h$:
 
 Descriveremo ora tre diverse rappresentazioni dell’albero binario in memoria:
 - [[Memorizzazione tramite puntatori (Alberi Binari)|Memorizzazione tramite puntatori]] 🟢
-- [[Rappresentazione posizionale (Alberi Binari)|Rappresentazione posizionale]]
-- [[Rappresentazione tramite vettore dei padri (Alberi Binari)|Rappresentazione tramite vettore dei padri]]
+- [[Rappresentazione posizionale (Alberi Binari)|Rappresentazione posizionale]] 🟢
+- [[Rappresentazione tramite vettore dei padri (Alberi Binari)|Rappresentazione tramite vettore dei padri]] 🟢
+
+**Leggi:** [[Operazioni su diverse rappresentazioni di alberi binari a confronto]] 🟢
 
 ---

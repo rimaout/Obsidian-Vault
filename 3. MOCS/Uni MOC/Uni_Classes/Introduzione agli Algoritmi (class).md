@@ -7,18 +7,50 @@ Link: https://twiki.di.uniroma1.it/twiki/view/Intro_algo/PZ/WebHome
 **Lezioni:**
 - vedi pdf lez8 per introduzione a sorting
 - (bucket sort + fare tutti gli altri ordinamenti lineari pdf lez12)
-- heap + heap sort
-1. [[Al 29 Apr]] (es + alberi)
++  heap sort
+2. [[Al 1 Mag]]
 
-**Argomenti:**
+##### Basi
 - [[Concetti di base x Algoritmi]]
-- [[Analisi Asintotica degli Algoritmi]]
-	- [[Algoritmi Iterativi]] --> [[Esempi calcolo costo algoritmi iterativi]]
-	- [[Algoritmi Ricorsivi]] --> [[Risolvere e calcolare Equazione di Ricorrenza]]
 
-- [[Strutture Dati]]
-- [[Algoritmi di Ricerca]]
-- [[Algoritmi di Ordinamento]]
+##### Studio Algoritmi
+- [[Analisi Asintotica degli Algoritmi]]🟢
+- [[Algoritmi Iterativi]] 🟢
+- [[Esempi calcolo costo algoritmi iterativi]] 🔴
+- [[Algoritmi Ricorsivi]] 🔴
+- [[Risolvere e calcolare Equazione di Ricorrenza]] 🟡
+
+##### [[Strutture Dati]]
+- [[Array (Struttura Dati)]] 🟢
+- [[Linked List (Struttura Dati)]] 🟡 (aggiungere codice)
+- [[Pile (Struttura Dati)]] 🟢
+- [[Code (Struttura Dati)]] 🟢
+- [[Heap (Struttura Dati)]] 🟢
+- [[Alberi (Struttura Dati)]] 🟢
+- [[Alberi Binari (Struttura Dati)]] 🟢
+- [[Memorizzazione tramite puntatori (Alberi Binari)]] 🟢
+- [[Rappresentazione posizionale (Alberi Binari)]] 🟢
+- [[Rappresentazione tramite vettore dei padri (Alberi Binari)]] 🟢
+
+##### [[Algoritmi di Ricerca]]
+1. [[Ricerca Base]] 🔴
+2. [[Ricerca Binaria]]🔴
+
+##### [[Algoritmi di Ordinamento]]
+**Algoritmi $\Theta(n^{2})$:**
+- [[Insertion Sort]] 🔴
+- [[Selection Sort]] 🔴
+- [[Bubble Sort]] 🔴
+
+**Algoritmi $\Theta(n \log n)$:**
+- [[Marge Sort]] 🟢
+- [[Quick Sort]] 🟢 (sistemare solo costo computazionale)
+- [[Heap Sort]] 🟡 (da finire)
+
+**Algoritmi "Lineari":**
+- [[Bucket Sort]]
+
+**Definizione:** [[Algoritmi di Ordinamento#Stable Sorting Algoritms|Algoritmo di ordinamento Stabile]] (Finire di sistemare)
 
 
 

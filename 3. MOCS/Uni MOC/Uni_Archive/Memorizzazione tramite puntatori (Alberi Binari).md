@@ -40,3 +40,8 @@ Il modo più naturale di rappresentare e gestire gli alberi binari è per mezzo 
 ![[signal-2024-05-01-183854_002.png|700]]
 
 ---
+## Metodi
+
+**Leggi:** [[Operazioni su diverse rappresentazioni di alberi binari a confronto]]
+
+---

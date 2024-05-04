@@ -1,18 +1,23 @@
 ---
-Created: ""
+Created: 2024-05-02
 Type: Uni Note
-Class: 
+Class:
+  - "[[Calcolo Integrale (class)]]"
 Academic Year: 2023/2024
-Related: 
+Related:
+  - "[[Primitive]]"
+  - "[[Integrali]]"
 Completed: false
 ---
 ---
 
 >[!abstract] Index
->1. 
+>1. [[#Primitive Elementari Generalizzate]]
 
 >[!abstract] Related
->- 
+>- [[Primitive]]
+>- [[Integrali]]
+>- [[Calcolo Integrale (class)]]
 
 ---
 ## Primitive Elementari Generalizzate 

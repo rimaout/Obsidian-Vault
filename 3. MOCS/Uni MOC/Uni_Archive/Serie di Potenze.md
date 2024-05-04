@@ -17,7 +17,7 @@ Completed: true
 >3. [[#Raggio di convergenza]]
 >4. [[#Esempi]]
 
->[!info] Related Content
+>[!info] Related
 > - [[Derivata di una Serie di Potenze]]
 
 ---

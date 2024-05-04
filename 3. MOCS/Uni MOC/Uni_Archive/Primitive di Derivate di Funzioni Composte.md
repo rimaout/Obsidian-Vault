@@ -20,6 +20,7 @@ Completed: false
 >[!abstract] Related
 >- [[Calcolo Integrale (class)]]
 >- [[Primitive Elementari]]
+>- [[Integrali]]
 
 ---
 ## Definizione

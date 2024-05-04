@@ -19,6 +19,7 @@ Related:
 11.  [[MDP 16 Apr]]
 12. [[MDP 23 Apr]]
 13. [[MDP 30 Apr]]
+14. [[MDP 02 May]]
 **Lab:**
 1. [[MDP Lab 28 Feb]]
 2. [[MDP Lab 06 Mar]]
@@ -34,5 +35,7 @@ Related:
 - Divedere schermo in stack, heap, metaspace
 - Prima cosa inserire le capi statici nell matasapace
 - Campi non statici vengono inizializzato solo quando chiavati da un metodo e vanno nella heap
+[[Pasted image 20240503224435.png]]
 
-
+cose:
+**AutoBoxing:** conversione dal tipo primitivo all'oggetto (es: int to integer)

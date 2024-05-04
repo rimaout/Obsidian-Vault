@@ -79,8 +79,7 @@ Completed: false
 >\int f( x ) \ dx = \{F:F'=f\}
 >$$
 >
->ovvero insieme delle primitive
-
+>Ovvero insieme delle primitive
 
 
 ---

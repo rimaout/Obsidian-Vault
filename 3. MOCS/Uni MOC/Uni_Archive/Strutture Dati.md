@@ -27,7 +27,10 @@ Completed: true
 - [[Code (Struttura Dati)]] 🟢
 - [[Heap (Struttura Dati)]] 🟡 (da finire)
 - [[Alberi (Struttura Dati)]] 🟢
-- [[Alberi Binari (Struttura Dati)]]
+- [[Alberi Binari (Struttura Dati)|Alberi Binari (Struttura Dati):]] 
+	- [[Memorizzazione tramite puntatori (Alberi Binari)|Memorizzazione tramite puntatori]] 🟢
+	- [[Rappresentazione posizionale (Alberi Binari)|Rappresentazione posizionale]] 🟢
+	- [[Rappresentazione tramite vettore dei padri (Alberi Binari)|Rappresentazione tramite vettore dei padri]] 
 
 >[!warning] Ogni struttura dati compie due tipi di operazioni:
 >**Operazioni di interrogazione:**

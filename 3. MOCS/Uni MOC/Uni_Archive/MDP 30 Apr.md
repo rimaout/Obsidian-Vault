@@ -206,4 +206,5 @@ Pecs
 
 Sta per, quando devi fare operazioni di produzione che consumano gli elementi  effettui operazioni con questo protocollo qua ...
 
+continua in [[MDP 02 May]]
 

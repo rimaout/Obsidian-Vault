@@ -1,20 +1,32 @@
 ---
-Academic Year: 2023/2024
+Created: 2024-05-02
 Type: Uni Note
+Class:
+  - "[[Calcolo Integrale (class)]]"
+Academic Year: 2023/2024
+Related: 
+Completed: false
 ---
 ---
-## 1° Parte (Serie)
-##### Basi
-- [[Successioni Reali]] --> [[Definizione Successione infinitesima]]
 
-##### Tipi di [[Serie]]
+>[!abstract] Index
+>1. [[#Tipi]]
+>2. [[#Proprietà]]
+>3. [[#Criteri per serie a termini non negativi]]
+>4. [[#Criteri per serie di segno variabile]]
+
+>[!abstract] Related
+>- [[Calcolo Integrale (class)]]
+
+---
+##### Tipi
 - [[Serie Numeriche]] 🟢
 - [[Serie Geometriche]] 🟢
 - [[Serie Telescopiche]] 🟢
 - [[Serie Armoniche]] 🟢
 - [[Serie Esponenziali]] 🟢 (aggiungi esempi)
 
-##### Proprietà Serie
+##### Proprietà
 - [[Segno di una serie]] 🔴
 - [[Operazioni tra Serie]] 🟡 (sistemare)  [link](https://www.youmath.it/lezioni/analisi-matematica/serie-numeriche/752-somma-di-due-serie-e-risultati-di-convergenza.html)
 - [[Riordinamenti Serie]] 🔴
@@ -27,25 +39,3 @@ Type: Uni Note
 ##### Criteri per serie di segno variabile
 - [[Criterio della convergenza assoluta]] 🟡 (da finire) [link](https://www.youmath.it/lezioni/analisi-matematica/serie-numeriche/749-convergenza-assoluta.html)
 - [[Criterio di Leibniz]] 🟢 (aggiungi esempi)
-
-##### Taylor
-- [[Serie di Taylor]] 🟢
-- [[Principio della Sostituzione nella Serie Taylor]] 🔴
-- [[Taylor con resto di Lagrange]] 🟢
-
-##### Serie di Potenze
-- [[Serie di Funzioni]] 🔴
-- [[Serie di Potenze]] 🟡 aggiungi calcolo insieme di convergenza
-- [[Derivata di una Serie di Potenze]] 🟡
-
----
-## 2° parte (Integrali)
-
-- [[Definizione di Integrale]]
-- [[Primitive]]
-- [[Proprietà Integrali]]
-
-- [[Integrazione per Sostituzione]]
-- [[Integrazione per Parti]]
-
----

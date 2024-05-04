@@ -15,8 +15,10 @@ Related:
 - [[MIPS Assembly MOC|Assembly MIPS ]]
 
 ##### Progettazione CPU
-- [[CPU Malfunzionante]]
-- 
+- [[CPU Mal-funzionante]]
+
+
+
 
 
 

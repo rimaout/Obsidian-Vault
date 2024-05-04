@@ -42,8 +42,14 @@ Completed: false
 >- scrivi che non esistono algoritmi di ordinamento realmente lineari ma che i più veloci sono i n log n (che usano il confronto)
 
 ---
-## Stable Sorting Algoritms
-to-do
+## Stable Sorting Algoritms 
+
+Un algoritmo di ordinamento si dice stabile se mantiene l'ordine relativo per gli elementi che hanno chiavi uguali. In altre parole, se due elementi hanno la stessa chiave, un algoritmo di ordinamento stabile garantirà che l'elemento che compare prima nella lista originale venga posizionato prima nella lista ordinata.
+
+Al contrario, un algoritmo di ordinamento non stabile può riordinare gli elementi con chiavi uguali in modo imprevedibile.
+
+La stabilità è una proprietà utile in diversi contesti.
+Ad esempio se si deve ordinare una lista rispetto a più chiavi, è possibile utilizzare un approccio noto come ordinamento stabile  iterato. L'idea è di effettuare l'ordinamento in modo iterativo, partendo dalla chiave meno significativa e procedendo gradualmente alla chiave più significativa. In questo modo, l'ordinamento finale rispetterà l'ordine relativo degli elementi anche rispetto alle chiavi meno significative.
 
 ---
 
