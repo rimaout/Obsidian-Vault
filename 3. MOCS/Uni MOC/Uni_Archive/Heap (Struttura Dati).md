@@ -99,14 +99,17 @@ Una **Heap** ha 3 operazioni di base:
 >```
 >
 >>[!warning] Costo Temporale
+>>
 >>La funzione `heapify1` ha un costo temporale di **O(log n)** nel caso peggiore. Questo perché, nel caso peggiore, potrebbe dover scendere lungo l'albero fino alla foglia più lontana, che è a una profondità di log n, dove n è il numero di elementi nell'heap.
 >
 >
 >>[!warning] Costo Spaziale
+>>
 >>Il costo spaziale di `heapify1` è **O(1)**, perché non utilizza spazio di memoria aggiuntivo proporzionale alla dimensione dell'input. La funzione opera "in loco", il che significa che modifica direttamente l'array di input senza creare nuove strutture dati di dimensioni significative. Le uniche variabili che vengono create sono `L`, `R` e `indice_min`, che occupano uno spazio costante indipendentemente dalla dimensione dell'array.
 
 >[!info] Heapfy()
 >>[!danger] Funzionamento
+>>
 >>La funzione `Heapify` prende un solo input:
 >>1. `H`: Un array di elementi. Questo è l'array che la funzione trasformerà in un heap minimo.
 >>

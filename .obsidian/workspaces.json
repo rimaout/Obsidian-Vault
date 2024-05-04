@@ -856,6 +856,18 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "0a18109215e34083",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Rappresentazione dell'istruzione MIPS.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
               }
             ]
           }
@@ -1056,7 +1068,7 @@
         }
       },
       "active": "bcf89c24c29f7f00",
-      "mtime": "2024-05-03T18:06:47+02:00"
+      "mtime": "2024-05-04T17:48:01+02:00"
     },
     "Default": {
       "main": {
@@ -1316,5 +1328,5 @@
       "mtime": "2024-04-20T15:57:47+02:00"
     }
   },
-  "active": "Architettura"
+  "active": "Algoritmi"
 }

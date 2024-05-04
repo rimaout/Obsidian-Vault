@@ -4,49 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "086fa48ccb045afd",
+        "id": "1000c870bbd20f5c",
         "type": "tabs",
         "children": [
           {
-            "id": "bcf89c24c29f7f00",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Classes/Architettura dei calcolatori (class).md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "e9930dbcf4f3b659",
+            "id": "6e1d70bfbe19415d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Arch 12 Apr.md",
-                "mode": "source",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Heap (Struttura Dati).md",
+                "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "0a18109215e34083",
+            "id": "0c960f32abe91a74",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Rappresentazione dell'istruzione MIPS.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Algoritmi di Ordinamento.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -75,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "java for",
+                "query": "\"merge sort\"",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -105,8 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 345.504789352417,
-    "collapsed": true
+    "width": 405.5062494277954
   },
   "right": {
     "id": "1599d9a7234429ed",
@@ -123,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Rappresentazione dell'istruzione MIPS.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Heap (Struttura Dati).md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -140,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Rappresentazione dell'istruzione MIPS.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Heap (Struttura Dati).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Rappresentazione dell'istruzione MIPS.md"
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Heap (Struttura Dati).md"
               }
             }
           },
@@ -203,7 +187,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "0ee4f1dd2040ea54",
@@ -223,17 +208,52 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "7517b7f0f38af1c8",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Heap (Struttura Dati).md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 2.1169972178441094,
+                  "close": true
+                }
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 471.5,
+    "width": 380.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "markdown-importer:Open format converter": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -241,14 +261,16 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "audio-recorder:Start/stop recording": false,
-      "workspaces:Manage workspace layouts": false
+      "workspaces:Manage workspace layouts": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "0a18109215e34083",
+  "active": "6e1d70bfbe19415d",
   "lastOpenFiles": [
-    "3. MOCS/Uni MOC/Uni_Archive/Architettura MIPS.md",
-    "3. MOCS/Uni MOC/Uni_Classes/Architettura dei calcolatori (class).md",
     "3. MOCS/Uni MOC/Uni_Classes/Introduzione agli Algoritmi (class).md",
+    "3. MOCS/Uni MOC/Uni_Classes/Architettura dei calcolatori (class).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Rappresentazione dell'istruzione MIPS.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Architettura MIPS.md",
     "3. MOCS/Uni MOC/Uni_Archive/Al 29 Apr.md",
     "3. MOCS/Uni MOC/Uni_Archive/Algoritmi di Ordinamento.md",
     "3. MOCS/Uni MOC/Uni_Archive/Heap (Struttura Dati).md",
@@ -281,7 +303,6 @@
     "3. MOCS/Uni MOC/Uni_Archive/Primitive.md",
     "3. MOCS/Uni MOC/Uni_Archive/Definizione di Primitiva.md",
     "3. MOCS/Uni MOC/Uni_Archive/Definizione di Integrale.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Proprietà Integrali.md",
     "3. MOCS/Uni MOC/Uni_Archive/QuikSortCost.pdf",
     "3. MOCS/Uni MOC/Uni_Archive/MIPS_Instruction_Set.pdf",
     "3. MOCS/Programming MOC/Pro_Archive",
