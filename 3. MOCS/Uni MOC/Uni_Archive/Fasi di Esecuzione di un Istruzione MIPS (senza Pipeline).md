@@ -1,5 +1,5 @@
 ---
-Created: 2024-03-08
+Created: 2024-05-04
 Type: Uni Note
 Class:
   - "[[Architettura dei calcolatori (class)]]"
@@ -10,7 +10,15 @@ Completed: false
 ---
 ---
 
->[!info] Index
+>[!abstract] Index
 >1. 
 
+>[!abstract] Related
+>- 
+
 ---
+
+1. [[Instruction Fetch (MIPS)]]
+2. [[Instruction Decode (MIPS)]]
+3. [[Instruction Execute]]
+

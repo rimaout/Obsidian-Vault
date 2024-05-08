@@ -6,7 +6,7 @@ Class:
 Academic Year: 2023/2024
 Related:
   - "[[Architettura MIPS]]"
-  - "[[Strutta base dell'architettura MIPS]]"
+  - "[[Introduzione all'architettura MIPS]]"
 Completed: true
 ---
 - I 32 Registri, indicizzati da 0 a 31, della CPU principale:

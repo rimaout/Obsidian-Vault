@@ -3,14 +3,14 @@ Created: 2024-04-20
 Type: Programming Note
 Programming Language: "[[MIPS Assembly MOC]]"
 Related:
-  - "[[MIPS Math Instructions]]"
+  - "[[MIPS Arithmetic Instructions]]"
 Completed: true
 ---
 ---
 
 >[!abstract] Related
 >1. [[MIPS Assembly MOC]]
->2. [[MIPS Math Instructions]]
+>2. [[MIPS Arithmetic Instructions]]
 
 ---
 

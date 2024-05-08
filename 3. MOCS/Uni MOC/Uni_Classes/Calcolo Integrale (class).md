@@ -35,17 +35,27 @@ Type: Uni Note
 
 ##### Serie di Potenze
 - [[Serie di Funzioni]] 🔴
-- [[Serie di Potenze]] 🟡 aggiungi calcolo insieme di convergenza
+- [[Serie di Potenze]] 🟡 (aggiungi calcolo insieme di convergenza)
 - [[Derivata di una Serie di Potenze]] 🟡
 
 ---
-## 2° parte (Integrali)
+## 2° Parte (Integrali)
 
-- [[Definizione di Integrale]]
-- [[Primitive]]
-- [[Proprietà Integrali]]
+##### Basi
+- [[Definizione Geometrica di Integrale]] 🔴 (vedi appunti exys)
+- [[Definizione di Integrale]] 🟡 (aggiungere definizione rigorosa)
+- [[Teorema Fondamentale del Calcolo Integrale]] 🟢
+- [[Primitive]] 🟢
+- [[Proprietà Integrali]] 🟢
 
-- [[Integrazione per Sostituzione]]
-- [[Integrazione per Parti]]
+##### Tecniche di Integrazione
+- [[Integrali Immediati]]
+- [[Integrazione per Sostituzione]] 🟡 (da rivedere, alcuni esempi del prof vengono svolti in modo diverso)
+- [[Integrazione per Parti]] 
+
+##### booo
+- [[Integrali di Funzioni Razionali]]
+- [[Integrali Impropri]]
 
 ---
+## 3° Parte (Equazioni Differenziali)

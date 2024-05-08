@@ -12,7 +12,7 @@ Related:
 
 ##### Tipi di istruzioni
 - [[MIPS Load Instructions]] + [[MIPS Move Instruction|move]] 🟢
-- [[MIPS Math Instructions]] 
+- [[MIPS Arithmetic Instructions]] 
 - [[MIPS Logic Instructions]] --> [[ori]]
 - [[MPIS Jump Instructions]]
 - [[MIPS Syscalls]]

@@ -78,24 +78,29 @@ Nonostante il costo nel caso peggiore sia $\Theta(n)$ (ovvero costo $O(n)$) è s
 >[!danger] Non è una soluzione perfetta perché non è in loco e non sceglie il pivot 
 
 >[!warning] Costo Temporale
+>
 >$$
 >T(n) = \begin{cases}
 >T(k) + T(n - \vert \text{middle} \vert - k) + \Theta(n) &\text{se } n\geq 2 \\
 >\Theta(1) &\text{se }n<2
-\end{cases}
+>\end{cases}
 >$$
+>
 >dove $k$ è $0<k<n-\mid \text{middle}\mid$
 
 >[!warning] Costo spaziale
+>
 >$$
 >S(n) = O(n^{2})
 >$$
+>
 >Alto costo spaziale dovuto alla creazione di liste di appoggio
 	
 ---
 ## Versione in loco
 
 >[!info] Codice
+>
 >```python
 >def QuickSort(A, low ,high):
 >    if low < high:  # Se la porzione da ordinare ha più di un elemento
@@ -122,7 +127,7 @@ Nonostante il costo nel caso peggiore sia $\Theta(n)$ (ovvero costo $O(n)$) è s
 >T(n) = \begin{cases}
 >T(k) + T(n - 1 - k) + \Theta(n) &\text{se } n\geq 2 \\
 >\Theta(1) &\text{se }n<2
-\end{cases}
+>\end{cases}
 >$$
 >dove $k$ è $0<k<n$
 >
@@ -137,7 +142,7 @@ Nonostante il costo nel caso peggiore sia $\Theta(n)$ (ovvero costo $O(n)$) è s
 
 >[!info] Codice 
 >```python
-def Partition(A, low, high):
+>def Partition(A, low, high):
 >    pivot = A[low]
 >    pivot_index = low + 1
 >
@@ -163,6 +168,11 @@ def Partition(A, low, high):
 >3. **Scansione dell'array**: La funzione scorre l'array dall'indice `low + 1` a `high`. Per ogni elemento, se è minore del pivot, lo scambia con l'elemento in posizione `i` e incrementa `i`. 
 >4. **Posizionamento del pivot**: Alla fine della scansione, il pivot viene scambiato con l'elemento in posizione `i - 1`. Questo posiziona il pivot al suo posto definitivo nell'array ordinato. 
 >5. **Output**: La funzione restituisce `i - 1`, che è l'indice del pivot nell'array.
+>
+>>[!warning] oss
+>>La variabile `pivot_index` è un indice che tiene traccia della posizione in cui il pivot dovrebbe essere posizionato nell'array. Inizialmente, è impostato come `low + 1`, che è l'elemento successivo al pivot nell'array.
+>>
+>>Durante l'esecuzione del ciclo for, ogni volta che si trova un elemento che è minore del pivot, questo elemento viene scambiato con l'elemento alla posizione `pivot_index`, e poi `pivot_index` viene incrementato di 1. Questo assicura che tutti gli elementi a sinistra di `pivot_index` siano minori del pivot.
 >    
 >In pratica, la funzione `Partition` divide l'array in due parti: una con gli elementi minori del pivot e una con gli elementi maggiori o uguali al pivot. Questo è un passo fondamentale nell'algoritmo QuickSort, che funziona dividendo ripetutamente l'array in questo modo fino a quando ogni porzione è ordinata.
 

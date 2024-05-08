@@ -10,14 +10,14 @@ Completed: false
 ---
 ---
 
+>[!abstract] Index
+>- [[Definizione di Primitiva]] 🟢
+>- [[Primitive Elementari]] 🟢
+>- [[Primitive di Derivate di Funzioni Composte]] 🟢
+
 >[!abstract] Related
 >- [[Integrali]]
 >- [[Calcolo Integrale (class)]]
 
 ---
-- [[Definizione di Primitiva]]
-- [[Primitive Elementari]] 🟢
-- [[Primitive Elementari Generalizzate]]
-- [[Primitive di Derivate di Funzioni Composte]]
 
----

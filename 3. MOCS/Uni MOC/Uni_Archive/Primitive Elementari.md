@@ -7,7 +7,7 @@ Academic Year: 2023/2024
 Related:
   - "[[Primitive]]"
   - "[[Integrali]]"
-Completed: false
+Completed: true
 ---
 ---
 

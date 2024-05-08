@@ -40,7 +40,7 @@ La heap è una struttura dati alternativa alla lista che permette di eseguire op
 >Importare Modulo: `from heapq import heapfy, heappush, heappoo`
 >- Creazione: `heapfy()`
 >- Inserimento: `heappush()`
->- Estrazione minimo:  `heappoo()`
+>- Estrazione minimo:  `heappop()`
 
 ---
 ## Implementazione 

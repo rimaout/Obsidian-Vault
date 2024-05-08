@@ -24,7 +24,7 @@ Metodo utilizzato per semplificare integrali nella forma $\int f(x)\, g'(x)\, dx
 
 >[!info] Formula
 >$$
->\int f(x)\, g'(x)\, dx\ = \ f( x )\, g(x)- \int f'(x)\, g(X)\, dx 
+>\int f(x)\, g'(x)\, dx\ = \ f( x )\, g(x)- \int f'(x)\, g(x)\, dx 
 >$$
 
 >[!warning] Quando utilizzarlo
@@ -52,12 +52,10 @@ Metodo utilizzato per semplificare integrali nella forma $\int f(x)\, g'(x)\, dx
 Quando si hanno integrali di funzioni con derivate cicliche, come ad esempio $\textcolor{orange}{\int x^{\alpha}\cdot \sin (x)\,dx}$, $\textcolor{orange}{\int x^{\alpha}\cdot\cos(x)\,dx}$ e $\textcolor{orange}{\int x^{\alpha}\cdot e^{x}\,dx}$ può capitare di dover riapplicare l'integrazione per parti sul risultato dell'iterazione precedente.
 
 >[!info] Esempio 
->aggiungi mega calcolo che sta su ipad
+>![[Pasted image 20240506172201.png|700]]
 
 ---
-## Finti Prodotti
 
 
 
----
 

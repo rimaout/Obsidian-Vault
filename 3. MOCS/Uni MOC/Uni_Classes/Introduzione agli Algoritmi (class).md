@@ -9,6 +9,7 @@ Link: https://twiki.di.uniroma1.it/twiki/view/Intro_algo/PZ/WebHome
 - (bucket sort + fare tutti gli altri ordinamenti lineari pdf lez12)
 +  heap sort
 2. [[Al 1 Mag]]
+3. [[AI 6 Mag]]
 
 ##### Basi
 - [[Concetti di base x Algoritmi]]
@@ -32,6 +33,9 @@ Link: https://twiki.di.uniroma1.it/twiki/view/Intro_algo/PZ/WebHome
 - [[Rappresentazione posizionale (Alberi Binari)]] 🟢
 - [[Rappresentazione tramite vettore dei padri (Alberi Binari)]] 🟢
 
+>[!warning] Albero bilanciato
+>Quando altezza è logaritmica ovvero quando in numero di nodi è $n$ e l'altezza dell'albero è $\log(n)$ (inserisci negli appunti)
+
 ##### [[Algoritmi di Ricerca]]
 1. [[Ricerca Base]] 🔴
 2. [[Ricerca Binaria]]🔴
@@ -50,7 +54,7 @@ Link: https://twiki.di.uniroma1.it/twiki/view/Intro_algo/PZ/WebHome
 **Algoritmi "Lineari":**
 - [[Bucket Sort]]
 
-**Definizione:** [[Algoritmi di Ordinamento#Stable Sorting Algoritms|Algoritmo di ordinamento Stabile]] (Finire di sistemare)
+**Definizione:** [[Algoritmi di Ordinamento#Stable Sorting Algoritms|Algoritmo di ordinamento Stabile]] 🟡 (Finire di sistemare)
 
 
 

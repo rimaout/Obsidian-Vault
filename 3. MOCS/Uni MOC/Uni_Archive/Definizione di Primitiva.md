@@ -24,7 +24,7 @@ Completed: false
 
 ## Definizione
 
->[!note] Definizione di Primitiva 1
+>[!note] Definizione di Primitiva
 >Dato $f\in C°([a,b])$
 >
 >$$
@@ -32,7 +32,7 @@ Completed: false
 >$$
 >
 
->[!note] Definizione di Primitiva 1
+>[!note] Definizione Alternativa
 >Dato $f\in C°([a,b])$
 >
 >$$
@@ -60,6 +60,8 @@ Completed: false
 >
 >Ovvero se ogni funzione continua nel intervallo $[a,b]$ ammette derivate
 
+Vedi: [[Teorema Fondamentale del Calcolo Integrale]]
+
 ---
 ## Notazioni
 
@@ -80,6 +82,5 @@ Completed: false
 >$$
 >
 >Ovvero insieme delle primitive
-
 
 ---

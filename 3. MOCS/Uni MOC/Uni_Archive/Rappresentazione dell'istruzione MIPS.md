@@ -31,7 +31,7 @@ Ogni Istruzione è rappresentata in 32 bit, assegnando significati diversi a seq
 >![[Pasted image 20240416154612.png|700]]
 >- `31 26 - 25 21 - ... - 05 00`  sono i range di bit in cui sono rappresentati i parametri delle istruzioni ad esempio, in J-Type dal bit 31 al 26 è contenuta l'opcode e dal 25 allo 0 l'indirizzo.
 
->[!tip]- Significato acronimi
+>[!tip] Significato acronimi
 >- `opcode:` operation code
 >- `rs:` first register source operand
 >- `rt:` second register source operand
