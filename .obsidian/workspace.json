@@ -56,21 +56,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "9a2b18c5ef96c5d0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Integrazione per Sostituzione.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -124,13 +111,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 293.504789352417,
-    "collapsed": true
+    "width": 293.504789352417
   },
   "right": {
     "id": "1599d9a7234429ed",
@@ -147,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Integrazione per Sostituzione.md",
+                "file": "3. MOCS/Uni MOC/Uni_Classes/Calcolo Integrale (class).md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -164,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Integrazione per Sostituzione.md",
+                "file": "3. MOCS/Uni MOC/Uni_Classes/Calcolo Integrale (class).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Integrazione per Sostituzione.md"
+                "file": "3. MOCS/Uni MOC/Uni_Classes/Calcolo Integrale (class).md"
               }
             }
           },
@@ -268,14 +253,16 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "9a2b18c5ef96c5d0",
+  "active": "e297cb9ac14bcafd",
   "lastOpenFiles": [
+    "3. MOCS/Uni MOC/Uni_Archive/Primitive Elementari.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Integrazione per Sostituzione.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Integrali di Funzioni Composte.md",
+    "To-Do/To-Do.md",
     "3. MOCS/Uni MOC/Uni_Classes/Calcolo Integrale (class).md",
     "3. MOCS/Uni MOC/Uni_Archive/Proprietà Integrali.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Integrazione per Sostituzione.md",
     "3. MOCS/Uni MOC/Uni_Archive/MDP 09 May.md",
     "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
-    "To-Do/To-Do.md",
     "3. MOCS/Uni MOC/Uni_Archive/Java MOC.md",
     "3. MOCS/Uni MOC/Uni_Archive/MDP 07 May.md",
     "3. MOCS/Uni MOC/Uni_Archive/Alberi Ricerca Binaria.md",
@@ -288,8 +275,6 @@
     "3. MOCS/Uni MOC/Uni_Archive/Heap (Struttura Dati).md",
     "3. MOCS/Uni MOC/Uni_Archive/Heap Sort.md",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240508174911.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Integrali di Funzioni Composte.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Primitive Elementari.md",
     "3. MOCS/Uni MOC/Uni_Archive/Teorema Fondamentale del Calcolo Integrale.md",
     "3. MOCS/Uni MOC/Uni_Archive/Definizione di Primitiva.md",
     "3. MOCS/Uni MOC/Uni_Archive/Integrali di Funzioni Razionali.md",

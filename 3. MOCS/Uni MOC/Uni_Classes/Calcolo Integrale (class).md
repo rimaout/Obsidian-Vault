@@ -51,12 +51,12 @@ Type: Uni Note
 ##### Tecniche di Integrazione
 - [[Integrali Immediati]] 🔴
 - [[Integrazione per Sostituzione]] 🟡
-- [[Integrazione per Parti]] 
+- [[Integrazione per Parti]] 🟡
 
 ##### booo
-- [[Integrali di Funzioni Composte]]
-- [[Integrali di Funzioni Razionali]]
-- [[Integrali Impropri]]
+- [[Integrali di Funzioni Composte]] 🟡
+- [[Integrali di Funzioni Razionali]] 🟡
+- [[Integrali Impropri]] 🔴
 
 ---
 ## 3° Parte (Equazioni Differenziali)
