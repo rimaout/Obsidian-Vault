@@ -9,22 +9,22 @@ Completed: false
 ---
 
 >[!abstract] Index
->1. [[#Introduzione]]
->2. [[#Metodo]]
->3. [[#Esempi]]
+>1. [[#Integrazione per Sostituzione]]
+>2. [[#Sostituzione per gli Integrali Composti]]
 
 >[!abstract] Related
 >- [[Integrali]]
 >- [[Calcolo Integrale (class)]]
 
 ---
-## Introduzione
+## Integrazione per Sostituzione
 
-Alcuni integrali possono essere ricondotti ad integrali noti/integrali di funzioni elementari di cui è facile trovare la primitiva.
+>[!info] Introduzione
+>Alcuni integrali possono essere ricondotti ad integrali noti/integrali di funzioni elementari di cui è facile trovare la primitiva.
+>
+>In questi casi possiamo utilizzare il metodo dell'integrazione per sostituzione per risolverli, effettuando un cambio di variabile  andando a sostituire ogni riferimento alla variabile originale presente nell’integrale, inclusi gli estremi dell’intervallo e la variabile di integrazione.
 
-In questi casi possiamo utilizzare il metodo dell'integrazione per sostituzione per risolverli, effettuando un cambio di variabile  andando a sostituire ogni riferimento alla variabile originale presente nell’integrale, inclusi gli estremi dell’intervallo e la variabile di integrazione.
-
->[!note] Esempio
+>[!note] Metodo
 >L'integrale
 >$$
 >\int^{4}_{1} e^{3x}
@@ -51,47 +51,54 @@ In questi casi possiamo utilizzare il metodo dell'integrazione per sostituzione 
 >A questo punto, ci basterà calcolare l’integrale immediato ottenuto, per poi riportare il risultato ottenuto in termini della variabile di integrazione originale:
 >
 >$$
-\frac{1}{3}
+\frac{1}{3} \int^{12}_{3} e^{y} \, dy = \frac{e^{y}}{3} \Bigg\vert^{12}_{3} = \frac{e^{3x}}{3} \Bigg\vert^{4}_{1} = \frac{e^{12}-e^{3}}{3}
 >$$
 
+>[!example] Esempio 1
+>![[Pasted image 20240508174911.png|700]]
 
+>[!example] Esempio 2
+>![[Pasted image 20240508181602.png|650]]
 
-## Cose
+>[!example] Esempio 3
 
->[!info] Tecnica per la Risoluzione di integrali composti basata sulla formula:
+---
+## Sostituzione per gli Integrali Composti
+
+>[!info] Introduzione
+>Tecnica per la Risoluzione di integrali composti basata sulla formula:
 >
 >$$
 >\int^{b}_{a} f\big( g(x) \big) \cdot  g'(x)\, dx =\int^{g(b)}_{g(a)}f(y)\ dy
 >$$
+>
+>Vedi: [[Integrali di Funzioni Composte]]
 
----
-## Metodo
+>[!info] Metodo
+>
+>$\int^{b}_{a} f\big( g(x) \big) \cdot  g'(x)\, dx$
+>
+>**1. Calcolare nuova variabile di integrazione:**
+>-  $y=g(x)$
+>-  $dy = g'(x)\, dx$
+>
+>**2. Calcolare nuovi estremi di integrazione:**
+>- $a\to g(a)$ 
+>- $b \to g(b)$
+>
+>**3. Risolvere integrale per y:**
+>- $\int^{g(b)}_{g(a)}f(y)\ dy$
+>- Sostituire la $y$ del risultato dell'integrale con $g(x)$
+>- Risolvere
+>
 
-$\int^{b}_{a} f\big( g(x) \big) \cdot  g'(x)\, dx$
-
-**1. Calcolare nuova variabile di integrazione:**
--  $y=g(x)$
--  $dy = g'(x)\, dx$
-
-**2. Calcolare nuovi estremi di integrazione:**
-- $a\to g(a)$ 
-- $b \to g(b)$
-
-**3. Risolvere integrale per y:**
-- $\int^{g(b)}_{g(a)}f(y)\ dy$
-- Sostituire la $y$ del risultato dell'integrale con $g(x)$
-- Risolvere
-
----
-## Esempi
-
->[!example] es1
+>[!example] Esempio 1
 >![[Pasted image 20240422173129.png|500]]
 
->[!example] es2
+>[!example] Esempio 2
 >![[Pasted image 20240422174233.png|500]]
 
->[!example] es3
+>[!example] Esempio 3
 >![[Pasted image 20240422180839.png|650]]
 
 ---

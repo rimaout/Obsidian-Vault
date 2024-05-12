@@ -9,7 +9,7 @@ Link: https://twiki.di.uniroma1.it/twiki/view/Intro_algo/PZ/WebHome
 - (bucket sort + fare tutti gli altri ordinamenti lineari pdf lez12)
 +  heap sort
 2. [[Al 1 Mag]]
-3. [[AI 6 Mag]]
+3. [[Alberi Ricerca Binaria]]
 
 ##### Basi
 - [[Concetti di base x Algoritmi]]
@@ -26,7 +26,7 @@ Link: https://twiki.di.uniroma1.it/twiki/view/Intro_algo/PZ/WebHome
 - [[Linked List (Struttura Dati)]] 🟡 (aggiungere codice)
 - [[Pile (Struttura Dati)]] 🟢
 - [[Code (Struttura Dati)]] 🟢
-- [[Heap (Struttura Dati)]] 🟢
+- [[Heap (Struttura Dati)]] 🟡 (finire costo computazionale)
 - [[Alberi (Struttura Dati)]] 🟢
 - [[Alberi Binari (Struttura Dati)]] 🟢
 - [[Memorizzazione tramite puntatori (Alberi Binari)]] 🟢

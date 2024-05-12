@@ -49,11 +49,12 @@ Type: Uni Note
 - [[Proprietà Integrali]] 🟢
 
 ##### Tecniche di Integrazione
-- [[Integrali Immediati]]
-- [[Integrazione per Sostituzione]] 🟡 (da rivedere, alcuni esempi del prof vengono svolti in modo diverso)
+- [[Integrali Immediati]] 🔴
+- [[Integrazione per Sostituzione]] 🟡
 - [[Integrazione per Parti]] 
 
 ##### booo
+- [[Integrali di Funzioni Composte]]
 - [[Integrali di Funzioni Razionali]]
 - [[Integrali Impropri]]
 

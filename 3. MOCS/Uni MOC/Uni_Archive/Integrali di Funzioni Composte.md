@@ -37,10 +37,7 @@ Completed: false
 >$$
 
 ---
-
 ## Primitive di funzioni composte elementari
-
->[!info] Generalizzate per [[Primitive di Derivate di Funzioni Composte]]
 
 | Primitive Elementare                                         | Generalizzazione                                                       |
 | ------------------------------------------------------------ | ---------------------------------------------------------------------- |

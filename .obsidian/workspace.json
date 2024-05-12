@@ -22,7 +22,7 @@
             }
           },
           {
-            "id": "95993cc5f5970626",
+            "id": "22560ae8aba6edaa",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -34,36 +34,36 @@
             }
           },
           {
-            "id": "5ee95f34b30d3211",
+            "id": "811810216116a386",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Primitive di Derivate di Funzioni Composte.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Primitive Elementari.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "f858562ac9cea710",
+            "id": "6facc4c5f36787eb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Integrali di Funzioni Composte.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9a2b18c5ef96c5d0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "3. MOCS/Uni MOC/Uni_Archive/Integrazione per Sostituzione.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3eb034cbda52a0eb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Heap (Struttura Dati).md",
                 "mode": "source",
                 "source": false
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Heap (Struttura Dati).md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Integrazione per Sostituzione.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -164,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Heap (Struttura Dati).md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Integrazione per Sostituzione.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Heap (Struttura Dati).md"
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Integrazione per Sostituzione.md"
               }
             }
           },
@@ -268,44 +268,44 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "d4aca3edb3bdc908",
+  "active": "9a2b18c5ef96c5d0",
   "lastOpenFiles": [
-    "3. MOCS/Uni MOC/Uni_Archive/Heap Sort.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Integrazione per Sostituzione.md",
     "3. MOCS/Uni MOC/Uni_Classes/Calcolo Integrale (class).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Primitive di Derivate di Funzioni Composte.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Primitive.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Teorema Fondamentale del Calcolo Integrale.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Primitive Elementari.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Definizione di Primitiva.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Integrali di Funzioni Razionali.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Proprietà Integrali.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Integrazione per Sostituzione.md",
+    "3. MOCS/Uni MOC/Uni_Archive/MDP 09 May.md",
+    "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
+    "To-Do/To-Do.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Java MOC.md",
+    "3. MOCS/Uni MOC/Uni_Archive/MDP 07 May.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Alberi Ricerca Binaria.md",
     "3. MOCS/Uni MOC/Uni_Classes/Introduzione agli Algoritmi (class).md",
-    "3. MOCS/Uni MOC/Uni_Archive/AI 6 Mag.md",
     "3. MOCS/Uni MOC/Uni_Archive/Alberi Binari (Struttura Dati).md",
     "3. MOCS/Uni MOC/Uni_Archive/Quick Sort.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Al 1 Mag.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240508181602.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Primitive.md",
     "3. MOCS/Uni MOC/Uni_Archive/Heap (Struttura Dati).md",
-    "3. MOCS/Uni MOC/Uni_Archive/MDP 07 May.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Heap Sort.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240508174911.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Integrali di Funzioni Composte.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Primitive Elementari.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Teorema Fondamentale del Calcolo Integrale.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Definizione di Primitiva.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Integrali di Funzioni Razionali.md",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240507095410.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240507095347.png",
-    "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
     "3. MOCS/Uni MOC/Uni_Archive/MDP 30 Apr.md",
     "3. MOCS/Uni MOC/Uni_Archive/MDP 02 May.md",
     "3. MOCS/Uni MOC/Uni_Archive/Integrazione per Parti.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Proprietà Integrali.md",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240506172201.png",
     "To-Do/Definizione Geometrica di Integrale.md",
     "3. MOCS/Uni MOC/Uni_Archive/Definizione di Integrale.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Al 1 Mag.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Derivata di una Serie di Potenze.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Primitive Elementari Generalizzate.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Architettura MIPS.md",
     "To-Do/Pasted image 20240504181124.png",
     "3. MOCS/Uni MOC/Uni_Archive/signal-2024-05-04-112338.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240503224527.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240503224452.png",
     "3. MOCS/Uni MOC/Uni_Classes/Pasted image 20240503224435.png",
-    "3. MOCS/Uni MOC/Uni_Archive/signal-2024-05-02-181306.png",
-    "3. MOCS/Uni MOC/Uni_Archive/signal-2024-05-02-173430_002.png",
     "3. MOCS/Uni MOC/Uni_Archive/QuikSortCost.pdf",
     "3. MOCS/Uni MOC/Uni_Archive/MIPS_Instruction_Set.pdf",
     "3. MOCS/Programming MOC/Pro_Archive",

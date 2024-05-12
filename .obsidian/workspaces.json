@@ -24,12 +24,12 @@
                 }
               },
               {
-                "id": "63d76fef3984e81d",
+                "id": "18ad0ce12b3c6d4c",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/MDP 07 May.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/MDP 09 May.md",
                     "mode": "source",
                     "source": false
                   }
@@ -107,35 +107,6 @@
             "dimension": 35.19736842105263,
             "children": [
               {
-                "id": "f96f6d8092dbcb18",
-                "type": "leaf",
-                "state": {
-                  "type": "backlink",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/MDP 07 May.md",
-                    "collapseAll": true,
-                    "extraContext": true,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": true
-                  }
-                }
-              },
-              {
-                "id": "d57d9880445751cf",
-                "type": "leaf",
-                "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/MDP 07 May.md",
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": true
-                  }
-                }
-              },
-              {
                 "id": "73d6fce2365a09ef",
                 "type": "leaf",
                 "state": {
@@ -147,17 +118,36 @@
                 }
               },
               {
-                "id": "55d2dfc580205f70",
+                "id": "734f0b87ccb39174",
                 "type": "leaf",
                 "state": {
-                  "type": "outline",
+                  "type": "backlink",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/MDP 07 May.md"
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/MDP 09 May.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
                   }
                 }
               },
               {
-                "id": "e0c1c70f5b07b717",
+                "id": "1899c835ee03ed03",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/MDP 09 May.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "c9dd3a742136f31e",
                 "type": "leaf",
                 "state": {
                   "type": "all-properties",
@@ -169,31 +159,16 @@
                 }
               },
               {
-                "id": "cac60df207efa5a4",
+                "id": "b5486e50ab568cef",
                 "type": "leaf",
                 "state": {
-                  "type": "advanced-tables-toolbar",
-                  "state": {}
-                }
-              },
-              {
-                "id": "1cfc5dd77c657d61",
-                "type": "leaf",
-                "state": {
-                  "type": "smart-connections-view",
-                  "state": {}
-                }
-              },
-              {
-                "id": "5bcdee51916718ac",
-                "type": "leaf",
-                "state": {
-                  "type": "smart-connections-chat-view",
-                  "state": {}
+                  "type": "outline",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/MDP 09 May.md"
+                  }
                 }
               }
-            ],
-            "currentTab": 3
+            ]
           },
           {
             "id": "0ee4f1dd2040ea54",
@@ -203,15 +178,13 @@
               {
                 "id": "08bb0d9d4b18b672",
                 "type": "leaf",
-                "pinned": true,
                 "state": {
                   "type": "markdown",
                   "state": {
                     "file": "To-Do/To-Do.md",
                     "mode": "source",
                     "source": false
-                  },
-                  "pinned": true
+                  }
                 }
               },
               {
@@ -220,7 +193,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/MDP 07 May.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/MDP 09 May.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -249,8 +222,7 @@
                   }
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "horizontal",
@@ -270,8 +242,8 @@
           "markdown-importer:Open format converter": false
         }
       },
-      "active": "63d76fef3984e81d",
-      "mtime": "2024-05-07T13:40:31+02:00"
+      "active": "18ad0ce12b3c6d4c",
+      "mtime": "2024-05-12T10:17:47+02:00"
     },
     "Algoritmi": {
       "main": {
@@ -302,7 +274,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/AI 6 Mag.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Alberi Ricerca Binaria.md",
                     "mode": "source",
                     "source": false
                   }
@@ -331,8 +303,21 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "c4cf7b58854e85e0",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Alberi Ricerca Binaria.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
               }
-            ]
+            ],
+            "currentTab": 4
           }
         ],
         "direction": "vertical"
@@ -409,7 +394,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Classes/Introduzione agli Algoritmi (class).md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Alberi Ricerca Binaria.md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "alphabetical",
@@ -426,7 +411,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Classes/Introduzione agli Algoritmi (class).md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Alberi Ricerca Binaria.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -449,7 +434,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Classes/Introduzione agli Algoritmi (class).md"
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Alberi Ricerca Binaria.md"
                   }
                 }
               },
@@ -517,7 +502,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Classes/Introduzione agli Algoritmi (class).md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Alberi Ricerca Binaria.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -567,8 +552,8 @@
           "obsidian-excalidraw-plugin:Create new drawing": false
         }
       },
-      "active": "0c960f32abe91a74",
-      "mtime": "2024-05-07T15:14:47+02:00"
+      "active": "c4cf7b58854e85e0",
+      "mtime": "2024-05-09T12:23:55+02:00"
     },
     "Calcolo Integrale": {
       "main": {
@@ -594,19 +579,79 @@
                 }
               },
               {
-                "id": "d6da6e599d8e636a",
+                "id": "22560ae8aba6edaa",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Integrali di Funzioni Razionali.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Integrazione per Sostituzione.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "811810216116a386",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Primitive Elementari.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "6facc4c5f36787eb",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Integrali di Funzioni Composte.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "9a2b18c5ef96c5d0",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Integrazione per Sostituzione.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "95f16ababefce73a",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Primitive.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "2b38e8a793fabcdf",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Proprietà Integrali.md",
                     "mode": "source",
                     "source": false
                   }
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 4
           }
         ],
         "direction": "vertical"
@@ -635,7 +680,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "strutture dati",
+                    "query": "\"strutture dati\"",
                     "matchingCase": true,
                     "explainSearch": true,
                     "collapseAll": true,
@@ -660,7 +705,8 @@
                   "state": {}
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "horizontal",
@@ -682,7 +728,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Integrali di Funzioni Razionali.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Integrazione per Sostituzione.md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "alphabetical",
@@ -699,7 +745,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Integrali di Funzioni Razionali.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Integrazione per Sostituzione.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -722,7 +768,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Integrali di Funzioni Razionali.md"
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Integrazione per Sostituzione.md"
                   }
                 }
               },
@@ -803,8 +849,8 @@
           "workspaces:Manage workspace layouts": false
         }
       },
-      "active": "d6da6e599d8e636a",
-      "mtime": "2024-05-07T09:16:23+02:00"
+      "active": "9a2b18c5ef96c5d0",
+      "mtime": "2024-05-09T09:02:44+02:00"
     },
     "Architettura": {
       "main": {

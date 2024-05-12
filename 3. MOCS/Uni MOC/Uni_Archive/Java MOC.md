@@ -34,7 +34,7 @@ Related:
 
 ##### Object Oriented Programming
 - [[Java Class and Objects]]
-- [[Java Fields]]
+- [[Java fields]]
 - [[Java Methods]]
 - [[Java Constructor]]
 - [[Java access modifiers]]
