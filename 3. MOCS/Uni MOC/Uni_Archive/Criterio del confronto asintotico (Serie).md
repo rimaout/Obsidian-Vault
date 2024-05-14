@@ -40,7 +40,7 @@ Questo ci permette di trovare il carattere di una serie confrontandola con serie
 >$$
 
 ---
-## Teorema unito con [[Criterio del confronto (Gauss)]]
+## Teorema unito con [[Criterio del confronto (Gauss - Serie)]]
 
 Siano:
 - $a_{ n },\ b_{n} \geq 0\ \ \forall n\in\mathbb{N}$ (successioni a [[Segno di una serie|termini positivi]]) 

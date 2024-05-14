@@ -20,7 +20,7 @@ Completed: true
 La [[Serie Numeriche|serie numerica]] $\sum\limits^{+\infty}_{k=0}\frac{A^{k}}{k!}$ è detta serie esponenziale
 
 >[!note] Studio Carattere
->Per calcolare il suo carattere possiamo utilizzare il [[Criterio del Rapporto e della Radice|criterio del rapporto]]
+>Per calcolare il suo carattere possiamo utilizzare il [[Criterio del Rapporto e della Radice (Serie)|criterio del rapporto]]
 >$$
 >\lim_{ n \to +\infty } \frac{A^{k+1}}{(k+1)!} \cdot \frac{k!}{A^{k}} = \lim_{ n \to +\infty } \frac{A}{\cancel{ k! }\cdot (k+1)}\cdot \cancel{ k! } =\lim_{ n \to +\infty } \frac{1}{k+1} = 0
 >$$
@@ -35,6 +35,6 @@ $$
 
  >[!warning] oss
  >
->Funziona anche con $A<0$ infatti con $\frac{|a^{k}|}{k!}$​ possiamo utilizzare il [[Criterio di Leibniz]]
+>Funziona anche con $A<0$ infatti con $\frac{|a^{k}|}{k!}$​ possiamo utilizzare il [[Criterio di Leibniz (Serie)]]
 
 ---

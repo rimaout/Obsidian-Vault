@@ -64,7 +64,7 @@ Completed: true
 ^bf34ea
 
 >[!warning] oss
->Se $q\geq 1$ allora è una serie a segni alterni (non dimostrabile con [[Criterio di Leibniz]] o [[Criterio della convergenza assoluta]])
+>Se $q\geq 1$ allora è una serie a segni alterni (non dimostrabile con [[Criterio di Leibniz (Serie)]] o [[Criterio della convergenza assoluta (Serie)]])
 
 ---
 ## Esempi

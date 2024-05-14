@@ -269,55 +269,19 @@
                 }
               },
               {
-                "id": "ceb28ae17a946e02",
+                "id": "ce1216f67a4d96b6",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Alberi Ricerca Binaria.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "5c27682b4e83017c",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Alberi Binari (Struttura Dati).md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "87e152971a4c9f47",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Quick Sort.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "c4cf7b58854e85e0",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Alberi Ricerca Binaria.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Hash Table.md",
                     "mode": "source",
                     "source": false
                   }
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -394,7 +358,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Alberi Ricerca Binaria.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Hash Table.md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "alphabetical",
@@ -411,7 +375,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Alberi Ricerca Binaria.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Hash Table.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -434,7 +398,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Alberi Ricerca Binaria.md"
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Hash Table.md"
                   }
                 }
               },
@@ -502,7 +466,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Alberi Ricerca Binaria.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Hash Table.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -552,8 +516,8 @@
           "obsidian-excalidraw-plugin:Create new drawing": false
         }
       },
-      "active": "c4cf7b58854e85e0",
-      "mtime": "2024-05-09T12:23:55+02:00"
+      "active": "ce1216f67a4d96b6",
+      "mtime": "2024-05-14T09:17:54+02:00"
     },
     "Calcolo Integrale": {
       "main": {
@@ -579,79 +543,31 @@
                 }
               },
               {
-                "id": "22560ae8aba6edaa",
+                "id": "269d7f92ede1ea81",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Integrazione per Sostituzione.md",
-                    "mode": "source",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Integrali Impropri.md",
+                    "mode": "preview",
                     "source": false
                   }
                 }
               },
               {
-                "id": "811810216116a386",
+                "id": "e0286c2bed4d70ec",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Primitive Elementari.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "6facc4c5f36787eb",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Integrali di Funzioni Composte.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "9a2b18c5ef96c5d0",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Integrazione per Sostituzione.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "95f16ababefce73a",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Primitive.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "2b38e8a793fabcdf",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Proprietà Integrali.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Integrali di Funzioni Razionali.md",
                     "mode": "source",
                     "source": false
                   }
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -710,8 +626,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 293.504789352417,
-        "collapsed": true
+        "width": 271.504789352417
       },
       "right": {
         "id": "1599d9a7234429ed",
@@ -728,7 +643,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Integrazione per Sostituzione.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Integrali di Funzioni Razionali.md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "alphabetical",
@@ -745,7 +660,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Integrazione per Sostituzione.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Integrali di Funzioni Razionali.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -768,7 +683,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Integrazione per Sostituzione.md"
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Integrali di Funzioni Razionali.md"
                   }
                 }
               },
@@ -808,7 +723,8 @@
                   "state": {}
                 }
               }
-            ]
+            ],
+            "currentTab": 3
           },
           {
             "id": "0ee4f1dd2040ea54",
@@ -849,8 +765,8 @@
           "workspaces:Manage workspace layouts": false
         }
       },
-      "active": "9a2b18c5ef96c5d0",
-      "mtime": "2024-05-09T09:02:44+02:00"
+      "active": "e0286c2bed4d70ec",
+      "mtime": "2024-05-13T12:02:25+02:00"
     },
     "Architettura": {
       "main": {
@@ -1347,5 +1263,5 @@
       "mtime": "2024-04-20T15:57:47+02:00"
     }
   },
-  "active": "Calcolo Integrale"
+  "active": "Metodologie di Programmazione"
 }

@@ -60,7 +60,7 @@ Completed: true
 >\end{cases} 
 >$$
 
-Per capire meglio questi risultati leggere [[Criterio della convergenza assoluta]]
+Per capire meglio questi risultati leggere [[Criterio della convergenza assoluta (Serie)]]
 
 ---
 ## Serie Armonica Modificata

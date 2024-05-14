@@ -16,6 +16,7 @@ Completed: true
 >2. [[#Completo e Quasi Completo]]
 >3. [[#Caratteristiche]]
 >4. [[#Tipi di Rappresentazione]]
+>5. [[#Strutture dati implementate con Alberi Binari]]
 
 >[!abstract] Related
 >- [[Alberi (Struttura Dati)]]
@@ -84,5 +85,9 @@ Descriveremo ora tre diverse rappresentazioni dell’albero binario in memoria:
 - [[Rappresentazione tramite vettore dei padri (Alberi Binari)|Rappresentazione tramite vettore dei padri]] 🟢
 
 **Leggi:** [[Operazioni su diverse rappresentazioni di alberi binari a confronto]] 🟢
+
+---
+## Strutture dati implementate con Alberi Binari
+- [[Alberi Binari di Ricerca]]
 
 ---

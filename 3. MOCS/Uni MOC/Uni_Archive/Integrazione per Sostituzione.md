@@ -1,10 +1,13 @@
 ---
 Created: 2024-04-22
 Type: Uni Note
-Class: 
+Class:
+  - "[[Calcolo Integrale (class)]]"
 Academic Year: 2023/2024
-Related: 
-Completed: false
+Related:
+  - "[[Integrali]]"
+  - "[[Calcolo Integrale (class)]]"
+Completed: true
 ---
 ---
 
@@ -51,7 +54,7 @@ Completed: false
 >A questo punto, ci basterà calcolare l’integrale immediato ottenuto, per poi riportare il risultato ottenuto in termini della variabile di integrazione originale:
 >
 >$$
-\frac{1}{3} \int^{12}_{3} e^{y} \, dy = \frac{e^{y}}{3} \Bigg\vert^{12}_{3} = \frac{e^{3x}}{3} \Bigg\vert^{4}_{1} = \frac{e^{12}-e^{3}}{3}
+>\frac{1}{3} \int^{12}_{3} e^{y} \, dy = \frac{e^{y}}{3} \Bigg\vert^{12}_{3} = \frac{e^{3x}}{3} \Bigg\vert^{4}_{1} = \frac{e^{12}-e^{3}}{3}
 >$$
 
 >[!example] Esempio 1
@@ -61,6 +64,7 @@ Completed: false
 >![[Pasted image 20240508181602.png|650]]
 
 >[!example] Esempio 3
+>![[Pasted image 20240512113517.png|800]]
 
 ---
 ## Sostituzione per gli Integrali Composti

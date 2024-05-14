@@ -20,13 +20,13 @@ Type: Uni Note
 - [[Riordinamenti Serie]] 🔴
 
 ##### Criteri per serie a termini non negativi
-- [[Criterio del confronto (Gauss)]] 🟢 (aggiungi esempi)
-- [[Criterio del confronto asintotico]] 🟢 (aggiungi esempi)
-- [[Criterio del Rapporto e della Radice]] 🟢 (aggiungi esempi radice)
+- [[Criterio del confronto (Gauss - Serie)]] 🟢 (aggiungi esempi)
+- [[Criterio del confronto asintotico (Serie)]] 🟢 (aggiungi esempi)
+- [[Criterio del Rapporto e della Radice (Serie)]] 🟢 (aggiungi esempi radice)
 
 ##### Criteri per serie di segno variabile
-- [[Criterio della convergenza assoluta]] 🟡 (da finire) [link](https://www.youmath.it/lezioni/analisi-matematica/serie-numeriche/749-convergenza-assoluta.html)
-- [[Criterio di Leibniz]] 🟢 (aggiungi esempi)
+- [[Criterio della convergenza assoluta (Serie)]] 🟡 (da finire) [link](https://www.youmath.it/lezioni/analisi-matematica/serie-numeriche/749-convergenza-assoluta.html)
+- [[Criterio di Leibniz (Serie)]] 🟢 (aggiungi esempi)
 
 ##### Taylor
 - [[Serie di Taylor]] 🟢
@@ -50,13 +50,15 @@ Type: Uni Note
 
 ##### Tecniche di Integrazione
 - [[Integrali Immediati]] 🔴
-- [[Integrazione per Sostituzione]] 🟡
-- [[Integrazione per Parti]] 🟡
+- [[Integrazione per Sostituzione]] 🟢
+- [[Integrazione per Parti]] 🟡 (aggiungi [link](https://alem1105.github.io/Quartz/Primo-Anno/Secondo-Semestre/Calcolo-Integrale/Integrali#integrazione-per-parti-fattore-differenziale-1-e-integrali-ciclici))
 
-##### booo
-- [[Integrali di Funzioni Composte]] 🟡
+- [[Integrazioni pre-calcolate e "trucchetti"]] 🔴 (appunti exys per-calcolate + sink(x) e cosk(x))
+
+##### Integrali "Particolari"
+- [[Integrali di Funzioni Composte]]  🟢
 - [[Integrali di Funzioni Razionali]] 🟡
-- [[Integrali Impropri]] 🔴
+- [[Integrali Impropri]] 🟡
 
 ---
 ## 3° Parte (Equazioni Differenziali)

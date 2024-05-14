@@ -71,7 +71,7 @@ Esistono 6 possibili Intervalli di convergenza:
 >**Infatti:** $[x_{0}-R,\ x_{0}+R] \not= (x_{0}-R,\ x_{0}+R)$
 
 >[!tip] Calcolare raggio di convergenza
->Possiamo utilizzare [[Criterio del Rapporto e della Radice]]
+>Possiamo utilizzare [[Criterio del Rapporto e della Radice (Serie)]]
 >
 >$$
 >\begin{align}
@@ -90,7 +90,7 @@ Esistono 6 possibili Intervalli di convergenza:
 >$$
 
 >[!warning] oss
->- Nel caso $R=\frac{1}{\ell}$ siamo sicuri che $\forall x \in (x_{0}-R,\ x_{0}+R)$ la serie [[Criterio della convergenza assoluta|converge assolutamente]]
+>- Nel caso $R=\frac{1}{\ell}$ siamo sicuri che $\forall x \in (x_{0}-R,\ x_{0}+R)$ la serie [[Criterio della convergenza assoluta (Serie)|converge assolutamente]]
 >- Ma non sappiamo come la serie si comporti agli estremi dell intervallo $x_{0}-R$ e $x_{0}+R$ 
 >
 >Per questo dobbiamo studiare singolarmente gli esteremi e capire se convergenza assolutamente, semplicemente oppure se diverge.

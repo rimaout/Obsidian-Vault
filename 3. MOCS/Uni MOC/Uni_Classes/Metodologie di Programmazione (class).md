@@ -21,7 +21,9 @@ Related:
 13. [[MDP 30 Apr]]
 14. [[MDP 02 May]]
 15. [[MDP 07 May]]
-16. 15. [[MDP 09 May]]
+16. [[MDP 09 May]]
+17. [[MDP 14 May]]
+
 **Lab:**
 1. [[MDP Lab 28 Feb]]
 2. [[MDP Lab 06 Mar]]

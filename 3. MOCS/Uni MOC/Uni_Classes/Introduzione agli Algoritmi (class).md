@@ -10,6 +10,7 @@ Link: https://twiki.di.uniroma1.it/twiki/view/Intro_algo/PZ/WebHome
 +  heap sort
 2. [[Al 1 Mag]]
 3. [[Alberi Ricerca Binaria]]
+4. [[Hash Table]]
 
 ##### Basi
 - [[Concetti di base x Algoritmi]]
@@ -29,9 +30,12 @@ Link: https://twiki.di.uniroma1.it/twiki/view/Intro_algo/PZ/WebHome
 - [[Heap (Struttura Dati)]] 🟡 (finire costo computazionale)
 - [[Alberi (Struttura Dati)]] 🟢
 - [[Alberi Binari (Struttura Dati)]] 🟢
-- [[Memorizzazione tramite puntatori (Alberi Binari)]] 🟢
-- [[Rappresentazione posizionale (Alberi Binari)]] 🟢
-- [[Rappresentazione tramite vettore dei padri (Alberi Binari)]] 🟢
+	- [[Memorizzazione tramite puntatori (Alberi Binari)]] 🟢
+	- [[Rappresentazione posizionale (Alberi Binari)]] 🟢
+	- [[Rappresentazione tramite vettore dei padri (Alberi Binari)]] 🟢
+- [[Alberi Binari di Ricerca]]
+- [[Hash Table]]
+
 
 >[!warning] Albero bilanciato
 >Quando altezza è logaritmica ovvero quando in numero di nodi è $n$ e l'altezza dell'albero è $\log(n)$ (inserisci negli appunti)
@@ -56,5 +60,30 @@ Link: https://twiki.di.uniroma1.it/twiki/view/Intro_algo/PZ/WebHome
 
 **Definizione:** [[Algoritmi di Ordinamento#Stable Sorting Algoritms|Algoritmo di ordinamento Stabile]] 🟡 (Finire di sistemare)
 
+---
 
+Esercizio:
+Scorro tutto l'albero e mi salvo il livello la foglia nel livello più alto (ovvero il livello più vicino alla radice)
 
+```python
+def es(p):
+	if p==None: 
+		return 0
+	
+	return 1 + min(es(p.left), es(p.right) 
+```
+
+```python
+def es(p):
+	if p.letf == None and p.right == None:  # Se il nodo è una foglia
+		return 0                                # caso base
+
+	if p.left==None and p.right!=None:      # Se esiste solo il nodo sinistro
+		return es(p.right)+1
+
+	if p.left!=None and p.right==None:      # Se esiste solo il nodo destro
+		return es(p.left)+1
+	
+											# Se esistono tutti e due i nodi filgi
+	return 1 + min(es(p.left), es(p.right)) # 
+```

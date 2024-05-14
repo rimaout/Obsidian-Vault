@@ -18,7 +18,7 @@ Completed: true
 ---
 ## Introduzione 
 
-Metodo di convergenza per serie di segno alterno (alternativa a [[Criterio della convergenza assoluta]])
+Metodo di convergenza per serie di segno alterno (alternativa a [[Criterio della convergenza assoluta (Serie)]])
 
 ---
 ## Teorema

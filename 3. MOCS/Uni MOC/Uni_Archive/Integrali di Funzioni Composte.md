@@ -8,7 +8,7 @@ Related:
   - "[[Primitive]]"
   - "[[Integrali]]"
   - "[[Primitive Elementari]]"
-Completed: false
+Completed: true
 ---
 ---
 
@@ -52,7 +52,8 @@ Completed: false
 >[!tip]- Imagine (più leggibile)
 >![[Pasted image 20240421190728.png|900]]
 
->[!danger] Derivano dalla formula $\int f\big(g(x)\big)\cdot g^{'}(x) \ dx = F\big(g(x)\big)+c$
+>[!danger] Derivano dalla formula:
+> $\int f\big(g(x)\big)\cdot g^{'}(x) \ dx = F\big(g(x)\big)+c$
 
 ---
 ## Esempi

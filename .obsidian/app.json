@@ -15,6 +15,6 @@
   "newFileLocation": "folder",
   "newFileFolderPath": "To-Do",
   "readableLineLength": false,
-  "vimMode": false,
+  "vimMode": true,
   "showLineNumber": false
 }

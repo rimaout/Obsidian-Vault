@@ -6,12 +6,14 @@ Class:
 Academic Year: 2023/2024
 Related:
   - "[[Integrali]]"
-Completed: false
+Completed: true
 ---
 ---
 
 >[!abstract] Index
->1. 
+>1. [[#Introduzione]]
+>2. [[#Esempi]]
+>3. [[#Integrare per parti due o più volte]]
 
 >[!abstract] Related
 >- [[Integrali]]
@@ -23,12 +25,16 @@ Completed: false
 Metodo utilizzato per semplificare integrali nella forma $\int f(x)\, g'(x)\, dx$
 
 >[!info] Formula
+>Se il prodotto tra funzioni $f(x)\cdot g^{\prime}(x)$ è integrabile, allora:
+>
 >$$
 >\int f(x)\, g'(x)\, dx\ = \ f( x )\, g(x)- \int f'(x)\, g(x)\, dx 
 >$$
 
 >[!warning] Quando utilizzarlo
-> Naturalmente questo metodo non assicura la risoluzione dell'integrale, va utilizzato soltanto se l'integrale iniziale è difficile da risolvere
+> L'obbiettivo di questo metodo è quello di trasformare l’integrale originale in un’altra forma più facile da calcolare.
+> 
+>Ma non è assicurato la nuova forma sia più semplice dell'originale
 
 ---
 ## Esempi
@@ -55,7 +61,13 @@ Quando si hanno integrali di funzioni con derivate cicliche, come ad esempio $\t
 >![[Pasted image 20240506172201.png|700]]
 
 ---
+## Integrali Ciclici
 
+https://alem1105.github.io/Quartz/Primo-Anno/Secondo-Semestre/Calcolo-Integrale/Integrali#integrazione-per-parti-fattore-differenziale-1-e-integrali-ciclici
+---
+## Fattore differenziale 1
 
+https://alem1105.github.io/Quartz/Primo-Anno/Secondo-Semestre/Calcolo-Integrale/Integrali#integrazione-per-parti-fattore-differenziale-1-e-integrali-ciclici
+---
 
 

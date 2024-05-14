@@ -32,10 +32,10 @@ Completed: false
 - [[Riordinamenti Serie]] 🔴
 
 ##### Criteri per serie a termini non negativi
-- [[Criterio del confronto (Gauss)]] 🟢 (aggiungi esempi)
-- [[Criterio del confronto asintotico]] 🟢 (aggiungi esempi)
-- [[Criterio del Rapporto e della Radice]] 🟢 (aggiungi esempi radice)
+- [[Criterio del confronto (Gauss - Serie)]] 🟢 (aggiungi esempi)
+- [[Criterio del confronto asintotico (Serie)]] 🟢 (aggiungi esempi)
+- [[Criterio del Rapporto e della Radice (Serie)]] 🟢 (aggiungi esempi radice)
 
 ##### Criteri per serie di segno variabile
-- [[Criterio della convergenza assoluta]] 🟡 (da finire) [link](https://www.youmath.it/lezioni/analisi-matematica/serie-numeriche/749-convergenza-assoluta.html)
-- [[Criterio di Leibniz]] 🟢 (aggiungi esempi)
+- [[Criterio della convergenza assoluta (Serie)]] 🟡 (da finire) [link](https://www.youmath.it/lezioni/analisi-matematica/serie-numeriche/749-convergenza-assoluta.html)
+- [[Criterio di Leibniz (Serie)]] 🟢 (aggiungi esempi)
