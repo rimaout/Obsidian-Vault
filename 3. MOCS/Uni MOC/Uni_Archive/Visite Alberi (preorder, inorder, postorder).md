@@ -6,12 +6,17 @@ Class:
 Academic Year: 2023/2024
 Related:
   - "[[Alberi (Struttura Dati)]]"
-Completed: false
+Completed: true
 ---
 ---
 
 >[!abstract] Index
->1. 
+>1. [[#Introduzione]]
+>2. [[#Visita in preordine (preorder)]]
+>3. [[#Visita inordine (inorder)]]
+>4. [[#Visita postordine (postorder)]]
+>5. [[#Visite per Livelli]]
+>6. [[#Costo temporale delle visite]]
 
 >[!abstract] Related
 >- [[Introduzione agli Algoritmi (class)]]
@@ -41,7 +46,7 @@ L’**accesso progressivo a tutti i nodi** di un albero si chiama visita dell’
 Nella visita in preordine il nodo è visitato prima di proseguire la visita nei suoi sottoalberi.
 
 >[!info] Ordine
->![[Pasted image 20240515110654.png|500]]
+>![[Pasted image 20240515110654.png|400]]
 >
 >**Esempio:** $\big[\textcolor{orange}{\text{a - f - z - g - b - g}}\big]$
 
@@ -62,7 +67,7 @@ Nella visita in preordine il nodo è visitato prima di proseguire la visita nei 
 Nella visita inordine il nodo corrente è visitato dopo la visita del sottoalbero sinistro e prima di quella del sottoalbero destro.
 
 >[!info] Ordine
->![[Pasted image 20240515110827.png|500]]
+>![[Pasted image 20240515110827.png|400]]
 >
 >**Esempio:** $\big[\textcolor{orange}{\text{z - f - g - a - b - k}}\big]$
 
@@ -83,7 +88,7 @@ Nella visita inordine il nodo corrente è visitato dopo la visita del sottoalber
 Nella visita in postordine il nodo corrente è visitato dopo entrambe le visite dei sottoalberi.
 
 >[!info] Ordine
->![[Pasted image 20240515110919.png|500]]
+>![[Pasted image 20240515110919.png|400]]
 >
 >**Esempio:** $\big[\textcolor{orange}{\text{z - g - f - k - b - a}}\big]$
 
@@ -113,9 +118,10 @@ $$
 \end{align*}
 $$
 
->[!info]- Risoluzione per Metodo Sostituzione
+>[!note]- Risoluzione per Metodo Sostituzione
 >
 >>[!danger] Leggi Teoria [[Metodo Sostituzione (algoritmi ricorsivi)|Metodo Sostituzione]]
+>>- Esempio pratico: [link](https://github.com/CS-Swap/Algoritmi-1/issues/64)
 >
 >>[!warning] Dimostrare
 >>$T(n) \in \Theta(n)$ ovvero:
@@ -130,7 +136,7 @@ $$
 >>\end{align*}
 >>$$
 >
->##### Dimostrazione $O$
+>#### Dimostrazione $O$
 >
 >**Dimostrare:** $T(n)\leq c \cdot n$
 >
@@ -159,7 +165,7 @@ $$
 >
 >**Quindi:** $T(n)\in O(n)$
 >
->##### Dimostrazione $\Omega$
+>#### Dimostrazione $\Omega$
 >
 >**Dimostrare:** $T(n)\geq c \cdot n$
 >
@@ -188,9 +194,21 @@ $$
 >
 >**Quindi:** $T(n)\in \Omega(n)$
 >
->##### Dimostrazione $\Theta$
+>#### Dimostrazione $\Theta$
 >
 >Visto che $\exists c_{1}\ t.c.\ T(n)\leq c_{1}\cdot n$ e $\exists c_{2}\ t.c.\ T(n)\geq c_{2}\cdot n$ 
 >- Allora $T(n)\in \Theta(n)$
 
 ---
+## Visite per Livelli
+
+---
+## Applicazione delle visite
+Le visite sono estremamente utili per ispezionare l’albero e dedurne delle proprietà.
+
+A seconda delle proprietà che si vuole esaminare può essere più utile una delle tre visite considerate
+
+**Esempi di visite:** [[Esercizi visite alberi binari]] 🟢
+
+---
+

@@ -20,21 +20,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "6214697e341205cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Visite Alberi (preorder, inorder, postorder).md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -63,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "altezza",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -93,8 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 405.5062494277954,
-    "collapsed": true
+    "width": 405.5062494277954
   },
   "right": {
     "id": "1599d9a7234429ed",
@@ -111,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Visite Alberi (preorder, inorder, postorder).md",
+                "file": "3. MOCS/Uni MOC/Uni_Classes/Introduzione agli Algoritmi (class).md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -128,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Visite Alberi (preorder, inorder, postorder).md",
+                "file": "3. MOCS/Uni MOC/Uni_Classes/Introduzione agli Algoritmi (class).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Visite Alberi (preorder, inorder, postorder).md"
+                "file": "3. MOCS/Uni MOC/Uni_Classes/Introduzione agli Algoritmi (class).md"
               }
             }
           },
@@ -219,7 +205,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Visite Alberi (preorder, inorder, postorder).md",
+                "file": "3. MOCS/Uni MOC/Uni_Classes/Introduzione agli Algoritmi (class).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -269,19 +255,22 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6214697e341205cc",
+  "active": "0c960f32abe91a74",
   "lastOpenFiles": [
-    "3. MOCS/Uni MOC/Uni_Archive/Al 1 Mag.md",
-    "3. MOCS/Uni MOC/Uni_Classes/Introduzione agli Algoritmi (class).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Linked List (Struttura Dati).md",
     "3. MOCS/Uni MOC/Uni_Archive/Visite Alberi (preorder, inorder, postorder).md",
+    "3. MOCS/Uni MOC/Uni_Classes/Introduzione agli Algoritmi (class).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Esercizi visite alberi binari.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Alberi (Struttura Dati).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Alberi Binari (Struttura Dati).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Rappresentazione tramite vettore dei padri (Alberi Binari).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Al 1 Mag.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Linked List (Struttura Dati).md",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240515110919.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240515110827.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240515110654.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240515105451.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240515105313.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240515104958.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Alberi Binari (Struttura Dati).md",
     "3. MOCS/Uni MOC/Uni_Archive/Operazioni su diverse rappresentazioni di alberi binari a confronto.md",
     "3. MOCS/Uni MOC/Uni_Archive/Memorizzazione tramite puntatori (Alberi Binari).md",
     "3. MOCS/Uni MOC/Uni_Archive/Hash Table.md",
@@ -300,8 +289,6 @@
     "3. MOCS/Uni MOC/Uni_Archive/MDP 09 May.md",
     "To-Do/Alberi Binari di Ricerca.md",
     "3. MOCS/Uni MOC/Uni_Archive/Alberi Ricerca Binaria.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Quick Sort.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Integrali Impropri.md",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240512202459.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240512113517.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240508181602.png",

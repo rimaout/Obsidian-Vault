@@ -36,6 +36,8 @@ L’albero è una struttura dati estremamente versatile, utile per modellare una
 >L'**Altezza** di un albero è la lunghezza del più lungo cammino dalla [[#^b6379b|radice]] ad una [[#^5dff15|foglia]].
 >- Una albero di altezza $h$ contiene $h+1$ livelli, numerati da $0$ a $h$.
 
+^20bd53
+
 ---
 ## Nodi (definizioni)
 

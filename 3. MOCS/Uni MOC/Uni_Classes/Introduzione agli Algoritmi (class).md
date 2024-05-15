@@ -33,6 +33,7 @@ Link: https://twiki.di.uniroma1.it/twiki/view/Intro_algo/PZ/WebHome
 	- [[Memorizzazione tramite puntatori (Alberi Binari)]] 🟢
 	- [[Rappresentazione posizionale (Alberi Binari)]] 🟢
 	- [[Rappresentazione tramite vettore dei padri (Alberi Binari)]] 🟢
+		- [[Visite Alberi (preorder, inorder, postorder)]] 🟡 (finire visite per livelli)
 - [[Alberi Binari di Ricerca]]
 - [[Hash Table]]
 

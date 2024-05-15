@@ -35,11 +35,11 @@ Un **Albero Binario** è un particolare tipo di [[Alberi (Struttura Dati)#Alberi
 ---
 ## Completo e Quasi Completo
 
->[!info] Albero Binario Completo
+>[!note] Albero Binario Completo
 >Tutti i livelli contengono il massimo numero possibile di nodi.
 >![[signal-2024-05-01-122756.png|300]]
 
->[!info] Albero Binario Quasi Comleto
+>[!note] Albero Binario Quasi Completo
 >- Tutti i livelli tranne l’ultimo contengono il massimo numero possibile di nodi .
 >- L’ultimo livello è riempito completamente da sinistra verso destra solo fino ad un certo punto.
 >![[signal-2024-05-01-122736.png|300]]
@@ -59,7 +59,7 @@ In un **Albero Binario Completo** di altezza $h$:
 >Conoscendo il numero di nodi ($n$) di un albero binario completo possiamo calcolare l'altezza ($h$)
 >- **Formula:** $h = \log_{2} \frac{n+1}{2}$ 
 >
->>[!info]- Dimostrazione
+>>[!note]- Dimostrazione
 >>$$
 >>\begin{align*}
 >>&n = 2^{h+1}-1\\
@@ -84,9 +84,10 @@ Descriveremo ora tre diverse rappresentazioni dell’albero binario in memoria:
 - [[Rappresentazione posizionale (Alberi Binari)|Rappresentazione posizionale]] 🟢
 - [[Rappresentazione tramite vettore dei padri (Alberi Binari)|Rappresentazione tramite vettore dei padri]] 🟢
 
-**Leggi:** 
-- [[Operazioni su diverse rappresentazioni di alberi binari a confronto]] 🟢
-- [[Visite Alberi (preorder, inorder, postorder)]]
+>[!warning] Leggi
+>- [[Operazioni su diverse rappresentazioni di alberi binari a confronto]] 🟢
+>- [[Visite Alberi (preorder, inorder, postorder)]] 🟢
+>- [[Esercizi visite alberi binari]] 🟢
 
 ---
 ## Strutture dati implementate con Alberi Binari
