@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "5ede1e3b850f9096",
+        "id": "1000c870bbd20f5c",
         "type": "tabs",
         "children": [
           {
-            "id": "7006fcbcb07b4fc0",
+            "id": "0c960f32abe91a74",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
+                "file": "3. MOCS/Uni MOC/Uni_Classes/Introduzione agli Algoritmi (class).md",
                 "mode": "source",
                 "source": false
               },
@@ -22,12 +22,12 @@
             }
           },
           {
-            "id": "183d5cdde908f129",
+            "id": "6214697e341205cc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/MDP 14 May.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Visite Alberi (preorder, inorder, postorder).md",
                 "mode": "source",
                 "source": false
               }
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "java",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -93,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 360.5,
+    "width": 405.5062494277954,
     "collapsed": true
   },
   "right": {
@@ -103,8 +103,37 @@
       {
         "id": "b33702b1304e824a",
         "type": "tabs",
-        "dimension": 35.19736842105263,
+        "dimension": 30.905511811023622,
         "children": [
+          {
+            "id": "f96f6d8092dbcb18",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Visite Alberi (preorder, inorder, postorder).md",
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d57d9880445751cf",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Visite Alberi (preorder, inorder, postorder).md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
           {
             "id": "73d6fce2365a09ef",
             "type": "leaf",
@@ -117,36 +146,17 @@
             }
           },
           {
-            "id": "734f0b87ccb39174",
+            "id": "55d2dfc580205f70",
             "type": "leaf",
             "state": {
-              "type": "backlink",
+              "type": "outline",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/MDP 14 May.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Visite Alberi (preorder, inorder, postorder).md"
               }
             }
           },
           {
-            "id": "1899c835ee03ed03",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/MDP 14 May.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "c9dd3a742136f31e",
+            "id": "e0c1c70f5b07b717",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -158,41 +168,58 @@
             }
           },
           {
-            "id": "b5486e50ab568cef",
+            "id": "cac60df207efa5a4",
             "type": "leaf",
             "state": {
-              "type": "outline",
-              "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/MDP 14 May.md"
-              }
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "1cfc5dd77c657d61",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "5bcdee51916718ac",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-chat-view",
+              "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "0ee4f1dd2040ea54",
         "type": "tabs",
-        "dimension": 64.80263157894737,
+        "dimension": 69.09448818897637,
         "children": [
           {
             "id": "08bb0d9d4b18b672",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "To-Do/To-Do.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "pinned": true
             }
           },
           {
-            "id": "6217f74dd2639932",
+            "id": "7517b7f0f38af1c8",
             "type": "leaf",
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/MDP 14 May.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Visite Alberi (preorder, inorder, postorder).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -215,22 +242,23 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 1,
+                  "scale": 2.1169972178441094,
                   "close": true
                 }
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 350.5,
+    "width": 380.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "markdown-importer:Open format converter": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -238,47 +266,46 @@
       "command-palette:Open command palette": false,
       "audio-recorder:Start/stop recording": false,
       "workspaces:Manage workspace layouts": false,
-      "markdown-importer:Open format converter": false
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "183d5cdde908f129",
+  "active": "6214697e341205cc",
   "lastOpenFiles": [
-    "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
-    "3. MOCS/Uni MOC/Uni_Archive/MDP 14 May.md",
-    "3. MOCS/Uni MOC/Uni_Archive/MDP 09 May.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Hash Table.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Al 1 Mag.md",
     "3. MOCS/Uni MOC/Uni_Classes/Introduzione agli Algoritmi (class).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Linked List (Struttura Dati).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Visite Alberi (preorder, inorder, postorder).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240515110919.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240515110827.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240515110654.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240515105451.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240515105313.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240515104958.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Alberi Binari (Struttura Dati).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Operazioni su diverse rappresentazioni di alberi binari a confronto.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Memorizzazione tramite puntatori (Alberi Binari).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Hash Table.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Heap (Struttura Dati).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Regole di derivazione.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Derivate.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Primitive Elementari.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Operazioni tra derivate prime.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Definizione derivata prima.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Primitive.md",
+    "3. MOCS/Uni MOC/Uni_Classes/Calcolo Integrale (class).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Integrazione per Parti.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Integrali di Funzioni Razionali.md",
+    "3. MOCS/Uni MOC/Uni_Archive/MDP 14 May.md",
+    "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
+    "3. MOCS/Uni MOC/Uni_Archive/MDP 09 May.md",
     "To-Do/Alberi Binari di Ricerca.md",
     "3. MOCS/Uni MOC/Uni_Archive/Alberi Ricerca Binaria.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Alberi Binari (Struttura Dati).md",
     "3. MOCS/Uni MOC/Uni_Archive/Quick Sort.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Integrali di Funzioni Razionali.md",
-    "3. MOCS/Uni MOC/Uni_Classes/Calcolo Integrale (class).md",
     "3. MOCS/Uni MOC/Uni_Archive/Integrali Impropri.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Criterio del confronto (Integrali Imp.).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Criterio della convergenza assoluta (Serie).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Criterio di Leibniz (Serie).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Criterio del confronto asintotico (Serie).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Criterio del Rapporto e della Radice (Serie).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Criterio del confronto (Gauss - Serie).md",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240512202459.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Integrazione per Parti.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Integrali di Funzioni Composte.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Proprietà Integrali.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Integrazione per Sostituzione.md",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240512113517.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Primitive Elementari.md",
-    "To-Do/To-Do.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Java MOC.md",
-    "3. MOCS/Uni MOC/Uni_Archive/MDP 07 May.md",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240508181602.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240508174911.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240507095410.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240507095347.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240506172201.png",
-    "To-Do/Pasted image 20240504181124.png",
-    "3. MOCS/Uni MOC/Uni_Archive/signal-2024-05-04-112338.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240503224527.png",
     "3. MOCS/Uni MOC/Uni_Archive/QuikSortCost.pdf",
     "3. MOCS/Uni MOC/Uni_Archive/MIPS_Instruction_Set.pdf",
     "3. MOCS/Programming MOC/Pro_Archive",

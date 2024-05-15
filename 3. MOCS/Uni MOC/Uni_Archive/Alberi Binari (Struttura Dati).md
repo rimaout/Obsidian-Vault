@@ -84,7 +84,9 @@ Descriveremo ora tre diverse rappresentazioni dell’albero binario in memoria:
 - [[Rappresentazione posizionale (Alberi Binari)|Rappresentazione posizionale]] 🟢
 - [[Rappresentazione tramite vettore dei padri (Alberi Binari)|Rappresentazione tramite vettore dei padri]] 🟢
 
-**Leggi:** [[Operazioni su diverse rappresentazioni di alberi binari a confronto]] 🟢
+**Leggi:** 
+- [[Operazioni su diverse rappresentazioni di alberi binari a confronto]] 🟢
+- [[Visite Alberi (preorder, inorder, postorder)]]
 
 ---
 ## Strutture dati implementate con Alberi Binari

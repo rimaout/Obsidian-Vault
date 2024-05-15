@@ -24,12 +24,12 @@
                 }
               },
               {
-                "id": "18ad0ce12b3c6d4c",
+                "id": "183d5cdde908f129",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/MDP 09 May.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/MDP 14 May.md",
                     "mode": "source",
                     "source": false
                   }
@@ -90,7 +90,8 @@
                   "state": {}
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "horizontal",
@@ -123,7 +124,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/MDP 09 May.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/MDP 14 May.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -140,7 +141,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/MDP 09 May.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/MDP 14 May.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -164,7 +165,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/MDP 09 May.md"
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/MDP 14 May.md"
                   }
                 }
               }
@@ -193,7 +194,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/MDP 09 May.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/MDP 14 May.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -242,8 +243,8 @@
           "markdown-importer:Open format converter": false
         }
       },
-      "active": "18ad0ce12b3c6d4c",
-      "mtime": "2024-05-12T10:17:47+02:00"
+      "active": "183d5cdde908f129",
+      "mtime": "2024-05-14T16:42:50+02:00"
     },
     "Algoritmi": {
       "main": {
@@ -279,9 +280,21 @@
                     "source": false
                   }
                 }
+              },
+              {
+                "id": "b6b0724ad7b5b820",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Heap (Struttura Dati).md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -358,7 +371,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Hash Table.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Heap (Struttura Dati).md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "alphabetical",
@@ -375,7 +388,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Hash Table.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Heap (Struttura Dati).md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -398,7 +411,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Hash Table.md"
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Heap (Struttura Dati).md"
                   }
                 }
               },
@@ -466,7 +479,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Hash Table.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Heap (Struttura Dati).md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -516,8 +529,8 @@
           "obsidian-excalidraw-plugin:Create new drawing": false
         }
       },
-      "active": "ce1216f67a4d96b6",
-      "mtime": "2024-05-14T09:17:54+02:00"
+      "active": "b6b0724ad7b5b820",
+      "mtime": "2024-05-15T09:55:54+02:00"
     },
     "Calcolo Integrale": {
       "main": {
@@ -527,6 +540,7 @@
           {
             "id": "c955f70ef39e33ef",
             "type": "tabs",
+            "dimension": 41.45527369826435,
             "children": [
               {
                 "id": "e297cb9ac14bcafd",
@@ -543,31 +557,58 @@
                 }
               },
               {
-                "id": "269d7f92ede1ea81",
+                "id": "68524fab8b5af441",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Integrali Impropri.md",
-                    "mode": "preview",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "e0286c2bed4d70ec",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Integrali di Funzioni Razionali.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Integrazione per Parti.md",
                     "mode": "source",
                     "source": false
                   }
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 1
+          },
+          {
+            "id": "7d2439f1b4d53bfb",
+            "type": "tabs",
+            "dimension": 58.54472630173565,
+            "children": [
+              {
+                "id": "bc56c0b0d958c0b8",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Regole di derivazione.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "c27d97ce87405fd3",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Regole di derivazione.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "2e1a650be56f8c7f",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {}
+                }
+              }
+            ]
           }
         ],
         "direction": "vertical"
@@ -626,7 +667,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 271.504789352417
+        "width": 271.504789352417,
+        "collapsed": true
       },
       "right": {
         "id": "1599d9a7234429ed",
@@ -643,7 +685,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Integrali di Funzioni Razionali.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Regole di derivazione.md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "alphabetical",
@@ -660,7 +702,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Integrali di Funzioni Razionali.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Regole di derivazione.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -683,7 +725,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Integrali di Funzioni Razionali.md"
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Regole di derivazione.md"
                   }
                 }
               },
@@ -765,8 +807,8 @@
           "workspaces:Manage workspace layouts": false
         }
       },
-      "active": "e0286c2bed4d70ec",
-      "mtime": "2024-05-13T12:02:25+02:00"
+      "active": "bc56c0b0d958c0b8",
+      "mtime": "2024-05-14T21:58:18+02:00"
     },
     "Architettura": {
       "main": {
@@ -1263,5 +1305,5 @@
       "mtime": "2024-04-20T15:57:47+02:00"
     }
   },
-  "active": "Metodologie di Programmazione"
+  "active": "Algoritmi"
 }

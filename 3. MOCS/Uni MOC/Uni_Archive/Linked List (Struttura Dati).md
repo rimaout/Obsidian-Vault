@@ -118,11 +118,12 @@ Cancella la prima occorrenza di un valore `x` nella list `p`
 
 ```python
 def Cancella(p, x):
-	if p = None:
+	if p = None:    # Lista Vuota
 		return p
 
-	p.key == x:
+	if p.key == x:
 		p = p.next
+		
 	else:
 		q = p
 		while q.next != None and q.next.key != x:

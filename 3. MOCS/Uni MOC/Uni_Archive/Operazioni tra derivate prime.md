@@ -18,7 +18,7 @@ $$
 & - \ \  [f(x)-g(x)]^{'} = f^{'}(x)-g^{'}(x)\ \ \ \textcolor{orange}{\text{(sottrazione)}} \\ \\
 & - \ \  [f(x)\cdot g(x)]^{'} = f^{'}(x)\cdot g(x)\ + \ f(x)\cdot g^{'}(x)\ \ \ \ \ \textcolor{orange}{\text{(prodotto)}} \\ \\
 & - \ \  \left[ \frac{f(x)}{g(x)} \right]^{'} = \frac{{f^{'}(x)\cdot g(x)-f(x)\cdot g^{'}(x)}}{[g(x)]^{2}} \ \ \text{oss: }g(x)\not = 0\ \ \ \textcolor{orange}{\text{(differenza)}} \\ \\
-& - \ \  [f(g(x))]^{'} = f^{'}(x)\cdot g^{'}(x)\ \ \ \ \ \ \ \ \ \ \ \ \textcolor{orange}{\text{(funzione di funzione)}} \\ \\
+& - \ \  [f(g(x))]^{'} = f^{'}(g(x))\cdot g^{'}(x)\ \ \ \ \ \ \ \ \ \ \ \ \textcolor{orange}{\text{(funzione di funzione)}} \\ \\
 & - \ \  [x^n]^{'} =n\cdot x^{n-1}\ \ \ \forall n\in\mathbb{N} \ \ \ \ \ \ \ \  \ \ \ \ \textcolor{orange}{\text{(potenza)}} \\ \\
 & - \ \  [A\cdot f(x)]^{'} =A\cdot f(x)^{'}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{orange}{\text{(prodotto costante funzione)}}
 \end{align}
