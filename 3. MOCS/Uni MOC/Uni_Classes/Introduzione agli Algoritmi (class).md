@@ -8,7 +8,6 @@ Link: https://twiki.di.uniroma1.it/twiki/view/Intro_algo/PZ/WebHome
 - vedi pdf lez8 per introduzione a sorting
 - (bucket sort + fare tutti gli altri ordinamenti lineari pdf lez12)
 +  heap sort
-2. [[Al 1 Mag]]
 3. [[Alberi Ricerca Binaria]]
 4. [[Hash Table]]
 

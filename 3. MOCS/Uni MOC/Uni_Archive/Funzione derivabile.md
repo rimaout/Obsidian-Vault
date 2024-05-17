@@ -6,14 +6,10 @@ Class:
 Academic Year: 2023/2024
 Related:
   - "[[Derivate]]"
-Completed: false
+Completed: true
 ---
 ---
-## Index
-1. [[]]
-
----
-## Funzione è derivabile in un punto 
+## Funzione derivabile in un punto 
 
 >[!warning] Oss:
 >Se la funzione non e continua in $x_{0}$ allora non è derivabile in $x_{0}$

@@ -49,7 +49,7 @@ Type: Uni Note
 - [[Proprietà Integrali]] 🟢
 
 ##### Tecniche di Integrazione
-- [[Integrali Immediati]] 🔴
+- [[Primitive Elementari|Integrali Immediati (Primitive Elementari)]] 🟢
 - [[Integrazione per Sostituzione]] 🟢
 - [[Integrazione per Parti]] 🟡 (aggiungi [link](https://alem1105.github.io/Quartz/Primo-Anno/Secondo-Semestre/Calcolo-Integrale/Integrali#integrazione-per-parti-fattore-differenziale-1-e-integrali-ciclici))
 

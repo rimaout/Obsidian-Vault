@@ -13,7 +13,7 @@ Completed: true
 $f, g: \mathbb{R} \to \mathbb{R}$
 
 $$
-\begin{align}
+\begin{align*}
 & - \ \ [f(x)+g(x)]^{'} = f^{'}(x)+g^{'}(x)\  \ \ \textcolor{orange}{\text{(somma)}} \\ \\
 & - \ \  [f(x)-g(x)]^{'} = f^{'}(x)-g^{'}(x)\ \ \ \textcolor{orange}{\text{(sottrazione)}} \\ \\
 & - \ \  [f(x)\cdot g(x)]^{'} = f^{'}(x)\cdot g(x)\ + \ f(x)\cdot g^{'}(x)\ \ \ \ \ \textcolor{orange}{\text{(prodotto)}} \\ \\
@@ -21,5 +21,5 @@ $$
 & - \ \  [f(g(x))]^{'} = f^{'}(g(x))\cdot g^{'}(x)\ \ \ \ \ \ \ \ \ \ \ \ \textcolor{orange}{\text{(funzione di funzione)}} \\ \\
 & - \ \  [x^n]^{'} =n\cdot x^{n-1}\ \ \ \forall n\in\mathbb{N} \ \ \ \ \ \ \ \  \ \ \ \ \textcolor{orange}{\text{(potenza)}} \\ \\
 & - \ \  [A\cdot f(x)]^{'} =A\cdot f(x)^{'}\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{orange}{\text{(prodotto costante funzione)}}
-\end{align}
+\end{align*}
 $$

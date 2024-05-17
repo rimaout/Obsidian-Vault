@@ -10,20 +10,20 @@ Completed:
 # Indice:
 
 **Basi:**
-- [[Funzione derivabile]]
-- [[Utilizzi delle derivate]]
+- [[Funzione derivabile]] 🟢
+- [[Utilizzi delle derivate]] 🟢
 
 **Tipi:**
 - Derivata prima:
-	- [[Definizione derivata prima]]
-	- [[Operazioni tra derivate prime]]
-	- [[Regole di derivazione]]
+	- [[Definizione derivata prima]] 🟢
+	- [[Operazioni tra derivate prime]] 🟢
+	- [[Regole di derivazione]] 🟢
 
 - [[Derivate successive]]
 
 **Funzioni:**
 - [[Derivata funzione costante]]
-- [[Derivata funzione continua]]
+- [[Derivata funzione continua]] 🟢
 
 - [[Derivata funzione crescente o decrescente]]
 
@@ -36,8 +36,8 @@ Completed:
 - [[Estremi locali e derivate]]
 
 **Teoremi:**
-- [[Teorema di Rolle]]
-- [[Teorema di Lagrange]] 
+- [[Teorema di Rolle]] 🟢
+- [[Teorema di Lagrange]] 🟢
 - [[Teorema di Cauchy]]
 - [[Teorema di de L'Hopital]]
 

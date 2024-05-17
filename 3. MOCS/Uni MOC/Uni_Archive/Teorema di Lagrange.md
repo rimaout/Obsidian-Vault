@@ -8,7 +8,7 @@ Related:
   - "[[Derivate]]"
   - "[[Derivata prima]]"
   - "[[Funzioni Monotone]]"
-Completed: false
+Completed: true
 ---
 ---
 ## Index

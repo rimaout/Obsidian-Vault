@@ -8,7 +8,7 @@ Related:
   - "[[Derivate]]"
   - "[[Funzioni]]"
   - "[[Studio di Funzione]]"
-Completed: false
+Completed: true
 ---
 ---
 ## Index
@@ -57,25 +57,31 @@ Completed: false
 
 ---
 ## Esempi
->[!example] Example:
+
+>[!example] Esempio
 >Trovare massimi e minimi relativi e assoluti della funzione $f(x)=(x-1)e^{3x}$ nel intervallo $[0,2]$
 >
 >*1. Calcolare derivata:*
 >
->$$\begin{align}
+>$$
+>\begin{align*}
 >& f^{'}(x) = \left[ (x-1)e^{3x} \right]^{'}=\left[ x-1 \right]^{'}\cdot e^{3x} + (x-1) \cdot \left[ e^{3x}\right]^{'}=  \\
 >&\ \ \ \ \ \ \ \ = 1\cdot e^{3x} +(x-1)\cdot 3\cdot e^{3x} = \\
 >&\ \ \ \ \ \ \ \ = e^{3x} \cdot (1+3x-3) \\
 >&\ \ \ \ \ \ \ \ = (3x-2)e^{3x}
->\end{align}$$
+>\end{align*}
+>$$
 >
 >*1. Studio di funzione di $f^{'}(x)$:*
->$$\begin{gather}
+>
+>$$
+>\begin{gather}
 >f^{'}(x)\geq 0\\
 >(3x-2)e^{3x}\geq 0\\
 >3x-2\geq 0\\
 >\boxed{x\geq \frac{2}{3}}
->\end{gather}$$
+>\end{gather}
+>$$
 >
 >![[Pasted image 20231215184709.png|350]]
 >
@@ -84,12 +90,15 @@ Completed: false
 >- $x = 2$ è massimo relativo 
 >
 >*3. Calcolare funzione dei punti ottenuti dal passaggio 2:*
+>
 >$f(x)=(x-1)e^{3x}$ quindi:
->$$\begin{align}
+>$$
+>\begin{align*}
 >&- \ \ x=0 \to f(0)= 1 \\
 >&-\ \ x=\frac{2}{3}\to f( 2 / 3)= -\frac{1}{3}\cdot e^{2} \\
 >&-\ \ x=2\to f(2)= e^{6}
->\end{align}$$
+>\end{align*}
+>$$
 >
 >*4. Risultato:*
 >	- I massimino relativo con il valore più alto calcolato nel passaggio 3 sarà il massimo assoluto

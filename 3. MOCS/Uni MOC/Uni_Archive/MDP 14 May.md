@@ -198,4 +198,84 @@ Map<City, Set<String>> peopleSurnamesByCity =
 		groupingBy(Person::getCity, 
 			mapping(Person::getLastName, toSet())));
 ```
-%%  %%
+
+## Lezione 16-05-2024
+
+## Creare il proprio stream 
+
+
+## Partitioning by
+
+
+
+## Distinct (inetemedia)
+ restituisce uno stream senza ripetizioni di elementi
+
+## Reduce (terminale)
+
+è un operazione terminale che effettua una riduzione sugli elementi dello stream utilizzando la funzione data input
+- in input riceve una bi function ovvero una funzione che a un input e un output
+
+Esempio:
+
+senza stream 
+```java
+int somma = 0;    
+    for (int k : lista)
+	    somma += k;
+```
+
+con stream + reduce:
+```java
+lista.stream().reduce(0, (a, b) -> a+b); 
+
+// oppure: 
+lista.stream().reduce(0, Integer::sum); 
+```
+
+## Limit
+
+
+## takeWhile/dropWhile (intermedie)
+- takeWhile: prende elementi a finche si verifica una determinata condizione
+- dropWhile: salta elementi finche si verifica la condizione 
+ 
+Esempio:
+```java
+List<Integer> elementi = List.of(2, 5, 10, 42, 3, 2, 10);  
+List<Integer> reduced = l.stream().takeWhile(x -> x < 42).collect(toList()); 
+// contiene [2, 5, 10]
+```
+
+## anyMatch/allMatch/noneMatch (terminali)
+
+
+## findFirst e findAny (terminali)
+
+
+## klaajklsjdkl
+
+
+## flatMap (intermedia)
+
+- permette di unire più stream in un unico stream
+
+esempio se gli diamo in input una collection di collection, prende tutti gli elementi e li inserisce in un'unica collection
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

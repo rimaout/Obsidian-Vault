@@ -16,7 +16,7 @@ Completed: true
 ---
 ## Derivabile -> Continua
 
->[!warning] Teorema::
+>[!warning] Teorema:
 >- Se: 
 >	- $f$ è derivabile in $x_{0}$ 
 >

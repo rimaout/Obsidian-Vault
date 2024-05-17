@@ -60,7 +60,7 @@ $$
 
 **Esempio:**
 
-![[polinomialdicimage.jpeg|800]]
+![[polinomialdicimage.jpeg|1200]]
 
 ---
 # Divisione polinomi con più variabili
