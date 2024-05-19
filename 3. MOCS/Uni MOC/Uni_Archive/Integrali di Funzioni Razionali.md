@@ -10,15 +10,11 @@ Completed: true
 ---
 ---
 
->[!abstract] Index
->1. [[#Introduzione]]
-
 >[!abstract] Related
 >- [[Integrali]]
 >- [[Calcolo Integrale (class)]]
 
 ---
-## Introduzione
 
 >[!info] Forma
 >Integrare il rapporto tra due polinomi, esprimibile quindi con la forma generica:
@@ -29,8 +25,7 @@ Completed: true
 >
 >dove $P(x)$ e $Q(x)$ sono due polinomi.
 
----
-
-- [[Casi Specifici (Integrali Razionali)]] 🟢
-- [[Casi Generali (Integrali Razionali)]] 🟢
+>[!danger] Metodi Risolutivi
+>- [[Casi Specifici (Integrali Razionali)]] 🟢
+>- [[Casi Generali (Integrali Razionali)]] 🟢
 

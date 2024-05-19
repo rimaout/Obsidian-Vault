@@ -74,21 +74,26 @@ In base ai gradi degli elementi della [[#^2eb300|fattorizzazione]]  la procedura
 >[!example] Esempio 1\. (dettagliato)
 >
 >>[!danger] Risolvere
+>>
 >>![[Pasted image 20240518103549.png|200]]
 >
 >>[!note] Divisione
+>>
 >>![[Pasted image 20240517104112.png|800]]
 >
 >>[!note] Fattorizzazione
+>>
 >>![[Pasted image 20240517131240.png|500]]
 >>
 >> Vedi: [[Fattorizzazione di un polinomio]]
 >
 >>[!note]  Decomposizione
+>>
 >>Riscrivere $\frac{1}{x^{2}-x-2}$ come come una somme di frazioni più semplici
 >>![[Pasted image 20240519165452.png|680]]
 >
 >>[!note] Integrazione 
+>>
 >>Integriamo funzione originale ma riscritta nella sua scomposizione più semplice
 >>
 >>![[Pasted image 20240517155537.png|720]]

@@ -22,6 +22,9 @@ Completed: false
 >- [[Calcolo Integrale (class)]]
 
 ---
+
+- [[Introduzione (integrali impropri)]]
+
 ## Definizione 
 
 >[!info] Integrale improprio
@@ -31,7 +34,7 @@ Completed: false
 >\int^{b}_{a} f(x) \ dx = \text{ Non Integrabile Secondo Rienmann}
 >$$
 >
->Allora, $f(x)$ si dice **integrabile in senso improprio**  in $[a,\, b]$ se l'integrale per $[a, \, b-\epsilon ]$ doce $\epsilon \to 0^{+}$ ammette limite finito:
+>Allora, $f(x)$ si dice **integrabile in senso improprio**  in $[a,\, b]$ se l'integrale per $[a, \, b-\epsilon ]$ dove $\epsilon \to 0^{+}$ ammette limite finito:
 >
 >$$
 >\lim_{ \epsilon \to 0^{+} } \int^{b-\epsilon}_{a} f(x) \ dx = \lim_{ \epsilon \to 0^{+} } F(x) \Bigg\vert^{b-\epsilon}_{a} = \ell
