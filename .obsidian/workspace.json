@@ -20,33 +20,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "d8bf64be5ad40f1b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Casi Generali (Integrali Razionali).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a0599f302fb4f153",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Massimi e Minimi di una funzione.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -105,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 271.504789352417
+    "width": 271.504789352417,
+    "collapsed": true
   },
   "right": {
     "id": "1599d9a7234429ed",
@@ -122,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Massimi e Minimi di una funzione.md",
+                "file": "3. MOCS/Uni MOC/Uni_Classes/Calcolo Integrale (class).md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -139,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Massimi e Minimi di una funzione.md",
+                "file": "3. MOCS/Uni MOC/Uni_Classes/Calcolo Integrale (class).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Massimi e Minimi di una funzione.md"
+                "file": "3. MOCS/Uni MOC/Uni_Classes/Calcolo Integrale (class).md"
               }
             }
           },
@@ -244,10 +220,25 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "a0599f302fb4f153",
+  "active": "e297cb9ac14bcafd",
   "lastOpenFiles": [
-    "3. MOCS/Uni MOC/Uni_Archive/Teorema Weierstrass.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Casi Generali (Integrali Razionali).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Integrali di Funzioni Razionali.md",
+    "3. MOCS/Uni MOC/Uni_Classes/Calcolo Integrale (class).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240519170749.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240519170611.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240519165452.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240517153403.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240519165333.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240519165018.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240519165249.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240519161232.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240519161055.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240519164227.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Fattorizzazione di un polinomio.md",
+    "3. MOCS/Uni MOC/Uni_Classes/Matematica 0 (class).md",
     "3. MOCS/Uni MOC/Uni_Archive/Massimi e Minimi di una funzione.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Teorema Weierstrass.md",
     "3. MOCS/Uni MOC/Uni_Archive/Derivate.md",
     "3. MOCS/Uni MOC/Uni_Archive/Teorema di Lagrange.md",
     "3. MOCS/Uni MOC/Uni_Archive/Teorema di Rolle.md",
@@ -257,31 +248,15 @@
     "3. MOCS/Uni MOC/Uni_Archive/Definizione derivata prima.md",
     "3. MOCS/Uni MOC/Uni_Archive/Operazioni tra derivate prime.md",
     "3. MOCS/Uni MOC/Uni_Archive/Regole di derivazione.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Casi Generali (Integrali Razionali).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240517104334.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240517104112.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Integrali di Funzioni Razionali.md",
     "3. MOCS/Uni MOC/Uni_Archive/Casi Specifici (Integrali Razionali).md",
     "3. MOCS/Uni MOC/Uni_Archive/Divisone tra polinomi.md",
     "3. MOCS/Uni MOC/Uni_Archive/Fattoriale.md",
     "2. Litterateur Notes/Books/L'avvocato dell'atomo (book)/L’avvocato dell’atomo (Book).md",
-    "3. MOCS/Uni MOC/Uni_Classes/Calcolo Integrale (class).md",
     "To-Do/Casi Specifici (Integrali Razionali).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240517094048.png",
     "3. MOCS/Uni MOC/Uni_Archive/Integrali di Funzioni Composte.md",
     "3. MOCS/Uni MOC/Uni_Archive/Integrazione per Parti.md",
     "3. MOCS/Uni MOC/Uni_Archive/MDP 14 May.md",
     "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
-    "3. MOCS/Uni MOC/Uni_Classes/Introduzione agli Algoritmi (class).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Al 1 Mag.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Alberi Ricerca Binaria.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240515110919.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240515110827.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240515110654.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240515105451.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240515105313.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240515104958.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240512202459.png",
     "3. MOCS/Uni MOC/Uni_Archive/QuikSortCost.pdf",
     "3. MOCS/Uni MOC/Uni_Archive/MIPS_Instruction_Set.pdf",
     "3. MOCS/Programming MOC/Pro_Archive",

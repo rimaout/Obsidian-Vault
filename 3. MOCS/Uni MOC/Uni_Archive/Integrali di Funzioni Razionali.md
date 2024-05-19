@@ -6,7 +6,7 @@ Class:
 Academic Year: 2023/2024
 Related:
   - "[[Integrali]]"
-Completed: false
+Completed: true
 ---
 ---
 
@@ -32,5 +32,5 @@ Completed: false
 ---
 
 - [[Casi Specifici (Integrali Razionali)]] 🟢
-- [[Casi Generali (Integrali Razionali)]]
+- [[Casi Generali (Integrali Razionali)]] 🟢
 

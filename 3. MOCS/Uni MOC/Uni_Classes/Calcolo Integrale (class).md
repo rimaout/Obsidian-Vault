@@ -57,7 +57,7 @@ Type: Uni Note
 
 ##### Integrali "Particolari"
 - [[Integrali di Funzioni Composte]]  🟢
-- [[Integrali di Funzioni Razionali]] 🟡
+- [[Integrali di Funzioni Razionali]] 🟢
 - [[Integrali Impropri]] 🟡
 
 ---

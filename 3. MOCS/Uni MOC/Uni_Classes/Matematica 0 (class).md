@@ -18,8 +18,10 @@ Academic Year: 2022/2023
 **Polinomi:**
 - [[Divisone tra polinomi]] 🟢
 - [[Ruffini]] 🔴
+- [[Fattorizzazione di un polinomio]] 🟡
 - [[Teorema del resto]] 🟢
 - [[Valore Assoluto]] 🟢
+
 
 **Equazioni:**
 - [[Equazioni]] 🟡
