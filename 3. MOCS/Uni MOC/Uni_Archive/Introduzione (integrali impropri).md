@@ -36,7 +36,7 @@ Completed: false
 ---
 ## Integrali di Funzioni Illimitate
 
->[!info] Illimitata Estremo Destro
+>[!info] Funzione illimitata sull'Estremo Destro
 >Sia $f(x): [a,b) \to \mathbb{R}$  continue e illimitata sull'estremo destro (ovvero $\lim_{ x \to b^{-}} f(x)=\pm \infty$)
 >- In questo caso di definisce:
 >$$
@@ -45,7 +45,7 @@ Completed: false
 >
 >![[Pasted image 20240519181844.png|650]]
 
->[!info] Illimitata Estremo Sinistro
+>[!info] Funzione illimitata sull'Estremo Sinistro
 >
 >Sia $f(x): (a,b] \to \mathbb{R}$  continue e illimitata sull'estremo sinistro (ovvero $\lim_{ x \to a^{+}} f(x)=\pm \infty$)
 >- In questo caso di definisce:
@@ -63,8 +63,33 @@ Completed: false
 
 >[!example] Esempio
 >$$
->\int_{0}^{4} \frac{1}{2\sqrt{ x }} \ dx = \lim_{ \epsilon \to 0^{+} } \int \frac{1}{2\sqrt{ x }} \ dx = \lim_{ \epsilon \to 0^{+} } \sqrt{ x } \Bigg\vert^{4}_{\epsilon} = \lim_{ \epsilon \to 0^{+} } \sqrt{ 4 } - \sqrt{ \epsilon } = 2- 0 = 2
+>\int_{0}^{4} \frac{1}{2\sqrt{ x }} \ dx = \lim_{ \epsilon \to 0^{+} } \int \frac{1}{2\sqrt{ x }} \ dx = \lim_{ \epsilon \to 0^{+} } \sqrt{ x } \Bigg\vert^{4}_{\epsilon} = \lim_{ \epsilon \to 0^{+} } \bigg(\sqrt{ 4 } - \sqrt{ \epsilon }\bigg) = 2- 0 = 2
 >$$
 
-## Integrali con zona di integrazione Illimitata
+---
+## Integrali con zona di integrazione illimitata
+
+
+>[!info] Zona di integrazione illimitata a destra
+>Sia $f:[a,+\infty]\to \mathbb{R}$ una funzione continua:
+>- In questo caso si definisce:
+>$$
+>\int^{+\infty }_{a} f(x) \ dx = \lim_{ M \to +\infty } \int^{M}_{a} f( x ) \ dx 
+>$$
+>
+>![[Pasted image 20240519193128.png|700]]
+
+>[!info] Zona di integrazione illimitata a sinistra
+>Sia $f:(-\infty, b)\to \mathbb{R}$ una funzione continua:
+>- In questo caso si definisce: 
+>$$
+>\int^{b}_{-\infty} f(x) \ dx = \lim_{ M \to -\infty } \int^{b}_{M} f( x ) \ dx 
+>$$
+>
+>![[Pasted image 20240519194130.png|650]]
+
+>[!example] Esempio
+>$$
+>\int_{4}^{+\infty} \frac{1}{x^{2}} \ dx = \lim_{ M \to +\infty } - \frac{1}{x} \Bigg\vert^{M}_{4} = \lim_{ M \to +\infty } \bigg( -\frac{1}{M} + \frac{1}{4}\bigg) = 0+ \frac{1}{4} = \frac{1}{4}
+>$$
 

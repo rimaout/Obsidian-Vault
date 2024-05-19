@@ -44,21 +44,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "afae377537cc3e13",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Casi Generali (Integrali Razionali).md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -135,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Casi Generali (Integrali Razionali).md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Introduzione (integrali impropri).md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -152,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Casi Generali (Integrali Razionali).md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Introduzione (integrali impropri).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Casi Generali (Integrali Razionali).md"
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Introduzione (integrali impropri).md"
               }
             }
           },
@@ -257,25 +245,26 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "d4aca3edb3bdc908",
+  "active": "50370d399459282f",
   "lastOpenFiles": [
-    "3. MOCS/Uni MOC/Uni_Archive/Integrali di Funzioni Razionali.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240519194130.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240519193128.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240519192937.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Introduzione (integrali impropri).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240519192737.png",
     "3. MOCS/Uni MOC/Uni_Classes/Calcolo Integrale (class).md",
     "3. MOCS/Uni MOC/Uni_Archive/Integrali Impropri.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Introduzione (integrali impropri).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Casi Generali (Integrali Razionali).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Integrali di Funzioni Razionali.md",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240519184313.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240519181844.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240519175329.png",
     "3. MOCS/Uni MOC/Uni_Archive/Integrali di Funzioni Composte.md",
     "3. MOCS/Uni MOC/Uni_Archive/Casi Specifici (Integrali Razionali).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Casi Generali (Integrali Razionali).md",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240519170749.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240519170611.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240519165452.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240517153403.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240519165333.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240519165018.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240519165249.png",
     "3. MOCS/Uni MOC/Uni_Archive/Fattorizzazione di un polinomio.md",
     "3. MOCS/Uni MOC/Uni_Classes/Matematica 0 (class).md",
     "3. MOCS/Uni MOC/Uni_Archive/Massimi e Minimi di una funzione.md",
