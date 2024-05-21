@@ -263,19 +263,17 @@ List<Integer> reduced = l.stream().takeWhile(x -> x < 42).collect(toList());
 esempio se gli diamo in input una collection di collection, prende tutti gli elementi e li inserisce in un'unica collection
 
 
+# Lezione 21 May 2023
 
+## IntStream, DoubleStream, LongStream
 
+• Si ottengono da uno Stream con i metodi mapToInt,
+mapToLong, mapToDouble
+• Analoghi metodi sono disponibili nelle 3 classi (tolto
+quello del tipo in questione, es. IntStream non ha
+mapToInt), ma in più hanno mapToObj
 
-
-
-
-
-
-
-
-
-
-
-
-
+Dispongono di 2 metodi statici:
+– range(inizio, fine), intervallo esclusivo (aperto a destra)
+– rangeClosed(inizio, fine), intervallo inclusivo (chiuso a destra)
 

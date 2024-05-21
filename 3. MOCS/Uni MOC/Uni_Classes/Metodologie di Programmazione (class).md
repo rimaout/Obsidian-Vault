@@ -23,6 +23,8 @@ Related:
 15. [[MDP 07 May]]
 16. [[MDP 09 May]]
 17. [[MDP 14 May]]
+18. [[MDP 21 May]]
+19. [[Design Pattern]]
 
 **Lab:**
 1. [[MDP Lab 28 Feb]]

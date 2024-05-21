@@ -11,10 +11,11 @@ Completed: false
 ---
 
 >[!abstract] Index
->1. 
+>1. [[#Introduzione]]
+>2. [[#Fattorizzazione polinomio di 2° grado (metodo della formula quadratica)]]
 
 >[!abstract] Related
->- 
+>- [[Matematica 0 (class)]]
 
 ---
 ## Introduzione
@@ -43,17 +44,17 @@ ax^2 +bx +c
 $$
 
 Per trovare le radici puoi usare la formula: 
+
 $$
-x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}$$
+x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}
+$$
  
- Una volta che hai le radici, il polinomio può essere fattorizzato come:
+ Una volta che hai le radici, il polinomio può essere fattorizzato come: 
  $$
- (x - r_1)(x - r_2)
- $$
+(x - r_1)(x - r_2)
+$$
   
-  dove $r_1$$ e $r_2$ sono le radici del polinomio.
+dove $r_1$$ e $r_2$ sono le radici del polinomio.
 
 >[!example] Esempio
 >![[Pasted image 20240517131013.png|500]]
-
----

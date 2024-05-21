@@ -128,10 +128,3 @@ $$\begin{align}
 & min(A)=y\iff y=inf(A)\land y\in A\\
 
 \end{align}  $$
-
-
----
-## Esempi
-
-
----

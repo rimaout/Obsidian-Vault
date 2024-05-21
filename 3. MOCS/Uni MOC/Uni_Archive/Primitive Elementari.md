@@ -11,7 +11,7 @@ Completed: true
 ---
 ---
 
->[!abstract] Index:
+>[!abstract] Index
 >1. [[#Primitive Elementari]]
 >2. [[#Esempi]]
 

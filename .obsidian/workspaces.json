@@ -24,6 +24,30 @@
                 }
               },
               {
+                "id": "fbe94734b7b9f25e",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Design Pattern.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "e320485b192f3b54",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/MDP 21 May.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
                 "id": "183d5cdde908f129",
                 "type": "leaf",
                 "state": {
@@ -124,7 +148,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/MDP 14 May.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Design Pattern.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -141,7 +165,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/MDP 14 May.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Design Pattern.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -165,7 +189,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/MDP 14 May.md"
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Design Pattern.md"
                   }
                 }
               }
@@ -194,7 +218,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/MDP 14 May.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Design Pattern.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -243,8 +267,8 @@
           "markdown-importer:Open format converter": false
         }
       },
-      "active": "183d5cdde908f129",
-      "mtime": "2024-05-17T09:04:43+02:00"
+      "active": "fbe94734b7b9f25e",
+      "mtime": "2024-05-21T13:34:13+02:00"
     },
     "Algoritmi": {
       "main": {
@@ -515,7 +539,6 @@
           {
             "id": "c955f70ef39e33ef",
             "type": "tabs",
-            "dimension": 41.45527369826435,
             "children": [
               {
                 "id": "e297cb9ac14bcafd",
@@ -532,58 +555,31 @@
                 }
               },
               {
-                "id": "68524fab8b5af441",
+                "id": "4db6862315d59de2",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Integrazione per Parti.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Integrali Impropri.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "b4c92ecb61ec5947",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Criteri di Convergenza (integrali impropri).md",
                     "mode": "source",
                     "source": false
                   }
                 }
               }
             ],
-            "currentTab": 1
-          },
-          {
-            "id": "7d2439f1b4d53bfb",
-            "type": "tabs",
-            "dimension": 58.54472630173565,
-            "children": [
-              {
-                "id": "bc56c0b0d958c0b8",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Regole di derivazione.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "c27d97ce87405fd3",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Regole di derivazione.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "2e1a650be56f8c7f",
-                "type": "leaf",
-                "state": {
-                  "type": "empty",
-                  "state": {}
-                }
-              }
-            ]
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -612,7 +608,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "\"strutture dati\"",
+                    "query": "fattor",
                     "matchingCase": true,
                     "explainSearch": true,
                     "collapseAll": true,
@@ -660,7 +656,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Regole di derivazione.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Criteri di Convergenza (integrali impropri).md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "alphabetical",
@@ -677,7 +673,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Regole di derivazione.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Criteri di Convergenza (integrali impropri).md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -700,7 +696,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Regole di derivazione.md"
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Criteri di Convergenza (integrali impropri).md"
                   }
                 }
               },
@@ -782,8 +778,8 @@
           "workspaces:Manage workspace layouts": false
         }
       },
-      "active": "bc56c0b0d958c0b8",
-      "mtime": "2024-05-14T21:58:18+02:00"
+      "active": "b4c92ecb61ec5947",
+      "mtime": "2024-05-21T09:23:23+02:00"
     },
     "Architettura": {
       "main": {

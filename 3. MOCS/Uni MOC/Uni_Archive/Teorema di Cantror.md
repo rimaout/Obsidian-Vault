@@ -30,4 +30,7 @@ Quindi, il teorema di Cantor ci dice che non è possibile trovare una corrispond
 
 ---
 # [[Dimostrazione per assurdo]]
-![[Screenshot 2023-06-27 at 16.31.51.png]]![[Screenshot 2023-06-27 at 16.23.24.png]]![[Screenshot 2023-06-27 at 16.23.53.png]]
+
+![[Screenshot 2023-06-27 at 16.31.51.png|900]]
+![[Screenshot 2023-06-27 at 16.23.24.png|900]]
+![[Screenshot 2023-06-27 at 16.23.53.png|900]]

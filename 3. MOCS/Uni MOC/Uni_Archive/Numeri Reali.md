@@ -45,7 +45,8 @@ utilizzando il [[Valore assoluto]]:
 $$distanza(x,y)= |x-y|$$
 
 **Insieme non numerabile:**
-[[Teorema di Cantror]], [[Cardinalità ed equipollenza, insiemi finiti ed infiniti, numerabili ed innumerabili]]
+- [[Teorema di Cantror]]
+- [[Cardinalità ed equipollenza, insiemi finiti ed infiniti, numerabili ed innumerabili]]
 
 ---
 ## Rappresentazione sulla retta
@@ -53,6 +54,6 @@ La completezza di R permette di costruire una corrispondenza biunivoca tra i num
 
 Più precisamente: ad ogni numero reale corrisponde uno e un solo punto sulla retta e ad ogni punto della retta corrisponde uno e un solo numero reale.
 
-![[Screenshot 2023-10-17 at 10.51.53.png]]
+![[Screenshot 2023-10-17 at 10.51.53.png|800]]
 
 ---

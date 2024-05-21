@@ -14,8 +14,8 @@ Completed: true
 >[!abstract] Index
 >1. [[#Introduzione]]
 >2. [[#Procedura]]
->3. [[#Esempi (fattorizzazione 1° Grado)]]
->4. [[#Esempi (fattorizzazione 2° grado)]]
+>3. [[#Grado degli elementi della fattorizzazione]]
+>4. [[#Esempi]]
 
 >[!abstract] Related
 >- [[Calcolo Integrale (class)]]
@@ -52,9 +52,9 @@ Questa procedura si divide in 4 fasi:
 
 >[!note] 3\. Decomposizione
 >Decomporre la frazione in "fratti" più semplici.
->- Questo passaggio cambia in base al grado massimo dei termini della Fattorizzazione:
->	- [[#Esempi Fattorizzazione 1° Gardo]]
->	- [[#Esempi Fattorizzazione 2° Gardo]]
+>- Questo passaggio cambia in base al grado massimo dei termini della Fattorizzazione, vedi: 
+>	- [[#Grado degli elementi della fattorizzazione]]
+>	- [[Fattorizzazione di un polinomio]]
 
 ^58bcf8
 

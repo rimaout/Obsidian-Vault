@@ -4,8 +4,10 @@ Type: "[[Uni MOC]]"
 ---
 ---
 ##### Basi
-- [[Insiemi Numerici]], [[Intervalli Insiemi]]
-- [[Funzioni]],  [[Successioni Reali]]
+- [[Insiemi Numerici]] 🟢
+- [[Intervalli Insiemi]] 🟢
+- [[Funzioni]]
+- [[Successioni Reali]]
 
 ##### Prima parte ([[Limiti]] di secessioni)
 - [[Successioni Monotone]], [[Limiti]], [[Gerarchia degli infiniti]]

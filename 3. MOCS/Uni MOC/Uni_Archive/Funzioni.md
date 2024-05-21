@@ -27,21 +27,20 @@ Completed: false
 - [[Cardinalità ed equipollenza, insiemi finiti ed infiniti, numerabili ed innumerabili]]
 
 **Crescita di una funzione**
-- [[Funzioni Elementari]]  <--
-- [[Funzioni Razionali]]
-- [[Funzioni Logaritmiche]]
-- [[Funzioni Esponenziali]]
-- [[Scala confronto crescita delle funzioni]] 
-
+- [[Funzioni Elementari]]  🔴
+- [[Funzioni Razionali]] 🔴
+- [[Funzioni Logaritmiche]] 🔴
+- [[Funzioni Esponenziali]] 🔴
+- [[Scala confronto crescita delle funzioni]]  🔴
 
 **Altro**:
 - [[Asintoti]]
-- [[Punti Stazionari]]
-- [[Flessi e Concavità]]
-- [[Punti di discontinuità]]
+- [[Punti Stazionari]] 🔴
+- [[Flessi e Concavità]] 🔴
+- [[Punti di discontinuità]] 🔴
 - [[Massimi e Minimi di una funzione]]
 
-- [[Studio di Funzione]]  <--
+- [[Studio di Funzione]] 
 
 ---
 ## Definizione
@@ -50,7 +49,7 @@ Una funzione è una legge che associa ad ogni elemento dell'insieme di partenza 
 $$ 
  \forall a\in A~\exists!~b\in ~~t.c.~~f:A \to B 
  $$
- ![[IMG_35D8C505799B-1.jpeg]]
+ ![[IMG_35D8C505799B-1.jpeg|800]]
 ---
 ## Dominio e Co-dominio
 **Dominio:** Insieme di partenza (insieme di definizione)
@@ -76,7 +75,7 @@ $$
 & Dato \space\space b\in B, l'elemento \space\space f(b)\in B si\space\space dice \space\space immagine\space\space di \space\space b \\ 
 & \\
 & f^{-1}(x):=\{a\in x; f(a)\in y\} \\
-\end{align*} $$
-![[Screenshot 2023-05-15 at 12.26.18.png]]
+\end{align*} 
+$$
 
----
+![[Screenshot 2023-05-15 at 12.26.18.png|800]]
