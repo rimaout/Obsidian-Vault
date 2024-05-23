@@ -22,31 +22,43 @@
             }
           },
           {
-            "id": "8052cf6de07c6066",
+            "id": "13e9c8d19ac13aab",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Casi Specifici (Integrali Razionali).md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Equazioni Differenziali a Variabili Separabili.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "6d06a7fecbb56bd7",
+            "id": "8c215d9ce530ee2b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Integrali Impropri.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Equazioni Differenziali Comuni + Problemi di Cauchy.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "49df853cb6a8296c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Primitive Elementari.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -100,8 +112,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -123,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Integrali Impropri.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Equazioni Differenziali a Variabili Separabili.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -140,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Integrali Impropri.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Equazioni Differenziali a Variabili Separabili.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Integrali Impropri.md"
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Equazioni Differenziali a Variabili Separabili.md"
               }
             }
           },
@@ -245,11 +256,24 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "d4aca3edb3bdc908",
+  "active": "13e9c8d19ac13aab",
   "lastOpenFiles": [
-    "3. MOCS/Uni MOC/Uni_Archive/Criteri di Convergenza (integrali impropri).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Integrali Impropri.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240523163911.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240523161142.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240523152056.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240523151558.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Equazioni Differenziali a Variabili Separabili.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240523151255.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240523151249.png",
     "3. MOCS/Uni MOC/Uni_Classes/Calcolo Integrale (class).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Primitive Elementari.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Equazioni Differenziali Comuni + Problemi di Cauchy.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Primitive.md",
+    "To-Do/Untitled.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Introduzione Equazioni Differenziali.md",
+    "To-Do/To-Do.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Integrali Impropri.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Criteri di Convergenza (integrali impropri).md",
     "3. MOCS/Uni MOC/Uni_Archive/Casi Specifici (Integrali Razionali).md",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240523105357.png",
     "3. MOCS/Uni MOC/Uni_Archive/Integrali di Funzioni Razionali.md",
@@ -258,32 +282,19 @@
     "Excalidraw/Drawing 2024-05-22 09.51.58.excalidraw.md",
     "Excalidraw",
     "3. MOCS/Uni MOC/Uni_Archive/Esempi Equazioni Differenziali.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Equazioni Differenziali Comuni + Problemi di Cauchy.md",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240521163750.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240521160712.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240521152758.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Introduzione Equazioni Differenziali.md",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240521150226.png",
     "3. MOCS/Uni MOC/Uni_Archive/Criterio del confronto asintotico (Serie).md",
     "3. MOCS/Uni MOC/Uni_Archive/Serie Armoniche.md",
     "3. MOCS/Uni MOC/Uni_Archive/Introduzione (integrali impropri).md",
     "3. MOCS/Uni MOC/Uni_Archive/Integrali.md",
     "3. MOCS/Uni MOC/Uni_Archive/Esercizi Integrali Impropri.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240521133836.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240520100854.png",
     "3. MOCS/Uni MOC/Uni_Archive/Design Pattern.md",
     "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
     "3. MOCS/Uni MOC/Uni_Archive/MDP 14 May.md",
     "3. MOCS/Uni MOC/Uni_Archive/MDP 21 May.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240520172309.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240520172026.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Integrali di Funzioni Composte.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Integrazione per Sostituzione.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Integrazione per Parti.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240520162327.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Primitive.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Primitive Elementari.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Funzioni.md",
     "3. MOCS/Uni MOC/Uni_Archive/QuikSortCost.pdf",
     "3. MOCS/Uni MOC/Uni_Archive/MIPS_Instruction_Set.pdf",
     "3. MOCS/Programming MOC/Pro_Archive",
