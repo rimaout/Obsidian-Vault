@@ -24,11 +24,11 @@ Completed: false
 ---
 
 - [[Introduzione (integrali impropri)|Introduzione]] 🟢
-- [[Criteri di Convergenza (integrali impropri)|Criteri di Convergenza]]
+- [[Criteri di Convergenza (integrali impropri)|Criteri di Convergenza]] 🟡 (criterio convergenza assoluta)
 
 [[Esercizi Integrali Impropri]]
 
----
+## integrali comuni
 
 ![[Pasted image 20240520172026.png|800]]
 

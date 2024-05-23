@@ -29,3 +29,5 @@ Completed: true
 >- [[Casi Specifici (Integrali Razionali)]] 🟢
 >- [[Casi Generali (Integrali Razionali)]] 🟢
 
+
+[[Esercizi Funzioni Razionali]]

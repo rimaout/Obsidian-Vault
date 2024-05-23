@@ -86,13 +86,31 @@ Completed: true
 >$$
 
 ---
-## Caso $\frac{dx+e}{ax^{2}+bx+c}$
+## Caso Numeratore Costante, Denominatore 2° Grado
+
+>[!info] Formula
+>Se incontriamo integrale nella forma:
+>
+>$$
+>\int \frac{k}{ax^{2}+bx+c} \, dx  \text{ con } \Delta<0
+>$$
+>
+>Allora:
+>$$
+>\int \frac{k}{ax^{2}+bx+c} \, dx = \frac{2k\cdot \arctan\left( \frac{2ax+b}{\sqrt{ -\Delta }} \right)}{\sqrt{ -\Delta }}
+>$$
+
+>[!example] Esempio
+>![[Pasted image 20240523105357.png|700]]
+
+---
+## Caso Numeratore 1°, Denominatore 2° Grado
 
 >[!info] Metodo
 >Se incontriamo integrale nella forma:
 >
 >$$
->\frac{dx+e}{ax^{2}+bx+c} \text{ con } \Delta<0
+>\int  \frac{dx+e}{ax^{2}+bx+c} \, dx \text{ con } \Delta<0
 >$$
 >
 >Questi integrali vanno ricondotto, facendo i dovuti rimaneggiamenti, ad integrali del tipo:

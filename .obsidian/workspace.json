@@ -22,7 +22,19 @@
             }
           },
           {
-            "id": "4db6862315d59de2",
+            "id": "8052cf6de07c6066",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Casi Specifici (Integrali Razionali).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6d06a7fecbb56bd7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -32,33 +44,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "b4c92ecb61ec5947",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Introduzione (integrali impropri).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dcc36abf9d65ea98",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Esercizi Integrali Impropri.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -135,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Esercizi Integrali Impropri.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Integrali Impropri.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -152,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Esercizi Integrali Impropri.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Integrali Impropri.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Esercizi Integrali Impropri.md"
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Integrali Impropri.md"
               }
             }
           },
@@ -257,44 +245,45 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "dcc36abf9d65ea98",
+  "active": "d4aca3edb3bdc908",
   "lastOpenFiles": [
+    "3. MOCS/Uni MOC/Uni_Archive/Criteri di Convergenza (integrali impropri).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Integrali Impropri.md",
+    "3. MOCS/Uni MOC/Uni_Classes/Calcolo Integrale (class).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Casi Specifici (Integrali Razionali).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240523105357.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Integrali di Funzioni Razionali.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Esercizi Funzioni Razionali.md",
+    "To-Do/Resonance Calendar.md",
+    "Excalidraw/Drawing 2024-05-22 09.51.58.excalidraw.md",
+    "Excalidraw",
+    "3. MOCS/Uni MOC/Uni_Archive/Esempi Equazioni Differenziali.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Equazioni Differenziali Comuni + Problemi di Cauchy.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240521163750.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240521160712.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240521152758.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Introduzione Equazioni Differenziali.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240521150226.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Criterio del confronto asintotico (Serie).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Serie Armoniche.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Introduzione (integrali impropri).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Integrali.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Esercizi Integrali Impropri.md",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240521133836.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240520100854.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Esercizi Integrali Impropri.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Introduzione (integrali impropri).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Integrali Impropri.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Criteri di Convergenza (integrali impropri).md",
     "3. MOCS/Uni MOC/Uni_Archive/Design Pattern.md",
     "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
     "3. MOCS/Uni MOC/Uni_Archive/MDP 14 May.md",
     "3. MOCS/Uni MOC/Uni_Archive/MDP 21 May.md",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240520172309.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240520172026.png",
-    "3. MOCS/Uni MOC/Uni_Classes/Calcolo Integrale (class).md",
     "3. MOCS/Uni MOC/Uni_Archive/Integrali di Funzioni Composte.md",
     "3. MOCS/Uni MOC/Uni_Archive/Integrazione per Sostituzione.md",
     "3. MOCS/Uni MOC/Uni_Archive/Integrazione per Parti.md",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240520162327.png",
     "3. MOCS/Uni MOC/Uni_Archive/Primitive.md",
     "3. MOCS/Uni MOC/Uni_Archive/Primitive Elementari.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240520153934.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240520152832.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240520104559.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240520103012.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240520104146.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240520101938.png",
     "3. MOCS/Uni MOC/Uni_Archive/Funzioni.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Studio di Funzione.md",
-    "3. MOCS/Uni MOC/Uni_Classes/Calcolo Differenziale (class).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Intervalli Insiemi.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Teorema di Cantror.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Dimostrazione per assurdo.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Numeri Reali.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Insiemi Numerici.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Numeri Irrazionali.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Numeri Razionali.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Numeri Interi.md",
     "3. MOCS/Uni MOC/Uni_Archive/QuikSortCost.pdf",
     "3. MOCS/Uni MOC/Uni_Archive/MIPS_Instruction_Set.pdf",
     "3. MOCS/Programming MOC/Pro_Archive",
@@ -304,7 +293,6 @@
     "3. MOCS/Programming MOC/Pro_Archive/Recording 20240307171929.webm",
     "Storage/Files/Media",
     "3. MOCS/Uni MOC/Uni_Storage/Matematica 0.pdf",
-    "3. MOCS/Uni MOC/Uni_Storage/Progettazione sistemi digitali appunti completi Giada.pdf",
     "Buy List/Skin Care Buy List.canvas",
     "Buy List/Clothing Buy List.canvas",
     "Storage/Untitled.canvas",

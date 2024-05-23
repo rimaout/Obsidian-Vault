@@ -39,7 +39,7 @@ Type: Uni Note
 - [[Derivata di una Serie di Potenze]] 🟡
 
 ---
-## 2° Parte (Integrali)
+## 2° Parte ([[Integrali]])
 
 ##### Basi
 - [[Definizione Geometrica di Integrale]] 🔴 (vedi appunti exys)
@@ -58,7 +58,11 @@ Type: Uni Note
 ##### Integrali "Particolari"
 - [[Integrali di Funzioni Composte]]  🟢
 - [[Integrali di Funzioni Razionali]] 🟢
-- [[Integrali Impropri]] 🟡
+- [[Integrali Impropri]] 🟡 (aggiungi integrali noti vedi immagini)
 
 ---
-## 3° Parte (Equazioni Differenziali)
+## 3° Parte ([[Equazioni Differenziali]])
+- [[Introduzione Equazioni Differenziali]]
+- [[Equazioni Differenziali Comuni + Problemi di Cauchy]]
+
+- [[Esempi Equazioni Differenziali]]

@@ -5,7 +5,7 @@ Class:
   - "[[Calcolo Integrale (class)]]"
 Academic Year: 2023/2024
 Related: 
-Completed: false
+Completed: true
 ---
 ---
 
