@@ -44,12 +44,17 @@ Completed: true
 >[!example] Esempio 2
 >Esempio con [[Equazioni Differenziali Elementari + Problemi di Cauchy#Problemi di Cauchy|Problema di Cautchy]]
 >
->![[Pasted image 20240523161142.png|900]]
+>![[Pasted image 20240523161142.png|700]]
 
 >[!example] Esempio 3
->![[Pasted image 20240524104048.png|550]]
+>Esempio con [[Equazioni Differenziali Elementari + Problemi di Cauchy#Problemi di Cauchy|Problema di Cautchy]]
+>
+>![[Pasted image 20240524151616.png|700]]
 
 >[!example] Esempio 4
+>![[Pasted image 20240524104048.png|550]]
+
+>[!example] Esempio 5
 >![[Pasted image 20240524104117.png|600]]
 
 >[!example] Esempio 6

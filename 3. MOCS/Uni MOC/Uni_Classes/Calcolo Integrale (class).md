@@ -66,5 +66,6 @@ Type: Uni Note
 - [[Equazioni Differenziali Elementari + Problemi di Cauchy]] 🟠 (aggiungere esempi)
 - [[Equazioni Differenziali a Variabili Separabili]] 🟢
 - [[Equazioni Differenziali Lineari del 1° Ordine]]
+- [[Equazioni Differenziali del 2° Ordine Omogenee (coefficienti reali costanti)]]
 
 - [[Esempi Equazioni Differenziali]]

@@ -20,21 +20,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "7123b27776426457",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Equazioni Differenziali Lineari del 1° Ordine.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -63,7 +50,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "fattor",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -92,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 271.504789352417,
-    "collapsed": true
+    "width": 293.5033645629883
   },
   "right": {
     "id": "1599d9a7234429ed",
@@ -110,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Equazioni Differenziali Lineari del 1° Ordine.md",
+                "file": "Storage/Backend/Product usage analysis/Product usage analysis.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -127,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Equazioni Differenziali Lineari del 1° Ordine.md",
+                "file": "Storage/Backend/Product usage analysis/Product usage analysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Equazioni Differenziali Lineari del 1° Ordine.md"
+                "file": "Storage/Backend/Product usage analysis/Product usage analysis.md"
               }
             }
           },
@@ -232,53 +218,54 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "7123b27776426457",
+  "active": "ba7d0379bd9741ad",
   "lastOpenFiles": [
-    "3. MOCS/Uni MOC/Uni_Archive/Equazioni Differenziali a Variabili Separabili.md",
+    "Storage/Backend/Product Usage Analysis/AirUp (product).md",
+    "Storage/Backend/Product usage analysis/AirUp (product).md",
+    "Storage/Backend/Product usage analysis/Product usage analysis.md",
+    "Storage/Backend/Product Usage Analysis/<> (Product).md",
+    "Storage/Backend/Product usage analysis/<> (Product).md",
+    "Storage/Templates/Product (Template).md",
+    "Storage/Backend/Product usage analysis/Bottle Bottle (product).md",
+    "3. MOCS/Uni MOC/Uni_Classes/Calcolo Integrale (class).md",
+    "To-Do/Untitled.md",
+    "Storage/Backend/My Resonance Calendar/My Resonance Calendar.md",
+    "To-Do/To-Do.md",
+    "Storage/Backend/Product usage analysis/Airup (Product).md",
+    "Storage/Backend/Product usage analysis/Product usage analysi.md",
+    "Categories/Trips.md",
+    "Categories/Posts.md",
+    "Categories/Places.md",
+    "Categories/Books.md",
+    "Categories/Events.md",
+    "Categories/Meetings.md",
+    "Categories/Podcasts.md",
+    "Categories/Games.md",
+    "Categories/Movies.md",
+    "Categories/Shows.md",
+    "Categories/Clippings.md",
+    "Categories/Journal.md",
+    "Categories/Board games.md",
+    "Storage/Backend/Product usage analysis",
+    "Categories/Products",
+    "Storage/Backend/My Resonance Calendar",
+    "Storage/Backend",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240524160813.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240524151616.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240524111439.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240524104255.png",
-    "3. MOCS/Uni MOC/Uni_Classes/Calcolo Integrale (class).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Equazioni Differenziali Lineari del 1° Ordine.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Introduzione Equazioni Differenziali.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Equazioni Differenziali Elementari + Problemi di Cauchy.md",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240524104228.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240524104205.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240524104117.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240524104048.png",
-    "To-Do/Pasted image 20240524101802.png.md",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240523163911.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240524101802.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Definizione di Primitiva.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240523161142.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240523152056.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Primitive Elementari.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Primitive.md",
-    "To-Do/Untitled.md",
-    "To-Do/To-Do.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Integrali Impropri.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Criteri di Convergenza (integrali impropri).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Casi Specifici (Integrali Razionali).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Integrali di Funzioni Razionali.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Esercizi Funzioni Razionali.md",
-    "To-Do/Resonance Calendar.md",
-    "Excalidraw/Drawing 2024-05-22 09.51.58.excalidraw.md",
     "Excalidraw",
-    "3. MOCS/Uni MOC/Uni_Archive/Esempi Equazioni Differenziali.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Criterio del confronto asintotico (Serie).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Serie Armoniche.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Introduzione (integrali impropri).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Integrali.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Esercizi Integrali Impropri.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Design Pattern.md",
     "3. MOCS/Uni MOC/Uni_Archive/QuikSortCost.pdf",
     "3. MOCS/Uni MOC/Uni_Archive/MIPS_Instruction_Set.pdf",
     "3. MOCS/Programming MOC/Pro_Archive",
     "3. MOCS/Programming MOC",
     "3. MOCS/Uni MOC/Uni_Archive/Java_printf_method_quick_reference.pdf",
-    "3. MOCS/Programming MOC/Pro_Archive/Java input",
-    "3. MOCS/Programming MOC/Pro_Archive/Recording 20240307171929.webm",
-    "Storage/Files/Media",
-    "3. MOCS/Uni MOC/Uni_Storage/Matematica 0.pdf",
     "Buy List/Skin Care Buy List.canvas",
     "Buy List/Clothing Buy List.canvas",
     "Storage/Untitled.canvas",

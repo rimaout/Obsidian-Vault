@@ -50,10 +50,16 @@ Completed: false
 >\end{align*}
 >$$
 
+>[!warning] oss
+>$$
+>y'(x)\cdot \textcolor{orange}{e^{A(x)}}+ a(x)\cdot \textcolor{orange}{e^{A(x)}}\cdot y(x) = \bigg[ y(x)\cdot e^{A(x)}\bigg]' \implies \int y'(x)\cdot \textcolor{orange}{e^{A(x)}}+ a(x)\cdot \textcolor{orange}{e^{A(x)}}\cdot y(x) \, dx = y(x)\cdot e^{A(x)}
+>$$
+
+
 ^41116d
 
->[!warning] oss
->Esistono più metodi per risolvere le equazioni differenziali lineari del 1° ordine, il [[#^41116d|metodo appena citato]] è chiamato **Metodo del Fattore Integrande**.
+>[!warning] Metodo del Fattore Integrale
+>Esistono più metodi per risolvere le equazioni differenziali lineari del 1° ordine, il [[#^41116d|metodo appena citato]] è chiamato **Metodo del Fattore Integranle**.
 
 ---
 ## Esempi
