@@ -62,8 +62,9 @@ Type: Uni Note
 
 ---
 ## 3° Parte ([[Equazioni Differenziali]])
-- [[Introduzione Equazioni Differenziali]]
-- [[Equazioni Differenziali Comuni + Problemi di Cauchy]]
-- [[Equazioni Differenziali a Variabili Separabili]]
+- [[Introduzione Equazioni Differenziali]] 🟢
+- [[Equazioni Differenziali Elementari + Problemi di Cauchy]] 🟠 (aggiungere esempi)
+- [[Equazioni Differenziali a Variabili Separabili]] 🟢
+- [[Equazioni Differenziali Lineari del 1° Ordine]]
 
 - [[Esempi Equazioni Differenziali]]

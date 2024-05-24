@@ -11,10 +11,13 @@ Completed: false
 ---
 
 >[!abstract] Index
->1. 
+>1. [[#Tipologia 1]]
+>2. [[#Tipologia 2]]
+>3. [[#Problemi di Cauchy]]
 
 >[!abstract] Related
->- 
+>- [[Equazioni Differenziali]]
+>- [[Calcolo Integrale (class)]]
 
 ---
 ## Tipologia 1

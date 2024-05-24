@@ -6,18 +6,15 @@ Class:
 Academic Year: 2023/2024
 Related:
   - "[[Equazioni Differenziali]]"
-Completed: false
+Completed: true
 ---
 ---
-
->[!abstract] Index
->1. 
 
 >[!abstract] Related
->- 
+>- [[Equazioni Differenziali]]
+>- [[Calcolo Integrale (class)]]
 
 ---
-## Definizioni
 
 >[!info] Equazione Differenziale
 >Le **Equazioni Differenziali** sono equazioni in cui:

@@ -22,36 +22,12 @@
             }
           },
           {
-            "id": "13e9c8d19ac13aab",
+            "id": "7123b27776426457",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Equazioni Differenziali a Variabili Separabili.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8c215d9ce530ee2b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Equazioni Differenziali Comuni + Problemi di Cauchy.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "49df853cb6a8296c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Primitive Elementari.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Equazioni Differenziali Lineari del 1° Ordine.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Equazioni Differenziali a Variabili Separabili.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Equazioni Differenziali Lineari del 1° Ordine.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -151,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Equazioni Differenziali a Variabili Separabili.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Equazioni Differenziali Lineari del 1° Ordine.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Equazioni Differenziali a Variabili Separabili.md"
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Equazioni Differenziali Lineari del 1° Ordine.md"
               }
             }
           },
@@ -256,45 +232,44 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "13e9c8d19ac13aab",
+  "active": "7123b27776426457",
   "lastOpenFiles": [
+    "3. MOCS/Uni MOC/Uni_Archive/Equazioni Differenziali a Variabili Separabili.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240524111439.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240524104255.png",
+    "3. MOCS/Uni MOC/Uni_Classes/Calcolo Integrale (class).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Equazioni Differenziali Lineari del 1° Ordine.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Introduzione Equazioni Differenziali.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Equazioni Differenziali Elementari + Problemi di Cauchy.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240524104228.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240524104205.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240524104117.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240524104048.png",
+    "To-Do/Pasted image 20240524101802.png.md",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240523163911.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240524101802.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Definizione di Primitiva.md",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240523161142.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240523152056.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240523151558.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Equazioni Differenziali a Variabili Separabili.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240523151255.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240523151249.png",
-    "3. MOCS/Uni MOC/Uni_Classes/Calcolo Integrale (class).md",
     "3. MOCS/Uni MOC/Uni_Archive/Primitive Elementari.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Equazioni Differenziali Comuni + Problemi di Cauchy.md",
     "3. MOCS/Uni MOC/Uni_Archive/Primitive.md",
     "To-Do/Untitled.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Introduzione Equazioni Differenziali.md",
     "To-Do/To-Do.md",
     "3. MOCS/Uni MOC/Uni_Archive/Integrali Impropri.md",
     "3. MOCS/Uni MOC/Uni_Archive/Criteri di Convergenza (integrali impropri).md",
     "3. MOCS/Uni MOC/Uni_Archive/Casi Specifici (Integrali Razionali).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240523105357.png",
     "3. MOCS/Uni MOC/Uni_Archive/Integrali di Funzioni Razionali.md",
     "3. MOCS/Uni MOC/Uni_Archive/Esercizi Funzioni Razionali.md",
     "To-Do/Resonance Calendar.md",
     "Excalidraw/Drawing 2024-05-22 09.51.58.excalidraw.md",
     "Excalidraw",
     "3. MOCS/Uni MOC/Uni_Archive/Esempi Equazioni Differenziali.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240521163750.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240521160712.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240521152758.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240521150226.png",
     "3. MOCS/Uni MOC/Uni_Archive/Criterio del confronto asintotico (Serie).md",
     "3. MOCS/Uni MOC/Uni_Archive/Serie Armoniche.md",
     "3. MOCS/Uni MOC/Uni_Archive/Introduzione (integrali impropri).md",
     "3. MOCS/Uni MOC/Uni_Archive/Integrali.md",
     "3. MOCS/Uni MOC/Uni_Archive/Esercizi Integrali Impropri.md",
     "3. MOCS/Uni MOC/Uni_Archive/Design Pattern.md",
-    "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
-    "3. MOCS/Uni MOC/Uni_Archive/MDP 14 May.md",
-    "3. MOCS/Uni MOC/Uni_Archive/MDP 21 May.md",
     "3. MOCS/Uni MOC/Uni_Archive/QuikSortCost.pdf",
     "3. MOCS/Uni MOC/Uni_Archive/MIPS_Instruction_Set.pdf",
     "3. MOCS/Programming MOC/Pro_Archive",

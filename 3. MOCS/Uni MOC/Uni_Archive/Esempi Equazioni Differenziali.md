@@ -23,11 +23,11 @@ Completed: false
 >![[Pasted image 20240521150226.png|700]]
 ^6dc782
 
-![[Equazioni Differenziali Comuni + Problemi di Cauchy#^d8ca17]]
+![[Equazioni Differenziali Elementari + Problemi di Cauchy#^d8ca17]]
 
-![[Equazioni Differenziali Comuni + Problemi di Cauchy#^1f8db8]]
+![[Equazioni Differenziali Elementari + Problemi di Cauchy#^1f8db8]]
 
 
-![[Equazioni Differenziali Comuni + Problemi di Cauchy#^ea3285]]
+![[Equazioni Differenziali Elementari + Problemi di Cauchy#^ea3285]]
 
 
