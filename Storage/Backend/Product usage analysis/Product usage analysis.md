@@ -12,6 +12,8 @@
 <!-- SerializedQuery END -->
 
 
+##### How This Table works
+
 ```dataview
 table without id
 	name as Product,
