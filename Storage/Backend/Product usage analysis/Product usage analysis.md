@@ -1,7 +1,7 @@
 
-<!-- QueryToSerialize: table without id file.link as Product, rating as Rating, "$" + round(price/(monthly-uses*((date(today) -acquired).months)),2) as "Per use", monthly-uses as "Uses/month", dateformat(acquired, "yyyy-MM") as Acquired, round((date(today) - acquired).months,1) as "Months", "$" + string(round(price, 2)) as Price, round(monthly-uses*((date(today) - acquired).months),0) as "Total uses", type as Type where monthly-uses > 0 and contains(category, [[Product usage analysis]]) sort round(price/(monthly-uses*((date(today) - acquired).months)),2) asc -->
-<!-- SerializedQuery: table without id file.link as Product, rating as Rating, "$" + round(price/(monthly-uses*((date(today) -acquired).months)),2) as "Per use", monthly-uses as "Uses/month", dateformat(acquired, "yyyy-MM") as Acquired, round((date(today) - acquired).months,1) as "Months", "$" + string(round(price, 2)) as Price, round(monthly-uses*((date(today) - acquired).months),0) as "Total uses", type as Type where monthly-uses > 0 and contains(category, [[Product usage analysis]]) sort round(price/(monthly-uses*((date(today) - acquired).months)),2) asc -->
-| Product                                                                                        | Rating | Per use | Uses/month | Acquired | Months | Price | Total uses | Type           |
+<!-- QueryToSerialize: table rating as Rating, "$" + round(price/(monthly-uses*((date(today) -acquired).months)),2) as "Per use", monthly-uses as "Uses/month", dateformat(acquired, "yyyy-MM") as Acquired, round((date(today) - acquired).months,1) as "Months", "$" + string(round(price, 2)) as Price, round(monthly-uses*((date(today) - acquired).months),0) as "Total uses", type as Type where monthly-uses > 0 and contains(category, [[Product usage analysis]]) sort round(price/(monthly-uses*((date(today) - acquired).months)),2) asc -->
+<!-- SerializedQuery: table rating as Rating, "$" + round(price/(monthly-uses*((date(today) -acquired).months)),2) as "Per use", monthly-uses as "Uses/month", dateformat(acquired, "yyyy-MM") as Acquired, round((date(today) - acquired).months,1) as "Months", "$" + string(round(price, 2)) as Price, round(monthly-uses*((date(today) - acquired).months),0) as "Total uses", type as Type where monthly-uses > 0 and contains(category, [[Product usage analysis]]) sort round(price/(monthly-uses*((date(today) - acquired).months)),2) asc -->
+| File                                                                                           | Rating | Per use | Uses/month | Acquired | Months | Price | Total uses | Type           |
 | ---------------------------------------------------------------------------------------------- | ------ | ------- | ---------- | -------- | ------ | ----- | ---------- | -------------- |
 | [[Storage/Backend/Product usage analysis/Braun Alarm (product).md\|Braun Alarm (product)]]     | -      | $0.02   | 30         | 2022-02  | 27.6   | $15   | 828        | Alarm          |
 | [[Storage/Backend/Product usage analysis/Moser Hair Trimmer.md\|Moser Hair Trimmer]]           | -      | $0.17   | 8          | 2022-04  | 25.8   | $35   | 206        | Hair Trimmer   |
@@ -13,8 +13,7 @@
 
 
 ```dataview
-table without id
-	file.link as Product,
+table 
 	rating as Rating,
 	"$" + round(price/(monthly-uses*((date(today) - acquired).months)),2) as "Per use",
 	monthly-uses as "Uses/month",
