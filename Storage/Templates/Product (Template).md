@@ -1,6 +1,7 @@
 ---
 category:
   - "[[Product usage analysis]]"
+name: 
 type: 
 maker: 
 model: 
@@ -10,4 +11,5 @@ monthly-uses:
 acquired: 
 tags:
   - products
+link:
 ---

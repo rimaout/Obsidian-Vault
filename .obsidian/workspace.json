@@ -22,24 +22,12 @@
             }
           },
           {
-            "id": "322e84af7b4ef2eb",
+            "id": "dd09af943b083488",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Storage/Backend/Product usage analysis/Product usage analysis.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b4566e05a5205f52",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Equazioni Differenziali del 2° Ordine Omogenee (coefficienti reali costanti).md",
                 "mode": "source",
                 "source": false
               }
@@ -104,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "1599d9a7234429ed",
@@ -244,32 +231,32 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "322e84af7b4ef2eb",
+  "active": "dd09af943b083488",
   "lastOpenFiles": [
-    "Storage/Backend/Product usage analysis/Braun Alarm (product).md",
+    "Storage/Backend/Product usage analysis/Moser Hair Trimmer (product).md",
     "Storage/Backend/Product usage analysis/Product usage analysis.md",
-    "Storage/Backend/Product usage analysis/inCharge XL (product).md",
+    "Storage/Backend/Product usage analysis/Bellroy Tokyo Totepack (product).md",
+    "Storage/Backend/Product usage analysis/Braun Alarm (product).md",
+    "3. MOCS/Uni MOC/Uni_Classes/Calcolo Integrale (class).md",
+    "Storage/Templates/Product (Template).md",
+    "Storage/Backend/Product usage analysis/Bottle Bottle (product).md",
+    "Storage/Backend/Product usage analysis/AirUp (product).md",
+    "Storage/Backend/Product usage analysis/Rolling Square inCharge XL (product).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Equazioni Differenziali del 2° Ordine Omogenee (coefficienti reali costanti).md",
     "To-Do/Pasted image 20240525141357.png.md",
     "Storage/Backend/Product usage analysis/Pasted image 20240525141357.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Equazioni Differenziali del 2° Ordine Omogenee (coefficienti reali costanti).md",
-    "3. MOCS/Uni MOC/Uni_Classes/Calcolo Integrale (class).md",
-    "Storage/Backend/Product usage analysis/Moser Hair Trimmer.md",
     "Storage/Backend/My Resonance Calendar/My Resonance Calendar.md",
     "Storage/Backend/Product Usage Analysis/Moser Hair Trimmer.md",
     "Storage/Backend/Product Usage Analysis/inCharge XL (product).md",
     "Storage/Backend/Product Usage Analysis/Tokyo Totepack.md",
     "Storage/Backend/Product Usage Analysis/Sveglia Braun (product).md",
-    "Storage/Backend/Product usage analysis/Tokyo Totepack.md",
     "3. MOCS/Programming MOC/Pro_Archive/C Print Output.md",
     "2. Litterateur Notes/Books/L'avvocato dell'atomo (book)/L’avvocato dell’atomo (Book).md",
     "3. MOCS/Programming MOC/Pro_Archive/C MOC.md",
     "3. MOCS/Programming MOC/Programming MOC.md",
-    "Storage/Backend/Product usage analysis/AirUp (product).md",
     "Storage/Backend/Product Usage Analysis/AirUp (product).md",
     "Storage/Backend/Product Usage Analysis/<> (Product).md",
     "Storage/Backend/Product usage analysis/<> (Product).md",
-    "Storage/Templates/Product (Template).md",
-    "Storage/Backend/Product usage analysis/Bottle Bottle (product).md",
     "To-Do/Untitled.md",
     "To-Do/To-Do.md",
     "Storage/Backend/Product usage analysis/Airup (Product).md",
