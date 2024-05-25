@@ -7,5 +7,6 @@
   "obsidian-latex-suite",
   "obsidian-excalidraw-plugin",
   "obsidian-export-image",
-  "dataview"
+  "dataview",
+  "dataview-serializer"
 ]

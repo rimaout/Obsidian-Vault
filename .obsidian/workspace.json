@@ -20,8 +20,21 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "322e84af7b4ef2eb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Storage/Backend/Product usage analysis/Product usage analysis.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -75,11 +88,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 293.5033645629883
+    "width": 293.5033645629883,
+    "collapsed": true
   },
   "right": {
     "id": "1599d9a7234429ed",
@@ -218,34 +233,34 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "ba7d0379bd9741ad",
+  "active": "d4aca3edb3bdc908",
   "lastOpenFiles": [
-    "Storage/Backend/Product Usage Analysis/AirUp (product).md",
-    "Storage/Backend/Product usage analysis/AirUp (product).md",
+    "Storage/Backend/Product usage analysis/Moser Hair Trimmer.md",
     "Storage/Backend/Product usage analysis/Product usage analysis.md",
+    "3. MOCS/Uni MOC/Uni_Classes/Calcolo Integrale (class).md",
+    "Storage/Backend/Product usage analysis/Braun Alarm (product).md",
+    "Storage/Backend/My Resonance Calendar/My Resonance Calendar.md",
+    "Storage/Backend/Product Usage Analysis/Moser Hair Trimmer.md",
+    "Storage/Backend/Product Usage Analysis/inCharge XL (product).md",
+    "Storage/Backend/Product Usage Analysis/Tokyo Totepack.md",
+    "Storage/Backend/Product Usage Analysis/Sveglia Braun (product).md",
+    "Storage/Backend/Product usage analysis/inCharge XL (product).md",
+    "Storage/Backend/Product usage analysis/Tokyo Totepack.md",
+    "3. MOCS/Programming MOC/Pro_Archive/C Print Output.md",
+    "2. Litterateur Notes/Books/L'avvocato dell'atomo (book)/L’avvocato dell’atomo (Book).md",
+    "3. MOCS/Programming MOC/Pro_Archive/C MOC.md",
+    "3. MOCS/Programming MOC/Programming MOC.md",
+    "Storage/Backend/Product usage analysis/AirUp (product).md",
+    "Storage/Backend/Product Usage Analysis/AirUp (product).md",
     "Storage/Backend/Product Usage Analysis/<> (Product).md",
     "Storage/Backend/Product usage analysis/<> (Product).md",
     "Storage/Templates/Product (Template).md",
     "Storage/Backend/Product usage analysis/Bottle Bottle (product).md",
-    "3. MOCS/Uni MOC/Uni_Classes/Calcolo Integrale (class).md",
     "To-Do/Untitled.md",
-    "Storage/Backend/My Resonance Calendar/My Resonance Calendar.md",
     "To-Do/To-Do.md",
     "Storage/Backend/Product usage analysis/Airup (Product).md",
     "Storage/Backend/Product usage analysis/Product usage analysi.md",
     "Categories/Trips.md",
-    "Categories/Posts.md",
-    "Categories/Places.md",
-    "Categories/Books.md",
-    "Categories/Events.md",
-    "Categories/Meetings.md",
-    "Categories/Podcasts.md",
-    "Categories/Games.md",
-    "Categories/Movies.md",
-    "Categories/Shows.md",
-    "Categories/Clippings.md",
-    "Categories/Journal.md",
-    "Categories/Board games.md",
     "Storage/Backend/Product usage analysis",
     "Categories/Products",
     "Storage/Backend/My Resonance Calendar",
