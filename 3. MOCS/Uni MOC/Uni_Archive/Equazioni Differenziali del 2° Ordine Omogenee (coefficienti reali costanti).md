@@ -60,7 +60,7 @@ Completed: false
 >\end{align*}
 >$$
 >
->3. Soluzioni Reali Coincidenti $(\lambda_{1,2} =\alpha\pm i\beta)$:
+>3. Soluzioni Complesse $(\lambda_{1,2} =\alpha\pm i\beta)$:
 >$$
 >\begin{align*}
 >& -\ \ \textcolor{orange}{\text{Base: }}e^{\alpha x}\cos(\beta x),\, e^{\alpha x}\sin(\beta x)\\

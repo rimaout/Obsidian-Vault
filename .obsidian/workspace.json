@@ -28,6 +28,18 @@
               "type": "markdown",
               "state": {
                 "file": "Storage/Backend/Product usage analysis/Product usage analysis.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b4566e05a5205f52",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Equazioni Differenziali del 2° Ordine Omogenee (coefficienti reali costanti).md",
                 "mode": "source",
                 "source": false
               }
@@ -88,12 +100,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 293.5033645629883,
+    "width": 200,
     "collapsed": true
   },
   "right": {
@@ -233,12 +244,15 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "d4aca3edb3bdc908",
+  "active": "322e84af7b4ef2eb",
   "lastOpenFiles": [
-    "Storage/Backend/Product usage analysis/Moser Hair Trimmer.md",
+    "To-Do/Pasted image 20240525141357.png.md",
     "Storage/Backend/Product usage analysis/Product usage analysis.md",
+    "Storage/Backend/Product usage analysis/Pasted image 20240525141357.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Equazioni Differenziali del 2° Ordine Omogenee (coefficienti reali costanti).md",
     "3. MOCS/Uni MOC/Uni_Classes/Calcolo Integrale (class).md",
     "Storage/Backend/Product usage analysis/Braun Alarm (product).md",
+    "Storage/Backend/Product usage analysis/Moser Hair Trimmer.md",
     "Storage/Backend/My Resonance Calendar/My Resonance Calendar.md",
     "Storage/Backend/Product Usage Analysis/Moser Hair Trimmer.md",
     "Storage/Backend/Product Usage Analysis/inCharge XL (product).md",
@@ -259,8 +273,6 @@
     "To-Do/Untitled.md",
     "To-Do/To-Do.md",
     "Storage/Backend/Product usage analysis/Airup (Product).md",
-    "Storage/Backend/Product usage analysis/Product usage analysi.md",
-    "Categories/Trips.md",
     "Storage/Backend/Product usage analysis",
     "Categories/Products",
     "Storage/Backend/My Resonance Calendar",
@@ -274,7 +286,6 @@
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240524104117.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240524104048.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240523163911.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240524101802.png",
     "Excalidraw",
     "3. MOCS/Uni MOC/Uni_Archive/QuikSortCost.pdf",
     "3. MOCS/Uni MOC/Uni_Archive/MIPS_Instruction_Set.pdf",
