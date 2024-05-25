@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#products",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -88,11 +88,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "1599d9a7234429ed",
@@ -231,16 +233,16 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "dd09af943b083488",
+  "active": "d4aca3edb3bdc908",
   "lastOpenFiles": [
-    "Storage/Backend/Product usage analysis/Moser Hair Trimmer (product).md",
+    "Storage/Backend/Product usage analysis/AirUp (product).md",
     "Storage/Backend/Product usage analysis/Product usage analysis.md",
+    "Storage/Backend/Product usage analysis/Moser Hair Trimmer (product).md",
     "Storage/Backend/Product usage analysis/Bellroy Tokyo Totepack (product).md",
     "Storage/Backend/Product usage analysis/Braun Alarm (product).md",
     "3. MOCS/Uni MOC/Uni_Classes/Calcolo Integrale (class).md",
     "Storage/Templates/Product (Template).md",
     "Storage/Backend/Product usage analysis/Bottle Bottle (product).md",
-    "Storage/Backend/Product usage analysis/AirUp (product).md",
     "Storage/Backend/Product usage analysis/Rolling Square inCharge XL (product).md",
     "3. MOCS/Uni MOC/Uni_Archive/Equazioni Differenziali del 2° Ordine Omogenee (coefficienti reali costanti).md",
     "To-Do/Pasted image 20240525141357.png.md",

@@ -1,7 +1,7 @@
 ---
 category:
   - "[[Product usage analysis]]"
-name: Airup
+name: AirUp
 type: Water Bottle
 maker: AirUp
 model: 850ml
