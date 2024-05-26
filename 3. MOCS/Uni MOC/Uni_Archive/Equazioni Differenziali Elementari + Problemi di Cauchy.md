@@ -6,7 +6,7 @@ Class:
 Academic Year: 2023/2024
 Related:
   - "[[Equazioni Differenziali]]"
-Completed: false
+Completed: true
 ---
 ---
 
@@ -60,14 +60,20 @@ Completed: false
 
 ^1f8db8
 
+---
 ## Problemi di Cauchy
 
 >[!info] Forma
+>
+>$$
+>\begin{cases}
+>\text{Equazione Differenziale}\\
+>\text{Condizioni Iniziali}
+>\end{cases}
+>$$
+>
+>Risolvere questo sistema significa trovare tra le infinite soluzioni dell'equazione differenziale quella che soddisfa le condizioni iniziali.
 
 >[!example] Esempio
 >![[Pasted image 20240521163750.png|700]]
-
 ^ea3285
-
->[!example] Esempio
->

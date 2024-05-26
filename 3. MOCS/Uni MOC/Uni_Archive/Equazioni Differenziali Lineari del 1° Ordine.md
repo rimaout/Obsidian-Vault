@@ -6,7 +6,7 @@ Class:
 Academic Year: 2023/2024
 Related:
   - "[[Equazioni Differenziali]]"
-Completed: false
+Completed: true
 ---
 ---
 
@@ -45,7 +45,7 @@ Completed: false
 >&\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ y'(x)\cdot\textcolor{orange}{e^{A(x)}}+a(x)\cdot y(x)\cdot \textcolor{orange}{e^{A(x)}} = f( x )\cdot \textcolor{orange}{e^{A(x)}}\\ \\
 >&3)\ \ \ \text{Integrare entrambi i mebri:}\\ \\
 >&\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ y(x)\cdot e^{A(x)} = \int f(x)\cdot e^{A(x)} \, dx+c\\ \\
->&5)\ \ \ \text{Ricavare } y(x) \text{ moltiplicando entrambi i membri per } e^{-A(x)} \text{:}\\ \\
+>&4)\ \ \ \text{Ricavare } y(x) \text{ moltiplicando entrambi i membri per } e^{-A(x)} \text{:}\\ \\
 >&\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ y(x) = \textcolor{orange}{e^{-A(x)}}\int f(x)\cdot e^{A(x)} \, dx+c\cdot \textcolor{orange}{e^{-A(x)}}
 >\end{align*}
 >$$
@@ -55,7 +55,6 @@ Completed: false
 >y'(x)\cdot \textcolor{orange}{e^{A(x)}}+ a(x)\cdot \textcolor{orange}{e^{A(x)}}\cdot y(x) = \bigg[ y(x)\cdot e^{A(x)}\bigg]' \implies \int y'(x)\cdot \textcolor{orange}{e^{A(x)}}+ a(x)\cdot \textcolor{orange}{e^{A(x)}}\cdot y(x) \, dx = y(x)\cdot e^{A(x)}
 >$$
 
-
 ^41116d
 
 >[!warning] Metodo del Fattore Integrale
@@ -64,4 +63,6 @@ Completed: false
 ---
 ## Esempi
 
+>[!note] Esempio
+>![[Pasted image 20240526213718.png|700]]
 

@@ -20,6 +20,102 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "f64e9e18be3a8e0e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Equazioni Differenziali Lineari del 1° Ordine.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "beccfa75538ab9ce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Equazioni Differenziali Lineari del 1° Ordine.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f4ade251cd64649c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Equazioni Differenziali Lineari del 1° Ordine.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "846e6cab6e2ee462",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Esempi Equazioni Differenziali.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5b3a2f6927fc949a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Equazioni Differenziali Elementari + Problemi di Cauchy.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2c7417f48c70aaad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Equazioni Differenziali Elementari + Problemi di Cauchy.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ce72a7053bb75118",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Equazioni Differenziali a Variabili Separabili.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9499c3e017385986",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Equazioni Differenziali del 2° Ordine Omogenee (coefficienti reali costanti).md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -234,9 +330,13 @@
   "lastOpenFiles": [
     "3. MOCS/Uni MOC/Uni_Archive/Equazioni Differenziali del 2° Ordine Omogenee (coefficienti reali costanti).md",
     "3. MOCS/Uni MOC/Uni_Classes/Calcolo Integrale (class).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Equazioni Differenziali Lineari del 1° Ordine.md",
     "3. MOCS/Uni MOC/Uni_Archive/Equazioni Differenziali a Variabili Separabili.md",
     "3. MOCS/Uni MOC/Uni_Archive/Equazioni Differenziali Elementari + Problemi di Cauchy.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Esempi Equazioni Differenziali.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Equazioni Differenziali Lineari del 1° Ordine.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240526213718.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240526205817.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Equazioni di Secondo Grado.md",
     "3. MOCS/Uni MOC/Uni_Archive/Integrazioni pre-calcolate e \"trucchetti\".md",
     "3. MOCS/Uni MOC/Uni_Archive/Integrali Impropri.md",
     "3. MOCS/Uni MOC/Uni_Archive/Criteri di Convergenza (integrali impropri).md",
@@ -261,8 +361,6 @@
     "3. MOCS/Uni MOC/Uni_Archive/Serie di Taylor.md",
     "Storage/Backend/Product usage analysis/AirUp (product).md",
     "Storage/Backend/Product usage analysis/Moser Hair Trimmer (product).md",
-    "Storage/Backend/Product usage analysis/Bellroy Tokyo Totepack (product).md",
-    "Storage/Backend/Product usage analysis/Braun Alarm (product).md",
     "Storage/Backend/Product usage analysis/Pasted image 20240525141357.png",
     "Storage/Backend/Product usage analysis",
     "Categories/Products",
@@ -270,8 +368,6 @@
     "Storage/Backend",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240524160813.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240524151616.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240524111439.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240524104255.png",
     "Excalidraw",
     "3. MOCS/Uni MOC/Uni_Archive/QuikSortCost.pdf",
     "3. MOCS/Uni MOC/Uni_Archive/MIPS_Instruction_Set.pdf",

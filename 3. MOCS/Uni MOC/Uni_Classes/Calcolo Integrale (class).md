@@ -65,18 +65,18 @@ Type: Uni Note
 >[!example] Calcolatori Online
 >- [Integral Calculator](https://www.integral-calculator.com/)
 >- [Derivative Calculator](https://www.derivative-calculator.net/)
+>- [EDO Calculator](https://www.emathhelp.net/en/calculators/differential-equations/differential-equation-calculator/) 
 
 ---
 ## 3° Parte ([[Equazioni Differenziali]])
  
 >[!note] Introduzione
 >- [[Introduzione Equazioni Differenziali]] 🟢
->- [[Esempi Equazioni Differenziali]]
+>- [[Esempi Equazioni Differenziali]] 🟢
 
 >[!note] Tipi
->- [[Equazioni Differenziali Elementari + Problemi di Cauchy]] 🟠 (aggiungere esempi)
+>- [[Equazioni Differenziali Elementari + Problemi di Cauchy]] 🟢
 >- [[Equazioni Differenziali a Variabili Separabili]] 🟢
->- [[Equazioni Differenziali Lineari del 1° Ordine]]
->- [[Equazioni Differenziali del 2° Ordine Omogenee (coefficienti reali costanti)]]
->- 
-
+>- [[Equazioni Differenziali Lineari del 1° Ordine]] 🟢
+>- [[Equazioni Differenziali del 2° Ordine Omogenee (coefficienti reali costanti)]] 🟢
+>- [[Equazioni Differenziali del 2° Ordine non Omogenee]] 🔴

@@ -6,12 +6,14 @@ Class:
 Academic Year: 2023/2024
 Related:
   - "[[Equazioni Differenziali]]"
-Completed: false
+Completed: true
 ---
 ---
 
 >[!abstract] Index
->1. 
+>1. [[#Introduzione]]
+>2. [[#Metodo Risolutivo]]
+>3. [[#Esempi]]
 
 >[!abstract] Related
 >- [[Equazioni Differenziali]]
@@ -22,7 +24,7 @@ Completed: false
 
 >[!note] Forma
 >$$
->\textcolor{orange}{a}y''\cdot (x)+\textcolor{orange}{b}y'\cdot (x)+\textcolor{orange}{c}\cdot y(x)=0
+>\textcolor{orange}{a}\cdot y''(x)+\textcolor{orange}{b}\cdot y'(x)+\textcolor{orange}{c}\cdot y(x)=0
 >$$
 >
 >Dove $\textcolor{orange}{a}$, $\textcolor{orange}{b}$ e $\textcolor{orange}{c}$ $\in\mathbb{R}$
@@ -32,15 +34,18 @@ Completed: false
 
 >[!note] 1\. Risolvere Equazione Caratteristica
 >
->**Forma Eq.Catatteristica:** 
+>**Forma Eq. Caratteristica:** 
 >$$
 >\textcolor{orange}{a}\cdot z^{2} + \textcolor{orange}{b}\cdot z+\textcolor{orange}{c } = 0
 >$$ 
 >
->**Risolvere Eq.caratteristica:** Come qualsiasi altra [[Equazioni di Secondo Grado]].
+>**Risolvere Eq.caratteristica:** 
+>
 >$$
 >\lambda_{1},\, \lambda_{2} = \frac{-b\pm \sqrt{ b^{2}-4ac}}{2a}
 >$$
+>
+>- Risolvere come qualsiasi altra [[Equazioni di Secondo Grado]].
 >
 >**Calcolare Soluzione Generale:**
 >Esistono 3 possibili soluzione diverse in base al risultato dell'equazione caratteristica:
@@ -71,7 +76,7 @@ Completed: false
 ---
 ## Esempi
 
->[!example] Esempio
+>[!example] Esempio (soluzione reali distinte + cauchy)
 >
 >**Risolvere:** 
 >$$
@@ -81,4 +86,15 @@ Completed: false
 >**Soluzione:**
 >
 >![[Pasted image 20240524160813.png|700]]
+
+>[!example] Esempio (soluzione complesse + Cauchy)
+>**Risolvere:**
+>
+>$$
+>y''(x)+4y'(t)+8y(t)=0
+>$$
+>
+>**Soluzione:**
+>![[Pasted image 20240526205817.png|650]]
+
 
