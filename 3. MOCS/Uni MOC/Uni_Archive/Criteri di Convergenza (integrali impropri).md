@@ -30,8 +30,6 @@ Completed: true
 >Quindi sappiamo che:
 >- Se $\int^{+\infty}_{a}  g(x)\, dx$ **converge**, allora $\int^{+\infty}_{a} f(x)\, dx$ **converge**
 >- Se $\int^{+\infty}_{a}  g(x)\, dx$ **diverge**, allora $\int^{+\infty}_{a} f(x)\, dx$ **diverge**
->
->**oss:** analogo al [[Criterio del confronto asintotico (Serie)]]
 
 >[!info] Funzione Illimitata
 >Siano $f(x)$ e $g(x)$ due funzioni, continue e positive, tali che in $x_{0}$ vi sia un punto illimitato e $\ell \in (0, +\infty)$, allora:
@@ -42,8 +40,8 @@ Completed: true
 >Quindi sappiamo che:
 >- Se $\int^{x_{0}}_{a}  g(x)\, dx$ **converge**, allora $\int^{x_{0}}_{a} f(x)\, dx$ **converge**
 >- Se $\int^{x_{0}}_{a}  g(x)\, dx$ **diverge**, allora $\int^{x_{0}}_{a} f(x)\, dx$ **diverge**
->
->**oss:** analogo al [[Criterio del confronto asintotico (Serie)]]
+
+**oss:** analogo al [[Criterio del confronto asintotico (Serie)]]
 
 ---
 ## Criterio Confronto
@@ -57,8 +55,6 @@ Completed: true
 >Allora sappiamo che:
 >- Se $\int^{+\infty}_{a}  g(x)\, dx$ **converge**, allora $\int^{+\infty}_{a} f(x)\, dx$ **converge**
 >- Se $\int^{+\infty}_{a} f(x)\, dx$ **diverge**, allora $\int^{+\infty}_{a} g(x)\, dx$ **diverge**
->
->**oss:** analogo al [[Criterio del confronto (Gauss - Serie)]]
 
 >[!info] Funzione Illimitata
 >Siano $f(x)$ e $g(x)$ due funzioni tali che in $x_{0}$ vi sia un punto illimitato, se:
@@ -70,22 +66,27 @@ Completed: true
 >Allora sappiamo che:
 >- Se $\int^{x_{0}}_{a}  g(x)\, dx$ **converge**, allora $\int^{x_{0}}_{a} f(x)\, dx$ **converge**
 >- Se $\int^{x_{0}}_{a} f(x)\, dx$ **diverge**, allora $\int^{x_{0}}_{a} g(x)\, dx$ **diverge**
->
->**oss:** analogo al [[Criterio del confronto (Gauss - Serie)]]
+
+**oss:** analogo al [[Criterio del confronto (Gauss - Serie)]]
 
 ---
 ## Criterio Convergenza Assoluta
 
 >[!info] Zona di Integrazione Illimitata
+>Sia $f:[a,+\infty)\to \mathbb{R}$ una funzione integrabile su $[a,+\infty)$, allora:
+>$$
+>\text{Se }\int^{+\infty }_{a} \Big\vert f( x )\Big\vert \, dx\ \text{converge}\implies \int^{+\infty }_{a} f( x )\, dx\ \text{converge}
+>$$
 
 >[!info] Funzione Illimitata
 >Sia $f(x)$ una funzione tale che in $x_{0}$ vi sia un punto illimitato, allora:
 >
 >$$
->\int^{x_{0}}_{a} \big\vert f( x)\big\vert \ dx < +\infty \implies  >\int^{x_{0}}_{a} f( x) \ dx < +\infty 
+>\int^{x_{0}}_{a} \big\vert f( x)\big\vert \ dx\ \text{converge} \implies  \int^{x_{0}}_{a} f( x) \ dx\ \text{converge}
 >$$
 >
->**oss:** analogo al [[Criterio della convergenza assoluta (Serie)]]
+
+**oss:** analogo al [[Criterio della convergenza assoluta (Serie)]]
 
 ---
 ![[Esercizi Integrali Impropri#Esercizi con criteri di convergenza]] ^37ec46

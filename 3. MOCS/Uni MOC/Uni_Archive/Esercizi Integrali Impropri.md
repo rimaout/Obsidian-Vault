@@ -7,7 +7,7 @@ Academic Year: 2023/2024
 Related:
   - "[[Integrali]]"
   - "[[Integrali Impropri]]"
-Completed: false
+Completed: true
 ---
 ---
 
@@ -47,7 +47,7 @@ Completed: false
 >
 >**Risoluzione:**
 >
->![[Pasted image 20240520104146.png|900]]
+>![[Pasted image 20240520104146.png|800]]
 >
 >**Grafico funzione:**
 >
@@ -58,7 +58,7 @@ Completed: false
 ---
 ## Esercizi con criteri di convergenza
 
->[!example] Esercizio 1\.
+>[!example] Esercizio 1\. (confronto)
 >
 >Integrali con intervallo illimitato a destra:
 >
@@ -67,20 +67,23 @@ Completed: false
 >**Soluzione:**
 >![[Pasted image 20240520162327.png|900]]
 
->[!example] Esercizio 2\.
+>[!example] Esercizio 2\. (confronto asintotico)
 >
 >Integrali con intervallo illimitato a destra:
 >
 >- Stabilire se $\int^{+\infty}_{1} \frac{x+5}{x^{3}+x^{2}+1} \, dx$ converge.
 >
 >**Soluzione:**
->![[Pasted image 20240520152832.png|900]]
+>![[Pasted image 20240520152832.png|600]]
 
->[!example] Esercizio 3\.
+>[!example] Esercizio 3\. (confronto asintotico)
 >
 >Integrale con funzione divergente in $x=0$
 >- Stabilire se $\int^{2}_{0} \frac{1}{x^{4}+\sqrt{ x }} \, dx$ converge
 >
 >**Soluzione:**
->![[Pasted image 20240520153934.png|900]]
+>![[Pasted image 20240520153934.png|600]]
+
+>[!example] Esercizio 4\. (convergenza assoluta)
+>![[Pasted image 20240526171014.png|450]]
 

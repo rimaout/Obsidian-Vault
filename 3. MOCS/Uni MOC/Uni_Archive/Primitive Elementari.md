@@ -35,7 +35,7 @@ Completed: true
 | $\frac{1}{1+x^{2}}$   | $\text{arctg}\ x$                            |
 | $\frac{1}{\cos^{2}x}$ | $\tan x$                                     |
 
->[!warning] Sono le inverse delle [[Derivate]]
+>[!warning] Sono le inverse delle [[Regole di derivazione|Derivate]]
 
 ---
 ## Esempi

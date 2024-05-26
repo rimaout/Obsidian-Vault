@@ -6,16 +6,9 @@ Class:
 Academic Year: 2023/2024
 Related:
   - "[[Integrali]]"
-Completed: false
+Completed: true
 ---
 ---
-
->[!abstract] Index
->1. [[#Definizione]]
->2. [[#Criteri di convergenza]]
->	- [[#^d2df11|Criterio Confronto Asintotico]]
->	- [[#^0e4af8|Criterio Confronto]]
->	- [[#^d2d302|Criterio Convergenza Assoluta]]
 
 >[!abstract] Related
 >- [[Integrali]]
@@ -23,12 +16,42 @@ Completed: false
 
 ---
 
-- [[Introduzione (integrali impropri)|Introduzione]] 🟢
-- [[Criteri di Convergenza (integrali impropri)|Criteri di Convergenza]] 🟡 (criterio convergenza assoluta)
+>[!note] Indice
+>- [[Introduzione (integrali impropri)|Introduzione]] 🟢
+>- [[Criteri di Convergenza (integrali impropri)|Criteri di Convergenza]] 🟢
+>- [[Esercizi Integrali Impropri]] 🟢
 
-[[Esercizi Integrali Impropri]]
 
-## integrali comuni
+## Integrali Impropri Notevoli
+
+>[!note] Caso 1
+>Sia $\alpha>0$, allora:
+>
+>$$
+>\int^{\alpha}_{0} \frac{1}{x^{p}} \, dx \to \begin{cases}
+>\text{converge} &\text{se }p<1 \\
+>\text{diverge} &\text{se }p\geq1 \\
+>\end{cases}
+>$$
+>
+>Generalizzazione:
+>
+>$$
+>\int^{b}_{a} \frac{1}{(x-a)^{p}} \, dx \to \begin{cases}
+>\text{converge} &\text{se }p<1 \\
+>\text{diverge} &\text{se }p\geq1 \\
+>\end{cases}
+>$$
+
+>[!note] Caso 2
+>Sia $\alpha>0$, allora:
+>
+>$$
+>\int^{+\infty }_{\alpha} \frac{1}{x^{p}} \, dx \to \begin{cases}
+>\text{converge} &\text{se }p>1 \\
+>\text{diverge} &\text{se }p\leq 1 \\
+>\end{cases}
+>$$
 
 ![[Pasted image 20240520172026.png|800]]
 

@@ -20,45 +20,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "64457a8cd57fc925",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Integrali Impropri.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "24fa730790046942",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Equazioni Differenziali Lineari del 1° Ordine.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e4cafbd68ca1178e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Classes/Calcolo Integrale (class).md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -267,35 +230,40 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "e4cafbd68ca1178e",
+  "active": "e297cb9ac14bcafd",
   "lastOpenFiles": [
-    "3. MOCS/Uni MOC/Uni_Archive/Serie di Taylor.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Equazioni Differenziali del 2° Ordine Omogenee (coefficienti reali costanti).md",
     "3. MOCS/Uni MOC/Uni_Classes/Calcolo Integrale (class).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Definizione Successione infinitesima.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Equazioni Differenziali a Variabili Separabili.md",
     "3. MOCS/Uni MOC/Uni_Archive/Equazioni Differenziali Lineari del 1° Ordine.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Equazioni Differenziali a Variabili Separabili.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Equazioni Differenziali Elementari + Problemi di Cauchy.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Integrazioni pre-calcolate e \"trucchetti\".md",
     "3. MOCS/Uni MOC/Uni_Archive/Integrali Impropri.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Criteri di Convergenza (integrali impropri).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Esercizi Integrali Impropri.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240526171014.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Introduzione (integrali impropri).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Integrazione per Parti.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240526164419.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240526162119.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Regole di derivazione.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Primitive Elementari.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Primitive.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Integrali.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Definizione Successione infinitesima.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Successioni Reali.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240526123457.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240526123048.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Definizione di Integrale.md",
     "Storage/Backend/Product usage analysis/Product usage analysis.md",
+    "Storage/Backend/Product Usage Analysis/Xiaomi Mi Hybrid.md",
+    "Storage/Backend/Product usage analysis/Xiaomi Mi Hybrid.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Serie di Taylor.md",
     "Storage/Backend/Product usage analysis/AirUp (product).md",
     "Storage/Backend/Product usage analysis/Moser Hair Trimmer (product).md",
     "Storage/Backend/Product usage analysis/Bellroy Tokyo Totepack (product).md",
     "Storage/Backend/Product usage analysis/Braun Alarm (product).md",
-    "Storage/Templates/Product (Template).md",
-    "Storage/Backend/Product usage analysis/Bottle Bottle (product).md",
-    "Storage/Backend/Product usage analysis/Rolling Square inCharge XL (product).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Equazioni Differenziali del 2° Ordine Omogenee (coefficienti reali costanti).md",
-    "To-Do/Pasted image 20240525141357.png.md",
     "Storage/Backend/Product usage analysis/Pasted image 20240525141357.png",
-    "Storage/Backend/My Resonance Calendar/My Resonance Calendar.md",
-    "Storage/Backend/Product Usage Analysis/Moser Hair Trimmer.md",
-    "Storage/Backend/Product Usage Analysis/inCharge XL (product).md",
-    "Storage/Backend/Product Usage Analysis/Tokyo Totepack.md",
-    "Storage/Backend/Product Usage Analysis/Sveglia Braun (product).md",
-    "3. MOCS/Programming MOC/Pro_Archive/C Print Output.md",
-    "2. Litterateur Notes/Books/L'avvocato dell'atomo (book)/L’avvocato dell’atomo (Book).md",
-    "3. MOCS/Programming MOC/Pro_Archive/C MOC.md",
-    "3. MOCS/Programming MOC/Programming MOC.md",
-    "Storage/Backend/Product Usage Analysis/AirUp (product).md",
     "Storage/Backend/Product usage analysis",
     "Categories/Products",
     "Storage/Backend/My Resonance Calendar",
@@ -304,11 +272,6 @@
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240524151616.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240524111439.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240524104255.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240524104228.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240524104205.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240524104117.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240524104048.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240523163911.png",
     "Excalidraw",
     "3. MOCS/Uni MOC/Uni_Archive/QuikSortCost.pdf",
     "3. MOCS/Uni MOC/Uni_Archive/MIPS_Instruction_Set.pdf",

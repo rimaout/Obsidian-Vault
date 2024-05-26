@@ -23,6 +23,8 @@ Completed: true
 
 >[!warning] Derivata di una costante = 0
 
+>[!warning] Operazioni inverse delle [[Primitive Elementari#Primitive Elementari|Primitive]]
+
 ---
 
 ![[Operazioni tra derivate prime]]
