@@ -1,10 +1,9 @@
 
-Welcome to my Product Usage Analysis, the purpose of this analysis is to guide me towards more intentional buying, particularly in finding products that strike a good balance between price and durability. The ultimate goal is to reach a cost per use of 0.00$, indicating maximum value derived from the product.
+Welcome to my Product Usage Analysis, the purpose of this analysis is to guide me towards more intentional buying, particularly in finding products that strike a good balance between price and durability. The ultimate goal is to reach a cost per use of $0.00, indicating maximum value derived from the product.
 
 It's a tool I use to make more informed decisions about future purchases, and I hope it can provide some insights for you as well.
 
-- This project was inspired by [Steph Ango](https://stephango.com/about), particularly by his [Buy Wisely](https://stephango.com/buy-wisely) post.
-- To se each product note go to: #products 
+This project was inspired by [Steph Ango](https://stephango.com/about), particularly by his [Buy Wisely](https://stephango.com/buy-wisely) post.
 
 <!-- QueryToSerialize: table without id name as Product, "$" + round(price/(monthly-uses*((date(today) -acquired).months)),2) as "Cost per use", monthly-uses as "Uses per month", dateformat(acquired, "yyyy-MM") as Acquired, round((date(today) - acquired).months,1) as "Months", "$" + string(round(price, 2)) as Price, round(monthly-uses*((date(today) - acquired).months),0) as "Total uses", type as Type where monthly-uses > 0 and contains(category, [[Product usage analysis]]) sort round(price/(monthly-uses*((date(today) - acquired).months)),2) asc -->
 <!-- SerializedQuery: table without id name as Product, "$" + round(price/(monthly-uses*((date(today) -acquired).months)),2) as "Cost per use", monthly-uses as "Uses per month", dateformat(acquired, "yyyy-MM") as Acquired, round((date(today) - acquired).months,1) as "Months", "$" + string(round(price, 2)) as Price, round(monthly-uses*((date(today) - acquired).months),0) as "Total uses", type as Type where monthly-uses > 0 and contains(category, [[Product usage analysis]]) sort round(price/(monthly-uses*((date(today) - acquired).months)),2) asc -->
