@@ -1,6 +1,8 @@
 ---
-Academic Year: 2023/2024
-Type: Uni Note
+academic year: 2023/2024
+type: Uni Note
+created: 2024-05-24T10:49
+updated: 2024-05-27T13:29
 ---
 ---
 ## 1° Parte ([[Serie]])

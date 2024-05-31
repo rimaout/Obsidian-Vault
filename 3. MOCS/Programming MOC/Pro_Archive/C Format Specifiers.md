@@ -1,9 +1,10 @@
 ---
-Created: 2023-02-26
-Type: Programming Note
-Programming Language: "[[C MOC]]"
-Related: 
-Completed: true
+created: 2023-02-26
+type: Programming Note
+programming language: "[[C MOC]]"
+related: 
+completed: true
+updated: 2024-05-27T13:29
 ---
 ---
 In C programming, a format specifier is a **special character that is used to specify the type of data that will be printed or read** in a formatted input/output operation. 

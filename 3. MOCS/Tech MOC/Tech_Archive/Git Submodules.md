@@ -1,9 +1,10 @@
 ---
-Created: 2024-03-09
-Related:
+created: 2024-03-09
+related:
   - "[[Git]]"
-Completed: 
-Type:
+completed: 
+type: 
+updated: 2024-05-27T13:29
 ---
 ---
 how to use a git hub repository as a other git hub repository directory

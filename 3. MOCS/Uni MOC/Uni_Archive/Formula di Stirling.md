@@ -1,12 +1,13 @@
 ---
-Created: 2023-10-23
-Type: Uni Note
-Class:
+created: 2023-10-23
+type: Uni Note
+class:
   - "[[Calcolo Differenziale (class)]]"
-Academic Year: 2023/2024
-Related:
+academic year: 2023/2024
+related:
   - "[[Limiti Notevoli]]"
-Completed: false
+completed: false
+updated: 2024-05-27T13:29
 ---
 ---
 ## Formula

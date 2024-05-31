@@ -1,12 +1,13 @@
 ---
-Created: 2023-05-16
-Type: Uni Note
-Class:
+created: 2023-05-16
+type: Uni Note
+class:
   - "[[Matematica 0 (class)]]"
-Related:
+related:
   - "[[Disequazioni]]"
   - "[[Equazioni di Secondo Grado]]"
-Completed: true
+completed: true
+updated: 2024-05-27T13:29
 ---
 ---
 ## Indice

@@ -1,10 +1,11 @@
 ---
-Created: 2024-04-20
-Type: Programming Note
-Programming Language: "[[Programming MOC]]"
-Related:
+created: 2024-04-20
+type: Programming Note
+programming language: "[[Programming MOC]]"
+related:
   - "[[MIPS Assembly MOC]]"
-Completed: true
+completed: true
+updated: 2024-05-27T13:29
 ---
 ---
 

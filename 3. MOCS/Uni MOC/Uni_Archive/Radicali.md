@@ -1,11 +1,12 @@
 ---
-Created: 2023-05-11
-Type: Uni Note
-Class:
+created: 2023-05-11
+type: Uni Note
+class:
   - "[[Matematica 0 (class)]]"
-Related:
+related:
   - "[[Condizioni di Esistenza (dominio)]]"
-Completed: true
+completed: true
+updated: 2024-05-27T13:29
 ---
 ---
 ## Indice

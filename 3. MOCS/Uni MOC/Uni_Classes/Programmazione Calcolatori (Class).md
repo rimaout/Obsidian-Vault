@@ -1,9 +1,11 @@
 ---
-Type: "[[Uni MOC]]"
-Academic Year: 2022/2023
-Related:
+type: "[[Uni MOC]]"
+academic year: 2022/2023
+related:
   - "[[Python MOC]]"
   - "[[C MOC]]"
+created: 2023-03-25T13:24
+updated: 2024-05-27T13:29
 ---
 ---
 **Prima parte (python):**

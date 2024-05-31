@@ -1,12 +1,13 @@
 ---
-Created: 2023-12-28
-Type: Uni Note
-Class:
+created: 2023-12-28
+type: Uni Note
+class:
   - "[[Calcolo Differenziale (class)]]"
-Academic Year: 2023/2024
-Related:
+academic year: 2023/2024
+related:
   - "[[Derivate]]"
-Completed: true
+completed: true
+updated: 2024-05-27T13:29
 ---
 ---
 ## Funzione derivabile in un punto 

@@ -1,10 +1,11 @@
 ---
-Created: 2024-03-05
-Type: Programming Note
-Programming Language: "[[Java MOC]]"
-Related:
+created: 2024-03-05
+type: Programming Note
+programming language: "[[Java MOC]]"
+related:
   - "[[Java Operators]]"
-Completed: true
+completed: true
+updated: 2024-05-27T13:29
 ---
 ---
 Logical operators are used to check whether an expression is `true` or `false`. They are used in decision making.

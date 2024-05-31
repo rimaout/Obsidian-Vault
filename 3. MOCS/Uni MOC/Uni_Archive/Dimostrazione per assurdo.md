@@ -1,11 +1,12 @@
 ---
-Created: 2021-07-27
-Type: Uni Note
-Class:
+created: 2021-07-27
+type: Uni Note
+class:
   - "[[Metodi matematici per l'informatica (class)]]"
-Related:
+related:
   - "[[Dimostrazione Matematica]]"
-Completed: false
+completed: false
+updated: 2024-05-27T13:29
 ---
 ---
 # Indice

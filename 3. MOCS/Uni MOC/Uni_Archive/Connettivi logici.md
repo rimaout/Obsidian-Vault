@@ -1,11 +1,12 @@
 ---
-Created: 2023-07-05
-Type: Uni Note
-Class:
+created: 2023-07-05
+type: Uni Note
+class:
   - "[[Metodi matematici per l'informatica (class)]]"
-Related:
+related:
   - "[[Logica Proposizionale]]"
-Completed:
+completed: 
+updated: 2024-05-27T13:29
 ---
 ---
 # Indice

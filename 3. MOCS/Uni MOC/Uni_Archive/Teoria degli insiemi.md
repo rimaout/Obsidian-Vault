@@ -1,11 +1,12 @@
 ---
-Created: 2022-06-21
-Type: Uni Note
-Class:
+created: 2022-06-21
+type: Uni Note
+class:
   - "[[Metodi matematici per l'informatica (class)]]"
   - "[[Calcolo Differenziale (class)]]"
-Related: 
-Completed: true
+related: 
+completed: true
+updated: 2024-05-27T13:29
 ---
 ---
 # Indice

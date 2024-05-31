@@ -1,13 +1,14 @@
 ---
-Created: 2023-10-16
-Type: Uni Note
-Class:
+created: 2023-10-16
+type: Uni Note
+class:
   - "[[Matematica Discreta (class)]]"
   - "[[Matematica 0 (class)]]"
   - "[[Calcolo Differenziale (class)]]"
-Academic Year: 2023/2024
-Related: 
-Completed: false
+academic year: 2023/2024
+related: 
+completed: false
+updated: 2024-05-27T13:29
 ---
 ---
 ## Index

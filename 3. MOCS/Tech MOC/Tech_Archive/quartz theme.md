@@ -1,9 +1,10 @@
 ---
-Created: 2024-04-21
+created: 2024-04-21
 Main Moc: "[[Tech MOC]]"
-Related:
+related:
   - "[[Quartz Setup]]"
-Completed: true
+completed: true
+updated: 2024-05-27T13:29
 ---
 ---
 

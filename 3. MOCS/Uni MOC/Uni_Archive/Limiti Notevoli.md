@@ -1,13 +1,14 @@
 ---
-Created: 2022-05-22
-Type: Uni Note
-Class:
+created: 2022-05-22
+type: Uni Note
+class:
   - "[[Calcolo Differenziale (class)]]"
-Related:
+related:
   - "[[Limiti]]"
   - "[[Trigonometria]]"
   - "[[Limiti notevoli di Successioni-->0]]"
-Completed: true
+completed: true
+updated: 2024-05-27T13:29
 ---
 ---
 ## Indice

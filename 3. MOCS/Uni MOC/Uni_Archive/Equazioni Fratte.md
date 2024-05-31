@@ -1,12 +1,13 @@
 ---
-Created: 2023-05-17
-Type: Uni Note
-Class:
+created: 2023-05-17
+type: Uni Note
+class:
   - "[[Matematica 0 (class)]]"
-Related:
+related:
   - "[[Frazioni Algebriche]]"
   - "[[Disequazioni Fratte]]"
-Completed: true
+completed: true
+updated: 2024-05-27T13:29
 ---
 ---
 ## Indice

@@ -1,10 +1,11 @@
 ---
-Created: 2023-07-22
-Type: Uni Note
-Class:
+created: 2023-07-22
+type: Uni Note
+class:
   - "[[Matematica 0 (class)]]"
-Related: 
-Completed: true
+related: 
+completed: true
+updated: 2024-05-27T13:29
 ---
 ---
 # Indice

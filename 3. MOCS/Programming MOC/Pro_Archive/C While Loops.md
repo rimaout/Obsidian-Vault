@@ -1,9 +1,10 @@
 ---
-Created: 2023-03-29
-Type: Programming Note
-Programming Language: "[[C MOC]]"
-Related: 
-Completed: true
+created: 2023-03-29
+type: Programming Note
+programming language: "[[C MOC]]"
+related: 
+completed: true
+updated: 2024-05-27T13:29
 ---
 ---
 In programming, a loop is used to repeat a block of code until the specified condition is met.

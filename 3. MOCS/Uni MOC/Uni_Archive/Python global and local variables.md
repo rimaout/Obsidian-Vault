@@ -1,10 +1,11 @@
 ---
-Created: 2022-10-05
-Type: Programming Note
-Programming Language: "[[Python MOC]]"
-Related:
+created: 2022-10-05
+type: Programming Note
+programming language: "[[Python MOC]]"
+related:
   - "[[Python Variables]]"
-Completed:
+completed: 
+updated: 2024-05-27T13:29
 ---
 ---
 ## Indice

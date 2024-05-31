@@ -1,9 +1,10 @@
 ---
-Created: 2022-03-21
-Type: Programming Note
-Programming Language: "[[Python MOC]]"
-Related: 
-Completed: true
+created: 2022-03-21
+type: Programming Note
+programming language: "[[Python MOC]]"
+related: 
+completed: true
+updated: 2024-05-27T13:29
 ---
 ---
 ## Index 

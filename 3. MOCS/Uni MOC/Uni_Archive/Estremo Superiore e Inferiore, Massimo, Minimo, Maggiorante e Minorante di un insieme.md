@@ -1,11 +1,12 @@
 ---
-Created: 2023-04-19
-Type: Uni Note
-Class:
+created: 2023-04-19
+type: Uni Note
+class:
   - "[[Calcolo Differenziale (class)]]"
-Academic Year: 2022/2023
-Related: 
-Completed: true
+academic year: 2022/2023
+related: 
+completed: true
+updated: 2024-05-27T13:29
 ---
 ---
 ## Intervallo 

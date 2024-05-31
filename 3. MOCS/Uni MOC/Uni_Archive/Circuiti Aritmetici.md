@@ -1,11 +1,12 @@
 ---
-Created: 2023-11-02
-Type: Uni Note
-Class:
+created: 2023-11-02
+type: Uni Note
+class:
   - "[[Progettazione Sistemi Digitali (class)]]"
-Related:
+related:
   - "[[Circuiti combinatori]]"
-Completed: true
+completed: true
+updated: 2024-05-27T13:29
 ---
 ---
 ## Indice

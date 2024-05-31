@@ -1,11 +1,12 @@
 ---
-Created: 2024-03-05
-Type: Uni Note
-Class:
+created: 2024-03-05
+type: Uni Note
+class:
   - "[[Architettura dei calcolatori (class)]]"
-Academic Year: 2023/2024
-Related: 
-Completed: false
+academic year: 2023/2024
+related: 
+completed: false
+updated: 2024-05-27T13:29
 ---
 ---
 

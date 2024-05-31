@@ -1,12 +1,13 @@
 ---
-Created: 2023-06-19
-Type: Uni Note
-Class:
+created: 2023-06-19
+type: Uni Note
+class:
   - "[[Matematica 0 (class)]]"
   - "[[Derivate]]"
-Related:
+related:
   - "[[Trigonometria]]"
-Completed: true
+completed: true
+updated: 2024-05-27T13:29
 ---
 ---
 ## Indice

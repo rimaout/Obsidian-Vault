@@ -1,13 +1,14 @@
 ---
-Created: 2024-01-07
-Type: Uni Note
-Class:
+created: 2024-01-07
+type: Uni Note
+class:
   - "[[Calcolo Differenziale (class)]]"
-Academic Year: 2023/2024
-Related:
+academic year: 2023/2024
+related:
   - "[[Derivate]]"
   - "[[Studio di Funzione]]"
-Completed: true
+completed: true
+updated: 2024-05-27T13:29
 ---
 ---
 ## Index

@@ -1,10 +1,11 @@
 ---
-Created: 2023-11-24
-Type: Uni Note
-Class:
+created: 2023-11-24
+type: Uni Note
+class:
   - "[[Calcolo Differenziale (class)]]"
-Related: 
-Completed:
+related: 
+completed: 
+updated: 2024-05-27T13:29
 ---
 ---
 # Indice:

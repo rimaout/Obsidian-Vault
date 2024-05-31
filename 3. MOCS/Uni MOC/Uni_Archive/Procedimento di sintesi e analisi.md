@@ -1,13 +1,14 @@
 ---
-Created: 2023-10-20
-Type: Uni Note
-Class:
+created: 2023-10-20
+type: Uni Note
+class:
   - "[[Progettazione Sistemi Digitali (class)]]"
-Academic Year: 2023/2024
-Related:
+academic year: 2023/2024
+related:
   - "[[Circuito ed espressione minimale]]"
   - "[[Algebra Booleana]]"
-Completed: true
+completed: true
+updated: 2024-05-27T13:29
 ---
 ---
 ## Index

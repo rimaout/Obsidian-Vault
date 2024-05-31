@@ -1,10 +1,11 @@
 ---
-Created: 2024-02-28
-Type: Programming Note
-Programming Language: "[[Java MOC]]"
-Related:
+created: 2024-02-28
+type: Programming Note
+programming language: "[[Java MOC]]"
+related:
   - "[[Java Variables]]"
-Completed: true
+completed: true
+updated: 2024-05-27T13:29
 ---
 ---
 

@@ -1,12 +1,13 @@
 ---
-Created: 2023-10-03
-Type: Uni Note
-Class:
+created: 2023-10-03
+type: Uni Note
+class:
   - "[[Progettazione Sistemi Digitali (class)]]"
-Academic Year: 2023/2024
-Related:
+academic year: 2023/2024
+related:
   - "[[Sistema di numerazione binario]]"
-Completed: false
+completed: false
+updated: 2024-05-27T13:29
 ---
 ---
 ## Indice

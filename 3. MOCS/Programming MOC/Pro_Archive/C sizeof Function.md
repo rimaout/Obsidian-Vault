@@ -1,10 +1,11 @@
 ---
-Created: 2023-03-30
-Type: Programming Note
-Programming Language: "[[C MOC]]"
-Related:
+created: 2023-03-30
+type: Programming Note
+programming language: "[[C MOC]]"
+related:
   - "[[C Embedded  Functions]]"
-Completed: true
+completed: true
+updated: 2024-05-27T13:29
 ---
 ---
 The `sizeof` operator is used to determine the size of a variable or data type in bytes.

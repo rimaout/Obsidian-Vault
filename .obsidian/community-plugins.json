@@ -8,5 +8,6 @@
   "obsidian-excalidraw-plugin",
   "obsidian-export-image",
   "dataview",
-  "dataview-serializer"
+  "dataview-serializer",
+  "update-time"
 ]

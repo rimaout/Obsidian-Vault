@@ -1,6 +1,8 @@
 ---
-Academic Year: 2023/2024
-Type: "[[Uni MOC]]"
+academic year: 2023/2024
+type: "[[Uni MOC]]"
+created: 2024-01-07T17:18
+updated: 2024-05-27T13:29
 ---
 ---
 ##### Basi

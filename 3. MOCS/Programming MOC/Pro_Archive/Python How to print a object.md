@@ -1,11 +1,12 @@
 ---
-Created: 2023-11-22
-Programming Language: "[[Python MOC]]"
-Type: Programming Note
-Related:
+created: 2023-11-22
+programming language: "[[Python MOC]]"
+type: Programming Note
+related:
   - "[[Python OOP]]"
   - "[[Python Objects and Classes]]"
-Completed: true
+completed: true
+updated: 2024-05-27T13:29
 ---
 ---
 If you what to print the result of a fusions or generator that returns a objet you have to translate i to a list or tuple or set (ex: list(map) ,set(map) ...)

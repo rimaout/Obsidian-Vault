@@ -1,8 +1,9 @@
 ---
-Created: 2023-06-14
-Programming Language: "[[Python MOC]]"
-Related: 
-Completed:
+created: 2023-06-14
+programming language: "[[Python MOC]]"
+related: 
+completed: 
+updated: 2024-05-27T13:29
 ---
 ---
 ## Index

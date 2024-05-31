@@ -1,12 +1,13 @@
 ---
-Created: 2023-05-21
-Type: Uni Note
-Class:
+created: 2023-05-21
+type: Uni Note
+class:
   - "[[Matematica 0 (class)]]"
-Related:
+related:
   - "[[Funzioni]]"
   - "[[Limiti]]"
-Completed:
+completed: 
+updated: 2024-05-27T13:29
 ---
 ---
 

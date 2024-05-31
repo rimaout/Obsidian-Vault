@@ -1,12 +1,13 @@
 ---
-Created: 2023-09-29
-Type: Programming Note
-Programming Language: "[[Python MOC]]"
-Related:
+created: 2023-09-29
+type: Programming Note
+programming language: "[[Python MOC]]"
+related:
   - "[[Python Strings]]"
   - "[[Python Backslash (escaping character)]]"
   - "[[Python Escaping Sequences]]"
-Completed: true
+completed: true
+updated: 2024-05-27T13:29
 ---
 
 **read:** [[Python Backslash (escaping character)]] and [[Python Escaping Sequences]]

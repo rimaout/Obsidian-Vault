@@ -1,8 +1,8 @@
 ---
-category:
+type:
   - "[[Product usage analysis]]"
 name: Xiaomi Mi Hybrid
-type: Audio
+product-category: Audio
 maker: Xiaomi
 model: Mi IV Hybrid
 rating: 
@@ -11,5 +11,7 @@ monthly-uses: 20
 acquired: 2024-01-04
 tags:
   - products
-link:
+link: 
+created: 2024-05-26T11:29
+updated: 2024-05-31T20:00
 ---

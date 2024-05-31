@@ -1,12 +1,13 @@
 ---
-Created: 2023-03-22
-Type: Programming Note
-Programming Language: "[[C MOC]]"
-Related:
+created: 2023-03-22
+type: Programming Note
+programming language: "[[C MOC]]"
+related:
   - "[[C Embedded  Functions]]"
   - "[[C malloc Function]]"
   - "[[C free Function]]"
-Completed: true
+completed: true
+updated: 2024-05-27T13:29
 ---
 ---
 ## Index

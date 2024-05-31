@@ -92,10 +92,10 @@
     },
     {
       "id": "ec8b44a2-5dd0-4410-bc2d-323068575609",
-      "name": "Product",
+      "name": "Product (frequently used)",
       "type": "Template",
       "command": true,
-      "templatePath": "Storage/Templates/Product (Template).md",
+      "templatePath": "Storage/Templates/Product (automatic count - Template)",
       "fileNameFormat": {
         "enabled": false,
         "format": ""
@@ -119,9 +119,46 @@
       "openFileInMode": "default",
       "fileExistsMode": "Increment the file name",
       "setFileExistsBehavior": false
+    },
+    {
+      "id": "66f6415f-a4a3-46d9-8fd1-525ebca1fcae",
+      "name": "Product (not frequently used)",
+      "type": "Template",
+      "command": true,
+      "templatePath": "Storage/Templates/Product (manual count - Template)",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "Storage/Backend/Product usage analysis"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
     }
   ],
-  "macros": [],
+  "macros": [
+    {
+      "name": "Product (not freqently used))",
+      "id": "8e80565d-65ba-4e1e-b9e1-18ba6e5b787b",
+      "commands": [],
+      "runOnStartup": false
+    }
+  ],
   "inputPrompt": "single-line",
   "devMode": false,
   "templateFolderPath": "misc/Templates",

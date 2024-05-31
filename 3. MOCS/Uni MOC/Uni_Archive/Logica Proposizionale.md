@@ -1,8 +1,9 @@
 ---
-Type: MOC
-Created: 2023-06-05
-Class:
+type: MOC
+created: 2023-06-05
+class:
   - "[[Metodi matematici per l'informatica (class)]]"
+updated: 2024-05-27T13:29
 ---
 ---
 # Indice

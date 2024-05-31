@@ -1,11 +1,12 @@
 ---
-Created: 2023-06-24
-Type: Programming Note
-Programming Language: "[[Rust MOC]]"
-Related:
+created: 2023-06-24
+type: Programming Note
+programming language: "[[Rust MOC]]"
+related:
   - "[[Rust Scope]]"
   - "[[Rust Variables and Constats]]"
-Completed: true
+completed: true
+updated: 2024-05-27T13:29
 ---
 ---
 ## Index

@@ -1,11 +1,12 @@
 ---
-Created: 2023-03-30
-Type: Programming Note
-Programming Language: "[[C MOC]]"
-Related:
+created: 2023-03-30
+type: Programming Note
+programming language: "[[C MOC]]"
+related:
   - "[[C Memory Address]]"
   - "[[C pointer and Arrays]]"
-Completed: true
+completed: true
+updated: 2024-05-27T13:29
 ---
 ---
 A **pointer** is a variable that **stores** the **memory address** of another variable as its value.

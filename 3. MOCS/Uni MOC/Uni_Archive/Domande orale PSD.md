@@ -1,11 +1,12 @@
 ---
-Created: 2024-02-14
-Type: Uni Note
-Class:
+created: 2024-02-14
+type: Uni Note
+class:
   - "[[Progettazione Sistemi Digitali (class)]]"
-Academic Year: 2023/2024
-Related: 
-Completed: false
+academic year: 2023/2024
+related: 
+completed: false
+updated: 2024-05-27T13:29
 ---
 ---
 ## Index

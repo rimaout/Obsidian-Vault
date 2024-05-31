@@ -1,10 +1,11 @@
 ---
-Created: 2023-12-12
-Type: Programming Note
-Programming Language: "[[Rust MOC]]"
-Related:
+created: 2023-12-12
+type: Programming Note
+programming language: "[[Rust MOC]]"
+related:
   - "[[Rust Variables and Constats]]"
-Completed: false
+completed: false
+updated: 2024-05-27T13:29
 ---
 ---
 We can use any names as variable names, however, there are some rules we should follow:

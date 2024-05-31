@@ -1,10 +1,11 @@
 ---
-Created: 2023-12-14
-Type: Programming Note
-Programming Language: "[[Rust MOC]]"
-Related:
+created: 2023-12-14
+type: Programming Note
+programming language: "[[Rust MOC]]"
+related:
   - "[[Rust User Input]]"
-Completed: true
+completed: true
+updated: 2024-05-27T13:29
 ---
 ---
 ## Index

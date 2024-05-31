@@ -1,13 +1,14 @@
 ---
-Created: 2023-10-02
-Type: Uni Note
-Class:
+created: 2023-10-02
+type: Uni Note
+class:
   - "[[Calcolo Differenziale (class)]]"
   - "[[Matematica 0 (class)]]"
-Academic Year: 2023/2024
-Related:
+academic year: 2023/2024
+related:
   - "[[Insiemi Numerici]]"
-Completed:
+completed: 
+updated: 2024-05-27T13:29
 ---
 ---
 ## Indice

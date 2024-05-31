@@ -1,7 +1,9 @@
 ---
-Academic Year: 2023/2024
-Type:
+academic year: 2023/2024
+type:
   - "[[Uni MOC]]"
+created: 2024-01-19T16:28
+updated: 2024-05-27T13:29
 ---
 
 **Sistemi Numerici:** [[Sistemi numerici]] 🟡

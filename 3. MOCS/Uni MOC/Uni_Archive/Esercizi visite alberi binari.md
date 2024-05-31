@@ -1,14 +1,15 @@
 ---
-Created: 2024-05-15
-Type: Uni Note
-Class:
+created: 2024-05-15
+type: Uni Note
+class:
   - "[[Introduzione agli Algoritmi (class)]]"
-Academic Year: 2023/2024
-Related:
+academic year: 2023/2024
+related:
   - "[[Alberi (Struttura Dati)]]"
   - "[[Alberi Binari (Struttura Dati)]]"
   - "[[Visite Alberi (preorder, inorder, postorder)]]"
-Completed: true
+completed: true
+updated: 2024-05-27T13:29
 ---
 ---
 

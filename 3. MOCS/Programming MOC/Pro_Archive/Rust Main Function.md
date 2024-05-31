@@ -1,9 +1,10 @@
 ---
-Created: 2023-12-12
-Type: Programming Note
-Programming Language: "[[Rust MOC]]"
-Related: 
-Completed: true
+created: 2023-12-12
+type: Programming Note
+programming language: "[[Rust MOC]]"
+related: 
+completed: true
+updated: 2024-05-27T13:29
 ---
 ---
 ``` rust

@@ -1,10 +1,11 @@
 ---
-Created: 2023-12-05
-Type: Programming Note
-Academic Year: 2023/2024
-Related:
+created: 2023-12-05
+type: Programming Note
+academic year: 2023/2024
+related:
   - "[[Python os module]]"
-Completed: false
+completed: false
+updated: 2024-05-27T13:29
 ---
 ---
 ## Index

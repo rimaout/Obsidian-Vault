@@ -1,12 +1,13 @@
 ---
-Created: 2024-03-13
-Type: Uni Note
-Class:
+created: 2024-03-13
+type: Uni Note
+class:
   - "[[Metodologie di Programmazione (class)]]"
-Academic Year: 2023/2024
-Related:
+academic year: 2023/2024
+related:
   - "[[UML MOC]]"
-Completed: false
+completed: false
+updated: 2024-05-27T13:29
 ---
 ---
 

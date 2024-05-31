@@ -1,8 +1,9 @@
 ---
-Created: 2024-02-27
-Type: "[[Programming MOC]]"
-Related:
+created: 2024-02-27
+type: "[[Programming MOC]]"
+related:
   - "[[Programmazione ad Oggetti]]"
+updated: 2024-05-27T13:28
 ---
 ---
 ##### Basics

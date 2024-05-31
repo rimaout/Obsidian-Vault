@@ -1,9 +1,10 @@
 ---
-Created: 2024-03-03
-Type: Programming Note
-Programming Language: "[[Java MOC]]"
-Related: 
-Completed: true
+created: 2024-03-03
+type: Programming Note
+programming language: "[[Java MOC]]"
+related: 
+completed: true
+updated: 2024-05-27T13:29
 ---
 ---
 Operators are symbols that perform operations on variables and values.

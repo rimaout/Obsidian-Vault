@@ -1,11 +1,12 @@
 ---
-Created: 2022-05-11
-Type: Programming Note
-Programming Language: "[[C MOC]]"
-Related:
+created: 2022-05-11
+type: Programming Note
+programming language: "[[C MOC]]"
+related:
   - "[[Python Dictionaries]]"
   - "[[Using C to make Python]]"
-Completed: true
+completed: true
+updated: 2024-05-27T13:29
 ---
 ---
 # Dizionari in c  

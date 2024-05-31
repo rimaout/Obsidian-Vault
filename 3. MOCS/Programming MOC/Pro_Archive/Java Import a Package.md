@@ -1,10 +1,11 @@
 ---
-Created: 2024-03-12
-Type: Programming Note
-Programming Language: "[[Java MOC]]"
-Related:
+created: 2024-03-12
+type: Programming Note
+programming language: "[[Java MOC]]"
+related:
   - "[[Java Create a Package]]"
-Completed: true
+completed: true
+updated: 2024-05-27T13:29
 ---
 ---
 

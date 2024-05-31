@@ -1,9 +1,10 @@
 ---
-Created: 2024-03-26
-Type: "[[Programming MOC]]"
-Related:
+created: 2024-03-26
+type: "[[Programming MOC]]"
+related:
   - "[[Architettura dei calcolatori (class)]]"
   - "[[Architettura MIPS]]"
+updated: 2024-05-27T13:28
 ---
 ---
 ##### Basi

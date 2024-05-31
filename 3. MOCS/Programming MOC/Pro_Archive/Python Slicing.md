@@ -1,6 +1,8 @@
 ---
-Related:
+related:
   - "[[Python Index]]"
+created: 2023-09-29T10:28
+updated: 2024-05-27T13:28
 ---
 
 

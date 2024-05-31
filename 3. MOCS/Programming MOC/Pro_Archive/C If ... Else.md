@@ -1,9 +1,10 @@
 ---
-Created: 2023-03-28
-Type: Programming Note
-Programming Language: "[[C MOC]]"
-Related: 
-Completed: true
+created: 2023-03-28
+type: Programming Note
+programming language: "[[C MOC]]"
+related: 
+completed: true
+updated: 2024-05-27T13:29
 ---
 ---
 # If 

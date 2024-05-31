@@ -1,10 +1,11 @@
 ---
-Created: 2023-11-16
-Type: Programming Note
-Programming Language: "[[Python MOC]]"
-Related:
+created: 2023-11-16
+type: Programming Note
+programming language: "[[Python MOC]]"
+related:
   - "[[Python Lists]]"
-Completed: false
+completed: false
+updated: 2024-05-27T13:29
 ---
 ---
 ## Index

@@ -1,6 +1,8 @@
 ---
-Type: "[[Uni MOC]]"
-Academic Year: 2022/2023
+type: "[[Uni MOC]]"
+academic year: 2022/2023
+created: 2023-11-12T14:59
+updated: 2024-05-27T13:29
 ---
 ---
 ## Index:

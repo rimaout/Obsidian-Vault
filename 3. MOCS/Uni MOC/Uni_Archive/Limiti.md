@@ -1,13 +1,14 @@
 ---
-Created: 2023-05-19
-Type: Uni Note
-Class:
+created: 2023-05-19
+type: Uni Note
+class:
   - "[[Calcolo Differenziale (class)]]"
-Related:
+related:
   - "[[Funzioni]]"
   - "[[Successioni Reali]]"
   - "[[Esponenziali]]"
-Completed:
+completed: 
+updated: 2024-05-27T13:29
 ---
 ---
 ## Indice:

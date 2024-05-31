@@ -1,10 +1,11 @@
 ---
-Created: 2023-09-29
-Type: Programming Note
-Programming Language: "[[Python MOC]]"
-Related:
+created: 2023-09-29
+type: Programming Note
+programming language: "[[Python MOC]]"
+related:
   - "[[Python f-string]]"
-Completed: true
+completed: true
+updated: 2024-05-27T13:29
 ---
 ---
 ## Index

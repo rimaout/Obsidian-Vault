@@ -1,12 +1,13 @@
 ---
-Created: 2023-04-24
-Type: Uni Note
-Class:
+created: 2023-04-24
+type: Uni Note
+class:
   - "[[Matematica 0 (class)]]"
-Related:
+related:
   - "[[Equazioni]]"
   - "[[Equazioni Fratte]]"
-Completed:
+completed: 
+updated: 2024-05-27T13:29
 ---
 **Metodo:**
 1. [[Condizioni di Esistenza (dominio)]] 

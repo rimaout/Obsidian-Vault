@@ -1,6 +1,8 @@
 ---
-Related:
+related:
   - "[[Uni MOC]]"
+created: 2023-10-28T11:25
+updated: 2024-05-27T13:28
 ---
 ---
 **Progettazione di sistemi digitali:** [[Progettazione Sistemi Digitali (class)|MOC]]

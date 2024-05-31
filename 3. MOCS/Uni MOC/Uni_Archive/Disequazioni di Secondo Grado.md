@@ -1,14 +1,15 @@
 ---
-Created: 2023-05-16
-Type: Uni Note
-Class:
+created: 2023-05-16
+type: Uni Note
+class:
   - "[[Matematica 0 (class)]]"
   - "[[Programmazione Calcolatori (Class)]]"
-Academic Year: 2022/2023
-Related:
+academic year: 2022/2023
+related:
   - "[[Disequazioni]]"
   - "[[Equazioni di Secondo Grado]]"
-Completed: true
+completed: true
+updated: 2024-05-27T13:29
 ---
 ---
 ## Index

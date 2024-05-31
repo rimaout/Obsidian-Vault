@@ -30,6 +30,12 @@
     "excalidraw-autoexport": "text",
     "excalidraw-iframe-theme": "text",
     "excalidraw-open-md": "checkbox",
-    "acquired": "date"
+    "acquired": "date",
+    "excalidraw-embeddable-theme": "text",
+    "stoped using": "date",
+    "manually count": "number",
+    "stoped-using": "date",
+    "manual-count": "checkbox",
+    "uses": "number"
   }
 }

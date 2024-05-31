@@ -1,10 +1,11 @@
 ---
-Created: 2023-06-14
-Type: Programming Note
-Programming Language: General
-Related:
+created: 2023-06-14
+type: Programming Note
+programming language: General
+related:
   - "[[Search Algorithms]]"
-Completed:
+completed: 
+updated: 2024-05-27T13:29
 ---
 ---
 **index:**

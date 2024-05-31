@@ -1,9 +1,10 @@
 ---
-Created: 2024-03-13
-Type: Programming Note
-Programming Language: "[[UML MOC]]"
-Related: 
-Completed: true
+created: 2024-03-13
+type: Programming Note
+programming language: "[[UML MOC]]"
+related: 
+completed: true
+updated: 2024-05-27T13:29
 ---
 ---
 

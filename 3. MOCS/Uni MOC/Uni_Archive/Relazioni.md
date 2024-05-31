@@ -1,13 +1,14 @@
 ---
-Created: 2023-10-03
-Type: Uni Note
-Class:
+created: 2023-10-03
+type: Uni Note
+class:
   - "[[Matematica Discreta (class)]]"
   - "[[Metodi matematici per l'informatica (class)]]"
-Academic Year: 2023/2024
-Related:
+academic year: 2023/2024
+related:
   - "[[Teoria degli insiemi]]"
-Completed: true
+completed: true
+updated: 2024-05-27T13:29
 ---
 ---
 ## Indice

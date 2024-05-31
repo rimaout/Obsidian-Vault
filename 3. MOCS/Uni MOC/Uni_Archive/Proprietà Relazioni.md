@@ -1,14 +1,15 @@
 ---
-Created: 2023-11-13
-Type: Uni Note
-Class:
+created: 2023-11-13
+type: Uni Note
+class:
   - "[[Matematica Discreta (class)]]"
   - "[[Metodi matematici per l'informatica (class)]]"
-Academic Year: 2023/2024
-Related:
+academic year: 2023/2024
+related:
   - "[[Relazioni]]"
   - "[[Relazioni d'ordine]]"
-Completed: false
+completed: false
+updated: 2024-05-27T13:29
 ---
 ---
 ## Index

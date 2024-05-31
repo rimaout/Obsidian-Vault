@@ -1,12 +1,13 @@
 ---
-Created: 2023-05-15
-Type: Uni Note
-Class:
+created: 2023-05-15
+type: Uni Note
+class:
   - "[[Calcolo Differenziale (class)]]"
   - "[[Metodi matematici per l'informatica (class)]]"
-Related:
+related:
   - "[[Funzioni]]"
   - "[[Funzione Inniettiva, Surriettiva, Biettiva, Inversa#Funzione Biettiava|Funzione Biettiva]]"
+updated: 2024-05-27T13:29
 ---
 ---
 ## Indice

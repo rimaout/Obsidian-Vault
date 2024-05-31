@@ -1,12 +1,13 @@
 ---
-Created: 2023-06-10
-Type: Uni Note
-Class:
+created: 2023-06-10
+type: Uni Note
+class:
   - "[[Matematica 0 (class)]]"
-Academic Year: 2022/2023
-Related:
+academic year: 2022/2023
+related:
   - "[[Trigonometria]]"
-Completed: true
+completed: true
+updated: 2024-05-27T13:29
 ---
 ---
 ## Indice

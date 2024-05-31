@@ -1,11 +1,12 @@
 ---
-Created: 2023-04-26
-Type: Uni Note
-Class:
+created: 2023-04-26
+type: Uni Note
+class:
   - "[[Matematica 0 (class)]]"
-Related:
+related:
   - "[[Sistemi di Equazioni]]"
-Completed: true
+completed: true
+updated: 2024-05-27T13:29
 ---
 Video: https://youtu.be/rOyGcIslUeM
 

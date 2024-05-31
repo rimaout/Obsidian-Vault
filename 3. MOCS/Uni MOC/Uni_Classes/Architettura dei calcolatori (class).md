@@ -1,8 +1,10 @@
 ---
-Academic Year: 2023/2024
-Type: Uni Note
-Related:
+academic year: 2023/2024
+type: Uni Note
+related:
   - "[[Uni MOC]]"
+created: 2024-02-26T12:23
+updated: 2024-05-27T13:29
 ---
 ---
 ##### Introduzione

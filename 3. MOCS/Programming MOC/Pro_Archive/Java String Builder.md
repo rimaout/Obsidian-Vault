@@ -1,11 +1,12 @@
 ---
-Created: 2024-03-07
-Type: Programming Note
-Programming Language: "[[Java MOC]]"
-Related:
+created: 2024-03-07
+type: Programming Note
+programming language: "[[Java MOC]]"
+related:
   - "[[Java Strings]]"
   - "[[Java Strings Methods]]"
-Completed: true
+completed: true
+updated: 2024-05-27T13:29
 ---
 ---
 

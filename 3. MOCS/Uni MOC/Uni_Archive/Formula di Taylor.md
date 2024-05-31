@@ -1,14 +1,15 @@
 ---
-Created: 2023-12-29
-Type: Uni Note
-Class:
+created: 2023-12-29
+type: Uni Note
+class:
   - "[[Calcolo Differenziale (class)]]"
-Academic Year: 2023/2024
-Related:
+academic year: 2023/2024
+related:
   - "[[Derivate]]"
   - "[[Limiti]]"
   - "[[Sviluppi di Taylor centrati in 0]]"
-Completed: true
+completed: true
+updated: 2024-05-27T13:29
 ---
 ---
 

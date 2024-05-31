@@ -1,11 +1,12 @@
 ---
-Created: 2023-11-23
-Type: Uni Note
-Class:
+created: 2023-11-23
+type: Uni Note
+class:
   - "[[Metodi matematici per l'informatica (class)]]"
-Related:
+related:
   - "[[Logica Proposizionale]]"
-Completed: true
+completed: true
+updated: 2024-05-27T13:29
 ---
 **Negazione esistenziale:**
 $$\neg \exists x\ \ P(x) \equiv \forall x\ \  \neg P(x)$$

@@ -1,11 +1,12 @@
 ---
-Created: 
-Type: Exam Review
-Class:
+created: 2023-10-24T11:08
+type: Exam Review
+class:
   - "[[Metodi matematici per l'informatica (class)]]"
-Academic Year: 2023/2024
-Related: 
-Completed: false
+academic year: 2023/2024
+related: 
+completed: false
+updated: 2024-05-27T13:29
 ---
 ---
 N = Numerabile

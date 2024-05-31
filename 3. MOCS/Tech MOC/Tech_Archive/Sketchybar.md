@@ -1,9 +1,10 @@
 ---
-Created: ""
-Type: Programming Note
-Programming Language: 
-Related: 
-Completed: false
+created: 2024-04-22T20:45
+type: Programming Note
+programming language: 
+related: 
+completed: false
+updated: 2024-05-27T13:29
 ---
 ---
 

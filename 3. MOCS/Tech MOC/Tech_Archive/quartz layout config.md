@@ -1,9 +1,10 @@
 ---
-Created: 2024-03-19
-Related:
+created: 2024-03-19
+related:
   - "[[Quartz Setup]]"
-Completed: true
+completed: true
 Main Moc: "[[Tech MOC]]"
+updated: 2024-05-27T13:29
 ---
 ---
 ```typescript

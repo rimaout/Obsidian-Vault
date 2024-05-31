@@ -1,12 +1,13 @@
 ---
-Created: 2023-11-12
-Type: Uni Note
-Class:
+created: 2023-11-12
+type: Uni Note
+class:
   - "[[Matematica 0 (class)]]"
-Academic Year: 2023/2024
-Related:
+academic year: 2023/2024
+related:
   - "[[Equazioni]]"
-Completed: true
+completed: true
+updated: 2024-05-27T13:29
 ---
 ---
 ## Index

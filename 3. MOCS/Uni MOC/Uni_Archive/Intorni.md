@@ -1,11 +1,12 @@
 ---
-Created: 2023-05-18
-Type: Uni Note
-Class:
+created: 2023-05-18
+type: Uni Note
+class:
   - "[[Derivate]]"
-Related:
+related:
   - "[[Limiti]]"
-Completed: true
+completed: true
+updated: 2024-05-27T13:29
 ---
 ---
 ## Indice

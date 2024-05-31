@@ -1,10 +1,11 @@
 ---
-Created: 2023-09-28
-Type: Programming Note
-Programming Language: "[[Python MOC]]"
-Related:
+created: 2023-09-28
+type: Programming Note
+programming language: "[[Python MOC]]"
+related:
   - "[[Python Data Types]]"
-Completed: true
+completed: true
+updated: 2024-05-27T13:29
 ---
 
 There may be times when you want to specify a type on to a variable. 

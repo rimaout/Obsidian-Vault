@@ -1,11 +1,12 @@
 ---
-Created: 2023-04-27
-Type: Programming Note
-Programming Language: "[[C MOC]]"
-Related:
+created: 2023-04-27
+type: Programming Note
+programming language: "[[C MOC]]"
+related:
   - "[[C Embedded  Functions]]"
   - "[[C User Input]]"
-Completed: true
+completed: true
+updated: 2024-05-27T13:29
 ---
 ---
 # sscanf() 

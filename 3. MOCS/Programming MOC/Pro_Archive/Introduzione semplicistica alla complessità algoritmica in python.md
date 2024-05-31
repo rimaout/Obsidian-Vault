@@ -1,12 +1,13 @@
 ---
-Created: 2023-06-26
-Academic Year: 2022/2023
-Class:
+created: 2023-06-26
+academic year: 2022/2023
+class:
   - "[[Programmazione Calcolatori (Class)]]"
-Type: Uni Note
-Programming Language: "[[Python MOC]]"
-Related: 
-Completed: true
+type: Uni Note
+programming language: "[[Python MOC]]"
+related: 
+completed: true
+updated: 2024-05-27T13:29
 ---
 ---
 >[!info]

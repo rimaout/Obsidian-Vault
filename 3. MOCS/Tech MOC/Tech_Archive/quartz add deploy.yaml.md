@@ -1,9 +1,10 @@
 ---
-Created: 
-Related:
+created: 2024-03-19T17:15
+related:
   - "[[Quartz Setup]]"
-Completed: 
+completed: 
 Main Moc: "[[Tech MOC]]"
+updated: 2024-05-27T13:29
 ---
 ---
 in `quartz/.github/workflows/deploy.yml`

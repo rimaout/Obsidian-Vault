@@ -1,12 +1,13 @@
 ---
-Created: 2024-03-01
-Type: Uni Note
-Class:
+created: 2024-03-01
+type: Uni Note
+class:
   - "[[Calcolo Integrale (class)]]"
-Academic Year: 2023/2024
-Related:
+academic year: 2023/2024
+related:
   - "[[Serie Numeriche]]"
-Completed: true
+completed: true
+updated: 2024-05-27T13:29
 ---
 ---
 

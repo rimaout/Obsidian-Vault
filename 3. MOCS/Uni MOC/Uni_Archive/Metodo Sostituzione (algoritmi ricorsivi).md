@@ -1,12 +1,13 @@
 ---
-Created: 2024-03-23
-Type: Uni Note
-Class:
+created: 2024-03-23
+type: Uni Note
+class:
   - "[[Introduzione agli Algoritmi (class)]]"
-Academic Year: 2023/2024
-Related:
+academic year: 2023/2024
+related:
   - "[[Risoluzione Equazione di Ricorrenza]]"
-Completed: false
+completed: false
+updated: 2024-05-27T13:29
 ---
 ---
 

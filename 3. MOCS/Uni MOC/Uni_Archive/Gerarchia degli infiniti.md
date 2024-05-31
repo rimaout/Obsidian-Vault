@@ -1,12 +1,13 @@
 ---
-Created: 2023-10-28
-Type: Uni Note
-Class:
+created: 2023-10-28
+type: Uni Note
+class:
   - "[[Calcolo Differenziale (class)]]"
-Academic Year: 2023/2024
-Related:
+academic year: 2023/2024
+related:
   - "[[Limiti]]"
-Completed: true
+completed: true
+updated: 2024-05-27T13:29
 ---
 ---
 $$(\log_{b}(n))^\alpha < n^b<A^n<n!<n^n$$

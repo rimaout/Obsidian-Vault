@@ -1,12 +1,13 @@
 ---
-Created: 2024-01-22
-Type: Uni Note
-Class:
+created: 2024-01-22
+type: Uni Note
+class:
   - "[[Progettazione Sistemi Digitali (class)]]"
-Academic Year: 2023/2024
-Related:
+academic year: 2023/2024
+related:
   - "[[Circuiti sequenziali]]"
-Completed: true
+completed: true
+updated: 2024-05-27T13:29
 ---
 >[!def] Definizione
  L'obbiettivo del [[Gated Latch]]  è quello di poter alterare la memoria soltanto quando il clock è 1, ma nonostante questo possono avvenire comunque variazione indesiderate degli input anche nel breve tempo in cui il clock è uno.

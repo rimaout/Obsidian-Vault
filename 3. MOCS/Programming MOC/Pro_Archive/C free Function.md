@@ -1,11 +1,12 @@
 ---
-Created: 2023-03-22
-Type: Programming Note
-Programming Language: "[[C MOC]]"
-Related:
+created: 2023-03-22
+type: Programming Note
+programming language: "[[C MOC]]"
+related:
   - "[[C Embedded  Functions]]"
   - "[[C malloc Function]]"
-Completed: true
+completed: true
+updated: 2024-05-27T13:29
 ---
 ---
 La funzione `free()` in C viene utilizzata per liberare la memoria allocata dinamicamente con la funzione `malloc()` (o altre funzioni di allocazione dinamica come `calloc()` o `realloc()`).

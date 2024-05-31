@@ -1,8 +1,8 @@
 ---
-category:
+type:
   - "[[Product usage analysis]]"
 name: 
-type: 
+product-category: 
 maker: 
 model: 
 rating: 
