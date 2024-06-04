@@ -3,7 +3,7 @@ academic year: 2023/2024
 type: Uni Note
 link: https://twiki.di.uniroma1.it/twiki/view/Intro_algo/PZ/WebHome
 created: 2024-02-26T12:24
-updated: 2024-05-27T13:29
+updated: 2024-06-03T20:15
 ---
 ---
 **Lezioni:**
@@ -61,31 +61,3 @@ updated: 2024-05-27T13:29
 - [[Bucket Sort]]
 
 **Definizione:** [[Algoritmi di Ordinamento#Stable Sorting Algoritms|Algoritmo di ordinamento Stabile]] 🟡 (Finire di sistemare)
-
----
-
-Esercizio:
-Scorro tutto l'albero e mi salvo il livello la foglia nel livello più alto (ovvero il livello più vicino alla radice)
-
-```python
-def es(p):
-	if p==None: 
-		return 0
-	
-	return 1 + min(es(p.left), es(p.right) 
-```
-
-```python
-def es(p):
-	if p.letf == None and p.right == None:  # Se il nodo è una foglia
-		return 0                                # caso base
-
-	if p.left==None and p.right!=None:      # Se esiste solo il nodo sinistro
-		return es(p.right)+1
-
-	if p.left!=None and p.right==None:      # Se esiste solo il nodo destro
-		return es(p.left)+1
-	
-											# Se esistono tutti e due i nodi filgi
-	return 1 + min(es(p.left), es(p.right)) # 
-```

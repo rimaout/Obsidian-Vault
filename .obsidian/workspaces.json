@@ -876,14 +876,13 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Architettura MIPS.md",
+                    "file": "Storage/Templates/Product (automatic count - Template).md",
                     "mode": "source",
                     "source": false
                   }
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "vertical"
@@ -937,13 +936,11 @@
                   "state": {}
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "horizontal",
-        "width": 345.504789352417,
-        "collapsed": true
+        "width": 345.504789352417
       },
       "right": {
         "id": "1599d9a7234429ed",
@@ -960,7 +957,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Architettura MIPS.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Classes/Architettura dei calcolatori (class).md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "alphabetical",
@@ -977,7 +974,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Architettura MIPS.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Classes/Architettura dei calcolatori (class).md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1000,7 +997,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Architettura MIPS.md"
+                    "file": "3. MOCS/Uni MOC/Uni_Classes/Architettura dei calcolatori (class).md"
                   }
                 }
               },
@@ -1081,8 +1078,8 @@
           "workspaces:Manage workspace layouts": false
         }
       },
-      "active": "065ad9d61f8fc037",
-      "mtime": "2024-05-04T19:53:05+02:00"
+      "active": "ba7d0379bd9741ad",
+      "mtime": "2024-06-03T20:14:06+02:00"
     },
     "Default": {
       "main": {
@@ -1090,35 +1087,18 @@
         "type": "split",
         "children": [
           {
-            "id": "f08ab7115ba83cd8",
+            "id": "056671c3bb8a241b",
             "type": "tabs",
             "children": [
               {
-                "id": "6572080ae5f9f165",
+                "id": "e97ffa03d45616bd",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Storage/Backend/Product usage analysis/Product usage analysis.md",
-                    "mode": "preview",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "6413e3cecdcd9886",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Storage/Backend/Product usage analysis/Bellroy Tokyo Totepack (product).md",
-                    "mode": "source",
-                    "source": false
-                  }
+                  "type": "empty",
+                  "state": {}
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "vertical"
@@ -1172,8 +1152,7 @@
                   "state": {}
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "horizontal",
@@ -1194,7 +1173,6 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "Storage/Backend/Product usage analysis/Bellroy Tokyo Totepack (product).md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "alphabetical",
@@ -1211,7 +1189,6 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "Storage/Backend/Product usage analysis/Bellroy Tokyo Totepack (product).md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1233,9 +1210,7 @@
                 "type": "leaf",
                 "state": {
                   "type": "outline",
-                  "state": {
-                    "file": "Storage/Backend/Product usage analysis/Bellroy Tokyo Totepack (product).md"
-                  }
+                  "state": {}
                 }
               },
               {
@@ -1302,7 +1277,6 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "Storage/Backend/Product usage analysis/Bellroy Tokyo Totepack (product).md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -1352,9 +1326,9 @@
           "markdown-importer:Open format converter": false
         }
       },
-      "active": "6413e3cecdcd9886",
-      "mtime": "2024-05-31T11:11:53+02:00"
+      "active": "e97ffa03d45616bd",
+      "mtime": "2024-06-01T12:14:08+02:00"
     }
   },
-  "active": "Default"
+  "active": "Algoritmi"
 }

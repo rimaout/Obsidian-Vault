@@ -4,46 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "f08ab7115ba83cd8",
+        "id": "1000c870bbd20f5c",
         "type": "tabs",
         "children": [
           {
-            "id": "6572080ae5f9f165",
+            "id": "0c960f32abe91a74",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Storage/Backend/Product usage analysis/Product usage analysis.md",
+                "file": "3. MOCS/Uni MOC/Uni_Classes/Introduzione agli Algoritmi (class).md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "pinned": true
             }
           },
           {
-            "id": "79819da75a9c8764",
+            "id": "400341d6f5a0bc67",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Storage/Backend/Product usage analysis/Rarely Used Products Analysis.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f5522bec5744ec19",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Storage/Backend/Product usage analysis/AirUp (product).md",
+                "file": "To-Do/To-Do.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -72,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "altezza",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -101,7 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 360.5
+    "width": 405.5062494277954
   },
   "right": {
     "id": "1599d9a7234429ed",
@@ -110,7 +101,7 @@
       {
         "id": "b33702b1304e824a",
         "type": "tabs",
-        "dimension": 35.19736842105263,
+        "dimension": 30.905511811023622,
         "children": [
           {
             "id": "f96f6d8092dbcb18",
@@ -118,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Storage/Backend/Product usage analysis/Product usage analysis.md",
+                "file": "To-Do/To-Do.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -135,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Storage/Backend/Product usage analysis/Product usage analysis.md",
+                "file": "To-Do/To-Do.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Storage/Backend/Product usage analysis/Product usage analysis.md"
+                "file": "To-Do/To-Do.md"
               }
             }
           },
@@ -199,12 +190,12 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "0ee4f1dd2040ea54",
         "type": "tabs",
-        "dimension": 64.80263157894737,
+        "dimension": 69.09448818897637,
         "children": [
           {
             "id": "08bb0d9d4b18b672",
@@ -221,12 +212,12 @@
             }
           },
           {
-            "id": "6217f74dd2639932",
+            "id": "7517b7f0f38af1c8",
             "type": "leaf",
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Storage/Backend/Product usage analysis/Product usage analysis.md",
+                "file": "To-Do/To-Do.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -249,7 +240,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 1,
+                  "scale": 2.1169972178441094,
                   "close": true
                 }
               }
@@ -260,12 +251,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 350.5,
+    "width": 380.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "markdown-importer:Open format converter": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -273,18 +264,26 @@
       "command-palette:Open command palette": false,
       "audio-recorder:Start/stop recording": false,
       "workspaces:Manage workspace layouts": false,
-      "markdown-importer:Open format converter": false
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6572080ae5f9f165",
+  "active": "ba7d0379bd9741ad",
   "lastOpenFiles": [
+    "3. MOCS/Uni MOC/Uni_Classes/Introduzione agli Algoritmi (class).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Linked List (Struttura Dati).md",
+    "3. MOCS/Uni MOC/Uni_Classes/Architettura dei calcolatori (class).md",
+    "Storage/Templates/Product (automatic count - Template).md",
+    "Storage/Templates/Product (manual count - Template).md",
+    "Storage/Templates/Programming Notes (Template).md",
+    "Storage/Templates/Standard Note (Template).md",
+    "Storage/Templates/Uni Note (Template).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Java MOC.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Architettura MIPS.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Fasi di Esecuzione di un Istruzione MIPS (senza Pipeline).md",
+    "Storage/Backend/Product usage analysis/AirUp (product).md",
     "Storage/Backend/Product usage analysis/Rarely Used Products Analysis.md",
     "Storage/Backend/Product usage analysis/Product usage analysis.md",
     "Storage/Backend/Product usage analysis/Xiaomi Mi Hybrid (product).md",
-    "Storage/Backend/Product usage analysis/AirUp (product).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Linked List (Struttura Dati).md",
-    "Storage/Templates/Product (manual count - Template).md",
-    "Storage/Templates/Product (automatic count - Template).md",
     "Storage/Backend/Product usage analysis/Rolling Square inCharge XL (product).md",
     "Storage/Backend/Product usage analysis/Natura Hike CloudUp 2 (product).md",
     "Storage/Backend/Product usage analysis/Moser Hair Trimmer (product).md",
@@ -292,18 +291,10 @@
     "Storage/Backend/Product usage analysis/Bottle Bottle (product).md",
     "Storage/Backend/Product usage analysis/Bellroy Tokyo Totepack (product).md",
     "Natura Hike CoudUp 2.md",
-    "3. MOCS/Uni MOC/Uni_Classes/Introduzione agli Algoritmi (class).md",
     "Storage/Backend/Product Usage Analysis/Product (manual - Template).md",
     "To-Do/To-Do.md",
     "Storage/Backend/My Resonance Calendar/My Resonance Calendar.md",
     "Storage/Backend/Product Usage Analysis/cjjc.md",
-    "Storage/Backend/Product usage analysis/cjjc.md",
-    "Storage/Backend/Product Usage Analysis/cacca.md",
-    "Storage/Backend/Product usage analysis/cacca.md",
-    "3. MOCS/Personal MOC/Personal_Archive/Perché  la Russia (e la Cina) vogliono testare l'articolo 5 della nato.md",
-    "3. MOCS/Uni MOC/Uni_Classes/Calcolo Integrale (class).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Equazioni Differenziali Lineari del 1° Ordine.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Equazioni Differenziali del 2° Ordine Omogenee (coefficienti reali costanti).md",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240526213718.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240526205817.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240526171014.png",

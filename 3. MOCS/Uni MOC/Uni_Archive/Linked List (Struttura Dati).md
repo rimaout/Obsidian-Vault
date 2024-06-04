@@ -7,7 +7,7 @@ academic year: 2023/2024
 related:
   - "[[Strutture Dati]]"
 completed: false
-updated: 2024-05-27T13:29
+updated: 2024-06-03T20:14
 ---
 ---
 
@@ -68,19 +68,7 @@ Le `linked list` sono composte composte da un oggetto che chiameremo nodo defini
 >```
 
 >[!note] Creazione di una `linked list`
->```python 
->def Crea(A)
->	if A==[]: return None # controllo lista vuota
->
->	p = None # origine linked list
->	q = p    # puntatore d'appoggio (punta ad ultimo elemento aggiunto)
->	
->	for e in A:
->		q = Nodo(e)
->		q = q.next
->	
->	return p
->```
+> da fare
 
 >[!warning] Python Garbage Collector
 >Se abbiamo una `linked list` il cui primo nodo è puntato solamente da un puntatore `p`e sovrascriviamo questo puntatore (es: `p=None`) la lista andrà "persa" (non più puntata da niente).

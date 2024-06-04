@@ -1,12 +1,12 @@
 ---
 created: 2024-03-07
+updated: 2024-06-01T12:16
 type: Uni Note
 class:
   - "[[Architettura dei calcolatori (class)]]"
 academic year: 2023/2024
 related: 
 completed: false
-updated: 2024-05-27T13:29
 ---
 ---
 ## Introduzione
@@ -20,8 +20,9 @@ Il disegno dell'architettura e del set di istruzioni è semplice e lineare, spes
 
 - [[Introduzione all'architettura MIPS]] 🟢
 - [[Rappresentazione dell'istruzione MIPS]] 🟡 (aggiungi esempio jump immediate e non condizionati, chiedi Flavio se giusto i-type)
-- [[Registri MIPS]] 🟢
 
+##### CPU
+- [[Registri MIPS]] 🟢
 - [[Fasi di Esecuzione di un Istruzione MIPS (senza Pipeline)]]
 
 ##### Pipe Line e Parallelismo
