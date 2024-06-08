@@ -51,7 +51,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Storage/Backend/My Resonance Calendar/My Resonance Calendar.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Logaritmi.md",
                 "mode": "source",
                 "source": false
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "altezza",
+                "query": "logar",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -112,7 +112,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -133,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Storage/Backend/My Resonance Calendar/My Resonance Calendar.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Logaritmi.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -150,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Storage/Backend/My Resonance Calendar/My Resonance Calendar.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Logaritmi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Storage/Backend/My Resonance Calendar/My Resonance Calendar.md"
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Logaritmi.md"
               }
             }
           },
@@ -241,7 +242,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Storage/Backend/My Resonance Calendar/My Resonance Calendar.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Logaritmi.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -294,6 +295,9 @@
   "active": "ee5364b07b5a908e",
   "lastOpenFiles": [
     "Storage/Backend/Product usage analysis/Product usage analysis.md",
+    "Storage/Backend/My Resonance Calendar/My Resonance Calendar.md",
+    "Storage/Backend/Product usage analysis/Rarely Used Products Analysis.md",
+    "Storage/Backend/Product usage analysis/Natura Hike CloudUp 2 (product).md",
     "3. MOCS/Uni MOC/Uni_Archive/Metodo Master Theorem (algoritmi ricorsivi).md",
     "3. MOCS/Uni MOC/Uni_Archive/Logaritmi.md",
     "Storage/Templates/Product (manual count - Template).md",
@@ -309,16 +313,13 @@
     "3. MOCS/Uni MOC/Uni_Archive/Architettura MIPS.md",
     "3. MOCS/Uni MOC/Uni_Archive/Fasi di Esecuzione di un Istruzione MIPS (senza Pipeline).md",
     "Storage/Backend/Product usage analysis/AirUp (product).md",
-    "Storage/Backend/Product usage analysis/Rarely Used Products Analysis.md",
     "Storage/Backend/Product usage analysis/Xiaomi Mi Hybrid (product).md",
     "Storage/Backend/Product usage analysis/Rolling Square inCharge XL (product).md",
-    "Storage/Backend/Product usage analysis/Natura Hike CloudUp 2 (product).md",
     "Storage/Backend/Product usage analysis/Moser Hair Trimmer (product).md",
     "Storage/Backend/Product usage analysis/Braun Alarm (product).md",
     "Storage/Backend/Product usage analysis/Bottle Bottle (product).md",
     "Storage/Backend/Product usage analysis/Bellroy Tokyo Totepack (product).md",
     "Natura Hike CoudUp 2.md",
-    "Storage/Backend/Product Usage Analysis/Product (manual - Template).md",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240526213718.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240526205817.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240526171014.png",
