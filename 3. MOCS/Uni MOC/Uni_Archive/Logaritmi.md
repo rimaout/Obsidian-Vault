@@ -5,7 +5,7 @@ class:
   - "[[Matematica 0 (class)]]"
 related: 
 completed: true
-updated: 2024-05-27T13:29
+updated: 2024-06-07T18:42
 ---
 ---
 ## Indice
@@ -56,9 +56,9 @@ $$
 & \\
 & 3.~~~~ \log_ab^n =  n \cdot \log_ab \textcolor{orange}{\dashrightarrow Potenza~~di~~ un~~logaritmo}\\
 & \\
-& 4.~~~~ \log_ab= \frac{\log_cb}{\log_cb} \textcolor{orange}{\dashrightarrow Cambio ~~ base}\\
+& 4.~~~~ \log_ab= \frac{\log_cb}{\log_ca} \textcolor{orange}{\dashrightarrow Cambio ~~ base}\\
 & \\
-& 4.~~~~ x^{\log_b y} = y^{\log_{b} x}
+& 5.~~~~ x^{\log_b y} = y^{\log_{b} x}
 \end{align*}
 $$
 
@@ -71,6 +71,9 @@ $$
 \end{align*}
 $$
 
-*Dim caso 4:* $3^{\log_2 n}=(2^{\log_2 3})^{\log_2 n}= 2^{(\log_2 n)*(\log_2 3)}=(2^{\log_2 n})^{\log_2 3} =n^{\log_2 3}$
+>[!warning] Esempio Cambio Base
+> $$\log_2 n=(2^{\log_2 3})^{\log_2 n}= 2^{(\log_2 n)*(\log_2 3)}=(2^{\log_2 n})^{\log_2 3} =n^{\log_2 3}
+$$
+
 
 ---

@@ -1,3 +1,7 @@
+---
+created: 2024-05-24T20:26
+updated: 2024-06-08T00:41
+---
 
 Welcome to "My Resonance Calendar"; This is my organised space where I keep track of everything that resonates with me, including books, videos, articles, podcasts, and more.
 
@@ -7,6 +11,8 @@ Welcome to "My Resonance Calendar"; This is my organised space where I keep trac
 [I Accidentally Photographed Something Unknown During the Eclipse (Smarter Every Day)](https://www.youtube.com/watch?v=bQF51mqzrY4)
 
 [Why Alien Life Would be our Doom - The Great Filter (Kurzgesagt)](https://www.youtube.com/watch?v=UjtOGPJ0URM)
+
+[I Trained Like An Olympic Boxer (Michelle Khare)](https://www.youtube.com/watch?v=LZanXTAeqGc)
 
 [L'uomo che salvò il mondo (Silver Brain)](https://www.youtube.com/watch?v=YDKWbWHfeYY)
 

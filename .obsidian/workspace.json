@@ -22,19 +22,43 @@
             }
           },
           {
-            "id": "400341d6f5a0bc67",
+            "id": "be7c3d5f2d52a872",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "To-Do/To-Do.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Metodo Master Theorem (algoritmi ricorsivi).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "28d0f0a7e8cdea32",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Logaritmi.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ee5364b07b5a908e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Storage/Backend/My Resonance Calendar/My Resonance Calendar.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -92,7 +116,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 405.5062494277954
+    "width": 293.5
   },
   "right": {
     "id": "1599d9a7234429ed",
@@ -109,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "To-Do/To-Do.md",
+                "file": "Storage/Backend/My Resonance Calendar/My Resonance Calendar.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -126,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "To-Do/To-Do.md",
+                "file": "Storage/Backend/My Resonance Calendar/My Resonance Calendar.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "To-Do/To-Do.md"
+                "file": "Storage/Backend/My Resonance Calendar/My Resonance Calendar.md"
               }
             }
           },
@@ -217,7 +241,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "To-Do/To-Do.md",
+                "file": "Storage/Backend/My Resonance Calendar/My Resonance Calendar.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -267,13 +291,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ba7d0379bd9741ad",
+  "active": "ee5364b07b5a908e",
   "lastOpenFiles": [
+    "Storage/Backend/Product usage analysis/Product usage analysis.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Metodo Master Theorem (algoritmi ricorsivi).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Logaritmi.md",
+    "Storage/Templates/Product (manual count - Template).md",
     "3. MOCS/Uni MOC/Uni_Classes/Introduzione agli Algoritmi (class).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Risolvere e calcolare Equazione di Ricorrenza.md",
     "3. MOCS/Uni MOC/Uni_Archive/Linked List (Struttura Dati).md",
     "3. MOCS/Uni MOC/Uni_Classes/Architettura dei calcolatori (class).md",
     "Storage/Templates/Product (automatic count - Template).md",
-    "Storage/Templates/Product (manual count - Template).md",
     "Storage/Templates/Programming Notes (Template).md",
     "Storage/Templates/Standard Note (Template).md",
     "Storage/Templates/Uni Note (Template).md",
@@ -282,7 +310,6 @@
     "3. MOCS/Uni MOC/Uni_Archive/Fasi di Esecuzione di un Istruzione MIPS (senza Pipeline).md",
     "Storage/Backend/Product usage analysis/AirUp (product).md",
     "Storage/Backend/Product usage analysis/Rarely Used Products Analysis.md",
-    "Storage/Backend/Product usage analysis/Product usage analysis.md",
     "Storage/Backend/Product usage analysis/Xiaomi Mi Hybrid (product).md",
     "Storage/Backend/Product usage analysis/Rolling Square inCharge XL (product).md",
     "Storage/Backend/Product usage analysis/Natura Hike CloudUp 2 (product).md",
@@ -292,9 +319,6 @@
     "Storage/Backend/Product usage analysis/Bellroy Tokyo Totepack (product).md",
     "Natura Hike CoudUp 2.md",
     "Storage/Backend/Product Usage Analysis/Product (manual - Template).md",
-    "To-Do/To-Do.md",
-    "Storage/Backend/My Resonance Calendar/My Resonance Calendar.md",
-    "Storage/Backend/Product Usage Analysis/cjjc.md",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240526213718.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240526205817.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240526171014.png",

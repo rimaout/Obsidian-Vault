@@ -7,7 +7,7 @@ academic year: 2023/2024
 related:
   - "[[Risoluzione Equazione di Ricorrenza]]"
 completed: true
-updated: 2024-05-27T13:29
+updated: 2024-06-07T14:27
 ---
 	---
 
@@ -25,7 +25,7 @@ Utilizzato per la [[Risoluzione Equazione di Ricorrenza|risoluzione di equazione
 >L'equazione di ricorrenza di questo tipo di algoritmi ha questa struttura:
 >$$
 >T(n) = \begin{cases}
->a\cdot \left( \frac{n}{b} \right) + f(n) & \text{if }n>1 \\
+>a\cdot T\left( \frac{n}{b} \right) + f(n) & \text{if }n>1 \\
 >\Theta(1) 
 >\end{cases}
 >$$
@@ -41,7 +41,7 @@ Utilizzato per la [[Risoluzione Equazione di Ricorrenza|risoluzione di equazione
 Un algoritmo del tipo:
 $$
 T(n) = \begin{cases}
-a\cdot \left( \frac{n}{b} \right) + f(n) & \text{if }n>1 \\
+a\cdot T\left( \frac{n}{b} \right) + f(n) & \text{if }n>1 \\
 \Theta(1) 
 \end{cases}
 $$
@@ -65,11 +65,9 @@ Ha 3 possibili soluzioni:
 >$$
 >Se:
 >- $f(n) = \Omega(n^{\log_{b} (a) +\epsilon})$
->- $a\cdot f\left( \frac{a}{n} \right)\leq c\cdot f(n)$
+>- $a\cdot f\left( \frac{n}{b} \right) < c\cdot f(n)$
 >
 >Sono entrambe vere per un qualche $\epsilon >0$ e $c>1$
-
-**vedi condizione di regolarità**
 
 ---
 ## Esempi
