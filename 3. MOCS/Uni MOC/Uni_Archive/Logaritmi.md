@@ -5,7 +5,7 @@ class:
   - "[[Matematica 0 (class)]]"
 related: 
 completed: true
-updated: 2024-06-08T11:14
+updated: 2024-06-08T11:18
 ---
 ---
 ## Indice
@@ -73,8 +73,7 @@ $$
 
 >[!warning] Esempio Cambio Base
 > $$
-> \log_2 n=(2^{\log_2 3})^{\log_2 n}= 2^{(\log_2 n)*(\log_2 3)}=(2^{\log_2 n})^{\log_2 3} =n^{\log_2 3}
+> n\log_2 n=(2^{\log_2 3})^{\log_2 n}= 2^{(\log_2 n)*(\log_2 3)}=(2^{\log_2 n})^{\log_2 3} =n^{\log_2 3}
 > $$
-
 
 ---

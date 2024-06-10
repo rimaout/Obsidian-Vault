@@ -7,7 +7,7 @@ academic year: 2023/2024
 related:
   - "[[Risoluzione Equazione di Ricorrenza]]"
 completed: true
-updated: 2024-06-07T14:27
+updated: 2024-06-08T12:38
 ---
 	---
 
@@ -67,9 +67,9 @@ Ha 3 possibili soluzioni:
 >- $f(n) = \Omega(n^{\log_{b} (a) +\epsilon})$
 >- $a\cdot f\left( \frac{n}{b} \right) < c\cdot f(n)$
 >
->Sono entrambe vere per un qualche $\epsilon >0$ e $c>1$
-
+>Sono entrambe vere per un qualche $\epsilon >0$ e $0<c<1$
 ---
+
 ## Esempi
 
 
