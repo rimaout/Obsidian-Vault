@@ -5,9 +5,9 @@ class:
   - "[[Progettazione Sistemi Digitali (class)]]"
 academic year: 2023/2024
 related:
-  - "[[Circuiti combinatori]]"
+  - "[[Circuiti Combinatori]]"
 completed: false
-updated: 2024-05-27T13:29
+updated: 2024-06-13T14:19
 ---
 ---
 ## Index
@@ -19,7 +19,7 @@ updated: 2024-05-27T13:29
 ## Definizione
 
 - **Combinational logic** is a type of digital logic which is implemented by Boolean circuits where the output is a [[Algebra Booleana#Funzioni Booleane|pure function]] of the present *input only*. 
-- This is in contrast to [[Circuiti sequenziali|sequential logic]], in which the output depends not only on the present *input* but also on the *history of the input*. In other words, sequential logic has memory while combinational logic does not.
+- This is in contrast to [[Circuiti Sequenziali|sequential logic]], in which the output depends not only on the present *input* but also on the *history of the input*. In other words, sequential logic has memory while combinational logic does not.
 
 - **Latch e Flip-Flop** sono circuiti capaci di memorizzare uno stato binario finche sono alimentati o finche un segnali in ingresso non ne cambia lo stato
 

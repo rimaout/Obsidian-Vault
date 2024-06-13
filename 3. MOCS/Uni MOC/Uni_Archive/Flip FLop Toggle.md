@@ -6,10 +6,10 @@ class:
 academic year: 2023/2024
 related:
   - "[[Flip Flop]]"
-  - "[[Circuiti sequenziali]]"
+  - "[[Circuiti Sequenziali]]"
   - "[[Flip Flop JK]]"
 completed: false
-updated: 2024-05-27T13:29
+updated: 2024-06-13T14:19
 ---
 ---
 ## Index
@@ -18,7 +18,7 @@ updated: 2024-05-27T13:29
 
 ---
 ## Definizione
-Il **FF Toggle** è un circuito [[Circuiti sequenziali|sequenziale]], [[Circuiti Sincroni ed Asincroni#Circuiti Sincroni|sincrono]], *edge triggered* derivato dal [[Flip Flop JK]], ponendo J = K.
+Il **FF Toggle** è un circuito [[Circuiti Sequenziali|sequenziale]], [[Circuiti Sincroni ed Asincroni#Circuiti Sincroni|sincrono]], *edge triggered* derivato dal [[Flip Flop JK]], ponendo J = K.
 
 >[!warning] Circuito
 >![[Pasted image 20240205200806.png|250]]

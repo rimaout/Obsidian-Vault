@@ -1,10 +1,9 @@
 ---
 created: 2024-05-24T20:26
-updated: 2024-06-08T00:41
+updated: 2024-06-12T15:54
 ---
 
 Welcome to "My Resonance Calendar"; This is my organised space where I keep track of everything that resonates with me, including books, videos, articles, podcasts, and more.
-
 
 [I Paid a Taxi $10,000$ to See How Far it Takes Me! (Yes Theory)](https://www.youtube.com/watch?v=_TedFmvfCYo)
 

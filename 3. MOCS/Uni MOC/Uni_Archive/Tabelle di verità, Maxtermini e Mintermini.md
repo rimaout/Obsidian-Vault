@@ -6,9 +6,9 @@ class:
 academic year: 2023/2024
 related:
   - "[[Algebra Booleana]]"
-  - "[[Forma POS (Disgiuntiva) e SOP(Congiuntiva)]]"
+  - "[[Forma POS (Congiuntiva) e SOP (Disgiuntiva)]]"
 completed: true
-updated: 2024-05-27T13:29
+updated: 2024-06-11T18:15
 ---
 ---
 ## Index
@@ -40,7 +40,7 @@ updated: 2024-05-27T13:29
 
 **oss:** se valore variabile = *0* allora nel mintermine la variabile è *negata*
 
-**Calcolo funzione:** Unire mintermini con somme logiche ([[Forma POS (Disgiuntiva) e SOP(Congiuntiva)|forma sop]])
+**Calcolo funzione:** Unire mintermini con somme logiche ([[Forma POS (Congiuntiva) e SOP (Disgiuntiva)|forma sop]])
 ![[IMG_CB75ECEBC666-1.jpeg|400]]
 
 ---
@@ -49,7 +49,7 @@ updated: 2024-05-27T13:29
 
 **oss:** se valore variabile = *1* allora nel mintermine la variabile è *negata*
 
-**Calcolo funzione:** Unire mintermini con somme logiche ([[Forma POS (Disgiuntiva) e SOP(Congiuntiva)|forma sop]])
+**Calcolo funzione:** Unire mintermini con somme logiche ([[Forma POS (Congiuntiva) e SOP (Disgiuntiva)|forma sop]])
 
 ![[IMG_5DD59C7AAC59-1.jpeg|400]]
 

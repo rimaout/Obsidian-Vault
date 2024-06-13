@@ -7,7 +7,7 @@ academic year: 2023/2024
 related:
   - "[[Algebra Booleana]]"
 completed: true
-updated: 2024-05-27T13:29
+updated: 2024-06-11T18:22
 ---
 ---
 ## Index
@@ -21,4 +21,4 @@ updated: 2024-05-27T13:29
 ![[Screenshot 2023-07-06 at 11.46.31.png|700]]
 
 ## Legge de consenso
-![[Legge de consenso(algebra di Boole)]]
+![[Teorema del consenso(algebra di Boole)]]

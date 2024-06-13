@@ -5,14 +5,14 @@ class:
   - "[[Progettazione Sistemi Digitali (class)]]"
 academic year: 2023/2024
 related:
-  - "[[Circuiti sequenziali]]"
+  - "[[Circuiti Sequenziali]]"
 completed: true
-updated: 2024-05-27T13:29
+updated: 2024-06-13T14:19
 ---
 >[!def] Definizione
  L'obbiettivo del [[Gated Latch]]  è quello di poter alterare la memoria soltanto quando il clock è 1, ma nonostante questo possono avvenire comunque variazione indesiderate degli input anche nel breve tempo in cui il clock è uno.
 >
->Per risolvere questo problema sono stati inventati i flip flop, [[Circuiti sequenziali|circuiti sequenziali]] [[Circuiti Sincroni ed Asincroni#Circuiti Sincroni|sincroni]] capaci di memorizzare bit come i latch ma che si abilitano soltanto ai fronti d'onda, per questo di chiamano **edge triggered**.
+>Per risolvere questo problema sono stati inventati i flip flop, [[Circuiti Sequenziali|circuiti sequenziali]] [[Circuiti Sincroni ed Asincroni#Circuiti Sincroni|sincroni]] capaci di memorizzare bit come i latch ma che si abilitano soltanto ai fronti d'onda, per questo di chiamano **edge triggered**.
 >
 >
 >Tutti i flip flop sono **edge triggered** ovvero sono sensibile ai fronti d'onda del clock.

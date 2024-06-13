@@ -22,55 +22,50 @@
             }
           },
           {
-            "id": "be7c3d5f2d52a872",
+            "id": "ef5c720ce6f5b030",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Metodo Master Theorem (algoritmi ricorsivi).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "28d0f0a7e8cdea32",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Logaritmi.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ee5364b07b5a908e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Logaritmi.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "815cbd4ed9bf9b5f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Metodo Master Theorem (algoritmi ricorsivi).md",
+                "file": "3. MOCS/Uni MOC/Uni_Classes/Progettazione Sistemi Digitali (class).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
+      },
+      {
+        "id": "0a115c17abc0d971",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8b72dc2772e638a1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Circuito Multiplexer.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5838264805df6c61",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Circuito De-multiplexer.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -124,12 +119,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 293.5
+    "width": 293.5,
+    "collapsed": true
   },
   "right": {
     "id": "1599d9a7234429ed",
@@ -146,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Metodo Master Theorem (algoritmi ricorsivi).md",
+                "file": "3. MOCS/Uni MOC/Uni_Classes/Progettazione Sistemi Digitali (class).md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -163,7 +158,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Metodo Master Theorem (algoritmi ricorsivi).md",
+                "file": "3. MOCS/Uni MOC/Uni_Classes/Progettazione Sistemi Digitali (class).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Metodo Master Theorem (algoritmi ricorsivi).md"
+                "file": "3. MOCS/Uni MOC/Uni_Classes/Progettazione Sistemi Digitali (class).md"
               }
             }
           },
@@ -225,9 +220,19 @@
               "type": "smart-connections-chat-view",
               "state": {}
             }
+          },
+          {
+            "id": "df10f0c8e2d35a84",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "3. MOCS/Uni MOC/Uni_Classes/Progettazione Sistemi Digitali (class).md"
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 8
       },
       {
         "id": "0ee4f1dd2040ea54",
@@ -254,7 +259,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Metodo Master Theorem (algoritmi ricorsivi).md",
+                "file": "3. MOCS/Uni MOC/Uni_Classes/Progettazione Sistemi Digitali (class).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -304,34 +309,35 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "815cbd4ed9bf9b5f",
+  "active": "ef5c720ce6f5b030",
   "lastOpenFiles": [
-    "3. MOCS/Uni MOC/Uni_Archive/Risolvere e calcolare Equazione di Ricorrenza.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Automi e Reti Sequenziali.md",
+    "3. MOCS/Uni MOC/Uni_Classes/Progettazione Sistemi Digitali (class).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Circuiti Sequenziali.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Circuiti Combinatori.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Circuiti Aritmetici.md",
     "3. MOCS/Uni MOC/Uni_Classes/Introduzione agli Algoritmi (class).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Logaritmi.md",
-    "Storage/Backend/Product usage analysis/Product usage analysis.md",
-    "Storage/Backend/My Resonance Calendar/My Resonance Calendar.md",
-    "Storage/Backend/Product usage analysis/Rarely Used Products Analysis.md",
-    "Storage/Backend/Product usage analysis/Natura Hike CloudUp 2 (product).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Metodo Master Theorem (algoritmi ricorsivi).md",
-    "Storage/Templates/Product (manual count - Template).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Circuito Multiplexer.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Algebra Booleana.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Circuito De-multiplexer.md",
+    "3. MOCS/Uni MOC/Uni_Archive/ALU (Arithmetic Logic Unit).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Aritmetic comparator.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Logic comparator.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Transcodificatore.md",
+    "3. MOCS/Uni MOC/Uni_Archive/ROM (read only memory).md",
+    "3. MOCS/Uni MOC/Uni_Archive/PLA (programmable logic array).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240612165626.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Circuito De-codificatore.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Circuito Codificatore.md",
     "3. MOCS/Uni MOC/Uni_Archive/Linked List (Struttura Dati).md",
-    "3. MOCS/Uni MOC/Uni_Classes/Architettura dei calcolatori (class).md",
-    "Storage/Templates/Product (automatic count - Template).md",
-    "Storage/Templates/Programming Notes (Template).md",
-    "Storage/Templates/Standard Note (Template).md",
-    "Storage/Templates/Uni Note (Template).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Java MOC.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Architettura MIPS.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Fasi di Esecuzione di un Istruzione MIPS (senza Pipeline).md",
-    "Storage/Backend/Product usage analysis/AirUp (product).md",
-    "Storage/Backend/Product usage analysis/Xiaomi Mi Hybrid (product).md",
-    "Storage/Backend/Product usage analysis/Rolling Square inCharge XL (product).md",
-    "Storage/Backend/Product usage analysis/Moser Hair Trimmer (product).md",
-    "Storage/Backend/Product usage analysis/Braun Alarm (product).md",
-    "Storage/Backend/Product usage analysis/Bottle Bottle (product).md",
-    "Storage/Backend/Product usage analysis/Bellroy Tokyo Totepack (product).md",
-    "Natura Hike CoudUp 2.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Array (Struttura Dati).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Forma POS (Congiuntiva) e SOP (Disgiuntiva).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Sistema di numerazione binario.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Sistemi numerici.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Domande orale PSD.md",
+    "Storage/Backend/My Resonance Calendar/My Resonance Calendar.md",
+    "Storage/Backend/Product usage analysis/Product usage analysis.md",
+    "Storage/Backend/changelog.md",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240526213718.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240526205817.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240526171014.png",
@@ -345,7 +351,6 @@
     "Storage/Backend/My Resonance Calendar",
     "Storage/Backend",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240524160813.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240524151616.png",
     "Excalidraw",
     "3. MOCS/Uni MOC/Uni_Archive/QuikSortCost.pdf",
     "3. MOCS/Uni MOC/Uni_Archive/MIPS_Instruction_Set.pdf",

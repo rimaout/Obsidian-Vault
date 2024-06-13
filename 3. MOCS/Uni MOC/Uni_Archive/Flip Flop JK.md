@@ -5,11 +5,11 @@ class:
   - "[[Progettazione Sistemi Digitali (class)]]"
 academic year: 2023/2024
 related:
-  - "[[Circuiti sequenziali]]"
+  - "[[Circuiti Sequenziali]]"
   - "[[Latch]]"
   - "[[Flip Flop SR (master slave)]]"
 completed: true
-updated: 2024-05-27T13:29
+updated: 2024-06-13T14:19
 ---
 ---
 ## Index
@@ -18,7 +18,7 @@ updated: 2024-05-27T13:29
 
 ---
 ## Definizione
-Il **FF JK** è un circuito [[Circuiti sequenziali|sequenziale]], [[Circuiti Sincroni ed Asincroni#Circuiti Sincroni|sincrono]], *edge triggered* derivato dal [[Flip Flop SR (master slave)]].
+Il **FF JK** è un circuito [[Circuiti Sequenziali|sequenziale]], [[Circuiti Sincroni ed Asincroni#Circuiti Sincroni|sincrono]], *edge triggered* derivato dal [[Flip Flop SR (master slave)]].
 - A differenza del flip flop SR utilizza la combinazione 11 per negare lo stato precednte.
 
 >[!warning] Simbolo

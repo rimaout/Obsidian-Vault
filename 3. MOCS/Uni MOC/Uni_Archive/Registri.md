@@ -5,9 +5,9 @@ class:
   - "[[Progettazione Sistemi Digitali (class)]]"
 academic year: 2023/2024
 related:
-  - "[[Circuiti sequenziali]]"
+  - "[[Circuiti Sequenziali]]"
 completed: true
-updated: 2024-05-27T13:29
+updated: 2024-06-13T14:19
 ---
 >[!warning] Definizione
 > Un registro è un insieme di `n` [[Flip Flop]] che permette di  memorizzare `n` bit

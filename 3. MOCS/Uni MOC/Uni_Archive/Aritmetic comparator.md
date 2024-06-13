@@ -7,37 +7,57 @@ academic year: 2023/2024
 related:
   - "[[Uni MOC]]"
 completed: true
-updated: 2024-05-27T13:29
+updated: 2024-06-13T12:08
 ---
 ---
 ## Index
 
-1. [[#Definizione]]
-2. [[#Calcolo numero variabili]]
-3. [[#Circuito interno]]
+>[!abstract] Index
+>1. [[#Introduzione]]
+>2. [[#Implementazione]]
+
+>[!abstract] Related
+>- [[Circuiti Combinatori]]
+>- [[Circuito Multiplexer]]
+>- [[Progettazione Sistemi Digitali (class)]]
 
 ---
-## Definizione
+## Introduzione
 
 **Comparatore Aritmetico** confronta la *magnitudo*[^1] tra due 
 
->[!warning] Rappresentazione circuitale
+>[!note] Rappresentazione circuitale
 >![[Pasted image 20240203131233.png|200]]
 
-**Input:** Due numeri A e B (espressi come sequenze di bit)
-
-**Output:**
-- $A = B$
-- $A>B$
-- $A<B$    (se entrambi > e = sono FALSE)
+>[!warning] Input / Output
+>**Input:** Due numeri A e B
+>
+>**Output:**
+>- `A = B`
+>- `A > B`
+>- `A < B`
+>
+>>**Nota:** 
+>>- Gli Input `A` e `B` sono sequenze di bit
+>>- Gli Output `=`, `>`, `<` sono singoli bit che assumono i vali 1 (True) e 0 (False) 
 
 ---
-## Funzionamento 
+## Implementazione 
 
- Per controllare se:
-- **A = B** -> si utilizza un [[Logic comparator|comparatore logico]].
-- **A > B** -> si utilizza un [[Circuiti Aritmetici|adder]] per effettuare $A-B$, poi si usa un circuito che da come output 1 se il *MSB*[^2] dell' risultato dell'operazione è uguale a 0.
-- **A < B** -> si utilizza un [[Operatori Booleani e Porte Logiche#AND|and]] con input *A = B* e *A > B* negati, se gli input sono tutti e due uguali zero allora l'output della and sarà uno.
+>[!note] A = B 
+>Si utilizza un [[Logic comparator|comparatore logico]].
+
+>[!note] A > B 
+>Si utilizza: 
+>1. Un [[Circuiti Aritmetici|adder]] per effettuare $A-B$, 
+>2. Poi si usa un circuito che ha come output:
+>	- 1 se il *MSB*[^2] dell' risultato dell'operazione è uguale a 0.
+>	- 0 se il *MSB*[^2] dell' risultato dell'operazione è uguale a 1.
+
+>[!note] A < B 
+>Si utilizza un [[Operatori Booleani e Porte Logiche#AND|and]] con input *A = B* e *A > B* negati, se gli input sono tutti e due uguali zero allora l'output della and sarà uno.
+
+---
 
 [^1]: Magnitudo: Grandezza di un numero, due numeri che hanno la stessa magnitudo sono uguali, un numero x che ha una magnitudo superiore rispetto a un numero y significa che x > y.
 

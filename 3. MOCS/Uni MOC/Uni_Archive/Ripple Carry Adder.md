@@ -6,9 +6,9 @@ class:
 academic year: 2023/2024
 related:
   - "[[Circuiti Aritmetici]]"
-  - "[[Circuiti combinatori]]"
+  - "[[Circuiti Combinatori]]"
 completed: true
-updated: 2024-05-27T13:29
+updated: 2024-06-12T16:24
 ---
 ## Index
 1. [[#Definizione]]

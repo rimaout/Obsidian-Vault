@@ -5,49 +5,53 @@ class:
   - "[[Progettazione Sistemi Digitali (class)]]"
 academic year: 2023/2024
 related:
-  - "[[Circuiti combinatori]]"
+  - "[[Circuiti Combinatori]]"
   - "[[Circuito Codificatore]]"
 completed: true
-updated: 2024-05-27T13:29
+updated: 2024-06-12T16:41
 ---
 ---
-## Index
-1. [[#Definizione]]
-2. [[#Circuito]]
+
+>[!abstract] Index
+>1. [[#Introduzione]]
+>2. [[#Circuito]]
+
+>[!abstract] Related
+>- [[Circuiti Combinatori]]
+>- [[Circuito Codificatore]]
+>- [[Progettazione Sistemi Digitali (class)]]
 
 ---
-## Definizione
-È utilizzato per decodificare gli output di un [[Circuito Codificatore]]
+## Introduzione
 
->[!warning] Rappresentazione circuitale
+>[!note] Definizione
+>È utilizzato per decodificare gli output di un [[Circuito Codificatore]]
+
+>[!note] Rappresentazione circuitale
 >![[Pasted image 20240131163252.png|150]]
 
 >[!danger] Caratteristiche
 >- È un [[Circuiti combinatori|circuito combinatorio]]
->- $n$ inputs --> $n^2$ outputs
->- La funzione del [[Circuito De-codificatore]] è l'opposta del [[Circuito Codificatore]]
+>- $n$ i[](Circuiti%20Combinatori.md)ircuito De-codificatore]] è l'opposta del [[Circuito Codificatore]]
 
 >[!danger] Funzionamento
 >- Le linee in uscita saranno tutte 0 tranne quella nella posizione espressa (in binario) dalle linee di input
 
->[!warning] oss:
->De-codificatore = *Array porte AND*
+> **OSS:**  De-codificatore = *Array porte AND*
 
 ---
 ## Circuito
 
->[!warning]
->Codificatore = *Array porte OR*
->- Circuito decodificatore si può vare sono con **AND** forma [[Forma POS (Disgiuntiva) e SOP(Congiuntiva)|Congiuntiva (POS)]]
+>[!note] Tabella verità --> Circuito
+>Per ricavare il circuito da una tabella di verità in questo caso dobbiamo: 
+>- Cercare le variabili che rendono l'output `1` 
 
-**Tabella verità --> Circuito:**
-- Vediamo out put quando è uno:
-	- cerchiamo variabili che lo rendono 1 solo in quel caso
+>**OSS:** Il circuito di un de-codificatore è composto da sole porte `AND`.
 
-*Decoder 2-4:*
-![[IMG_2598.jpeg|600]]
+>[!warning] Decoder 2-4
+>![[IMG_2598.jpeg|600]]
 
-*Decoder 3-8:*
-![[IMG_2599.jpeg|600]]
+>[!warning] Decoder 3-8
+>![[IMG_2599.jpeg|600]]
 
 ---

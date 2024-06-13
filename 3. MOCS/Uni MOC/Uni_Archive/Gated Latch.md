@@ -5,10 +5,10 @@ class:
   - "[[Progettazione Sistemi Digitali (class)]]"
 academic year: 2023/2024
 related:
-  - "[[Circuiti sequenziali]]"
+  - "[[Circuiti Sequenziali]]"
   - "[[Latch SR]]"
 completed: true
-updated: 2024-05-27T13:29
+updated: 2024-06-13T14:19
 ---
 ---
 ## Index
@@ -19,7 +19,7 @@ updated: 2024-05-27T13:29
 
 ---
 ## Definizione
-Il **Gated Latch** è un circuito [[Circuiti sequenziali|sequenziale]] ed [[Circuiti Sincroni ed Asincroni#Circuiti Sincroni|sincrono]] utilizzato per la memorizzazione di un bit
+Il **Gated Latch** è un circuito [[Circuiti Sequenziali|sequenziale]] ed [[Circuiti Sincroni ed Asincroni#Circuiti Sincroni|sincrono]] utilizzato per la memorizzazione di un bit
 
 Ho un funzionamento identico al [[Latch SR]] ma è presente un **input supplementare**, ovvero un *segnale di controllo* che permette il *cambio* dei valori in *ingresso* solo per *tempi* discreti *predefiniti*.
 

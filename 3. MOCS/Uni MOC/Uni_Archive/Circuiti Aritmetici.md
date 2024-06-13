@@ -4,27 +4,22 @@ type: Uni Note
 class:
   - "[[Progettazione Sistemi Digitali (class)]]"
 related:
-  - "[[Circuiti combinatori]]"
+  - "[[Circuiti Combinatori]]"
 completed: true
-updated: 2024-05-27T13:29
+updated: 2024-06-13T12:14
 ---
----
-## Indice
-1. [[#Definizione]]
-2. [[#Sommatori Binari]]
+>[!abstract] Related
+>- [[Circuiti Combinatori]]
+>- [[Progettazione Sistemi Digitali (class)]]
 
----
-## Definizione
-Un circuito aritmetico è un [[Circuiti combinatori|circuito combinatorio]] che esegue operazioni aritmetiche quali addizione, sottrazione, prodotto e differenza tra numeri binari
+Un **circuito aritmetico** è un [[Circuiti Combinatori|circuito combinatorio]] che esegue operazioni aritmetiche quali addizione, sottrazione, prodotto e differenza tra numeri binari
 
----
-## Circuiti Sommatori 
-**Somma:**
-- [[Half-Adder]] 🟢
-- [[Full-Adder]] 🟢
-- [[Ripple Carry Adder]] 🟢
+## Circuiti
 
-**Sottrazione**
-- [[Sottrazione con Ripple Carry Adder]] 🟢
+>[!note] Sommatori
+>- [[Half-Adder]] 🟢
+>- [[Full-Adder]] 🟢
+>- [[Ripple Carry Adder]] 🟢
 
----- 
+>[!note] Sottrattori
+>- [[Sottrazione con Ripple Carry Adder]] 🟢

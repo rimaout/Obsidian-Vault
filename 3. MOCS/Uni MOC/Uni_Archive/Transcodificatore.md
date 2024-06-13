@@ -5,19 +5,26 @@ class:
   - "[[Progettazione Sistemi Digitali (class)]]"
 academic year: 2023/2024
 related:
-  - "[[Circuiti combinatori]]"
+  - "[[Circuiti Combinatori]]"
   - "[[ASCII e BCD]]"
 completed: true
-updated: 2024-05-27T13:29
+updated: 2024-06-13T11:48
 ---
 ---
-## Index
-1. [[#Definizione]]
-2. [[#Transcodifica da BCD a display 7 segmenti]]
+>[!abstract] Index
+>1. [[#Introduzione]]
+>2. [[#Transcodifica da BCD a display 7 segmenti]]
+
+>[!abstract] Related
+>- [[Circuiti Combinatori]]
+>- [[Progettazione Sistemi Digitali (class)]]
 
 ---
-## Definizione
-Un **transcodificatore** è un dispositivo che effettuare la *transcodifica di un informazione*, ovvero il trasferimento di dati con una certa codifica ad una codifica diversa.
+## Introduzione
+
+Un **transcodificatore** è un [[Circuiti Combinatori|Circuito Combinatorio]] che effettuare la *transcodifica di un informazione*.
+
+Ovvero converte i dati trasmessi da una certa codifica ad una codifica diversa.
 
 ---
 ## Transcodifica da BCD a display 7 segmenti 
@@ -25,12 +32,8 @@ Un **transcodificatore** è un dispositivo che effettuare la *transcodifica di u
 >[!warning] Tavola di verità per transcodifica
 > ![[Pasted image 20240204185736.png|500]]
 
->[!warning] Circuito
->
->**Decodificatore e codificatore in cascata:**
+>[!warning] Circuito - Decodificatore e codificatore in cascata
 >![[Pasted image 20240204185339.png|500]]
->
->**Mux4-1:**
->![[Pasted image 20240204185421.png|600]]
 
----
+>[!warning] Circuito - Mux4-1
+>![[Pasted image 20240204185421.png|600]]

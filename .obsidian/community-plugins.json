@@ -9,5 +9,6 @@
   "obsidian-export-image",
   "dataview",
   "dataview-serializer",
-  "update-time"
+  "update-time",
+  "obsidian-vault-changelog"
 ]

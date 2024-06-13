@@ -5,54 +5,53 @@ class:
   - "[[Progettazione Sistemi Digitali (class)]]"
 academic year: 2023/2024
 related:
-  - "[[Circuiti combinatori]]"
+  - "[[Circuiti Combinatori]]"
 completed: true
-updated: 2024-05-27T13:29
+updated: 2024-06-12T16:56
 ---
----
-## Index
-1. [[#Definizione]]
-2. [[#Calcolo numero variabili]]
-3. [[#Circuito interno]]
-4. [[#MUX Tree]]
+>[!abstract] Index
+>1. [[#Introduzione]]
+>3. [[#Circuito]]
+>4. [[#MUX Tree]]
+
+>[!abstract] Related
+>- [[Circuiti Combinatori]]
+>- [[Circuito De-multiplexer]]
+>- [[Progettazione Sistemi Digitali (class)]]
 
 ---
-## Definizione
+## Introduzione
 
 É un circuito combinatorio che seleziona uno dei segnali binari in input e li dirige in una sola uscita
 
->[!warning] Rappresentazione circuitale
+>[!note] Rappresentazione circuitale
 >![[Pasted image 20240202103619.png|350]]
 
-**Utilizzi:**
-1. Ridurre numero di linee
-2. Riduzione complessità e costo di un circuito
-3. Implementazione di altri circuiti (es: [[Half-Adder]], [[Full-Adder]])
+>[!note] Input / Output 
+>- *Input* = n
+>- *Output* = 1
+>- *Selection* = $\log_{2}n$
+
+>[!warning] Utilizzi
+>1. Ridurre numero di linee
+>2. Riduzione complessità e costo di un circuito
+>3. Implementazione di altri circuiti (es: [[Half-Adder]], [[Full-Adder]])
 
 ---
-## Calcolo numero variabili 
+## Circuito
 
-*Input* = n
-*Output* = 1
-*Selection* = $\log_{2}n$
-
----
-## Circuito interno
-- Insieme di porte [[Operatori Booleani e Porte Logiche#AND|AND]] che confluiscono in una porta [[Operatori Booleani e Porte Logiche#OR|OR]] 
+>**OSS:** Il circuito è un insieme di porte [[Operatori Booleani e Porte Logiche#AND|AND]] che confluiscono in una porta [[Operatori Booleani e Porte Logiche#OR|OR]] 
 
 >[!warning] MUX 2-1:
-![[Pasted image 20240123113632.png|600]]
+>![[Pasted image 20240123113632.png|600]]
 
->[!warning] MUX 1-4:
+>[!warning] MUX 4-1:
 >![[Pasted image 20240202105942.png|600]]
----
 
 ---
 ## MUX Tree
 
 >[!tip] 
-> È possibile unire due circuiti multiplexer tra loro per crearne uno più grande
+> È possibile unire due circuiti multiplexer tra loro per crearne uno più grande.
 
 ![[Screenshot 2023-11-02 at 11.16.49.png|600]]
-
----

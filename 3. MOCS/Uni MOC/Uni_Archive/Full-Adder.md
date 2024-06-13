@@ -5,10 +5,10 @@ class:
   - "[[Progettazione Sistemi Digitali (class)]]"
 academic year: 2023/2024
 related:
-  - "[[Circuiti combinatori]]"
+  - "[[Circuiti Combinatori]]"
   - "[[Circuiti Aritmetici]]"
 completed: true
-updated: 2024-05-27T13:29
+updated: 2024-06-12T16:24
 ---
 ---
 ## Index
@@ -18,7 +18,7 @@ updated: 2024-05-27T13:29
 
 ---
 ## Definizione
-**Full adder** è un [[Circuiti combinatori|circuito combinatorio]] capace di effettuare somma tra tre bit, due derivati dagli addendi e uno che è l'eventuale riporto (carry) della precedente colonna.
+**Full adder** è un [[Circuiti Combinatori|circuito combinatorio]] capace di effettuare somma tra tre bit, due derivati dagli addendi e uno che è l'eventuale riporto (carry) della precedente colonna.
 
 >[!warning] Rappresentazione circuitale
 >![[Pasted image 20240203171953.png|300]]

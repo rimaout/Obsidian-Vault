@@ -8,7 +8,7 @@ related:
   - "[[Latch]]"
   - "[[Flip Flop]]"
 completed: true
-updated: 2024-05-27T13:29
+updated: 2024-06-13T14:19
 ---
 ---
 ## Index
@@ -17,7 +17,7 @@ updated: 2024-05-27T13:29
 
 ---
 ## Definizione
-Il **FF SR Master Slave** è un circuito [[Circuiti sequenziali|sequenziale]], [[Circuiti Sincroni ed Asincroni#Circuiti Sincroni|sincrono]], *edge triggered* utilizzato per memorizzare un singolo bit di informazione.
+Il **FF SR Master Slave** è un circuito [[Circuiti Sequenziali|sequenziale]], [[Circuiti Sincroni ed Asincroni#Circuiti Sincroni|sincrono]], *edge triggered* utilizzato per memorizzare un singolo bit di informazione.
 
 >[!warning] Simbolo
 > ![[Pasted image 20240205171808.png|200]]

@@ -5,7 +5,7 @@ class:
   - "[[Progettazione Sistemi Digitali (class)]]"
 related: 
 completed: true
-updated: 2024-05-27T13:29
+updated: 2024-06-11T18:22
 ---
 ---
 ## Indice:
@@ -14,9 +14,9 @@ updated: 2024-05-27T13:29
 - [[Definizione Algebra di Boole]] 🟢
 - [[#Funzioni Booleane]] 🟢
 - [[#Variabili Booleane]] 🟢
-- [[Leggi Booleane]] + [[Legge de consenso(algebra di Boole)|Legge del consenso]] 🟢
+- [[Leggi Booleane]] + [[Teorema del consenso(algebra di Boole)|Legge del consenso]] 🟢
 - [[Operatori Booleani e Porte Logiche]] 🟢
-- [[Forma POS (Disgiuntiva) e SOP(Congiuntiva)]] 🟢
+- [[Forma POS (Congiuntiva) e SOP (Disgiuntiva)]] 🟢
 
 **Espressioni Booleane:**
 - [[Tabelle di verità, Maxtermini e Mintermini]] 🟢
