@@ -8,10 +8,8 @@ related:
   - "[[Circuiti Combinatori]]"
   - "[[Circuiti Aritmetici]]"
 completed: false
-updated: 2024-06-13T12:12
+updated: 2024-06-13T14:33
 ---
----
-
 >[!abstract] Index
 >1. [[#Introduzione]]
 

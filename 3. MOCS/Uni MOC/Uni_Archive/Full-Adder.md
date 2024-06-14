@@ -8,16 +8,22 @@ related:
   - "[[Circuiti Combinatori]]"
   - "[[Circuiti Aritmetici]]"
 completed: true
-updated: 2024-06-12T16:24
+updated: 2024-06-13T14:46
 ---
 ---
-## Index
-1. [[#Definizione]]
-2. [[#Tavola varita]]
-3. [[#Circuito]]
+
+>[!abstract] Index
+>1. [[#Introduzione]]
+>2. [[#Circuito]]
+
+>[!abstract] Related
+>- [[Circuiti Aritmetici]]
+>- [[Circuiti Combinatori]]
+>- [[Progettazione Sistemi Digitali (class)]]
 
 ---
-## Definizione
+## Introduzione
+
 **Full adder** è un [[Circuiti Combinatori|circuito combinatorio]] capace di effettuare somma tra tre bit, due derivati dagli addendi e uno che è l'eventuale riporto (carry) della precedente colonna.
 
 >[!warning] Rappresentazione circuitale
@@ -33,14 +39,12 @@ updated: 2024-06-12T16:24
 >- *C* --> riporto della somma (carry out)
 
 ---
-## Tavola varita
+## Circuito
+
+Ricavare le funzioni degli output dalla dalla **tavola di verità** e poi rappresentarle con un circuito.
 
 >[!warning] Tavola di verità
 >![[Pasted image 20240203175711.png|500]]
-
----
-## Circuito
-Ricavare le funzioni degli output dalla dalla [[#Tavola varita|tavola di verità]] e poi rappresentarle con un circuito
 
 >[!warning] Mappe K
 >![[Pasted image 20240203182959.png|600]]
@@ -51,5 +55,3 @@ Ricavare le funzioni degli output dalla dalla [[#Tavola varita|tavola di verità
 
 >[!warning] Circuito
 >![[Pasted image 20240203191423.png|600]]
-
----

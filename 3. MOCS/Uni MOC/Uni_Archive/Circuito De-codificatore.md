@@ -8,10 +8,8 @@ related:
   - "[[Circuiti Combinatori]]"
   - "[[Circuito Codificatore]]"
 completed: true
-updated: 2024-06-12T16:41
+updated: 2024-06-13T14:32
 ---
----
-
 >[!abstract] Index
 >1. [[#Introduzione]]
 >2. [[#Circuito]]
@@ -24,8 +22,7 @@ updated: 2024-06-12T16:41
 ---
 ## Introduzione
 
->[!note] Definizione
->È utilizzato per decodificare gli output di un [[Circuito Codificatore]]
+È utilizzato per decodificare gli output di un [[Circuito Codificatore]]
 
 >[!note] Rappresentazione circuitale
 >![[Pasted image 20240131163252.png|150]]

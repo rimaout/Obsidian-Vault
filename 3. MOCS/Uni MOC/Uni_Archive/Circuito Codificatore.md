@@ -1,6 +1,6 @@
 ---
 created: 2023-10-29
-updated: 2024-06-12T16:41
+updated: 2024-06-13T14:32
 type: Uni Note
 class:
   - "[[Progettazione Sistemi Digitali (class)]]"
@@ -20,10 +20,10 @@ completed: true
 >- [[Circuito De-codificatore]]
 >- [[Progettazione Sistemi Digitali (class)]]
 
+---
 ## Introduzione
 
->[!note] Definizione
->È un [[Circuiti combinatori|circuito combinatorio]] utilizzato principalmente per ridurre il numero di linee di dati
+È un [[Circuiti combinatori|circuito combinatorio]] utilizzato principalmente per ridurre il numero di linee di dati
 
 >[!note] Rappresentazione Circuitale
 >![[Pasted image 20240131163117.png|150]]

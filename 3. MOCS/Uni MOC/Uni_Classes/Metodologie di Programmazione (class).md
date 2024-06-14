@@ -4,7 +4,7 @@ academic year: 2023/2024
 related:
   - "[[Java MOC]]"
 created: 2024-02-27T09:04
-updated: 2024-05-27T13:29
+updated: 2024-06-13T18:37
 ---
 ---
 **Lezioni:**
@@ -47,3 +47,6 @@ updated: 2024-05-27T13:29
 
 cose:
 **AutoBoxing:** conversione dal tipo primitivo all'oggetto (es: int to integer)
+
+
+[[Heap Stack Metaspace]]

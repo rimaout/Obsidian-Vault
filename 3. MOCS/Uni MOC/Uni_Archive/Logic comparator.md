@@ -7,11 +7,8 @@ academic year: 2023/2024
 related:
   - "[[Circuiti Combinatori]]"
 completed: true
-updated: 2024-06-13T11:58
+updated: 2024-06-13T14:33
 ---
----
-## Index
-
 >[!abstract] Index
 >1. [[#Introduzione]]
 >2. [[#Circuito interno]]

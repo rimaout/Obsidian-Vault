@@ -24,36 +24,12 @@
                 }
               },
               {
-                "id": "fbe94734b7b9f25e",
+                "id": "30f3451eb3feded1",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Design Pattern.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "e320485b192f3b54",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/MDP 21 May.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "183d5cdde908f129",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/MDP 14 May.md",
+                    "file": "1. Easy Notes/Civilization VI.md",
                     "mode": "source",
                     "source": false
                   }
@@ -114,13 +90,11 @@
                   "state": {}
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "horizontal",
-        "width": 360.5,
-        "collapsed": true
+        "width": 360.5
       },
       "right": {
         "id": "1599d9a7234429ed",
@@ -148,7 +122,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Design Pattern.md",
+                    "file": "1. Easy Notes/Civilization VI.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -165,7 +139,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Design Pattern.md",
+                    "file": "1. Easy Notes/Civilization VI.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -189,7 +163,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Design Pattern.md"
+                    "file": "1. Easy Notes/Civilization VI.md"
                   }
                 }
               }
@@ -218,7 +192,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Design Pattern.md",
+                    "file": "1. Easy Notes/Civilization VI.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -267,8 +241,8 @@
           "markdown-importer:Open format converter": false
         }
       },
-      "active": "fbe94734b7b9f25e",
-      "mtime": "2024-05-21T13:34:13+02:00"
+      "active": "30f3451eb3feded1",
+      "mtime": "2024-06-14T10:37:39+02:00"
     },
     "Algoritmi": {
       "main": {

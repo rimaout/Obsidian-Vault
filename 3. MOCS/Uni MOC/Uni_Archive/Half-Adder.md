@@ -8,34 +8,39 @@ related:
   - "[[Circuiti Combinatori]]"
   - "[[Circuiti Aritmetici]]"
 completed: true
-updated: 2024-06-12T16:24
+updated: 2024-06-13T14:42
 ---
----
-## Index
-1. [[#Definizione]]
-2. [[#Circuito interno]]
+>[!abstract] Index
+>1. [[#Introduzione]]
+>2. [[#Circuito Interno]]
+
+>[!abstract] Related
+>- [[Circuiti Aritmetici]]
+>- [[Circuiti Combinatori]]
+>- [[Progettazione Sistemi Digitali (class)]]
 
 ---
-## Definizione
-**Half adder** è un [[Circuiti Combinatori|circuito combinatorio]] capace di effettuare somma tra due bit.
+## Introduzione
+
+**Half adder** è un [[Circuiti Combinatori|circuito combinatorio]] capace di effettuare una somma tra due bit.
 
 >[!warning] Rappresentazione circuitale
 >![[Pasted image 20240203164534.png|200]]
 
 >[!danger] I/0
-**Input:**  Due bit *a* e *b* (addendi dell'operazione)
+**Input:**  Due bit *a* e *b* (gli addendi dell'operazione)
 >
 **Output:** 
 >- *S* --> risultato della somma
 >- *C* --> riporto della somma (carry)
 
 ---
-## Circuito interno
+## Circuito Interno
 
 >[!warning] Tavola di verità
 >![[Pasted image 20240203170046.png|500]]
 
->[!warning] oss
+>[!warning] Funzionamento
 >I valori assunti dal riporto `C` corrispondono a valori assunti dall'[[Operatori Booleani e Porte Logiche#AND|and]] tra gli ingressi, quindi:
 >- $C = a \cdot b$ 
 >
@@ -44,5 +49,3 @@ updated: 2024-06-12T16:24
 
 >[!warning] Circuito
 >![[Pasted image 20240203171249.png|300]]
-
----

@@ -7,7 +7,7 @@ academic year: 2023/2024
 related:
   - "[[Circuiti Sequenziali]]"
 completed: true
-updated: 2024-06-13T14:19
+updated: 2024-06-14T10:46
 ---
 >[!def] Definizione
  L'obbiettivo del [[Gated Latch]]  è quello di poter alterare la memoria soltanto quando il clock è 1, ma nonostante questo possono avvenire comunque variazione indesiderate degli input anche nel breve tempo in cui il clock è uno.

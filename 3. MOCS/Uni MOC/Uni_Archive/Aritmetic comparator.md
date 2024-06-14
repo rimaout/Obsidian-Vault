@@ -7,11 +7,8 @@ academic year: 2023/2024
 related:
   - "[[Uni MOC]]"
 completed: true
-updated: 2024-06-13T12:08
+updated: 2024-06-13T14:33
 ---
----
-## Index
-
 >[!abstract] Index
 >1. [[#Introduzione]]
 >2. [[#Implementazione]]

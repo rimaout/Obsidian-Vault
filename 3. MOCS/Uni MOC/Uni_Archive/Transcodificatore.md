@@ -8,8 +8,7 @@ related:
   - "[[Circuiti Combinatori]]"
   - "[[ASCII e BCD]]"
 completed: true
-updated: 2024-06-13T11:48
----
+updated: 2024-06-13T14:33
 ---
 >[!abstract] Index
 >1. [[#Introduzione]]

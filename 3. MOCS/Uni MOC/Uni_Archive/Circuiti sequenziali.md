@@ -7,7 +7,7 @@ academic year: 2023/2024
 related:
   - "[[Circuiti Combinatori]]"
 completed: false
-updated: 2024-06-13T14:19
+updated: 2024-06-14T10:48
 ---
 ---
 ## Index
@@ -16,28 +16,19 @@ updated: 2024-06-13T14:19
 3. [[#Circuiti sequenziali]]
 
 ---
-## Definizione
 
-- **Combinational logic** is a type of digital logic which is implemented by Boolean circuits where the output is a [[Algebra Booleana#Funzioni Booleane|pure function]] of the present *input only*. 
-- This is in contrast to [[Circuiti Sequenziali|sequential logic]], in which the output depends not only on the present *input* but also on the *history of the input*. In other words, sequential logic has memory while combinational logic does not.
+- La **logica combinatoria** è un tipo di logica digitale implementata da circuiti booleani in cui l'uscita è una [[Algebra Booleana#Funzioni Booleane|pura funzione]] del solo *ingresso presente*. 
+- Ciò è in contrasto con i [[Circuiti Sequenziali|logica sequenziale]], in cui l'uscita dipende non solo dall'*ingresso attuale* ma anche dalla *storia dell'ingresso*. In altre parole, la logica sequenziale ha una memoria, mentre la logica combinatoria non ce l'ha.
 
-- **Latch e Flip-Flop** sono circuiti capaci di memorizzare uno stato binario finche sono alimentati o finche un segnali in ingresso non ne cambia lo stato
-
-- Un **circuito combinatorio** è composto da una rete combinatoria e da una memoria
+Un **circuito combinatorio** è composto da una rete combinato ria e da una memoria
 	![[IMG_0470F6AFCE6A-1.jpeg|600]]
 
----
-## Come realizzare circuito sequenziale 
-Usiamo porte logiche unite a linee di *feedback* 
-- Cioè l'uscita di una porta alimenta una delle porte che ha prodotto quell'uscita 
 
----
-## Circuiti sequenziali 
-
-- [[Latch]] 🟢
-- [[Flip Flop]]
-- [[Registri]] 🟢
-- [[Automi e Reti Sequenziali]]
-- [[Contatori]]
+>[!note] Tipi di Circuiti Sequenziali
+>- [[Latch]] 🟢
+>- [[Flip Flop]]
+>- [[Registri]] 🟢
+>- [[Automi e Reti Sequenziali]]
+>- [[Contatori]]
 
 ---
