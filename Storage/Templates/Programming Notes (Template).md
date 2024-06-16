@@ -6,12 +6,13 @@ completed: false
 created: ""
 updated: ""
 ---
----
-
 >[!abstract] Index
 >1. 
 
 >[!abstract] Related
->1. 
+>- 
+
+>[!danger] TLDR
+>
 
 ---
