@@ -6,7 +6,7 @@ class:
 academic year: 2023/2024
 related: 
 completed: false
-updated: 2024-05-27T13:29
+updated: 2024-06-16T17:44
 ---
 ---
 >[!info] Index
@@ -72,7 +72,7 @@ i membri di una classe sono `campi` e `metodi`
 >[!warning] oss
 >Metodi privati possono essere utilizzati da gli altri metodi della sua stessa classe ma non da metodi di classi esterne
 
-[[Java access modifiers]]
+[[Java Access Modifiers]]
 
 ---
 ### Campi 

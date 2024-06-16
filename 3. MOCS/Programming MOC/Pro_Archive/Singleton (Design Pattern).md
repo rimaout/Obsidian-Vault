@@ -21,7 +21,7 @@ updated: 2024-06-16T17:05
 
 >[!note] Idea di base
 >**Obbiettivo:** 
->- assicurarsi che una determinata possa avere una sola istanza, e allo stesso momento deve avere un punto di accesso globale.
+>- Assicurarsi che una determinata possa avere una sola istanza, e allo stesso momento deve avere un punto di accesso globale.
 >
 >**Soluzione:** 
 >- Rendere privato il costruttore predefinito, per evitare che altri oggetti utilizzino l'operatore new
@@ -30,14 +30,14 @@ updated: 2024-06-16T17:05
 >[!example] Esempio
 >``` java
 >public class Ferrovie implements Iterable<Corsa>{
->     private static Ferrovie instance;   // Singleton (permette di istanziare una sola volta l'oggetto ferrovie)
+>     private static Ferrovie instance;
 >	private ArrayList<Corsa> corse;
 >
->    private Ferrovie(){  // Nel Singleton il costruttore è sempre privato
+>    private Ferrovie(){ 
 >        corse = new ArrayList<Corsa>();
 >    }
 >
->    public static Ferrovie getInstance() {  // Singleton
+>    public static Ferrovie getInstance() { 
 >        if (instance == null) {
 >            instance = new Ferrovie();
 >        }

@@ -22,7 +22,7 @@
             }
           },
           {
-            "id": "7e63ee251c606dea",
+            "id": "56f280af0dc76e3e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -34,31 +34,31 @@
             }
           },
           {
-            "id": "5a2df0b6c1df9c87",
+            "id": "b194c1dfb323846c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Software Design Pattern.md",
+                "file": "3. MOCS/Programming MOC/Pro_Archive/Java Incapsulamento.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "ed06668f32445e28",
+            "id": "e3d7a22594c404d5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Programming MOC/Pro_Archive/Singleton (Design Pattern).md",
-                "mode": "preview",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/MDP 21 Mar.md",
+                "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -145,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. MOCS/Programming MOC/Pro_Archive/Singleton (Design Pattern).md",
+                "file": "3. MOCS/Programming MOC/Pro_Archive/Java Incapsulamento.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. MOCS/Programming MOC/Pro_Archive/Singleton (Design Pattern).md",
+                "file": "3. MOCS/Programming MOC/Pro_Archive/Java Incapsulamento.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. MOCS/Programming MOC/Pro_Archive/Singleton (Design Pattern).md"
+                "file": "3. MOCS/Programming MOC/Pro_Archive/Java Incapsulamento.md"
               }
             }
           }
@@ -215,7 +215,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3. MOCS/Programming MOC/Pro_Archive/Singleton (Design Pattern).md",
+                "file": "3. MOCS/Programming MOC/Pro_Archive/Java Incapsulamento.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -264,12 +264,22 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "ed06668f32445e28",
+  "active": "b194c1dfb323846c",
   "lastOpenFiles": [
+    "3. MOCS/Uni MOC/Uni_Archive/MDP 21 Mar.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Java MOC.md",
+    "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
+    "3. MOCS/Programming MOC/Pro_Archive/Java Incapsulamento.md",
+    "3. MOCS/Programming MOC/Pro_Archive/Java Access Modifiers.md",
+    "3. MOCS/Programming MOC/Pro_Archive/Java Fields.md",
+    "3. MOCS/Programming MOC/Pro_Archive/Java if...else.md",
+    "3. MOCS/Programming MOC/Pro_Archive/Java Casting.md",
+    "3. MOCS/Programming MOC/Pro_Archive/Java Arithmetic Operators.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Rappresentazione Heap Stack Metaspace.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Metodo ULM Step by Step.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Java Output.md",
     "3. MOCS/Uni MOC/Uni_Archive/Software Design Pattern.md",
     "3. MOCS/Programming MOC/Pro_Archive/Singleton (Design Pattern).md",
-    "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Heap Stack Metaspace.md",
     "1. Easy Notes/Civilization VI.md",
     "3. MOCS/Uni MOC/Uni_Classes/Progettazione Sistemi Digitali (class).md",
     "3. MOCS/Uni MOC/Uni_Archive/SystemVerilog (HDL).md",
@@ -283,16 +293,6 @@
     "3. MOCS/Uni MOC/Uni_Archive/Circuiti Combinatori.md",
     "3. MOCS/Uni MOC/Uni_Classes/Introduzione agli Algoritmi (class).md",
     "3. MOCS/Uni MOC/Uni_Storage/Progettazione sistemi digitali appunti completi Giada.pdf",
-    "3. MOCS/Uni MOC/Uni_Archive/Flip Flop.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Circuito Codificatore.md",
-    "3. MOCS/Uni MOC/Uni_Archive/ALU (Arithmetic Logic Unit).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Aritmetic comparator.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Logic comparator.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Transcodificatore.md",
-    "3. MOCS/Uni MOC/Uni_Archive/ROM (read only memory).md",
-    "3. MOCS/Uni MOC/Uni_Archive/PLA (programmable logic array).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Circuito De-multiplexer.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Circuito Multiplexer.md",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240612165626.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240526213718.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240526205817.png",

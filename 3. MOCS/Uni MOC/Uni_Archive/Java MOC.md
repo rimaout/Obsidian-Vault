@@ -3,7 +3,7 @@ created: 2024-02-27
 type: "[[Programming MOC]]"
 related:
   - "[[Programmazione ad Oggetti]]"
-updated: 2024-05-27T13:28
+updated: 2024-06-16T17:44
 ---
 ---
 ##### Basics
@@ -35,20 +35,15 @@ updated: 2024-05-27T13:28
 
 ##### Object Oriented Programming
 - [[Java Class and Objects]]
-- [[Java fields]]
+- [[Java Fields]]
 - [[Java Methods]]
 - [[Java Constructor]]
-- [[Java access modifiers]]
+- [[Java Access Modifiers]]
 - [[Java Incapsulamento]]
 - [[Java Enumerations]]
 - differenza tra over-raiding e over-loading [[MDP 21 Mar#Java method overriding|link]]
 
 ##### Extras
 - [[UML MOC]] finisci metodo [[Metodo ULM Step by Step]]
-- [[Java Memory]]
+- [[Rappresentazione Heap Stack Metaspace]]
 - [[Java Lambda Function]]
-
-**To-Do:**
-- https://dzone.com/articles/jvm-architecture-explained
-- [[Java Arithmetic Operators#Arithmetic Operators on Strings]]
-- [[Java Casting]] https://www.programiz.com/java-programming/typecasting

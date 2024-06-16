@@ -6,7 +6,7 @@ class:
 academic year: 2023/2024
 related: 
 completed: false
-updated: 2024-06-16T16:42
+updated: 2024-06-16T17:40
 ---
 ---
 
@@ -72,10 +72,10 @@ I modelli possono essere categorizzati anche in base al loro scopo:
 ## Catalogo
 
 >[!note] Creational Patterns
-> - [[Singleton (Design Pattern)|Singleton]]
+> - [[Singleton (Design Pattern)|Singleton]] 🟢
 
 >[!note] Structural Patterns
->- [[Decorator (Design Pattern)|Decorator]]
+>- [[Decorator (Design Pattern)|Decorator]] 🔴
 
 >[!note] Behavioral Patterns
->- [[Observer (Design Pattern)|Observer]]
+>- [[Observer (Design Pattern)|Observer]] 🔴

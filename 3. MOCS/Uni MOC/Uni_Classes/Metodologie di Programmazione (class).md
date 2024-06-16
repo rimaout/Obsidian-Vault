@@ -4,7 +4,7 @@ academic year: 2023/2024
 related:
   - "[[Java MOC]]"
 created: 2024-02-27T09:04
-updated: 2024-06-16T15:25
+updated: 2024-06-16T17:42
 ---
 ---
 **Lezioni:**
@@ -33,19 +33,9 @@ updated: 2024-06-16T15:25
 2. [[MDP Lab 06 Mar]]
 3. [[MDP Lab 10 Apr]]
 
-**Argomenti:**
-- [[Rappresentazione della memoria]]
-
-**Progetto Esame:**
-- `jpanel` ti permette di avere una finestra 
-
-**Rappresentazione memoria:**
-- Divedere schermo in stack, heap, metaspace
-- Prima cosa inserire le capi statici nell matasapace
 
 
-cose:
 **AutoBoxing:** conversione dal tipo primitivo all'oggetto (es: int to integer)
 
 - [[Software Design Pattern]]
-- [[Heap Stack Metaspace]]
+- [[Rappresentazione Heap Stack Metaspace]]
