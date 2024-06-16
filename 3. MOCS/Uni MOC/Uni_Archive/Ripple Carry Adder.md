@@ -8,7 +8,7 @@ related:
   - "[[Circuiti Aritmetici]]"
   - "[[Circuiti Combinatori]]"
 completed: true
-updated: 2024-06-13T14:53
+updated: 2024-06-14T11:00
 ---
 
 >[!abstract] Index
@@ -38,10 +38,10 @@ Il **Ripple Carry Adder (RCA)** è un circuito che esegue la somma tra due numer
 ---
 ## Circuito
 
-La composizione gerarchica dell'RCA consente la semplificazione della progettazione di un circuito sommatore di numeri a n bit. Ad esempio la somma di due numeri a 4 bit richiederebbe la semplificazione di una tabella di 256 righe (8 variabili in entrata).
+La composizione gerarchica dell'RCA consente la semplificazione della progettazione di un circuito sommatore di numeri a `n` bit. Ad esempio la somma di due numeri a 4 bit richiederebbe la semplificazione di una tabella di 256 righe (8 variabili in entrata).
 
 >[!warning] Circuito
-![[Pasted image 20240204143538.png|700]]
+>![[Pasted image 20240204143538.png|700]]
 
 >[!warning] oss
 >![[Pasted image 20240204120600.png|300]]

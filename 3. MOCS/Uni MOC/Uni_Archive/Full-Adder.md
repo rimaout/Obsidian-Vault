@@ -8,7 +8,7 @@ related:
   - "[[Circuiti Combinatori]]"
   - "[[Circuiti Aritmetici]]"
 completed: true
-updated: 2024-06-13T14:46
+updated: 2024-06-14T10:59
 ---
 ---
 
@@ -30,13 +30,13 @@ updated: 2024-06-13T14:46
 >![[Pasted image 20240203171953.png|300]]
 
 >[!danger] I/0
-**Input:**  
->- Due bit *a* e *b* (addendi dell'operazione)
->- *Cin* riporto (carry in)
+>**Input:**  
+>- Due bit `a` e `b` (addendi dell'operazione)
+>- `Cin` riporto (carry in)
 >
-**Output:** 
->- *S* --> risultato della somma
->- *C* --> riporto della somma (carry out)
+>**Output:** 
+>- `S` --> risultato della somma
+>- `C` --> riporto della somma (carry out)
 
 ---
 ## Circuito

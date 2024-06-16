@@ -4,7 +4,7 @@ academic year: 2023/2024
 related:
   - "[[Java MOC]]"
 created: 2024-02-27T09:04
-updated: 2024-06-13T18:37
+updated: 2024-06-16T15:25
 ---
 ---
 **Lezioni:**
@@ -26,7 +26,7 @@ updated: 2024-06-13T18:37
 16. [[MDP 09 May]]
 17. [[MDP 14 May]]
 18. [[MDP 21 May]]
-19. [[Design Pattern]]
+19. [[Software Design Pattern]]
 
 **Lab:**
 1. [[MDP Lab 28 Feb]]
@@ -42,11 +42,10 @@ updated: 2024-06-13T18:37
 **Rappresentazione memoria:**
 - Divedere schermo in stack, heap, metaspace
 - Prima cosa inserire le capi statici nell matasapace
-- Campi non statici vengono inizializzato solo quando chiavati da un metodo e vanno nella heap
-[[Pasted image 20240503224435.png]]
+
 
 cose:
 **AutoBoxing:** conversione dal tipo primitivo all'oggetto (es: int to integer)
 
-
-[[Heap Stack Metaspace]]
+- [[Software Design Pattern]]
+- [[Heap Stack Metaspace]]

@@ -7,21 +7,19 @@ academic year: 2023/2024
 related:
   - "[[Circuiti Combinatori]]"
 completed: false
-updated: 2024-06-14T10:48
+updated: 2024-06-14T10:56
 ---
----
-## Index
-1. [[#Definizione]]
-2. [[#Come realizzare circuito sequenziale]]
-3. [[#Circuiti sequenziali]]
+>[!abstract] Related
+>- [[Circuiti Combinatori]]
+>- [[Progettazione Sistemi Digitali (class)]]
 
 ---
 
-- La **logica combinatoria** è un tipo di logica digitale implementata da circuiti booleani in cui l'uscita è una [[Algebra Booleana#Funzioni Booleane|pura funzione]] del solo *ingresso presente*. 
-- Ciò è in contrasto con i [[Circuiti Sequenziali|logica sequenziale]], in cui l'uscita dipende non solo dall'*ingresso attuale* ma anche dalla *storia dell'ingresso*. In altre parole, la logica sequenziale ha una memoria, mentre la logica combinatoria non ce l'ha.
-
-Un **circuito combinatorio** è composto da una rete combinato ria e da una memoria
-	![[IMG_0470F6AFCE6A-1.jpeg|600]]
+>[!warning] Introduzione
+Nella logica sequenziale, l'uscita di una funzione dipende non solo dall'*ingresso attuale* ma anche dalla *storia dell'ingresso*.
+>
+>Quindi un **circuito sequenziale** è composto da una [[Circuiti Combinatori|rete combinatoria]] e da una memoria (rete di feedback):
+>![[IMG_0470F6AFCE6A-1.jpeg|600]]
 
 
 >[!note] Tipi di Circuiti Sequenziali

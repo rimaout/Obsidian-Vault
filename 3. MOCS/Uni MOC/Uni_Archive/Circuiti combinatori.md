@@ -7,7 +7,7 @@ related:
   - "[[Circuiti Combinatori]]"
   - "[[Circuiti sequenziali]]"
 completed: 
-updated: 2024-06-13T14:20
+updated: 2024-06-14T10:50
 ---
 
 >[!abstract] Related
@@ -15,7 +15,7 @@ updated: 2024-06-13T14:20
 >- [[Progettazione Sistemi Digitali (class)]]
 
 >[!note] Introduzione
->- La **logica combinatoria** è un tipo di logica digitale implementata da circuiti booleani in cui l'uscita è una [[Algebra Booleana#Funzioni Booleane|funzione]] del solo *ingresso presente*. 
+>La **logica combinatoria** è un tipo di logica digitale implementata da circuiti booleani in cui l'uscita è una [[Algebra Booleana#Funzioni Booleane|funzione]] del solo *ingresso presente*. 
 >
 >Ciò è in contrasto con i [[Circuiti sequenziali|logica sequenziale]], in cui l'uscita dipende non solo dall'*ingresso attuale* ma anche dalla *storia dell'ingresso*. 
 >
