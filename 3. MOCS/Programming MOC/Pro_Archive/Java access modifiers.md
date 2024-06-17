@@ -1,33 +1,23 @@
 ---
-created: 2024-03-13
 type: Programming Note
 programming language: "[[Java MOC]]"
 related:
-  - "[[Java OOP]]"
+  - "[[Java Incapsulamento]]"
 completed: true
-updated: 2024-05-27T13:29
+created: 2024-06-16T18:49
+updated: 2024-06-16T19:10
 ---
+>[!abstract] Index
+>1. [[#TLDR]]
+>2. [[#Java Access Modifiers]]
+>3. [[#Esempi]]
+
+>[!abstract] Related
+>- [[Java MOC]]
+>- [[Java Incapsulamento]]
+
 ---
-
->[!info] Index
->1. [[#Overview]]
->2. [[#Default]]
->3. [[#Public]]
->4. [[#Private]]
->5. [[#Protected]]
-
----
-## Overview
-
-In this tutorial, we’re going over access modifiers in Java, which are used for setting the access level to [[Java Class and Objects|classes]], [[Java Variables|variables]], [[Java Methods|methods]], and [[Java Constructor|constructors]].
-
-**There are four access modifiers:** 
-- [[#Default]] (no keyword)
-- [[#Public]]
-- [[#Private]]
-- [[#Protected]]
-
-The table below summarises the available access modifiers:
+## TLDR
 
 | Modifier  | Class | Package | Subclass | World |
 | --------- | ----- | ------- | -------- | ----- |
@@ -36,61 +26,67 @@ The table below summarises the available access modifiers:
 | default   | Y     | Y       | N        | N     |
 | private   | Y     | N       | N        | N     |
 
->[!warning] oss
->We can see that a class, regardless of the access modifiers used, always has access to its members:
+---
+## Java Access Modifiers
+
+Gli access modifiers, o modificatori di accesso, sono parole chiave in Java che consentono di controllare il livello di visibilità e accessibilità degli elementi (classi, attributi e metodi) all'interno di un programma. 
+
+>[!note] Private
+>    - Gli elementi dichiarati come `private` sono accessibili solo all'interno della classe in cui sono definiti.
+>    - Nessuna altra classe, nemmeno le sottoclassi, può accedere direttamente agli elementi `private`.
+>    - Questo modificatore di accesso è il più restrittivo e garantisce il massimo livello di protezione dei dati.
+
+>[!note] Protected
+>    - Gli elementi dichiarati come `protected` sono accessibili all'interno della stessa classe, all'interno dello stesso package e nelle sottoclassi, anche se si trovano in un package diverso.
+>    - Le sottoclassi possono accedere agli elementi `protected` della superclasse.
+>    - Questo modificatore di accesso è utile quando si desidera consentire l'accesso alle sottoclassi, ma non all'esterno del package.
+
+>[!note] Default
+>    - Quando non si specifica alcun modificatore di accesso, Java utilizza il modificatore di accesso `default`.
+>    - Gli elementi `default` sono accessibili all'interno dello stesso package, ma non sono accessibili da altri package.
+>    - Questo modificatore di accesso offre un livello di protezione intermedio tra `private` e `public`.
+
+>[!note] Public
+>- Gli elementi dichiarati come `public` sono accessibili ovunque nel programma, sia all'interno che all'esterno della classe in cui sono definiti.
+>- Nessuna restrizione di accesso viene applicata agli elementi `public`.
+> - Questo modificatore di accesso offre il massimo livello di visibilità e accessibilità.
+
+>L'utilizzo appropriato dei modificatori di accesso è fondamentale per l'[[Java Incapsulamento|incapsulamento]] e la modularità del codice Java. Essi consentono di nascondere i dettagli di implementazione e di esporre solo le informazioni necessarie all'esterno, promuovendo la riusabilità, la manutenibilità e la sicurezza del software.
 
 ---
-### Default 
+## Esempi
 
-When we don’t use any keyword explicitly, Java will set a **default** access to a given class, method or property.
+>[!example] Public
+>``` java
+>class MyClass {     
+>	private int x; // Accessibile solo all'interno della classe 
+>}
+>```
 
-The default access modifier is also called _package-private_, which means that **all members are visible within the same package** but aren’t accessible from other packages.
+>[!example] Protected
+>```java
+>class SuperClass {
+>	protected int z; // Accessibile all'interno della classe, del package e nelle sottoclassi 
+>} 
+>
+>class SubClass extends SuperClass {     
+>	// Può accedere a z 
+>}
+>```
 
----
-### Public
+>[!example] Default
+>
+>``` java
+>package com.example; 
+>
+>class MyClass {     
+>	int y; // Accessibile all'interno del package com.example 
+>}
+>```
 
-If we add the _public_ keyword to a class, method or property then **all other classes in all packages will be able to use it**. 
-
->[!warning] oss
-This is the least restrictive access modifier.
-
----
-### Private
-
-Any method, property or constructor with the _private_ keyword **is accessible from the same class only**. 
-
->[!warning] oss
->This is the most restrictive access modifier and is core to the concept of encapsulation. All data will be hidden from the outside world:
-
----
-### Protected
-
-Between [[#Public]] and [[#Private]] access levels, there’s the protected access modifier.
-
-If we declare a method, property or constructor with the _protected_ keyword, we can access the member from the **same package** (as with _package-private_ access level) and in addition from **all subclasses of its class**, even if they lie in other packages:
-
-```java
-package com.baeldung.accessmodifiers;
-
-public class SuperPublic {
-    static protected void protectedMethod() {
-        ...
-    }
-}
-```
-
-_protectedMethod()_ is available in subclasses (regardless of the package):
-
-```java
-package com.baeldung.accessmodifiers.another;
-
-import com.baeldung.accessmodifiers.SuperPublic;
-
-public class AnotherSubClass extends SuperPublic {
-    public AnotherSubClass() {
-        SuperPublic.protectedMethod(); // Available in subclass. Let's note different package.
-    }
-}
-```
-
----
+>[!example] Public
+>``` java
+>public class MyClass {     
+>	public int w; // Accessibile ovunque 
+>}
+>```

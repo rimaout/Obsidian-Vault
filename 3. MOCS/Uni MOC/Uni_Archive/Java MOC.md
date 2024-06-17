@@ -3,12 +3,12 @@ created: 2024-02-27
 type: "[[Programming MOC]]"
 related:
   - "[[Programmazione ad Oggetti]]"
-updated: 2024-06-16T17:44
+updated: 2024-06-16T19:13
 ---
 ---
 ##### Basics
 - [[Hello Word in java]] 🟢
-- [[Java Variables]] 🟢  [[Java var]] 
+- [[Java Variables]] 🟢 
 - [[Java Literals]] 🟢
 - [[Java Input]] 🟢
 - [[Java Output]] 🟡 (add printf)
@@ -38,8 +38,8 @@ updated: 2024-06-16T17:44
 - [[Java Fields]]
 - [[Java Methods]]
 - [[Java Constructor]]
-- [[Java Access Modifiers]]
-- [[Java Incapsulamento]]
+- [[Java Access Modifiers]] 🟢
+- [[Java Incapsulamento]] 🟢
 - [[Java Enumerations]]
 - differenza tra over-raiding e over-loading [[MDP 21 Mar#Java method overriding|link]]
 
@@ -47,3 +47,10 @@ updated: 2024-06-16T17:44
 - [[UML MOC]] finisci metodo [[Metodo ULM Step by Step]]
 - [[Rappresentazione Heap Stack Metaspace]]
 - [[Java Lambda Function]]
+
+
+Cose da fare:
+- Enumerazione
+- Iterators
+- Interfacce
+- Streams
