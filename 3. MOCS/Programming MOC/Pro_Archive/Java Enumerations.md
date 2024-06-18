@@ -3,12 +3,15 @@ type: Programming Note
 programming language: "[[Java MOC]]"
 related:
   - "[[Metodologie di Programmazione (class)]]"
-completed: false
+completed: true
 created: 2024-06-17T11:22
-updated: 2024-06-17T11:40
+updated: 2024-06-17T17:52
 ---
 >[!abstract] Index
->1. 
+>1. [[#Introduzione]]
+>2. [[#Campi, Metodi, e Costruttori]]
+>3. [[#Metodi Polimorfici]]
+>4. [[#Interfacce ed Enum]]
 
 >[!abstract] Related
 >- [[Java MOC]]
@@ -51,44 +54,128 @@ In Java, le enum sono un tipo speciale di classe che rappresenta un insieme di c
 ---
 ## Campi, Metodi, e Costruttori 
 
-Le enum possono avere anche valori aggiuntivi associati a ogni costante. Ad esempio:
+Le enum possono avere [[Java Fields|campi]], [[Java Methods|metodi]] e [[Java Constructor|costruttori]]:
+- **Campi:** che sono variabili di istanza che memorizzano informazioni relative a ogni costante dell'enum.
+- **Metodi:** che vengono utilizzati per fornire funzionalità alle costanti dell'enum.
+- **Costruttori:** che vengono utilizzati per inizializzare i campi di ogni costante dell'enum.
 
-```java
-public enum Animali {
-    CANE("Cane", "Canis lupus familiaris"),
-    GATTO("Gatto", "Felis catus"),
-    TOPO("Topo", "Mus musculus");
+>[!warning] Costruttori Privati
+>È importante notare che i costruttori di un enum devono essere `private`, il che significa che non possono essere chiamati da fuori dell'enum. Ciò garantisce che le costanti dell'enum siano create solo una volta e che non possano essere modificate dopo la creazione.
 
-    private final String nomeComune;
-    private final String nomeScientifico;
+>[!note] Esempio
+>```java
+>public enum Animali {
+>	CANE("Cane", "Canis lupus familiaris"),
+>	GATTO("Gatto", "Felis catus"),
+>	TOPO("Topo", "Mus musculus");
+>
+>	// Campi
+>	private final String nomeComune;
+>	private final String nomeScientifico;
+>
+>	// Costruttore
+>	Animali(String nomeComune, String nomeScientifico) {
+>		this.nomeComune = nomeComune;
+>		this.nomeScientifico = nomeScientifico;
+>	}
+>
+>	// Metodi
+>	public String getNomeComune() {
+>		 return nomeComune;
+>	}
+>
+>	public String getNomeScientifico() {
+>		return nomeScientifico;
+>	}
+>}
+>```
+>
+>**Main:**
+>```java
+>Animali animale = Animali.CANE;
+>System.out.println("Nome comune: " + animale.getNomeComune());
+>System.out.println("Nome scientifico: " + animale.getNomeScientifico());
+>```
 
-    Animali(String nomeComune, String nomeScientifico) {
-        this.nomeComune = nomeComune;
-        this.nomeScientifico = nomeScientifico;
-    }
-```
+#### Metodi Polimorfici
+
+Quando si definiscono metodi polimorfici all'interno di un enum, ogni costante dell'enum può avere una propria implementazione del metodo, il che consente di definire comportamenti diversi per ogni costante.
+
+>[!note] Esempio
+>```java
+>public enum Animali {
+>    CANE {
+>        @Override
+>        public String suono() {
+>            return "Woof!";
+>        }
+>    },
+>    GATTO {
+>        @Override
+>        public String suono() {
+>            return "Miao!";
+>        }
+>    },
+>    TOPO {
+>        @Override
+>        public String suono() {
+>            return "Squeak!";
+>        }
+>    };
+>
+>    public abstract String suono();
+>}
+>```
 
 ---
+## Interfacce ed Enum
 
-Le enum possono avere anche metodi e costruttori, se necessario. Tuttavia, è importante notare che i costruttori delle enum devono essere privati, in modo che non possano essere istanziate esternamente alla enum stessa.
+>[!info] Interfacce
+>In Java, un'interfaccia è un tipo di astrazione che definisce un insieme di metodi che devono essere implementati dalle classi che implementano l'interfaccia. 
+>
+>>**Leggi:** [[Java Interfaces]]
 
-Ecco un esempio di enum con un metodo:
+Le enum possono anche implementare interfacce, il che significa che devono fornire implementazioni per tutti i metodi definiti nell'interfaccia.
+
+Per implementare un'interfaccia in un enum, si utilizza la parola chiave `implements` dopo la dichiarazione dell'enum, seguito dal nome dell'interfaccia. Successivamente, si forniscono le implementazioni dei metodi definiti nell'interfaccia all'interno della enum.
+
+>[!note] Esempio
+>```java
+>public interface Suonabile {
+>    String suono();
+>}
+>
+>public enum Animali implements Suonabile {
+>    CANE("Woof!"),
+>    GATTO("Meow"),
+>
+>    private final String verso;
+>
+>    @Override
+>    public String suono() {
+>        return verso;
+>    }
+>}
+>```
+>
+>In questo esempio, abbiamo definito un'interfaccia `Suonabile` che definisce un metodo `suona()` che restituisce una stringa che rappresenta il suono che fa un animale. La enum `Animali` implementa l'interfaccia `Suonabile`, il che significa che deve fornire un'implementazione del metodo `suona()`.
+
+---
+## Metodi predefiniti Enums
 
 ```java
-public enum GiorniDellaSettimana {     
-	LUNEDI,     
-	MARTEDI,     
-	MERCOLEDI,     
-	GIOVEDI,     
-	VENERDI,     
-	SABATO,     
-	DOMENICA;     
-	
-	public boolean isFineSettimana() {         
-		return this == SABATO || this == DOMENICA;     } 
+enum Size { 
+   SMALL, MEDIUM, LARGE, EXTRALARGE 
 }
 ```
 
-In questo esempio, la enum `GiorniDellaSettimana` ha un metodo `isFineSettimana()` che restituisce `true` se il giorno della settimana è sabato o domenica, e `false` altrimenti.
+1. `ordinal()`: Restituisce la posizione di una costante enum. Ad esempio, `ordinal(SMALL)` restituisce `0`.
+2. `compareTo()`: Confronta le costanti enum in base al loro valore ordinale. Ad esempio, `Size.SMALL.compareTo(Size.MEDIUM)` restituisce `ordinal(SMALL) - ordinal(MEDIUM)`.
+3. `toString()`: Restituisce la rappresentazione stringa delle costanti enum. Ad esempio, `SMALL.toString()` restituisce `"SMALL"`.
+4. `name()`: Restituisce il nome definito di una costante enum in forma di stringa. Il valore restituito dal metodo `name()` è finale. Ad esempio, `name(SMALL)` restituisce `"SMALL"`.
+5. `valueOf()`: Prende una stringa e restituisce una costante enum che ha lo stesso nome della stringa. Ad esempio, `Size.valueOf("SMALL")` restituisce la costante `SMALL`.
+6. `values()`: Restituisce un array di tipo enum che contiene tutte le costanti enum. Ad esempio, `Size[] enumArray = Size.values()`.
 
-Spero che questa lezione ti sia stata utile per capire come utilizzare le enum in Java! Se hai domande o dubbi, non esitare a chiedere.
+>[!warning]  Possibili Errori
+>Non sono sicuro che questi esempi siano giusti al 100%, ma per ora non sono riuscito a trovare niente di meglio.
+

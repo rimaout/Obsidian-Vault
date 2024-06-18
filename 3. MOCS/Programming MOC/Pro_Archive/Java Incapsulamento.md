@@ -5,7 +5,7 @@ programming language: "[[Java MOC]]"
 related:
   - "[[Java OOP]]"
 completed: true
-updated: 2024-06-16T18:38
+updated: 2024-06-18T11:44
 ---
 >[!abstract] Index
 >1. [[#Come funziona l'incapsulamento]]
@@ -56,7 +56,7 @@ L'idea alla base dell'incapsulamento è quella di nascondere i dettagli di imple
 >
 
 ---
-## Esempo
+## Esempio
 
 Supponiamo di voler creare una classe `Persona` che rappresenta una persona. Vogliamo incapsulare i dati della persona, come il nome e l'età, in modo che possano essere accessibili e modificati in modo controllato.
 

@@ -3,7 +3,8 @@ created: 2024-02-27
 type: "[[Programming MOC]]"
 related:
   - "[[Programmazione ad Oggetti]]"
-updated: 2024-06-16T19:13
+  - "[[Metodologie di Programmazione (class)]]"
+updated: 2024-06-17T18:21
 ---
 ---
 ##### Basics
@@ -40,7 +41,8 @@ updated: 2024-06-16T19:13
 - [[Java Constructor]]
 - [[Java Access Modifiers]] 🟢
 - [[Java Incapsulamento]] 🟢
-- [[Java Enumerations]]
+- [[Java Enumerations]] 🟢
+- [[Java Interfaces]] 🟢
 - differenza tra over-raiding e over-loading [[MDP 21 Mar#Java method overriding|link]]
 
 ##### Extras
@@ -48,9 +50,11 @@ updated: 2024-06-16T19:13
 - [[Rappresentazione Heap Stack Metaspace]]
 - [[Java Lambda Function]]
 
+[[Java Stram (java.util.stream)]]
 
 Cose da fare:
-- Enumerazione
+
+- differenza astrate interfacce e classi astratte
 - Iterators
-- Interfacce
 - Streams
+- Inheritance

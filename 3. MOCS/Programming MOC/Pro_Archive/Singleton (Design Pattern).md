@@ -6,10 +6,8 @@ related:
   - "[[Metodologie di Programmazione (class)]]"
 completed: true
 created: 2024-06-16T16:49
-updated: 2024-06-16T17:05
+updated: 2024-06-17T16:15
 ---
----
-
 >[!abstract] Related
 >- [[Software Design Pattern]]
 >- [[Metodologie di Programmazione (class)]]
@@ -29,20 +27,20 @@ updated: 2024-06-16T17:05
 
 >[!example] Esempio
 >``` java
->public class Ferrovie implements Iterable<Corsa>{
->     private static Ferrovie instance;
+>public class Ferrovie{
+>	private static Ferrovie instance;
 >	private ArrayList<Corsa> corse;
 >
->    private Ferrovie(){ 
->        corse = new ArrayList<Corsa>();
->    }
+>	private Ferrovie(){ 
+>		corse = new ArrayList<Corsa>();
+>	}
 >
->    public static Ferrovie getInstance() { 
->        if (instance == null) {
->            instance = new Ferrovie();
->        }
->        return instance;
->    }
+>	public static Ferrovie getInstance() { 
+>		if (instance == null) {
+>			instance = new Ferrovie();
+>		}
+>	return instance;
+>	}
 >}
 >```
 

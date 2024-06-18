@@ -22,43 +22,31 @@
             }
           },
           {
-            "id": "7e3b1f369c6ee2fb",
+            "id": "f110cc05c3c853b7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Java MOC.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Java Interfaces.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "c49c8c5561eac0bf",
+            "id": "d0822977dd19c46f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Programming MOC/Pro_Archive/Java Enumerations.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "01bbbe7cb3d340b6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Programming MOC/Pro_Archive/Java Enumerations.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/MDP 14 May.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -116,7 +104,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 360.5
+    "width": 246.5
   },
   "right": {
     "id": "1599d9a7234429ed",
@@ -144,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. MOCS/Programming MOC/Pro_Archive/Java Enumerations.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/MDP 14 May.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. MOCS/Programming MOC/Pro_Archive/Java Enumerations.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/MDP 14 May.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. MOCS/Programming MOC/Pro_Archive/Java Enumerations.md"
+                "file": "3. MOCS/Uni MOC/Uni_Archive/MDP 14 May.md"
               }
             }
           }
@@ -214,7 +202,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3. MOCS/Programming MOC/Pro_Archive/Java Enumerations.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/MDP 14 May.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -263,34 +251,34 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "01bbbe7cb3d340b6",
+  "active": "d0822977dd19c46f",
   "lastOpenFiles": [
+    "3. MOCS/Programming MOC/Pro_Archive/Java Incapsulamento.md",
+    "3. MOCS/Programming MOC/Pro_Archive/Java Stram (java.util.stream).md",
     "3. MOCS/Uni MOC/Uni_Archive/Java MOC.md",
     "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
+    "3. MOCS/Uni MOC/Uni_Archive/MDP 14 May.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Java Interfaces.md",
     "3. MOCS/Programming MOC/Pro_Archive/Java Enumerations.md",
+    "3. MOCS/Programming MOC/Pro_Archive/Singleton (Design Pattern).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Software Design Pattern.md",
+    "3. MOCS/Programming MOC/Programming MOC.md",
     "3. MOCS/Programming MOC/Pro_Archive/Java Access Modifiers.md",
     "3. MOCS/Uni MOC/Uni_Archive/MDP 30 Apr.md",
     "3. MOCS/Programming MOC/Pro_Archive/Java Variables.md",
     "3. MOCS/Programming MOC/Pro_Archive/Hello Word in java.md",
     "3. MOCS/Programming MOC/Pro_Archive/Java Fields.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Software Design Pattern.md",
     "Storage/Templates/Uni Note (Template).md",
     "Storage/Templates/Programming Notes (Template).md",
     "Storage/Templates/Standard Note (Template).md",
     "Storage/Templates/Product (manual count - Template).md",
     "Storage/Templates/Product (automatic count - Template).md",
-    "3. MOCS/Programming MOC/Pro_Archive/Java Incapsulamento.md",
     "3. MOCS/Uni MOC/Uni_Archive/MDP 21 Mar.md",
     "3. MOCS/Uni MOC/Uni_Archive/ciao.md",
     "3. MOCS/Programming MOC/Pro_Archive/Java if...else.md",
     "3. MOCS/Programming MOC/Pro_Archive/Java Casting.md",
     "3. MOCS/Programming MOC/Pro_Archive/Java Arithmetic Operators.md",
     "3. MOCS/Uni MOC/Uni_Archive/Rappresentazione Heap Stack Metaspace.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Metodo ULM Step by Step.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Java Output.md",
-    "3. MOCS/Programming MOC/Pro_Archive/Singleton (Design Pattern).md",
-    "1. Easy Notes/Civilization VI.md",
-    "3. MOCS/Uni MOC/Uni_Classes/Progettazione Sistemi Digitali (class).md",
     "3. MOCS/Uni MOC/Uni_Storage/Progettazione sistemi digitali appunti completi Giada.pdf",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240612165626.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240526213718.png",
