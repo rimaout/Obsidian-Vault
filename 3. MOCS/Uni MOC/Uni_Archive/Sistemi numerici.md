@@ -6,7 +6,7 @@ class:
 type: Uni Note
 related: 
 completed: true
-updated: 2024-06-25T18:25
+updated: 2024-06-27T23:56
 ---
 
 >[!abstract] Index
@@ -29,7 +29,7 @@ updated: 2024-06-25T18:25
 >>**oss:** I *simboli* che formano ciascun sistema di numerazione vengono dette *cifre*, e il *numero delle cifre* che compone un sistema di numerazione posizionale si dice *base*.
 
 >[!note] Posizionale
-Un **sistema di numerazione** si dice **posizionale** quando il valore di un simbolo varia al variare della posizione che il simbolo occupa all'interno di un numero.
+>Un **sistema di numerazione** si dice **posizionale** quando il valore di un simbolo varia al variare della posizione che il simbolo occupa all'interno di un numero.
 
 ^d06f90
 
@@ -49,15 +49,13 @@ Un **sistema di numerazione** si dice **posizionale** quando il valore di un sim
 
 ![[Pasted image 20240625181814.png|700]]
 
->[!warning ]  Cifre necessarie per esprimere un numero n (B10) in binario?
->
+>[!warning]  Cifre necessarie per esprimere un numero n (B10) in binario?
 >$$ \log_{2}{n} $$
 
->[!warning ]  Numeri (b10) rappresentabili con n cifre binarie?
->
+>[!warning]  Numeri (b10) rappresentabili con n cifre binarie?
 >$$ 2^{n} $$
 
 ---
 ## Esempi
 
-![[Conversioni_sistemi_numerici.pdf]]
+![[Conversioni_sistemi_numerici.pdf|1000]]

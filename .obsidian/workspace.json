@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Classes/Progettazione Sistemi Digitali (class).md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Sistemi numerici.md",
                 "mode": "source",
                 "source": false
               }
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Classes/Progettazione Sistemi Digitali (class).md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Sistemi numerici.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Classes/Progettazione Sistemi Digitali (class).md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Sistemi numerici.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Classes/Progettazione Sistemi Digitali (class).md"
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Sistemi numerici.md"
               }
             }
           }
@@ -191,7 +191,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Classes/Progettazione Sistemi Digitali (class).md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Sistemi numerici.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -242,8 +242,8 @@
   },
   "active": "95642ed74df95a9d",
   "lastOpenFiles": [
-    "3. MOCS/Uni MOC/Uni_Archive/Domande orale PSD.md",
     "3. MOCS/Uni MOC/Uni_Classes/Progettazione Sistemi Digitali (class).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Domande orale PSD.md",
     "3. MOCS/Uni MOC/Uni_Archive/Algebra Booleana.md",
     "3. MOCS/Uni MOC/Uni_Archive/Procedimento di sintesi e analisi di un circuiti booleano.md",
     "3. MOCS/Uni MOC/Uni_Archive/Circuito ed espressione minimale.md",
