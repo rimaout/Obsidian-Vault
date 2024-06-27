@@ -7,7 +7,7 @@ type: Uni Note
 related:
   - "[[Sistemi numerici]]"
 completed: true
-updated: 2024-06-27T14:29
+updated: 2024-06-27T23:58
 ---
 >[!abstract] Index
 >1. [[#Introduzione]]
@@ -51,7 +51,6 @@ updated: 2024-06-27T14:29
 
 >[!warning] Esempi
 >**Esempio:** [[Conversioni_sistemi_numerici.pdf]]
->
 >![[IMG_EFBDE8F7892A-1.jpeg|700]]
 
 ---

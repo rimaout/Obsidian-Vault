@@ -7,7 +7,7 @@ academic year: 2023/2024
 related:
   - "[[Sistema di numerazione binario]]"
 completed: true
-updated: 2024-06-27T14:29
+updated: 2024-06-28T00:05
 ---
 >[!abstract] Index
 >1. [[#Introduzione]]
@@ -82,9 +82,10 @@ Lo stesso principio che si utilizza per la notazione scientifica di un numero in
 >1. Utilizzare formula: 
 >
 >$$
->(-1)^\textcolor{orange}{s}\ \cdot\ (1,\textcolor{orange}{M})\ \cdot\ 2^{\textcolor{orange}{e}-k}
+>(-1)^{\textcolor{orange}{s}} \ \cdot\ (1,\textcolor{orange}{M})\ \cdot\ 2^{\textcolor{orange}{e}-k}
 >$$
->2. Convertire risultato in decimale usando metodo [[Numeri binari con virgola fissa (fixed point)|fixed point b2->b10]]
+>
+>1. Convertire risultato in decimale usando metodo [[Numeri binari con virgola fissa (fixed point)|fixed point b2->b10]]
 >
 >![[IMG_426888D244DD-1.jpeg|800]]
 >
