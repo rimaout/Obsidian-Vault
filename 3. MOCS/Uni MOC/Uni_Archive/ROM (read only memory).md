@@ -7,7 +7,7 @@ academic year: 2023/2024
 related:
   - "[[Circuiti combinatori]]"
 completed: true
-updated: 2024-06-28T00:26
+updated: 2024-06-28T00:45
 ---
 >[!abstract] Index
 >1. [[#Introduzione]]
@@ -16,7 +16,7 @@ updated: 2024-06-28T00:26
 
 >[!abstract] Related
 >- [[Circuiti Combinatori]]
->- [](Circuiti%20combinatori.md)c array)]]
+>- [[PLA (programmable logic array)]]
 >- [[Progettazione Sistemi Digitali (class)]]
 
 ---
@@ -40,5 +40,3 @@ updated: 2024-06-28T00:26
 ## Circuito + Esempio
 
 ![[Pasted image 20240203105207.png|800]]
-
----

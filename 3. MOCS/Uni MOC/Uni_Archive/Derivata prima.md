@@ -6,11 +6,13 @@ class:
 related:
   - "[[Derivate]]"
 completed: 
-updated: 2024-05-27T13:29
+updated: 2024-06-28T01:52
 ---
----
-# Indice
+>[!abstract] Related
+>- [[Trigonometria]]
+>- [[Matematica 0 (class)]]
 
-1. [[Definizione derivata prima]]
-2. [[Operazioni tra derivate prime]]
-3. [[Regole di derivazione]]
+>[!note] Indice
+>1. [[Definizione derivata prima]]
+>2. [[Operazioni tra derivate prime]]
+>3. [[Regole di derivazione]]

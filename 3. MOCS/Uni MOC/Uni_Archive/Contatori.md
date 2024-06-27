@@ -9,22 +9,17 @@ related:
   - "[[Circuiti sequenziali]]"
   - "[[Automi e Reti Sequenziali]]"
 completed: false
-updated: 2024-06-28T00:26
+updated: 2024-06-28T00:58
 ---
----
-## Index
-1. [[]]
+>[!abstract] Related
+>- [[Circuiti Sequenziali]]
+>- [[Progettazione Sistemi Digitali (class)]]
 
----
-## Definizione
-
+🏗️ -- Da Finire -- 🏗️
 
 ---
 
->[!def] Tipi
-
-
-**Esempio contatore "standard" modulo 8:**
+>**Altro:** [[Down Counter]]
 
 >[!warning] Automa
 >![[Pasted image 20240210162150.png|400]]
@@ -34,6 +29,3 @@ updated: 2024-06-28T00:26
 
 >[!warning] Circuito
 >![[Pasted image 20240210170056.png|500]]
-
-
-[[Down Couneter]]

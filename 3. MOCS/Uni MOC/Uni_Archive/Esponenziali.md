@@ -5,17 +5,22 @@ class:
   - "[[Matematica 0 (class)]]"
 related: 
 completed: true
-updated: 2024-05-27T13:29
+updated: 2024-06-28T01:11
 ---
----
-## Indice
-1. [[#Sintassi]]
-2. [[#Basi]]
-3. [[#Proprietà]]
+>[!abstract] Index
+>1. [[#Sintassi]]
+>2. [[#Basi]]
+>3. [[#Proprietà]]
+
+>[!abstract] Related
+>- [[Matematica 0 (class)]]
 
 ---
 ## Sintassi
-$$ a^b$$
+
+$$
+a^b
+$$
 
 - a = Base
 - b = Esponente 
@@ -56,13 +61,12 @@ $$
 \end{align*}
 $$
 
-**oss:**
-
-$$se\ r \in \mathbb{Q},\ r=\frac{p}{q} \implies x^{\frac{p}{q}} =x^r\ \text{è definito solo per }x\geq 0$$
-**oss:**
-
-$$
-2^x=sup\{2^r,\ r\in \mathbb{Q},\ r\leq \sqrt{2} \}
-$$
-
----
+>[!warning] oss
+>
+>$$
+>se\ r \in \mathbb{Q},\ r=\frac{p}{q} \implies x^{\frac{p}{q}} =x^r\ \text{è definito solo per }x\geq 0
+>$$
+>
+>$$
+>2^x=sup\{2^r,\ r\in \mathbb{Q},\ r\leq \sqrt{2} \}
+>$$

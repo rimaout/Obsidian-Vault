@@ -2,51 +2,46 @@
 type: "[[Uni MOC]]"
 academic year: 2022/2023
 created: 2023-11-12T14:59
-updated: 2024-05-27T13:29
+updated: 2024-06-28T01:53
 ---
----
-## Index:
+>[!note] Numeri
+>- [[Frazioni Algebriche]] 🔴
+>- [[Esponenziali]] 🟢
+>- [[Radicali]] 🟢
+>- [[Logaritmi]] 🟢
+>- [[Media ponderata]] 🟢
+>
+>- [[Condizioni di Esistenza (dominio)]] 🟢
+>- [[Razionalizzazioni]] 🔴
 
-**Numeri:**
-- [[Frazioni Algebriche]] 🔴
-- [[Esponenziali]] 🟢
-- [[Radicali]] 🟢
-- [[Logaritmi]] 🟢
-- [[Media ponderata]] 🟢
+>[!note] Polinomi
+>- [[Divisone tra polinomi]] 🟢
+>- [[Ruffini]] 🔴
+>- [[Fattorizzazione di un polinomio]] 🟡
+>- [[Teorema del resto]] 🟢
+>- [[Valore Assoluto]] 🟢
 
-- [[Condizioni di Esistenza (dominio)]] 🟢
-- [[Razionalizzazioni]] 🔴
+>[!note] Equazioni
+>- [[Equazioni]] 🟡
 
-**Polinomi:**
-- [[Divisone tra polinomi]] 🟢
-- [[Ruffini]] 🔴
-- [[Fattorizzazione di un polinomio]] 🟡
-- [[Teorema del resto]] 🟢
-- [[Valore Assoluto]] 🟢
+>[!note] Disequazioni
+>- [[Disequazioni]] 🟡
 
+>[!note] Equazioni/Disequazioni
+>- [[Equazioni e Disequazioni con Valore Assoluto]] 🔴
 
-**Equazioni:**
-- [[Equazioni]] 🟡
+>[!note] Sistemi
+>- [[Cramer]] 🔴
+>- [[Sistemi di Equazioni]] 🔴
+>- [[Sistemi di Disequazioni]] 🟢
 
-**Disequazioni**
-- [[Disequazioni]] 🟡
+>[!note] Trigonometria
+>- [[Basi Trigonometria]] 🟡
+>- [[Appunti generali trigonometria.pdf]] 🟢
+>- [[Misura angoli (gradi e radianti)]] 🟢
+>- [[seno, coseno e tangente]] 🟢
+>>**Vedi:** [[Trigonometria]] 🟡
 
-**Equazioni/Disequazioni:**
-- [[Equazioni e Disequazioni con Valore Assoluto]] 🔴
-
-**Siatemi:**
-- [[Cramer]] 🔴
-- [[Sistemi di Equazioni]] 🔴
-- [[Sistemi di Disequazioni]] 🟢
-
-**Trigonometria:** [[Trigonometria]] 🟡
-- [[Basi Trigonometria]] 🟡
-- [[Appunti generali trigonometria.pdf]]
-- [[Misura angoli (gradi e radianti)]] 🟢
-- [[seno, coseno e tangente]] 🟢
-
-**Derivate:**
-- [[Rapporto Incrementale]] 🟢
-- [[Derivata prima]] 🟡
-
----
+>[!note] Derivate
+>- [[Rapporto Incrementale]] 🟢
+>- [[Derivata prima]] 🟡

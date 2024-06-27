@@ -7,7 +7,7 @@ academic year: 2023/2024
 related:
   - "[[Circuiti combinatori]]"
 completed: true
-updated: 2024-06-28T00:26
+updated: 2024-06-28T00:44
 ---
 >[!abstract] Index
 >1. [[#Introduzione]]
@@ -16,7 +16,7 @@ updated: 2024-06-28T00:26
 
 >[!abstract] Related
 >- [[Circuiti Combinatori]]
->- [](Circuiti%20combinatori.md)r]]
+>- [[Circuito De-multiplexer]]
 >- [[Progettazione Sistemi Digitali (class)]]
 
 ---

@@ -5,23 +5,28 @@ class:
   - "[[Matematica 0 (class)]]"
 related: 
 completed: true
-updated: 2024-06-08T11:18
+updated: 2024-06-28T01:25
 ---
----
-## Indice
-1. [[#Sintassi]]
-2. [[#Teorema]]
-3. [[#Condizioni di esistenza]]
-4. [[#Proprietà]]
+
+>[!abstract] Index
+>1. [[#Introduzione]]
+>2. [[#Teorema]]
+>3. [[#Condizioni di esistenza]]
+>4. [[#Proprietà]]
+
+>[!abstract] Related
+>- [[Matematica 0 (class)]]
 
 ---
-## Sintassi 
+## Introduzione
 
-$$ \log_a b$$
-- *a* = Base
-- *b* = Argomento 
+>[!note] Sintassi
+>$$ \log_a b$$
+>
+>- *a* = Base
+>- *b* = Argomento 
 
-*Si legge:* logaritmo in base a di b
+>**Si legge:** logaritmo in base a di b
 
 ---
 ## Teorema 
@@ -48,6 +53,7 @@ $$
 
 ---
 ## Proprietà 
+
 $$
 \begin{align*}
 & 1.~~~~ \log_ab \cdot c =  \log_ab~~ + ~~\log_ac \textcolor{orange}{\dashrightarrow Prodotto ~~tra~~ logaritmi} \\
@@ -62,18 +68,16 @@ $$
 \end{align*}
 $$
 
-**oss:** 
-$$
-\begin{align*}
-& - se~~a>0 ~~ m>n \implies \log_am > \log_an \textcolor{orange}{\dashrightarrow Crescente} \\
-& \\
-& - se~~a<0 ~~ m>n \implies \log_am < \log_an \textcolor{orange}{\dashrightarrow Decrescente}  \\
-\end{align*}
-$$
+>[!danger] oss
+>$$
+>\begin{align*}
+>& - se~~a>0 ~~ m>n \implies \log_am > \log_an \textcolor{orange}{\dashrightarrow Crescente} \\
+>& \\
+>& - se~~a<0 ~~ m>n \implies \log_am < \log_an \textcolor{orange}{\dashrightarrow Decrescente}  \\
+>\end{align*}
+>$$
 
 >[!warning] Esempio Cambio Base
 > $$
 > n\log_2 n=(2^{\log_2 3})^{\log_2 n}= 2^{(\log_2 n)*(\log_2 3)}=(2^{\log_2 n})^{\log_2 3} =n^{\log_2 3}
 > $$
-
----

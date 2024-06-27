@@ -7,10 +7,8 @@ academic year: 2023/2024
 related:
   - "[[Frazioni Algebriche]]"
 completed: false
-updated: 2024-05-27T13:29
+updated: 2024-06-28T01:36
 ---
----
-
 >[!abstract] Index
 >1. [[#Introduzione]]
 >2. [[#Fattorizzazione polinomio di 2° grado (metodo della formula quadratica)]]
@@ -26,13 +24,13 @@ updated: 2024-05-27T13:29
 >[!warning] oss
 >Ci sono alcuni polinomi che non possono essere espressi come il prodotto di polinomi di grado inferiore e sono detti "polinomi irriducibili"
 
-**Metodi:**
-- Raccoglimento a fattore comune
-- Prodotti notevoli
-- Trinomi notevoli
-- Regola di Ruffini
+>[!note] Metodi
+>- Raccoglimento a fattore comune
+>- Prodotti notevoli
+>- Trinomi notevoli
+>- Regola di Ruffini
 
- **(appunti non finiti quindi vedi da qualche altra parte se ti serve sapere come fattorizzare)**
+  >🏗️ -- **(appunti non finiti quindi vedi da qualche altra parte se ti serve sapere come fattorizzare)** -- 🏗️
  
 ---
 ## Fattorizzazione polinomio di 2° grado (metodo della formula quadratica)
@@ -55,7 +53,7 @@ $$
 (x - r_1)(x - r_2)
 $$
   
-dove $r_1$$ e $r_2$ sono le radici del polinomio.
+dove $r_1$ e $r_2$ sono le radici del polinomio.
 
 >[!example] Esempio
 >![[Pasted image 20240517131013.png|500]]

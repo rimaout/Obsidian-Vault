@@ -8,14 +8,14 @@ related:
   - "[[Circuiti combinatori]]"
   - "[[Circuiti Aritmetici]]"
 completed: false
-updated: 2024-06-28T00:26
+updated: 2024-06-28T00:47
 ---
 >[!abstract] Index
 >1. [[#Introduzione]]
 
 >[!abstract] Related
 >- [[Circuiti Combinatori]]
->- [](Circuiti%20combinatori.md)>- [[Progettazione Sistemi Digitali (class)]]
+>- [[Progettazione Sistemi Digitali (class)]] 
 
 ---
 ## Introduzione 
@@ -38,5 +38,3 @@ ALU è un [[Circuiti combinatori|circuito combinatorio]] che svolge:
 > 	- ﻿﻿N- risultato negativo
 > 	- ﻿﻿Z - risultato pari a 0
 > 	- ﻿﻿C - riporto in uscita
-
----

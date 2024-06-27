@@ -8,7 +8,7 @@ related:
   - "[[Circuiti combinatori]]"
   - "[[ASCII e BCD]]"
 completed: true
-updated: 2024-06-28T00:26
+updated: 2024-06-28T00:46
 ---
 >[!abstract] Index
 >1. [[#Introduzione]]
@@ -16,7 +16,7 @@ updated: 2024-06-28T00:26
 
 >[!abstract] Related
 >- [[Circuiti Combinatori]]
->- [](Circuiti%20combinatori.md)Digitali (class)]]
+>- [[Progettazione Sistemi Digitali (class)]]
 
 ---
 ## Introduzione

@@ -1,6 +1,6 @@
 ---
 created: 2023-10-29
-updated: 2024-06-28T00:26
+updated: 2024-06-28T00:33
 type: Uni Note
 class:
   - "[[Progettazione Sistemi Digitali (class)]]"
@@ -32,9 +32,10 @@ completed: true
 >- È un circuito [[Circuiti combinatori|circuito combinatorio]]
 >- $2^n$ (o meno)[](Circuiti%20combinatori.md)ore]] è l'opposta al [[Circuito De-codificatore]]
 
->[!danger] Funz[](Circuiti%20combinatori.md)ta danno la posizione (espressa in binario) dell'unica variabile in input con valore 1.
+>[!danger] Funzionamento
+>Data la posizione (espressa in binario) dell'unica variabile in input con valore 1.
 > 
-*oss:* Si assume che in qualsiasi condizione, ci sia soltanto un ingresso che valga 1.
+>>Si assume che in qualsiasi condizione, ci sia soltanto un ingresso che valga 1.
 
 >**OSS:** Codificatore = *Array porte OR*
 

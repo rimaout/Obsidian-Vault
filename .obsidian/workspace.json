@@ -22,12 +22,24 @@
             }
           },
           {
-            "id": "95642ed74df95a9d",
+            "id": "46e1a8f4eb995ae2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Classes/Progettazione Sistemi Digitali (class).md",
+                "file": "3. MOCS/Uni MOC/Uni_Classes/Matematica 0 (class).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ff1d74accb656a6e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Sistemi numerici.md",
                 "mode": "source",
                 "source": false
               }
@@ -120,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Classes/Progettazione Sistemi Digitali (class).md",
+                "file": "3. MOCS/Uni MOC/Uni_Classes/Matematica 0 (class).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Classes/Progettazione Sistemi Digitali (class).md",
+                "file": "3. MOCS/Uni MOC/Uni_Classes/Matematica 0 (class).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Classes/Progettazione Sistemi Digitali (class).md"
+                "file": "3. MOCS/Uni MOC/Uni_Classes/Matematica 0 (class).md"
               }
             }
           }
@@ -191,7 +203,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Classes/Progettazione Sistemi Digitali (class).md",
+                "file": "3. MOCS/Uni MOC/Uni_Classes/Matematica 0 (class).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -240,34 +252,35 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "95642ed74df95a9d",
+  "active": "46e1a8f4eb995ae2",
   "lastOpenFiles": [
-    "3. MOCS/Uni MOC/Uni_Archive/Circuiti combinatori.md",
-    "3. MOCS/Uni MOC/Uni_Classes/Progettazione Sistemi Digitali (class).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Circuiti sequenziali.md",
     "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Operatori Booleani e Porte Logiche.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Algebra Booleana.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Teorema del consenso(algebra di Boole).md",
+    "3. MOCS/Uni MOC/Uni_Classes/Matematica 0 (class).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Derivata prima.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Definizione derivata prima.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Rapporto Incrementale.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Trigonometria.md",
+    "3. MOCS/Uni MOC/Uni_Archive/seno, coseno e tangente.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Misura angoli (gradi e radianti).md",
+    "3. MOCS/Uni MOC/Uni_Storage/Appunti generali trigonometria.pdf",
+    "3. MOCS/Uni MOC/Uni_Archive/Basi Trigonometria.md",
     "3. MOCS/Uni MOC/Uni_Archive/Sistemi numerici.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Sistema di numerazione esadecimale.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Sistema di numerazione binario.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Numeri binari con virgola mobile (floating point).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Domande orale PSD.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Procedimento di sintesi e analisi di un circuiti booleano.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Circuito ed espressione minimale.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Nand Nor operatori universali.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Mappe di Karnaugh.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Funzioni Booleane non completamente specificate.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Forma normale e canonica di una funzione booleana.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Tabelle di verità, Maxtermini e Mintermini.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Forma POS (Congiuntiva) e SOP (Disgiuntiva).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Leggi Booleane.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Definizioni (Algebra di Boole).md",
-    "3. MOCS/Uni MOC/Uni_Archive/ASCII e BCD.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Circuiti Aritmetici.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Half-Adder.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Numeri binari con virgola fissa (fixed point).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Sistemi di Disequazioni.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Disequazioni.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Equazioni.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Valore assoluto.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Teorema del resto.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Fattorizzazione di un polinomio.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Divisone tra polinomi.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Condizioni di Esistenza (dominio).md",
+    "To-Do/Frazioni Algebriche.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Media ponderata.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Logaritmi.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Radicali.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Esponenziali.md",
+    "3. MOCS/Uni MOC/Uni_Classes/Progettazione Sistemi Digitali (class).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Circuiti combinatori.md",
+    "3. MOCS/Uni MOC/Uni_Archive/SystemVerilog (HDL).md",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240625181814.png",
     "2. Litterateur Notes/High School/High School Storage/IMG_339D24B9A787-1.jpeg",
     "3. MOCS/Uni MOC/Uni_Storage/IMG_CDE68450D36A-1.jpeg",
@@ -287,7 +300,6 @@
     "3. MOCS/Uni MOC/Uni_Archive/QuikSortCost.pdf",
     "3. MOCS/Uni MOC/Uni_Archive/MIPS_Instruction_Set.pdf",
     "3. MOCS/Programming MOC/Pro_Archive",
-    "3. MOCS/Programming MOC",
     "Buy List/Skin Care Buy List.canvas",
     "Buy List/Clothing Buy List.canvas",
     "Storage/Untitled.canvas",

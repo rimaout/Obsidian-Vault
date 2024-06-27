@@ -8,7 +8,7 @@ related:
   - "[[Circuiti combinatori]]"
   - "[[Circuito Codificatore]]"
 completed: true
-updated: 2024-06-28T00:26
+updated: 2024-06-28T00:44
 ---
 >[!abstract] Index
 >1. [[#Introduzione]]
@@ -16,7 +16,7 @@ updated: 2024-06-28T00:26
 
 >[!abstract] Related
 >- [[Circuiti Combinatori]]
->- [](Circuiti%20combinatori.md)]
+>- [[Circuito Codificatore]]
 >- [[Progettazione Sistemi Digitali (class)]]
 
 ---
@@ -29,9 +29,10 @@ updated: 2024-06-28T00:26
 
 >[!danger] Caratteristiche
 >- È un [[Circuiti combinatori|circuito combinatorio]]
->- $n$ i[](Circuiti%20combinatori.md)catore]] è l'opposta del [[Circuito Codificatore]]
+>- La funzione del Circuito De-Codificatore è opposta alla funzione del [[Circuito Codificatore]]
 
->[!dan[](Circuiti%20combinatori.md)e in uscita saranno tutte 0 tranne quella nella posizione espressa (in binario) dalle linee di input
+>[!danger] Funzionamento
+>- Le linee in uscita saranno tutte 0 tranne quella nella posizione espressa (in binario) dalle linee di inpu
 
 > **OSS:**  De-codificatore = *Array porte AND*
 

@@ -1,0 +1,10 @@
+{
+  "foldersToScan": [
+    "Storage/Backend"
+  ],
+  "ignoredFolders": [
+    "1. Easy Notes",
+    "2. Litterateur Notes",
+    "3. MOCS"
+  ]
+}

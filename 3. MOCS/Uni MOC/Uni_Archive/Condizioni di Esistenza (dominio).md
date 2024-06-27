@@ -5,22 +5,26 @@ class:
   - "[[Matematica 0 (class)]]"
 related: 
 completed: true
-updated: 2024-05-27T13:29
+updated: 2024-06-28T01:27
 ---
 
----
-## Indice
-1. [[#Definizione]]
-2. [[#Frazioni Algebriche]]
-3. [[#Radicali]]
-4. [[#Logaritmi]]
+>[!abstract] Index
+>1. [[#Sintassi]]
+>2. [[#Condizioni di esistenza]]
+>3. [[#Teorema dei Radicali]]
+>4. [[#Proprietà]]
+
+>[!abstract] Related
+>- [[Matematica 0 (class)]]
 
 ---
 ## Definizione
+
 Le *condizioni di esistenza* sono le condizioni che deve soddisfare una radice, una frazione algebrica, un'equazione, una disequazione o più in generale una *funzione* affinché *non perda di significato nell'insieme R dei [[Numeri Reali]]*
 
 ---
 ## [[Frazioni Algebriche]] 
+
 Definito in R se denominatore diverso da zero
 
 $$ \frac{N(x)}{D(x)} \to D(x) \not = 0 $$
@@ -32,5 +36,3 @@ $$ \frac{N(x)}{D(x)} \to D(x) \not = 0 $$
 ---
 ## [[Logaritmi]] 
 ![[Logaritmi#Condizioni di esistenza]]
-
----

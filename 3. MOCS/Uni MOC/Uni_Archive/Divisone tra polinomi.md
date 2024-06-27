@@ -5,18 +5,21 @@ class:
   - "[[Matematica 0 (class)]]"
 related: 
 completed: true
-updated: 2024-05-27T13:29
+updated: 2024-06-28T01:31
 ---
----
-# Indice
-1. [[#Definizione]]
-2. [[#Divisione tra Polinomi (1 variabile)]]
-3. [[#Divisione polinomi con più variabili]]
+
+>[!abstract] Index
+>1. [[#Introduzione]]
+>2. [[#Divisione tra Polinomi (1 variabile)]]
+>3. [[#Divisione polinomi con più variabili]]
+
+>[!abstract] Related
+>- [[Matematica 0 (class)]]
 
 ---
-# Definizione
+## Introduzione
+
 Nella divisione tra numeri interi:
-
 $$
 \begin{align}
 & \textcolor{orange}{7}\ :\ \textcolor{green}{2}\ fa\ \ \textcolor{red}{3}\ \ con \ \ resto \ \ \textcolor{violet}{1}    \\
@@ -27,7 +30,6 @@ $$
 $$
 
 Nella divisione tra polinomi: 
-
 $$
 \begin{align}
 & \text{Svolgere la divisione tra il polinomio \textcolor{orange}{A(x)} e il polinomio \textcolor{green}{B(x)} (di grado <= del precedente)} \\ 
@@ -38,7 +40,6 @@ $$
 $$
 
 Si può dimostrare che:
-
 $$
 \begin{align}
 & - \text{Il grado di \textcolor{orange}{A(x)} è la differenza tra il grado di \textcolor{orange}{A(x)} e quello di \textcolor{green}{B(x)}}  \\
@@ -46,31 +47,30 @@ $$
 \end{align}
 $$
 
-**Consiglio:** é possible trovar il resto di una divisione polinomiale senza svolgere la divisione attraverso il [[Teorema del resto]]
+>[!tip] Tip
+>È possible trovar il resto di una divisione polinomiale senza svolgere la divisione attraverso il [[Teorema del resto]]
 
 ---
-# Divisione tra Polinomi  (1 variabile)
-**Steps:**
-1. Ordiniamo i polinomi dal grado massimo al grado minimo
-2. Si prende il monomio di grado massimo del dividendo e lo si divide per il monomio di grado massimo del divisore, il *risulto* di scrive sotto al divisore
-3. Si prende il *monomio appena ottenuto* e lo si moltiplica termine a termine per il tutti i monomi del divisore, e il risultato di questa operazione lo si scrive cambiato di segno sotto al dividendo
-4. Si somma il polinomio appena ottenuto con il dividendo soprastante
-5. Si ripetono i passaggi 2, 3 e 4 finche il grado del ultimo polinomio sotto al dividendo sarà inferiore del grado del divisore 
-6. Il polinomio sotto al divisore sarà il quoziente
-7. L'ultimo polinomio (o monomio) sottostante al divedendo sarà il resto
+## Divisione tra Polinomi  (1 variabile)
 
-**Esempio:**
+>[!note] Metodo
+>1. Ordiniamo i polinomi dal grado massimo al grado minimo
+>2. Si prende il monomio di grado massimo del dividendo e lo si divide per il monomio di grado massimo del divisore, il *risulto* di scrive sotto al divisore
+>3. Si prende il *monomio appena ottenuto* e lo si moltiplica termine a termine per il tutti i monomi del divisore, e il risultato di questa operazione lo si scrive cambiato di segno sotto al dividendo
+>4. Si somma il polinomio appena ottenuto con il dividendo soprastante
+>5. Si ripetono i passaggi 2, 3 e 4 finche il grado del ultimo polinomio sotto al dividendo sarà inferiore del grado del divisore 
+>6. Il polinomio sotto al divisore sarà il quoziente
+>7. L'ultimo polinomio (o monomio) sottostante al divedendo sarà il resto
 
-![[polinomialdicimage.jpeg|1200]]
+>[!warning] Esempio
+>![[polinomialdicimage.jpeg|1200]]
 
 ---
 # Divisione polinomi con più variabili
-**Steps:**
--  Scegliere variabile di riferimento e ordinare i polinomi secondo quella variabile
-- poi uguale al metodo per [[#Divisione tra Polinomi (1 variabile)]]
 
-**Esempio:**
+>[!note] Metodo
+>-  Scegliere variabile di riferimento e ordinare i polinomi secondo quella variabile
+>- poi uguale al metodo per [[#Divisione tra Polinomi (1 variabile)]]
 
-![[divisionepl2image.jpeg|700]]
-
----
+>[!warning] Esempio
+>![[divisionepl2image.jpeg|700]]

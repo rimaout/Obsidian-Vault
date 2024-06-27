@@ -6,11 +6,11 @@ class:
 related:
   - "[[Circuiti combinatori]]"
 completed: true
-updated: 2024-06-28T00:26
+updated: 2024-06-28T00:47
 ---
 >[!abstract] Related
 >- [[Circuiti Combinatori]]
->- [](Circuiti%20combinatori.md)Digitali (class)]]
+>- [[Progettazione Sistemi Digitali (class)]]
 
 Un **circuito aritmetico** è un [[Circuiti combinatori|circuito combinatorio]] che esegue operazioni aritmetiche quali addizione, sottrazione, prodotto e differenza tra numeri binari
 

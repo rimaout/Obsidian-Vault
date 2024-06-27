@@ -5,16 +5,20 @@ class:
   - "[[Matematica 0 (class)]]"
 related: 
 completed: true
-updated: 2024-05-27T13:29
+updated: 2024-06-28T01:51
 ---
----
-## Indice
-1. [[#Definizione]]
-2. [[#Definizione Matematica]]
-3. [[#Significato Geometrico]]
+
+>[!abstract] Index
+>1. [[#Definizione]]
+>2. [[#Definizione Matematica]]
+>3. [[#Significato Geometrico]]
+
+>[!abstract] Related
+>- [[Matematica 0 (class)]]
 
 ---
 ## Definizione
+
 Il rapporto incrementale di una funzione in un punto è il rapporto tra la variazione di ordinate e la variazione di ascisse definite a partire da un incremento h.
 
 ---
@@ -38,13 +42,10 @@ $$
 
 Nella *formula del rapporto incrementale* è presente il rapporto tra la differenza delle ordinate $f(x+h)$, $f(xo)$
 
-*Scrittura alternativa:*
-
-$$ \frac{\Delta y}{\Delta x} := \frac{f(x_0+h)-f(x_0)}{x_0+h-x_0} $$
+>[!note] Scrittura alternativa
+>$$ \frac{\Delta y}{\Delta x} := \frac{f(x_0+h)-f(x_0)}{x_0+h-x_0} $$
 
 ---
 ## Significato Geometrico
 
 ![[Screenshot 2023-05-08 at 17.28.33.png|400]]
-
----

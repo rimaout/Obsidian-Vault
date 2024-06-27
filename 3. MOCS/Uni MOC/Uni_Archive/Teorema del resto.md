@@ -5,16 +5,20 @@ class:
   - "[[Matematica 0 (class)]]"
 related: 
 completed: true
-updated: 2024-05-27T13:29
+updated: 2024-06-28T01:34
 ---
----
-# Indice:
-1. [[#Definizione]]
-2. [[#Resto divisione polinomiale con 1 incognita]]
-3. [[#Resto divisione polinomiale con più incognite]]
+
+>[!abstract] Index
+>1. [[#Definizione]]
+>2. [[#Resto divisione polinomiale con 1 incognita]]
+>3. [[#Resto divisione polinomiale con più incognite]]
+
+>[!abstract] Related
+>- [[Matematica 0 (class)]]
 
 ---
-# Definizione
+## Definizione
+
 Se il polinomio ***P(x)*** viene *diviso per x-a* il **resto** della divisione è **P(a)**
 
 $$
@@ -29,14 +33,11 @@ $$
 $$
 
 ---
-# Resto divisione polinomiale con 1 incognita
+## Resto divisione polinomiale con 1 incognita
 
 ![[TeoResto1.png|700]]
 
 ---
-# Resto divisione polinomiale con più incognite
+## Resto divisione polinomiale con più incognite
 
 ![[IMG_Teoremaresto2.jpeg|800]]
-
----
-

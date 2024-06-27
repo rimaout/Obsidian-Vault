@@ -7,7 +7,7 @@ academic year: 2023/2024
 related:
   - "[[Circuiti combinatori]]"
 completed: true
-updated: 2024-06-28T00:26
+updated: 2024-06-28T00:45
 ---
 >[!abstract] Index
 >1. [[#Introduzione]]
@@ -50,5 +50,3 @@ updated: 2024-06-28T00:26
 
 >[!warning] Circuito
 >![[Pasted image 20240202184254.png|500]]
-
----
