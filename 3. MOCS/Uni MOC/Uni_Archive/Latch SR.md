@@ -7,18 +7,22 @@ academic year: 2023/2024
 related:
   - "[[Circuiti Sequenziali]]"
 completed: true
-updated: 2024-06-13T14:19
+updated: 2024-06-25T12:19
 ---
----
-## Index
-1. [[#Definizione]]
-2. [[#Circuito + Funzionamento]]
-3. [[#Formula]]
-4. [[#Studio degli stati]]
+>[!abstract] Index
+>1. [[#Definizione]]
+>2. [[#Circuito + Funzionamento]]
+>3. [[#Formula]]
+>4. [[#Studio degli stati]]
+
+>[!abstract] Related
+>- [[Latch]]
+>- [[Circuiti Sequenziali]]
+>- [[Progettazione Sistemi Digitali (class)]]
 
 ---
-
 ## Definizione
+
 - Il **Latch SR** (latch set and reset) è un circuito [[Circuiti Sequenziali|sequenziale]], [[Circuiti Sincroni ed Asincroni#Circuiti Asincroni|asincrono]] base utilizzato per la memorizzazione di un bit.
 - È il tipo di lath più semplice, costruito a partire da due porte [[Operatori Booleani e Porte Logiche#NOR|nor]] con collegamenti incrociati
 
@@ -56,10 +60,9 @@ updated: 2024-06-13T14:19
 ## Formula
 
 >[!warning] Formula
-$Y = \overline{R} \cdot (S+y)$
+>$Y = \overline{R} \cdot (S+y)$
 >- y = y(t)
 >- Y = y(t+1)
->
 
 >[!warning] Come ricavare formula
 >![[Pasted image 20240205121007.png|450]]
@@ -77,11 +80,8 @@ $Y = \overline{R} \cdot (S+y)$
 >[!warning] Reset
 >![[Pasted image 20240205124223.png|300]]
 
->[!warning] Memorizzazione
->
+>[!warning] Memorizzazione>
 >![[Pasted image 20240205125138.png|300]]
 >
 >Per dimostrare che il latch mantiene lo stato precedente "tagliamo" il filo che collega l'uscita y all'entrata della porta NOR. Otteniamo così due punti (A e B). Se, partendo dal punto B, arriviamo al punto A con valore invariato, allora il latch ha
 >mantenuto lo stato precedente.
-
----

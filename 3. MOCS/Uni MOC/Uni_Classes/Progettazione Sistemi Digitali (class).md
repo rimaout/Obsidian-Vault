@@ -3,11 +3,11 @@ academic year: 2023/2024
 type:
   - "[[Uni MOC]]"
 created: 2024-01-19T16:28
-updated: 2024-06-14T10:50
+updated: 2024-06-27T14:30
 ---
 >[!info] Basi
->- [[Sistemi numerici]]
->- [[Sistema di numerazione binario]] 🟡 (ms, ca1, ca2, fixed point, floating point)
+>- [[Sistemi numerici]] 🟢
+>- [[Sistema di numerazione binario]] 🟡
 >- [[ASCII e BCD]] 🟢
 >- [[Algebra Booleana]] 🟢
 
@@ -18,8 +18,8 @@ updated: 2024-06-14T10:50
 >- [[Automi e Reti Sequenziali]] 🟡
 
 >[!info] HDL (hardware description language)
->- [[HDL (hardware description language)]]
->- [[SystemVerilog (HDL)]]
+>- [[HDL (hardware description language)]] 🟢
+>- [[SystemVerilog (HDL)]] 🟢
 
 >[!warning] Altro
 >- [[Progettazione sistemi digitali appunti completi Giada.pdf]]

@@ -8,21 +8,28 @@ related:
   - "[[Latch]]"
   - "[[Flip Flop]]"
 completed: true
-updated: 2024-06-13T14:19
+updated: 2024-06-25T12:36
 ---
----
-## Index
-1. [[#Definizione]]
-2. [[#Circuito + Funzionamento]]
+>[!abstract] Index
+>1. [[#Introduzione]]
+>2. [[#Circuito + Funzionamento]]
+
+>[!abstract] Related
+>- [[Flip Flop]]
+>- [[Circuiti Sequenziali]]
+>- [[Progettazione Sistemi Digitali (class)]]
 
 ---
-## Definizione
+## Introduzione
+
 Il **FF SR Master Slave** è un circuito [[Circuiti Sequenziali|sequenziale]], [[Circuiti Sincroni ed Asincroni#Circuiti Sincroni|sincrono]], *edge triggered* utilizzato per memorizzare un singolo bit di informazione.
 
 >[!warning] Simbolo
 > ![[Pasted image 20240205171808.png|200]]
 
+---
 ## Circuito + Funzionamento
+
 - Un Flip Flop master slave è composto da due latch collegati in serie, il **master** (a sinistra) e lo **slave** (a destra) entrambi collegati al segnale di clock, il quale è negato per l'ingresso allo slave.
 - L'output del master è collegato all'input dello slave. 
 
@@ -40,10 +47,8 @@ Il **FF SR Master Slave** è un circuito [[Circuiti Sequenziali|sequenziale]], [
 >**oss:** y = y(y) e Y = y(t+1)
 
 >[!warning] Formula
-$Y = \overline{R} \cdot (S+y)$
+>$Y = \overline{R} \cdot (S+y)$
 >- y = y(t)
 >- Y = y(t+1)
 >
 >**oss:** Formula FF SR =  [[Latch SR#Formula|Formula Latch SR]]
-
----

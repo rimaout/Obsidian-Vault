@@ -8,17 +8,20 @@ related:
   - "[[Circuiti Sequenziali]]"
   - "[[Latch SR]]"
 completed: true
-updated: 2024-06-13T14:19
+updated: 2024-06-25T12:20
 ---
----
-## Index
-1. [[#Definizione]]
-2. [[#Circuito + Funzionamento]]
-3. [[#Formula]]
-4. [[#Studio degli stati]]
+>[!abstract] Index
+>1. [[#Definizione]]
+>2. [[#Circuito + Funzionamento]]
+
+>[!abstract] Related
+>- [[Latch]]
+>- [[Circuiti Sequenziali]]
+>- [[Progettazione Sistemi Digitali (class)]]
 
 ---
 ## Definizione
+
 Il **Gated Latch** è un circuito [[Circuiti Sequenziali|sequenziale]] ed [[Circuiti Sincroni ed Asincroni#Circuiti Sincroni|sincrono]] utilizzato per la memorizzazione di un bit
 
 Ho un funzionamento identico al [[Latch SR]] ma è presente un **input supplementare**, ovvero un *segnale di controllo* che permette il *cambio* dei valori in *ingresso* solo per *tempi* discreti *predefiniti*.
@@ -29,7 +32,7 @@ Spesso viene utilizzato un segnale di clock come segnale di abilitazione, essend
 >![[Pasted image 20240205155716.png|200]]
 
 >[!warning] Rappresentazione circuitale AND
-![[Pasted image 20240205152407.png|300]]
+>![[Pasted image 20240205152407.png|300]]
 
 >[!warning] I/O
 >**Input:**
@@ -40,7 +43,7 @@ Spesso viene utilizzato un segnale di clock come segnale di abilitazione, essend
 >- *y* = Stato del latch (output)
 
 ---
-## Circuito + Funzionamento + Diagramma temporale
+## Circuito + Funzionamento
 
 >[!warning] Circuito
 >![[Pasted image 20240205154806.png|400]]
@@ -67,4 +70,3 @@ Spesso viene utilizzato un segnale di clock come segnale di abilitazione, essend
 >
 >**oss:** latch è abilitato per tutto il periodo in cui il clock vale 1
 
----

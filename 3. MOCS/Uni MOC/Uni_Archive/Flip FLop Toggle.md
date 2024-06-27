@@ -8,20 +8,28 @@ related:
   - "[[Flip Flop]]"
   - "[[Circuiti Sequenziali]]"
   - "[[Flip Flop JK]]"
-completed: false
-updated: 2024-06-13T14:19
+completed: true
+updated: 2024-06-25T12:39
 ---
----
-## Index
-1. [[#Definizione]]
-2. [[#Circuito + Funzionamento]]
+>[!abstract] Index
+>1. [[#Introduzione]]
+>2. [[#Funzionamento]]
+
+>[!abstract] Related
+>- [[Flip Flop]]
+>- [[Circuiti Sequenziali]]
+>- [[Progettazione Sistemi Digitali (class)]]
 
 ---
-## Definizione
+## Introduzione
+
 Il **FF Toggle** è un circuito [[Circuiti Sequenziali|sequenziale]], [[Circuiti Sincroni ed Asincroni#Circuiti Sincroni|sincrono]], *edge triggered* derivato dal [[Flip Flop JK]], ponendo J = K.
 
 >[!warning] Circuito
 >![[Pasted image 20240205200806.png|250]]
+
+---
+## Funzionamento
 
 >[!warning] Funzionamento
 >Il **Flip Flop Toggle** ha soltanto due  *memorizzazione* e *toggle*, dome memorizzazione mantiene 
@@ -37,5 +45,3 @@ $Y = \overline{R} \cdot (S+y)$
 >- Y = y(t+1)
 >
 >**oss:** Formula FF SR =  [[Latch SR#Formula|Formula Latch SR]]
-
----

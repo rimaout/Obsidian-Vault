@@ -4,27 +4,33 @@ type: Uni Note
 class:
   - "[[Progettazione Sistemi Digitali (class)]]"
 academic year: 2023/2024
-related: 
-completed: false
-updated: 2024-05-27T13:29
+related:
+  - "[[HDL (hardware description language)]]"
+completed: true
+updated: 2024-06-25T12:57
 ---
----
-## Indice
-1. [[#Obbiettivi HDL]]
-2. [[#Definizione Modulo]]
-3. [[#Sintassi Modulo]]
-4. [[#Variabili logiche]]
-	- [[#Bus]]
-5. [[#Operatori]]
-	- [[#Operatori Logici]]
-	- [[#Operatori assegnazione continua]]
-	- [[#Operatore condizionale]]
-	- [[#Operatore case]]
-	- [[#Operatore always]]
 
+>[!abstract] Related
+>- [[Progettazione Sistemi Digitali (class)]]
+
+>[!abstract] Index
+>1. [[#Obbiettivi HDL]]
+>2. [[#Definizione Modulo]]
+>3. [[#Sintassi Modulo]]
+>4. [[#Variabili logiche]]
+>5. [[#Bus multipli]]
+>6. [[#Numeri in verilog]]
+>7. [[#Operatori]]
+>	- [[#Operatori Logici]]
+>	- [[#Operatori assegnazione continua]]
+>	- [[#Operatore condizionale]]
+>	- [[#Operatore always]]
+>	- [[#Operatore case]]
+>8. [[#Modellazione Strutturale]]
 
 ---
 ## Obbiettivi HDL 
+
 2 principali obbiettivi:
 - **Simulazione:**  si forniscono gli input e controllando gli output si osserva se il modulo si comporta correttamente 
 - **Sintesi:** La descrizione del modulo viene tradotta in un circuito
@@ -34,6 +40,7 @@ updated: 2024-05-27T13:29
 
 ---
 ##  Definizione Modulo
+
 Esistono due "stili" per descrivere un modulo:
 - *Comportamentale:* descrive cosa fa un modulo (utilizzando espressioni booleane e controlli condizionali)
 - *Strutturale:* descrive com il circuito interno di un modulo, suddividendolo in moduli più piccoli.
@@ -43,6 +50,7 @@ Esistono due "stili" per descrivere un modulo:
 
 ---
 ## Sintassi Modulo
+
 ``` verilog
 module name(input logic datatype variables...
 						 ...
@@ -91,6 +99,7 @@ logic [0:3] c, d; // c e d sono bus a 4 canali
 >[!warning] Oss:
 >Sostituendo `logic` con `logic input` o `logic output` si definiscono rispettivamente gli input e gli output logici
 
+---
 ## Bus multipli
 Un bus è una serie di variabili booleane contenuta in una sola variabile
 
@@ -161,6 +170,7 @@ assign z = d[1:3];   // x = {d[1], d[2], d[3]}
 
 ---
 ## Numeri in verilog
+
 ![[JPEG image-4096-8811-2D-0.jpeg|400]]
 
 ---

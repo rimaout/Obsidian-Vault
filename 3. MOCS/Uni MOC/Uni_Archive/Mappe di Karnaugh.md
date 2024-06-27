@@ -8,56 +8,60 @@ related:
   - "[[Algebra Booleana]]"
   - "[[Tabelle di verità, Maxtermini e Mintermini]]"
 completed: true
-updated: 2024-05-27T13:29
+updated: 2024-06-27T23:32
 ---
----
-## Index
-1. [[#Definizione]]
-2. [[#Come creare mappa di Karnaugh]]
-3. [[#Semplificazione]]
-4. [[#Esempi]]
+>[!abstract] Index
+>1. [[#Introduzione]]
+>2. [[#Come creare mappa di Karnaugh]]
+>3. [[#Semplificazione]]
+>4. [[#Esempi]]
 
->[!warning] Oss:
->*P*os: *P* --> *P*rimo = **0** --> Raccogliere **0**
->*S*op: *S*op --> *S*econdo  = **1** --> Raccogliere **1**
----
+>[!abstract] Related
+>- [[Algebra Booleana]]
+>- [[Progettazione Sistemi Digitali (class)]]
 
 ---
-## Definizione
-- Metodo semplificativo per funzioni logiche 
-- Garantisce la massima semplificazione (secondo la Massini), Non garantisce la massima semplificazione (secondo il Simonetta)
-- Consigliato usare massimo 4 variabili
+## Introduzione
+
+>[!note] Definizione
+>- Metodo semplificativo per funzioni logiche.
+>- Garantisce la massima semplificazione (secondo la Prof. Massini)
+>- Non garantisce la massima semplificazione (secondo il Prof. Simonetta).
+>- Consigliato usare massimo 4 variabili.
+
+>[!tip] Tip
+>**Pos:** P --> Primo = `0` --> Raccogliere `0`
+>**Sop:** S --> Secondo  = `1` --> Raccogliere `1`
 
 ---
 ## Come creare mappa di Karnaugh
-1. **Struttura della mappa**
-![[IMG_0C9357783BF9-1.jpeg|1000]]
 
-2. **Tabella di verità-->Mappa K:**
-![[IMG_5F2A185DC9A7-1.jpeg|700]]
+>[!note] Struttura della mappa
+>![[IMG_0C9357783BF9-1.jpeg|800]]
+
+>[!note] Tabella di verità-->Mappa K
+>![[IMG_5F2A185DC9A7-1.jpeg|600]]
 
 ---
 ## Semplificazione
 
-***Quando si raccoglie si deve:***
-1. Creare gruppi composti da $2^n$ elementi
-2. Creare gruppi più grandi possibili 
-3. Fare il minor numero di gruppi
-4. Quando è possibile non fare overlapping 
+>[!note] Quando si raccoglie si deve
+>1. Creare gruppi composti da $2^n$ elementi
+>2. Creare gruppi più grandi possibili 
+>3. Fare il minor numero di gruppi
+>4. Quando è possibile non fare overlapping 
 
-***Froma Pos:***
-Raccogliendo per 0 si trovano i [[Tabelle di verità, Maxtermini e Mintermini#Max-termine (0)|maxtermini]] che verranno uniti da or (risultato forma *pos*)
+>[!warning] Froma Pos
+>Raccogliendo per 0 si trovano i [[Tabelle di verità, Maxtermini e Mintermini#Max-termine (0)|maxtermini]] che verranno uniti da or (risultato forma *pos*)
+>
+>![[IMG_41CF323F2323-1.jpeg|800]]
 
-![[IMG_41CF323F2323-1.jpeg|800]]
-
-***Forma Sop:***
-Raccogliendo per 1 si trovano i [[Tabelle di verità, Maxtermini e Mintermini#Min-termine (1)|mintermine]] che verranno uniti da and (risultato forma *sop*)
-
-![[IMG_A1F23F894B21-1.jpeg|800]]
+>[!warning] Forma Sop
+>Raccogliendo per 1 si trovano i [[Tabelle di verità, Maxtermini e Mintermini#Min-termine (1)|mintermine]] che verranno uniti da and (risultato forma *sop*)
+>
+>![[IMG_A1F23F894B21-1.jpeg|800]]
 
 ---
 ## Esempi
 
-![[IMG_D25867EC0D16-1.jpeg|700]]
-
----
+![[IMG_D25867EC0D16-1.jpeg|600]]

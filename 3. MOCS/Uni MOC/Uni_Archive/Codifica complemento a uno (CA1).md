@@ -9,25 +9,31 @@ related:
   - "[[Codifica complemento a due (CA2)]]"
   - "[[Codifica modulo e segno (MS)]]"
 completed: true
-updated: 2024-05-27T13:29
+updated: 2024-06-26T15:48
 ---
----
-## Indice
-1. [[#Definizione]]
-2. [[#Bit di segno]]
-3. [[#Intervalli di rappresentazione]]
-4. [[#Conversione]]
+>[!abstract] Index
+>1. [[#Definizione]]
+>2. [[#Bit di segno]]
+>3. [[#Intervalli di rappresentazione]]
+>4. [[#Conversione]]
+
+>[!abstract] Related
+>- [[Sistema di numerazione binario]]
+>- [[Sistemi numerici]]
+>- [[Progettazione Sistemi Digitali (class)]]
 
 ---
-## Definizione x
+## Definizione
+
 La codifica modulo e segno è il metodo più semplice e immediato per la rappresentazione dei numeri con segno in informatica. 
 
-Ma non è utilizzata inutilizzata quanto [[Codifica complemento a due (CA2)]] infatti:
+Ma non è utilizzata quanto la [[Codifica complemento a due (CA2)]] infatti:
 - Rappresentazione ambigua delle zero (leggi: [[#Intervalli di rappresentazione|doppia rappresentazione dello 0]])
 - Impossibile effettuare somma e sottrazione con lo stesso [[Circuiti Aritmetici]]
 
 ---
 ## Bit di segno
+
 Il bit di segno è il bit più a sinistra (bit più significativo) della sequenza binaria di un numero in modulo e segno, questo se è:
 - *0* allora il numero è *positivo* 
 - *1* allora il numero è *negativo*
@@ -46,11 +52,15 @@ $$
 
 ---
 ## Intervalli di rappresentazione
-Si dice **Rappresentazione Simmetrica**
 
-Con n bit si possono rappresentare numeri nell'intervallo: 
+>[!note] Intervallo
+>Con n bit si possono rappresentare numeri nell'intervallo: 
+>$$ 
+>[2^{n-1},\  2^{n-1}]
+>$$
+>
+>>**oss:** Si dice **Rappresentazione Simmetrica**
 
-$$ [2^{n-1},\  2^{n-1}]$$
 
 Quindi si possono rappresentare *2^n numeri*, di cui:
 
@@ -68,7 +78,7 @@ $$
 
 ---
 ## Conversione 
-1. Scrivere numero in binario (aggiungendo 0 come bit di segno se non è già esteso)
-2. invertire gli 1 con gli 0 e vice versa
 
----
+>[!note] Metodo
+>1. Scrivere numero in binario (aggiungendo 0 come bit di segno se non è già esteso)
+>2. invertire gli 1 con gli 0 e vice versa

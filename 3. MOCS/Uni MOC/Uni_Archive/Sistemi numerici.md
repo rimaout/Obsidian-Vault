@@ -6,60 +6,48 @@ class:
 type: Uni Note
 related: 
 completed: true
-updated: 2024-05-27T13:29
+updated: 2024-06-25T18:25
 ---
----
-## Indice 
-1. [[#Definizione]]
-2. [[#Sistema di numerazione posizionale o additivo]] 
-3. [[#Sistemi numerici]]
-4. [[#Conversioni]]
-5. [[#Operazioni]]
+
+>[!abstract] Index
+>1. [[#Definizioni]]
+>2. [[#Sistemi numerici]]
+>3. [[#Conversioni]]
+>4. [[#Esempi]]
+
+>[!abstract] Related
+>- [[Progettazione Sistemi Digitali (class)]]
 
 ---
-## Definizione
-I sistemi di numerazione sono insiemi formati da un numero finito di simboli e da regole che permettono di esprimere i numeri, di contare e di svolgere le operazioni.
+## Definizioni
 
-Ad esempio i dieci simboli 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, e le regole sulla composizione dei numeri che impariamo fin dai primi anni della scuola primaria, formano il sistema di numerazione decimale.
+>[!note] Sistema di numerazione
+>I sistemi di numerazione sono insiemi formati da un numero finito di simboli e da regole che permettono di esprimere i numeri, di contare e di svolgere le operazioni.
+>
+>Ad esempio i dieci simboli 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, e le regole sulla composizione dei numeri che impariamo fin dai primi anni della scuola primaria, formano il sistema di numerazione decimale.
+>
+>>**oss:** I *simboli* che formano ciascun sistema di numerazione vengono dette *cifre*, e il *numero delle cifre* che compone un sistema di numerazione posizionale si dice *base*.
 
-**oss:** I *simboli* che formano ciascun sistema di numerazione vengono dette *cifre*, e il *numero delle cifre* che compone un sistema di numerazione posizionale si dice *base*.
-
----
-## Sistema di numerazione posizionale o additivo
+>[!note] Posizionale
 Un **sistema di numerazione** si dice **posizionale** quando il valore di un simbolo varia al variare della posizione che il simbolo occupa all'interno di un numero.
 
-Un **sistema di numerazione** è detto **additivo** o additivo/sottrattivo quando ogni numero rappresenta la somma o la differenza dei simboli che lo compongono.
+^d06f90
+
+>[!note] Additivo
+>Un **sistema di numerazione** è detto **additivo** o additivo/sottrattivo quando ogni numero rappresenta la somma o la differenza dei simboli che lo compongono.
 
 ---
 ## Sistemi numerici 
-**[[Sistema di numerazione decimale]]**: 🟢
-- Base: 10
-- Simboli: 0, 1 , 2 ,3 , 4, 5, 6, 7, 8 ,9
-- Sistema Posizionale 
 
-**[[Sistema di numerazione binario]]**: 🟢
-- Base: 2
-- Simboli: 0, 1
-- Sistema Posizionale
-
-**[[Sistema di numerazione ottale]]**: 🔴
-- Base: 8
-- Simboli: 0, 1, 2 ,3 ,4 ,5 ,6, 7
-- Sistema Posizionale
-
-**[[Sistema di numerazione esadecimale]]**: 🟡
-- Base: 16
-- Simboli: 0, 1, 2 ,3 ,4 ,5 ,6, 7, 8 ,9 ,A, B ,C, D, E, F
-- Sistema Posizionale
-
- **[[Sistema di numerazione Romano]]**: 🔴
-- Simboli: I, V, X, L, C, D, M,
-- Sistema Additivo
+1. [[Sistema di numerazione decimale]]🟢
+2. [[Sistema di numerazione binario]] 🟢
+3. [[Sistema di numerazione ottale]] 🔴
+4. [[Sistema di numerazione esadecimale]] 🟡
 
 ---
 ## Conversioni
 
-![[IMG_339D24B9A787-1.jpeg|500]]
+![[Pasted image 20240625181814.png|700]]
 
 >[!warning ]  Cifre necessarie per esprimere un numero n (B10) in binario?
 >
@@ -69,14 +57,7 @@ Un **sistema di numerazione** è detto **additivo** o additivo/sottrattivo quand
 >
 >$$ 2^{n} $$
 
-**Esempi:**
+---
+## Esempi
 
 ![[Conversioni_sistemi_numerici.pdf]]
-
----
-## Operazioni
-
-**Somma e sottrazione:** Stesso metodo di [[Sistema di numerazione decimale]] e [[Sistema di numerazione binario]]
-![[IMG_CDE68450D36A-1.jpeg|400]]
-
----

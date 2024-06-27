@@ -5,20 +5,32 @@ class:
   - "[[Progettazione Sistemi Digitali (class)]]"
 academic year: 2023/2024
 related: 
-completed: false
-updated: 2024-05-27T13:29
+completed: true
+updated: 2024-06-25T12:53
 ---
----
-## Index
-1. [[]]
+>[!abstract] Related
+>- [[Progettazione Sistemi Digitali (class)]]
 
----
-## Definizione
-HDL is a specialised computer language used to describe the structure and behaviour of electronic circuits, and most commonly digital logic circuits.
+## Introduzione HDL
 
----
-## Linguaggi
+Un HDL (Hardware Description Language) è un linguaggio di programmazione utilizzato per descrivere il comportamento di un circuito elettronico o di un sistema digitale. 
+
+Gli HDL più comuni sono:
+
+- VHDL (VHSIC Hardware Description Language)
+- Verilog
 - [[SystemVerilog (HDL)]]
-- [[VHDL2008]]
 
----
+>[!note] Scopo
+>Gli HDL sono utilizzati in varie fasi del processo di progettazione di un circuito elettronico, tra cui:
+>- Descrizione del comportamento del circuito
+>- Simulazione e verifica del circuito
+>- Sintesi del circuito (trasformazione della descrizione del comportamento in una implementazione fisica)
+>- Implementazione del circuito su un dispositivo elettronico
+
+>[!note] Vantaggi
+>Gli HDL offrono molti vantaggi, tra cui:
+>- Maggiore produttività e velocità di progettazione
+>- Migliore precisione e affidabilità del circuito
+>- Possibilità di riutilizzo del codice
+>- Facilità di verifica e debug del circuito

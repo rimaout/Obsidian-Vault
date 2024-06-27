@@ -7,14 +7,18 @@ academic year: 2023/2024
 related:
   - "[[Sistema di numerazione binario]]"
 completed: true
-updated: 2024-05-27T13:29
+updated: 2024-06-26T15:45
 ---
----
-## Indice
-1. [[#Definizione]]
-2. [[#Bit di segno]]
-3. [[#Intervalli di rappresentazione]]
-4. [[#Conversione]]
+>[!abstract] Index
+>1. [[#Definizione]]
+>2. [[#Bit di segno]]
+>3. [[#Intervalli di rappresentazione]]
+>4. [[#Conversione]]
+
+>[!abstract] Related
+>- [[Sistema di numerazione binario]]
+>- [[Sistemi numerici]]
+>- [[Progettazione Sistemi Digitali (class)]]
 
 ---
 ## Definizione
@@ -30,7 +34,7 @@ Il bit di segno è il bit più a sinistra (bit più significativo) della sequenz
 - *0* allora il numero è *positivo* 
 - *1* allora il numero è *negativo*
 
-**oss:** La ***rappresentazione minima*** in modulo e segno richiede sempre l'utilizzo di un bit in più rispetto alla rappresentazione in binario puro
+>**oss:** La ***rappresentazione minima*** in modulo e segno richiede sempre l'utilizzo di un bit in più rispetto alla rappresentazione in binario puro
 
 $$
 \begin{gather}
@@ -44,7 +48,7 @@ $$
 
 ---
 ## Intervalli di rappresentazione
-Si dice **Rappresentazione Simmetrica**
+
 
 Con n bit si possono rappresentare numeri nell'intervallo: 
 
@@ -59,28 +63,28 @@ $$
 & - due \ \ 0,\text{uno positivo e uno negativo}\end{align}
 $$
 
-**oss:** *Doppia rappresentazione dello 0* ovvero lo soro può essere rappresentato sia con il segno positivo sia con il segno negativo
 
-**Esempio 8bit:** -127 ~ +127
+>[!warning] Osservazione
+>- **Doppia rappresentazione dello 0** ovvero lo soro può essere rappresentato sia con il segno positivo sia con il segno negativo
+>- **Rappresentazione simmetrica:** Stesso numero di bit sia per i numeri positivi che negativi
+ 
+>**Esempio 8bit:** -127 ~ +127
 
 ---
 ## Conversione 
 
-1. Convertire b10 -> b2
-2. Aggiungere bit di segno:
-	- 0 se positivo
-	- 1 se negativo
+>[!note] Procedimento 
+>1. Convertire b10 -> b2
+>2. Aggiungere bit di segno:
+>	- 0 se positivo
+>	- 1 se negativo
 
-**Esempio:**
-
-| B10 | B2 | MS |
-|---|---|---|
-| *-*15 | 1111 | *1*1111 |
-| *+*23 | 10111 | *0*10111 |
-| *-*56| 111000 | *1*111000 |
-| *+*85 | 1010101 | *0*1010101 |
+| B10    | B2      | MS         |
+| ------ | ------- | ---------- |
+| *-*15  | 1111    | *1*1111    |
+| *+*23  | 10111   | *0*10111   |
+| *-*56  | 111000  | *1*111000  |
+| *+*85  | 1010101 | *0*1010101 |
 | *-*127 | 1111111 | *1*1111111 |
 
-*bit segno*
 
----

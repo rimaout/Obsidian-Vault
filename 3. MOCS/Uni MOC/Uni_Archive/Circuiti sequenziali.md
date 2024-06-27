@@ -7,7 +7,7 @@ academic year: 2023/2024
 related:
   - "[[Circuiti Combinatori]]"
 completed: false
-updated: 2024-06-14T10:56
+updated: 2024-06-25T12:40
 ---
 >[!abstract] Related
 >- [[Circuiti Combinatori]]
@@ -19,12 +19,12 @@ updated: 2024-06-14T10:56
 Nella logica sequenziale, l'uscita di una funzione dipende non solo dall'*ingresso attuale* ma anche dalla *storia dell'ingresso*.
 >
 >Quindi un **circuito sequenziale** è composto da una [[Circuiti Combinatori|rete combinatoria]] e da una memoria (rete di feedback):
->![[IMG_0470F6AFCE6A-1.jpeg|600]]
-
+>
+>![[Pasted image 20240625121324.png|600]]
 
 >[!note] Tipi di Circuiti Sequenziali
 >- [[Latch]] 🟢
->- [[Flip Flop]]
+>- [[Flip Flop]] 🟡
 >- [[Registri]] 🟢
 >- [[Automi e Reti Sequenziali]]
 >- [[Contatori]]

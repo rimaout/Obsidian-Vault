@@ -6,14 +6,24 @@ class:
 academic year: 2023/2024
 related: 
 completed: true
-updated: 2024-05-27T13:29
+updated: 2024-06-27T14:31
 ---
+>[!abstract] Index
+>1. [[#Sistema ASCII]]
+>2. [[#Bit di parità]]
+>3. [[#Sistema BCD 8421]]
+
+>[!abstract] Related
+>- [[Progettazione Sistemi Digitali (class)]]
+
 ---
 ## Sistema ASCII
 
 Il **codice standard** per i caratteri alfanumerici è il codice **ASCII** che utilizza 7 bit per codificare 128 caratteri. I bit sono divisi in **due parti**, una formata dai 3 bit più significativi che indicato la **tipologia del valore** e l'altra dagli altri 4 bit restanti che indicano la sua **rappresentazione**. Siccome tutti i calcolatori utilizzano 8 bit, che prendono il nome di **1 byte**, è stata creata un'estensione del codice ASCII a 8 bit aggiungendone uno nella posizione più significativa di valore 0. Questo bit viene utilizzato per scopi specifici, ad esempio nelle stampanti abilita la stampa di simboli addizionali.  
 
+---
 ## Bit di parità 
+
 Per individuare errori nelle comunicazioni è stato aggiunto un bit al codice ASCII allo scopo di rendere il numero totale di 1 presenti nel codice pari o dispari  
 
 | ASCII       | Parità Pari | Parità Dispari | 
@@ -38,5 +48,3 @@ Il sistema numerico **binario** è quello più **naturale per un computer** ment
 | 7 | 0111 |
 | 8 | 1000 |
 | 9 | 1001 |
-
----

@@ -7,8 +7,15 @@ academic year: 2023/2024
 related:
   - "[[Circuiti Sequenziali]]"
 completed: true
-updated: 2024-06-14T10:46
+updated: 2024-06-25T12:39
 ---
+
+>[!abstract] Related
+>- [[Circuiti Sequenziali]]
+>- [[Progettazione Sistemi Digitali (class)]]
+
+---
+
 >[!def] Definizione
  L'obbiettivo del [[Gated Latch]]  è quello di poter alterare la memoria soltanto quando il clock è 1, ma nonostante questo possono avvenire comunque variazione indesiderate degli input anche nel breve tempo in cui il clock è uno.
 >
@@ -25,6 +32,5 @@ updated: 2024-06-14T10:46
 >- [[Flip Flop SR (master slave)]] 🟢
 >- [[Flip Flop JK]] 🟢
 >- [[Flip FLop Toggle]] 🟢
->- [[Flip Flop Delay]]
->
->- [[Flip Flop pre-set clear]]
+>- [[Flip Flop Delay]] 🔴
+>- [[Flip Flop pre-set clear]] 🔴

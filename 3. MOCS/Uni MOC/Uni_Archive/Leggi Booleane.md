@@ -7,18 +7,11 @@ academic year: 2023/2024
 related:
   - "[[Algebra Booleana]]"
 completed: true
-updated: 2024-06-11T18:22
+updated: 2024-06-27T20:06
 ---
----
-## Index
-1. [[#Leggi base]]
-2. [[#! Operatori Booleani e Porte Logiche Negazione XOR|Negazione XOR]]
-3. [[#Legge de consenso]]
+>[!abstract] Related
+>- [[Algebra Booleana]]
+>- [[Progettazione Sistemi Digitali (class)]]
 
----
-## Leggi Base
-
-![[Screenshot 2023-07-06 at 11.46.31.png|700]]
-
-## Legge de consenso
-![[Teorema del consenso(algebra di Boole)]]
+>[!warning] Leggi per la manipolazione di formule booleane
+>![[Screenshot 2023-07-06 at 11.46.31.png|700]]

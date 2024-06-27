@@ -5,46 +5,29 @@ class:
   - "[[Progettazione Sistemi Digitali (class)]]"
 related: 
 completed: true
-updated: 2024-06-11T18:22
+updated: 2024-06-27T14:36
 ---
----
-## Indice:
 
-**Basi:**
-- [[Definizione Algebra di Boole]] 🟢
-- [[#Funzioni Booleane]] 🟢
-- [[#Variabili Booleane]] 🟢
-- [[Leggi Booleane]] + [[Teorema del consenso(algebra di Boole)|Legge del consenso]] 🟢
-- [[Operatori Booleani e Porte Logiche]] 🟢
-- [[Forma POS (Congiuntiva) e SOP (Disgiuntiva)]] 🟢
-
-**Espressioni Booleane:**
-- [[Tabelle di verità, Maxtermini e Mintermini]] 🟢
-- [[Forma normale e canonica di una funzione booleana]] 🟢
-- [[Funzioni Booleane non completamente specificate]] 🟢
-
-**Circuiti Logici:**
-- [[Mappe di Karnaugh]] 🟢
-- [[Nand Nor operatori universali]] 🟢
-- [[Circuito ed espressione minimale]] 🟢
-- [[Procedimento di sintesi e analisi]] 🟢
+>[!abstract] Related
+>- [[Progettazione Sistemi Digitali (class)]]
 
 ---
-## Funzioni Booleane
-Una **Funzione** o **Equazione booleana** è una combinazione di *variabili* e operatori *booleani* che ritorna una costante *T* o *F*
+## Indice
 
-Le funzioni booleane sono caratterizzate da una o più *variabile di ingresso* e una *variabile di uscita*.
+>[!note] Basi:
+>- [[Definizioni (Algebra di Boole)]] 🟢
+>- [[Leggi Booleane]] + [[Teorema del consenso(algebra di Boole)|Legge del consenso]] 🟢
+>- [[Operatori Booleani e Porte Logiche]] 🟢
+>- [[Forma POS (Congiuntiva) e SOP (Disgiuntiva)]] 🟢
 
-**oss:**
-- *Variabili di ingresso:* sono dette **indipendenti**, cioè possono assumere liberamente qualsiasi valore.
-- *Variabile di uscita:* è detta **dipendente**, cioè una volta stabilito il valore assunto dalle variabili di ingresso, è obbligata ad assumere un valore.
+>[!note] Espressioni Booleane
+>- [[Tabelle di verità, Maxtermini e Mintermini]] 🟢
+>- [[Forma normale e canonica di una funzione booleana]] 🟢
+>- [[Funzioni Booleane non completamente specificate]] 🟢
 
----
-## Variabili Booleane
-Le variabili booleane sono lettere che possono assumere due valori *vero*(1) o *falso* (0)
+>[!note] Circuiti Logici
+>- [[Mappe di Karnaugh]] 🟢
+>- [[Nand Nor operatori universali]] 🟢
+>- [[Circuito ed espressione minimale]] 🟢
+>- [[Procedimento di sintesi e analisi di un circuiti booleano]] 🟢
 
-Per convenzione si rappresentano come: 
--  *Vero* = 1 
--  *Falso* = 0
-
----

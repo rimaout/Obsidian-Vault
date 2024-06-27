@@ -6,12 +6,8 @@ class:
 academic year: 2023/2024
 related: 
 completed: false
-updated: 2024-05-27T13:29
+updated: 2024-06-25T13:08
 ---
----
-## Index
-1. [[#13 - 02 - 2023]]
-
 ---
 ## 13 - 02 - 2023
 **Prop. algebra Boole:**
@@ -48,11 +44,3 @@ updated: 2024-05-27T13:29
 **Adder**
 - spiega utilizzo e funzionamento di half adder e full adder (cerca di fare circuiti senza usare tavole di verità)
 - Bit di riconoscimento overflow
-
----
-## 15 - 02 - 2023
-
-
-
-
----

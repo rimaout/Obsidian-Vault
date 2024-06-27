@@ -7,23 +7,27 @@ academic year: 2023/2024
 related:
   - "[[Algebra Booleana]]"
 completed: true
-updated: 2024-05-27T13:29
+updated: 2024-06-27T23:42
 ---
----
-## Indice
-1. [[#Circuito Minimale]]
-2. [[#Espressione Minimale]]
-3. [[#Procedimento di sintesi]]
+>[!abstract] Index
+>1. [[#Circuito Minimale]]
+>2. [[#Espressione Minimale]]
+
+>[!abstract] Related
+>- [[Algebra Booleana]]
+>- [[Progettazione Sistemi Digitali (class)]]
 
 ---
 ## Circuito Minimale
-- minor numero di porte 
-- a parità di porte si sceglie , il circuito con il minor numero di ingressi 
+
+>[!note] Caratteristiche
+>- Minor numero di porte.
+>- A parità di porte si sceglie il circuito con il minor numero di ingressi.
 
 ---
 ## Espressione Minimale
-- minor numero di termini (prodotto per sop e somma per pos)
-- a parità di termini minor numero di letterali
 
----
+>[!note] Caratteristiche
+>- Minor numero di termini (prodotto per sop e somma per pos).
+>- A parità di termini si sceglie il minor numero di letterali.
 

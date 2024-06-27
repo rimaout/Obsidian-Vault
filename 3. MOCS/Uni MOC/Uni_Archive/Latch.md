@@ -7,10 +7,17 @@ academic year: 2023/2024
 related:
   - "[[Circuiti Sequenziali]]"
 completed: true
-updated: 2024-06-13T14:19
+updated: 2024-06-25T12:21
 ---
+
+>[!abstract] Related
+>- [[Circuiti Sequenziali]]
+>- [[Progettazione Sistemi Digitali (class)]]
+
+---
+
 >[!def] Definizione
->- I **latch** sono l'unità di base dei [[Circuiti Sequenziali|circuiti sequenziali]], sono in grado di **memorizzare** un bit di informazione fino a quando non riceve un un nuovo segnale in input.
+>- I **Latch** sono l'unità di base dei [[Circuiti Sequenziali|circuiti sequenziali]], sono in grado di **memorizzare** un bit di informazione fino a quando non riceve un un nuovo segnale in input.
 
 >[!def] Indice:
 >- [[Latch SR]] 🟢

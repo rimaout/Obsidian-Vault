@@ -6,27 +6,28 @@ class:
 academic year: 2023/2024
 related:
   - "[[Circuiti Sequenziali]]"
-completed: false
-updated: 2024-06-13T14:19
+completed: true
+updated: 2024-06-25T12:29
 ---
 ---
-## Index
-1. [[#Circuiti Sincroni]]
-2. [[#Circuiti Asincroni]]
+
+>[!abstract] Related
+>- [[Circuiti Sequenziali]]
+>- [[Progettazione Sistemi Digitali (class)]]
 
 ---
 ## Circuiti Sincroni
- il sistema passi dallo stato presente allo stato futuro, è necessario, nei sistemi sincroni, l'impulso di clock e quindi la velocità di risposta è condizionata dalla frequenza di clock.
 
+I **Sistemi sincroni** sono circuiti in cui per far si che si passi dallo stato **presente** allo stato **futuro** si utilizza un impulso di clock.
+Quindi la velocità di risposta del sistema è condizionata dalla frequenza di clock.
 
----
+>[!warning] Segnale di Clock
+>Un segnale di clock è un **segnale periodico** che fornisce un riferimento temporale per le operazioni del sistema, consentendo ai componenti di eseguire le loro funzioni in modo coordinato e sincronizzato.
+
 ## Circuiti Asincroni
-I circuiti asincroni possono permettere velocità maggiori dei circuiti sincroni. 
-Infatti i circuiti asincroni non devono attendere un impulso di clock per passare allo stato successivo
-Nei circuiti asincroni l'evoluzione avviene solo per commutazione degli ingressi; questi determinano i livelli delle grandezza del circuiti e, quando sono terminati i transitori di commutazione e il circuito ha raggiunto uno stato stabile, si può permettere una nuova commutazione degli ingressi, senza attendere il segnale di clock.
 
-I circuiti sequenziali asincroni sono impiegati inoltre per connettere dispositivi che non sono sincronizzati da uno stesso segnale di clock.
+I circuiti asincroni possono permettere velocità maggiori dei circuiti sincroni, in quanto non sono limitati dal segnale di clock.
 
-Occorre però verificare che non esistano stati non utilizzati che, causa di disturbi o malfunzionamenti del circuito, divengano stati di blocco del circuito stesso.
+Nei circuiti asincroni l'evoluzione avviene solo per commutazione degli ingressi, questi determinano i livelli delle grandezza del circuiti e, quando sono terminati i transitori di commutazione e il circuito ha raggiunto uno stato stabile, si può permettere una nuova commutazione degli ingressi, senza attendere il segnale di clock.
 
----
+I circuiti sequenziali asincroni sono impiegati inoltre per connettere dispositivi che non sono sincronizzati da uno stesso segnale di clock. Occorre però verificare che non esistano stati non utilizzati che, causa di disturbi o malfunzionamenti del circuito, divengano stati di blocco del circuito stesso.
