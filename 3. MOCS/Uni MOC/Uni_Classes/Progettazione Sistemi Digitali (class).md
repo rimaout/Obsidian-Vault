@@ -1,9 +1,8 @@
 ---
 academic year: 2023/2024
-type:
-  - "[[Uni MOC]]"
+type: "[[Uni MOC]]"
 created: 2024-01-19T16:28
-updated: 2024-06-27T14:30
+updated: 2024-06-28T00:07
 ---
 >[!info] Basi
 >- [[Sistemi numerici]] 🟢
