@@ -6,9 +6,9 @@ class:
 academic year: 2023/2024
 related:
   - "[[Circuiti Aritmetici]]"
-  - "[[Circuiti Combinatori]]"
+  - "[[Circuiti combinatori]]"
 completed: true
-updated: 2024-06-14T11:00
+updated: 2024-06-28T00:26
 ---
 
 >[!abstract] Index
@@ -19,7 +19,7 @@ updated: 2024-06-14T11:00
 >[!abstract] Related
 >- [[Circuiti Aritmetici]]
 >- [[Circuiti Combinatori]]
->- [[Progettazione Sistemi Digitali (class)]]
+>- [](Circuiti%20combinatori.md)Digitali (class)]]
 
 ---
 ## Introduzione

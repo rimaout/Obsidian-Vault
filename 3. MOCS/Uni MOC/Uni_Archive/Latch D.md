@@ -5,10 +5,10 @@ class:
   - "[[Progettazione Sistemi Digitali (class)]]"
 academic year: 2023/2024
 related:
-  - "[[Circuiti Sequenziali]]"
+  - "[[Circuiti sequenziali]]"
   - "[[Latch SR]]"
 completed: true
-updated: 2024-06-25T12:19
+updated: 2024-06-28T00:26
 ---
 >[!abstract] Index
 >1. [[#Definizione]]
@@ -17,12 +17,12 @@ updated: 2024-06-25T12:19
 >[!abstract] Related
 >- [[Latch]]
 >- [[Circuiti Sequenziali]]
->- [[Progettazione Sistemi Digitali (class)]]
+>- [](Circuiti%20sequenziali.md)Digitali (class)]]
 
 ---
 ## Definizione
 
-- Il **Latch D** (latch delay) è un circuito [[Circuiti Sequenziali|sequenziale]] ed [[Circuiti Sincroni ed Asincroni#Circuiti Asincroni|asincrono]] basato sul [[Latch SR]] che permette di memorizzare un bit ma eliminando lo stato indefinito del [[Latch SR]].
+- Il **Latch D** (latch delay) è un circuito [[Circuiti sequenziali|sequenziale]] ed [[Circuiti Sincroni ed Asincroni#Circuiti Asincroni|asincrono]] basato sul [[Latch SR]] che permette di memorizzare un bit ma eliminando lo stato indefinito del [[Latch SR]].
 - Latch D è implementazione del [[Latch SR]], ottenuto sostituendo l'input `S` con `D`  e l'input `R` con il **complemento** di `D`
 
 >[!warning] Rappresentazione circuitale

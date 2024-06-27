@@ -5,9 +5,9 @@ class:
   - "[[Progettazione Sistemi Digitali (class)]]"
 academic year: 2023/2024
 related:
-  - "[[Circuiti Combinatori]]"
+  - "[[Circuiti combinatori]]"
 completed: true
-updated: 2024-06-12T16:56
+updated: 2024-06-28T00:26
 ---
 >[!abstract] Index
 >1. [[#Definizione]]
@@ -16,7 +16,7 @@ updated: 2024-06-12T16:56
 
 >[!abstract] Related
 >- [[Circuiti Combinatori]]
->- [[Circuito Multiplexer]]
+>- [[Circuiti combinatori]]
 >- [[Progettazione Sistemi Digitali (class)]]
 
 ---

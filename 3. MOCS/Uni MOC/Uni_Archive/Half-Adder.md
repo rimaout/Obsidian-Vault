@@ -5,10 +5,10 @@ class:
   - "[[Progettazione Sistemi Digitali (class)]]"
 academic year: 2023/2024
 related:
-  - "[[Circuiti Combinatori]]"
+  - "[[Circuiti combinatori]]"
   - "[[Circuiti Aritmetici]]"
 completed: true
-updated: 2024-06-14T10:59
+updated: 2024-06-28T00:26
 ---
 >[!abstract] Index
 >1. [[#Introduzione]]
@@ -17,12 +17,12 @@ updated: 2024-06-14T10:59
 >[!abstract] Related
 >- [[Circuiti Aritmetici]]
 >- [[Circuiti Combinatori]]
->- [[Progettazione Sistemi Digitali (class)]]
+>- [](Circuiti%20combinatori.md)Digitali (class)]]
 
 ---
 ## Introduzione
 
-**Half adder** è un [[Circuiti Combinatori|circuito combinatorio]] capace di effettuare una somma tra due bit.
+**Half adder** è un [[Circuiti combinatori|circuito combinatorio]] capace di effettuare una somma tra due bit.
 
 >[!warning] Rappresentazione circuitale
 >![[Pasted image 20240203164534.png|200]]

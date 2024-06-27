@@ -5,10 +5,10 @@ class:
   - "[[Progettazione Sistemi Digitali (class)]]"
 academic year: 2023/2024
 related:
-  - "[[Circuiti Combinatori]]"
+  - "[[Circuiti combinatori]]"
   - "[[ASCII e BCD]]"
 completed: true
-updated: 2024-06-13T14:33
+updated: 2024-06-28T00:26
 ---
 >[!abstract] Index
 >1. [[#Introduzione]]
@@ -16,12 +16,12 @@ updated: 2024-06-13T14:33
 
 >[!abstract] Related
 >- [[Circuiti Combinatori]]
->- [[Progettazione Sistemi Digitali (class)]]
+>- [](Circuiti%20combinatori.md)Digitali (class)]]
 
 ---
 ## Introduzione
 
-Un **transcodificatore** è un [[Circuiti Combinatori|Circuito Combinatorio]] che effettuare la *transcodifica di un informazione*.
+Un **transcodificatore** è un [[Circuiti combinatori|Circuito Combinatorio]] che effettuare la *transcodifica di un informazione*.
 
 Ovvero converte i dati trasmessi da una certa codifica ad una codifica diversa.
 

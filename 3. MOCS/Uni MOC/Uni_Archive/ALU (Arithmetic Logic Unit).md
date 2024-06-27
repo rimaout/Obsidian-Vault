@@ -5,23 +5,22 @@ class:
   - "[[Progettazione Sistemi Digitali (class)]]"
 academic year: 2023/2024
 related:
-  - "[[Circuiti Combinatori]]"
+  - "[[Circuiti combinatori]]"
   - "[[Circuiti Aritmetici]]"
 completed: false
-updated: 2024-06-13T14:33
+updated: 2024-06-28T00:26
 ---
 >[!abstract] Index
 >1. [[#Introduzione]]
 
 >[!abstract] Related
 >- [[Circuiti Combinatori]]
->- [[Circuiti Aritmetici]]
->- [[Progettazione Sistemi Digitali (class)]]
+>- [](Circuiti%20combinatori.md)>- [[Progettazione Sistemi Digitali (class)]]
 
 ---
 ## Introduzione 
 
-ALU è un [[Circuiti Combinatori|circuito combinatorio]] che svolge:
+ALU è un [[Circuiti combinatori|circuito combinatorio]] che svolge:
 - Operazioni logiche (su singoli bit o bitwise) come l'[[Operatori Booleani e Porte Logiche#AND|and]] o l'[[Operatori Booleani e Porte Logiche#OR|or]].
 - Operazioni aritmetiche di base, somma, sottrazioni, moltiplicazione e divisione.
 

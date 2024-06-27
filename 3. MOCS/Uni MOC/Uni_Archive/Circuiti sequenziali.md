@@ -5,9 +5,9 @@ class:
   - "[[Progettazione Sistemi Digitali (class)]]"
 academic year: 2023/2024
 related:
-  - "[[Circuiti Combinatori]]"
+  - "[[Circuiti combinatori]]"
 completed: false
-updated: 2024-06-25T12:40
+updated: 2024-06-28T00:27
 ---
 >[!abstract] Related
 >- [[Circuiti Combinatori]]
@@ -22,8 +22,7 @@ Nella logica sequenziale, l'uscita di una funzione dipende non solo dall'*ingres
 >
 >![[Pasted image 20240625121324.png|600]]
 
->[!note] Tipi di Circuiti Sequenziali
->- [[Latch]] 🟢
+>[!note] Circuiti
 >- [[Flip Flop]] 🟡
 >- [[Registri]] 🟢
 >- [[Automi e Reti Sequenziali]]

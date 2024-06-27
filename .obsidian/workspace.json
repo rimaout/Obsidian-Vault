@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Operatori Booleani e Porte Logiche.md",
+                "file": "3. MOCS/Uni MOC/Uni_Classes/Progettazione Sistemi Digitali (class).md",
                 "mode": "source",
                 "source": false
               }
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Operatori Booleani e Porte Logiche.md",
+                "file": "3. MOCS/Uni MOC/Uni_Classes/Progettazione Sistemi Digitali (class).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Operatori Booleani e Porte Logiche.md",
+                "file": "3. MOCS/Uni MOC/Uni_Classes/Progettazione Sistemi Digitali (class).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Operatori Booleani e Porte Logiche.md"
+                "file": "3. MOCS/Uni MOC/Uni_Classes/Progettazione Sistemi Digitali (class).md"
               }
             }
           }
@@ -191,7 +191,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Operatori Booleani e Porte Logiche.md",
+                "file": "3. MOCS/Uni MOC/Uni_Classes/Progettazione Sistemi Digitali (class).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -242,9 +242,13 @@
   },
   "active": "95642ed74df95a9d",
   "lastOpenFiles": [
+    "3. MOCS/Uni MOC/Uni_Archive/Circuiti combinatori.md",
+    "3. MOCS/Uni MOC/Uni_Classes/Progettazione Sistemi Digitali (class).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Circuiti sequenziali.md",
+    "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Operatori Booleani e Porte Logiche.md",
     "3. MOCS/Uni MOC/Uni_Archive/Algebra Booleana.md",
     "3. MOCS/Uni MOC/Uni_Archive/Teorema del consenso(algebra di Boole).md",
-    "3. MOCS/Uni MOC/Uni_Classes/Progettazione Sistemi Digitali (class).md",
     "3. MOCS/Uni MOC/Uni_Archive/Sistemi numerici.md",
     "3. MOCS/Uni MOC/Uni_Archive/Sistema di numerazione esadecimale.md",
     "3. MOCS/Uni MOC/Uni_Archive/Sistema di numerazione binario.md",
@@ -258,16 +262,12 @@
     "3. MOCS/Uni MOC/Uni_Archive/Forma normale e canonica di una funzione booleana.md",
     "3. MOCS/Uni MOC/Uni_Archive/Tabelle di verità, Maxtermini e Mintermini.md",
     "3. MOCS/Uni MOC/Uni_Archive/Forma POS (Congiuntiva) e SOP (Disgiuntiva).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Operatori Booleani e Porte Logiche.md",
     "3. MOCS/Uni MOC/Uni_Archive/Leggi Booleane.md",
     "3. MOCS/Uni MOC/Uni_Archive/Definizioni (Algebra di Boole).md",
-    "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
     "3. MOCS/Uni MOC/Uni_Archive/ASCII e BCD.md",
     "3. MOCS/Uni MOC/Uni_Archive/Circuiti Aritmetici.md",
     "3. MOCS/Uni MOC/Uni_Archive/Half-Adder.md",
     "3. MOCS/Uni MOC/Uni_Archive/Numeri binari con virgola fissa (fixed point).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Codifica complemento a due (CA2).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Codifica complemento a uno (CA1).md",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240625181814.png",
     "2. Litterateur Notes/High School/High School Storage/IMG_339D24B9A787-1.jpeg",
     "3. MOCS/Uni MOC/Uni_Storage/IMG_CDE68450D36A-1.jpeg",

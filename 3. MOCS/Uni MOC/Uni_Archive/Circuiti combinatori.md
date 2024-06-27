@@ -4,14 +4,14 @@ type: Uni Note
 class:
   - "[[Progettazione Sistemi Digitali (class)]]"
 related:
-  - "[[Circuiti Combinatori]]"
+  - "[[Circuiti combinatori]]"
   - "[[Circuiti sequenziali]]"
 completed: 
-updated: 2024-06-14T10:50
+updated: 2024-06-28T00:26
 ---
 
 >[!abstract] Related
->- [[Circuiti Sequenziali]]
+>- [[Circuiti sequenziali]]
 >- [[Progettazione Sistemi Digitali (class)]]
 
 >[!note] Introduzione

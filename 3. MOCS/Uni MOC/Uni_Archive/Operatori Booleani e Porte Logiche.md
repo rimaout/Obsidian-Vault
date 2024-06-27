@@ -7,7 +7,7 @@ academic year: 2023/2024
 related:
   - "[[Algebra Booleana]]"
 completed: true
-updated: 2024-06-28T00:11
+updated: 2024-06-28T00:15
 ---
 >[!abstract] Index
 >1. [[#NOT]]
@@ -77,14 +77,16 @@ updated: 2024-06-28T00:11
 >[!note] Info
 >![[img_dc1f1f583f6d-1.jpeg|500]]
 
->[!warning] Proprietà
->**Negazione XOR**
->*Formula:* 
+>[!warning] Proprietà (Negazione XOR)
+>
+>**Formula:** 
+>
 >$$
 >\overline{x\oplus y}=x\ y+\overline{x}\ \overline{y}
 >$$
 >
->*Dimostrazione:* 
+>**Dimostrazione:**
+>
 >$$
 >\overline{x\oplus y}= \overline{\overline{x}y+ x\overline{y}}=(x+\overline{y}) \cdot(\overline{x}+y)=x\overline{x}+xy+\overline{x}\ \overline{y}+y\overline{y}=xy+\overline{x}\ \overline{y}
 >$$

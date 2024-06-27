@@ -5,14 +5,14 @@ class:
   - "[[Progettazione Sistemi Digitali (class)]]"
 academic year: 2023/2024
 related:
-  - "[[Circuiti Sequenziali]]"
+  - "[[Circuiti sequenziali]]"
 completed: true
-updated: 2024-06-25T12:39
+updated: 2024-06-28T00:26
 ---
 
 >[!abstract] Related
 >- [[Circuiti Sequenziali]]
->- [[Progettazione Sistemi Digitali (class)]]
+>- [](Circuiti%20sequenziali.md)Digitali (class)]]
 
 ---
 
@@ -22,8 +22,7 @@ updated: 2024-06-25T12:39
 >Per risolvere questo problema sono stati inventati i flip flop, [[Circuiti Sequenziali|circuiti sequenziali]] [[Circuiti Sincroni ed Asincroni#Circuiti Sincroni|sincroni]] capaci di memorizzare bit come i latch ma che si abilitano soltanto ai fronti d'onda, per questo di chiamano **edge triggered**.
 >
 >
->Tutti i flip flop sono **edge triggered** ovvero sono sensibile ai fronti d'onda del clock.
->- Positive edge triggered --> FF sensibile al fonte di salita
+>Tutti i flip flop sono **edge triggered** ovvero sono sensib[](Circuiti%20sequenziali.md)dge triggered --> FF sensibile al fonte di salita
 >- Negative edge triggered --> FF sensibile al fronte di discesa
 >
 >![[Pasted image 20240205175743.png|500]]

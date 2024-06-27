@@ -5,9 +5,9 @@ class:
   - "[[Programmazione Calcolatori (Class)]]"
 academic year: 2023/2024
 related:
-  - "[[Circuiti Combinatori]]"
+  - "[[Circuiti combinatori]]"
 completed: true
-updated: 2024-06-12T21:16
+updated: 2024-06-28T00:26
 ---
 >[!abstract] Index
 >1. [[#Introduzione]]
@@ -16,13 +16,13 @@ updated: 2024-06-12T21:16
 
 >[!abstract] Related
 >- [[Circuiti Combinatori]]
->- [[PLA (programmable logic array)]]
+>- [](Circuiti%20combinatori.md)c array)]]
 >- [[Progettazione Sistemi Digitali (class)]]
 
 ---
 ## Introduzione
 
-É un [[Circuiti Combinatori|Circuito Combinatore]] composto da un [[Circuito De-codificatore|decodificatore]] e da un [[Circuito Codificatore|codificatore]] in cascata:
+É un [[Circuiti combinatori|Circuito Combinatore]] composto da un [[Circuito De-codificatore|decodificatore]] e da un [[Circuito Codificatore|codificatore]] in cascata:
 - **Decodificatore:** matrice porte `AND` le cui entrate sono gli input della ROM
 - **Codificatore:** matrice porte `OR` le cui uscite sono output della ROM
 

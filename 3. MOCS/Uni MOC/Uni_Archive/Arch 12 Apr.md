@@ -5,7 +5,7 @@ class:
 academic year: 2023/2024
 related: 
 completed: false
-updated: 2024-06-13T14:19
+updated: 2024-06-28T00:26
 ---
 ---
 
@@ -15,7 +15,7 @@ updated: 2024-06-13T14:19
 ---
 ## Progettazione di una CPU
 
--  Una CPU è un [[Circuiti Sequenziali|circuito sequenziale]] (ovvero stato + [[Circuiti Combinatori|circuito combinatorio]])
+-  Una CPU è un [[Circuiti sequenziali|circuito sequenziale]] (ovvero stato + [[Circuiti combinatori|circuito combinatorio]])
 
 
 ## Prima fase

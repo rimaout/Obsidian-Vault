@@ -6,10 +6,10 @@ class:
 academic year: 2023/2024
 related:
   - "[[Registri]]"
-  - "[[Circuiti Sequenziali]]"
+  - "[[Circuiti sequenziali]]"
   - "[[Automi e Reti Sequenziali]]"
 completed: false
-updated: 2024-06-13T14:19
+updated: 2024-06-28T00:26
 ---
 ---
 ## Index

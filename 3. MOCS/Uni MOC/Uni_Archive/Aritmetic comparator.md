@@ -7,7 +7,7 @@ academic year: 2023/2024
 related:
   - "[[Uni MOC]]"
 completed: true
-updated: 2024-06-13T14:33
+updated: 2024-06-28T00:26
 ---
 >[!abstract] Index
 >1. [[#Introduzione]]
@@ -15,7 +15,7 @@ updated: 2024-06-13T14:33
 
 >[!abstract] Related
 >- [[Circuiti Combinatori]]
->- [[Circuito Multiplexer]]
+>- [[Circuiti combinatori]]
 >- [[Progettazione Sistemi Digitali (class)]]
 
 ---

@@ -5,9 +5,9 @@ class:
   - "[[Progettazione Sistemi Digitali (class)]]"
 academic year: 2023/2024
 related:
-  - "[[Circuiti Combinatori]]"
+  - "[[Circuiti combinatori]]"
 completed: true
-updated: 2024-06-12T16:24
+updated: 2024-06-28T00:26
 ---
 ---
 

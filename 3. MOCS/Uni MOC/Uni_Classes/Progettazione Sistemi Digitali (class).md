@@ -2,7 +2,7 @@
 academic year: 2023/2024
 type: "[[Uni MOC]]"
 created: 2024-01-19T16:28
-updated: 2024-06-28T00:07
+updated: 2024-06-28T00:26
 ---
 >[!info] Basi
 >- [[Sistemi numerici]] 🟢
@@ -11,9 +11,9 @@ updated: 2024-06-28T00:07
 >- [[Algebra Booleana]] 🟢
 
 >[!info] Circuiti e Reti
->- [[Circuiti Combinatori]] 🟡
+>- [[Circuiti combinatori]] 🟡
 >- [[Circuiti Aritmetici]] 🟢
->- [[Circuiti Sequenziali]] 🟡
+>- [[Circuiti sequenziali]] 🟡
 >- [[Automi e Reti Sequenziali]] 🟡
 
 >[!info] HDL (hardware description language)

@@ -5,15 +5,15 @@ class:
   - "[[Progettazione Sistemi Digitali (class)]]"
 academic year: 2023/2024
 related:
-  - "[[Circuiti Sequenziali]]"
+  - "[[Circuiti sequenziali]]"
 completed: true
-updated: 2024-06-25T12:29
+updated: 2024-06-28T00:26
 ---
 ---
 
 >[!abstract] Related
 >- [[Circuiti Sequenziali]]
->- [[Progettazione Sistemi Digitali (class)]]
+>- [](Circuiti%20sequenziali.md)Digitali (class)]]
 
 ---
 ## Circuiti Sincroni

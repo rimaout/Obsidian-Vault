@@ -1,12 +1,12 @@
 ---
 created: 2023-10-29
-updated: 2024-06-13T14:32
+updated: 2024-06-28T00:26
 type: Uni Note
 class:
   - "[[Progettazione Sistemi Digitali (class)]]"
 academic year: 2023/2024
 related:
-  - "[[Circuiti Combinatori]]"
+  - "[[Circuiti combinatori]]"
   - "[[Circuito De-codificatore]]"
 completed: true
 ---
@@ -17,7 +17,7 @@ completed: true
 
 >[!abstract] Related
 >- [[Circuiti Combinatori]]
->- [[Circuito De-codificatore]]
+>- [](Circuiti%20combinatori.md)re]]
 >- [[Progettazione Sistemi Digitali (class)]]
 
 ---
@@ -30,10 +30,9 @@ completed: true
 
 >[!danger] Caratteristiche
 >- È un circuito [[Circuiti combinatori|circuito combinatorio]]
->- $2^n$ (o meno)[](Circuiti%20Combinatori.md)ircuito Codificatore]] è l'opposta al [[Circuito De-codificatore]]
+>- $2^n$ (o meno)[](Circuiti%20combinatori.md)ore]] è l'opposta al [[Circuito De-codificatore]]
 
->[!danger] Funzionamento 
-> Le linee in uscita danno la posizione (espressa in binario) dell'unica variabile in input con valore 1.
+>[!danger] Funz[](Circuiti%20combinatori.md)ta danno la posizione (espressa in binario) dell'unica variabile in input con valore 1.
 > 
 *oss:* Si assume che in qualsiasi condizione, ci sia soltanto un ingresso che valga 1.
 
