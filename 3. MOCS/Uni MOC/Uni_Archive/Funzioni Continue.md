@@ -8,21 +8,21 @@ related:
   - "[[Funzioni]]"
   - "[[Operazioni tra funzioni continue]]"
 completed: true
-updated: 2024-05-27T13:29
+updated: 2024-06-28T15:15
 ---
----
-## Indice
-1. [[#Definizioni]]
-	- [[#Funzione continua in un punto]]
-	- [[#Funzione continua su un intervallo]]
-2. [[#Calcolare se funzione è continua in un punto]]
-3. [[#Calcolare se funzione è continua in un intervallo]]
 
-- [[Operazioni tra funzioni continue]]
+>[!abstract] Index
+>1. [[#Funzione continua in un punto]]
+>2. [[#Funzione continua su un intervallo]]
+>3. [[#Calcolare se funzione è continua in un punto]]
+>4. [[#Calcolare se funzione è continua in un intervallo]]
+
+>[!abstract] Related
+>- [[Funzioni]]
+>- [[Calcolo Differenziale (class)]]
 
 ---
-## Definizioni
-#### Funzione continua in un punto
+## Funzione continua in un punto
 
 Sia:
 - $f:[a,b]\to \mathbb{R}$
@@ -30,10 +30,12 @@ Sia:
 
 Si dice che la funzione f(x) è **continua in x0** se:
 $$ \boxed{\lim_{ x \to x_{0} }f(x) = f(x_{0})}$$
- ![[IMG_82373BFF7F73-1.jpeg|400]]
+>[!warning] Esempio
+ >![[IMG_82373BFF7F73-1.jpeg|500]]
 
 ---
-#### Funzione continua su un intervallo
+## Funzione continua su un intervallo
+
 Una funzione $f:[a,b]\to \mathbb{R}$  si dice **continua** in $[a,b]$ se è continua in $x_{0}$, $\forall x_{0}\in[a,b]$
 
 ![[IMG_44C3D95249F5-1.jpeg|600]]

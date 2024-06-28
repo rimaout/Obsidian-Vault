@@ -8,8 +8,12 @@ academic year: 2023/2024
 related:
   - "[[Successioni Reali]]"
 completed: true
-updated: 2024-05-27T13:29
+updated: 2024-06-28T19:31
 ---
+>[!abstract] Related
+>- [[Successioni Reali]]
+>- [[Calcolo Differenziale (class)]]
+
 ---
 
 >[!note] Successione Infinitesima
@@ -21,6 +25,3 @@ updated: 2024-05-27T13:29
 >[!note] Successione NON Infinitesima 
 >Una secessione $a_{ n }$ non è infinitesima quando 
 >$$\lim_{ n \to \infty }a_{ n } \not=0$$
-
-
----

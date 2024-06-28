@@ -6,7 +6,7 @@ class:
 related:
   - "[[Limiti]]"
 completed: true
-updated: 2024-05-27T13:29
+updated: 2024-06-28T20:45
 ---
 ---
 ## Indice
@@ -15,6 +15,7 @@ updated: 2024-05-27T13:29
 
 ---
 ## Definizione
+
 Le **forme indeterminate** sono operazioni che coinvolgono infiniti e infinitesimi nel calcolo dei limiti per le quali non è possibile determinare un risultato a priori, e *sono 7*:
 	![[Screenshot 2023-05-22 at 10.29.56.png]]
 

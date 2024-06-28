@@ -8,55 +8,88 @@ academic year: 2023/2024
 related:
   - "[[Teoria degli insiemi]]"
 completed: true
-updated: 2024-05-27T13:29
+updated: 2024-06-28T13:50
 ---
----
-## Indice
-1. [[#Numeri Naturali]]
-2. [[#Numeri Interi]]
-3. [[#Numeri Razionali]]
-4. [[#Numeri Irrazionali]]
-5. [[#Numeri Reali]]
 
-![[Venn_Diagram_of_Numbers-it.svg.png|500]]
+>[!abstract] Index
+>1. [[#Introduzione]]
+>2. [[#Numeri Naturali]]
+>3. [[#Numeri Interi]]
+>4. [[#Numeri Razionali]]
+>5. [[#Numeri Irrazionali]]
+>6. [[#Numeri Reali]]
+>7. [[#Numeri Complessi]]
 
-
----
-## [[Numeri Naturali]] 
-$$ \mathbb{N}=\{ 0,1,2,3\dots\} $$
-
----
-## [[Numeri Interi]]
-$$\mathbb{Z} = \{0, \pm1, \pm2, \pm3\dots\}$$
+>[!abstract] Related
+>- [[Calcolo Differenziale (class)]]
+>- [[Metodi matematici per l'informatica (class)]]
 
 ---
-## [[Numeri Razionali]]
-- Numeri composti da una parte intera e una parte decimale finita o infinita ma periodica
+## Introduzione
 
-$$
-\mathbb{Q} = \{ \frac{m}{n}\}
-$$
-
-$$
-m = numeratore,\ \ n = denominatore
-$$
-
----
-## [[Numeri Irrazionali]]
-- Numeri composti da una parte decimale infinita e non periodica
-- Tutte le radici il cui radicante non si può esprimere sotto forma di potenza
-$$ 
-\mathbb{I} = \{ \sqrt{ 2 }, \pi, \dots \}
-$$
-
----
-## [[Numeri Reali]]
-$$
-\mathbb{R} = \{\mathbb{Q}\cup \mathbb{I} \}
-$$
-
----
-## [[Numeri Complessi]] 🔴
+![[Venn_Diagram_of_Numbers-it.svg.png|400]]
 
 
 ---
+### Numeri Naturali 
+
+>[!warning] Insieme
+>$$ \mathbb{N}=\{ 0,1,2,3\dots\} $$
+
+>**Leggi:** [[Numeri Naturali]]
+
+---
+### Numeri Interi
+
+>[!warning] Insieme
+>$$\mathbb{Z} = \{0, \pm1, \pm2, \pm3\dots\}$$
+
+>**Leggi:** [[Numeri Interi]]
+
+---
+### Numeri Razionali
+
+Numeri composti da una parte intera e una parte decimale finita o infinita ma periodica.
+
+>[!warning] Insieme
+>$$
+>\mathbb{Q} = \{ \frac{m}{n}\}
+>$$
+>
+>$$
+>m = numeratore,\ \ n = denominatore
+>$$
+
+>**Leggi:** [[Numeri Razionali]]
+
+---
+### Numeri Irrazionali
+- Numeri composti da una parte decimale infinita e non periodica.
+- Tutte le radici il cui radicante non si può esprimere sotto forma di potenza.
+
+>[!warning] Insieme
+>$$
+>\mathbb{I} = \{ \sqrt{ 2 }, \pi, \dots \}
+>$$
+
+---
+### Numeri Reali
+
+>[!warning] Insieme
+>$$
+>\mathbb{R} = \{\mathbb{Q}\cup \mathbb{I} \}
+>$$
+
+>**Leggi:** [[Numeri Reali]]
+
+---
+### Numeri Complessi
+
+Numeri composti da una parte reale e una parte immaginaria.
+
+> [!warning] Insieme
+>  $$ \mathbb{C} = { a + bi } $$
+> 
+> $$ a = parte\ reale,\ \ b = parte\ immaginaria,\ \ i = unità\ immaginaria\ (i^2 = -1) $$
+
+> **Leggi:** [[Numeri Complessi]]

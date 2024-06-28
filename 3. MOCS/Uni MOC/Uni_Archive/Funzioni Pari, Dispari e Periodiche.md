@@ -7,35 +7,65 @@ academic year: 2022/2023
 related:
   - "[[Funzioni]]"
 completed: true
-updated: 2024-05-27T13:29
+updated: 2024-06-28T15:12
 ---
 ---
-## Indice 
-1. [[#Funzione Pari]]
-2. [[#Funzione Dispari]]
-3. [[#Funzioni Periodiche]]
+
+>[!abstract] Index
+>1. [[#Funzione Pari]]
+>2. [[#Funzione dispari]]
+>3. [[#Altro]]
+>4. [[#Funzioni Periodiche]]
+
+>[!abstract] Related
+>- [[Funzioni]]
+>- [[Calcolo Differenziale (class)]]
 
 ---
 ## Funzione Pari 
-Una funzione f(x) si dice ***pari*** se: $$\forall x \in Dom(f(x)) \implies f(-x)=f(x) $$
-**oss:** il grafico è *simmetrico* rispetto all'*asse delle ordinate*![[Screenshot 2023-05-21 at 13.34.45.png]]
+
+>[!note] Definizione
+>Una funzione f(x) si dice **pari** se: 
+>
+>$$\forall x \in Dom(f(x)) \implies f(-x)=f(x) $$
+
+>[!warning] Grafico
+>Il grafico è `simmetrico` rispetto all'`asse delle ordinate`
+>![[Screenshot 2023-05-21 at 13.34.45.png|600]]
 
 ---
 ## Funzione dispari 
-Una funzione f(x) si dice ***dispari*** se: $$\forall x \in Dom(f(x)) \implies f(-x)=-f(x) $$
-**oss:** il grafico è *simmetrico* rispetto all'*origine*![[Screenshot 2023-05-21 at 13.36.36.png]]
+
+>[!note] Definizione
+>Una funzione $f(x)$ si dice **dispari** se: 
+>
+>$$\forall x \in Dom(f(x)) \implies f(-x)=-f(x) $$
+
+>[!warning] Grafico
+>Il grafico è `simmetrico` rispetto all'`origine`
+>![[Screenshot 2023-05-21 at 13.36.36.png]]
 
 ---
-**Come capire se funzione è pari o dispari:**
-![[Screenshot 2023-05-21 at 13.38.17.png]]
+## Altro
 
-**oss:** una ne pari ne dispari può avere altre simmetrie![[Screenshot 2023-05-21 at 13.39.44.png]]
+>[!note] Come capire se funzione è pari o dispari
+>![[Screenshot 2023-05-21 at 13.38.17.png|800]]
 
----
-### Funzioni Periodiche
-Una funzione f(x) si dice ***periodica*** di periodo *T* (T numero reale positivo) se:$$ f(x+T)=f(x)$$![[IMG_89B042D0CDFE-1.jpeg]]
-
-**oss:** se una funzione è periodica di periodo T, allora sarà periodica di periodo KT
-**oss:** se scopro che una funzione è periodica, allora posso limitarmi a studiare il primo periodo
+>[!warning] Altre Simmetrie
+>Una ne pari ne dispari può avere altre simmetrie.
+>
+>![[Screenshot 2023-05-21 at 13.39.44.png|700]]
 
 ---
+## Funzioni Periodiche
+
+>[!note] Definizione
+>Una funzione f(x) si dice ***periodica*** di periodo *T* (T numero reale positivo) se:
+>$$f(x+T)=f(x)$$
+
+>[!note] Caratteristiche
+>1.  se una funzione è periodica di periodo T, allora sarà periodica di periodo KT
+>2. se scopro che una funzione è periodica, allora posso limitarmi a studiare il primo periodo
+
+>[!warning] Esempi Grafici
+>![[IMG_89B042D0CDFE-1.jpeg]]

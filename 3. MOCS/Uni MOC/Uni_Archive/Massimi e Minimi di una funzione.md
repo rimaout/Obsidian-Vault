@@ -9,19 +9,23 @@ related:
   - "[[Funzioni]]"
   - "[[Studio di Funzione]]"
 completed: true
-updated: 2024-05-27T13:29
+updated: 2024-06-28T15:44
 ---
----
-## Index
-1. [[#Massimi e Minimi relativi]]
-2. [[#Massimi e Minimi assoluti]]
-3. [[#Esempi]]
-4. [[#Esistenza massimi e minimi]]
+
+>[!abstract] Index
+>1. [[#Massimi e Minimi relativi]]
+>2. [[#Massimi e Minimi assoluti]]
+>3. [[#Esempi]]
+>4. [[#Esistenza massimi e minimi]]
+
+>[!abstract] Related
+>- [[Funzioni]]
+>- [[Calcolo Differenziale (class)]]
 
 ---
 ## Massimi e Minimi relativi
 >[!def] Definition:
->	$f:[a,b]\to \mathbb{R}, \ \ \ \ x_{0}\in(a,b)$
+>$f:[a,b]\to \mathbb{R}, \ \ \ \ x_{0}\in(a,b)$
 >- **Massimo relativo**
 >	- $x_{0}$ è un massimo relativo di f(x) se:
 >	- $\exists \delta>0:\ \ \ \ f(x_{0})\geq f(x)\ \ \forall x \in[x_{0}-\delta,x_{0}+\delta]$
@@ -32,29 +36,33 @@ updated: 2024-05-27T13:29
 
 >[!danger] Teorem:
 >$f:[a,b]\to \mathbb{R},\ \ \ \ x_{0}\in(a,b)$
+>
 >- Se:
 >	- $x_{0}$ è un massimo/minimo relativo 
+>
 >- Allora:
 >	- $f^{'}(x_{0})=0$
 >	 
->![[Pasted image 20231209102954.png|500]]
+>![[Pasted image 20231209102954.png|350]]
 >$f^{'}(1)=f^{'}(2)=0$
 
 >[!warning] Trovare massimi e minimi relativi con lo studio di funzione della derivata 
 > 1. Calcolare derivata della funzione 
 > 2. Porre $f(x)^{'}\geq 0$
 > 3. Effettuare studio di funzione con grafico
-> ![[Pasted image 20231215174521.png|700]]
+> ![[Pasted image 20231215174521.png|600]]
 
 ---
 ## Massimi e Minimi assoluti
-1. Calcolare derivata $f^{'}(x)$ della funzione $f(x)$
-2. Studio del segno della derivata $f^{'}(x)$
-	- Trova massimi e minimi relativi
-3. Calcolare funzione dei punti ottenuti dal passaggio 2 
-4. Risultato:
-	- I massimino relativo con il valore più alto calcolato nel passaggio 3 sarà il massimo assoluto
-	- I minimo relativo con il valore più basso calcolato nel passaggio 3 sarà il minimo assolu
+
+>[!note] Metodo
+>1. Calcolare derivata $f^{'}(x)$ della funzione $f(x)$
+>2. Studio del segno della derivata $f^{'}(x)$
+>	- Trova massimi e minimi relativi
+>3. Calcolare funzione dei punti ottenuti dal passaggio 2 
+>4. Risultato:
+>	- I massimino relativo con il valore più alto calcolato nel passaggio 3 sarà il massimo assoluto
+>	- I minimo relativo con il valore più basso calcolato nel passaggio 3 sarà il minimo assolu
 
 ---
 ## Esempi
@@ -62,7 +70,7 @@ updated: 2024-05-27T13:29
 >[!example] Esempio
 >Trovare massimi e minimi relativi e assoluti della funzione $f(x)=(x-1)e^{3x}$ nel intervallo $[0,2]$
 >
->*1. Calcolare derivata:*
+>**1. Calcolare derivata:**
 >
 >$$
 >\begin{align*}
@@ -73,7 +81,7 @@ updated: 2024-05-27T13:29
 >\end{align*}
 >$$
 >
->*1. Studio di funzione di $f^{'}(x)$:*
+>**1. Studio di funzione di $f^{'}(x)$:**
 >
 >$$
 >\begin{gather}
@@ -90,9 +98,10 @@ updated: 2024-05-27T13:29
 >- $x=\frac{2}{3}$ è minimo relativo
 >- $x = 2$ è massimo relativo 
 >
->*3. Calcolare funzione dei punti ottenuti dal passaggio 2:*
+>**3. Calcolare funzione dei punti ottenuti dal passaggio 2:**
 >
 >$f(x)=(x-1)e^{3x}$ quindi:
+>
 >$$
 >\begin{align*}
 >&- \ \ x=0 \to f(0)= 1 \\
@@ -101,15 +110,16 @@ updated: 2024-05-27T13:29
 >\end{align*}
 >$$
 >
->*4. Risultato:*
->	- I massimino relativo con il valore più alto calcolato nel passaggio 3 sarà il massimo assoluto
->	- I minimo relativo con il valore più basso calcolato nel passaggio 3 sarà il minimo assoluto
->*Quindi:*
->	- $x=\frac{2}{3}$ è il minimo assoluto
->	- $x = 2$ è il massimo assoluto
+>**4. Risultato:**
+>- I massimino relativo con il valore più alto calcolato nel passaggio 3 sarà il massimo assoluto
+>- I minimo relativo con il valore più basso calcolato nel passaggio 3 sarà il minimo assoluto
+>
+>**5. Quindi:**
+>- $x=\frac{2}{3}$ è il minimo assoluto
+>- $x = 2$ è il massimo assoluto
 
 ---
 ## Esistenza massimi e minimi
-- Il [[Teorema Weierstrass]] permette di capire se esistono dei massimi e minimi. (funzione continua su intervallo chiuso)
 
----
+Il [[Teorema Weierstrass]] permette di capire se esistono dei massimi e minimi. (funzione continua su intervallo chiuso)
+

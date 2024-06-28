@@ -22,24 +22,12 @@
             }
           },
           {
-            "id": "46e1a8f4eb995ae2",
+            "id": "ebd959604f7e7936",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Teorema del resto.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ff1d74accb656a6e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Sistemi numerici.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Limiti.md",
                 "mode": "source",
                 "source": false
               }
@@ -132,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Teorema del resto.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Limiti.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Teorema del resto.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Limiti.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Teorema del resto.md"
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Limiti.md"
               }
             }
           }
@@ -203,7 +191,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Teorema del resto.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Limiti.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -252,35 +240,36 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "46e1a8f4eb995ae2",
+  "active": "ebd959604f7e7936",
   "lastOpenFiles": [
-    "3. MOCS/Uni MOC/Uni_Classes/Matematica 0 (class).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Valore assoluto.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Divisone tra polinomi.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Sistemi numerici.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Forme Indeterminate dei Limiti.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Limiti.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Limiti notevoli di Successioni-->0.md",
+    "3. MOCS/Uni MOC/Uni_Classes/Calcolo Differenziale (class).md",
     "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Condizioni di Esistenza (dominio).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Radicali.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Derivata prima.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Definizione derivata prima.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Rapporto Incrementale.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Trigonometria.md",
-    "3. MOCS/Uni MOC/Uni_Archive/seno, coseno e tangente.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Misura angoli (gradi e radianti).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Limiti Notevoli.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Definizione Limiti di Funzioni.md",
+    "To-Do/Limiti di successioni.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Successioni Monotone.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Successioni Reali.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Definizione Successione Reale.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Funzioni.md",
+    "3. MOCS/Uni MOC/Uni_Storage/IMG_5B14E841FDE1-1.jpeg",
+    "3. MOCS/Uni MOC/Uni_Archive/Definizione Successione infinitesima.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Successioni limitate e illimitate.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Algebra dei limiti.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Asintoti.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Studio di Funzione.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Massimi e Minimi di una funzione.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Cardinalità ed equipollenza, insiemi finiti ed infiniti, numerabili ed innumerabili.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Operazioni tra insiemi numerabili e innumerabili.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Funzione d'identità.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Funzioni Continue.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Funzioni Pari, Dispari e Periodiche.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Funzioni Monotone.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Funzioni Composte.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Funzioni Invertibili.md",
     "3. MOCS/Uni MOC/Uni_Storage/Appunti generali trigonometria.pdf",
-    "3. MOCS/Uni MOC/Uni_Archive/Basi Trigonometria.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Sistemi di Disequazioni.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Disequazioni.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Equazioni.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Teorema del resto.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Fattorizzazione di un polinomio.md",
-    "To-Do/Frazioni Algebriche.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Media ponderata.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Logaritmi.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Esponenziali.md",
-    "3. MOCS/Uni MOC/Uni_Classes/Progettazione Sistemi Digitali (class).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Circuiti combinatori.md",
-    "3. MOCS/Uni MOC/Uni_Archive/SystemVerilog (HDL).md",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240625181814.png",
     "2. Litterateur Notes/High School/High School Storage/IMG_339D24B9A787-1.jpeg",
     "3. MOCS/Uni MOC/Uni_Storage/IMG_CDE68450D36A-1.jpeg",
@@ -291,7 +280,6 @@
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240526213718.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240526205817.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240526171014.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240526164419.png",
     "Storage/Backend/Product usage analysis",
     "Categories/Products",
     "Storage/Backend/My Resonance Calendar",
