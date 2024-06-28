@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Classes/Matematica 0 (class).md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Teorema del resto.md",
                 "mode": "source",
                 "source": false
               }
@@ -132,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Classes/Matematica 0 (class).md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Teorema del resto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Classes/Matematica 0 (class).md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Teorema del resto.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Classes/Matematica 0 (class).md"
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Teorema del resto.md"
               }
             }
           }
@@ -203,7 +203,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Classes/Matematica 0 (class).md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Teorema del resto.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -254,8 +254,13 @@
   },
   "active": "46e1a8f4eb995ae2",
   "lastOpenFiles": [
-    "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
     "3. MOCS/Uni MOC/Uni_Classes/Matematica 0 (class).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Valore assoluto.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Divisone tra polinomi.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Sistemi numerici.md",
+    "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Condizioni di Esistenza (dominio).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Radicali.md",
     "3. MOCS/Uni MOC/Uni_Archive/Derivata prima.md",
     "3. MOCS/Uni MOC/Uni_Archive/Definizione derivata prima.md",
     "3. MOCS/Uni MOC/Uni_Archive/Rapporto Incrementale.md",
@@ -264,19 +269,14 @@
     "3. MOCS/Uni MOC/Uni_Archive/Misura angoli (gradi e radianti).md",
     "3. MOCS/Uni MOC/Uni_Storage/Appunti generali trigonometria.pdf",
     "3. MOCS/Uni MOC/Uni_Archive/Basi Trigonometria.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Sistemi numerici.md",
     "3. MOCS/Uni MOC/Uni_Archive/Sistemi di Disequazioni.md",
     "3. MOCS/Uni MOC/Uni_Archive/Disequazioni.md",
     "3. MOCS/Uni MOC/Uni_Archive/Equazioni.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Valore assoluto.md",
     "3. MOCS/Uni MOC/Uni_Archive/Teorema del resto.md",
     "3. MOCS/Uni MOC/Uni_Archive/Fattorizzazione di un polinomio.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Divisone tra polinomi.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Condizioni di Esistenza (dominio).md",
     "To-Do/Frazioni Algebriche.md",
     "3. MOCS/Uni MOC/Uni_Archive/Media ponderata.md",
     "3. MOCS/Uni MOC/Uni_Archive/Logaritmi.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Radicali.md",
     "3. MOCS/Uni MOC/Uni_Archive/Esponenziali.md",
     "3. MOCS/Uni MOC/Uni_Classes/Progettazione Sistemi Digitali (class).md",
     "3. MOCS/Uni MOC/Uni_Archive/Circuiti combinatori.md",

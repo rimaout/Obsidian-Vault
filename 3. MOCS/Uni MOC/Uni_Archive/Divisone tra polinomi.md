@@ -5,7 +5,7 @@ class:
   - "[[Matematica 0 (class)]]"
 related: 
 completed: true
-updated: 2024-06-28T01:31
+updated: 2024-06-28T12:57
 ---
 
 >[!abstract] Index
@@ -19,33 +19,31 @@ updated: 2024-06-28T01:31
 ---
 ## Introduzione
 
-Nella divisione tra numeri interi:
-$$
-\begin{align}
-& \textcolor{orange}{7}\ :\ \textcolor{green}{2}\ fa\ \ \textcolor{red}{3}\ \ con \ \ resto \ \ \textcolor{violet}{1}    \\
-\\ 
-&Dove:\ \  \textcolor{orange}{Dividendo}, \ \ \textcolor{green}{Divisore}, \ \ \textcolor{red}{Quoziente}, \ \ \textcolor{violet}{Resto}  \\ \\
-& Quindi: \ \  \textcolor{orange}{7}\ =\ \textcolor{green}{2} \cdot \textcolor{red}{3} + \textcolor{violet}{1} \\
-\end{align}
-$$
+>[!note] Nella divisione tra numeri interi
+>$$
+>\begin{align}
+>& \textcolor{orange}{7}\ :\ \textcolor{green}{2}\ fa\ \ \textcolor{red}{3}\ \ con \ \ resto \ \ \textcolor{violet}{1} \\ \\ 
+>& Dove:\ \  \textcolor{orange}{Dividendo}, \ \ \textcolor{green}{Divisore}, \ \ \textcolor{red}{Quoziente}, \ \ \textcolor{violet}{Resto}  \\ \\
+>& Quindi: \ \  \textcolor{orange}{7}\ =\ \textcolor{green}{2} \cdot \textcolor{red}{3} + \textcolor{violet}{1} \\
+>\end{align}
+>$$
 
-Nella divisione tra polinomi: 
-$$
-\begin{align}
-& \text{Svolgere la divisione tra il polinomio \textcolor{orange}{A(x)} e il polinomio \textcolor{green}{B(x)} (di grado <= del precedente)} \\ 
-& \text{significa trovare i polinomi \textcolor{red}{Q(x)} e \textcolor{violet}{R(x)}}  \\ \\
+>[!note] Nella divisione tra polinomi
+>$$
+>\begin{align}
+>& \text{Svolgere la divisione tra il polinomio \textcolor{orange}{A(x)} e il polinomio \textcolor{green}{B(x)} (di grado <= del precedente)} \\ 
+>& \text{significa trovare i polinomi \textcolor{red}{Q(x)} e \textcolor{violet}{R(x)}}  \\ \\
+>& \textcolor{orange}{A(x)} = \textcolor{green}{B(x)} \cdot \textcolor{red}{Q(x)}+\textcolor{violet}{R(x)}
+>\end{align}
+>$$
 
-& \textcolor{orange}{A(x)} = \textcolor{green}{B(x)} \cdot \textcolor{red}{Q(x)}+\textcolor{violet}{R(x)}
-\end{align}
-$$
-
-Si può dimostrare che:
-$$
-\begin{align}
-& - \text{Il grado di \textcolor{orange}{A(x)} è la differenza tra il grado di \textcolor{orange}{A(x)} e quello di \textcolor{green}{B(x)}}  \\
-& -  \text{Il grado di \textcolor{violet}{R(x)} è minore del grado di \textcolor{green}{B(x)}}
-\end{align}
-$$
+>[!note] Si può dimostrare che
+>$$
+>\begin{align}
+>& - \text{Il grado di \textcolor{orange}{A(x)} è la differenza tra il grado di \textcolor{orange}{A(x)} e quello di \textcolor{green}{B(x)}}  \\
+>& -  \text{Il grado di \textcolor{violet}{R(x)} è minore del grado di \textcolor{green}{B(x)}}
+>\end{align}
+Z$$
 
 >[!tip] Tip
 >È possible trovar il resto di una divisione polinomiale senza svolgere la divisione attraverso il [[Teorema del resto]]

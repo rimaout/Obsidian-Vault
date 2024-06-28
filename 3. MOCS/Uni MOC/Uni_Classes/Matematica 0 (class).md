@@ -2,7 +2,7 @@
 type: "[[Uni MOC]]"
 academic year: 2022/2023
 created: 2023-11-12T14:59
-updated: 2024-06-28T01:53
+updated: 2024-06-28T13:05
 ---
 >[!note] Numeri
 >- [[Frazioni Algebriche]] 🔴
@@ -19,7 +19,7 @@ updated: 2024-06-28T01:53
 >- [[Ruffini]] 🔴
 >- [[Fattorizzazione di un polinomio]] 🟡
 >- [[Teorema del resto]] 🟢
->- [[Valore Assoluto]] 🟢
+>- [[Valore assoluto]] 🟢
 
 >[!note] Equazioni
 >- [[Equazioni]] 🟡

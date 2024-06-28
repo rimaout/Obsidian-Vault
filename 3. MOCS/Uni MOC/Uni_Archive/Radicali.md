@@ -6,7 +6,7 @@ class:
 related:
   - "[[Condizioni di Esistenza (dominio)]]"
 completed: true
-updated: 2024-06-28T01:23
+updated: 2024-06-28T12:50
 ---
 
 >[!abstract] Index
@@ -74,7 +74,7 @@ $$
 >[!danger] Attenzione agli esponenti negativi
 >$$
 >a^{-\frac{m}{n}} \coloneqq \frac{1}{\sqrt[n]{a^m}}
-<$$
+>$$
 
 ---
 ## Proprietà
