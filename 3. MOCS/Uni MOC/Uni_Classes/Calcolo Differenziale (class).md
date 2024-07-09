@@ -2,7 +2,7 @@
 academic year: 2023/2024
 type: "[[Uni MOC]]"
 created: 2024-01-07T17:18
-updated: 2024-06-28T20:33
+updated: 2024-06-29T13:35
 ---
 ## Indice
 
@@ -12,25 +12,29 @@ updated: 2024-06-28T20:33
 >- [[Funzioni]] 🟢
 >- [[Successioni Reali]] 🟡
 
->[!note] Prima parte (**[[Limiti]]** di secessioni)
+>[!note] Prima parte (Limiti di secessioni)
 >- [[Successioni Monotone]] 🟢
->- [[Limiti]]
->- [[Gerarchia degli infiniti]]
->- [[Limiti notevoli di Successioni-->0]]
->- [[Limiti Notevoli]]
->- [[Algebra dei limiti]] 
->- [[Teorema dei carabinieri]]
->- [[Formula di Stirling]]
+>- [[Limiti]] 🟡
+>- [[Gerarchia degli infiniti]] 🟢
+>- [[Limiti notevoli di Successioni-->0]] 🟢
+>- [[Limiti Notevoli]] 🟢
+>- [[Algebra dei limiti]] 🟢
+>- [[Teorema del Confronto (carabinieri)]] 🟢
+>- [[Formula di Stirling]] 🟡 (da aggiungere esempio)
+>
+>>**Vedi:** [[Limiti]]
 
->[!note] Seconda Parte (**[[Limiti]]** funzioni)
->- [[Limiti di Funzioni Razionali]]
->- [[Funzioni Continue]]
->- [[Operazioni tra funzioni continue]]
->- [[Limite destro e sinistro]]
->- [[Teorema di esistenza degli zeri]]
+>[!note] Seconda Parte (Limit funzioni)
+>- [[Limiti di Funzioni Razionali]] 🟢
+>- [[Funzioni Continue]] 🟢
+>- [[Operazioni tra funzioni continue]] 🟢
+>- [[Limite destro e sinistro]] 🟢
+>- [[Teorema di esistenza degli zeri]] 🟢
 >- [[Teorema valori intermedi]]
 >- [[Teorema Weierstrass]]
 >- [[Teoremi valori intermedi + Weierstrass]]
+>
+>>**Vedi:** [[Limiti]]
 
 >[!note] Terza parte (**[[Derivate]]**)
 >- [[Definizione derivata prima]]

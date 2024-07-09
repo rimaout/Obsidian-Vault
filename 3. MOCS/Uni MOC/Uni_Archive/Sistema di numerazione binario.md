@@ -7,7 +7,7 @@ type: Uni Note
 related:
   - "[[Sistemi numerici]]"
 completed: true
-updated: 2024-06-27T23:58
+updated: 2024-07-09T11:13
 ---
 >[!abstract] Index
 >1. [[#Introduzione]]
@@ -25,9 +25,9 @@ updated: 2024-06-27T23:58
 ---
 ## Introduzione
 
-- Base: 2
-- Simboli: 0, 1
-- [[Sistemi numerici#^d06f90|Sistema Posizionale]]
+- **Base:** 2
+- **Simboli:** 0, 1
+- **[[Sistemi numerici#^d06f90|Sistema Posizionale]]**
 
 ---
 ## Conversioni
@@ -51,6 +51,7 @@ updated: 2024-06-27T23:58
 
 >[!warning] Esempi
 >**Esempio:** [[Conversioni_sistemi_numerici.pdf]]
+>
 >![[IMG_EFBDE8F7892A-1.jpeg|700]]
 
 ---
@@ -112,19 +113,20 @@ Esistono diversi modi per rappresentare numeri negativi in binario:
 >- Converti B10 -> B2
 >- Aggiungi bit segno (most significant bit) inizialmente a 0
 >
->*MS:*
+>**MS:**
 >- Se Negativo: Bit segno = 1
 >- Se Positivo: non fare niente
 >
->*CA1:*
+>**CA1:**
 >- Se Negativo: inverti 1 e 0 e vice versa
 >- Se Positivo: non fare niente
 >
->*CA2:*
+>**CA2:**
 >- Se Negativo: 
 >	1. inverti 1 e 0 e vice versa
 >	2. somma 1 al least significant bit
->- Se Positivo: non fare niente
+>- Se Positivo: 
+>	1. non fare niente
 
 ---
 ## Rappresentazione numeri reali in binario
@@ -132,8 +134,6 @@ Esistono diversi modi per rappresentare numeri negativi in binario:
 In binario esistono due modi per rappresentare i numeri reali:
 1. [[Numeri binari con virgola fissa (fixed point)]]  🟡 (aggiungere operazioni)
 2. [[Numeri binari con virgola mobile (floating point)]] 🟢
-
----
 
 
 

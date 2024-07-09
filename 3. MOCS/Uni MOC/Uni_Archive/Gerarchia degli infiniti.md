@@ -7,8 +7,16 @@ academic year: 2023/2024
 related:
   - "[[Limiti]]"
 completed: true
-updated: 2024-05-27T13:29
+updated: 2024-06-28T23:23
 ---
+>[!abstract] Related
+>- [[Limiti]]
+>- [[Calcolo Differenziale (class)]]
+
 ---
-$$(\log_{b}(n))^\alpha < n^b<A^n<n!<n^n$$
-dove: $b>0,\ \ \alpha>0,\ \ A\in\mathbb{R}\ \ e\ \ n\to\infty$
+
+>[!note] Gerarchia
+>$$
+>(\log_{b}(n))^\alpha < n^b<A^n<n!<n^n
+>$$
+>**Dove:** $b>0,\ \ \alpha>0,\ \ A\in\mathbb{R}\ \ e\ \ n\to\infty$

@@ -8,13 +8,17 @@ related:
   - "[[Registri]]"
   - "[[Shift Registers]]"
 completed: true
-updated: 2024-05-27T13:29
+updated: 2024-07-09T11:26
 ---
----
-## Index
-1. [[#SIPO Shift Register]]
-2. [[#SIPO Left Shift Register]]
-3. [[#SIPO Bidirectional Shift Register]]
+>[!abstract] Indice
+>1. [[#SIPO Shift Register]]
+>2. [[#SIPO Left Shift Register]]
+>3. [[#SIPO Bidirectional Shift Register]]
+
+>[!abstract] Related
+>- [[Flip Flop]]
+>- [[Circuiti sequenziali]]
+>- [[Progettazione Sistemi Digitali (class)]]
 
 ---
 ## SIPO Shift Register 
@@ -34,9 +38,9 @@ updated: 2024-05-27T13:29
 >[!warning] Circuito
 >![[Pasted image 20240209124338.png|700]]
 >
->$$ \text{Shift} = \begin{cases}
+>$$
+>\text{Shift} = \begin{cases}
 >1 \to \text{Right Shift} \\
 >0 \to \text{Left Shift}
->\end{cases} $$
-
----
+>\end{cases}
+>$$

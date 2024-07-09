@@ -7,13 +7,17 @@ academic year: 2023/2024
 related:
   - "[[Registri]]"
 completed: false
-updated: 2024-05-27T13:29
+updated: 2024-07-09T11:27
 ---
----
-## Index
-1. [[#PIPO Shift Register]]
-2. [[#PIPO Left Shift Register]]
-3. [[#PIPO Bidirectional Shift Register]]
+>[!abstract] Indice
+>1. [[#PIPO Shift Register]]
+>2. [[#PIPO Left Shift Register]]
+>3. [[#PIPO Bidirectional Shift Register]]
+
+>[!abstract] Related
+>- [[Flip Flop]]
+>- [[Circuiti sequenziali]]
+>- [[Progettazione Sistemi Digitali (class)]]
 
 ---
 ## PIPO Shift Register 
@@ -32,5 +36,3 @@ updated: 2024-05-27T13:29
 
 >[!warning] Circuito
 >![[Pasted image 20240210130135.png|700]]
-
----

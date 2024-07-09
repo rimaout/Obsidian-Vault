@@ -9,7 +9,7 @@ related:
   - "[[Latch]]"
   - "[[Flip Flop SR (master slave)]]"
 completed: true
-updated: 2024-06-28T00:49
+updated: 2024-07-09T11:16
 ---
 >[!abstract] Index
 >1. [[#Introduzione]]
@@ -28,7 +28,7 @@ Il **FF JK** è un circuito [[Circuiti sequenziali|sequenziale]], [[Circuiti Sin
 >**oss:** A differenza del flip flop SR utilizza la combinazione 11 per negare lo stato prendete.
 
 >[!warning] Simbolo
-![[Pasted image 20240205190135.png|200]]
+>![[Pasted image 20240205190135.png|200]]
 
 ---
 ## Circuito + Funzionamento

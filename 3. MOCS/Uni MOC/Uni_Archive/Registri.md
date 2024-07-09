@@ -7,9 +7,9 @@ academic year: 2023/2024
 related:
   - "[[Circuiti sequenziali]]"
 completed: true
-updated: 2024-06-28T00:52
+updated: 2024-07-09T11:21
 ---
->[!abstract]
+>[!abstract] Indice
 >1. [[#Introduzione]]
 >2. [[#Tipe e Caratteristiche]]
 

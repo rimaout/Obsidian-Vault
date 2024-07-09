@@ -8,7 +8,7 @@ related:
   - "[[Successioni Reali]]"
   - "[[Esponenziali]]"
 completed: 
-updated: 2024-06-28T20:45
+updated: 2024-06-29T13:22
 ---
 
 >[!abstract] Related
@@ -17,45 +17,44 @@ updated: 2024-06-28T20:45
 ---
 
 >[!note] Limiti di secessioni
->- [[Limiti notevoli di Successioni-->0]]
->- [[Operazioni tra successioni limitate e illimitate]]
+>- [[Limiti notevoli di Successioni-->0]] 🟢
+>- [[Operazioni tra successioni limitate e illimitate]] 🟡
 >
 >>**Vedi:** [[Successioni Reali]]
 
 >[!note] Limiti di una funzione
 >- [[Definizione Limiti di Funzioni]] 🟢
 >- [[Teorema ponte]] 🔴
->- [[Limiti Notevoli]] 
->
->>**Vedi:** [[Definizione Limiti di Funzioni]]
+>- [[Limiti Notevoli]] 🟢
 
 >[!note] Basi
->- [[Forme Indeterminate dei Limiti]]
->- [[Gerarchia degli infiniti]]
+>- [[Forme Indeterminate dei Limiti]] 🟢
+>- [[Gerarchia degli infiniti]] 🟢
 >- [[Punto di accumulazione]] 🔴
->- [[Intorni]]
->- [[Asintoti]]
+>- [[Intorni]] 🟢
+>- [[Asintoti]] 🟢
 >- [[Punti di discontinuità]] 🔴
 >- [[Salti]] 🔴
 
 >[!note] Proprietà
->- [[Algebra dei limiti]]
->- [[Limiti Notevoli]]
->- [[Limiti notevoli di Successioni-->0]]
+>- [[Algebra dei limiti]] 🟢
+>- [[Limiti Notevoli]] 🟢
+>- [[Limiti notevoli di Successioni-->0]] 🟢
 >- [[Calcolo dei limiti per sostituzione di variabile]] 🔴
+>- [[Formula di Stirling]] 🟡 (da aggiungere esempio)
 
 >[!note] Tipi
->- [[Limiti di Funzioni Polinomiali]]
->- [[Limiti di Funzioni Razionali]]
->- [[Limiti con Esponenziali e Logaritmi]]
+>- [[Limiti di Funzioni Polinomiali]] 🟢
+>- [[Limiti di Funzioni Razionali]] 🟢
+>- [[Limiti con Esponenziali e Logaritmi]] 🟢
 >- [[Limite Funzioni Elementari]] 🔴
->- [[Limiti di Funzioni Composte]]
+>- [[Limiti di Funzioni Composte]] 🟢
 >- [[Equivalenze asintotiche]] 🔴
->- [[o piccolo di h]]
+>- [[o piccolo di h]] 🟢
 
 >[!note] Teoremi
 >- [[Teorema ponte]] 🔴
 >- [[Teorema di de L'Hopital]] 🔴
->- [[Teorema del Confronto (carabinieri)]] 🟡 (manca dimostrazione)
+>- [[Teorema del Confronto (carabinieri)]] 🟢
 >- [[Teorema di Heine-Borel (insiemi compatti)]] 🔴
 >- [[Limiti con Taylor]] 🔴

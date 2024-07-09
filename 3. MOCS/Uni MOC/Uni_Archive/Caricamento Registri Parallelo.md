@@ -7,14 +7,17 @@ academic year: 2023/2024
 related:
   - "[[Registri]]"
 completed: true
-updated: 2024-05-27T13:29
+updated: 2024-07-09T11:22
 ---
----
-## Indice
-1. [[#Definizione]]
-2. [[#Load]]
-	- [[#^d80083|Load sugli Input]]
-	- [[#^3ab1ca|Load sul Clock]]
+>[!abstract] Indice
+>1. [[#Definizione]]
+>2. [[#Load]]
+
+>[!abstract] Related
+>- [[Flip Flop]]
+>- [[Circuiti sequenziali]]
+>- [[Progettazione Sistemi Digitali (class)]]
+
 ---
 ## Definizione
 
@@ -25,12 +28,13 @@ updated: 2024-05-27T13:29
 >[!warning] Esempio
 >![[Pasted image 20240206171903.png|500]]
 >
->**oss:** 
->- Sono lo stesso circuito
->- Per avere un mantenimento dell'informazione gli input non devono variare **(svantaggio)**
+>>**oss:** 
+>>- Sono lo stesso circuito
+>>- Per avere un mantenimento dell'informazione gli input non devono variare **(svantaggio)**
 
 ---
 ## Load
+
 **Load** è un ulteriore segnale di controllo utilizzato per permettere il mantenimento dell'informazione indipendentemente degli ingressi.
 
 $$
@@ -46,7 +50,7 @@ $$
 >[!warning] Load sugli Input
 >**FF SR:**
 >
-![[Pasted image 20240207115154.png|500]]
+>![[Pasted image 20240207115154.png|500]]
 >$$ \text{Load} = \begin{cases}
 >0 &\to S=0, R=0 \to \text{Memorizzazione} \\
 >1 &\to S=x, R=\overline{x} \to \text{Funzionamento FF D}
@@ -61,7 +65,5 @@ $$
 ^d80083
 
 >[!warning] Load sul clock
-![[Pasted image 20240206175705.png|500]]
+>![[Pasted image 20240206175705.png|500]]
 ^3ab1ca
-
----

@@ -7,15 +7,20 @@ academic year: 2023/2024
 related:
   - "[[Funzioni Continue]]"
 completed: true
-updated: 2024-05-27T13:29
+updated: 2024-06-29T13:32
 ---
----
-## Index
-1. [[#Prop. base]]
-2. [[#Unione intervalli funzione]]
+>[!abstract] Index
+>1. [[#Proprietà]]
+>2. [[#Unione intervalli funzione]]
+
+>[!abstract] Related
+>- [[Funzioni Continue]]
+>- [[Funzioni]]
+>- [[Calcolo Differenziale (class)]]
 
 ---
-## Prop.  base
+## Proprietà
+
 Siano $\textcolor{orange}{f}$ e $\textcolor{orange}{g}$ funzioni continue:
 $$
 \begin{align}
@@ -28,17 +33,16 @@ $$
 $$
 ---
 ## Unione intervalli funzione
-- Unione tra intervalli (dominio della funzione)
 
-**Unione tra intervalli separati:**
-- Se $f$ è continua su $[a,b]$ e $[x,y]$ 
-- Allora $f$ è sicuramente continua su  $[a,b] \cup [x,y]$ se $b\not =x$
+Unione tra intervalli (dominio della funzione)
 
-**Unione tra intervalli uniti:**
-- Se $f$ è continua su $[a,b]$ e $[b,c]$ 
-- Allora $f$ è continua in $[a,b] \cup [b,c]$ soltanto se $\underset{n \to b^{-}}{\lim}{ f(x)}$ = $\underset{n \to b^{+}}{\lim}{ f(x)}$
+>[!note] Unione tra intervalli separati
+>- Se $f$ è continua su $[a,b]$ e $[x,y]$ 
+>- Allora $f$ è sicuramente continua su  $[a,b] \cup [x,y]$ se $b\not =x$
 
-**Esempio:**
-![[Screenshot 2023-12-06 at 17.10.55.png|800]]
+>[!note] Unione tra intervalli uniti
+>- Se $f$ è continua su $[a,b]$ e $[b,c]$ 
+>- Allora $f$ è continua in $[a,b] \cup [b,c]$ soltanto se $\underset{n \to b^{-}}{\lim}{ f(x)}$ = $\underset{n \to b^{+}}{\lim}{ f(x)}$
 
----
+>[!example] Esempio
+>![[Screenshot 2023-12-06 at 17.10.55.png|600]]

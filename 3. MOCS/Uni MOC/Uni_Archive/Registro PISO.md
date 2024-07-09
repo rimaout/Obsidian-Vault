@@ -8,13 +8,17 @@ related:
   - "[[Registri]]"
   - "[[Shift Registers]]"
 completed: true
-updated: 2024-05-27T13:29
+updated: 2024-07-09T11:27
 ---
----
-## Index
-1. [[#PISO Right Shift Register]]
-2. [[#PISO Left Shift Register]]
-3. [[#PISO Bidirectional Shift Register]]
+>[!abstract] Indice
+>1. [[#PISO Right Shift Register]]
+>2. [[#PISO Left Shift Register]]
+>3. [[#PISO Bidirectional Shift Register]]
+
+>[!abstract] Related
+>- [[Flip Flop]]
+>- [[Circuiti sequenziali]]
+>- [[Progettazione Sistemi Digitali (class)]]
 
 ---
 ## PISO Right Shift Register 
@@ -22,10 +26,12 @@ updated: 2024-05-27T13:29
 >[!warning] Circuito
 >![[Pasted image 20240208104401.png|650]]
 >
->$$  Load\text{/}\overline{Shift} = \begin{cases}
+>$$  
+>Load\text{/}\overline{Shift} = \begin{cases}
 >1 \to \text{ Load} \\
 >0 \to \text{ Shift}
->\end{cases} $$
+>\end{cases}
+>$$
 
 ---
 ## PISO Left Shift Register 
@@ -33,15 +39,15 @@ updated: 2024-05-27T13:29
 >[!warning] Circuito
 >![[Pasted image 20240208104155.png|700]]
 >
->$$  Load\text{/}\overline{Shift} = \begin{cases}
+>$$
+>Load\text{/}\overline{Shift} = \begin{cases}
 >1 \to \text{ Load} \\
 >0 \to \text{ Shift}
->\end{cases} $$
+>\end{cases}
+>$$
 
 ---
 ## PISO Bidirectional Shift Register
 
 >[!warning] Circuito
 >![[Pasted image 20240209114736.png|700]]
-
----

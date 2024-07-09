@@ -9,7 +9,7 @@ related:
   - "[[Circuiti sequenziali]]"
   - "[[Flip Flop JK]]"
 completed: true
-updated: 2024-06-28T00:49
+updated: 2024-07-09T11:15
 ---
 >[!abstract] Index
 >1. [[#Introduzione]]
@@ -35,13 +35,13 @@ Il **FF Toggle** è un circuito [[Circuiti sequenziali|sequenziale]], [[Circuiti
 >Il **Flip Flop Toggle** ha soltanto due  *memorizzazione* e *toggle*, dome memorizzazione mantiene 
 
 >[!warning] Tabelle di verità
-![[Pasted image 20240205201326.png|300]]
+>![[Pasted image 20240205201326.png|300]]
 >
->**oss:** y = y(y) e Y = y(t+1)
+>>**oss:** y = y(y) e Y = y(t+1)
 
 >[!warning] Formula
-$Y = \overline{R} \cdot (S+y)$
+>$Y = \overline{R} \cdot (S+y)$
 >- y = y(t)
 >- Y = y(t+1)
 >
->**oss:** Formula FF SR =  [[Latch SR#Formula|Formula Latch SR]]
+>>**oss:** Formula FF SR =  [[Latch SR#Formula|Formula Latch SR]]

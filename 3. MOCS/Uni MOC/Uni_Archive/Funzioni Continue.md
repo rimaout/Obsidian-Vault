@@ -8,7 +8,7 @@ related:
   - "[[Funzioni]]"
   - "[[Operazioni tra funzioni continue]]"
 completed: true
-updated: 2024-06-28T15:15
+updated: 2024-06-29T13:27
 ---
 
 >[!abstract] Index
@@ -43,7 +43,7 @@ Una funzione $f:[a,b]\to \mathbb{R}$  si dice **continua** in $[a,b]$ se è cont
 ---
 ## Calcolare se funzione è continua in un punto
 
->[!def] Definition:
+>[!def] Definizione
 > f è continua in $x_{0}$ se esiste sia limite destro che sinistro e sono coincidenti 
 >$$
 >\begin{align}
@@ -53,7 +53,7 @@ Una funzione $f:[a,b]\to \mathbb{R}$  si dice **continua** in $[a,b]$ se è cont
 >\end{align}
 >$$
 
->[!example] Example 1:
+>[!example] Esempio 1
 >$$f(x)=\begin{cases}
 >3x+2 &x\geq 0 \\
 >\frac{sen(2x)}{x} & x<0
@@ -67,7 +67,7 @@ Una funzione $f:[a,b]\to \mathbb{R}$  si dice **continua** in $[a,b]$ se è cont
 >
 >Quindi $f$ è continua in $x_{0}=0$
 
->[!example] Example2:
+>[!example] Esempio 2
 >$$f(x)=\begin{cases}
 > \frac{e^{3x}-1}{x} &x\geq 0 \\
 > a &x = 0 \\
@@ -89,12 +89,10 @@ Se $b^{2}=3$
 ---
 ## Calcolare se funzione è continua in un intervallo
 
-
->[!def] Definition:
+>[!def] Definizione
 > $f[a,b]\to \mathbb{R}$ è continua in $[a,b]$ se f è continua in $x_{0},\ \forall x_{0}\in [a,b]$
 
-
->[!example] Example 1:
+>[!example] Esempio
 >Determinare $a, b\in\mathbb{R}$ tali che $f(x)$ sia continua in $\mathbb{R}$
 >
 >$$f(x)=

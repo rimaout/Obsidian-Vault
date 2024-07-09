@@ -4,30 +4,40 @@
     "type": "split",
     "children": [
       {
-        "id": "5ede1e3b850f9096",
+        "id": "056671c3bb8a241b",
         "type": "tabs",
         "children": [
           {
-            "id": "7006fcbcb07b4fc0",
+            "id": "e97ffa03d45616bd",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
+                "file": "3. MOCS/Tech MOC/Tech MOC.md",
                 "mode": "source",
                 "source": false
-              },
-              "pinned": true
+              }
             }
           },
           {
-            "id": "ebd959604f7e7936",
+            "id": "642a5966eaae6c6f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Limiti.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Registri.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d95f0f14ab8b66e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Flip Flop JK.md",
                 "mode": "source",
                 "source": false
               }
@@ -63,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "java",
+                "query": "bit di segno",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -88,11 +98,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 246.5
+    "width": 360.5
   },
   "right": {
     "id": "1599d9a7234429ed",
@@ -103,6 +114,35 @@
         "type": "tabs",
         "dimension": 35.19736842105263,
         "children": [
+          {
+            "id": "f96f6d8092dbcb18",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Registri.md",
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d57d9880445751cf",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Registri.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
           {
             "id": "73d6fce2365a09ef",
             "type": "leaf",
@@ -115,36 +155,17 @@
             }
           },
           {
-            "id": "734f0b87ccb39174",
+            "id": "55d2dfc580205f70",
             "type": "leaf",
             "state": {
-              "type": "backlink",
+              "type": "outline",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Limiti.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Registri.md"
               }
             }
           },
           {
-            "id": "1899c835ee03ed03",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Limiti.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "c9dd3a742136f31e",
+            "id": "e0c1c70f5b07b717",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -156,17 +177,31 @@
             }
           },
           {
-            "id": "b5486e50ab568cef",
+            "id": "cac60df207efa5a4",
             "type": "leaf",
             "state": {
-              "type": "outline",
-              "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Limiti.md"
-              }
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "1cfc5dd77c657d61",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "5bcdee51916718ac",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-chat-view",
+              "state": {}
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       },
       {
         "id": "0ee4f1dd2040ea54",
@@ -176,13 +211,15 @@
           {
             "id": "08bb0d9d4b18b672",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "To-Do/To-Do.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "pinned": true
             }
           },
           {
@@ -191,7 +228,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Limiti.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Registri.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -220,7 +257,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -240,46 +278,46 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "ebd959604f7e7936",
+  "active": "642a5966eaae6c6f",
   "lastOpenFiles": [
-    "3. MOCS/Uni MOC/Uni_Archive/Forme Indeterminate dei Limiti.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Limiti.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Limiti notevoli di Successioni-->0.md",
-    "3. MOCS/Uni MOC/Uni_Classes/Calcolo Differenziale (class).md",
-    "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Limiti Notevoli.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Definizione Limiti di Funzioni.md",
-    "To-Do/Limiti di successioni.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Successioni Monotone.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Successioni Reali.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Definizione Successione Reale.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Funzioni.md",
-    "3. MOCS/Uni MOC/Uni_Storage/IMG_5B14E841FDE1-1.jpeg",
-    "3. MOCS/Uni MOC/Uni_Archive/Definizione Successione infinitesima.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Successioni limitate e illimitate.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Algebra dei limiti.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Asintoti.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Studio di Funzione.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Massimi e Minimi di una funzione.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Cardinalità ed equipollenza, insiemi finiti ed infiniti, numerabili ed innumerabili.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Operazioni tra insiemi numerabili e innumerabili.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Funzione d'identità.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Funzioni Continue.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Funzioni Pari, Dispari e Periodiche.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Funzioni Monotone.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Funzioni Composte.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Funzioni Invertibili.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Registro Universale.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Registri.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Registro PIPO.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Registro PISO.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Registro SIPO.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Registro SISO.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Registri a Rotazione.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Shift Registers.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Caricamento Registri Seriale.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Caricamento Registri Parallelo.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Circuiti sequenziali.md",
+    "3. MOCS/Uni MOC/Uni_Classes/Progettazione Sistemi Digitali (class).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Codifica complemento a due (CA2).md",
+    "3. MOCS/Tech MOC/Tech MOC.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Flip Flop JK.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Flip Flop.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Flip FLop Toggle.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Sistema di numerazione binario.md",
+    "2. Litterateur Notes/High School/High School Storage/9a90fa029440712126031e16236f7991a66832dd.png",
+    "2. Litterateur Notes/High School/High School Storage/7148447_orig.gif",
+    "2. Litterateur Notes/High School/High School Storage/autov.jpg",
+    "2. Litterateur Notes/High School/High School Storage/Cattura.png",
+    "2. Litterateur Notes/High School/High School Storage/download.jpeg",
+    "2. Litterateur Notes/High School/High School Storage/funzionamento-sensore-hcsr04.gif",
+    "2. Litterateur Notes/High School/High School Storage/HC-05-Bluetooth-Module-Pinout-Datasheet-Features-Applications-2.jpg",
+    "3. MOCS/Uni MOC/Uni_Storage/IMG_5D6532D13598-1.jpeg",
+    "3. MOCS/Uni MOC/Uni_Storage/IMG_014F169AAD4F-1.jpeg",
+    "3. MOCS/Uni MOC/Uni_Storage/IMG_426888D244DD-1.jpeg",
+    "2. Litterateur Notes/High School/High School.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Jekyll Installation.md",
+    "To-Do/Jekyll.md",
+    "3. MOCS/Tech MOC/Tech_Archive/Quartz Setup.md",
+    "3. MOCS/Tech MOC/Tech_Archive/Mac Setup.md",
+    "3. MOCS/Tech MOC/Tech_Archive/Sketchybar.md",
+    "3. MOCS/Tech MOC/Tech_Archive/Git.md",
+    "3. MOCS/Tech MOC/Tech_Archive/SSH Key Github.md",
     "3. MOCS/Uni MOC/Uni_Storage/Appunti generali trigonometria.pdf",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240625181814.png",
-    "2. Litterateur Notes/High School/High School Storage/IMG_339D24B9A787-1.jpeg",
-    "3. MOCS/Uni MOC/Uni_Storage/IMG_CDE68450D36A-1.jpeg",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240625121324.png",
-    "3. MOCS/Uni MOC/Uni_Storage/IMG_0470F6AFCE6A-1.jpeg",
     "3. MOCS/Uni MOC/Uni_Storage/Progettazione sistemi digitali appunti completi Giada.pdf",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240612165626.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240526213718.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240526205817.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240526171014.png",
     "Storage/Backend/Product usage analysis",
     "Categories/Products",
     "Storage/Backend/My Resonance Calendar",

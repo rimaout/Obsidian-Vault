@@ -3,13 +3,6 @@
     "aliases": "aliases",
     "cssclasses": "multitext",
     "tags": "tags",
-    "Academic Year": "text",
-    "Completed": "checkbox",
-    "Created": "date",
-    "Programming Language": "text",
-    "Class": "multitext",
-    "Related": "multitext",
-    "sitefix": "text",
     "excalidraw-plugin": "text",
     "excalidraw-export-transparent": "checkbox",
     "excalidraw-mask": "checkbox",
@@ -28,14 +21,7 @@
     "excalidraw-border-color": "text",
     "excalidraw-css": "text",
     "excalidraw-autoexport": "text",
-    "excalidraw-iframe-theme": "text",
-    "excalidraw-open-md": "checkbox",
-    "acquired": "date",
     "excalidraw-embeddable-theme": "text",
-    "stoped using": "date",
-    "manually count": "number",
-    "stoped-using": "date",
-    "manual-count": "checkbox",
-    "uses": "number"
+    "excalidraw-open-md": "checkbox"
   }
 }

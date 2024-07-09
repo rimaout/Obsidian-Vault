@@ -7,27 +7,36 @@ academic year: 2023/2024
 related:
   - "[[Funzioni Continue]]"
 completed: true
-updated: 2024-05-27T13:29
+updated: 2024-06-29T13:35
 ---
----
-## Index
-1. [[#Enunciato]]
-2. [[#Dimostrazione]]
+
+>[!abstract] Index
+>1. [[#Teorema]]
+>2. [[#Dimostrazione]]
+
+>[!abstract] Related
+>- [[Funzioni Continue]]
+>- [[Funzioni]]
+>- [[Calcolo Differenziale (class)]]
 
 ---
-## Enunciato 
-- Sia: 
-	- $f: [a,b] \to \mathbb{R}$ continua in  $[a,b]$
-	- $f(a)>0$, $f(b)<0$ ( o viceversa)
+## Teorema
 
-- Allora: 
-	- $\exists c \in(a,b)\ t.c.\ \boxed{f(c)=0}$
+>[!note] Enunciato
+>Sia: 
+>- $f: [a,b] \to \mathbb{R}$ continua in  $[a,b]$
+>- $f(a)>0$, $f(b)<0$ ( o viceversa)
+>
+>Allora: 
+>- $\exists c \in(a,b)\ t.c.\ \boxed{f(c)=0}$
 
-![[Screenshot 2023-12-06 at 18.52.46.png|600]]
-![[Screenshot 2023-12-06 at 18.53.54.png|600]]
+>[!warning] Grafico
+>![[Screenshot 2023-12-06 at 18.52.46.png|500]]
+>![[Screenshot 2023-12-06 at 18.53.54.png|600]]
 
 ---
 ## Dimostrazione
+
 - $f(a)<0$
 - $f(b)>0$
 
@@ -42,6 +51,4 @@ updated: 2024-05-27T13:29
 	3. $f(c) = 0$:
 		- trovato 
 
-**oss:** questa dimostrazione è un algoritmo 
-
----
+>**oss:** questa dimostrazione è un algoritmo 

@@ -6,7 +6,7 @@ class:
 related:
   - "[[Limiti]]"
 completed: true
-updated: 2024-06-28T15:39
+updated: 2024-06-28T23:32
 ---
 
 >[!abstract] Index
@@ -16,8 +16,7 @@ updated: 2024-06-28T15:39
 >4. [[#Asintoto Obliquo]]
 
 >[!abstract] Related
->- [[Funzioni]]
->- [[Matematica 0 (class)]] 
+>- [[Limiti]]
 >- [[Calcolo Differenziale (class)]]
 
 ---
@@ -40,12 +39,13 @@ Un **asintoto** è una qualsiasi retta che approssima il grafico di una funzione
 ---
 ## Asintoto Orizzontale
 
-![[Screenshot 2023-05-21 at 11.43.39.png]]
+![[Screenshot 2023-05-21 at 11.43.39.png|900]]
 
 >[!note] Caratteristiche
->1. Una funzione può avere *massimo due asintoti* verticali diversi 
->2. Asintoto orizzontale può *intersecarsi con gli assi cartesiani* 
->  $$
+>1. Una funzione può avere **massimo due asintoti** verticali diversi 
+>2. Asintoto orizzontale può **intersecarsi con gli assi cartesiani** 
+>
+>$$
 >\text{Formula per torvare punti di intersezione: } \begin{cases}y=f(x) \\ y= \ell
 >\end{cases}
 >$$

@@ -8,16 +8,20 @@ related:
   - "[[Limiti]]"
   - "[[Formula di Taylor]]"
 completed: true
-updated: 2024-05-27T13:29
+updated: 2024-06-29T13:13
 ---
----
-## Index
-1. [[#^ae71f1|Definition]]
-2. [[#^04b53d|Example]]
-3. [[#^8e2aa2|Property]]
+
+>[!abstract] Index
+>1. [[#Definizione (libro)]]
+>2. [[#Definizione (Prof. Orsina)]]
+>3. [[#Proprietà]]
+
+>[!abstract] Related
+>- [[Limiti]]
+>- [[Calcolo Differenziale (class)]]
 
 ---
-## Definizione
+## Definizione (libro)
 
 $$
 \begin{align}
@@ -28,19 +32,19 @@ $$
 \end{align}
 $$
 
-**Intuitivamente:**
-- *f(x) è un o piccolo di di g(x)*  per $x\to x_{0}$ è equivalente a dire che:
-- *f(x) è infinitamente più piccola, rispetto a g(x)*, quando $x\to x_{0}$
+>[!warning] Intuitivamente
+>- *f(x) è un o piccolo di di g(x)*  per $x\to x_{0}$ è equivalente a dire che:
+>- *f(x) è infinitamente più piccola, rispetto a g(x)*, quando $x\to x_{0}$
 
-
-## Definizione Orsina
+---
+## Definizione (Prof. Orsina)
 
 >[!Def] Def: O piccolo 
 > Si dice $o(h^n)$ ($n\in\mathbb{N}$) \[si legge o piccolo di h\] una qualsiasi quantità tale che:
 > $$\lim_{ h \to o } \frac{o(h)}{h}= 0 $$
 ^ae71f1
 
->[!example] Example:
+>[!example] Esempi
 >1. $h^{2}$ *è* $o(h)$
 >	- dim: $\lim_{ h \to 0 } \frac{h^{2}}{h}=\lim_{ h \to 0}h=0$
 >2. $h^{2}$ *non è* $o(h^{2})$
@@ -56,26 +60,24 @@ $$
 >	 
 ^04b53d
 
->[!def] Property:
+---
+## Proprietà
+
+>[!note] Proprietà
 >- $h^{k}\cdot o(h^{n})=o(h^{n+k})$
 >- $o(h^{k})\cdot o(h^{n})=o(h^{n+k})$
 >- $o(h^{n})\pm o(h^{n})=o(h^{n})$
 >- $M\cdot o(h^{n})=o(h^{n})\ \ \ \ M\in\mathbb{R}$
 ^8e2aa2
 
----
+>[!example] Esempio 1
+>$x^{3}=o(x^{2})$ vero o falso ?
+>- una quantità è $o(X^{2})$ se, dicidendola per $x^{2}$, e facendola tendere $x$ a zero, il limite vale zero
+>$$\lim_{ x \to o } \frac{x^{3}}{x^{2}}=\lim_{ x \to 0 } x=0$$
 
->[!example] Example:
->- $x^{3}=o(x^{2})$ vero o falso ?
->	- una quantità è $o(X^{2})$ se, dicidendola per $x^{2}$, e facendola tendere
->	$x$ a zero, il limite vale zero
->	$$\lim_{ x \to o } \frac{x^{3}}{x^{2}}=\lim_{ x \to 0 } x=0$$
-
->[!example] Example:
+>[!example] Esempio 2
 >$x^{3}=o(x^{3})?$
 >
 >$$
 >\lim_{ x \to 0 } =\lim_{ x \to 0 }
 >$$ 
-
----

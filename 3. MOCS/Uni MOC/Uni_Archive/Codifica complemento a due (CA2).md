@@ -10,7 +10,7 @@ related:
   - "[[Codifica modulo e segno (MS)]]"
   - "[[Sistema di numerazione binario]]"
 completed: true
-updated: 2024-06-26T21:38
+updated: 2024-07-09T11:14
 ---
 >[!abstract] Index
 >1. [[#Definizione]]
@@ -59,13 +59,13 @@ Il bit di segno è il bit più a sinistra (bit più significativo) della sequenz
 **oss:** La ***rappresentazione minima*** in complemento a 2 richiede sempre l'utilizzo di un bit in più rispetto alla rappresentazione in binario puro
 
 $$
-\begin{gather}
+\begin{gather*}
 & \text{Numero di bit necessari per rappresentazione:} \\
 & \\
 & \textcolor{orange}{[log_{2}N]+1}\\
 & \\
 &\text{ovvero parte intera superiore di }\log_{2}N +1
-\end{gather} 
+\end{gather*} 
 $$
 
 >[!warning] Esempio
@@ -81,11 +81,11 @@ $$ [2^{n-1},\ 0\ , 2^{n-1}-1]$$
 Quindi si possono rappresentare *2^n numeri*, di cui:
 
 $$ 
-\begin{align}
+\begin{align*}
 & - 2^{n-1} \ \ negativi \\
 & - 2^{n-1}-1 \ \ positivi \\
 & - uno \ \ 0
-\end{align}
+\end{align*}
 $$
 
 >[!warning] Osservazioni

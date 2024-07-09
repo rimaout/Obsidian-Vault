@@ -8,27 +8,32 @@ related:
   - "[[Registri]]"
   - "[[Caricamento Registri Seriale]]"
 completed: true
-updated: 2024-05-27T13:29
+updated: 2024-07-09T11:23
 ---
----
-## Indice
-1. [[#Definizione]]
-2. [[#Right Shift Registers]]
-3. [[#Left Shift Registers]]
-4. [[#Bidirectional Shift Register]]
+>[!abstract] Indice
+>1. [[#Definizione]]
+>2. [[#Right Shift Registers]]
+>3. [[#Left Shift Registers]]
+>4. [[#Bidirectional Shift Register]]
+
+>[!abstract] Related
+>- [[Flip Flop]]
+>- [[Circuiti sequenziali]]
+>- [[Progettazione Sistemi Digitali (class)]]
 
 ---
 ## Definizione
+
 Uno **Shift register** è un insieme di [[Flip Flop]] in cascata dove l'output di un flip flop è l'input del flip flop successivo, questo permette ai dati di "shiftare" da una posizione alla successiva.
 
 Tutti i registri a [[Caricamento Registri Seriale|caricamento seriale]] sono di base shift register ma anche un registro a [[Caricamento Registri Parallelo|caricamento parallelo]], adattando il circuito, può essere uno shift register.
 
 Un registro a **caricamento parallelo** può è essere usato come shift register posizionando prima di ogni entrata dei [[Flip Flop]] un [[Circuito Multiplexer|MUX]] che permetta di selezionare l'entrata parallela (modalità load) o l'uscita del flip-flop precedente come entrata (modalità right shift register).
 
-Esistono Tre tipi di Shift registe:
-- [[#Right Shift Registers]]
-- [[#Left Shift Registers]]
-- [[#Bidirectional Shift Register]]
+>**Esistono Tre tipi di Shift registe:**
+>- [[#Right Shift Registers]]
+>- [[#Left Shift Registers]]
+>- [[#Bidirectional Shift Register]]
 
 ---
 ## Right Shift Registers
@@ -64,16 +69,15 @@ Esistono Tre tipi di Shift registe:
 >[!warning] Circuito
 >![[Pasted image 20240209114442.png|700]]
 >
->$$ \text{Shift} = \begin{cases}
+>$$ 
+>\text{Shift} = \begin{cases}
 >1 \to \text{Right Shift} \\
 >0 \to \text{Left Shift}
->\end{cases} $$
+>\end{cases}
+>$$
 
 >[!def] Other:
 >- [[Registro SISO#SISO Bidirectional Shift Register|SISO Bidirectional Shift Register]]
 >- [[Registro SIPO#SIPO Bidirectional Shift Register|SIPO Bidirectional Shift Register]]
 >- [[Registro PISO#PISO Bidirectional Shift Register|PISO Bidirectional Shift Register]]
 >- [[Registro PIPO#PIPO Bidirectional Shift Register|PIPO Bidirectional Shift Register]]
-
-
----

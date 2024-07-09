@@ -9,16 +9,23 @@ related:
   - "[[Limiti di successioni]]"
   - "[[Successioni limitate e illimitate]]"
 completed: false
-updated: 2024-05-27T13:29
+updated: 2024-06-28T20:57
 ---
+
+>[!abstract] Related
+>- [[Limiti]]
+>- [[Calcolo Differenziale (class)]]
+
 ---
-se: 
-- $n \to \infty$
-- $a_n$ è [[Successioni limitate e illimitate|limitata]]
-- $b_n \to 0$
 
-allora: $a_n \cdot b_n \to 0$
+>[!note] Prodotto
+>**Se: **
+>- $n \to \infty$
+>- $a_n$ è [[Successioni limitate e illimitate|limitata]]
+>- $b_n \to 0$
+>
+>**Allora:** $$a_n \cdot b_n \to 0$$
 
-**Esempio:**
-$$\lim_{ n \to \infty }{\frac{\sin(n)}{n}} = \lim_{ n \to \infty }{\sin(n) \cdot \frac{1}{n}}= 0$$
-infatti: $\sin(n)$ è limitata e $\frac{1}{n}-\to 0$ per $n\to \infty$
+>[!warning] Esempio
+>$$\lim_{ n \to \infty }{\frac{\sin(n)}{n}} = \lim_{ n \to \infty }{\sin(n) \cdot \frac{1}{n}}= 0$$
+>>**Infatti:** $\sin(n)$ è limitata e $\frac{1}{n}-\to 0$ per $n\to \infty$

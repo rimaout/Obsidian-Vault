@@ -8,53 +8,52 @@ related:
   - "[[Limiti]]"
   - "[[Limiti Notevoli]]"
 completed: true
-updated: 2024-05-27T13:29
+updated: 2024-06-28T20:55
 ---
----
-## Indice
-1. [[#Proprietà]]
-2. [[#Teoremi]]
+>[!abstract] Index
+>1. [[#Proprietà]]
+>2. [[#Teoremi]]
+
+>[!abstract] Related
+>- [[Limiti]]
+>- [[Calcolo Differenziale (class)]]
 
 ---
 ## Proprietà
-$se \ \ \textcolor{orange}{a_{n}\to 0}\ \text{ allora:}$
 
-1. $e^{a_{n}}-1\to 0$
-2. $\log_{e}(1+a_{n})\to 0$ 
-3. $sen(a_{n})\to 0$
-4. $tg(a_{n})\to 0$
-5. $arcsen(a_{n})\to 0$
-6. $arctg(a_{n})\to 0$
-7. $1-cos(a_{n})\to 0$    *oss:* $cos(a_{n})\to 1$
+>[!note] Proprietà
+>$se \ \ \textcolor{orange}{a_{n}\to 0}\ \text{ allora:}$
+>1. $e^{a_{n}}-1\to 0$
+>2. $\log_{e}(1+a_{n})\to 0$ 
+>3. $sen(a_{n})\to 0$
+>4. $tg(a_{n})\to 0$
+>5. $arcsen(a_{n})\to 0$
+>6. $arctg(a_{n})\to 0$
+>7. $1-cos(a_{n})\to 0$    *oss:* $cos(a_{n})\to 1$
 
-**Quindi:**
-1. $e^{a_{n}}-1 \backsimeq a_{n}$
-2. $\log_{e}(1+a_{n})\backsimeq a_{n}$ 
-3. $sen(a_{n}) \backsimeq a_{n}$
-4. $tg(a_{n})\backsimeq a_{n}$
-5. $arcsen(a_{n})\backsimeq a_{n}$
-6. $arctg(a_{n})\backsimeq a_{n}$
-7. $1-cos(a_{n})\backsimeq \frac{{a_{n}}^2}{2}$ 
-
->[!warning] oss
->Se $a_{ n }\to 0$  $\implies$ $\log(1+a_{ n }) = a_{ n }$
+>[!warning] Quindi
+>1. $e^{a_{n}}-1 \backsimeq a_{n}$
+>2. $\log_{e}(1+a_{n})\backsimeq a_{n}$ 
+>3. $sen(a_{n}) \backsimeq a_{n}$
+>4. $tg(a_{n})\backsimeq a_{n}$
+>5. $arcsen(a_{n})\backsimeq a_{n}$
+>6. $arctg(a_{n})\backsimeq a_{n}$
+>7. $1-cos(a_{n})\backsimeq \frac{{a_{n}}^2}{2}$ 
 >
->Se $a_{ n } \to 1$ $\implies$ $\log(a_{ n }) = a_{ n }-1$
+>>Se $a_{ n }\to 0$  $\implies$ $\log(1+a_{ n }) = a_{ n }$
+>>Se $a_{ n } \to 1$ $\implies$ $\log(a_{ n }) = a_{ n }-1$
 
 ---
 ## Teoremi
 
->[!warning] Teorama1:
+>[!warning] Teorama1
 >$$\frac{\textcolor{orange}{prop}}{a_{n}}\to 1$$
->dove: 
->	- $a_{n}\to 0$
->	- *prop* = una delle 7 [[#Proprietà]] tranne $1-cos(a_{n})$
+>Dove: 
+>- $a_{n}\to 0$
+>- *prop* = una delle 7 [[#Proprietà]] tranne $1-cos(a_{n})$
 
->[!warning] Teorema2:
+>[!warning] Teorema2
 >$$\frac{{1-\cos(a_{n})}}{a_{n}}\to 0$$
 >$$\frac{{1-\cos(a_{n})}}{{a_{n}}^2}\to \frac{1}{2}$$
->dove: 
->	- $a_{n}\to 0$
-
----
-
+>Dove: 
+>- $a_{n}\to 0$

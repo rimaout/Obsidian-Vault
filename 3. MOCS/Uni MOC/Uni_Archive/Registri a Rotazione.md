@@ -8,17 +8,22 @@ related:
   - "[[Registri]]"
   - "[[Shift Registers]]"
 completed: true
-updated: 2024-05-27T13:29
+updated: 2024-07-09T11:24
 ---
----
-## Index
-1. [[#Definizione]]
-2. [[#Right Rotation]]
-3. [[#Left Rotation]]
-4. [[#Bidirectional Rotation]]
+>[!abstract] Indice
+>1. [[#Definizione]]
+>2. [[#Right Rotation]]
+>3. [[#Left Rotation]]
+>4. [[#Bidirectional Rotation]]
+
+>[!abstract] Related
+>- [[Flip Flop]]
+>- [[Circuiti sequenziali]]
+>- [[Progettazione Sistemi Digitali (class)]]
 
 ---
 ## Definizione
+
 I registri a rotazione (circolari) sono degli [[Shift Registers]] dove l'**uscita** dell'ultimo [[Flip Flop]] è collegato all'**entrata** del primo e **non è presente il serial input**.
 
 ---
@@ -39,10 +44,9 @@ I registri a rotazione (circolari) sono degli [[Shift Registers]] dove l'**uscit
 >[!warning] Circuito
 >![[Pasted image 20240209161303.png|700]]
 >
->$$\text{RR/RL} = \begin{cases}
+>$$
+>\text{RR/RL} = \begin{cases}
 > 1 \to \text{Rotate Right} \\
 > 0 \to \text{Rotate Left}
->\end{cases}$$
-
-
----
+>\end{cases}
+>$$
