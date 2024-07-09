@@ -7,7 +7,7 @@ academic year: 2023/2024
 related:
   - "[[Registri]]"
 completed: true
-updated: 2024-07-09T11:22
+updated: 2024-07-09T11:34
 ---
 >[!abstract] Indice
 >1. [[#Definizione]]
@@ -51,17 +51,24 @@ $$
 >**FF SR:**
 >
 >![[Pasted image 20240207115154.png|500]]
->$$ \text{Load} = \begin{cases}
+>
+>$$
+>\text{Load} = \begin{cases}
 >0 &\to S=0, R=0 \to \text{Memorizzazione} \\
 >1 &\to S=x, R=\overline{x} \to \text{Funzionamento FF D}
->\end{cases} $$
+>\end{cases}
+>$$
 >
 >**FF D:** 
+>
 >![[Pasted image 20240207121203.png|500]]
->$$ \text{Load} = \begin{cases}
+>
+>$$
+>\text{Load} = \begin{cases}
 >0 &\to D=y \to \text{Memorizzazione} \\
 >1 &\to S=x\to \text{Funzionamento FF D}
->\end{cases} $$
+>\end{cases}
+>$$
 ^d80083
 
 >[!warning] Load sul clock

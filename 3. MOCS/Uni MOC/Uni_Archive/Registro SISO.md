@@ -8,7 +8,7 @@ related:
   - "[[Registri]]"
   - "[[Shift Registers]]"
 completed: true
-updated: 2024-07-09T11:25
+updated: 2024-07-09T11:43
 ---
 >[!abstract] Indice
 >1. [[#SISO Right Shift Register]]
