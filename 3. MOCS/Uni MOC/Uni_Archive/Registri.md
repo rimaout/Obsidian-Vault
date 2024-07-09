@@ -7,14 +7,14 @@ academic year: 2023/2024
 related:
   - "[[Circuiti sequenziali]]"
 completed: true
-updated: 2024-07-09T11:41
+updated: 2024-07-09T11:45
 ---
 >[!abstract] Indice
 >1. [[#Introduzione]]
 >2. [[#Tipe e Caratteristiche]]
 
 >[!abstract] Related
->- [[Circuiti Sequenziali]]
+>- [[Circuiti sequenziali]]
 >- [[Progettazione Sistemi Digitali (class)]]
 
 ---

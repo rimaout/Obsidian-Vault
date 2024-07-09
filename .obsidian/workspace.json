@@ -4,47 +4,60 @@
     "type": "split",
     "children": [
       {
-        "id": "056671c3bb8a241b",
+        "id": "5ede1e3b850f9096",
         "type": "tabs",
         "children": [
           {
-            "id": "e97ffa03d45616bd",
+            "id": "7006fcbcb07b4fc0",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "1c4ca5672d6be758",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Tech MOC/Tech MOC.md",
+                "file": "3. MOCS/Programming MOC/Pro_Archive/Builder (Design Pattern).md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "642a5966eaae6c6f",
+            "id": "a3a0694500819877",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Registri.md",
+                "file": "3. MOCS/Programming MOC/Pro_Archive/Strategy (Design Pattern).md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "d95f0f14ab8b66e4",
+            "id": "338d14e44139aa7a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Flip Flop.md",
+                "file": "Storage/Backend/Product usage analysis/Product usage analysis.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -73,7 +86,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "bit di segno",
+                "query": "java",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -98,12 +111,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 360.5
+    "width": 246.5,
+    "collapsed": true
   },
   "right": {
     "id": "1599d9a7234429ed",
@@ -114,35 +127,6 @@
         "type": "tabs",
         "dimension": 35.19736842105263,
         "children": [
-          {
-            "id": "f96f6d8092dbcb18",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Registri.md",
-                "collapseAll": true,
-                "extraContext": true,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "d57d9880445751cf",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Registri.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
           {
             "id": "73d6fce2365a09ef",
             "type": "leaf",
@@ -155,17 +139,36 @@
             }
           },
           {
-            "id": "55d2dfc580205f70",
+            "id": "734f0b87ccb39174",
             "type": "leaf",
             "state": {
-              "type": "outline",
+              "type": "backlink",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Registri.md"
+                "file": "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
               }
             }
           },
           {
-            "id": "e0c1c70f5b07b717",
+            "id": "1899c835ee03ed03",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c9dd3a742136f31e",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -177,31 +180,17 @@
             }
           },
           {
-            "id": "cac60df207efa5a4",
+            "id": "b5486e50ab568cef",
             "type": "leaf",
             "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
-          },
-          {
-            "id": "1cfc5dd77c657d61",
-            "type": "leaf",
-            "state": {
-              "type": "smart-connections-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "5bcdee51916718ac",
-            "type": "leaf",
-            "state": {
-              "type": "smart-connections-chat-view",
-              "state": {}
+              "type": "outline",
+              "state": {
+                "file": "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md"
+              }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       },
       {
         "id": "0ee4f1dd2040ea54",
@@ -211,15 +200,13 @@
           {
             "id": "08bb0d9d4b18b672",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "To-Do/To-Do.md",
                 "mode": "source",
                 "source": false
-              },
-              "pinned": true
+              }
             }
           },
           {
@@ -228,7 +215,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Registri.md",
+                "file": "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -257,8 +244,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -278,26 +264,35 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "642a5966eaae6c6f",
+  "active": "7006fcbcb07b4fc0",
   "lastOpenFiles": [
-    "3. MOCS/Uni MOC/Uni_Archive/Registro SISO.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Registri.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Registro SIPO.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Caricamento Registri Parallelo.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Flip Flop.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Flip Flop JK.md",
+    "Storage/Backend/Product usage analysis/Product usage analysis.md",
+    "3. MOCS/Programming MOC/Pro_Archive/Strategy (Design Pattern).md",
+    "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
+    "3. MOCS/Programming MOC/Pro_Archive/Builder (Design Pattern).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Software Design Pattern.md",
+    "3. MOCS/Programming MOC/Pro_Archive/Singleton (Design Pattern).md",
+    "3. MOCS/Uni MOC/Uni_Classes/Programmazione Calcolatori (Class).md",
+    "3. MOCS/Uni MOC/Uni_Archive/L1 Programmazione dei Calcolatori (C Intro).md",
+    "3. MOCS/Uni MOC/Uni_Archive/L14 Programmazione dei Calcolatori (C Union).md",
+    "3. MOCS/Uni MOC/Uni_Archive/L13 Programmazione dei Calcolatori (C Multi Array).md",
+    "3. MOCS/Uni MOC/Uni_Archive/L12 Programmazione dei Calcolatori (C Dizionari).md",
+    "3. MOCS/Uni MOC/Uni_Archive/L11 Programmazione dei Calcolatori (C Dizionari).md",
+    "3. MOCS/Uni MOC/Uni_Archive/L10 Programmazione dei Calcolatori (C Linked Lists).md",
+    "3. MOCS/Uni MOC/Uni_Archive/L9 Programmazione dei Calcolatori (C Linked Lists).md",
+    "3. MOCS/Uni MOC/Uni_Archive/L8 Programmazione dei Calcolatori (C Linked Lists).md",
+    "3. MOCS/Uni MOC/Uni_Archive/L7 Programmazione dei Calcolatori (C Structures, Array  agnostico).md",
+    "3. MOCS/Uni MOC/Uni_Archive/L6 Programmazione dei Calcolatori (C array allocati dinamicamente).md",
+    "3. MOCS/Uni MOC/Uni_Archive/L5 Programmazione dei Calcolatori (C stringhe).md",
+    "3. MOCS/Uni MOC/Uni_Archive/L4 Programmazione dei Calcolatori (C malloc e free).md",
+    "3. MOCS/Uni MOC/Uni_Archive/L3 Programmazione dei Calcolatori (C array).md",
+    "3. MOCS/Uni MOC/Uni_Archive/L2 Programmazione dei Calcolatori (C Basi).md",
+    "3. MOCS/Uni MOC/Uni MOC.md",
     "3. MOCS/Tech MOC/Tech MOC.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Registro Universale.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Registro PIPO.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Registro PISO.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Registri a Rotazione.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Shift Registers.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Caricamento Registri Seriale.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Circuiti sequenziali.md",
+    "2. Litterateur Notes/High School/High School.md",
+    "To-Do/To-Do.md",
     "3. MOCS/Uni MOC/Uni_Classes/Progettazione Sistemi Digitali (class).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Codifica complemento a due (CA2).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Flip FLop Toggle.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Sistema di numerazione binario.md",
+    "To-Do/Circuiti s",
     "2. Litterateur Notes/High School/High School Storage/9a90fa029440712126031e16236f7991a66832dd.png",
     "2. Litterateur Notes/High School/High School Storage/7148447_orig.gif",
     "2. Litterateur Notes/High School/High School Storage/autov.jpg",
@@ -308,14 +303,6 @@
     "3. MOCS/Uni MOC/Uni_Storage/IMG_5D6532D13598-1.jpeg",
     "3. MOCS/Uni MOC/Uni_Storage/IMG_014F169AAD4F-1.jpeg",
     "3. MOCS/Uni MOC/Uni_Storage/IMG_426888D244DD-1.jpeg",
-    "2. Litterateur Notes/High School/High School.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Jekyll Installation.md",
-    "To-Do/Jekyll.md",
-    "3. MOCS/Tech MOC/Tech_Archive/Quartz Setup.md",
-    "3. MOCS/Tech MOC/Tech_Archive/Mac Setup.md",
-    "3. MOCS/Tech MOC/Tech_Archive/Sketchybar.md",
-    "3. MOCS/Tech MOC/Tech_Archive/Git.md",
-    "3. MOCS/Tech MOC/Tech_Archive/SSH Key Github.md",
     "3. MOCS/Uni MOC/Uni_Storage/Appunti generali trigonometria.pdf",
     "3. MOCS/Uni MOC/Uni_Storage/Progettazione sistemi digitali appunti completi Giada.pdf",
     "Storage/Backend/Product usage analysis",
@@ -325,7 +312,6 @@
     "Excalidraw",
     "3. MOCS/Uni MOC/Uni_Archive/QuikSortCost.pdf",
     "3. MOCS/Uni MOC/Uni_Archive/MIPS_Instruction_Set.pdf",
-    "3. MOCS/Programming MOC/Pro_Archive",
     "Buy List/Skin Care Buy List.canvas",
     "Buy List/Clothing Buy List.canvas",
     "Storage/Untitled.canvas",

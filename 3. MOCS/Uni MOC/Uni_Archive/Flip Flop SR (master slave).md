@@ -8,7 +8,7 @@ related:
   - "[[Latch]]"
   - "[[Flip Flop]]"
 completed: true
-updated: 2024-06-28T00:48
+updated: 2024-07-09T11:51
 ---
 >[!abstract] Index
 >1. [[#Introduzione]]
@@ -16,7 +16,7 @@ updated: 2024-06-28T00:48
 
 >[!abstract] Related
 >- [[Flip Flop]]
->- [[Circuiti Sequenziali]]
+>- [[Circuiti sequenziali]]
 >- [[Progettazione Sistemi Digitali (class)]]
 
 ---

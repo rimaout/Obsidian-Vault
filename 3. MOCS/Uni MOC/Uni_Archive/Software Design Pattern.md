@@ -6,7 +6,7 @@ class:
 academic year: 2023/2024
 related: 
 completed: false
-updated: 2024-06-17T11:46
+updated: 2024-07-09T15:38
 ---
 >[!abstract] Index
 >1. [[#Introduzione]]
@@ -71,9 +71,11 @@ I modelli possono essere categorizzati anche in base al loro scopo:
 
 >[!note] Creational Patterns
 > - [[Singleton (Design Pattern)|Singleton]] 🟢
+> - [[Builder (Design Pattern)|Builder]] 🟢
 
 >[!note] Structural Patterns
 >- [[Decorator (Design Pattern)|Decorator]] 🔴
 
 >[!note] Behavioral Patterns
+>- [[Strategy (Design Pattern)|Strategy]] 🔴
 >- [[Observer (Design Pattern)|Observer]] 🔴

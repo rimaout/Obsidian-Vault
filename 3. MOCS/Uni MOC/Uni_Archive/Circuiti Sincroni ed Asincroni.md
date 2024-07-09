@@ -7,13 +7,13 @@ academic year: 2023/2024
 related:
   - "[[Circuiti sequenziali]]"
 completed: true
-updated: 2024-06-28T00:26
+updated: 2024-07-09T11:48
 ---
 ---
 
 >[!abstract] Related
->- [[Circuiti Sequenziali]]
->- [](Circuiti%20sequenziali.md)Digitali (class)]]
+>- [[Circuiti sequenziali]]
+>- [[Progettazione Sistemi Digitali (class)]]
 
 ---
 ## Circuiti Sincroni

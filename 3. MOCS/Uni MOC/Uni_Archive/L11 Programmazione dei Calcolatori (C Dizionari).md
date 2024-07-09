@@ -1,3 +1,7 @@
+---
+created: 2023-04-26T19:54
+updated: 2024-07-09T12:06
+---
 Academic Year: 2022-2023
 Class: [[Programmazione Calcolatori (Class)]]
 Created: March 12, 2023
@@ -146,4 +150,4 @@ oss: [[C strcmp Funcion]] confronta due stringhe
 
 ```
 
-**Continuo:** [[L37 Programmazione dei Calcolatori (C Dizionari)]]
+**Continuo:** [[L12 Programmazione dei Calcolatori (C Dizionari)]]

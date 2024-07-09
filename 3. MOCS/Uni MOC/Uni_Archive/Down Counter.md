@@ -7,11 +7,11 @@ academic year: 2023/2024
 related:
   - "[[Contatori]]"
 completed: false
-updated: 2024-06-28T00:55
+updated: 2024-07-09T11:48
 ---
 >[!abstract] Related
 >- [[Contatori]]
->- [[Circuiti Sequenziali]]
+>- [[Circuiti sequenziali]]
 >- [[Progettazione Sistemi Digitali (class)]]
 
 ---

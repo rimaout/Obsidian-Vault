@@ -9,7 +9,7 @@ related:
   - "[[Circuiti sequenziali]]"
   - "[[Flip Flop JK]]"
 completed: true
-updated: 2024-07-09T11:15
+updated: 2024-07-09T11:50
 ---
 >[!abstract] Index
 >1. [[#Introduzione]]
@@ -17,7 +17,7 @@ updated: 2024-07-09T11:15
 
 >[!abstract] Related
 >- [[Flip Flop]]
->- [[Circuiti Sequenziali]]
+>- [[Circuiti sequenziali]]
 >- [[Progettazione Sistemi Digitali (class)]]
 
 ---

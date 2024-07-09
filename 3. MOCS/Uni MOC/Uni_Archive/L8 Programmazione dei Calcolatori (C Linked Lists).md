@@ -1,10 +1,14 @@
+---
+created: 2023-05-31T11:20
+updated: 2024-07-09T12:06
+---
 Academic Year: 2022-2023
 Class: [[Programmazione Calcolatori (Class)]]
 Created: March 12, 2023
 Tag: [[C MOC]]
 Type: #Uni/Lecture 
 
-**Lezione precedente:** [[L32 Programmazione dei Calcolatori (C Structures, Array  agnostico)]]
+**Lezione precedente:** [[L7 Programmazione dei Calcolatori (C Structures, Array  agnostico)]]
 
 ---
 ## Lista Concatenata 
@@ -17,4 +21,4 @@ Type: #Uni/Lecture
 
 ![[Pasted image 20230412142001.png]]
 
-**continue ---> [[L34 Programmazione dei Calcolatori (C Linked Lists)]]
+**continue ---> [[L9 Programmazione dei Calcolatori (C Linked Lists)]]

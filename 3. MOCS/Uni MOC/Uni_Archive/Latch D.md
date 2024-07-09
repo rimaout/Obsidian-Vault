@@ -8,7 +8,7 @@ related:
   - "[[Circuiti sequenziali]]"
   - "[[Latch SR]]"
 completed: true
-updated: 2024-06-28T00:26
+updated: 2024-07-09T11:52
 ---
 >[!abstract] Index
 >1. [[#Definizione]]
@@ -16,8 +16,8 @@ updated: 2024-06-28T00:26
 
 >[!abstract] Related
 >- [[Latch]]
->- [[Circuiti Sequenziali]]
->- [](Circuiti%20sequenziali.md)Digitali (class)]]
+>- [[Circuiti sequenziali]]
+>- [[Progettazione Sistemi Digitali (class)]]
 
 ---
 ## Definizione

@@ -283,12 +283,8 @@
                 "id": "b94aa58f89047202",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Circuiti Combinatori.md",
-                    "mode": "source",
-                    "source": false
-                  }
+                  "type": "empty",
+                  "state": {}
                 }
               }
             ],
@@ -527,7 +523,7 @@
         }
       },
       "active": "bbd0da418cb288fd",
-      "mtime": "2024-06-14T17:03:45+02:00"
+      "mtime": "2024-07-09T12:04:01+02:00"
     },
     "Calcolo Integrale": {
       "main": {
@@ -1094,11 +1090,40 @@
                 "id": "e97ffa03d45616bd",
                 "type": "leaf",
                 "state": {
-                  "type": "empty",
-                  "state": {}
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Tech MOC/Tech MOC.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "642a5966eaae6c6f",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Procedimento di Analisi e Sintesi degli Automi.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "d95f0f14ab8b66e4",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Flip Flop.md",
+                    "mode": "source",
+                    "source": false
+                  }
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -1127,7 +1152,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "",
+                    "query": "Sequenziali",
                     "matchingCase": true,
                     "explainSearch": true,
                     "collapseAll": true,
@@ -1152,7 +1177,8 @@
                   "state": {}
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "horizontal",
@@ -1173,6 +1199,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Procedimento di Analisi e Sintesi degli Automi.md",
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "alphabetical",
@@ -1189,6 +1216,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Procedimento di Analisi e Sintesi degli Automi.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1210,7 +1238,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "outline",
-                  "state": {}
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Procedimento di Analisi e Sintesi degli Automi.md"
+                  }
                 }
               },
               {
@@ -1277,6 +1307,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Procedimento di Analisi e Sintesi degli Automi.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -1326,9 +1357,9 @@
           "markdown-importer:Open format converter": false
         }
       },
-      "active": "e97ffa03d45616bd",
-      "mtime": "2024-06-01T12:14:08+02:00"
+      "active": "642a5966eaae6c6f",
+      "mtime": "2024-07-09T12:03:59+02:00"
     }
   },
-  "active": "Default"
+  "active": "Metodologie di Programmazione"
 }

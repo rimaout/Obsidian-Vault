@@ -9,10 +9,10 @@ related:
   - "[[Circuiti sequenziali]]"
   - "[[Automi e Reti Sequenziali]]"
 completed: false
-updated: 2024-06-28T00:58
+updated: 2024-07-09T11:49
 ---
 >[!abstract] Related
->- [[Circuiti Sequenziali]]
+>- [[Circuiti sequenziali]]
 >- [[Progettazione Sistemi Digitali (class)]]
 
 🏗️ -- Da Finire -- 🏗️

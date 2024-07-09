@@ -1,3 +1,7 @@
+---
+created: 2023-05-02T14:29
+updated: 2024-07-09T12:06
+---
 Academic Year: 2022-2023
 Class: [[Programmazione Calcolatori (Class)]]
 Created: March 13, 2023
@@ -5,7 +9,7 @@ Tag: [[C MOC]], [[Python Dictionaries in C]]
 Type: #Uni/Lecture 
 
 ---
-**Lezione Precedente:** [[L36 Programmazione dei Calcolatori (C Dizionari)]]
+**Lezione Precedente:** [[L11 Programmazione dei Calcolatori (C Dizionari)]]
 
 
 ## Implementazione  dizionari in C stile python

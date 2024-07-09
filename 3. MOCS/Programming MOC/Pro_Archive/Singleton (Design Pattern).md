@@ -6,7 +6,7 @@ related:
   - "[[Metodologie di Programmazione (class)]]"
 completed: true
 created: 2024-06-16T16:49
-updated: 2024-06-17T16:15
+updated: 2024-07-09T12:12
 ---
 >[!abstract] Related
 >- [[Software Design Pattern]]

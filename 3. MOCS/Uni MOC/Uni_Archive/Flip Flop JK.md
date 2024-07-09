@@ -9,7 +9,7 @@ related:
   - "[[Latch]]"
   - "[[Flip Flop SR (master slave)]]"
 completed: true
-updated: 2024-07-09T11:16
+updated: 2024-07-09T11:50
 ---
 >[!abstract] Index
 >1. [[#Introduzione]]
@@ -17,7 +17,7 @@ updated: 2024-07-09T11:16
 
 >[!abstract] Related
 >- [[Flip Flop]]
->- [[Circuiti Sequenziali]]
+>- [[Circuiti sequenziali]]
 >- [[Progettazione Sistemi Digitali (class)]]
 
 ---

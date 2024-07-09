@@ -1,3 +1,7 @@
+---
+created: 2023-04-13T11:03
+updated: 2024-07-09T12:06
+---
 Academic Year: 2022-2023
 Class: [[Programmazione Calcolatori (Class)]]
 Created: March 12, 2023
@@ -5,7 +9,7 @@ Tag: [[C MOC]]
 Type: #Uni/Lecture 
 
 ---
-**Info utili precedenti:** [[L33 Programmazione dei Calcolatori (C Linked Lists)]]
+**Info utili precedenti:** [[L8 Programmazione dei Calcolatori (C Linked Lists)]]
 
 ## Node Search
 ```c

@@ -1,24 +1,24 @@
 ---
 created: 2024-05-24T21:38
-updated: 2024-05-31T21:38
+updated: 2024-07-09T22:06
 ---
 
 Welcome to my Product Usage Analysis, the purpose of this analysis is to guide me towards more intentional buying, particularly in finding products that strike a good balance between price and durability. The ultimate goal is to reach a cost per use of $0.00, indicating maximum value derived from the product.
 
 It's a tool I use to make more informed decisions about future purchases, and I hope it can provide some insights for you as well.
 
-This project was inspired by [Steph Ango](https://stephango.com/about), particularly by his [Buy Wisely](https://stephango.com/buy-wisely) post.
+>This project was inspired by [Steph Ango](https://stephango.com/about), particularly by his [Buy Wisely](https://stephango.com/buy-wisely) post.
 
 <!-- QueryToSerialize: table without id name as Product, "$" + round(price/(monthly-uses*((date(today) - acquired).months)),2) as "Cost per use", monthly-uses as "Uses per month", dateformat(acquired, "yyyy-MM") as Acquired, round((date(today) - acquired).months,1) as "Months", "$" + string(round(price, 2)) as Price, round(monthly-uses*((date(today) - acquired).months),0) as "Total uses",  product-category as "Product category" where monthly-uses > 0 and contains(type, [[Product usage analysis]]) and (discontinued = null or date(discontinued) > date(today)) sort round(price/(monthly-uses*((date(today) - acquired).months)),2) asc -->
 <!-- SerializedQuery: table without id name as Product, "$" + round(price/(monthly-uses*((date(today) - acquired).months)),2) as "Cost per use", monthly-uses as "Uses per month", dateformat(acquired, "yyyy-MM") as Acquired, round((date(today) - acquired).months,1) as "Months", "$" + string(round(price, 2)) as Price, round(monthly-uses*((date(today) - acquired).months),0) as "Total uses",  product-category as "Product category" where monthly-uses > 0 and contains(type, [[Product usage analysis]]) and (discontinued = null or date(discontinued) > date(today)) sort round(price/(monthly-uses*((date(today) - acquired).months)),2) asc -->
 | Product            | Cost per use | Uses per month | Acquired | Months | Price | Total uses | Product category |
 | ------------------ | ------------ | -------------- | -------- | ------ | ----- | ---------- | ---------------- |
-| Braun Alarm        | $0.02        | 30             | 2022-02  | 27.8   | $15   | 835        | Alarm            |
-| Moser Hair Trimmer | $0.17        | 8              | 2022-04  | 25.9   | $35   | 208        | Hair Trimmer     |
-| Xiaomi Mi Hybrid   | $0.34        | 20             | 2024-01  | 5      | $34   | 99         | Audio            |
-| inCharge XL        | $0.91        | 5              | 2023-10  | 7.5    | $34   | 38         | Charging Cable   |
-| AirUp              | $1.13        | 5              | 2023-05  | 12.4   | $70   | 62         | Water Bottle     |
-| Bottle Bottle      | $4.8         | 20             | 2024-05  | 0.3    | $24   | 5          | Water Bottle     |
+| Braun Alarm        | $0.02        | 30             | 2022-02  | 29     | $15   | 871        | Alarm            |
+| Moser Hair Trimmer | $0.16        | 8              | 2022-04  | 27.2   | $35   | 217        | Hair Trimmer     |
+| Xiaomi Mi Hybrid   | $0.28        | 20             | 2024-01  | 6.2    | $34   | 123        | Audio            |
+| inCharge XL        | $0.77        | 5              | 2023-10  | 8.8    | $34   | 44         | Charging Cable   |
+| Bottle Bottle      | $0.78        | 20             | 2024-05  | 1.5    | $24   | 31         | Water Bottle     |
+| AirUp              | $1.02        | 5              | 2023-05  | 13.7   | $70   | 68         | Water Bottle     |
 <!-- SerializedQuery END -->
 
 >**For analysis of rarely used products, see [Rarely Used Products Analysis](path/to/rarely-used-products.md).**
