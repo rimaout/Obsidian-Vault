@@ -22,19 +22,7 @@
             }
           },
           {
-            "id": "1c4ca5672d6be758",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Programming MOC/Pro_Archive/Builder (Design Pattern).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a3a0694500819877",
+            "id": "ec89c2179eae8cd5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -44,20 +32,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "338d14e44139aa7a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Storage/Backend/Product usage analysis/Product usage analysis.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "java",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -111,12 +88,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 246.5,
-    "collapsed": true
+    "width": 246.5
   },
   "right": {
     "id": "1599d9a7234429ed",
@@ -144,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
+                "file": "3. MOCS/Programming MOC/Pro_Archive/Strategy (Design Pattern).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
+                "file": "3. MOCS/Programming MOC/Pro_Archive/Strategy (Design Pattern).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md"
+                "file": "3. MOCS/Programming MOC/Pro_Archive/Strategy (Design Pattern).md"
               }
             }
           }
@@ -215,7 +192,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
+                "file": "3. MOCS/Programming MOC/Pro_Archive/Strategy (Design Pattern).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -264,11 +241,18 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "7006fcbcb07b4fc0",
+  "active": "ec89c2179eae8cd5",
   "lastOpenFiles": [
-    "Storage/Backend/Product usage analysis/Product usage analysis.md",
-    "3. MOCS/Programming MOC/Pro_Archive/Strategy (Design Pattern).md",
+    "3. MOCS/Programming MOC/Pro_Archive/umlstrategy.png",
     "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
+    "To-Do/To-Do.md",
+    "3. MOCS/Programming MOC/Pro_Archive/Strategy (Design Pattern).md",
+    "3. MOCS/Programming MOC/Pro_Archive/Stategt.drawio 1.html",
+    "3. MOCS/Programming MOC/Pro_Archive/Stategt.drawio.html",
+    "3. MOCS/Tech MOC/Tech MOC.md",
+    "3. MOCS/Programming MOC/Pro_Archive/How to add a new laguage to my NVIM configuration.md",
+    "To-Do/Nvim.md",
+    "Storage/Backend/Product usage analysis/Product usage analysis.md",
     "3. MOCS/Programming MOC/Pro_Archive/Builder (Design Pattern).md",
     "3. MOCS/Uni MOC/Uni_Archive/Software Design Pattern.md",
     "3. MOCS/Programming MOC/Pro_Archive/Singleton (Design Pattern).md",
@@ -287,11 +271,6 @@
     "3. MOCS/Uni MOC/Uni_Archive/L4 Programmazione dei Calcolatori (C malloc e free).md",
     "3. MOCS/Uni MOC/Uni_Archive/L3 Programmazione dei Calcolatori (C array).md",
     "3. MOCS/Uni MOC/Uni_Archive/L2 Programmazione dei Calcolatori (C Basi).md",
-    "3. MOCS/Uni MOC/Uni MOC.md",
-    "3. MOCS/Tech MOC/Tech MOC.md",
-    "2. Litterateur Notes/High School/High School.md",
-    "To-Do/To-Do.md",
-    "3. MOCS/Uni MOC/Uni_Classes/Progettazione Sistemi Digitali (class).md",
     "To-Do/Circuiti s",
     "2. Litterateur Notes/High School/High School Storage/9a90fa029440712126031e16236f7991a66832dd.png",
     "2. Litterateur Notes/High School/High School Storage/7148447_orig.gif",
@@ -310,8 +289,6 @@
     "Storage/Backend/My Resonance Calendar",
     "Storage/Backend",
     "Excalidraw",
-    "3. MOCS/Uni MOC/Uni_Archive/QuikSortCost.pdf",
-    "3. MOCS/Uni MOC/Uni_Archive/MIPS_Instruction_Set.pdf",
     "Buy List/Skin Care Buy List.canvas",
     "Buy List/Clothing Buy List.canvas",
     "Storage/Untitled.canvas",
