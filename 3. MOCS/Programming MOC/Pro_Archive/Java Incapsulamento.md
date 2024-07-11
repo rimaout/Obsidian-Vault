@@ -5,7 +5,7 @@ programming language: "[[Java MOC]]"
 related:
   - "[[Java OOP]]"
 completed: true
-updated: 2024-06-18T11:44
+updated: 2024-07-11T23:07
 ---
 >[!abstract] Index
 >1. [[#Come funziona l'incapsulamento]]
@@ -43,9 +43,7 @@ L'idea alla base dell'incapsulamento è quella di nascondere i dettagli di imple
 
 >[!info] Vantaggi
 >**1. Occultamento dell'implementazione:**
->- I dettagli di implementazione di un oggetto vengono nascosti, rendendo il codice più modulare e facile da manutenere.
->
->**2. Protezione dei dati:**
+>- I dettagli di implementazione di un oggetto vengono nascosti, rendendo il codice più modul[](Java%20Access%20Modifiers.md)ione dei dati:**
 >- I dati dell'oggetto sono protetti da modifiche accidentali o non autorizzate, garantendo l'integrità dei dati.
 >
 >**3. Riusabilità del codice:**

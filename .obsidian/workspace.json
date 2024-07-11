@@ -22,18 +22,43 @@
             }
           },
           {
-            "id": "6e5cea4d0ef74fc0",
+            "id": "d2ffd3b2598db7a8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Programming MOC/Pro_Archive/Strategy (Design Pattern).md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Rappresentazione Heap Stack Metaspace.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8ee05e7636d08eb3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. MOCS/Programming MOC/Pro_Archive/Java Incapsulamento.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "20322229329a90a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Java MOC.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -119,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Java MOC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Java MOC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md"
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Java MOC.md"
               }
             }
           }
@@ -190,7 +215,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Java MOC.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -239,12 +264,15 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "7006fcbcb07b4fc0",
+  "active": "20322229329a90a9",
   "lastOpenFiles": [
-    "3. MOCS/Programming MOC/Pro_Archive/Strategy (Design Pattern).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Software Design Pattern.md",
+    "3. MOCS/Programming MOC/Pro_Archive/Java Access Modifiers.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Java MOC.md",
     "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
     "3. MOCS/Uni MOC/Uni_Archive/Rappresentazione Heap Stack Metaspace.md",
+    "3. MOCS/Programming MOC/Pro_Archive/Java Incapsulamento.md",
+    "3. MOCS/Programming MOC/Pro_Archive/Strategy (Design Pattern).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Software Design Pattern.md",
     "To-Do/Nvim.md",
     "3. MOCS/Programming MOC/Pro_Archive/How to add a new laguage to my NVIM configuration.md",
     "3. MOCS/Programming MOC/Programming MOC.md",
@@ -267,9 +295,6 @@
     "3. MOCS/Uni MOC/Uni_Archive/L8 Programmazione dei Calcolatori (C Linked Lists).md",
     "3. MOCS/Uni MOC/Uni_Archive/L7 Programmazione dei Calcolatori (C Structures, Array  agnostico).md",
     "3. MOCS/Uni MOC/Uni_Archive/L6 Programmazione dei Calcolatori (C array allocati dinamicamente).md",
-    "3. MOCS/Uni MOC/Uni_Archive/L5 Programmazione dei Calcolatori (C stringhe).md",
-    "3. MOCS/Uni MOC/Uni_Archive/L4 Programmazione dei Calcolatori (C malloc e free).md",
-    "3. MOCS/Uni MOC/Uni_Archive/L3 Programmazione dei Calcolatori (C array).md",
     "To-Do/Circuiti s",
     "2. Litterateur Notes/High School/High School Storage/9a90fa029440712126031e16236f7991a66832dd.png",
     "2. Litterateur Notes/High School/High School Storage/7148447_orig.gif",
