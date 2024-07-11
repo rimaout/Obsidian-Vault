@@ -4,7 +4,7 @@ academic year: 2023/2024
 related:
   - "[[Java MOC]]"
 created: 2024-02-27T09:04
-updated: 2024-07-09T16:16
+updated: 2024-07-10T20:41
 ---
 ---
 
@@ -39,7 +39,7 @@ updated: 2024-07-09T16:16
 >- [[Software Design Pattern]]
 >- [[Rappresentazione Heap Stack Metaspace]]
 > 
->– Strategy Pattern
+>– Strategy Pattern 🟢
 >– Observer/Observable
 >– Command
 >– Iterator

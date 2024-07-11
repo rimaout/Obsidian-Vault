@@ -4,9 +4,9 @@ programming language: "[[Java MOC]]"
 related:
   - "[[Software Design Pattern]]"
   - "[[Metodologie di Programmazione (class)]]"
-completed: false
+completed: true
 created: 2024-07-09T15:38
-updated: 2024-07-10T19:31
+updated: 2024-07-11T23:02
 ---
 >[!abstract] Index
 >1. [[#Introduzione]]
@@ -47,6 +47,8 @@ Questo esempio consiste nell'implementazione dei metodi utilizzati per effettuar
 Partiamo da uno [[#Stato iniziale]] dove non viene applicato lo **Strategy Pattern**, 
 ### Stato iniziale
 
+^1cf337
+
 Partiamo dallo [[#Stato iniziale]] dove tutto è in unica classe, in questo caso questo metodo si occupa sia dei pagamenti via carta di credito che via PayPall.
 
 >[!note] Codice
@@ -80,6 +82,8 @@ Partiamo dallo [[#Stato iniziale]] dove tutto è in unica classe, in questo caso
 >- Non rispetta il [[Single Responsibility Principle]].
 
 ### Applicare Strategy Pattern
+
+Ora vediamo come risolvere i problemi dell'esempio [[#^1cf337|stato iniziale]] utilizzando lo Strategy Pattern.
 
 >[!danger] Soluzione
 >1. Definiremo un'interfaccia comune, `PaymentStrategy`, per tutti i metodi di pagamento.

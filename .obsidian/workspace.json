@@ -22,7 +22,7 @@
             }
           },
           {
-            "id": "ec89c2179eae8cd5",
+            "id": "6e5cea4d0ef74fc0",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -33,8 +33,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -88,8 +87,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -121,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. MOCS/Programming MOC/Pro_Archive/Strategy (Design Pattern).md",
+                "file": "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. MOCS/Programming MOC/Pro_Archive/Strategy (Design Pattern).md",
+                "file": "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. MOCS/Programming MOC/Pro_Archive/Strategy (Design Pattern).md"
+                "file": "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md"
               }
             }
           }
@@ -192,7 +190,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3. MOCS/Programming MOC/Pro_Archive/Strategy (Design Pattern).md",
+                "file": "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -241,20 +239,22 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "ec89c2179eae8cd5",
+  "active": "7006fcbcb07b4fc0",
   "lastOpenFiles": [
-    "3. MOCS/Programming MOC/Pro_Archive/umlstrategy.png",
-    "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
-    "To-Do/To-Do.md",
     "3. MOCS/Programming MOC/Pro_Archive/Strategy (Design Pattern).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Software Design Pattern.md",
+    "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Rappresentazione Heap Stack Metaspace.md",
+    "To-Do/Nvim.md",
+    "3. MOCS/Programming MOC/Pro_Archive/How to add a new laguage to my NVIM configuration.md",
+    "3. MOCS/Programming MOC/Programming MOC.md",
+    "To-Do/To-Do.md",
+    "3. MOCS/Programming MOC/Pro_Archive/umlstrategy.png",
     "3. MOCS/Programming MOC/Pro_Archive/Stategt.drawio 1.html",
     "3. MOCS/Programming MOC/Pro_Archive/Stategt.drawio.html",
     "3. MOCS/Tech MOC/Tech MOC.md",
-    "3. MOCS/Programming MOC/Pro_Archive/How to add a new laguage to my NVIM configuration.md",
-    "To-Do/Nvim.md",
     "Storage/Backend/Product usage analysis/Product usage analysis.md",
     "3. MOCS/Programming MOC/Pro_Archive/Builder (Design Pattern).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Software Design Pattern.md",
     "3. MOCS/Programming MOC/Pro_Archive/Singleton (Design Pattern).md",
     "3. MOCS/Uni MOC/Uni_Classes/Programmazione Calcolatori (Class).md",
     "3. MOCS/Uni MOC/Uni_Archive/L1 Programmazione dei Calcolatori (C Intro).md",
@@ -270,7 +270,6 @@
     "3. MOCS/Uni MOC/Uni_Archive/L5 Programmazione dei Calcolatori (C stringhe).md",
     "3. MOCS/Uni MOC/Uni_Archive/L4 Programmazione dei Calcolatori (C malloc e free).md",
     "3. MOCS/Uni MOC/Uni_Archive/L3 Programmazione dei Calcolatori (C array).md",
-    "3. MOCS/Uni MOC/Uni_Archive/L2 Programmazione dei Calcolatori (C Basi).md",
     "To-Do/Circuiti s",
     "2. Litterateur Notes/High School/High School Storage/9a90fa029440712126031e16236f7991a66832dd.png",
     "2. Litterateur Notes/High School/High School Storage/7148447_orig.gif",
@@ -281,7 +280,6 @@
     "2. Litterateur Notes/High School/High School Storage/HC-05-Bluetooth-Module-Pinout-Datasheet-Features-Applications-2.jpg",
     "3. MOCS/Uni MOC/Uni_Storage/IMG_5D6532D13598-1.jpeg",
     "3. MOCS/Uni MOC/Uni_Storage/IMG_014F169AAD4F-1.jpeg",
-    "3. MOCS/Uni MOC/Uni_Storage/IMG_426888D244DD-1.jpeg",
     "3. MOCS/Uni MOC/Uni_Storage/Appunti generali trigonometria.pdf",
     "3. MOCS/Uni MOC/Uni_Storage/Progettazione sistemi digitali appunti completi Giada.pdf",
     "Storage/Backend/Product usage analysis",
