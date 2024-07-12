@@ -8,7 +8,7 @@ related:
   - "[[Insiemi Numerici]]"
   - "[[Funzioni]]"
 completed: false
-updated: 2024-06-28T15:28
+updated: 2024-07-12T17:30
 ---
 ---
 
@@ -83,5 +83,5 @@ $$\text{Un insieme A si dice \textcolor{orange}{numerabile} se e soltanto se esi
 ---
 ## Insiemi Continui
 
-*oss:* insieme delle parti di N è equipotente a R (continuo)
+>**oss:** insieme delle parti di N è equipotente a R (continuo)
 

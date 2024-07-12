@@ -22,43 +22,31 @@
             }
           },
           {
-            "id": "d2ffd3b2598db7a8",
+            "id": "b6ac558535ee03bc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Rappresentazione Heap Stack Metaspace.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Metodi matematici per l'informatica (class).md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "8ee05e7636d08eb3",
+            "id": "e1d5c2885f7103b3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Programming MOC/Pro_Archive/Java Incapsulamento.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "20322229329a90a9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Java MOC.md",
+                "file": "Storage/Backend/My Resonance Calendar/My Resonance Calendar.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -87,7 +75,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "resona",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -112,11 +100,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 246.5
+    "width": 246.5,
+    "collapsed": true
   },
   "right": {
     "id": "1599d9a7234429ed",
@@ -144,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Java MOC.md",
+                "file": "Storage/Backend/My Resonance Calendar/My Resonance Calendar.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Java MOC.md",
+                "file": "Storage/Backend/My Resonance Calendar/My Resonance Calendar.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Java MOC.md"
+                "file": "Storage/Backend/My Resonance Calendar/My Resonance Calendar.md"
               }
             }
           }
@@ -215,7 +205,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Java MOC.md",
+                "file": "Storage/Backend/My Resonance Calendar/My Resonance Calendar.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -264,11 +254,16 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "20322229329a90a9",
+  "active": "e1d5c2885f7103b3",
   "lastOpenFiles": [
-    "3. MOCS/Programming MOC/Pro_Archive/Java Access Modifiers.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Java MOC.md",
     "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Metodi matematici per l'informatica (class).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Cardinalità ed equipollenza, insiemi finiti ed infiniti, numerabili ed innumerabili.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Teoria degli insiemi.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Operazioni sugli insiemi.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Funzioni.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Java MOC.md",
+    "3. MOCS/Programming MOC/Pro_Archive/Java Access Modifiers.md",
     "3. MOCS/Uni MOC/Uni_Archive/Rappresentazione Heap Stack Metaspace.md",
     "3. MOCS/Programming MOC/Pro_Archive/Java Incapsulamento.md",
     "3. MOCS/Programming MOC/Pro_Archive/Strategy (Design Pattern).md",
@@ -290,11 +285,6 @@
     "3. MOCS/Uni MOC/Uni_Archive/L13 Programmazione dei Calcolatori (C Multi Array).md",
     "3. MOCS/Uni MOC/Uni_Archive/L12 Programmazione dei Calcolatori (C Dizionari).md",
     "3. MOCS/Uni MOC/Uni_Archive/L11 Programmazione dei Calcolatori (C Dizionari).md",
-    "3. MOCS/Uni MOC/Uni_Archive/L10 Programmazione dei Calcolatori (C Linked Lists).md",
-    "3. MOCS/Uni MOC/Uni_Archive/L9 Programmazione dei Calcolatori (C Linked Lists).md",
-    "3. MOCS/Uni MOC/Uni_Archive/L8 Programmazione dei Calcolatori (C Linked Lists).md",
-    "3. MOCS/Uni MOC/Uni_Archive/L7 Programmazione dei Calcolatori (C Structures, Array  agnostico).md",
-    "3. MOCS/Uni MOC/Uni_Archive/L6 Programmazione dei Calcolatori (C array allocati dinamicamente).md",
     "To-Do/Circuiti s",
     "2. Litterateur Notes/High School/High School Storage/9a90fa029440712126031e16236f7991a66832dd.png",
     "2. Litterateur Notes/High School/High School Storage/7148447_orig.gif",
