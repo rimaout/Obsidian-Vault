@@ -6,9 +6,9 @@ related:
   - "[[Metodologie di Programmazione (class)]]"
 completed: true
 created: 2024-07-09T15:38
-updated: 2024-07-11T23:02
+updated: 2024-07-12T19:26
 ---
->[!abstract] Index
+>	[!abstract] Index
 >1. [[#Introduzione]]
 >2. [[#Funzionamento]]
 >3. [[#Esempio]]
@@ -38,6 +38,13 @@ updated: 2024-07-11T23:02
 | **Strategy (Interface)** | L'interfaccia che definisce il contratto (ovvero l'algoritmo generale) che le strategie concrete devono eseguire.                           |
 | **Concrete Strategies**  | Le classi che implementano l'Interfaccia `Strategy`. Ogni strategia concreta fornisce una implementazione specifica dell'algoritmo.         |
 | **Client**               | La lasse che utilizza la classe `Context`. È la classe che inizia l'esecuzione dell'algoritmo chiamando la classe di contesto.              |
+
+>[!note] Implementazione
+>1.  Nella classe contesto, identificare un algoritmo soggetto a frequenti modifiche. Può anche trattarsi di un condizionale massivo che seleziona ed esegue una variante dello stesso algoritmo in fase di esecuzione.
+>2.  Dichiarare l'interfaccia della strategia comune a tutte le varianti dell'algoritmo.
+>3.  Uno per uno, estrarre tutti gli algoritmi nelle loro classi. Tutte devono implementare l'interfaccia della strategia.
+>4.  Nella classe context, aggiungere un campo per memorizzare un riferimento a un oggetto strategia. Fornire un setter per sostituire i valori di tale campo. Il contesto deve lavorare con l'oggetto strategia solo attraverso l'interfaccia strategia. Il contesto può definire un'interfaccia che consenta alla strategia di accedere ai suoi dati.
+>5.  I clienti del contesto devono associarlo a una strategia adeguata, che corrisponda al modo in cui si aspettano che il contesto svolga il suo lavoro principale.
 
 ---
 ## Esempio
@@ -76,7 +83,7 @@ Partiamo dallo [[#Stato iniziale]] dove tutto è in unica classe, in questo caso
 >```
 
 >[!danger] Problemi
->- Codice poco leggibile
+>- Codice poco leggibile.
 >- Difficile da mantenere infatti aggiungere altri metodi di pagamento, richiede di modificare un metodo funzionante rischiando di inserire dei bug. In particolare inserire un altro metodo di pagamento in questo codice significherebbe estendere la catena di `if else`.
 >- Non rispetta il [[Open/Closed Principle]].
 >- Non rispetta il [[Single Responsibility Principle]].

@@ -6,7 +6,7 @@ class:
 academic year: 2023/2024
 related: 
 completed: false
-updated: 2024-07-10T20:41
+updated: 2024-07-12T18:02
 ---
 >[!abstract] Index
 >1. [[#Introduzione]]
@@ -74,7 +74,7 @@ I modelli possono essere categorizzati anche in base al loro scopo:
 > - [[Builder (Design Pattern)|Builder]] 🟢
 
 >[!note] Structural Patterns
->- [[Decorator (Design Pattern)|Decorator]] 🔴
+>- [[Decorator (Design Pattern)|Decorator]]
 
 >[!note] Behavioral Patterns
 >- [[Strategy (Design Pattern)|Strategy]] 🟢

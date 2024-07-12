@@ -10,43 +10,29 @@
           {
             "id": "7006fcbcb07b4fc0",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "b6ac558535ee03bc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Metodi matematici per l'informatica (class).md",
+                "file": "3. MOCS/Programming MOC/Pro_Archive/Decorator (Design Pattern).md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "e1d5c2885f7103b3",
+            "id": "e489e3d70631b8d1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Storage/Backend/My Resonance Calendar/My Resonance Calendar.md",
+                "file": "Storage/Backend/My Recipe Book/My Recipe Book.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -75,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "resona",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -100,13 +86,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 246.5,
-    "collapsed": true
+    "width": 246.5
   },
   "right": {
     "id": "1599d9a7234429ed",
@@ -134,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Storage/Backend/My Resonance Calendar/My Resonance Calendar.md",
+                "file": "Storage/Backend/My Recipe Book/My Recipe Book.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Storage/Backend/My Resonance Calendar/My Resonance Calendar.md",
+                "file": "Storage/Backend/My Recipe Book/My Recipe Book.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Storage/Backend/My Resonance Calendar/My Resonance Calendar.md"
+                "file": "Storage/Backend/My Recipe Book/My Recipe Book.md"
               }
             }
           }
@@ -205,7 +189,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Storage/Backend/My Resonance Calendar/My Resonance Calendar.md",
+                "file": "Storage/Backend/My Recipe Book/My Recipe Book.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -254,37 +238,40 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "e1d5c2885f7103b3",
+  "active": "e489e3d70631b8d1",
   "lastOpenFiles": [
-    "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Metodi matematici per l'informatica (class).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Cardinalità ed equipollenza, insiemi finiti ed infiniti, numerabili ed innumerabili.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Teoria degli insiemi.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Operazioni sugli insiemi.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Funzioni.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Java MOC.md",
-    "3. MOCS/Programming MOC/Pro_Archive/Java Access Modifiers.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Rappresentazione Heap Stack Metaspace.md",
-    "3. MOCS/Programming MOC/Pro_Archive/Java Incapsulamento.md",
-    "3. MOCS/Programming MOC/Pro_Archive/Strategy (Design Pattern).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Software Design Pattern.md",
-    "To-Do/Nvim.md",
-    "3. MOCS/Programming MOC/Pro_Archive/How to add a new laguage to my NVIM configuration.md",
+    "Storage/Backend/My Recipe Book/Lentils Bread.md",
+    "Storage/Backend/My Recipe Book/My Recipe Book.md",
+    "Storage/Backend/My Resonance Calendar/My Resonance Calendar.md",
+    "3. MOCS/Personal MOC/Personal MOC.md",
+    "Storage/Backend/My Recipe Book",
     "3. MOCS/Programming MOC/Programming MOC.md",
-    "To-Do/To-Do.md",
+    "3. MOCS/Programming MOC/Pro_Archive/Strategy (Design Pattern).md",
+    "3. MOCS/Programming MOC/Pro_Archive/Decorator (Design Pattern).md",
+    "3. MOCS/Programming MOC/Pro_Archive/Pasted image 20240712194507.png",
+    "3. MOCS/Programming MOC/Pro_Archive/Pasted image 20240712194209.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Software Design Pattern.md",
+    "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
+    "To-Do/Untitled.md",
+    "3. MOCS/Programming MOC/Pro_Archive/Singleton (Design Pattern).md",
+    "3. MOCS/Programming MOC/Pro_Archive/Builder (Design Pattern).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Metodi matematici per l'informatica (class).md",
+    "3. MOCS/Programming MOC/Pro_Archive/Python MOC.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Python global and local variables.md",
+    "3. MOCS/Programming MOC/Pro_Archive/Python Tuples.md",
+    "3. MOCS/Programming MOC/Pro_Archive/Python Matrix.md",
+    "3. MOCS/Programming MOC/Pro_Archive/Python Functions - Methods.md",
+    "3. MOCS/Programming MOC/Pro_Archive/Python Dictionary get() Method.md",
+    "3. MOCS/Programming MOC/Pro_Archive/Programmazione ad Oggetti.md",
+    "3. MOCS/Programming MOC/Pro_Archive/Python Raw String.md",
+    "3. MOCS/Programming MOC/Pro_Archive/Python Casting.md",
+    "3. MOCS/Programming MOC/Pro_Archive/Python Alias, Shallow and Deep copy.md",
+    "3. MOCS/Programming MOC/Pro_Archive/How to make a python CLI tool.md",
+    "3. MOCS/Programming MOC/Pro_Archive/Conda.md",
+    "3. MOCS/Programming MOC/Pro_Archive/Python os module.md",
     "3. MOCS/Programming MOC/Pro_Archive/umlstrategy.png",
     "3. MOCS/Programming MOC/Pro_Archive/Stategt.drawio 1.html",
     "3. MOCS/Programming MOC/Pro_Archive/Stategt.drawio.html",
-    "3. MOCS/Tech MOC/Tech MOC.md",
-    "Storage/Backend/Product usage analysis/Product usage analysis.md",
-    "3. MOCS/Programming MOC/Pro_Archive/Builder (Design Pattern).md",
-    "3. MOCS/Programming MOC/Pro_Archive/Singleton (Design Pattern).md",
-    "3. MOCS/Uni MOC/Uni_Classes/Programmazione Calcolatori (Class).md",
-    "3. MOCS/Uni MOC/Uni_Archive/L1 Programmazione dei Calcolatori (C Intro).md",
-    "3. MOCS/Uni MOC/Uni_Archive/L14 Programmazione dei Calcolatori (C Union).md",
-    "3. MOCS/Uni MOC/Uni_Archive/L13 Programmazione dei Calcolatori (C Multi Array).md",
-    "3. MOCS/Uni MOC/Uni_Archive/L12 Programmazione dei Calcolatori (C Dizionari).md",
-    "3. MOCS/Uni MOC/Uni_Archive/L11 Programmazione dei Calcolatori (C Dizionari).md",
     "To-Do/Circuiti s",
     "2. Litterateur Notes/High School/High School Storage/9a90fa029440712126031e16236f7991a66832dd.png",
     "2. Litterateur Notes/High School/High School Storage/7148447_orig.gif",
@@ -293,15 +280,12 @@
     "2. Litterateur Notes/High School/High School Storage/download.jpeg",
     "2. Litterateur Notes/High School/High School Storage/funzionamento-sensore-hcsr04.gif",
     "2. Litterateur Notes/High School/High School Storage/HC-05-Bluetooth-Module-Pinout-Datasheet-Features-Applications-2.jpg",
-    "3. MOCS/Uni MOC/Uni_Storage/IMG_5D6532D13598-1.jpeg",
-    "3. MOCS/Uni MOC/Uni_Storage/IMG_014F169AAD4F-1.jpeg",
     "3. MOCS/Uni MOC/Uni_Storage/Appunti generali trigonometria.pdf",
     "3. MOCS/Uni MOC/Uni_Storage/Progettazione sistemi digitali appunti completi Giada.pdf",
     "Storage/Backend/Product usage analysis",
     "Categories/Products",
     "Storage/Backend/My Resonance Calendar",
     "Storage/Backend",
-    "Excalidraw",
     "Buy List/Skin Care Buy List.canvas",
     "Buy List/Clothing Buy List.canvas",
     "Storage/Untitled.canvas",

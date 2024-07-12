@@ -4,7 +4,7 @@ type: Programming Note
 programming language: "[[Python MOC]]"
 related: 
 completed: false
-updated: 2024-05-27T13:29
+updated: 2024-07-12T17:51
 ---
 ---
 ## Index
@@ -17,9 +17,8 @@ updated: 2024-05-27T13:29
 - [[Python Iterators, __iter__ and __next__]] [link](https://www.programiz.com/python-programming/iterator)
 - [[Python Generators]] [link](https://www.programiz.com/python-programming/generator)
 - [[Python Closures]] [link](https://www.programiz.com/python-programming/closure)
-- [[Python Decorators]] [link](https://www.programiz.com/python-programming/decorator)
+- [[Python Decorators]] [link](https://www.programiz.com/python-programming/decorator) https://www.youtube.com/watch?v=BE-L7xu8pO4
 - [[Python @property decorator]] [link](https://www.programiz.com/python-programming/property)
-
 
 ---
 ## Definition 

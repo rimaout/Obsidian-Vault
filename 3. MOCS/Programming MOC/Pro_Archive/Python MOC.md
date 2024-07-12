@@ -2,7 +2,7 @@
 created: 2023-09-10
 type: "[[Programming MOC]]"
 related: 
-updated: 2024-05-27T13:28
+updated: 2024-07-12T17:53
 ---
 ---
 # Index
@@ -52,12 +52,12 @@ updated: 2024-05-27T13:28
 - [[Python Iterators, __iter__ and __next__]] [link](https://www.programiz.com/python-programming/iterator)
 - [[Python Generators]] [link](https://www.programiz.com/python-programming/generator)
 - [[Python Closures]] [link](https://www.programiz.com/python-programming/closure)
-- [[Python Decorators]] [link](https://www.programiz.com/python-programming/decorator)
+- [[Python Decorators]] [link](https://www.programiz.com/python-programming/decorator) https://www.youtube.com/watch?v=BE-L7xu8pO4
 - [[Python @property decorator]] [link](https://www.programiz.com/python-programming/property)
 
 **Other:**
 - [[Python Functions - Methods]]
-- [[Python Files]] <-- fai guarda vault flavio [link](https://www.w3schools.com/python/python_file_handling.asp) 
+- [[Python Files]] <-- guarda vault flavio [link](https://www.w3schools.com/python/python_file_handling.asp) 
 - [[Introduzione semplicistica alla complessità algoritmica in python]] $
 - [[Python Backslash (escaping character)]] $
 - [[Python f-string]]
@@ -74,5 +74,3 @@ updated: 2024-05-27T13:28
 
 **Mine:**
 - [[Using C to make Python]]
-- [[Python file system navigation]]
-

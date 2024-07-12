@@ -4,7 +4,7 @@ type: Programming Note
 programming language: "[[Python MOC]]"
 related: 
 completed: true
-updated: 2024-05-27T13:29
+updated: 2024-07-12T17:54
 ---
 ---
 # Tuple
@@ -38,6 +38,7 @@ The main characteristics of a tuple are:
 ---
 
 ### Comparison Operators
+
 [[Python Operators]]
 >[!note:]
 >Work's in the same way of lits
