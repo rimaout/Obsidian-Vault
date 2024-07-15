@@ -2,7 +2,7 @@
 academic year: 2023/2024
 type: "[[Uni MOC]]"
 created: 2023-10-14T18:53
-updated: 2024-07-12T17:29
+updated: 2024-07-15T12:33
 ---
 >[!abstract] Prima parte (teoria degli insiemi)
 >- [[Teoria degli insiemi]]
@@ -13,6 +13,8 @@ updated: 2024-07-12T17:29
 >>- [[Funzioni Invertibili]]
 >>- [[Funzione d'identità]]
 >>- [[Cardinalità ed equipollenza, insiemi finiti ed infiniti, numerabili ed innumerabili]]
+
+[[Teoria degli insiemi]]
 
 >[!abstract] Seconda Parte (Logica)
 >- [[Principio dell'Induzione Matematica]], [[Sommatoria]] 

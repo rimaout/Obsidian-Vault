@@ -6,36 +6,19 @@ class:
   - "[[Calcolo Differenziale (class)]]"
 related: 
 completed: true
-updated: 2024-05-27T13:29
+updated: 2024-07-15T13:09
 ---
----
-# Indice
-1. [[#Definizione di insieme]]
-2. [[Operazioni sugli insiemi]]
-3. [[Cardinalità insiemi]]
-4. [[Intervalli Insiemi]]
-
-5. [[Relazioni]]
-
-- [[Partizione di un insieme]]
-- [[Teorema di Cantror]], [[Teorema di Heine-Borel (insiemi compatti)]](analisi)
----
-
-## Definizione di insieme 
-Un insieme è una qualunque *collezione di oggetti*, *non ordinata* e *senza ripetizioni*, accumunati da una condizione 
-
-**oss:** deve essere possibile stabilire se un oggetto appartiene o no all'insieme.
-
-**Esempio:** l'insieme dei libri interessanti non è un insieme perché interessanti non è una proprietà oggettiva
+>[!abstract] Related
+>1. [[Calcolo Differenziale (class)]]
+>2. [[Metodi matematici per l'informatica (class)]]
 
 
+## Indice
 
-- *Insiemi* si rappresentano con lettere grandi (A,B,C...) 
-- *Elementi* degli insiemi si rappresentano con lettere piccole (a,b,c...)
+1. [[Definizione di Insieme]] 🟢
+2. [[Operazioni sugli insiemi]] 🟢
+3. [[Cardinalità ed equipollenza, insiemi finiti ed infiniti, numerabili ed innumerabili]] 🟡
+4. [[Intervalli Insiemi]] 🟢
+5. [[Relazioni]] 🟢
 
-**Esempio:**
-$$A=\{a,b,c\}$$
-**Insieme vuoto:**
-$$A = \{\emptyset\}$$
 
----
