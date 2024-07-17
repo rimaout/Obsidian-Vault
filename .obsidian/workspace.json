@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "601579252b904920",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. MOCS/Programming MOC/Pro_Archive/Java Access Modifier.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -61,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "---",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -86,12 +98,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 246.5,
-    "collapsed": true
+    "width": 246.5
   },
   "right": {
     "id": "1599d9a7234429ed",
@@ -119,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Storage/Backend/My Recipe Book/My Recipe Book.md",
+                "file": "3. MOCS/Programming MOC/Pro_Archive/Java Access Modifier.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Storage/Backend/My Recipe Book/My Recipe Book.md",
+                "file": "3. MOCS/Programming MOC/Pro_Archive/Java Access Modifier.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Storage/Backend/My Recipe Book/My Recipe Book.md"
+                "file": "3. MOCS/Programming MOC/Pro_Archive/Java Access Modifier.md"
               }
             }
           }
@@ -190,7 +202,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Storage/Backend/My Recipe Book/My Recipe Book.md",
+                "file": "3. MOCS/Programming MOC/Pro_Archive/Java Access Modifier.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -223,7 +235,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 350.5
+    "width": 350.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -238,10 +251,22 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "f0f4011ea5422fc0",
+  "active": "601579252b904920",
   "lastOpenFiles": [
-    "Storage/Backend/My Recipe Book/Lentils Bread.md",
+    "3. MOCS/Programming MOC/Pro_Archive/Java Incapsulamento.md",
+    "3. MOCS/Programming MOC/Pro_Archive/Java Access Modifier.md",
     "Storage/Backend/My Recipe Book/My Recipe Book.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Java MOC.md",
+    "0b11fbd8-48f3-4b99-8ddf-cf41651f6d08_Export-d9f86e83-f7cf-4a10-8a42-2ed2e6b4e8e4 2/Escursione GIMVI 8bb0b3687dc84a719a77d87a9715384b.md",
+    "0b11fbd8-48f3-4b99-8ddf-cf41651f6d08_Export-d9f86e83-f7cf-4a10-8a42-2ed2e6b4e8e4 2/Escursione GIMVI 8bb0b3687dc84a719a77d87a9715384b/Attrezzatura campeggio (3) b0167bbe8fb64cd2b42395f5c473e48a_all.csv",
+    "0b11fbd8-48f3-4b99-8ddf-cf41651f6d08_Export-d9f86e83-f7cf-4a10-8a42-2ed2e6b4e8e4 2/Escursione GIMVI 8bb0b3687dc84a719a77d87a9715384b/Attrezzatura campeggio (3) b0167bbe8fb64cd2b42395f5c473e48a.csv",
+    "0b11fbd8-48f3-4b99-8ddf-cf41651f6d08_Export-d9f86e83-f7cf-4a10-8a42-2ed2e6b4e8e4 2/Escursione GIMVI 8bb0b3687dc84a719a77d87a9715384b/Attrezzatura campeggio (3) 06091ada28a24d6595a8a913ab2a5a12_all.csv",
+    "0b11fbd8-48f3-4b99-8ddf-cf41651f6d08_Export-d9f86e83-f7cf-4a10-8a42-2ed2e6b4e8e4 2/Escursione GIMVI 8bb0b3687dc84a719a77d87a9715384b/Attrezzatura campeggio (3) 06091ada28a24d6595a8a913ab2a5a12.csv",
+    "0b11fbd8-48f3-4b99-8ddf-cf41651f6d08_Export-d9f86e83-f7cf-4a10-8a42-2ed2e6b4e8e4 2/Escursione GIMVI 8bb0b3687dc84a719a77d87a9715384b/Attrezzatura campeggio (2) de8a5eaf318e4a3db3f8e25b64207c52.csv",
+    "0b11fbd8-48f3-4b99-8ddf-cf41651f6d08_Export-d9f86e83-f7cf-4a10-8a42-2ed2e6b4e8e4 2/Escursione GIMVI 8bb0b3687dc84a719a77d87a9715384b/Attrezzatura campeggio (2) de8a5eaf318e4a3db3f8e25b64207c52_all.csv",
+    "0b11fbd8-48f3-4b99-8ddf-cf41651f6d08_Export-d9f86e83-f7cf-4a10-8a42-2ed2e6b4e8e4 2/Escursione GIMVI 8bb0b3687dc84a719a77d87a9715384b",
+    "0b11fbd8-48f3-4b99-8ddf-cf41651f6d08_Export-d9f86e83-f7cf-4a10-8a42-2ed2e6b4e8e4 2",
+    "Storage/Backend/My Recipe Book/Lentils Bread.md",
     "3. MOCS/Uni MOC/Uni_Archive/Relazioni.md",
     "3. MOCS/Uni MOC/Uni_Archive/Proprietà Relazioni.md",
     "3. MOCS/Uni MOC/Uni_Archive/Relazioni d'ordine.md",
@@ -263,16 +288,10 @@
     "Storage/Backend/My Resonance Calendar/My Resonance Calendar.md",
     "3. MOCS/Personal MOC/Personal MOC.md",
     "Storage/Backend/My Recipe Book",
-    "3. MOCS/Programming MOC/Programming MOC.md",
-    "3. MOCS/Programming MOC/Pro_Archive/Strategy (Design Pattern).md",
     "3. MOCS/Programming MOC/Pro_Archive/Pasted image 20240712194507.png",
     "3. MOCS/Programming MOC/Pro_Archive/Pasted image 20240712194209.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Software Design Pattern.md",
-    "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
     "3. MOCS/Programming MOC/Pro_Archive/umlstrategy.png",
     "3. MOCS/Programming MOC/Pro_Archive/Stategt.drawio 1.html",
-    "3. MOCS/Programming MOC/Pro_Archive/Stategt.drawio.html",
-    "To-Do/Circuiti s",
     "2. Litterateur Notes/High School/High School Storage/9a90fa029440712126031e16236f7991a66832dd.png",
     "2. Litterateur Notes/High School/High School Storage/7148447_orig.gif",
     "2. Litterateur Notes/High School/High School Storage/autov.jpg",
@@ -280,12 +299,6 @@
     "2. Litterateur Notes/High School/High School Storage/download.jpeg",
     "2. Litterateur Notes/High School/High School Storage/funzionamento-sensore-hcsr04.gif",
     "2. Litterateur Notes/High School/High School Storage/HC-05-Bluetooth-Module-Pinout-Datasheet-Features-Applications-2.jpg",
-    "3. MOCS/Uni MOC/Uni_Storage/Appunti generali trigonometria.pdf",
-    "3. MOCS/Uni MOC/Uni_Storage/Progettazione sistemi digitali appunti completi Giada.pdf",
-    "Storage/Backend/Product usage analysis",
-    "Categories/Products",
-    "Storage/Backend/My Resonance Calendar",
-    "Storage/Backend",
     "Buy List/Skin Care Buy List.canvas",
     "Buy List/Clothing Buy List.canvas",
     "Storage/Untitled.canvas",

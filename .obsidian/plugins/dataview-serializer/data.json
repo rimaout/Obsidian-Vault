@@ -1,6 +1,6 @@
 {
   "foldersToScan": [
-    "Storage/Backend"
+    "Storage/Backend/Product usage analysis"
   ],
   "ignoredFolders": [
     "1. Easy Notes",

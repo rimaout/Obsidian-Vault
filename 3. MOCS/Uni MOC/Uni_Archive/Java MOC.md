@@ -4,7 +4,7 @@ type: "[[Programming MOC]]"
 related:
   - "[[Programmazione ad Oggetti]]"
   - "[[Metodologie di Programmazione (class)]]"
-updated: 2024-07-11T23:10
+updated: 2024-07-17T12:34
 ---
 ---
 >[!abstract] Basics
@@ -39,7 +39,7 @@ updated: 2024-07-11T23:10
 >- [[Java Fields]]
 >- [[Java Methods]]
 >- [[Java Constructor]]
->- [[Java Access Modifiers]] 🟢
+>- [[Java Access Modifier]] 🟢
 >- [[Java Incapsulamento]] 🟢
 >- [[Java Enumerations]] 🟢
 >- [[Java Interfaces]] 🟢

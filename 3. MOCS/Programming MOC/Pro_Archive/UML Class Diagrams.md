@@ -4,7 +4,7 @@ type: Programming Note
 programming language: "[[UML MOC]]"
 related: 
 completed: true
-updated: 2024-07-11T23:07
+updated: 2024-07-17T12:34
 ---
 ---
 
@@ -89,7 +89,7 @@ Visibility notations indicate the access level of attributes and methods. Common
 - `~` for package or default visibility (visible to classes in the same package)
 
 >[!tip]
->Read [[Java Access Modifiers]] to learn more
+>Read [[Java Access Modifier]] to learn more
 
 ---
 ## Classes Dependance

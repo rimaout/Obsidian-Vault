@@ -5,7 +5,7 @@ programming language: "[[Java MOC]]"
 related:
   - "[[Java OOP]]"
 completed: true
-updated: 2024-07-11T23:07
+updated: 2024-07-17T12:34
 ---
 >[!abstract] Index
 >1. [[#Come funziona l'incapsulamento]]
@@ -36,14 +36,16 @@ L'idea alla base dell'incapsulamento è quella di nascondere i dettagli di imple
 >- I metodi di una classe vengono dichiarati come `private`, `protected` o `public` a seconda del livello di visibilità desiderato. I metodi `private` sono accessibili solo all'interno della classe, mentre i metodi `public` possono essere chiamati da qualsiasi parte del codice. I metodi `protected` sono accessibili all'interno della classe e nelle sue sottoclassi. 
 
 >[!warning] Access Modifiers 
->`private`, `protected` e `public` sono parole chiave in Java che consentono di controllare il livello di visibilità e accessibilità degli elementi (classi, attributi e metodi) e sono chiamati [[Java Access Modifiers|Access Modifiers]].
+>`private`, `protected` e `public` sono parole chiave in Java che consentono di controllare il livello di visibilità e accessibilità degli elementi (classi, attributi e metodi) e sono chiamati [[Java Access Modifier]].
 
 ---
 ## Vantaggi dell'incapsulamento
 
 >[!info] Vantaggi
 >**1. Occultamento dell'implementazione:**
->- I dettagli di implementazione di un oggetto vengono nascosti, rendendo il codice più modul[](Java%20Access%20Modifiers.md)ione dei dati:**
+>- I dettagli di implementazione di un oggetto vengono nascosti, rendendo il codice più  modulare e facile da mantenere.
+>
+>**2. Protezione dei dati:**
 >- I dati dell'oggetto sono protetti da modifiche accidentali o non autorizzate, garantendo l'integrità dei dati.
 >
 >**3. Riusabilità del codice:**

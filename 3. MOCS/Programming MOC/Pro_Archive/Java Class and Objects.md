@@ -5,7 +5,7 @@ programming language: "[[Java MOC]]"
 related:
   - "[[Java OOP]]"
 completed: false
-updated: 2024-07-11T23:07
+updated: 2024-07-17T12:34
 ---
 ---
 
@@ -75,6 +75,6 @@ class Bicycle {
 Here, Bicycle is a prototype. Now, we can create any number of bicycles using the prototype. And, all the bicycles will share the fields and methods of the prototype.
 
 >[!note] 
->We have used keywords `private` and `public`. These are known as access modifiers. To learn more, visit [[Java Access Modifiers]]
+>We have used keywords `private` and `public`. These are known as access modifiers. To learn more, visit [[Java Access Modifier]]
 
 ---
