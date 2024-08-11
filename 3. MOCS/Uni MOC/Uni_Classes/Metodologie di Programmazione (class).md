@@ -4,7 +4,7 @@ academic year: 2023/2024
 related:
   - "[[Java MOC]]"
 created: 2024-02-27T09:04
-updated: 2024-07-10T20:41
+updated: 2024-07-17T15:34
 ---
 ---
 
@@ -49,5 +49,14 @@ updated: 2024-07-10T20:41
 >– Singleton 🟢
 >– Decorator
 
-
 ---
+## Progetto
+
+- [[Game Window]]
+- [[Game Loop]]
+- [[Game Player Inputs]]
+- [[Game Animations]]
+- [[Game Line of Site]]
+- [[Game Collisions]]
+
+

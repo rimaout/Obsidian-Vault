@@ -4,7 +4,7 @@ type: "[[Programming MOC]]"
 programming language: "[[Java MOC]]"
 related: 
 completed: false
-updated: 2024-05-27T13:29
+updated: 2024-07-17T16:17
 ---
 ---
 
@@ -72,6 +72,14 @@ System.out.println(fullName);
 ---
 ## printf()
 
+Similar to [[Java Strings#f string|f string]].
+
+``` java
+String name = "John";
+int age = 30;
+
+System.out.printf("Hello, my name is %s and I am %d years old.", name, age);
+```
 
 
 ---

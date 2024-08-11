@@ -10,26 +10,24 @@
             "type": "tabs",
             "children": [
               {
-                "id": "7006fcbcb07b4fc0",
+                "id": "0b1b1df1b8426fab",
                 "type": "leaf",
-                "pinned": true,
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Relazioni.md",
                     "mode": "source",
                     "source": false
-                  },
-                  "pinned": true
+                  }
                 }
               },
               {
-                "id": "d08a36b9eebd2be4",
+                "id": "f0f4011ea5422fc0",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "To-Do/To-Do.md",
+                    "file": "Storage/Backend/My Recipe Book/My Recipe Book.md",
                     "mode": "source",
                     "source": false
                   }
@@ -65,7 +63,7 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "java",
+                    "query": "---",
                     "matchingCase": true,
                     "explainSearch": true,
                     "collapseAll": true,
@@ -90,7 +88,8 @@
                   "state": {}
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "horizontal",
@@ -122,7 +121,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "To-Do/To-Do.md",
+                    "file": "Storage/Backend/My Recipe Book/My Recipe Book.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -139,7 +138,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "To-Do/To-Do.md",
+                    "file": "Storage/Backend/My Recipe Book/My Recipe Book.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -163,7 +162,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "To-Do/To-Do.md"
+                    "file": "Storage/Backend/My Recipe Book/My Recipe Book.md"
                   }
                 }
               }
@@ -193,7 +192,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "To-Do/To-Do.md",
+                    "file": "Storage/Backend/My Recipe Book/My Recipe Book.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -226,7 +225,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 350.5
+        "width": 350.5,
+        "collapsed": true
       },
       "left-ribbon": {
         "hiddenItems": {
@@ -241,8 +241,8 @@
           "markdown-importer:Open format converter": false
         }
       },
-      "active": "d08a36b9eebd2be4",
-      "mtime": "2024-07-08T18:20:43+02:00"
+      "active": "f0f4011ea5422fc0",
+      "mtime": "2024-07-17T12:56:58+02:00"
     },
     "Algoritmi": {
       "main": {

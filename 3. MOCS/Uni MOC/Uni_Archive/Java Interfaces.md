@@ -5,7 +5,7 @@ academic year: 2023/2024
 related: 
 completed: true
 created: 2024-06-17T15:30
-updated: 2024-06-17T17:22
+updated: 2024-08-11T18:07
 ---
 >[!abstract] Index
 >1. [[#Introduzione]]
@@ -136,13 +136,15 @@ Tuttavia, Java non supporta direttamente l'ereditarietà multipla per le classi.
 ## Estendibilità
 
 Le interfacce possono estendere altre interfacce, consentendo la creazione di gerarchie di interfacce. Una classe che implementa un'interfaccia estesa deve fornire implementazioni per tutti i metodi definiti nelle interfacce padre.
-
+%%  %%
 >[!note]- Esempio
+>
 >```java
+>
 >public interface Forma {
-   double PI = 3.14;
-   double area();
-}
+>   double PI = 3.14;
+>   double area();
+>}
 >
 >public interface Stampabile {
 >   void stampa();
