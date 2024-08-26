@@ -9,7 +9,7 @@ related:
   - "[[Disequazioni]]"
   - "[[Equazioni di Secondo Grado]]"
 completed: true
-updated: 2024-05-27T13:29
+updated: 2024-08-26T20:00
 ---
 ---
 ## Index
@@ -20,13 +20,16 @@ updated: 2024-05-27T13:29
 
 ---
 ## Definizione
-- **Disequazione di primo grado:** incognita elevata a esponente 1 a esponente 1 e può essere moltiplicata o sommata con termini numerici 
+**Disequazione di primo grado:** incognita elevata a esponente 1 a esponente 1 e può essere moltiplicata o sommata con termini numerici 
 
 ---
 ## Sintassi
 
-$$\text{Polinomio-a-sinistra} \lesseqgtr \text{Polinomio-a-destra}$$
+$$
+\text{Polinomio-a-sinistra} \lesseqgtr \text{Polinomio-a-destra}
+$$
 
+---
 ## Possibili soluzioni
 1. **Equazione Determinata:** esiste una e una sola soluzione ($\exists! x \in \mathbb{R}$)
 2. **Equazione In-determinata:** esistono infinite soluzioni ($\forall x \in \mathbb{R}$)
@@ -39,7 +42,7 @@ $$\text{Polinomio-a-sinistra} \lesseqgtr \text{Polinomio-a-destra}$$
 3. Possibili risultati:
  
 $$
-\begin{align}
+\begin{align*}
 &ax >b \to  \begin{cases}
 x > \frac{b}{a} & se\ a>0 \\
 x < \frac{b}{a} & se\ a<0 \\ 
@@ -56,18 +59,17 @@ x > \frac{b}{a} & se\ a<0 \\
 x \leq \frac{b}{a} & se\ a>0 \\
 x \geq \frac{b}{a} & se\ a<0 \\ 
 \end{cases}\\ \\
-\end{align}
+\end{align*}
 $$
 
 ---
-# Disequazioni di 2° Grado
+## Disequazioni di 2° Grado
 
 ![[Dis2grado.png|800]]
 
-![[Pasted image 20230509111509.png|800]]
+![[Pasted image 20240826195807.png|800]]
 
-**oss:** Questa tabella vale soltanto per a > 0
-- Se $a<0$, conviene cambiare il segno moltiplicando per -1 tutta la disequazione (ricordati di invertire il segno di > o <)
-- Facendo ciò possiamo utilizzare questa tabella in tutti i casi
-
----
+>[!warning] Nota
+>Questa tabella vale soltanto per a > 0, infatti:
+>- Se $a<0$, conviene cambiare il segno moltiplicando per -1 tutta la disequazione (ricordati di invertire il segno di > o <)
+>- Facendo ciò possiamo utilizzare questa tabella in tutti i casi
