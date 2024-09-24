@@ -8,7 +8,7 @@ related:
   - "[[Teoria degli insiemi]]"
 completed: true
 created: 2024-07-15T12:39
-updated: 2024-07-15T12:44
+updated: 2024-09-24T13:25
 ---
 >[!abstract] Related
 >- [[Teoria degli insiemi]]
@@ -28,7 +28,6 @@ Un insieme è una qualunque **collezione di oggetti**, **non ordinata** e **senz
 ---
 ## Notazione
 
-
 - **Insiemi:** per indicare un insieme si utilizzano le lettere maiuscole (A,B,C...).
 - **Elementi:** per indicare gli elementi di un insieme si utilizzano lettere minuscole (a,b,c...).
 
@@ -43,4 +42,3 @@ Un insieme è una qualunque **collezione di oggetti**, **non ordinata** e **senz
 >$$
 >B = \{\emptyset\}
 >$$
-

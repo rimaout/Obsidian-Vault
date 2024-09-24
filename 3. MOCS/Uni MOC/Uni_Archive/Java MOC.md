@@ -4,7 +4,7 @@ type: "[[Programming MOC]]"
 related:
   - "[[Programmazione ad Oggetti]]"
   - "[[Metodologie di Programmazione (class)]]"
-updated: 2024-07-17T12:34
+updated: 2024-09-12T17:48
 ---
 ---
 >[!abstract] Basics
@@ -55,3 +55,4 @@ updated: 2024-07-17T12:34
 >- differenza interfacce e classi astratte
 >- Iterators
 >- Inheritance
+>- [[How to implement hashCode(), equal() and compare()]]

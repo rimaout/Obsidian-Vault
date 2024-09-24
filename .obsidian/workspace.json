@@ -8,13 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8e88a57577a380e9",
+            "id": "6f013d5126924dee",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
+                "file": "To-Do/Calcolo delle Probabilità (class).md",
                 "mode": "source",
                 "source": false
               },
@@ -22,12 +22,14 @@
             }
           },
           {
-            "id": "a28b0f7a9ac96446",
+            "id": "39b13e5fdaadc498",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240826195807.png"
+                "file": "3. MOCS/Uni MOC/Uni_Archive/L2 Calcolo Probabilità.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -61,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "---",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -100,7 +102,7 @@
       {
         "id": "b33702b1304e824a",
         "type": "tabs",
-        "dimension": 35.19736842105263,
+        "dimension": 42.066420664206646,
         "children": [
           {
             "id": "73d6fce2365a09ef",
@@ -119,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240826195807.png",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/L2 Calcolo Probabilità.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240826195807.png",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/L2 Calcolo Probabilità.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,17 +162,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240826195807.png"
+                "file": "3. MOCS/Uni MOC/Uni_Archive/L2 Calcolo Probabilità.md"
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       },
       {
         "id": "0ee4f1dd2040ea54",
         "type": "tabs",
-        "dimension": 64.80263157894737,
+        "dimension": 57.93357933579336,
         "children": [
           {
             "id": "08bb0d9d4b18b672",
@@ -190,7 +192,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240826195807.png",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/L2 Calcolo Probabilità.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -213,18 +215,18 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 1,
+                  "scale": 2.0331045081221504,
                   "close": true
                 }
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 350.5,
-    "collapsed": true
+    "width": 350.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -239,37 +241,46 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "a28b0f7a9ac96446",
+  "active": "39b13e5fdaadc498",
   "lastOpenFiles": [
-    "3. MOCS/Uni MOC/Uni_Archive/Disequazioni di Secondo Grado.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240826195807.png",
-    "3. MOCS/Uni MOC/Uni_Storage/Pasted image 20230509111509.png",
-    "3. MOCS/Uni MOC/Uni_Storage/Drawing 2024-08-26 19.55.30.excalidraw.md",
-    "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
-    "To-Do/To-Do.md",
-    "3. MOCS/Programming MOC/Pro_Archive/Singleton (Design Pattern).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Java Interfaces.md",
-    "To-Do/Best Software.md",
-    "To-Do/C1 Mission.md",
-    "To-Do/Esame 4.md",
-    "To-Do/Jekyll.md",
-    "3. MOCS/Personal MOC/Personal MOC.md",
-    "3. MOCS/Tech MOC/Tech MOC.md",
-    "3. MOCS/Programming MOC/Pro_Archive/Game Window.md",
-    "Storage/Backend/My Resonance Calendar/My Resonance Calendar.md",
-    "To-Do/Recipes Markdown Formatting.md",
-    "Storage/Templates/Recipe (Template).md",
-    "Storage/Templates/Programming Notes (Template).md",
-    "Storage/Templates/Product (manual count - Template).md",
-    "Storage/Templates/Product (automatic count - Template).md",
-    "Storage/Backend/My Recipe Book/My Recipe Book.md",
-    "3. MOCS/Programming MOC/Pro_Archive/Pasted image 20240718122039.png",
-    "3. MOCS/Programming MOC/Pro_Archive/Pasted image 20240717175334.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Java Output.md",
-    "3. MOCS/Programming MOC/Pro_Archive/Java Strings.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Java MOC.md",
-    "3. MOCS/Programming MOC/Pro_Archive/Java Access Modifier.md",
-    "3. MOCS/Programming MOC/Pro_Archive/Java Incapsulamento.md",
+    "To-Do/Calcolo delle Probabilità (class).md",
+    "3. MOCS/Uni MOC/Uni_Archive/L2 Calcolo Probabilità.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Disposizioni.md",
+    "3. MOCS/Uni MOC/Uni_Archive/L1 Sistemi Operativi 1.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240924163458.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240924155823.png",
+    "To-Do/Sistemi Operativi 1 (class).md",
+    "3. MOCS/Uni MOC/Uni MOC.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Sistemi Operativi 1 (class).md",
+    "3. MOCS/Uni MOC/Uni_Archive/L1 Algebra.md",
+    "3. MOCS/Uni MOC/Uni_Archive/L1 Algebra 2024-09-24 14.11.27.excalidraw.md",
+    "Excalidraw/Drawing 2024-09-24 14.13.26.excalidraw.md",
+    "Excalidraw/Drawing 2024-09-24 14.04.06.excalidraw.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Permutazioni.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Teoria degli insiemi.md",
+    "3. MOCS/Uni MOC/Uni_Classes/Progettazione Sistemi Digitali (class).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Algebra Booleana.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Teorema del consenso(algebra di Boole).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Leggi Booleane.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Forma normale e canonica di una funzione booleana.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Forma POS (Congiuntiva) e SOP (Disgiuntiva).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Definizioni (Algebra di Boole).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Cardinalità ed equipollenza, insiemi finiti ed infiniti, numerabili ed innumerabili.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Operazioni sugli insiemi.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Definizione di Insieme.md",
+    "To-Do/Untitled 1.md",
+    "To-Do/Untitled.md",
+    "To-Do/Algebra (class).md",
+    "3. MOCS/Uni MOC/Uni_Archive/12he3uh8.png",
+    "3. MOCS/Uni MOC/Uni_Archive/bb_rr 1.png",
+    "3. MOCS/Uni MOC/Uni_Archive/bb_rr.png",
+    "3. MOCS/Uni MOC/Uni_Archive/bb_gr.png",
+    "3. MOCS/Uni MOC/Uni_Archive/bb_br.png",
+    "3. MOCS/Uni MOC/Uni_Archive/bb_h.png",
+    "3. MOCS/Uni MOC/Uni_Archive/bb_rp.png",
+    "3. MOCS/Uni MOC/Uni_Archive/bb_bp 1.png",
+    "3. MOCS/Uni MOC/Uni_Projects/Relazione Bubble Bobble",
+    "3. MOCS/Uni MOC/Uni_Projects",
     "0b11fbd8-48f3-4b99-8ddf-cf41651f6d08_Export-d9f86e83-f7cf-4a10-8a42-2ed2e6b4e8e4 2/Escursione GIMVI 8bb0b3687dc84a719a77d87a9715384b/Attrezzatura campeggio (3) b0167bbe8fb64cd2b42395f5c473e48a_all.csv",
     "0b11fbd8-48f3-4b99-8ddf-cf41651f6d08_Export-d9f86e83-f7cf-4a10-8a42-2ed2e6b4e8e4 2/Escursione GIMVI 8bb0b3687dc84a719a77d87a9715384b/Attrezzatura campeggio (3) b0167bbe8fb64cd2b42395f5c473e48a.csv",
     "0b11fbd8-48f3-4b99-8ddf-cf41651f6d08_Export-d9f86e83-f7cf-4a10-8a42-2ed2e6b4e8e4 2/Escursione GIMVI 8bb0b3687dc84a719a77d87a9715384b/Attrezzatura campeggio (3) 06091ada28a24d6595a8a913ab2a5a12_all.csv",
@@ -278,14 +289,6 @@
     "0b11fbd8-48f3-4b99-8ddf-cf41651f6d08_Export-d9f86e83-f7cf-4a10-8a42-2ed2e6b4e8e4 2/Escursione GIMVI 8bb0b3687dc84a719a77d87a9715384b/Attrezzatura campeggio (2) de8a5eaf318e4a3db3f8e25b64207c52_all.csv",
     "0b11fbd8-48f3-4b99-8ddf-cf41651f6d08_Export-d9f86e83-f7cf-4a10-8a42-2ed2e6b4e8e4 2/Escursione GIMVI 8bb0b3687dc84a719a77d87a9715384b",
     "0b11fbd8-48f3-4b99-8ddf-cf41651f6d08_Export-d9f86e83-f7cf-4a10-8a42-2ed2e6b4e8e4 2",
-    "Storage/Backend/My Recipe Book",
-    "3. MOCS/Programming MOC/Pro_Archive/Pasted image 20240712194507.png",
-    "3. MOCS/Programming MOC/Pro_Archive/Pasted image 20240712194209.png",
-    "3. MOCS/Programming MOC/Pro_Archive/umlstrategy.png",
-    "3. MOCS/Programming MOC/Pro_Archive/Stategt.drawio 1.html",
-    "2. Litterateur Notes/High School/High School Storage/9a90fa029440712126031e16236f7991a66832dd.png",
-    "2. Litterateur Notes/High School/High School Storage/7148447_orig.gif",
-    "2. Litterateur Notes/High School/High School Storage/autov.jpg",
     "Buy List/Skin Care Buy List.canvas",
     "Buy List/Clothing Buy List.canvas",
     "Storage/Untitled.canvas",

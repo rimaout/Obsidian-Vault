@@ -1,6 +1,6 @@
 ---
 created: 2024-05-24T20:26
-updated: 2024-07-26T18:02
+updated: 2024-09-17T23:13
 ---
 
 Welcome to "My Resonance Calendar"; This is my organised space where I keep track of everything that resonates with me, including books, videos, articles, podcasts, and more.
@@ -9,6 +9,7 @@ Welcome to "My Resonance Calendar"; This is my organised space where I keep trac
 >- [I Paid a Taxi $10,000$ to See How Far it Takes Me! (Yes Theory)](https://www.youtube.com/watch?v=_TedFmvfCYo)
 >- [Why Alien Life Would be our Doom - The Great Filter (Kurzgesagt)](https://www.youtube.com/watch?v=UjtOGPJ0URM)
 >- [I Trained Like An Olympic Boxer (Michelle Khare)](https://www.youtube.com/watch?v=LZanXTAeqGc)
+>- [I moved to the French countryside (Nathaniel Drew)](https://www.youtube.com/watch?v=__UNhmnQgzU)
 >- [$25,000 vs. $25,000,000 (Johnny Harris)](https://youtu.be/NfMdvee5HoY)
 >- [WTF is Recession (Johnny Harris)](https://youtu.be/EhyOQ0QMINg)
 >- [Most of our money isn't Real (Johnny Harris)](https://youtu.be/E_VKZ6dzauo)

@@ -4,7 +4,7 @@ academic year: 2023/2024
 related:
   - "[[Java MOC]]"
 created: 2024-02-27T09:04
-updated: 2024-07-17T15:34
+updated: 2024-09-24T09:38
 ---
 ---
 
@@ -52,11 +52,8 @@ updated: 2024-07-17T15:34
 ---
 ## Progetto
 
-- [[Game Window]]
-- [[Game Loop]]
-- [[Game Player Inputs]]
-- [[Game Animations]]
-- [[Game Line of Site]]
-- [[Game Collisions]]
 
+- [[Relazione Bubble Bobble]]
+- [[Game Window]]
+- [[Bubble Drops]]
 
