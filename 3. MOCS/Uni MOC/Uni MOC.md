@@ -1,6 +1,6 @@
 ---
 created: 2023-09-26T10:14
-updated: 2024-09-24T15:33
+updated: 2024-09-25T15:37
 ---
 
 >**First year, first semester:**
@@ -20,3 +20,4 @@ updated: 2024-09-24T15:33
 >- [[Calcolo delle Probabilità (class)]]
 >- [[Algebra (class)]]
 >- [[Sistemi Operativi 1 (class)]]
+>- [[Basi di Dati 1 (class)]]

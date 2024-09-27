@@ -5,6 +5,7 @@
   "snippetsTrigger": "Tab",
   "suppressSnippetTriggerOnIME": true,
   "removeSnippetWhitespace": true,
+  "autoDelete$": true,
   "loadSnippetsFromFile": false,
   "loadSnippetVariablesFromFile": false,
   "snippetsFileLocation": "",

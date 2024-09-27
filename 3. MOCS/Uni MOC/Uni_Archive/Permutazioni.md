@@ -6,7 +6,7 @@ academic year: 2023/2024
 related: 
 completed: true
 created: 2024-09-23T18:25
-updated: 2024-09-24T13:03
+updated: 2024-09-25T19:43
 ---
 >[!abstract] Index
 >1. [[#Permutazioni con Ripetizioni]]
@@ -14,6 +14,7 @@ updated: 2024-09-24T13:03
 
 >[!abstract] Related
 >- [[Calcolo delle Probabilità (class)]]
+>- [[Calcolo Combinatorio]]
 
 ---
 ## Permutazioni Semplici
@@ -88,5 +89,3 @@ updated: 2024-09-24T13:03
 >$$
 >P^{r}_{n} = \frac{n!}{R_{A}! \cdot R_{M}!} = \frac{5!}{2! \cdot 3!}
 >$$
-
----

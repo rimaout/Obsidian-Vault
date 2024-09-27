@@ -5,7 +5,7 @@ academic year: 2023/2024
 related: 
 completed: false
 created: 2024-09-18T10:49
-updated: 2024-09-24T10:28
+updated: 2024-09-26T19:15
 ---
 ---
 L'audio manager è la classe responsabile della gestione della riproduzione dei suoni all'interno del programma.
@@ -25,23 +25,28 @@ private Clip[] songs, soundEffects;
 private int currentSongID;
 ```
 
-Ho deciso di dividerli in queste due categorie a causa delle loro caratteristiche diverse. Infatti:
+Ho deciso di dividerli in queste due categorie a causa delle loro caratteristiche diverse, infatti:
 
 - Le canzoni non possono essere riprodotte contemporaneamente (a differenza degli effetti audio, che possono essere riprodotti contemporaneamente)
 - Alla fine di una canzone, ne deve essere riprodotta automaticamente un'altra (a differenza degli effetti audio)
 
-## Gestione delle Canzoni
+## Inizializzazione delle Clip
 
-Una volta costruita la classe audio manager, converto i file `.wav` delle canzoni in oggetti `Clip`.
+Una volta costruita la classe audio manager, converto i file `.wav`in oggetti `Clip`, e li salvo nelle corrispettive `arrayList.
 
 ```java
-private void loadSongs() {  
-    // Load songs  
-    String[] songNames = {"song-intro-and-playing", "song-playing"};  
-    songs = new Clip[songNames.length];  
-    
-    for (int i = 0; i < songNames.length; i++)  
+private void loadAudios() {
+	// Load songs
+    String[] songNames = { "song-intro-and-playing", "song-playing" };
+    songs = new Clip[songNames.length];
+    for (int i = 0; i < songNames.length; i++)
         songs[i] = GetAudio(songNames[i]);
+
+    // Load sound effects
+	String[] soundEffectNames = { "sfx-home", "sfx-jump", "sfx-player-death", "sfx-bubble-shoot" }
+    soundEffects = new Clip[soundEffectNames.length];
+    for (int i = 0; i < soundEffectNames.length; i++)
+        soundEffects[i] = GetAudio(soundEffectNames[i]);
 }
 
 public static Clip GetAudio(String audioName) {  
@@ -60,6 +65,8 @@ public static Clip GetAudio(String audioName) {
     return null;  
 }
 ```
+
+## Gestione delle Canzoni
 
 Nel gioco ci sono due canzoni: la canzone iniziale (INTRO) che viene riprodotta solo all'inizio e un'altra canzone che si ripete per tutto il gioco (PLAYING).
 
@@ -102,3 +109,4 @@ Questo metodo, quando chiamato, inizia a riprodurre la canzone INTRO, ma aggiung
 
 ---
 ## Gestione degli effetti Audio
+

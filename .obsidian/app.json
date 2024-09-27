@@ -16,5 +16,6 @@
   "newFileFolderPath": "To-Do",
   "readableLineLength": false,
   "vimMode": true,
-  "showLineNumber": false
+  "showLineNumber": false,
+  "showRibbon": true
 }

@@ -6,7 +6,7 @@ class:
   - "[[Metodi matematici per l'informatica (class)]]"
 related: 
 completed: false
-updated: 2024-06-28T15:46
+updated: 2024-09-26T18:10
 ---
 >[!abstract] Related
 >- [[Calcolo Differenziale (class)]]
@@ -19,7 +19,7 @@ updated: 2024-06-28T15:46
 >1. [[Basi Funzioni#Definizione|Definizione]] 🟢
 >2. [[Basi Funzioni#Dominio e Co-dominio|Dominio e Co-dominio]] 🟢
 >3. [[Basi Funzioni#Immagine|Immagine]] 🟢
->4. [[Basi Funzioni#Contro Immagine. Contro Immagine]] 🟢
+>4. [[Basi Funzioni#Contro Immagine|Contro Immagine]] 🟢
 >
 >>**Leggi:** [[Basi Funzioni]] 🟢
 

@@ -6,7 +6,7 @@ class:
 related:
   - "[[Funzioni]]"
 completed: true
-updated: 2024-06-28T14:39
+updated: 2024-09-26T18:27
 ---
 
 >[!abstract] Index
@@ -21,6 +21,7 @@ updated: 2024-06-28T14:39
 
 ---
 ## Funzione Inniettiva
+
 Funzione che associa a elementi distinti del [[Funzioni#Dominio e Co-dominio|Dominio]] elementi diversi del [[Funzioni#Dominio e Co-dominio|Co-dominio]]
 
 >**Ovvero:** Due elementi diversi del [[Funzioni#Dominio e Co-dominio|Dominio]] non possono avere la stessa [[Funzioni#Immagine|Immagine]] 
@@ -59,7 +60,7 @@ Funzione che è sia **Inniettiva** che **Surriettiva**.
 >Una Funzioni Biettiva si può invertire --> [[Funzioni Invertibili]]
 >$$\forall B \in b\ \ \ \ \exists!x\in A:f(x=y) $$
 >
->>**ovvero*:* per ogni elemento del co-dominio è associato un solo elemento del dominio 
+>>**ovvero:** per ogni elemento del co-dominio è associato un solo elemento del dominio 
 
 ---
 

@@ -35,7 +35,7 @@
   "Appearance-dark@@background-underlying-dark": "#202336",
   "Appearance-dark@@background-primary@@dark": "#24283B",
   "Appearance-dark@@workspace-divider-transparent-dark": false,
-  "Appearance-dark@@background-secondary@@dark": "#1D2032",
+  "Appearance-dark@@background-secondary@@dark": "#1E2032",
   "Appearance-dark@@background-secondary-alt@@dark": "#343959",
   "Appearance-dark@@background-primary-alt@@dark": "#171A27F5",
   "catppuccin-theme-settings@@catppuccin-theme-dark": "ctp-macchiato",
@@ -73,7 +73,5 @@
   "Components@@setting-item-title-icon-remove": false,
   "Appearance-dark@@color-orange-rgb@@dark": "#FFCE7B",
   "Appearance-dark@@color-red-rgb@@dark": "#FF8572",
-  "Appearance-light@@card-layout-open-light": true,
-  "Plugin@@DB-table-bg-color": "DB-table-bg-color-default",
-  "Plugin@@DB-table-full-width-off": false
+  "Appearance-light@@card-layout-open-light": true
 }
