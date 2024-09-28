@@ -3,7 +3,7 @@ Main Moc:
 related: 
 completed: 
 created: 2024-07-18T12:35
-updated: 2024-07-18T12:36
+updated: 2024-09-28T11:30
 ---
 These are not rules or anything official for the sub.
 
@@ -54,9 +54,7 @@ These are not rules or anything official for the sub.
 
 For tables, there won't be any lines between the header and cells. Sadly, reddit won't let me format this markdown as pre-formatted text.
 
-Ingredient | Measurement, Weight | Notes
-
----|---|----
-
-Bread Flour | 1153 grams | Pref. King Arthur or Robin Hood
-Water (58%) | 670 grams | Room Temperature
+| Ingredient  | Measurement, Weight | Notes                           |
+| ----------- | ------------------- | ------------------------------- |
+| Bread Flour | 1153 grams          | Pref. King Arthur or Robin Hood |
+| Water (58%) | 670 grams           | Room Temperature                |
