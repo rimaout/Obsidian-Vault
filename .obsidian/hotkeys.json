@@ -1,12 +1,5 @@
 {
-  "global-search:open": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "S"
-    }
-  ],
+  "global-search:open": [],
   "editor:open-search": [
     {
       "modifiers": [
@@ -42,7 +35,14 @@
       "key": "T"
     }
   ],
-  "workspace:new-tab": [],
+  "workspace:new-tab": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "T"
+    }
+  ],
   "app:toggle-right-sidebar": [
     {
       "modifiers": [
@@ -145,7 +145,7 @@
   "workspace:close": [
     {
       "modifiers": [
-        "Mod"
+        "Ctrl"
       ],
       "key": "W"
     }
@@ -160,5 +160,13 @@
     }
   ],
   "workspace:close-window": [],
-  "editor:insert-link": []
+  "editor:insert-link": [],
+  "omnisearch:show-modal": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "S"
+    }
+  ]
 }

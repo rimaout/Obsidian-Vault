@@ -1,6 +1,6 @@
 ---
 created: 2023-10-02T08:38
-updated: 2024-09-13T14:20
+updated: 2024-09-27T14:00
 ---
 >**Programming  Languages:**
 >- [[Python MOC|Python]]
@@ -20,3 +20,4 @@ updated: 2024-09-13T14:20
 - [[Nvim]]
 - [[Unix Terminal MOC]]
 
+- vedi **maim** --> screenshot su linux

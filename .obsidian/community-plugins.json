@@ -9,5 +9,6 @@
   "dataview",
   "dataview-serializer",
   "update-time",
-  "obsidian-vault-changelog"
+  "obsidian-vault-changelog",
+  "omnisearch"
 ]

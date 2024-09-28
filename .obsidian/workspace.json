@@ -4,71 +4,49 @@
     "type": "split",
     "children": [
       {
-        "id": "5c80586d5a573745",
+        "id": "2a5cae831ab82e26",
         "type": "tabs",
         "children": [
           {
-            "id": "268d71c4919a1026",
+            "id": "a0ea078b6afb5d4d",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "To-Do/Sistemi Operativi 1 (class).md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "96040ce18b2fe9fc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Gestione Audio.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Interruzioni.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "0f2a651b221a7f96",
+            "id": "0ee3340b4d690d2c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Storage/Backend/My Resonance Calendar/My Resonance Calendar.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b5fa27662fd15b69",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Gestione Audio.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f789bbe0da46e51d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Gestione Audio.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "301fe45bb6f799cb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Projects/Relazione Bubble Bobble/Bubble Drops.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Interruzioni.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -97,9 +75,9 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "---",
+                "query": "",
                 "matchingCase": true,
-                "explainSearch": true,
+                "explainSearch": false,
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical"
@@ -122,11 +100,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 246.5
+    "width": 246.5,
+    "collapsed": true
   },
   "right": {
     "id": "1599d9a7234429ed",
@@ -154,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Storage/Backend/My Resonance Calendar/My Resonance Calendar.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Interruzioni.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Storage/Backend/My Resonance Calendar/My Resonance Calendar.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Interruzioni.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Storage/Backend/My Resonance Calendar/My Resonance Calendar.md"
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Interruzioni.md"
               }
             }
           }
@@ -225,7 +205,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Storage/Backend/My Resonance Calendar/My Resonance Calendar.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Interruzioni.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -272,15 +252,36 @@
       "audio-recorder:Start/stop recording": false,
       "workspaces:Manage workspace layouts": false,
       "markdown-importer:Open format converter": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "ba7d0379bd9741ad",
+  "active": "0ee3340b4d690d2c",
   "lastOpenFiles": [
+    "To-Do/Sistemi Operativi 1 (class).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Interruzioni.md",
+    "3. MOCS/Uni MOC/Uni_Archive/L2 Sistemi Operativi 1.md",
+    "3. MOCS/Uni MOC/Uni_Archive/L1 Sistemi Operativi 1.md",
+    "3. MOCS/Uni MOC/Uni MOC.md",
+    "3. MOCS/Programming MOC/Pro_Archive/UML MOC.md",
+    "To-Do/Untitled 1.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Alberi Ricerca Binaria.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240927150510.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240927144423.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240927141110.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240927140605.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240927140448.png",
+    "3. MOCS/Programming MOC/Programming MOC.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240927132938.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240927132910.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240927132902.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240927132738.png",
+    "3. MOCS/Uni MOC/Uni_Projects/Relazione Bubble Bobble/Bubble Drops.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Gestione Audio.md",
+    "Storage/Backend/My Resonance Calendar/My Resonance Calendar.md",
     "To-Do/To-Do.md",
     "3. MOCS/Uni MOC/Uni_Projects/Relazione Bubble Bobble/Relazione Bubble Bobble.md",
     "3. MOCS/Uni MOC/Uni_Archive/Flyweight.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Gestione Audio.md",
     "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
     "To-Do/Algebra (class).md",
     "3. MOCS/Uni MOC/Uni_Archive/Funzione Inniettiva, Surriettiva, Biettiva, Inversa.md",
@@ -293,28 +294,8 @@
     "3. MOCS/Uni MOC/Uni_Archive/Relazioni.md",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240926180332.png",
     "3. MOCS/Uni MOC/Uni_Archive/L2 Algebra.md",
-    "3. MOCS/Uni MOC/Uni_Archive/L2 Basi di dati 1.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240926154114.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240926153930.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240926153922.png",
     "recording-multitrack-2024-09-26T13-27-31-195Z.wav",
     "3. MOCS/Uni MOC/Uni_Archive/Recording 20240926150358.webm",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240926134958.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240926133944.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240926133426.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240926132959.png",
-    "To-Do/Basi di Dati 1 (class).md",
-    "3. MOCS/Uni MOC/Uni_Archive/L1 Basi di dati 1.md",
-    "To-Do/Calcolo delle Probabilità (class).md",
-    "3. MOCS/Uni MOC/Uni_Archive/L3 Calcolo Probabilità.md",
-    "3. MOCS/Uni MOC/Uni_Archive/L2 Calcolo Probabilità.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Coefficiente Binomiale.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Disposizioni.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Permutazioni.md",
-    "3. MOCS/Uni MOC/Uni_Archive/L1 Calcolo Probabilità.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Operazioni sugli insiemi.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240924163458.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240924155823.png",
     "3. MOCS/Uni MOC/Uni_Projects/Relazione Bubble Bobble",
     "3. MOCS/Uni MOC/Uni_Projects",
     "0b11fbd8-48f3-4b99-8ddf-cf41651f6d08_Export-d9f86e83-f7cf-4a10-8a42-2ed2e6b4e8e4 2/Escursione GIMVI 8bb0b3687dc84a719a77d87a9715384b/Attrezzatura campeggio (3) b0167bbe8fb64cd2b42395f5c473e48a_all.csv",
