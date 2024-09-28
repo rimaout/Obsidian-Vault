@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "To-Do/Sistemi Operativi 1 (class).md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Sistemi Operativi 1 (class).md",
                 "mode": "source",
                 "source": false
               },
@@ -22,31 +22,19 @@
             }
           },
           {
-            "id": "96040ce18b2fe9fc",
+            "id": "a840b559eab7746a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Interruzioni.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0ee3340b4d690d2c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Interruzioni.md",
+                "file": "Storage/Backend/My Recipe Book/Recipes Markdown Formatting.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -100,13 +88,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 246.5,
-    "collapsed": true
+    "width": 246.5
   },
   "right": {
     "id": "1599d9a7234429ed",
@@ -134,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Interruzioni.md",
+                "file": "Storage/Backend/My Recipe Book/Recipes Markdown Formatting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Interruzioni.md",
+                "file": "Storage/Backend/My Recipe Book/Recipes Markdown Formatting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Interruzioni.md"
+                "file": "Storage/Backend/My Recipe Book/Recipes Markdown Formatting.md"
               }
             }
           }
@@ -205,7 +191,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Interruzioni.md",
+                "file": "Storage/Backend/My Recipe Book/Recipes Markdown Formatting.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -256,22 +242,33 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "0ee3340b4d690d2c",
+  "active": "ba7d0379bd9741ad",
   "lastOpenFiles": [
-    "To-Do/Sistemi Operativi 1 (class).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Sistemi Operativi 1 (class).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Domanda Scritta Esame Metodologia di Programmazione.md",
+    "3. MOCS/Programming MOC/Programming MOC.md",
+    "3. MOCS/Programming MOC/Pro_Archive/dotfiles (gnu stow).md",
+    "3. MOCS/Programming MOC/Pro_Archive/Best Software.md",
+    "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
     "3. MOCS/Uni MOC/Uni_Archive/Interruzioni.md",
+    "To-Do/Untitled.md",
+    "To-Do/Untitled 1.md",
+    "Storage/Backend/My Recipe Book/Recipes Markdown Formatting.md",
+    "3. MOCS/Programming MOC/Pro_Archive/Nvim.md",
+    "3. MOCS/Programming MOC/Pro_Archive/Jekyll.md",
+    "To-Do/C1 Mission.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Algebra (class).md",
+    "To-Do/To-Do.md",
     "3. MOCS/Uni MOC/Uni_Archive/L2 Sistemi Operativi 1.md",
     "3. MOCS/Uni MOC/Uni_Archive/L1 Sistemi Operativi 1.md",
     "3. MOCS/Uni MOC/Uni MOC.md",
     "3. MOCS/Programming MOC/Pro_Archive/UML MOC.md",
-    "To-Do/Untitled 1.md",
     "3. MOCS/Uni MOC/Uni_Archive/Alberi Ricerca Binaria.md",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240927150510.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240927144423.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240927141110.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240927140605.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240927140448.png",
-    "3. MOCS/Programming MOC/Programming MOC.md",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240927132938.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240927132910.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240927132902.png",
@@ -279,21 +276,10 @@
     "3. MOCS/Uni MOC/Uni_Projects/Relazione Bubble Bobble/Bubble Drops.md",
     "3. MOCS/Uni MOC/Uni_Archive/Gestione Audio.md",
     "Storage/Backend/My Resonance Calendar/My Resonance Calendar.md",
-    "To-Do/To-Do.md",
     "3. MOCS/Uni MOC/Uni_Projects/Relazione Bubble Bobble/Relazione Bubble Bobble.md",
     "3. MOCS/Uni MOC/Uni_Archive/Flyweight.md",
-    "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
-    "To-Do/Algebra (class).md",
     "3. MOCS/Uni MOC/Uni_Archive/Funzione Inniettiva, Surriettiva, Biettiva, Inversa.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Funzioni.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Basi Funzioni.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Metodi matematici per l'informatica (class).md",
-    "3. MOCS/Uni MOC/Uni_Archive/L3 Algebra.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Funzione d'identità.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Teoria degli insiemi.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Relazioni.md",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240926180332.png",
-    "3. MOCS/Uni MOC/Uni_Archive/L2 Algebra.md",
     "recording-multitrack-2024-09-26T13-27-31-195Z.wav",
     "3. MOCS/Uni MOC/Uni_Archive/Recording 20240926150358.webm",
     "3. MOCS/Uni MOC/Uni_Projects/Relazione Bubble Bobble",

@@ -5,7 +5,7 @@ academic year: 2023/2024
 related: 
 completed: false
 created: 2024-09-27T17:20
-updated: 2024-09-28T11:17
+updated: 2024-09-28T11:19
 ---
 >[!abstract] Index
 >1. [[#Introduzione]]
@@ -46,6 +46,7 @@ Le cause per cui potrebbe avvenire un interruzione sono molteplici, e danno luog
 >- Interruzioni da comunicazione tra CPU (per multi processor systems)
 >- Interruzioni da timer (usati per eseguire più processi)
 
+---
 ## Approfondimento Causa Interruzioni
 
 >[!note] Input/Output
@@ -95,3 +96,4 @@ Al termine di un interruzione **sincrona** ci sono tre possibili casistiche:
 >2. **Aborts:** errore non correggibile, si esegue software collegato con l’errore.
 >3. **traps e system calls:** si continua dall’istruzione successiva.
 
+---

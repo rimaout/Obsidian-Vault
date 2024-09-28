@@ -4,7 +4,7 @@ academic year: 2023/2024
 related:
   - "[[Java MOC]]"
 created: 2024-02-27T09:04
-updated: 2024-09-24T09:38
+updated: 2024-09-28T11:25
 ---
 ---
 
@@ -51,9 +51,11 @@ updated: 2024-09-24T09:38
 
 ---
 ## Progetto
-
-
 - [[Relazione Bubble Bobble]]
 - [[Game Window]]
 - [[Bubble Drops]]
 
+## Domande Scritta Esame
+- [[Domanda Scritta Esame Metodologia di Programmazione]]
+
+---

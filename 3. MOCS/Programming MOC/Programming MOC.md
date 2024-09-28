@@ -1,6 +1,6 @@
 ---
 created: 2023-10-02T08:38
-updated: 2024-09-27T14:00
+updated: 2024-09-28T11:26
 ---
 >**Programming  Languages:**
 >- [[Python MOC|Python]]
@@ -16,8 +16,10 @@ updated: 2024-09-27T14:00
 
 **Ide/Terminal:**
 - [[dotfiles (gnu stow)]]
-- [[VS Code]]
 - [[Nvim]]
-- [[Unix Terminal MOC]]
 
 - vedi **maim** --> screenshot su linux
+
+**Other:**
+- [[Jekyll]]
+- [[Best Software]]
