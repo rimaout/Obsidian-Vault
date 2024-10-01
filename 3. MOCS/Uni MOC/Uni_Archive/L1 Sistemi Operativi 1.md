@@ -5,7 +5,7 @@ academic year: 2023/2024
 related: 
 completed: false
 created: 2024-09-24T15:36
-updated: 2024-09-24T17:16
+updated: 2024-09-28T12:16
 ---
 >[!abstract] Index
 >1. 
@@ -69,18 +69,3 @@ xcklkasjzblònaljsvnzlkòccjalkjlkckn
 Esistono 2 tipi
 - Sincrone: eccezioni che vengono chiamate immediatamente dopo l'esecuzione di una certa istruzione
 - Asincrone:
-
-### Interruzioni Sincrone
-
-
-
-Le systemcall sono interazioni sincrone che non causano l’interruzione del programma.
-
-
->[!warning] Fasi di Interruzione
->![[Pasted image 20240924163458.png|500]]
->
->- Ad ogni ciclo fetch-execute, viene anche controllato se c'è stata un’interruzione (o una exception)
->- Se così è, il programma viene sospeso e viene eseguita una funzione che gestisce l’interruzione (interrupt-handler routine)
-
-

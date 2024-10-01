@@ -5,7 +5,7 @@ academic year: 2023/2024
 related: 
 completed: false
 created: 2024-09-26T13:09
-updated: 2024-09-26T15:54
+updated: 2024-09-28T19:50
 ---
 >[!abstract] Index
 >1. 
@@ -228,7 +228,7 @@ Una dipendenza funzionale stabilisce un particolare legame semantico tra due ins
 
 >[!note] Simbologia
 >$$
->p-greco A_{1}, A_{2}, \dots , A_{k} (r)
+>\pi A_{1}, A_{2}, \dots , A_{k} (r)
 >$$
 
 >[!example] Esempio
@@ -236,7 +236,7 @@ Una dipendenza funzionale stabilisce un particolare legame semantico tra due ins
 >
 >**Query:** Nomi dei clienti, ovvero:
 >$$
->p-greco_{\text{nome}}(\text{CLIENTE})
+>\pi_{\text{nome}}(\text{CLIENTE})
 >$$
 >**Output:**
 >![[Pasted image 20240926154114.png|120]]

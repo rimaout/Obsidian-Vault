@@ -6,7 +6,7 @@ academic year: 2023/2024
 related: 
 completed: false
 created: 2024-09-25T14:20
-updated: 2024-09-25T15:10
+updated: 2024-10-01T13:43
 ---
 >[!abstract] Index
 >1. 
@@ -14,23 +14,11 @@ updated: 2024-09-25T15:10
 >[!abstract] Related
 >- 
 
->[!danger] TLDR
-
 ---
 ## Probabilità 
 
 oss: $30\% = 0.3 = \frac{30}{100}$ 
 
-## Spazio Campionario
-
->[!note] Definition
->- insieme dei possibili esiti 
->- simbolo: $S$
-
->[!example] Example
->Esperimento: lancio dado
->$S = \{ 1,2,3,4,5,6 \}$ 
->
   
 ---
 ## Evento 
@@ -79,7 +67,7 @@ uno spazio di probabili tà è descritto dalla coppia $(S,P)$ dove:
 - $S$ è lo spazio campionario dell'esperimento in considerazione
 - P è la **funzione di probabilità** 
 
-
+---
 ## Funzione di probabilità
 
 è una funzione definita sulla famiglia degli eventi che soddisfano i seguenti assiomi:
@@ -94,12 +82,70 @@ uno spazio di probabili tà è descritto dalla coppia $(S,P)$ dove:
 > P(S) = 1
 >$$
 
->[!note] Assioma 3
->Data una successione $E_{1},E_{2}, \dots$ di eventi a 2 a 2 disgiunti vale:
+>[!note] Assioma 3 (additiva numerabile)
+>Data una successione $E_{1},E_{2}, \dots$ di eventi a 2 a 2 disgiunti (incompatibili) vale:
 >$$
 >P\big(U^{\infty }_{i=1}E_{i} \big) = \sum^{\infty }_{i=1} P(E_{i})
 >$$
 
-
+oss: incompatibilità tra eventi: $\forall  i = j \exists:E_{i} \cap j \not = 0$
 
 oss: dato un evento $E$, $P(E)$ è detta probabilità dell'evento $E$
+
+>[!danger] Prop
+>$$
+>P(\emptyset) = 0
+>$$
+>
+>**Dim:**
+>Prendo la successione $E_{1}, E_{2}, \dots$ dove
+>- $E_{1} = \emptyset, E_{2} = \emptyset, E_{3} = \emptyset$ 
+>
+>cnskjnkjdz
+>se fosse $P(\emptyset) \in (0,5] avrei \sum^{\infty}_{i=1}P(\emptyset) = +\infty$
+>e quindi $P(\emptyset) \not = \sum^{\infty}_{i=1}P(\emptyset)$
+>
+>Per esclusione deve essere $P(\emptyset) = 0$
+
+>[!danger] Prop
+>$P$ soddisfa l’aditività  finita
+>
+>dati $n$ eventi a 2 a2 incompatibili $E_{1}, E_{2}, \dots, E_{n}$
+>
+>$P\big(U^{\infty }_{i=1}E_{i} \big) = \sum^{u}_{i=1}$
+>
+>**Dim:**
+>consideriamo la successione $F_{1}, F_{2}, \dots$ con: 
+>$$
+>F_{1} = E_{1}, F_{2} = E_{2}, \dots , F_{n}=E_{n}, F_{n+1} = \emptyset, F_{n+1} = \emptyset 
+>$$
+>Questa è una bella successione l.cnzkljsvnljkznvslkzjnajks<
+>
+>Ho che $P\big(U^{\infty }_{i=1}E_{i} \big) = \sum^{u}_{i=1}$
+>lsdjv<k<vk.zvnjklxn
+
+>[!danger] Prop
+>Consideriamo un evento $E$ la probabilità del suo evento complementare $E^{c}$ sarà:
+>$$
+>P(E^{c}) = 1 - P(E)
+>$$
+>
+>>[!warning]- Dim
+>>$E$ ed $E^{c}$ sono eventi incompatibili kdkljshdkjladhjkhjkh
+
+>[!danger] Prop
+> Dati due eventi $F$ ed $E$ con $E \subset F$  vale che:
+>$$
+>P(F) \leq P(E)
+>$$
+>
+>>[!warning]- Dim
+>>![[Pasted image 20240930182639.png|400]]
+
+>[!danger] Prop
+>Somma della probabilità di eventi non disgiunti (non incompatibili)
+>$\forall E,F$ eventi $P(E\cup F) = P(E) + P(F) - P(E\cap F)$
+
+
+
+---

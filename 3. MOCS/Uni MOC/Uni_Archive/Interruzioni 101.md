@@ -1,11 +1,12 @@
 ---
 type: Uni Note
-class: 
-academic year: 2023/2024
+class:
+  - "[[Sistemi Operativi 1 (class)]]"
+academic year: 2024/2025
 related: 
 completed: false
 created: 2024-09-27T17:20
-updated: 2024-09-28T11:19
+updated: 2024-10-01T13:56
 ---
 >[!abstract] Index
 >1. [[#Introduzione]]
@@ -95,5 +96,19 @@ Al termine di un interruzione **sincrona** ci sono tre possibili casistiche:
 >1. **Faults:** errore correggibile, viene rieseguita la stessa istruzione dove è avvenuta l’interruzione.
 >2. **Aborts:** errore non correggibile, si esegue software collegato con l’errore.
 >3. **traps e system calls:** si continua dall’istruzione successiva.
+
+---
+## Fase di Interruzione 
+
+Ad ogni **ciclo fetch-execute** dell'esecuzione di un istruzione, viene anche controllato se si è verificata un’interruzione (o exception)
+
+Nel caso di un interruzione, il programma viene sospeso e viene eseguita una funzione che gestisce l’interruzione (**interrupt-handler routine**)
+
+![[Pasted image 20240928115435.png|500]]
+
+---
+## Interruzioni Sequenziali ed Annidate
+
+![[Pasted image 20240928120256.png|600]]
 
 ---

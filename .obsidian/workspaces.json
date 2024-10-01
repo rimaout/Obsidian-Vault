@@ -569,17 +569,17 @@
         "type": "split",
         "children": [
           {
-            "id": "f8a9f7b803b618df",
+            "id": "9ad3a4000670a82b",
             "type": "tabs",
             "children": [
               {
-                "id": "6f013d5126924dee",
+                "id": "a1e27bfdfbc89582",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "To-Do/Calcolo delle Probabilità (class).md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Calcolo delle Probabilità (class).md",
                     "mode": "source",
                     "source": false
                   },
@@ -587,18 +587,43 @@
                 }
               },
               {
-                "id": "29c9fd085aa36b0b",
+                "id": "5f91a903c3a584d6",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/L3 Calcolo Probabilità.md",
+                    "file": "To-Do/L4 Calcolo Probabilità.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "fe4f3a7b212ba48e",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Definizione di Probabilità.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "5aafacf080d76cf9",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Assiomi della Probabilità.md",
                     "mode": "source",
                     "source": false
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -656,7 +681,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 308.504789352417
+        "width": 308.504789352417,
+        "collapsed": true
       },
       "right": {
         "id": "1599d9a7234429ed",
@@ -684,7 +710,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "To-Do/Calcolo delle Probabilità (class).md",
+                    "file": "To-Do/L4 Calcolo Probabilità.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -701,7 +727,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "To-Do/Calcolo delle Probabilità (class).md",
+                    "file": "To-Do/L4 Calcolo Probabilità.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -725,7 +751,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "To-Do/Calcolo delle Probabilità (class).md"
+                    "file": "To-Do/L4 Calcolo Probabilità.md"
                   }
                 }
               }
@@ -755,7 +781,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "To-Do/Calcolo delle Probabilità (class).md",
+                    "file": "To-Do/L4 Calcolo Probabilità.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -793,6 +819,8 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "obsidian-git:Open Git source control": false,
+          "omnisearch:Omnisearch": false,
           "obsidian-excalidraw-plugin:Create new drawing": false,
           "switcher:Open quick switcher": false,
           "graph:Open graph view": false,
@@ -804,8 +832,8 @@
           "markdown-importer:Open format converter": false
         }
       },
-      "active": "6f013d5126924dee",
-      "mtime": "2024-09-26T08:23:29+02:00"
+      "active": "5f91a903c3a584d6",
+      "mtime": "2024-10-01T18:52:32+02:00"
     },
     "Metodi Matematici": {
       "main": {
@@ -1050,6 +1078,8 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "obsidian-git:Open Git source control": false,
+          "omnisearch:Omnisearch": false,
           "obsidian-excalidraw-plugin:Create new drawing": false,
           "switcher:Open quick switcher": false,
           "graph:Open graph view": false,
@@ -1062,7 +1092,7 @@
         }
       },
       "active": "9d85e1d2c69cc1e6",
-      "mtime": "2024-09-24T08:05:26+02:00"
+      "mtime": "2024-10-01T18:52:36+02:00"
     },
     "Algebra": {
       "main": {
@@ -1080,7 +1110,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "To-Do/Algebra (class).md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Algebra (class).md",
                     "mode": "source",
                     "source": false
                   },
@@ -1174,7 +1204,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "To-Do/Algebra (class).md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Algebra (class).md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1191,7 +1221,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "To-Do/Algebra (class).md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Algebra (class).md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1215,7 +1245,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "To-Do/Algebra (class).md"
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Algebra (class).md"
                   }
                 }
               }
@@ -1245,7 +1275,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "To-Do/Algebra (class).md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Algebra (class).md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -1284,7 +1314,8 @@
       },
       "left-ribbon": {
         "hiddenItems": {
-          "super-duper-audio-recorder:Start/Stop Recording": false,
+          "obsidian-git:Open Git source control": false,
+          "omnisearch:Omnisearch": false,
           "obsidian-excalidraw-plugin:Create new drawing": false,
           "switcher:Open quick switcher": false,
           "graph:Open graph view": false,
@@ -1297,7 +1328,7 @@
         }
       },
       "active": "3ed859c9623fbc80",
-      "mtime": "2024-09-26T19:03:29+02:00"
+      "mtime": "2024-10-01T15:26:00+02:00"
     },
     "Basi Dati": {
       "main": {
@@ -1313,12 +1344,8 @@
                 "type": "leaf",
                 "pinned": true,
                 "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "To-Do/Basi di Dati 1 (class).md",
-                    "mode": "source",
-                    "source": false
-                  },
+                  "type": "empty",
+                  "state": {},
                   "pinned": true
                 }
               },
@@ -1415,7 +1442,7 @@
           {
             "id": "b33702b1304e824a",
             "type": "tabs",
-            "dimension": 42.06642066420664,
+            "dimension": 42.06642066420663,
             "children": [
               {
                 "id": "73d6fce2365a09ef",
@@ -1485,7 +1512,7 @@
           {
             "id": "0ee4f1dd2040ea54",
             "type": "tabs",
-            "dimension": 57.93357933579336,
+            "dimension": 57.93357933579337,
             "children": [
               {
                 "id": "08bb0d9d4b18b672",
@@ -1544,6 +1571,8 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "obsidian-git:Open Git source control": false,
+          "omnisearch:Omnisearch": false,
           "obsidian-excalidraw-plugin:Create new drawing": false,
           "switcher:Open quick switcher": false,
           "graph:Open graph view": false,
@@ -1552,12 +1581,11 @@
           "command-palette:Open command palette": false,
           "audio-recorder:Start/stop recording": false,
           "workspaces:Manage workspace layouts": false,
-          "markdown-importer:Open format converter": false,
-          "super-duper-audio-recorder:Start/Stop Recording": false
+          "markdown-importer:Open format converter": false
         }
       },
       "active": "a81d94e6e2fba497",
-      "mtime": "2024-09-26T16:23:16+02:00"
+      "mtime": "2024-10-01T17:32:02+02:00"
     },
     "Sistemi Operativi": {
       "main": {
@@ -1571,16 +1599,31 @@
               {
                 "id": "a0ea078b6afb5d4d",
                 "type": "leaf",
+                "pinned": true,
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "To-Do/Sistemi Operativi 1 (class).md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Sistemi Operativi 1 (class).md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "pinned": true
+                }
+              },
+              {
+                "id": "a425bbb0393e9686",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Introduzione Sistema Operativo.md",
                     "mode": "source",
                     "source": false
                   }
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -1609,9 +1652,9 @@
                 "state": {
                   "type": "search",
                   "state": {
-                    "query": "---",
+                    "query": "",
                     "matchingCase": true,
-                    "explainSearch": true,
+                    "explainSearch": false,
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "alphabetical"
@@ -1667,7 +1710,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "To-Do/Sistemi Operativi 1 (class).md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Introduzione Sistema Operativo.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1684,7 +1727,7 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "To-Do/Sistemi Operativi 1 (class).md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Introduzione Sistema Operativo.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   }
@@ -1708,7 +1751,7 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "To-Do/Sistemi Operativi 1 (class).md"
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Introduzione Sistema Operativo.md"
                   }
                 }
               }
@@ -1738,7 +1781,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "To-Do/Sistemi Operativi 1 (class).md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Introduzione Sistema Operativo.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -1785,11 +1828,12 @@
           "audio-recorder:Start/stop recording": false,
           "workspaces:Manage workspace layouts": false,
           "markdown-importer:Open format converter": false,
-          "obsidian-git:Open Git source control": false
+          "obsidian-git:Open Git source control": false,
+          "omnisearch:Omnisearch": false
         }
       },
-      "active": "a0ea078b6afb5d4d",
-      "mtime": "2024-09-27T13:15:49+02:00"
+      "active": "a425bbb0393e9686",
+      "mtime": "2024-10-01T17:31:57+02:00"
     }
   },
   "active": "Sistemi Operativi"

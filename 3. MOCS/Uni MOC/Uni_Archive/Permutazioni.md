@@ -2,11 +2,12 @@
 type: Uni Note
 class:
   - "[[Calcolo delle Probabilità (class)]]"
-academic year: 2023/2024
-related: 
+academic year: 2024/2025
+related:
+  - "[[Calcolo Combinatorio]]"
 completed: true
 created: 2024-09-23T18:25
-updated: 2024-09-25T19:43
+updated: 2024-10-01T13:54
 ---
 >[!abstract] Index
 >1. [[#Permutazioni con Ripetizioni]]
@@ -38,11 +39,6 @@ updated: 2024-09-25T19:43
 >$$
 
 >[!example] Esempio 3
->Numero di possibili parole di 5 lettere che non si ripetono (alfabeto da 26 lettere)
->
->**Risposta:** $6 \cdot 25 \cdot 24 \cdot 23 \cdot 22$
-
->[!example] Esempio 4
 >Ci sono 120 studenti e 20 studentesse, in quanti modi posso scegliere un rappresentate e vice di sesso diverso?
 >
 >**Risposta:** $120! \cdot 20!$ oppure $20! \cdot 120!$

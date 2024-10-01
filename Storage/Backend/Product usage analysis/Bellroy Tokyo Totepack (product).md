@@ -10,10 +10,9 @@ price: 160
 monthly-uses: 25
 uses: 
 link: 
-acquired: 2019-05-20
-discontinued: 2024-05-30
+acquired: 2022-10-27
 tags:
   - products
 created: 2024-05-24T23:52
-updated: 2024-05-31T20:00
+updated: 2024-10-01T21:57
 ---
