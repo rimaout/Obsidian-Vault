@@ -22,12 +22,12 @@
             }
           },
           {
-            "id": "ec2e4d263829abbb",
+            "id": "3811f1ce5cddb3ce",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "To-Do/L4 Calcolo Probabilità.md",
+                "file": "Storage/Backend/Monthly Log.md",
                 "mode": "source",
                 "source": false
               }
@@ -92,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 246.5,
-    "collapsed": true
+    "width": 246.5
   },
   "right": {
     "id": "1599d9a7234429ed",
@@ -121,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "To-Do/L4 Calcolo Probabilità.md",
+                "file": "Storage/Backend/Monthly Log.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "To-Do/L4 Calcolo Probabilità.md",
+                "file": "Storage/Backend/Monthly Log.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "To-Do/L4 Calcolo Probabilità.md"
+                "file": "Storage/Backend/Monthly Log.md"
               }
             }
           }
@@ -192,7 +191,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "To-Do/L4 Calcolo Probabilità.md",
+                "file": "Storage/Backend/Monthly Log.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -243,11 +242,16 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ec2e4d263829abbb",
+  "active": "3811f1ce5cddb3ce",
   "lastOpenFiles": [
-    "To-Do/To-Do.md",
+    "To-Do/().md",
+    "Storage/Backend/Monthly Log.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Sistemi Operativi 1 (class).md",
     "Storage/Backend/Product usage analysis/Rarely Used Products Analysis.md",
+    "Storage/Backend/Product usage analysis/Natura Hike CloudUp 2 (product).md",
     "Storage/Backend/Product usage analysis/Product usage analysis.md",
+    "To-Do/L4 Calcolo Probabilità.md",
+    "To-Do/To-Do.md",
     "3. MOCS/Uni MOC/Uni_Archive/L4 Sistemi Operativi.md",
     "Storage/Backend/Product Usage Analysis/test.md",
     "Storage/Backend/My Resonance Calendar/My Resonance Calendar.md",
@@ -262,23 +266,18 @@
     "Storage/Backend/Product Usage Analysis/MacBook M1.md",
     "Storage/Backend/Product usage analysis/MacBook M1.md",
     "Storage/Backend/Personal Backlog",
-    "Storage/Backend/Untitled.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Sistemi Operativi 1 (class).md",
     "3. MOCS/Uni MOC/Uni_Archive/L2 Sistemi Operativi 1.md",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240927140605.png",
     "3. MOCS/Uni MOC/Uni_Archive/L1 Sistemi Operativi 1.md",
     "3. MOCS/Uni MOC/Uni_Archive/Introduzione Sistema Operativo.md",
     "3. MOCS/Uni MOC/Uni MOC.md",
-    "To-Do/L4 Calcolo Probabilità.md",
     "3. MOCS/Uni MOC/Uni_Archive/Calcolo delle Probabilità (class).md",
     "3. MOCS/Uni MOC/Uni_Archive/L2 Basi di dati 1.md",
     "3. MOCS/Uni MOC/Uni_Archive/Assiomi della Probabilità.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Definizione di Probabilità.md",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241001165039.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241001165009.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241001164941.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241001164822.png",
-    "To-Do/Sistema Operativo.md",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241001141702.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240930182639.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240927141110.png",
