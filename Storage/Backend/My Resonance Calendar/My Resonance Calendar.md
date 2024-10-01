@@ -1,6 +1,6 @@
 ---
 created: 2024-05-24T20:26
-updated: 2024-09-26T22:21
+updated: 2024-10-01T23:16
 ---
 
 Welcome to "My Resonance Calendar"; This is my organised space where I keep track of everything that resonates with me, including books, videos, articles, podcasts, and more.

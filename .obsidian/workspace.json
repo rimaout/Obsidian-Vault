@@ -22,7 +22,7 @@
             }
           },
           {
-            "id": "3811f1ce5cddb3ce",
+            "id": "110b3809d677e4d4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -92,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 246.5
+    "width": 246.5,
+    "collapsed": true
   },
   "right": {
     "id": "1599d9a7234429ed",
@@ -242,11 +243,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "3811f1ce5cddb3ce",
+  "active": "110b3809d677e4d4",
   "lastOpenFiles": [
-    "To-Do/().md",
-    "Storage/Backend/Monthly Log.md",
     "3. MOCS/Uni MOC/Uni_Archive/Sistemi Operativi 1 (class).md",
+    "Storage/Backend/My Resonance Calendar/My Resonance Calendar.md",
+    "Storage/Backend/Monthly Log.md",
+    "To-Do/().md",
     "Storage/Backend/Product usage analysis/Rarely Used Products Analysis.md",
     "Storage/Backend/Product usage analysis/Natura Hike CloudUp 2 (product).md",
     "Storage/Backend/Product usage analysis/Product usage analysis.md",
@@ -254,7 +256,6 @@
     "To-Do/To-Do.md",
     "3. MOCS/Uni MOC/Uni_Archive/L4 Sistemi Operativi.md",
     "Storage/Backend/Product Usage Analysis/test.md",
-    "Storage/Backend/My Resonance Calendar/My Resonance Calendar.md",
     "path/to/main-page.md",
     "Storage/Backend/Product usage analysis/test.md",
     "Storage/Backend/Product usage analysis/Bellroy Tokyo Totepack (product).md",

@@ -1,8 +1,9 @@
 ---
 created: 2024-06-11T21:58
-updated: 2024-10-01T22:59
+updated: 2024-10-01T23:29
 ---
-- 2024-10-01 at 22h59 · [[Monthly Log]]
+- 2024-10-01 at 23h29 · [[Monthly Log]]
+- 2024-10-01 at 23h16 · [[My Resonance Calendar]]
 - 2024-10-01 at 22h27 · [[Rarely Used Products Analysis]]
 - 2024-10-01 at 22h27 · [[Natura Hike CloudUp 2 (product)]]
 - 2024-10-01 at 22h15 · [[Product usage analysis]]
@@ -40,7 +41,6 @@ updated: 2024-10-01T22:59
 - 2024-09-28 at 11h25 · [[Best Software]]
 - 2024-09-28 at 11h25 · [[Metodologie di Programmazione (class)]]
 - 2024-09-27 at 16h51 · [[Uni MOC]]
-- 2024-09-26 at 22h21 · [[My Resonance Calendar]]
 - 2024-09-26 at 21h55 · [[Flyweight]]
 - 2024-09-26 at 19h22 · [[Relazione Bubble Bobble]]
 - 2024-09-26 at 19h15 · [[Gestione Audio]]
