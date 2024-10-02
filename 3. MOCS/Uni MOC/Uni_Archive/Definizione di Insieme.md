@@ -8,7 +8,7 @@ related:
   - "[[Teoria degli insiemi]]"
 completed: true
 created: 2024-07-15T12:39
-updated: 2024-09-24T13:25
+updated: 2024-10-02T11:53
 ---
 >[!abstract] Related
 >- [[Teoria degli insiemi]]
@@ -26,10 +26,10 @@ Un insieme è una qualunque **collezione di oggetti**, **non ordinata** e **senz
 >L'insieme dei libri interessanti non è un insieme perché interessanti non è una proprietà oggettiva.
 
 ---
-## Notazione
+## Notazioni
 
-- **Insiemi:** per indicare un insieme si utilizzano le lettere maiuscole (A,B,C...).
-- **Elementi:** per indicare gli elementi di un insieme si utilizzano lettere minuscole (a,b,c...).
+- **Insiemi:** per indicare un insieme si utilizzano le lettere maiuscole $(A,B,C,\dots)$.
+- **Elementi:** per indicare gli elementi di un insieme si utilizzano lettere minuscole $(a,b,c, \dots)$.
 
 >[!example] Esempi
 >
@@ -42,3 +42,6 @@ Un insieme è una qualunque **collezione di oggetti**, **non ordinata** e **senz
 >$$
 >B = \{\emptyset\}
 >$$
+
+>[!warning] Signleton
+>Con singleton si intende un insieme composto da un solo elemento

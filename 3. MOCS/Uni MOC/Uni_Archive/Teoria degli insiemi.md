@@ -6,12 +6,11 @@ class:
   - "[[Calcolo Differenziale (class)]]"
 related: 
 completed: true
-updated: 2024-07-15T13:09
+updated: 2024-10-02T11:51
 ---
 >[!abstract] Related
 >1. [[Calcolo Differenziale (class)]]
 >2. [[Metodi matematici per l'informatica (class)]]
-
 
 ## Indice
 

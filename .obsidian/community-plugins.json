@@ -5,10 +5,10 @@
   "quickadd",
   "obsidian-git",
   "obsidian-latex-suite",
-  "obsidian-excalidraw-plugin",
   "dataview",
   "dataview-serializer",
   "update-time",
-  "obsidian-vault-changelog",
-  "omnisearch"
+  "omnisearch",
+  "various-complements",
+  "slurp"
 ]

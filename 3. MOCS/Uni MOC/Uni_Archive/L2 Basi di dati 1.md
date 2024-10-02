@@ -1,11 +1,12 @@
 ---
 type: Uni Note
-class: 
+class:
+  - "[[Basi di Dati 1 (class)]]"
 academic year: 2023/2024
 related: 
 completed: false
 created: 2024-09-26T13:09
-updated: 2024-09-28T19:50
+updated: 2024-10-02T11:47
 ---
 >[!abstract] Index
 >1. 

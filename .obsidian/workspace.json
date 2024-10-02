@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2a5cae831ab82e26",
+        "id": "f8a9f7b803b618df",
         "type": "tabs",
         "children": [
           {
-            "id": "a0ea078b6afb5d4d",
+            "id": "3ed859c9623fbc80",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Sistemi Operativi 1 (class).md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Algebra (class).md",
                 "mode": "source",
                 "source": false
               },
@@ -22,12 +22,12 @@
             }
           },
           {
-            "id": "110b3809d677e4d4",
+            "id": "d9dde82a83767515",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Storage/Backend/Monthly Log.md",
+                "file": "Storage/test.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,7 +65,7 @@
               "state": {
                 "query": "",
                 "matchingCase": true,
-                "explainSearch": false,
+                "explainSearch": true,
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical"
@@ -92,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 246.5,
-    "collapsed": true
+    "width": 308.504789352417
   },
   "right": {
     "id": "1599d9a7234429ed",
@@ -121,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Storage/Backend/Monthly Log.md",
+                "file": "Storage/test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Storage/Backend/Monthly Log.md",
+                "file": "Storage/test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,12 +161,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Storage/Backend/Monthly Log.md"
+                "file": "Storage/test.md"
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       },
       {
         "id": "0ee4f1dd2040ea54",
@@ -192,7 +191,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Storage/Backend/Monthly Log.md",
+                "file": "Storage/test.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -215,13 +214,14 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 1,
+                  "scale": 1.572661442911103,
                   "close": true
                 }
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -230,6 +230,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
+      "omnisearch:Omnisearch": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -238,59 +240,57 @@
       "command-palette:Open command palette": false,
       "audio-recorder:Start/stop recording": false,
       "workspaces:Manage workspace layouts": false,
-      "markdown-importer:Open format converter": false,
-      "obsidian-git:Open Git source control": false,
-      "omnisearch:Omnisearch": false
+      "markdown-importer:Open format converter": false
     }
   },
-  "active": "110b3809d677e4d4",
+  "active": "d9dde82a83767515",
   "lastOpenFiles": [
-    "3. MOCS/Uni MOC/Uni_Archive/Sistemi Operativi 1 (class).md",
-    "Storage/Backend/My Resonance Calendar/My Resonance Calendar.md",
-    "Storage/Backend/Monthly Log.md",
-    "To-Do/().md",
-    "Storage/Backend/Product usage analysis/Rarely Used Products Analysis.md",
-    "Storage/Backend/Product usage analysis/Natura Hike CloudUp 2 (product).md",
-    "Storage/Backend/Product usage analysis/Product usage analysis.md",
-    "To-Do/L4 Calcolo Probabilità.md",
+    "Slurped Pages/publish workflow.md",
+    "Storage/test.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Algebra (class).md",
     "To-Do/To-Do.md",
-    "3. MOCS/Uni MOC/Uni_Archive/L4 Sistemi Operativi.md",
-    "Storage/Backend/Product Usage Analysis/test.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Vettori nel Piano.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241002190331.png",
+    "3. MOCS/Uni MOC/Uni_Archive/L1 Algebra.md",
+    "3. MOCS/Uni MOC/Uni_Archive/L2 Algebra.md",
+    "Slurped Pages/cool things online - Eilleen's e-Notebook (1).md",
+    "Slurped Pages/cool things online - Eilleen's e-Notebook.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Basi di Dati 1 (class).md",
     "path/to/main-page.md",
-    "Storage/Backend/Product usage analysis/test.md",
-    "Storage/Backend/Product usage analysis/Bellroy Tokyo Totepack (product).md",
-    "Storage/Backend/Product Usage Analysis/Ipod 5th.md",
-    "Storage/Backend/Product usage analysis/Ipod 5th.md",
-    "path/to/rarely-used-products.md",
+    "Slurped Pages",
+    "3. MOCS/Uni MOC/Uni_Archive/L1 Basi di dati 1.md",
+    "3. MOCS/Uni MOC/Uni_Archive/L2 Basi di dati 1.md",
+    "3. MOCS/Uni MOC/Uni_Archive/L3 Basi di dati 1.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241002170156.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241002164939.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241002163928.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241002155110.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241002154629.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Proprietà Relazioni.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Calcolo delle Probabilità (class).md",
+    "3. MOCS/Uni MOC/Uni_Archive/L5 Calcolo Probabilità.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Metodi matematici per l'informatica (class).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Relazioni.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Definizione di Relazione.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Relazioni d'ordine.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Definizione di Insieme.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Teoria degli insiemi.md",
+    "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
+    "3. MOCS/Uni MOC/Uni MOC.md",
+    "To-Do/L4 Calcolo Probabilità.md",
     "path/to",
     "path",
-    "Storage/Backend/Product Usage Analysis/MacBook M1.md",
-    "Storage/Backend/Product usage analysis/MacBook M1.md",
     "Storage/Backend/Personal Backlog",
-    "3. MOCS/Uni MOC/Uni_Archive/L2 Sistemi Operativi 1.md",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240927140605.png",
-    "3. MOCS/Uni MOC/Uni_Archive/L1 Sistemi Operativi 1.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Introduzione Sistema Operativo.md",
-    "3. MOCS/Uni MOC/Uni MOC.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Calcolo delle Probabilità (class).md",
-    "3. MOCS/Uni MOC/Uni_Archive/L2 Basi di dati 1.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Assiomi della Probabilità.md",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241001165039.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241001165009.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241001164941.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241001164822.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241001141702.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240930182639.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240927141110.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240928170112.png",
-    "3. MOCS/Uni MOC/Uni_Archive/I/1721y32yuh327y.png",
     "3. MOCS/Uni MOC/Uni_Archive/I",
     "recording-multitrack-2024-09-26T13-27-31-195Z.wav",
     "3. MOCS/Uni MOC/Uni_Archive/Recording 20240926150358.webm",
     "3. MOCS/Uni MOC/Uni_Projects/Relazione Bubble Bobble",
     "3. MOCS/Uni MOC/Uni_Projects",
     "0b11fbd8-48f3-4b99-8ddf-cf41651f6d08_Export-d9f86e83-f7cf-4a10-8a42-2ed2e6b4e8e4 2/Escursione GIMVI 8bb0b3687dc84a719a77d87a9715384b/Attrezzatura campeggio (3) b0167bbe8fb64cd2b42395f5c473e48a_all.csv",
-    "0b11fbd8-48f3-4b99-8ddf-cf41651f6d08_Export-d9f86e83-f7cf-4a10-8a42-2ed2e6b4e8e4 2/Escursione GIMVI 8bb0b3687dc84a719a77d87a9715384b/Attrezzatura campeggio (3) b0167bbe8fb64cd2b42395f5c473e48a.csv",
     "Buy List/Skin Care Buy List.canvas",
     "Buy List/Clothing Buy List.canvas",
     "Storage/Untitled.canvas",
