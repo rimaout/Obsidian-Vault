@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Storage/test1.md",
+                "file": "3. MOCS/Uni MOC/Uni MOC.md",
                 "mode": "source",
                 "source": false
               }
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Storage/test1.md",
+                "file": "3. MOCS/Uni MOC/Uni MOC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Storage/test1.md",
+                "file": "3. MOCS/Uni MOC/Uni MOC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,12 +161,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Storage/test1.md"
+                "file": "3. MOCS/Uni MOC/Uni MOC.md"
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       },
       {
         "id": "0ee4f1dd2040ea54",
@@ -191,7 +191,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Storage/test1.md",
+                "file": "3. MOCS/Uni MOC/Uni MOC.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -214,7 +214,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 1.572661442911103,
+                  "scale": 1.499999999999996,
                   "close": true
                 }
               }
@@ -225,8 +225,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 350.5,
-    "collapsed": true
+    "width": 350.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -243,10 +242,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "ba7d0379bd9741ad",
+  "active": "d9dde82a83767515",
   "lastOpenFiles": [
-    "Slurped Pages/publish workflow.md",
+    "3. MOCS/Uni MOC/Uni_Classes/Calcolo Integrale (class).md",
+    "3. MOCS/Uni MOC/Uni MOC.md",
     "Storage/test1.md",
+    "Scriptorium/index.md",
+    "_assets/meta/avatar_index.gif.md",
+    "Scriptorium",
+    "_assets/meta",
+    "_assets",
+    "Slurped Pages/publish workflow.md",
     "3. MOCS/Uni MOC/Uni_Archive/Algebra (class).md",
     "To-Do/To-Do.md",
     "3. MOCS/Uni MOC/Uni_Archive/Vettori nel Piano.md",
@@ -274,10 +280,6 @@
     "3. MOCS/Uni MOC/Uni_Archive/Definizione di Relazione.md",
     "3. MOCS/Uni MOC/Uni_Archive/Relazioni d'ordine.md",
     "3. MOCS/Uni MOC/Uni_Archive/Definizione di Insieme.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Teoria degli insiemi.md",
-    "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
-    "3. MOCS/Uni MOC/Uni MOC.md",
-    "To-Do/L4 Calcolo Probabilità.md",
     "path/to",
     "path",
     "Storage/Backend/Personal Backlog",
@@ -288,9 +290,6 @@
     "3. MOCS/Uni MOC/Uni_Archive/I",
     "recording-multitrack-2024-09-26T13-27-31-195Z.wav",
     "3. MOCS/Uni MOC/Uni_Archive/Recording 20240926150358.webm",
-    "3. MOCS/Uni MOC/Uni_Projects/Relazione Bubble Bobble",
-    "3. MOCS/Uni MOC/Uni_Projects",
-    "0b11fbd8-48f3-4b99-8ddf-cf41651f6d08_Export-d9f86e83-f7cf-4a10-8a42-2ed2e6b4e8e4 2/Escursione GIMVI 8bb0b3687dc84a719a77d87a9715384b/Attrezzatura campeggio (3) b0167bbe8fb64cd2b42395f5c473e48a_all.csv",
     "Buy List/Skin Care Buy List.canvas",
     "Buy List/Clothing Buy List.canvas",
     "Storage/Untitled.canvas",
