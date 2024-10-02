@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni MOC.md",
+                "file": "Storage/test1.md",
                 "mode": "source",
                 "source": false
               }
@@ -92,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 308.504789352417
+    "width": 308.504789352417,
+    "collapsed": true
   },
   "right": {
     "id": "1599d9a7234429ed",
@@ -120,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni MOC.md",
+                "file": "Storage/test1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni MOC.md",
+                "file": "Storage/test1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni MOC.md"
+                "file": "Storage/test1.md"
               }
             }
           }
@@ -191,7 +192,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni MOC.md",
+                "file": "Storage/test1.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -225,13 +226,13 @@
       }
     ],
     "direction": "horizontal",
-    "width": 350.5
+    "width": 350.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
       "obsidian-git:Open Git source control": false,
       "omnisearch:Omnisearch": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -244,8 +245,8 @@
   },
   "active": "d9dde82a83767515",
   "lastOpenFiles": [
-    "3. MOCS/Uni MOC/Uni_Classes/Calcolo Integrale (class).md",
     "3. MOCS/Uni MOC/Uni MOC.md",
+    "3. MOCS/Uni MOC/Uni_Classes/Calcolo Integrale (class).md",
     "Storage/test1.md",
     "Scriptorium/index.md",
     "_assets/meta/avatar_index.gif.md",

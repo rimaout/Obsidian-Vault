@@ -1,6 +1,6 @@
 ---
 created: 2023-09-26T10:14
-updated: 2024-10-02T20:13
+updated: 2024-10-02T20:43
 ---
 
 >**First year, first semester:**
@@ -23,3 +23,4 @@ updated: 2024-10-02T20:13
 >- [[Algebra (class)]]
 
 [[test1]]
+
