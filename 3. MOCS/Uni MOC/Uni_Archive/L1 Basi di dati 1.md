@@ -1,11 +1,12 @@
 ---
 type: Uni Note
-class: 
+class:
+  - "[[Basi di Dati 1 (class)]]"
 academic year: 2023/2024
 related: 
 completed: false
 created: 2024-09-25T16:09
-updated: 2024-09-26T09:14
+updated: 2024-10-03T12:58
 ---
 >[!abstract] Index
 >1. 
@@ -45,14 +46,28 @@ Facilitare l'elaborazione delle informazioni .......
 ---
 ## Modelli 
 
->[!note] Modello logico
+>[!note] Modello Cogico
 >- indipendente dalle strutture fisiche 
 
->[!note] Modello concettuale
+>[!note] Modello Concettuale
 >- indipendente dalle modalità di relazione
 
 ---
+## Modello Relazionale 
 
+Nel 1970 IBM introduce il **Modello Relazionale**, i dati e le relazioni vengono rappresentati come **valori** e non ci sono riferimenti espliciti come puntatori, garantendo quindi una rappresentazione di alto livello.
+- Oggetto: record
+- Campi: Informazioni di interesse
+
+
+>[!warning] Esempio
+>
+>- Oggetto: “Membro dello Staff”
+>- Campi: Codice, Cognome, Nome, Ruolo, Anno di Assunzione
+>
+>| CODICE | COGNOME | NOME  | RUOLO    | ASSUNZIONE |
+>|--------|---------|-------|-----------|------------|
+>| cod1   | Rossi   | Mario | Analista | 1995       |
 
 >[!note] Schema di relazione
 >Schema di relazione è l'insime di attribbuti ... 

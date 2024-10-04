@@ -4,10 +4,8 @@ Main Moc: "[[Tech MOC]]"
 related:
   - "[[Quartz Setup]]"
 completed: true
-updated: 2024-05-27T13:29
+updated: 2024-10-03T16:39
 ---
----
-
 ```typescript
 colors: {
         lightMode: {

@@ -31,7 +31,8 @@
     "select": [
       {
         "modifiers": [],
-        "key": "Enter"
+        "key": "tab",
+        "hideHotkeyGuide": false
       }
     ],
     "select with custom alias": [],

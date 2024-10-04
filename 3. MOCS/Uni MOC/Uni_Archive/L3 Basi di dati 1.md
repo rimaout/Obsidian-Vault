@@ -5,72 +5,12 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2024-10-02T15:30
-updated: 2024-10-02T17:04
+updated: 2024-10-04T13:07
 ---
->[!abstract] Index
->1. 
-
->[!abstract] Related
->- 
-
->[!danger] TLDR
-
----
-## Unione
-
-L'unione costruisce una relazione che contiene tutte le ennuple appartengono ad almeno uno dei due operandi.
-$$
-r_{1} \cup r_{2}
-$$
->[!danger] Union Compatible
->L' operazione di unione può essere utilizzata soltanto su operandi **union compatible** cioè tali che:
->- hanno lo stesso numero di attributi.
->- gli attributi (nell'ordine) sono definiti sullo stesso dominio.
->
->>**oss:** non è necessario che gli attributi abbiano lo stesso nome, ma ovviamente il risultato ha senso se hanno un significato omogeneo.
-
-^dd7bea
-
->[!example]- Example 
->![[Pasted image 20241002155110.png|500]]
->In questo caso non possiamo fare l'Unione tra `docenti` ed `amministrativi` perché anno dei domini diversi.
->
->**Soluzione:** Rimuoviamo l’attributo in più facendo una [[proiezione]]  su gli elementi comuni:
->
->$$
->\text{Personale} = \pi_{Nome, CodDoc}(Docenti) \cup \pi_{Nome, CodDoc}(Amministrativi)
->$$
-
----
-## Differenza
-
-La differenza costruire una relazione contenente tutte le tuple che appartengono al primo operando e NON appartengono al secondo operando.
-
-$$
-r_{1} - r_{2}
-$$
-
->[!danger] Union Compatible
->Anche la gli operandi della differenza devono essere [[#^dd7bea|union compatible]].
-
----
-## Intersezione
-
-L'intersezione costruisce una relazione contenente tutte le tuple che appartengono ad entrambi gli operandi.
-
-$$
-r_{1} \cap  r_{2}
-$$
->[!danger] Union Compatible
->Anche la gli operandi dell'intersezione devono essere [[#^dd7bea|union compatible]].
-
->[!warning] Correlazione con differenza
->$$
->r_{1}\cap r_{2} = (r_{1} - (r_{1} - r_{2}))
->$$
-
 ---
 ## Prodotto Cartesiano
+
+^ba6198
 
 Il prodotto cartesiano costruisce una relazione contenente tutte le ennuple che si ottengono concatenando una ennupla del primo operando con una ennupla del secondo operando.
 
@@ -113,21 +53,78 @@ $$
 ## Join Naturale
 
 Il Join Naturale consente di selezionare le tuple del prodotto cartesiano dei due operandi che soddisfano la condizione:
-
-$$
-ckjnsjknkjnjkn
-$$
+![[Pasted image 20241003131140.png|500]]
 
 (dove R1 ed R2 sono i nomi delle relazioni operando e A1,A2,..., Ak sono gli attributi comuni, cioè con lo stesso nome, delle relazioni operando) eliminando le ripetizioni degli attributi
+
+$$
+r_{1} \rhd  \lhd r_{2} = \pi(\sigma_{C}(r_{1} \times r_{2}))
+$$
+
+Dove:
+- $C = R_{1} . A_{1} = R_{2} ∧ \dots ∧ R_{1}.A_{k} = R_{2}.A_{k}$
+- $X$ è l'insieme di attributi $r_{1}$
+- $Y$ è l'insieme di attributi di $r_{2}$ che non sono attributi di $r_{1}$
+
+>[!danger] Da ricordare
+>- nel join naturale gli attributi della condizione che consente di unire solo le ennuple giuste hanno lo stesso november
+>- vengono unite le ennuple in cui questi attributi hanno lo stesso valore
+>- Se non hanno stesso nome allora dobbiamo vedi appunti di mattia
+
+>[!warning] oss
+>- Quando i due operandi non hanno lo parametri comuni il join naturale si comporta come un [[#^ba6198|prodotto cartesiano]] .
+>- $r_{1} \rhd  \lhd r_{2} = r_{2} \rhd  \lhd r_{1}$
+>- $(r_{1} \rhd  \lhd r_{2})\rhd  \lhd r_{3} \neq r_{1} \rhd  \lhd (r_{2}\rhd  \lhd r_{3})$
+
 
 >[!example]- Esempio
 >![[Pasted image 20241002163928.png|600]]
 >
 >$$
->\text{Query:} \text{ Cliente } >< \text{ Ordine}
+>\text{Query:} \text{ Cliente } \rhd \lhd \text{ Ordine}
 >$$
 >
 >**Risultato:**
 >![[Pasted image 20241002170156.png|500]]
 
+>[!example]- Esempio 2
+>![[Pasted image 20241003133940.png|600]]
+
+
+#### Casi Limite
+
+>[!note] Caso limite 1
+>Le relazioni contengono attributi con lo stesso nome ma non esistono ennuple con lo stesso valore per tali attributi in entrambe le relazioni
+>- Risultato: il join naturale è vuoto
+>  
+>  >[!example]- Esempio
+>  >![[Pasted image 20241003134955.png|400]]
+
+>[!note] Caso limite 2
+>![[Pasted image 20241003135137.png|600]]
+>
+>>[!example]- Esempio
+
+#### Possibili Errori
+
+- Ovviamente perché il join abbia senso gli attributi con lo stesso nome devono avere anche lo stesso significato
+
+>[!example] Esempio
+>![[Pasted image 20241003135420.png|400]]
+>
+>C# di artista non ha lo stesso significato di C# di Quadro, per avere senso, il join va effettuato tra Artista.C# e Quadro.Artista, quindi si usa un θ-join (vediamo dopo) oppure una ridenominazione.
+
 ---
+## θ-join
+
+Consente di selezionare le tuple del prodotto cartesiano dei due operandi che soddisfano una condizione del tipo:
+$$
+A \Theta B
+$$
+
+Dove:
+- $\Theta$ è un operatore di confronto ($\Theta \in \{ <, =, >,\geq,\leq \}$)
+- $A$ è un attributo dello schema del primo operando
+- $B$ è un attributo dello schema del secondo operando
+- $dom(A) = dom(B)$
+

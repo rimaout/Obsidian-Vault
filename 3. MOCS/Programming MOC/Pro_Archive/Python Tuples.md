@@ -4,7 +4,7 @@ type: Programming Note
 programming language: "[[Python MOC]]"
 related: 
 completed: true
-updated: 2024-07-12T17:54
+updated: 2024-10-03T16:19
 ---
 ---
 # Tuple
@@ -124,7 +124,7 @@ for index, value in enumerate(t):
 > - read: [[Python Lists#** Slicing of a List**]] to know more
 
 ---
-## [[Index]]of a List
+## [[Quartz Index Example]]of a List
 >[!note:]
 >Work's in the same way of lists
 > - read: [[Python Lists#** Index of a List**]] to know more

@@ -1,11 +1,12 @@
 ---
 type: Uni Note
-class: 
+class:
+  - "[[Algebra (class)]]"
 academic year: 2024/2025
 related: 
 completed: false
 created: 2024-10-02T18:38
-updated: 2024-10-02T19:22
+updated: 2024-10-03T18:16
 ---
 >[!abstract] Index
 >1. 
@@ -39,7 +40,7 @@ $$
 Dove $x$ e $y$ vengono chiamati **componenti scalari**.
 
 >[!warning] Lunghezza del vettore
->È possibile calcolare la lunghezza del vettore utilizzando il Teorema di Pitagora
+>È possibile calcolare la lunghezza chiamata **NORMA** del vettore utilizzando il Teorema di Pitagora
 >
 >$$
 >{ \lvert \vec{v} \rvert }  = \sqrt{ x^{2} + y^{2} } 
@@ -49,7 +50,36 @@ Dove $x$ e $y$ vengono chiamati **componenti scalari**.
 ## Operazioni
 
 >[!note] Somma 
+>Dati due vettori $\vec{v} = (x_{1},y_{1})$ e $\vec{w} = (x_{2},y_{2})$, la somma tra $\vec{v}$ e $\vec{w}$ è un vettore avente per componenti la somma dei componendi dei due vettori:
 >
 >$$
 >\vec{v} + \vec{w} = (x_{1} + x_{2},\ \ y_{1} + y_{2})
 >$$
+>
+>![[Pasted image 20241003174554.png|200]]
+>
+>>[!warning] Disuguaglianza Triangolare della Norma
+>>La norma del vettore risultante è minore della somme delle lunghezze dei vettori operandi.
+>>$$
+>>{ \lvert \vec{v} + \vec{w} \rvert } \leq { \lvert \vec{v} \rvert }  + { \lvert \vec{w} \rvert }  
+>>$$
+>
+>**oss:** questo non vale se i due vettori sono paralleli e hanno lo stesso verso\
+
+>[!note] Moltiplicazione
+>
+>Dato il vettore $\vec{v = (x,y)}$ ed il numero reale $\lambda$. Il vettore $\lambda \cdot \vec{v}$ ha per componenti le componenti del vettore $\vec{v}$ moltiplicate per $\lambda$.
+>
+>$$
+>\lambda \vec{v} = (\lambda x, \lambda y)
+>$$
+>
+>>[!warning] Esempio
+>>![[Pasted image 20241003180552.png|400]]
+>
+>>[!warning]  Norma del vettore risultante
+>La lunghezza del vettore risultante sarà il modulo del vettore moltiplicato per $\lambda$ con segno positivo:
+>>$$
+>>{ \lvert \vec{v} k \rvert }  = { \lvert \vec{v} \rvert } \cdot { \lvert k \rvert }  
+>>$$
+

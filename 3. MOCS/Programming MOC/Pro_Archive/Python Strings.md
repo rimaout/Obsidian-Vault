@@ -4,7 +4,7 @@ type: Programming Note
 programming language: "[[Python MOC]]"
 related: 
 completed: true
-updated: 2024-05-27T13:29
+updated: 2024-10-03T16:19
 ---
 ---
 # Index
@@ -297,7 +297,7 @@ print(string[-3:])         # Output: ld!
 
 ---
 
-## [[Index]] of a string
+## [[Quartz Index Example]] of a string
 
 In Python, a string is a sequence of characters, and you can access individual characters in the string by their position or index within the sequence.
 

@@ -4,8 +4,7 @@ related:
   - "[[Quartz Setup]]"
 completed: true
 Main Moc: "[[Tech MOC]]"
-updated: 2024-05-27T13:29
----
+updated: 2024-10-04T10:22
 ---
 ```typescript
 import { PageLayout, SharedLayout } from "./quartz/cfg"
@@ -27,7 +26,7 @@ export const sharedPageComponents: SharedLayout = {
 // components for pages that display a single page (e.g. a single note)
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
-    Component.Breadcrumbs(),
+    //Component.Breadcrumbs(),
     Component.ArticleTitle(),
     Component.ContentMeta(),
     Component.TagList(),
@@ -58,7 +57,7 @@ export const defaultListPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer()),
+    //Component.DesktopOnly(Component.Explorer()),
   ],
   right: [],
 }

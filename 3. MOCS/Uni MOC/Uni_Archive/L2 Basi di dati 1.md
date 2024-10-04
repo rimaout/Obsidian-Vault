@@ -6,7 +6,7 @@ academic year: 2023/2024
 related: 
 completed: false
 created: 2024-09-26T13:09
-updated: 2024-10-02T11:47
+updated: 2024-10-04T14:14
 ---
 >[!abstract] Index
 >1. 
@@ -209,8 +209,6 @@ Una dipendenza funzionale stabilisce un particolare legame semantico tra due ins
 
 
 ---
----
----
 ## Parte 2 (Algebra Relazionale)
 
 >[!note] Linguaggio Formale
@@ -218,47 +216,3 @@ Una dipendenza funzionale stabilisce un particolare legame semantico tra due ins
 
 >[!note] Linguaggio Procedurale
 
-
-## Operatori
-
-
-#### Proiezione
-
->[!note] Definizione
->Consente di effettuare un “taglio verticale” su una relazione, cioè di selezionare solo alcune colonne (attributi)
-
->[!note] Simbologia
->$$
->\pi A_{1}, A_{2}, \dots , A_{k} (r)
->$$
-
->[!example] Esempio
->![[Pasted image 20240926153930.png|400]]
->
->**Query:** Nomi dei clienti, ovvero:
->$$
->\pi_{\text{nome}}(\text{CLIENTE})
->$$
->**Output:**
->![[Pasted image 20240926154114.png|120]]
->
->>**oss:** I doppioni vengono tagliati
->>Se vogliamo conservare i clienti omonimi dobbiamo aggiungere un ulteriore attributo, in questo caso la (una) «chiave» (il codice)
-
----
-#### Selezione
-
->[!note] Simbologia
->$$
->\sigma_{C} \big( r \big)
->$$
-
-kavhkbkaszkvbzksbvkz
-
-
----
-#### Unione
-
- 
-
----

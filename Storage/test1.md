@@ -1,14 +1,13 @@
 ---
 created: 2024-10-02T20:02
-updated: 2024-10-02T21:59
+updated: 2024-10-04T10:41
 ---
 
 <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>del</kbd>
 
-
 > [!tip|right]
 >
-
+ciao
 
 > [!warning|title-center] 
 > 
@@ -26,6 +25,8 @@ updated: 2024-10-02T21:59
 >> > content
 >> 
 
+kmclklmlm
+
 > [!infobox]
 > 
 > 
@@ -39,6 +40,13 @@ updated: 2024-10-02T21:59
 > | --- | --- |
 > | Row | Row |
 > | Row | Row |
+
+òdslalkvmlkd
+
+
+
+
+
 
 
 > [!column]
@@ -59,4 +67,3 @@ updated: 2024-10-02T21:59
 > 
 > > [!NOTE] First year, second semester
 > > 
-> > This callout has `clean no-title` metadata.

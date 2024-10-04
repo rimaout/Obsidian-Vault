@@ -4,7 +4,7 @@ type: Programming Note
 programming language: "[[Python MOC]]"
 related: 
 completed: true
-updated: 2024-05-27T13:29
+updated: 2024-10-03T16:19
 ---
 ---
 # Lists
@@ -289,7 +289,7 @@ print(my_list[-3:])         # Output: [8, 9, 10]
  >Like with strings, you can mix positive and negative indices in a single slice, and you can omit any of the three parameters (`start`, `end`, and `step`) as needed.
 ---
 
-## [[Index]]of a List
+## [[Quartz Index Example]]of a List
 
 In Python, a list is a collection  of elements, and you can access individual elements in the list by their position or index within the sequence.
 

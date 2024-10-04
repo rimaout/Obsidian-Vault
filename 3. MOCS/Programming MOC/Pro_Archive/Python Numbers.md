@@ -4,7 +4,7 @@ type: Programming Note
 programming language: "[[Python MOC]]"
 related: 
 completed: true
-updated: 2024-05-27T13:29
+updated: 2024-10-03T16:19
 ---
 ---
 # Index
@@ -212,7 +212,7 @@ print(sliced_str_num)  # Output: "234"
 
 ---
 
-## ~~[[Index]]of  a Number~~
+## ~~[[Quartz Index Example]]of  a Number~~
 
 No, **you can not index a number** in Python because numbers are considered as atomic data types, meaning they cannot be divided further into smaller elements. Indexing is a concept that applies to iterable objects like strings, lists, and tuples, where you can access individual elements by their position in the sequence using an index, ad esempio:
 

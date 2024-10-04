@@ -1,6 +1,6 @@
 ---
 created: 2024-10-01T22:09
-updated: 2024-10-01T23:33
+updated: 2024-10-04T17:46
 ---
 👋 Welcome to my monthly log! This is a space that serves as a way to keep track of and document what I do and experience throughout the year. 
 
@@ -17,6 +17,6 @@ Here, I’ll share updates on my projects, the books I’m reading, my universit
 
 **What I'm reading:** Started reading [The Hitchhiker's Guide to the Galaxy](https://hardcover.app/books/the-ultimate-hitchhikers-guide) for the first time.
 
-**Video of the Month:** 
+**Video of the Month:** [This $30 Camera Is Truly Special](https://www.youtube.com/watch?v=lTyRiO08xi8) by [Mr Chops](https://www.youtube.com/@mrchops)
 
 ---
