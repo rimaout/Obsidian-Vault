@@ -7,7 +7,7 @@ related:
   - "[[Algebra Relazionale]]"
 completed: false
 created: 2024-09-28T18:06
-updated: 2024-10-04T19:52
+updated: 2024-10-05T15:14
 ---
 >[!abstract] Index
 >1. [[#Proiezione]]
@@ -323,7 +323,7 @@ updated: 2024-10-04T19:52
 >>>| --- | --- | --- |
 >>>| Esposito | A1 | Contabilità |
 >>>| Riccio | A2 | Didattica |
->>>| Pierro | A3 | Segreteria |
+>>>| Piero | A3 | Segreteria |
 >>>| Bianchi | A4 | Didattica |
 >
 >>[!check] Step 1 
@@ -456,6 +456,6 @@ updated: 2024-10-04T19:52
 >>| ... | ... | ... | ... | ... | ... | ... |
 >
 >>[!danger] ERRORE
->>Come è possibile notare il codice cliente (`#C`) non combacia sempre con il codice cliente del ordine (`#CC`) per queste casistiche non è ottimale utilizzare il prodotto cartesiano, ma conviene utilizzar [[Join-Naturale e Theta-Join (Algebra Relazionale)||Join-Naturale o il Theta-Join]].
+>>Come è possibile notare il codice cliente (`#C`) non combacia sempre con il codice cliente del ordine (`#CC`) per queste casistiche non è ottimale utilizzare il prodotto cartesiano, ma conviene utilizzar [[Join-Naturale e Theta-Join (Algebra Relazionale)|Join-Naturale o il Theta-Join]].
 
 

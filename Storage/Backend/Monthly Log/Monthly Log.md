@@ -1,14 +1,15 @@
 ---
-created: 2024-10-01T22:09
-updated: 2024-10-04T17:46
+created: 2024-10-05T20:08
+updated: 2024-10-05T20:23
 ---
 👋 Welcome to my monthly log! This is a space that serves as a way to keep track of and document what I do and experience throughout the year. 
 
 Here, I’ll share updates on my projects, the books I’m reading, my university journey, and everything I feel comfortable sharing with you.
 
->[!note] My Monthly Log Goals
->- Share what I'm reading each month, along with my thoughts and impressions.
->- Highlight the best video I've watched.
+>[!note]- See all the logs
+>- [[September 2024 (log)]]
+>- [[]]
+>- #monthly-log 
 
 ---
 ## September 2024
@@ -18,5 +19,3 @@ Here, I’ll share updates on my projects, the books I’m reading, my universit
 **What I'm reading:** Started reading [The Hitchhiker's Guide to the Galaxy](https://hardcover.app/books/the-ultimate-hitchhikers-guide) for the first time.
 
 **Video of the Month:** [This $30 Camera Is Truly Special](https://www.youtube.com/watch?v=lTyRiO08xi8) by [Mr Chops](https://www.youtube.com/@mrchops)
-
----

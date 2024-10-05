@@ -1,7 +1,7 @@
 ---
 title: Welcome to Notes In Public
 created: 2024-10-03T16:19
-updated: 2024-10-03T16:20
+updated: 2024-10-05T20:08
 ---
 👋 **Hi**, I'm **Matteo**, a Computer Science student. I'm using this website to share my notes and thoughts about the subjects I'm studying. I hope you find them useful.
 
@@ -46,7 +46,7 @@ updated: 2024-10-03T16:20
 ## 🪴 My Personal Garden
 
 >**Personal Projects:**
-- [[Monthly Log]]
+- [[Monthly Log 1]]
 - [[My Recipe Book]]
 - [[Product usage analysis]]
 - [[My Resonance Calendar]]

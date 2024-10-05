@@ -8,7 +8,7 @@ related:
   - "[[Insiemi Numerici]]"
   - "[[Funzioni]]"
 completed: false
-updated: 2024-07-12T17:30
+updated: 2024-10-05T17:03
 ---
 ---
 
@@ -18,12 +18,13 @@ updated: 2024-07-12T17:30
 >3. [[#Insieme finito ed infinito]]
 >4. [[#Insiemi numerabili]]
 >5. [[#Insiemi Continui]]
+>   
+>   - [[Operazioni tra insiemi numerabili e innumerabili]]
+>   - [[Insieme delle Parti e Numerabilità]]
 
 >[!abstract] Related
 >- [[Funzioni]]
 >- [[Matematica 0 (class)]] 
-
->**Vedi:** [[Operazioni tra insiemi numerabili e innumerabili]]
 
 ---
 ## Cardinalità o potenza di un insieme
@@ -68,7 +69,9 @@ updated: 2024-07-12T17:30
 ---
 ## Insiemi numerabili
 
-$$\text{Un insieme A si dice \textcolor{orange}{numerabile} se e soltanto se esiste una corrispondenza biunivoca tra A e } \mathbb{N}$$
+$$
+\text{Un insieme A si dice \textcolor{orange}{numerabile} se e soltanto se esiste una corrispondenza biunivoca tra A e } \mathbb{N}
+$$
 
 >[!note] Insieme interi numerabile
 >$$l$$
@@ -84,4 +87,12 @@ $$\text{Un insieme A si dice \textcolor{orange}{numerabile} se e soltanto se esi
 ## Insiemi Continui
 
 >**oss:** insieme delle parti di N è equipotente a R (continuo)
+
+
+N.     pari
+0° --> 0
+1° --> 2
+2° --> 4
+
+2n
 

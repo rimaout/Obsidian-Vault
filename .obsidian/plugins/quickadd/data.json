@@ -149,6 +149,66 @@
       "openFileInMode": "default",
       "fileExistsMode": "Increment the file name",
       "setFileExistsBehavior": false
+    },
+    {
+      "id": "c206b4ec-9ef4-471b-9e88-5f4bfb7dd123",
+      "name": "Monthly Log",
+      "type": "Template",
+      "command": true,
+      "templatePath": "Storage/Templates/Monthly Log (Template)",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "month year (log)"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "Storage/Backend/Monthly Log"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
+    },
+    {
+      "id": "19e8575c-2d23-42a4-9885-5164cf63c03f",
+      "name": "Recipe",
+      "type": "Template",
+      "command": true,
+      "templatePath": "Storage/Templates/Recipe (Template)",
+      "fileNameFormat": {
+        "enabled": false,
+        "format": ""
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "Storage/Backend/My Recipe Book"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": false,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": false
     }
   ],
   "macros": [
