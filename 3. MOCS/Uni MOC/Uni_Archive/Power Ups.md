@@ -6,11 +6,11 @@ related:
   - "[[Relazione Bubble Bobble]]"
 completed: false
 created: 2024-09-02T12:47
-updated: 2024-09-05T10:37
+updated: 2024-10-05T21:21
 ---
 ## Power Ups
 
-Nel gioco originale c'è una grande quantità di diversi potenziamenti che possono essere ottenuti, completando delle "sfide", io ho deciso di implementare questi quattro potenziamenti:
+Nel gioco originale c'è una grande quantità di diversi potenziamenti che possono essere ottenuti, completando delle "sfide", io ho deciso di implementare questi potenziamenti:
 
 | Immagine             | Nome               | Funzione                                                                                                | Sfida                                                                   | Punti    |
 | -------------------- | ------------------ | ------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- | -------- |
@@ -25,4 +25,4 @@ Nel gioco originale c'è una grande quantità di diversi potenziamenti che posso
 | ![[bb_br.png\|70]]   | **Crystal Ring**   | 10 punti per ogni passo                                                                                 | Raccogliere 3 Blue Candy                                                | <br>1000 |
 | ![[bb_rr 1.png\|70]] | **Ruby Ring**      | 100 per ogni bolla sparata                                                                              | Raccogliere 3 Red Candy                                                 | <br>1000 |
 
-Ogni volta che si muore i powerUp ottenuti e i valori delle sfide vengono resettati. 
+Ogni volta che il player perde una vita, i powerUp ottenuti e i valori delle sfide vengono resettati.

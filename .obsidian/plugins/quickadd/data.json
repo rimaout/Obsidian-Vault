@@ -157,13 +157,13 @@
       "command": true,
       "templatePath": "Storage/Templates/Monthly Log (Template)",
       "fileNameFormat": {
-        "enabled": true,
-        "format": "month year (log)"
+        "enabled": false,
+        "format": ""
       },
       "folder": {
         "enabled": true,
         "folders": [
-          "Storage/Backend/Monthly Log"
+          "Storage/Backend/Monthly Logs"
         ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
