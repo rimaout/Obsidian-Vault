@@ -5,7 +5,7 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2024-10-14T16:30
-updated: 2024-10-14T18:30
+updated: 2024-10-17T16:48
 ---
 >[!abstract] Index
 >1. 
@@ -124,17 +124,6 @@ updated: 2024-10-14T18:30
 ---
 ## Prop. Legge della probabilità totale generalizzata
 
-Siano $F_{1}, f_{3}, \dots , F_{n}$ evento 2 a 2 distinti (cioè incompatibili) tali che $S = \bigcup^{n}_{i=1}F_{i}$
-
-Allora per ogni evento E vale che:
-$$
-P(E) = \sum^{n}_{i=1}P(F_{i})P(E \vert F_{i})
-$$
-es: n = 2
-
-$$
-P(E) = P(F_{1})P(E \vert F_{1}) + P(F_{2}) P(E \vert F_{2})
-$$
 >[!warning] Dimostrazione
 >
 >$$

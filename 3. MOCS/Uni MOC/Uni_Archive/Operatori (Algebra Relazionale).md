@@ -7,7 +7,7 @@ related:
   - "[[Algebra Relazionale]]"
 completed: true
 created: 2024-09-28T18:06
-updated: 2024-10-09T15:58
+updated: 2024-10-17T17:53
 ---
 >[!abstract] Index
 >1. [[#Proiezione]]

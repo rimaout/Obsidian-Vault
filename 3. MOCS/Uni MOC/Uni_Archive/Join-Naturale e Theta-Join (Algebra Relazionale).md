@@ -7,7 +7,7 @@ related:
   - "[[Algebra Relazionale]]"
 completed: false
 created: 2024-10-09T16:48
-updated: 2024-10-09T17:01
+updated: 2024-10-17T17:37
 ---
 >[!abstract] Index
 >1. [[#Join Naturale]]
@@ -111,7 +111,7 @@ updated: 2024-10-09T17:01
 >
 >>[!column|flex]
 >>
->>>[!warning| clean no-icon] Relazione Ordini
+>>>[!warning|clean no-icon] Relazione Ordini
 >>>
 >>>| ID_ordine | ID_cliente | Data_ordine |
 >>>| --- | --- | --- |
@@ -119,7 +119,7 @@ updated: 2024-10-09T17:01
 >>>| 2 | 2 | 2022-01-15 |
 >>>| 3 | 1 | 2022-02-01 |
 >>
->>>[!warning| clean no-icon] Relazione Clienti
+>>>[!warning|clean no-icon] Relazione Clienti
 >>>
 >>>| ID_cliente | Nome | Indirizzo |
 >>>| --- | --- | --- |

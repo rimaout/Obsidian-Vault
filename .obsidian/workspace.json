@@ -4,33 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "9ad3a4000670a82b",
+        "id": "1d3df57368887a29",
         "type": "tabs",
         "children": [
           {
-            "id": "a1e27bfdfbc89582",
+            "id": "a8ee3df6748f4353",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Calcolo delle Probabilità (class).md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Basi di Dati 1 (class).md",
                 "mode": "source",
                 "source": false
               },
-              "pinned": true
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Basi di Dati 1 (class)"
             }
           },
           {
-            "id": "bc2b2b29a5803f3c",
+            "id": "c1ee2ccdd3f89a69",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/L9 Calcolo Probabilità.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Quantificatori Esistenziale ed Universale.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Quantificatori Esistenziale ed Universale"
             }
           }
         ],
@@ -54,7 +58,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -69,7 +75,9 @@
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -77,7 +85,9 @@
             "type": "leaf",
             "state": {
               "type": "starred",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -85,7 +95,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -102,7 +114,7 @@
       {
         "id": "b33702b1304e824a",
         "type": "tabs",
-        "dimension": 35.19736842105263,
+        "dimension": 42.06642066420663,
         "children": [
           {
             "id": "73d6fce2365a09ef",
@@ -112,7 +124,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -121,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/L9 Calcolo Probabilità.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Quantificatori Esistenziale ed Universale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +143,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": false
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Quantificatori Esistenziale ed Universale"
             }
           },
           {
@@ -138,10 +154,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/L9 Calcolo Probabilità.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Quantificatori Esistenziale ed Universale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Quantificatori Esistenziale ed Universale"
             }
           },
           {
@@ -153,7 +171,9 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           },
           {
@@ -162,25 +182,19 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/L9 Calcolo Probabilità.md"
-              }
-            }
-          },
-          {
-            "id": "2be710a38fb52417",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Quantificatori Esistenziale ed Universale.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Quantificatori Esistenziale ed Universale"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       },
       {
         "id": "0ee4f1dd2040ea54",
         "type": "tabs",
-        "dimension": 64.80263157894737,
+        "dimension": 57.93357933579337,
         "children": [
           {
             "id": "08bb0d9d4b18b672",
@@ -191,7 +205,9 @@
                 "file": "To-Do/To-Do.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "To-Do"
             }
           },
           {
@@ -200,7 +216,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/L9 Calcolo Probabilità.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Quantificatori Esistenziale ed Universale.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -223,17 +239,20 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 1,
+                  "scale": 1.4401488037773973,
                   "close": true
                 }
-              }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph of Quantificatori Esistenziale ed Universale"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 350.5,
+    "width": 323.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -250,34 +269,34 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "bc2b2b29a5803f3c",
+  "active": "c1ee2ccdd3f89a69",
   "lastOpenFiles": [
+    "3. MOCS/Uni MOC/Uni_Archive/Basi di Dati 1 (class).md",
+    "3. MOCS/Uni MOC/Uni_Archive/L8 Basi di dati 1.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Quantificatori Esistenziale ed Universale.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Operatori (Algebra Relazionale).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Join-Naturale e Theta-Join (Algebra Relazionale).md",
+    "3. MOCS/Uni MOC/Uni_Archive/L9 Calcolo Probabilità.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Calcolo delle Probabilità (class).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Probabilità Condizionata.md",
+    "3. MOCS/Uni MOC/Uni_Archive/L8 Calcolo Probabilità.md",
+    "3. MOCS/Uni MOC/Uni_Archive/L5 Calcolo Probabilità.md",
+    "3. MOCS/Uni MOC/Uni_Archive/L7 Calcolo Probabilità.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Spazzi di Probabilità con Esiti Equiparabili.md",
     "Storage/Backend/Monthly Logs/🏫 October 2024 (Log).md",
     "Storage/Backend/Monthly Logs/Monthly Logs.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Calcolo delle Probabilità (class).md",
-    "3. MOCS/Uni MOC/Uni_Archive/L9 Calcolo Probabilità.md",
-    "3. MOCS/Uni MOC/Uni_Archive/L8 Basi di dati 1.md",
     "3. MOCS/Uni MOC/Uni_Archive/L9 Basi di dati 1.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Basi di Dati 1 (class).md",
     "3. MOCS/Uni MOC/Uni_Archive/L3 Basi di dati 1.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Quantificatori Esistenziale ed Universale.md",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241016145931.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241016145628.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Probabilità Condizionata.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Operatori (Algebra Relazionale).md",
     "3. MOCS/Uni MOC/Uni_Archive/Lx Basi di dati 1.md",
     "3. MOCS/Uni MOC/Uni_Archive/Introduzione Algebra Relazionale.md",
     "3. MOCS/Uni MOC/Uni_Archive/L2 Basi di dati 1.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Join-Naturale e Theta-Join (Algebra Relazionale).md",
-    "3. MOCS/Uni MOC/Uni_Archive/L7 Calcolo Probabilità.md",
-    "3. MOCS/Uni MOC/Uni_Archive/L5 Calcolo Probabilità.md",
-    "3. MOCS/Uni MOC/Uni_Archive/L8 Calcolo Probabilità.md",
     "3. MOCS/Uni MOC/Uni_Archive/Proposizioni della Probabilità.md",
     "3. MOCS/Uni MOC/Uni_Archive/Principio di Inclusione ed Esclusione.md",
     "3. MOCS/Uni MOC/Uni_Archive/Operazioni sugli insiemi.md",
     "3. MOCS/Uni MOC/Uni_Archive/Teoria degli insiemi.md",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241015141635.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Spazzi di Probabilità con Esiti Equiparabili.md",
     "3. MOCS/Uni MOC/Uni_Archive/Definizioni e Assiomi della Probabilità.md",
     "To-Do/L4 Calcolo Probabilità.md",
     "3. MOCS/Uni MOC/Uni_Archive/L3 Calcolo Probabilità.md",

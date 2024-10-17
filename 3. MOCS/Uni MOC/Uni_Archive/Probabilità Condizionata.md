@@ -6,7 +6,7 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2024-10-14T15:10
-updated: 2024-10-16T14:24
+updated: 2024-10-17T16:47
 ---
 >[!abstract] Index
 >1. [[#Probabilità Condizionata]]
@@ -24,19 +24,19 @@ updated: 2024-10-16T14:24
 >**Legge della Probabilità Totale:**
 >
 >$$
->P(E) = P(F) \cdot P(E\setminus F) + P(E^{c}) \cdot P(E \setminus F^{c})
+>P(E) = P(F) \cdot P(E \vert  F) + P(E^{c}) \cdot P(E \vert F^{c})
 >$$
 >
 >**Teorema di Beyes:**
 >
 >$$
->P(F \setminus E) = \frac{P(F) \cdot P(E \setminus F) }{P(E)}
+>P(F \vert E) = \frac{P(F) \cdot P(E \vert F) }{P(E)}
 >$$
 >
 >**Probabilità Totale + Beyes:**
 >
 >$$
->P(F \setminus E) = \frac{P(F) \cdot P(E \setminus F) }{P(F)\cdot P(F) + P(E^{c})\cdot >P(E \setminus F^{c})}
+>P(F \vert E) = \frac{P(F) \cdot P(E \vert F) }{P(F)\cdot P(F) + P(E^{c})\cdot P(E \vert F^{c})}
 >$$
 >
 
@@ -179,18 +179,17 @@ $$
 >$$
 
 >[!note] Formula Generalizzata
->Avendo jashjakjhskj
+>Siano $F_{1}, \dots, F_{n}$ eventi 2 a 2 disgiunti (cioè incompatibili) tali che $S = \bigcup\limits^{n}_{i=1}f_{i}$ 
+>
+>Allora per ogni $E$ vale:
 >
 >$$
->P(E) = \sum^{n}_{i=1} P(F_{i})P(E \vert Fi))
+>P(E) = \sum^{n}_{i=1} P(F_{i}) \cdot P(E \vert F_{i})
 >$$
-
 
 ---
 ## Probabilità Totale + Beyes
 
 $$
-P(F \setminus E) = \frac{P(F) \cdot P(E \setminus F) }{P(F)\cdot P(F) + P(E^{c})\cdot P(E \setminus F^{c})}
+P(F \vert E) = \frac{P(F) \cdot P(E \vert  F) }{P(F)\cdot P(F) + P(E^{c})\cdot P(E \vert  F^{c})}
 $$
-
----

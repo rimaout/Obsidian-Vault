@@ -6,21 +6,22 @@ academic year: 2024/2025
 related: "[[Definizioni e Assiomi della Probabilità#Spazio di Probabilità]]"
 completed: false
 created: 2024-10-13T13:35
-updated: 2024-10-15T13:49
+updated: 2024-10-17T16:32
 ---
 >[!abstract] Index
->1. 
+>1. [[#Introduzione]]
+>2. [[#Proposizione]]
+>3. [[#Esempi]]
 
 >[!abstract] Related
 >- [[Calcolo delle Probabilità (class)]]
 >- [[Definizioni e Assiomi della Probabilità#Spazio di Probabilità|Spazio di Probabilità]]
 
 ---
-
-## Probabilità di esiti equiparabili
+## Introduzione
 
 >[!note] Premesse
->- Supponiamo che $S$ uno spazio campionari con un numero finito $n$
+>- Supponiamo che $S$ uno spazio campionari con un numero finito $n$ di esiti.
 >- Gli esiti di $S$ sono tutti **equi-probabili** e questo valore lo chiamiamo $z$ $P(E_{1}) = P(E_{2}) = \dots = P(E_{n}) = z$
 >
 >**oss:** $P(S) = 1$
@@ -77,7 +78,7 @@ $$
 >$$
 
 >[!example] Esempio 2
->Ho un mazzo da quaranta carte. Estraggo 2 carte senza ri-inserirle nel mazzo. Qual'è la probabilità di estrarre due carte di bastoni.
+>Ho un mazzo da 40 carte. Estraggo 2 carte senza ri-inserirle nel mazzo. Qual'è la probabilità di estrarre 2 carte di bastoni.
 >
 >$M = mazzo$
 >$S = \{ (a,b): a,b \in M, a \not=b \}$
@@ -104,14 +105,14 @@ $$
 >
 >$S = \{ A \subset U: \lvert A \rvert =  3\}$
 >
->>**oss:** Un esempio di esito è $\{ B_{2},B_{4},N_{3} \}$
+>>**oss:** Un esempio di esito $A$ è $\{ B_{2},B_{4},N_{3} \}$
 >
 >$$
 >P(E) = \frac{{\lvert E \rvert}}{{\lvert S \rvert}}
 >$$
 >
->${ \lvert S \rvert } = \binom{11}{3}$ 
 >${ \lvert E \rvert }  = 6 \cdot \binom{5}{2}$
+>${ \lvert S \rvert } = \binom{11}{3}$ 
 >
 >Dove:
 >- 6 è il numero di modi per estrarre una pallina bianca
