@@ -145,7 +145,7 @@
   "workspace:close": [
     {
       "modifiers": [
-        "Ctrl"
+        "Mod"
       ],
       "key": "W"
     }
@@ -168,5 +168,6 @@
       ],
       "key": "S"
     }
-  ]
+  ],
+  "various-complements:reload-custom-dictionaries": []
 }

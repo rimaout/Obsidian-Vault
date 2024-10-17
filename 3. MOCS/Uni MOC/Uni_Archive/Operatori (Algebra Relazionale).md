@@ -5,9 +5,9 @@ class:
 academic year: 2023/2024
 related:
   - "[[Algebra Relazionale]]"
-completed: false
+completed: true
 created: 2024-09-28T18:06
-updated: 2024-10-05T15:14
+updated: 2024-10-09T15:58
 ---
 >[!abstract] Index
 >1. [[#Proiezione]]

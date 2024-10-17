@@ -8,7 +8,7 @@ academic year: 2022/2023
 related:
   - "[[Teoria degli insiemi]]"
 completed: true
-updated: 2024-07-15T13:06
+updated: 2024-10-15T14:19
 ---
 >[!abstract] Index
 >1. [[#Appartenenza]]
@@ -87,6 +87,8 @@ updated: 2024-07-15T13:06
 >**Significato:** Un elemento appartiene sia ad `A` che a `B`.
 >
 >![[IMG_7C96C924E8EE-1.jpeg|300]]
+>
+>>**Vedi:** [[Principio di Inclusione ed Esclusione]]
 
 >[!note] Proprietà
 >$$

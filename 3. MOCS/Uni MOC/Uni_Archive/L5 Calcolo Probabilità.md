@@ -5,7 +5,7 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2024-10-02T13:35
-updated: 2024-10-02T14:45
+updated: 2024-10-09T13:47
 ---
 >[!abstract] Index
 >1. 
@@ -37,7 +37,7 @@ updated: 2024-10-02T14:45
 >[!example] Esercizio per casa 5
 >Qual'è la probabilità di estrarre 2 carte di seme diverso da un mazzo di 40 carte:
 >
->**Versione con rimpiazzo:
+>**Versione con rimpiazzo:**
 >- $M = \text{mazzo 40 carte}$
 >- $S = \{ (a,b): a,b \in M \}$
 >- $E = \{ (a,b) \in S: a \text{ e } b \text{ hanno semi diversi}\}$
