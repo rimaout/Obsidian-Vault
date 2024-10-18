@@ -4,10 +4,9 @@ type: Uni Note
 class:
   - "[[Matematica 0 (class)]]"
 academic year: 2023/2024
-related:
-  - "[[Modules]]"
+related: "[[Modules]]"
 completed: true
-updated: 2024-06-28T01:38
+updated: 2024-10-18T21:13
 ---
 
 >[!abstract] Index
@@ -36,8 +35,9 @@ $$
 ## Proprietà
 
 $$
-\forall x,y\in R\\
+\forall x,y\in R
 $$
+
 
 $$
 \begin{align*}
@@ -61,7 +61,7 @@ $$
 >-(x-1) &\text{if }\ x<1 
 >\end{cases}
 >\end{align}
-$$
+>$$
 
 >[!note] Valore assoluto di un polinomio
 >

@@ -4,7 +4,7 @@ related:
 completed: true
 Main Moc: "[[Tech MOC]]"
 created: 2024-03-19
-updated: 2024-10-06T10:25
+updated: 2024-10-17T22:27
 ---
 This website is built using [Quartz](https://quartz.jzhao.xyz/), a tool that transforms your Markdown notes into a static website. 
 
@@ -88,14 +88,6 @@ One thing I did differently was use [[Git Submodules]] to store my content. This
 >   
 >**Also:** Also remove code of conduct and license files
 
->[!note] Fix last modified dates
->If you use GitHub for hosting, the created and last modified date in you page will not work properly.
->
->1. To to `quartz/plugins/tranformers` directory
->2. Edit `lastmod.ts` (`lastmod.ts`) like this: [[Quartz Lastmod Edit]]
->
->This is useful only if you have the [Update Time](https://github.com/dsebastien/obsidian-update-time) Obsidian plugin (a plugin that’s updates the front matter in your notes to include the creation and last update dates/times)
-
 >[!note] Upload to GitHub
 >1. Make a blank git repository (no readme, no license, no code of conduct)
 >2. Then, run the following commands, replacing `REMOTE-URL` with the URL of your new repository.
@@ -119,7 +111,7 @@ One thing I did differently was use [[Git Submodules]] to store my content. This
 
 >[!note] Set Github Pages
 >1. Go to GitHub
->2. Open the repository used to host [[Quartz Setup]]
+>2. Open the repository used to host [[Quartz]]
 >3. Go to settings
 >4. Go to Pages section 
 >5. Select `git up actions` in Source
