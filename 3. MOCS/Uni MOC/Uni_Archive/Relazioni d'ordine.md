@@ -8,7 +8,7 @@ related:
   - "[[Relazioni]]"
   - "[[Proprietà Relazioni]]"
 completed: false
-updated: 2024-05-27T13:29
+updated: 2024-10-19T11:51
 ---
 ---
 ## Index
@@ -18,32 +18,30 @@ updated: 2024-05-27T13:29
 4. [[#Relazione d'ordine ***parziale***|Relazione d'ordine parziale]]
 
 ---
-## Relazione d'ordine **largo**
+## Relazione d'ordine Largo
 - Relazione che soddisfa 3 proprietà:
 	- [[Proprietà Relazioni#Riflessiva|Riflessiva]] **\***
 	- [[Proprietà Relazioni#Anti simmetrica|Anti Simmetrica]]
 	- [[Proprietà Relazioni#Transitiva|Transitiva]]
 	![[IMG_112F8FBE6DDB-1.jpeg]]
 ---
-## Relazione d'ordine **stretto**
+## Relazione d'ordine Stretto
 - Relazione che soddisfa 3 proprietà:
-	- [[Proprietà Relazioni#Anti riflessiva|Anti Riflessiva]] **\***
+	- [[Proprietà Relazioni#Anti riflessiva|Anti Riflessiva]]
 	- [[Proprietà Relazioni#Transitiva|Transitiva]]
 	![[IMG_4C72533C1D1F-1.jpeg]]
 ---
 ## Relazione d'ordine ***totale***
-- Le relazioni d'ordine totale mettono in *relazione tutti gli elementi dell'insieme*.
-	- In questo caso è sempre possibile confrontare ogni elemento con tutti gli altri.
-	![[IMG_BC2423C5AC50-1.jpeg]]
+
+Le relazioni d'ordine totale mettono in *relazione tutti gli elementi dell'insieme*.
+
+- In questo caso è sempre possibile confrontare ogni elemento con tutti gli altri.	![[IMG_BC2423C5AC50-1.jpeg]]
 
 $$
 \forall x \forall y(aRb\ \vee bRa) 
 $$ 
 
 ---
-## Relazione d'ordine ***parziale***
+## Relazione d'ordine Parziale
 - Le relazioni d'ordine parziale mettono in relazione solo una parte degli elementi dell'insieme ma non tutti. 
 	- In questi casi non è sempre possibile confrontare tutti gli elementi tra loro.
-
-
----

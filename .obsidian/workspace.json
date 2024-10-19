@@ -4,69 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "1d3df57368887a29",
+        "id": "9ad3a4000670a82b",
         "type": "tabs",
         "children": [
           {
-            "id": "a8ee3df6748f4353",
+            "id": "a1e27bfdfbc89582",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Basi di Dati 1 (class).md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Calcolo delle Probabilità (class).md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "Basi di Dati 1 (class)"
+              "title": "Calcolo delle Probabilità (class)"
             }
           },
           {
-            "id": "c1ee2ccdd3f89a69",
+            "id": "46da10b53d943cc1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Quantificatori Esistenziale ed Universale.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Quantificatori Esistenziale ed Universale"
-            }
-          },
-          {
-            "id": "2dbb6f5da8096b2c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Tech MOC/Tech_Archive/Quartz Setup.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Rapporto a Favore.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Quartz Setup"
-            }
-          },
-          {
-            "id": "080b0a81901ceaf2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Esponenziali.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Esponenziali"
+              "title": "Rapporto a Favore"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -142,7 +114,7 @@
       {
         "id": "b33702b1304e824a",
         "type": "tabs",
-        "dimension": 42.06642066420663,
+        "dimension": 35.19736842105263,
         "children": [
           {
             "id": "73d6fce2365a09ef",
@@ -163,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Esponenziali.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Rapporto a Favore.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +145,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Esponenziali"
+              "title": "Backlinks for Rapporto a Favore"
             }
           },
           {
@@ -182,12 +154,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Esponenziali.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Rapporto a Favore.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Esponenziali"
+              "title": "Outgoing links from Rapporto a Favore"
             }
           },
           {
@@ -210,19 +182,29 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Esponenziali.md"
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Rapporto a Favore.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Esponenziali"
+              "title": "Outline of Rapporto a Favore"
+            }
+          },
+          {
+            "id": "2be710a38fb52417",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       },
       {
         "id": "0ee4f1dd2040ea54",
         "type": "tabs",
-        "dimension": 57.93357933579337,
+        "dimension": 64.80263157894737,
         "children": [
           {
             "id": "08bb0d9d4b18b672",
@@ -244,7 +226,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Esponenziali.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Rapporto a Favore.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -267,20 +249,19 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 1.4401488037773973,
+                  "scale": 1,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Esponenziali"
+              "title": "Graph of Rapporto a Favore"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 323.5,
+    "width": 350.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -297,36 +278,36 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "080b0a81901ceaf2",
+  "active": "46da10b53d943cc1",
   "lastOpenFiles": [
-    "3. MOCS/Uni MOC/Uni_Classes/Matematica 0 (class).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Valore assoluto.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Calcolo delle Probabilità (class).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Rapporto a Favore.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Spazzi di Probabilità con Esiti Equiparabili.md",
+    "3. MOCS/Uni MOC/Uni_Archive/L9 Calcolo Probabilità.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Probabilità Condizionata.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Quantificatori Esistenziale ed Universale.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Proprietà Relazioni.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Relazioni d'ordine.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Quartz Suggestion.md",
+    "3. MOCS/Programming MOC/Pro_Archive/Quartz.md",
     "3. MOCS/Tech MOC/Tech_Archive/Quartz Setup.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Esponenziali.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Valore assoluto.md",
+    "3. MOCS/Uni MOC/Uni_Classes/Matematica 0 (class).md",
     "3. MOCS/Programming MOC/Pro_Archive/New Quartz README.md",
     "3. MOCS/Programming MOC/Pro_Archive/Quartz Footer Edit.md",
     "3. MOCS/Tech MOC/Tech_Archive/quartz layout config.md",
     "3. MOCS/Tech MOC/Tech_Archive/My Quartz Theme.md",
-    "3. MOCS/Programming MOC/Pro_Archive/Quartz.md",
     "3. MOCS/Tech MOC/Tech_Archive/Quartz deploy.yaml.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Quantificatori Esistenziale ed Universale.md",
     "3. MOCS/Uni MOC/Uni_Archive/Basi di Dati 1 (class).md",
     "3. MOCS/Uni MOC/Uni_Archive/L8 Basi di dati 1.md",
     "3. MOCS/Uni MOC/Uni_Archive/Operatori (Algebra Relazionale).md",
     "3. MOCS/Uni MOC/Uni_Archive/Join-Naturale e Theta-Join (Algebra Relazionale).md",
-    "3. MOCS/Uni MOC/Uni_Archive/L9 Calcolo Probabilità.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Calcolo delle Probabilità (class).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Probabilità Condizionata.md",
     "3. MOCS/Uni MOC/Uni_Archive/L8 Calcolo Probabilità.md",
     "3. MOCS/Uni MOC/Uni_Archive/L5 Calcolo Probabilità.md",
     "3. MOCS/Uni MOC/Uni_Archive/L7 Calcolo Probabilità.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Spazzi di Probabilità con Esiti Equiparabili.md",
-    "Storage/Backend/Monthly Logs/🏫 October 2024 (Log).md",
-    "Storage/Backend/Monthly Logs/Monthly Logs.md",
-    "3. MOCS/Uni MOC/Uni_Archive/L9 Basi di dati 1.md",
-    "3. MOCS/Uni MOC/Uni_Archive/L3 Basi di dati 1.md",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241016145931.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241016145628.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Lx Basi di dati 1.md",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241015141635.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240926133944.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20240926133426.png",
