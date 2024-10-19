@@ -7,7 +7,7 @@ related:
   - "[[Calcolo Combinatorio]]"
 completed: true
 created: 2024-09-25T19:47
-updated: 2024-10-01T13:54
+updated: 2024-10-19T17:57
 ---
 >[!abstract] Index
 >1. [[#Combinazioni Semplici]]
@@ -153,6 +153,3 @@ updated: 2024-10-01T13:54
 >- Quindi $\binom{6}{4}$
 >
 >**oss:** $\binom{6}{4} = \binom{6}{2}$
-
-
----

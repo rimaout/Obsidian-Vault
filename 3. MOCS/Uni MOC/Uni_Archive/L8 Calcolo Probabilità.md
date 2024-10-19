@@ -5,7 +5,7 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2024-10-14T16:30
-updated: 2024-10-17T16:48
+updated: 2024-10-19T15:05
 ---
 >[!abstract] Index
 >1. 
@@ -120,18 +120,3 @@ updated: 2024-10-17T16:48
 | Numero Dipendenti       | 50  | 75  | 100 |
 | % Dipendenti Donna      | %50 | 60% | 70% |
 | Numero Dipendenti Donna | 25  | 45  | 70  |
-
----
-## Prop. Legge della probabilità totale generalizzata
-
->[!warning] Dimostrazione
->
->$$
->E = (E \cap  F_{1}) \cup (E \cap F_{2}) \cup \dots \cup (E\cap F(n))
->$$
->
->Quindi
->
->$$
->P(E) = P(E \cap F_{1}) + P(E\cap F_{2}) + \dots + P(E\cap F_{n}) ojjdkhvlkjsdbdlkjlsjk
->$$

@@ -6,7 +6,7 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2024-10-14T15:10
-updated: 2024-10-17T16:47
+updated: 2024-10-19T19:22
 ---
 >[!abstract] Index
 >1. [[#Probabilità Condizionata]]
@@ -114,9 +114,7 @@ Con $P(F)$ positiva
 >
 >$$
 >\begin{align*}
->& \\
 >& P(E_{1} \cap \dots \cap  E_{n}) = P(E_{1}) \cdot  P(E_{2}\vert E_{3}) \cdot  P(E_{3} \vert E_{1} \cap E_{2}) \cdot  \dots \cdot  P(E_{n}\vert E_{1} \cap \dots \cap E_{n-1}) \\
->
 >\end{align*}
 >$$
 >
@@ -153,13 +151,41 @@ Con $P(F)$ positiva
 ---
 ## Teorema di Bayes
 
+Tra due eventi $A$ e $B$
+
 $$
 P(A \vert B) := \frac{P(A \cap  B)}{B} = \boxed{\frac{P(A) \cdot  P(B\vert A)}{P(B)}}
 $$
 
 >[!note] Formula Generalizzata
 >
->vkldnvjkan jknvlzndvlxncvl.anzvlnlnlnlvònzflnòxzlòk
+>$$
+>P(F_{i} \vert E) = \frac{P(F^{i})\cdot P(E\vert F_{i})}{\sum\limits^{n}_{j = i} P(F_{j}) \cdot P(E \vert F_{j})}
+>$$
+
+>[!example]- Esempio Formula Generalizzata (aerei)
+>Un aereo è scomparso e si presumere che possa essere con uguale probabilità in tre possibili zone ($Z_{1},Z_{2},Z_{3}$)
+>
+>Indichiamo con:
+>- $\beta_{i}$ la probabilità di NON trovare l'aereo in $Z_{i}$, se è realmente in $Z_{i}$
+>- $1- \beta_{i}$ la probabilità di trovare l'aereo in $Z_{1}$, se è effettivamente in $Z_{i}$
+>- $R_{i} = \#\text{l'aereo è in }Z_{i}$
+>- $E = \text{la ricerca in } Z_{1} \text{ha dato esito negativo}$
+>
+>Calcolare la probabilità che l'aereo sia in $Z_{1}$, sapendo che la ricerca in $Z_{1}$ ha dato esito negativo: 
+>>**oss:** $P(R_{1}) = P(R_{2}) = P(R_{3}) = \frac{1}{3}$
+>  
+>$$
+>P(R_{1}\vert E) = \frac{P(E \cap  R_{1})}{P(E)} = \frac{P(R_{1})\cdot  P(E \vert R_{1})}{P(E)} = \frac{P(R_{1})\cdot P(E \vert R_{1})}{\sum\limits^{3}_{k=1}P(R_{k})\cdot P(E\vert R_{k})} = \frac{\frac{1}{3} \cdot \beta_{1}}{\frac{1}{3}\beta_{1}+ \frac{1}{3}\cdot 1+ \frac{1}{3} \cdot  1} = \frac{\beta_{1}}{\beta_{1}+2}
+>$$
+>
+>Adesso calcoliamo la probabilità che l'aereo sia in $Z_{1}$ o in $Z_{2}$, prendendo $j =1,2$
+>
+>$$
+>P(R_{j} \vert E) = \frac{P(R_{j})\cdot P(E\vert R_{j})}{P(E)} = \frac{\frac{1}{3} \cdot  1}{\frac{1}{3}\beta_{1} + \frac{1}{3} + \frac{1}{3}} = \frac{1}{\beta_{1}+1}
+>$$
+>
+>>**oss:** La formula mostra che la probabilità condizionale è $\frac{1}{\beta_{1}+1}$​, che dipende dalla probabilità di non trovare l'aereo in $Z_{1}$​ se è effettivamente in $Z_{1}$​ (rappresentata da $\beta_{1}$​).
 
 ---
 ## Formula Probabilità Totale
@@ -188,8 +214,24 @@ $$
 >$$
 
 ---
-## Probabilità Totale + Beyes
+## Probabilità Totale + Bayes
 
 $$
 P(F \vert E) = \frac{P(F) \cdot P(E \vert  F) }{P(F)\cdot P(F) + P(E^{c})\cdot P(E \vert  F^{c})}
 $$
+---
+## Proposizione 3
+
+
+Sia $F$ evento con $P(F)>0$, Allora la funzione $R \to P(F \vert F)$ , al variare di $E$ eventi, è una funzione di probabilità
+
+>[!warning] Conseguenze
+>
+>- $P(E^{c}\vert F) = 1- P(E\vert F)$
+>- $P(A\cup B \vert F) = P(A\vert F) + P(B\vert F) - P(A\cap B\vert F)$
+>- $A_{1}, \dots, A_{n}$ eventi 2 a 2 disgiunti allora: 
+>$$
+>P\left( \bigcup^{n}_{i=1} \right) = \sum^{n}_{i=1}P(A_{i}\vert F)
+>$$
+
+---
