@@ -2,7 +2,7 @@
 Main Moc: "[[Uni MOC]]"
 related: 
 created: 2024-09-24T15:33
-updated: 2024-10-06T10:28
+updated: 2024-10-20T17:01
 academic year: 2024/2025
 ---
 **Sito Corso:** Class Room
@@ -17,3 +17,5 @@ academic year: 2024/2025
 >- [[Cache]]
 >- [[Introduzione Sistema Operativo]]
 >- [[Processi]]
+>- [[Processi in UNIX]] 🟢
+>- [[Thread]]

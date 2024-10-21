@@ -4,17 +4,20 @@ class:
   - "[[Sistemi Operativi 1 (class)]]"
 academic year: 2024/2025
 related: 
-completed: false
+completed: true
 created: 2024-10-04T18:51
-updated: 2024-10-08T19:13
+updated: 2024-10-20T17:03
 ---
 >[!abstract] Index
 >1. [[#Introduzione]]
->2. [[#Elementi]]
->3. [[#Stati Base]]
->4. [[#Modello a 2 Stati]]
->5. [[#Modello a 5 Stati]]
->6. [[#Modello con Stati Sospesi]]
+>2. [[#Attributi]]
+>3. [[#Stati di un Processo]]
+>	1. [[#Stati di Base]]
+>	2. [[#Modello a 2 Stati]]
+>	3. [[#Modello a 5 Stati]]
+>	4. [[#Modello con Stati Sospesi]]
+>4. [[#Condivisione delle Risorse]]
+>5. [[#Stato del Processore]]
 
 >[!abstract] Related
 >- [[Sistemi Operativi 1 (class)]]
@@ -53,7 +56,9 @@ Finche un processo è in esecuzione, ad esso sono associate delle informazioni, 
 - Informazioni di accounting (utente che sta eseguendo il processo)
 
 ---
-## Stati Base
+## Stati di un Processo
+
+#### Stati di Base
 
 Un processo ha 4 possibili stati `creazione`, `running`, `not running` e `terminazione`.
 
@@ -92,8 +97,7 @@ Un processo ha 4 possibili stati `creazione`, `running`, `not running` e `termin
 >
 >>**Processo Master:** C'è sempre un processo master che non può essere terminato.
 
----
-## Modello a 2 Stati
+#### Modello a 2 Stati
 
 ![[Pasted image 20241006104411.png|450]]
 
@@ -101,8 +105,7 @@ Un processo ha 4 possibili stati `creazione`, `running`, `not running` e `termin
 >
 >![[Pasted image 20241005150610.png|400]]
 
----
-## Modello a 5 Stati
+#### Modello a 5 Stati
 
 ![[Pasted image 20241005154848.png|450]]
 
@@ -118,9 +121,7 @@ Un processo ha 4 possibili stati `creazione`, `running`, `not running` e `termin
 >Nell'implementazione a più code, ad ogni coda sono assegnati processi che sono bloccati per motivi specifici (coda di attesa I/O da memoria, coda di attesa Input da utente ...)
 >
 >Questo permette di essere più efficienti, perché quando si verifica un interrupt che comunica al processore che un determinato evento è avvenuto, il processore può andare direttamente alla coda associata a quell'evento e avviare il primo processo che è possibile eseguire. Ciò permette di non dover cercare in tutte le code.
-
----
-## Modello con Stati Sospesi
+#### Modello con Stati Sospesi
 
 Quando il processore è principalmente inutilizzato o la memoria principale è sovraccarica si possono spostare i processi in attesa dalla memoria principale al disco, cosi da liberare memoria e non lasciare il processore inoperoso. 
 
@@ -246,3 +247,139 @@ Contiene informazioni di cui il SO ha bisogno per controllare e coordinare i var
 >>>![[Pasted image 20241004194346.png|170]]
 
 ^32425234
+
+---
+## Modalità di Esecuzione dei Processi
+
+La maggior parte dei sistemi operativi supporta due modalità di esecuzione:
+- [[#^fc38aa|Modalità Kernel]]
+- [[#^5571a8|Modalità Utente]]
+  
+I processori possono avere altre modalità di esecuzione, ma sistemi operativi come Linux utilizzano soltanto le corrispettive modalità kernel e utente.
+  
+>[!note] Modalità **[[Kernel]]**
+>Modalità (senza limitazioni) che permette di avere il pieno controllo sulla macchina 
+>  
+> Operazioni possibili:
+> - Gestione dei processi (creazione, scheduling, sincronizzazione, comunicazione)
+> - Gestione della memoria (allocazione per i processi, gestione memoria virtuale)
+> - Gestione dell I/O (assegnazione delle risorse ha processi, gestione buffer e cache)
+> - Funzioni di supporto (gestione interrupt, accounting, monitoraggio)
+>   
+>Esempio di operazioni possibili:
+>- permette di accedere a qualsiasi locazione di memoria 
+>- permette di eseguire istruzioni che bloccano gli interrupt
+
+^fc38aa
+
+>[!note] Modalità Utente
+>Modalità (con limitazioni) dove molte operazioni sono vietate, quindi per poter eseguire determinate operazioni (esempio operazioni di I/O) si ha il bisogno di passare un processo alla kernel mode.
+>
+>1. Prima di tutto un processo utente inizia sempre in modalità utente
+>2. Per passare da modalità utente a kernel il processo viene interrotto da un interrupt
+>3. L'hardware cambiamo la modalità di esecuzione del processo (da utente a kernel)
+>4. Viene eseguito un Interrupt Handler (istruzioni facente parti del kernel)
+>5. Il processo ora attraverso l'Interrupt Handler po eseguire le operazioni del kernel
+>6. Poi come ultima operazione l'Interrupt Handler ripristina la modalità di esecuzione del processo a modalità utente
+>   
+>>**oss:** Quando un processo va in modalità kernel può eseguire soltanto istruzioni presenti nel kernel stesso (software di sistema) e non comandi scritti nel suo codice sorgente.
+
+^5571a8
+
+L’interrupt handler può essere eseguito in diversi “modi”, e in tutti questi dobbiamo essere in kernl mode.
+
+Eseguito per conto dello stesso processo interrotto che lo ha esplicitamente voluto
+- System calls oppure in risposta ad una sua richiesta di I/O
+
+Eseguito per conto dello stesso processo interrotto ma non voluto:
+- Errore fatale (_abort_): Il processo viene terminato
+- Errore non fatale (_fault_): Trasparente rispetto al processo
+
+Codice eseguito per conto di un altro processo
+- È un caso particolare dove ad esempio un processo _A_ ha fatto richiesta di I/O e si trova adesso in stato _blocked_, se durante l’esecuzione di un altro processo _B_ viene eseguita la richiesta di _A_ allora l’interrupt viene eseguito per conto del processo _B_ ma è in risposta a quello che ha chiesto _A_. Questo è ormai “accettato” nei moderni sistemi operativi.
+
+---
+## Creazione di un Processo
+
+Il Sistema Operativo deve:
+- Assegnargli un [[PID]]
+- Allocargli spazio in [[Memoria Principale (RAM)]]
+- Inizializzare il [[#Proces Control Block (PCB)]]
+- Inserire il processo nella giusta coda ([[#Stati di un Processo]])
+- Creare o espandere strutture dati come ad esempio quelle per l’accounting
+
+---
+## Switching tra Processi
+
+Con switching si intendo l'azione di sostituire un processo in esecuzione con un altro che era in uno stato di attesa.
+
+
+**Quando viene effettuato uno switch di processo:**
+
+| Meccanismo     | Causa                                             | Uso                                                                                 |
+| -------------- | ------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| Interruzione   | Esterna all’esecuzione dell’istruzione corrente   | Reazione ad un evento esterno asincrono; include i quanti di tempo per lo scheduler |
+| Eccezione      | Associata all’esecuzione dell’istruzione corrente | Gestione di un errore sincrono                                                      |
+| Chiamata al SO | Richiesta esplicita                               | Chiamata a funzione di sistema (caso particolare di eccezione)                      |
+
+  
+>[!note] Passaggi per switching fra processi
+>
+>Ricordiamo che vanno tutti eseguiti in Kernel Mode
+>
+>1. Salvare il contesto del programma ovvero registri e PC (copiati nel [[#Proces Control Block (PCB)|PCB]])
+>2. Aggiornare il [[#Proces Control Block (PCB)|PCB]] attualmente in esecuzione
+>3. Spostare il [[#Proces Control Block (PCB)|PCB]] nella [[#Stati di Base|coda]] appropriata
+>4. Scegliere un altro processo da eseguire
+>5. Aggiornare il [[#Proces Control Block (PCB)|PCB]] del nuovo processo
+>6. Aggiorna le strutture dati per la gestione della memoria
+>7. Ripristina il conteso del processo (registri)
+
+---
+## Esecuzione dell'OS?
+
+Il Sistema Operativo è un insieme di programmi ed è eseguito dal processore come ogni altro programma. Molto spesso lascia che altri programmi vadano in esecuzione per poi riprendere il controllo tramite gli interrupt.
+
+>[!question] L'OS è un processo?
+>È facile notare che il sistema operativo (OS) si comporta in modo simile ad altri programmi, quindi è facile pensare che sia un processo come gli altri. Tuttavia, la risposta non è così semplice. In realtà, esistono diversi tipi di sistemi operativi e diversi modi in cui vengono eseguiti."
+
+### Kernel Separato
+
+> [!caption|right]
+>
+>![[2010241444.png]]
+
+Il Kernel viene eseguito al di fuori dei processi, quindi in questo caso il sistema operativo **non è un processo**. Questo è **eseguito come entità separata** con privilegi elevati e zone di memoria riservate.
+
+### Kernel Interno ai Processi Utente
+
+^1fa6c4
+
+> [!caption|right]
+>
+>![[2010141445.png]]
+
+In questo caso il Sistema Operativo viene eseguito nel contesto di un processo utente dopo un interrupt. Come visto prima questo interrupt è una parte del SO che viene eseguita e “delegata” al processo in esecuzione.
+
+**Comunque lo stack delle chiamate del processo e quello del SO è separato, questo per questioni di sicurezza**.
+
+Inoltre ricordiamo che non è necessario eseguire un process switch ma soltanto un mode switch
+### Kernel Basato sui Processi
+
+^338496
+
+> [!caption|right]
+>
+>![[2010241446.png]]
+
+Qui **tutto è un processo** anche gli interrupt del Sistema Operativo, l’unica cosa che non lo è sono le funzioni che permettono il **process switching**. In questo caso quindi anche i processi del sistema operativo si trovano all’interno delle varie code.
+
+---
+
+
+
+
+
+
+
+

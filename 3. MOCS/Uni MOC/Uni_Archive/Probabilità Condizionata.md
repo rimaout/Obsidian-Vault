@@ -6,7 +6,7 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2024-10-14T15:10
-updated: 2024-10-19T19:22
+updated: 2024-10-21T14:44
 ---
 >[!abstract] Index
 >1. [[#Probabilità Condizionata]]
@@ -193,7 +193,7 @@ $$
 Dati $E, F$ eventi, allora:
 
 $$
-P(E) = P(F) \cdot  P(E\vert F) \cdot  P(F^{c}) \cdot  P(E\vert F^{c})
+P(E) = P(F) \cdot  P(E\vert F) + P(F^{c}) \cdot  P(E\vert F^{c})
 $$
 
 >[!warning]- Dimostrazione
