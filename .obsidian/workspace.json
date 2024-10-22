@@ -29,12 +29,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/L10 Calcolo Probabilità.md",
+                "file": "Storage/Backend/Logs/🏫 October 2024 (Log).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "L10 Calcolo Probabilità"
+              "title": "🏫 October 2024 (Log)"
             }
           },
           {
@@ -188,8 +188,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 308.504789352417,
-    "collapsed": true
+    "width": 308.504789352417
   },
   "right": {
     "id": "1599d9a7234429ed",
@@ -363,11 +362,16 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "e0d98d3f991ea899",
+  "active": "ba7d0379bd9741ad",
   "lastOpenFiles": [
+    "Storage/Backend/Logs/🕹️ September 2024 (Log).md",
+    "Storage/Backend/Logs/Logs.md",
+    "Storage/Backend/My Recipe Book/My Recipe Book.md",
+    "Storage/Backend/Logs/🏫 October 2024 (Log).md",
+    "Storage/Backend/My Resonance Calendar/My Resonance Calendar.md",
+    "3. MOCS/Uni MOC/Uni_Archive/L10 Calcolo Probabilità.md",
     "3. MOCS/Uni MOC/Uni_Archive/Calcolo delle Probabilità (class).md",
     "3. MOCS/Uni MOC/Uni_Archive/Indipendenza di Eventi.md",
-    "3. MOCS/Uni MOC/Uni_Archive/L10 Calcolo Probabilità.md",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241021163719.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241021161720.png",
     "3. MOCS/Uni MOC/Uni_Archive/Probabilità Condizionata.md",
@@ -396,13 +400,9 @@
     "3. MOCS/Uni MOC/Uni_Archive/Spazzi di Probabilità con Esiti Equiparabili.md",
     "3. MOCS/Uni MOC/Uni_Archive/Quantificatori Esistenziale ed Universale.md",
     "3. MOCS/Uni MOC/Uni_Archive/Proprietà Relazioni.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Relazioni d'ordine.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Quartz Suggestion.md",
-    "3. MOCS/Programming MOC/Pro_Archive/Quartz.md",
-    "3. MOCS/Tech MOC/Tech_Archive/Quartz Setup.md",
     "3. MOCS/Uni MOC/Uni_Archive/Recording 20240926150358.webm",
     "Storage/Backend/Monthly Log",
-    "Storage/Backend/Monthly Logs",
+    "Storage/Backend/Logs",
     "Scriptorium",
     "_assets/meta",
     "_assets",
