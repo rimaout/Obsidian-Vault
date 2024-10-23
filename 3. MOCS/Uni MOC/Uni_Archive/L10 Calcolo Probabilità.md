@@ -5,7 +5,7 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2024-10-21T16:15
-updated: 2024-10-21T18:16
+updated: 2024-10-22T18:56
 ---
 >[!abstract] Index
 >1. 
@@ -37,17 +37,6 @@ updated: 2024-10-21T18:16
 
 ---
 
-$$
-E \perp\!\!\!\!\!\!\perp F \implies E \perp\!\!\!\!\!\!\perp F^{c}
-$$
-
-- Supponiamo che $E$ e $F$ siano indipendenti
-- Supponiamo che $E$ e $G$ siano indipendenti
-
-Sapendo questo è possibile dire che $E$ è indipendente da $F \cap G$?
-
-**No**, $E$ E $F\cap G$ possono essere **dipendenti**
-
 >[!example] Esempio
 >Si lanciano due dadi
 >
@@ -55,7 +44,7 @@ Sapendo questo è possibile dire che $E$ è indipendente da $F \cap G$?
 >- $F = \#\text{1° dado da 4}$
 >- $G = \#\text{2° dado da 3}$
 >  
->  Sappiamo che $E E \perp\!\!\!\!\!\!\perp F$
+>  Sappiamo che $E \perp\!\!\!\!\!\!\perp F$
 >  
 >  devo provare che $E \perp\!\!\!\!\!\!\perp G$:
 >  
@@ -68,29 +57,9 @@ Sapendo questo è possibile dire che $E$ è indipendente da $F \cap G$?
 > Quindi: $E \perp\!\!\!\!\!\!\perp G$
 > - $E\ \ \not \perp\!\!\!\!\!\!\!\!\perp \ F: P(E \vert F \cap G) = 1 \not = P(E)$
 
->[!note] Definizione
->Dati 3 eventi $E,F,G$ si dice che sono indipendenti se:
->- $P(E\cap F) = P(E) \cdot P(F)$
->- $P(E\cap G) = P(E)\cdot P(G)$
->- $P(F \cap G) = P(F) \cdot P(G)$
->- $P(E \cap F\cap G) = P(E)\cdot P(F) \cdot P(G)$
-
->[!warning] Teo
->Se $E,F,G$ sono indipendenti, allora $E$ è indipendente da ogni evento costruito a partire da $F$ e$G$ usando: unione, intersezione, complementare.
-
 >[!example] Esempio
 >Se $E,F,G$ sono indipendenti allora:
 >- $E \perp\!\!\!\!\!\!\perp (F\cap G)$
 >- $E \perp\!\!\!\!\!\!\perp (F \cup G)$
 >- $E \perp\!\!\!\!\!\!\perp (F^{c}\cap G)$
 >- $E \perp\!\!\!\!\!\!\perp F^{c}$
-
->[!note] Definizione generalizzata
->
->Dati $n$ eventi $E_{1},\dots ,E_{n}$, questi sono detti indipendenti se:
->
->$\forall A \subset \{ 1,2,\dots,n \}$  con $A \not = \emptyset$ allora:
->
->$$
->P \big(\bigcap E_{i}) = \prod_{i\in A} P(E_{i})
->$$

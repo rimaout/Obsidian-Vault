@@ -24,21 +24,21 @@
             }
           },
           {
-            "id": "e350bcf015e91944",
+            "id": "e0d98d3f991ea899",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Rapporto a Favore.md",
+                "file": "Storage/Backend/Logs/🏫 October 2024 (Log).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Rapporto a Favore"
+              "title": "🏫 October 2024 (Log)"
             }
           },
           {
-            "id": "0b1a2fb194b851e6",
+            "id": "381e0408f484981b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -49,6 +49,76 @@
               },
               "icon": "lucide-file",
               "title": "Indipendenza di Eventi"
+            }
+          },
+          {
+            "id": "333f0a6e75d31e91",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. MOCS/Uni MOC/Uni_Archive/L10 Calcolo Probabilità.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "L10 Calcolo Probabilità"
+            }
+          },
+          {
+            "id": "2246bb0971d34562",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Indipendenza di Eventi.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Indipendenza di Eventi"
+            }
+          },
+          {
+            "id": "03f888aa19a80d00",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. MOCS/Uni MOC/Uni_Archive/L9 Calcolo Probabilità.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "L9 Calcolo Probabilità"
+            }
+          },
+          {
+            "id": "838ce9593247d476",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Probabilità Condizionata.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Probabilità Condizionata"
+            }
+          },
+          {
+            "id": "f453d2fbbf0435b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Rapporto a Favore.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Rapporto a Favore"
             }
           }
         ],
@@ -118,8 +188,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 308.504789352417,
-    "collapsed": true
+    "width": 308.504789352417
   },
   "right": {
     "id": "1599d9a7234429ed",
@@ -293,21 +362,16 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "e350bcf015e91944",
+  "active": "ba7d0379bd9741ad",
   "lastOpenFiles": [
-    "3. MOCS/Uni MOC/Uni_Archive/Calcolo delle Probabilità (class).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Indipendenza di Eventi.md",
-    "3. MOCS/Uni MOC/Uni_Archive/L9 Calcolo Probabilità.md",
-    "3. MOCS/Uni MOC/Uni_Archive/L10 Calcolo Probabilità.md",
-    "Storage/Backend/Logs/🏫 October 2024 (Log).md",
     "Storage/Backend/Logs/🕹️ September 2024 (Log).md",
     "Storage/Backend/Logs/Logs.md",
-    "Storage/Backend/Logs",
-    "Storage/Backend/Monthly Logs/🏫 October 2024 (Log).md",
-    "Storage/Backend/Monthly Logs/🕹️ September 2024 (Log).md",
-    "Storage/Backend/Monthly Logs/Monthly Logs.md",
     "Storage/Backend/My Recipe Book/My Recipe Book.md",
+    "Storage/Backend/Logs/🏫 October 2024 (Log).md",
     "Storage/Backend/My Resonance Calendar/My Resonance Calendar.md",
+    "3. MOCS/Uni MOC/Uni_Archive/L10 Calcolo Probabilità.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Calcolo delle Probabilità (class).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Indipendenza di Eventi.md",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241021163719.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241021161720.png",
     "3. MOCS/Uni MOC/Uni_Archive/Probabilità Condizionata.md",
@@ -326,21 +390,26 @@
     "3. MOCS/Uni MOC/Uni_Archive/200920241441.png",
     "3. MOCS/Uni MOC/Uni_Archive/2010241444.png",
     "3. MOCS/Uni MOC/Uni_Archive/2010141445.png",
+    "3. MOCS/Uni MOC/Uni_Archive/L9 Calcolo Probabilità.md",
     "3. MOCS/Uni MOC/Uni_Archive/Rapporto a Favore.md",
     "3. MOCS/Uni MOC/Uni_Archive/Permutazioni.md",
     "3. MOCS/Uni MOC/Uni_Archive/Combinazioni (Coefficiente Binomiale).md",
     "3. MOCS/Uni MOC/Uni_Archive/Disposizioni.md",
     "3. MOCS/Uni MOC/Uni_Archive/L5 Calcolo Probabilità.md",
     "3. MOCS/Uni MOC/Uni_Archive/L8 Calcolo Probabilità.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Spazzi di Probabilità con Esiti Equiparabili.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Quantificatori Esistenziale ed Universale.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Proprietà Relazioni.md",
     "3. MOCS/Uni MOC/Uni_Archive/Recording 20240926150358.webm",
     "Storage/Backend/Monthly Log",
-    "Storage/Backend/Monthly Logs",
+    "Storage/Backend/Logs",
     "Scriptorium",
     "_assets/meta",
     "_assets",
     "Slurped Pages",
     "path/to",
     "path",
+    "Storage/Backend/Personal Backlog",
     "Buy List/Skin Care Buy List.canvas",
     "Buy List/Clothing Buy List.canvas",
     "Storage/Untitled.canvas",
