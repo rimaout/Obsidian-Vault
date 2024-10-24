@@ -201,9 +201,19 @@
               "icon": "lucide-list",
               "title": "Outline of Valore assoluto"
             }
+          },
+          {
+            "id": "bc97d9e90aff1787",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       },
       {
         "id": "0ee4f1dd2040ea54",
@@ -230,7 +240,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Valore assoluto.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Funzione Inniettiva, Surriettiva, Biettiva, Inversa.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -258,7 +268,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Valore assoluto"
+              "title": "Graph of Funzione Inniettiva, Surriettiva, Biettiva, Inversa"
             }
           }
         ],
@@ -266,8 +276,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 323.5,
-    "collapsed": true
+    "width": 323.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -284,7 +293,7 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "eae71ad702824dc5",
+  "active": "bc97d9e90aff1787",
   "lastOpenFiles": [
     "3. MOCS/Uni MOC/Uni_Archive/L8 Basi di dati 1.md",
     "3. MOCS/Uni MOC/Uni_Archive/Basi di Dati 1 (class).md",
