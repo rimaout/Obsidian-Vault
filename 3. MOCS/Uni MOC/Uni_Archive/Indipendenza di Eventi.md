@@ -1,17 +1,21 @@
 ---
 type: Uni Note
-class: 
+class:
+  - "[[Calcolo delle Probabilità (class)]]"
 academic year: 2024/2025
 related: 
-completed: false
+completed: true
 created: 2024-10-21T13:48
-updated: 2024-10-23T09:56
+updated: 2024-10-24T16:11
 ---
 >[!abstract] Index
->1. 
+>1. [[#Introduzione]]
+>2. [[#Indipendenza tra 3 Eventi]]
+>3. [[#Formula Generalizzata]]
+>4. [[#Operazioni tra Eventi Indipendenti]]
 
 >[!abstract] Related
->- 
+>- [[Calcolo delle Probabilità (class)]]
 
 ---
 ## Introduzione
@@ -112,7 +116,7 @@ updated: 2024-10-23T09:56
 >- $P(F \cap G) = P(F) \cdot P(G)$
 >- $P(E \cap F\cap G) = P(E)\cdot P(F) \cdot P(G)$
 
->[!example] Esempio
+>[!example]- Esempio
 >Lancio 2 volte un dado
 >- $E = \text{la somma dei lanci è 7}$
 >- $F = \text{il disultato del 1° lancio è 4}$
@@ -154,10 +158,45 @@ updated: 2024-10-23T09:56
 
 >[!note] Formula
 >
->Dati $n$ eventi $E_{1},\dots ,E_{n}$, questi sono detti indipendenti se:
+>Dati $n$ eventi $E_{1},\dots ,E_{n}$, questi sono detti indipendenti se
 >
->$\forall A \subset \{ 1,2,\dots,n \}$  con $A \not = \emptyset$ allora:
+>$\forall A \subset \{ 1,2,\dots,n \}$  con $A \not = \emptyset$:
 >
 >$$
 >P \big(\bigcap E_{i}) = \prod_{i\in A} P(E_{i})
 >$$
+
+---
+## Operazioni tra Eventi Indipendenti
+
+>[!note] Intersezione
+>
+>La probabilità dell'intersezione di eventi indipendenti è uguale al prodotto delle singole probabilità.
+>
+>Siano $A,B,C$ eventi tra loro indipendenti allora:
+>
+>$$
+>\begin{align*}
+>& P(A \cap B) = P(A) \cdot  P(B) \\
+>& P(A \cap B \cap C) = P(A) \cdot  P(B) \cdot P(C)
+>\end{align*}
+>$$
+>
+>
+
+>[!note] Unione
+>
+>La probabilità dell'unione di eventi indipendenti è uguale alla somma delle singole probabilità, meno la probabilità dell'intersezione.
+>
+>Siano $A,B,C$ eventi tra loro indipendenti allora:
+>
+>$$
+>\begin{align*}
+>& P(A \cup B) = P(A) + P(B) - P(A \cap B) \\
+>& P(A \cup B \cup C) = P(A) + P(B) + P(C) - P(A \cap B) - P(A \cap C) - P(B \cap C) + P(A \cap B \cap C)
+>\end{align*}
+>$$
+>
+>Questo formula è detta [[Principio di Inclusione ed Esclusione]] e fa parte delle [[Proposizioni della Probabilità]].
+
+>[!example] Esempio Circuito

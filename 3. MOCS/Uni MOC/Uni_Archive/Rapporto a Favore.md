@@ -1,16 +1,12 @@
 ---
 type: Uni Note
 class:
-  - "[[Probabilità Condizionata]]"
+  - "[[Calcolo delle Probabilità (class)]]"
 academic year: 2024/2025
 related: 
-completed: false
+completed: true
 created: 2024-10-19T14:53
-updated: 2024-10-23T09:27
----
->[!abstract] Related
->- 
-
+updated: 2024-10-24T12:31
 ---
 ## Definizione 
 

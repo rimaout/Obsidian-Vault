@@ -7,7 +7,7 @@ related:
   - "[[Algebra Relazionale]]"
 completed: false
 created: 2024-10-09T16:36
-updated: 2024-10-10T13:25
+updated: 2024-10-24T18:05
 ---
 >[!abstract] Index
 >1. 
@@ -87,7 +87,7 @@ NULL è un valore valore polimorfo, ovvero non appartiene a nessun dominio ma pu
 Una chiave di una relazione (non è detto che sia unica) è un attributo o insieme di attributi che identifica univocamente una tupla.
 
 Una insieme di attributi $X$ per essere considerato una chiave di una relazione $R$ deve rispettare queste due condizioni:
-1. Nn devono esistere due tuple distinte $t_{1}$ e $t_{2}$ che hanno gli stessi valori per tutti gli attributi in $X$, tali cioè che $t_{1}[X] = t_{2}[X]$
+1. Non devono esistere due tuple distinte $t_{1}$ e $t_{2}$ che hanno gli stessi valori per tutti gli attributi in $X$, tali cioè che $t_{1}[X] = t_{2}[X]$
 2. Nessun sottoinsieme proprio di X soddisfa la condizione 1
 
 >[!warning] Osservazioni
