@@ -5,7 +5,7 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2024-10-16T15:17
-updated: 2024-10-17T15:34
+updated: 2024-10-23T16:05
 ---
 >[!abstract] Index
 >1. 
@@ -169,7 +169,7 @@ $$
 >>Super chiave = chiave che contiene elementi superflui 
 
 ---
-## Lemma
+## Lemma 1
 
 Sia $R$ uno schema di relazione ed $F$ un insieme di dipendenze funzionali su $R$ vkjdnkj njkds.nvdjknb kjs
 
@@ -186,7 +186,7 @@ Sia $R$ uno schema di relazione ed $F$ un insieme di dipendenze funzionali su $R
 >[!warning] oss
 >$F^{+} \subseteq F^{A}$
 >
->Vuol dire che ogni dipendenza ...
+>Vuol dire che ogni dipendenza 
 
 >[!warning] Dimostrazione
 >
@@ -209,7 +209,7 @@ Sia $R$ uno schema di relazione ed $F$ un insieme di dipendenze funzionali su $R
 >oss: ( $i$ rappresenta il munero di applicazioni di Armstrong)
 >
 >1) Riflessiva: 
->	- se $X \to Y\in F^{A}$ è ottenuta per proprietà riflessiva $\implies Y \subseteq X$
+>	- se $x \to y\in F^{A}$ è ottenuta per proprietà riflessiva $\implies Y \subseteq X$
 >	- $\forall r \text{ (legale)}\ \ \ t_{1}[x] = t_{2}[x] \ \ y \subseteq x \implies t_{1}[y] = t_{2}[y] \implies x \to y \in F^{+}$
 >2) Aumento:
 >	- $x \to y \in F^{A}$ ottenuto per aumento $\implies$ in $i-1$ passi $v \to w \in F^{A} \wedge x = vz \wedge y =wz$
@@ -217,8 +217,7 @@ Sia $R$ uno schema di relazione ed $F$ un insieme di dipendenze funzionali su $R
 >	- oss: per ipotesi induttiva $t_{1}[v] = t_{2}[v] \implies t_{1}[w] = t_{2}[w] \iff t_{1}[z] = t_{2}[z] \implies t_{1}[vz] = t_{2}[vz] \implies t_{1}[y] = t_{2}[y]$
 >3) Transitività:
 >	- $x \to y \in F^{A}$ ottenuto per transitività $\implies x \to z \in F^{A} \wedge z \to y \in F^{A}$
->	- $\forall r \text{ (legale)}\ \ \ t_{1}[x] = t_{2}[x] \implies t_{1}[z] = T_{2}[z] \implies t_{1}[y] = t_{2}[y]$
-
+>	- $\forall r \text{ (legale)}\ \ \ t_{1}[x] = t_{2}[x] \implies t_{1}[z] = t_{2}[z] \implies t_{1}[y] = t_{2}[y]$
 
 >[!warning] Dimostrazione
 >Dimostrazione di $F^{+} \subseteq F^{A}$ (utilizzando metodo induttivo):
@@ -232,6 +231,9 @@ Sia $R$ uno schema di relazione ed $F$ un insieme di dipendenze funzionali su $R
 >| 1 1 1 1 | 1 1 1 1 |
 >| 1 1 1 1 | 0 0 0 0|
 >
+>Se $T_{1}[v] \not= t1[v]$ allora $r$ soddisfa la dipendenza
+>Se $T_{1}[v] = t_{2}[v]\implies v \subseteq x^{+} \implies v \in F^{A} + \to w \in f \implies x \to w \in F^{A}\implies w\in x^{+}\implies t_{1}[w] = t_{2}[w]$
+>
 >Prendiamo una qualunque dipendenza $v \to w \in F$
 >- se $t_{1}[v] \not = t_{2}[v]\ \ (v \cap R-x^{+}) \not = \emptyset$  allora la dipendenza è soddisfatta
 >- se $t_{1}[v] = t_{2}[v] \implies v \subseteq x^{+} \text{ (lemma 1)} \implies x \implies v \in F^{A} + v \to w \in F \implies c \to w \in F^{A}$ (lemma 1 alla rovescia) $\implies w \subseteq x^{+} \implies t_{1}[w] = t_{2}[w]$ e quindi la dipendenza è soddifatta
@@ -239,5 +241,3 @@ Sia $R$ uno schema di relazione ed $F$ un insieme di dipendenze funzionali su $R
 >Quindi abbiamo dimostrato che questa è un istanza legale (ovvero soddisfa $x \to y \in F^{+}$)
 >
 >Se $t_{1}[x] = t_{2}[x]$ allora $t_{1}[y] = t_{2}[y] \implies y \in X^{+} \implies (\text{lemma 1 alla rovescia})\ \ x \to y \in F^{A}$
->
-

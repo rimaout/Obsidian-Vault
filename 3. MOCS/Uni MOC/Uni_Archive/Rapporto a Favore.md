@@ -1,19 +1,15 @@
 ---
 type: Uni Note
-class: 
+class:
+  - "[[Probabilità Condizionata]]"
 academic year: 2024/2025
 related: 
 completed: false
 created: 2024-10-19T14:53
-updated: 2024-10-19T19:19
+updated: 2024-10-23T09:27
 ---
->[!abstract] Index
->1. 
-
 >[!abstract] Related
 >- 
-
->[!danger] TLDR
 
 ---
 ## Definizione 

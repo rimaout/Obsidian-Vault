@@ -5,7 +5,7 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2024-10-21T13:48
-updated: 2024-10-22T19:34
+updated: 2024-10-23T09:56
 ---
 >[!abstract] Index
 >1. 
@@ -67,7 +67,7 @@ updated: 2024-10-22T19:34
 >
 >Quindi visto che $P(E \cap  F) \not= P(E) \cdot P(F)$ allora $E$ e $F$ **NON** sono indipendenti.
 
->[!example] Esempio Eventi
+>[!example]- Esempio Eventi Indipendenti
 >Lancio 2 volte un dado
 >- $E = \text{il risultato del 1° lancio è 4}$
 >- $F = \text{la somma dei lanci è 7}$
@@ -96,11 +96,12 @@ updated: 2024-10-22T19:34
 >
 >Quindi visto che $P(E \cap  F) = P(E) \cdot P(F)$ allora $E$ e $F$ sono indipendenti.
 
+^5656c1
 
 ---
 ## Indipendenza tra 3 Eventi
 
->[!warning] Teorema
+>[!note] Teorema
 >Se $E,F,G$ sono indipendenti, allora $E$ è indipendente da ogni evento costruito a partire da $F$ e $G$ usando: unione, intersezione, complementare.
 >
 > ---
@@ -111,8 +112,44 @@ updated: 2024-10-22T19:34
 >- $P(F \cap G) = P(F) \cdot P(G)$
 >- $P(E \cap F\cap G) = P(E)\cdot P(F) \cdot P(G)$
 
----
+>[!example] Esempio
+>Lancio 2 volte un dado
+>- $E = \text{la somma dei lanci è 7}$
+>- $F = \text{il disultato del 1° lancio è 4}$
+>- $G = \text{il disultato del 2° lancio è 3}$
+>
+>Sappiamo dall'[[#^5656c1|esempio precedente]] che $E \perp\!\!\!\!\!\!\perp F$, dobbiamo calcolare se $E \perp\!\!\!\!\!\!\perp G$
+>
+>- $S = \{ (a,b): a,b \in \{ 1,2,3,4,5,6 \} \}$
+>- $E = \{ (a,b) \in S: a+b = 7\} = \{ (1,6), (2,5), (3,4), (4,3), (5,2), (6,1)\}$
+>- $G = \{ 3 \}$
+>  
+>Quindi:
+>- $P(E) = \frac{{ \lvert E \rvert } }{{ \lvert S \times S \rvert } } = \frac{6}{36} = \frac{1}{6}$
+>- $P(G) = \frac{{ \lvert G \rvert } }{{ \lvert S \rvert } } = \frac{1}{6}$
+>- $P(E\cap G) = \frac{{ \lvert E\cap G \rvert } }{{ \lvert S \times S \rvert } } = \frac{{ \lvert \{ 3,4 \} \rvert } }{{ \lvert S \times S \rvert } } = \frac{1}{36}$
+>  
+>Ora possiamo vedere se i due eventi sono indipendenti, utilizzando $E \perp\!\!\!\!\!\!\perp G \iff P(E \cap  G) = P(E) \cdot P(G)$:
+>
+>$$
+>\begin{align*}
+>
+>P(E \cap  G) &= P(E) \cdot P(F)\\
+> \frac{1}{36} &= \frac{1}{6} \cdot \frac{1}{6}\\
+> \frac{1}{36} &= \frac{1}{36}\ \ \ \ (\text{vero})
+>\end{align*}
+>$$
+>
+>Quindi visto che $P(E \cap  F) = P(E) \cdot P(F)$ allora $E$ e $F$ sono indipendenti.
+>
+>
+>**Ora calcoliamo se i tre eventi sono indipendenti:**
+>- $P(E \vert E\cap F)=1$ -> la probabilità che la somma dei risultati sia 7 sapendo che i dadi usciti sono 4 e 3 
+>- $P(E) = \frac{1}{6}$ (come calcolato precedentemente)
+>  
+>Quindi visto che $P(E \vert E\cap F)\not=P(E)$ allora $E$, $F$, $G$ sono dipendenti ($E\ \not \perp\!\!\!\!\!\!\!\!\perp F$)
 
+---
 ## Formula Generalizzata 
 
 >[!note] Formula

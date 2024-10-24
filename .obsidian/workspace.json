@@ -4,55 +4,55 @@
     "type": "split",
     "children": [
       {
-        "id": "9ad3a4000670a82b",
+        "id": "1d3df57368887a29",
         "type": "tabs",
         "children": [
           {
-            "id": "a1e27bfdfbc89582",
+            "id": "a8ee3df6748f4353",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Calcolo delle Probabilità (class).md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Basi di Dati 1 (class).md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "Calcolo delle Probabilità (class)"
+              "title": "Basi di Dati 1 (class)"
             }
           },
           {
-            "id": "e350bcf015e91944",
+            "id": "0612460967f304b3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Rapporto a Favore.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/L10 Basi di dati 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Rapporto a Favore"
+              "title": "L10 Basi di dati 1"
             }
           },
           {
-            "id": "0b1a2fb194b851e6",
+            "id": "eae71ad702824dc5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Indipendenza di Eventi.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Funzione Inniettiva, Surriettiva, Biettiva, Inversa.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Indipendenza di Eventi"
+              "title": "Funzione Inniettiva, Surriettiva, Biettiva, Inversa"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -128,7 +128,7 @@
       {
         "id": "b33702b1304e824a",
         "type": "tabs",
-        "dimension": 35.19736842105263,
+        "dimension": 42.06642066420663,
         "children": [
           {
             "id": "73d6fce2365a09ef",
@@ -149,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Rapporto a Favore.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Valore assoluto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Rapporto a Favore"
+              "title": "Backlinks for Valore assoluto"
             }
           },
           {
@@ -168,12 +168,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Rapporto a Favore.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Valore assoluto.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Rapporto a Favore"
+              "title": "Outgoing links from Valore assoluto"
             }
           },
           {
@@ -196,29 +196,19 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Rapporto a Favore.md"
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Valore assoluto.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Rapporto a Favore"
-            }
-          },
-          {
-            "id": "2be710a38fb52417",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "title": "Outline of Valore assoluto"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       },
       {
         "id": "0ee4f1dd2040ea54",
         "type": "tabs",
-        "dimension": 64.80263157894737,
+        "dimension": 57.93357933579337,
         "children": [
           {
             "id": "08bb0d9d4b18b672",
@@ -240,7 +230,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Rapporto a Favore.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Valore assoluto.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -263,19 +253,20 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 1,
+                  "scale": 1.4401488037773973,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Rapporto a Favore"
+              "title": "Graph of Valore assoluto"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 350.5,
+    "width": 323.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -293,12 +284,25 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "e350bcf015e91944",
+  "active": "eae71ad702824dc5",
   "lastOpenFiles": [
-    "3. MOCS/Uni MOC/Uni_Archive/Calcolo delle Probabilità (class).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Indipendenza di Eventi.md",
-    "3. MOCS/Uni MOC/Uni_Archive/L9 Calcolo Probabilità.md",
+    "3. MOCS/Uni MOC/Uni_Archive/L8 Basi di dati 1.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Basi di Dati 1 (class).md",
+    "3. MOCS/Uni MOC/Uni_Archive/L10 Basi di dati 1.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Quantificatori Esistenziale ed Universale.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Operatori (Algebra Relazionale).md",
+    "3. MOCS/Uni MOC/Uni_Archive/L9 Basi di dati 1.md",
     "3. MOCS/Uni MOC/Uni_Archive/L10 Calcolo Probabilità.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Introduzione Algebra Relazionale.md",
+    "3. MOCS/Uni MOC/Uni_Archive/L11 Calcolo Probabilità.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Calcolo delle Probabilità (class).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Limiti.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Limiti notevoli di Successioni-->0.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Forme Indeterminate dei Limiti.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Limiti Notevoli.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Indipendenza di Eventi.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Rapporto a Favore.md",
+    "3. MOCS/Uni MOC/Uni_Archive/L9 Calcolo Probabilità.md",
     "Storage/Backend/Logs/🏫 October 2024 (Log).md",
     "Storage/Backend/Logs/🕹️ September 2024 (Log).md",
     "Storage/Backend/Logs/Logs.md",
@@ -311,27 +315,14 @@
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241021163719.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241021161720.png",
     "3. MOCS/Uni MOC/Uni_Archive/Probabilità Condizionata.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Sistemi Operativi 1 (class).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Thread.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Processi.md",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241020202110.png",
-    "Storage/test1.md",
-    "To-Do/image.md",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241020193412.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241020193316.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Processi in UNIX.md",
-    "3. MOCS/Uni MOC/Uni_Archive/PID.md",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241020153947.png",
     "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241020150852.png",
     "3. MOCS/Uni MOC/Uni_Archive/200920241441.png",
     "3. MOCS/Uni MOC/Uni_Archive/2010241444.png",
     "3. MOCS/Uni MOC/Uni_Archive/2010141445.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Rapporto a Favore.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Permutazioni.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Combinazioni (Coefficiente Binomiale).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Disposizioni.md",
-    "3. MOCS/Uni MOC/Uni_Archive/L5 Calcolo Probabilità.md",
-    "3. MOCS/Uni MOC/Uni_Archive/L8 Calcolo Probabilità.md",
     "3. MOCS/Uni MOC/Uni_Archive/Recording 20240926150358.webm",
     "Storage/Backend/Monthly Log",
     "Storage/Backend/Monthly Logs",
