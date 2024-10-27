@@ -1,6 +1,6 @@
 ---
 created: 2024-09-23T16:18
-updated: 2024-10-24T16:11
+updated: 2024-10-25T12:05
 Main Moc: "[[Uni MOC]]"
 academic year: 2024/2025
 ---
@@ -11,7 +11,7 @@ academic year: 2024/2025
 - [[L8 Calcolo Probabilità]] (esercizi visti a lezione)
 - [[L9 Calcolo Probabilità]] (esercizi visti a lezione)
 - [[L10 Calcolo Probabilità]] (esercizi visti a lezione)
-- [[L11 Calcolo Probabilità]] (esercizi visti a lezione)
+- [[L12 Calcolo Probabilità]] (esercizi visti a lezione)
 
 
 >[!note] Calcolo Combinatorio

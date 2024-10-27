@@ -1,10 +1,10 @@
 ---
 created: 2024-05-24T20:26
-updated: 2024-10-12T21:49
+updated: 2024-10-27T13:14
 ---
 Welcome to "My Resonance Calendar"; This is my organised space where I keep track of everything that resonates with me, including books, videos, articles, podcasts, and more.
 
->[!abstract] General
+>[!danger] Youtube Videos
 >- [I Paid a Taxi $10,000$ to See How Far it Takes Me! (Yes Theory)](https://www.youtube.com/watch?v=_TedFmvfCYo)
 >- [Why Alien Life Would be our Doom - The Great Filter (Kurzgesagt)](https://www.youtube.com/watch?v=UjtOGPJ0URM)
 >- [I Trained Like An Olympic Boxer (Michelle Khare)](https://www.youtube.com/watch?v=LZanXTAeqGc)
@@ -20,6 +20,6 @@ Welcome to "My Resonance Calendar"; This is my organised space where I keep trac
 >- [I 3D-Printed a Glock to See How Far Homemade Guns Have Come (Vice)](https://www.youtube.com/watch?v=C4dBuPJ9p7A)
 >- [Simple Steps to Getting in Great Shape This Year (Nathaniel Drew)](https://www.youtube.com/watch?v=WW1ocOqC5Ys)
 
->[!abstract] Coding
->- [Why You Shouldn't Nest Your Code (CodeAesthetic)](https://www.youtube.com/watch?v=CFRhGnuXG-4)
+>[!abstract] Blog Posts
+>- [Beautiful Custom Keyboard (totem)](https://www.hackster.io/geist/totem-a-tiny-splitkeyboard-with-splay-cb2e43)
 

@@ -4,15 +4,12 @@ class:
   - "[[Sistemi Operativi 1 (class)]]"
 academic year: 2024/2025
 related: 
-completed: false
+completed: true
 created: 2024-10-20T16:57
-updated: 2024-10-20T20:21
+updated: 2024-10-26T10:55
 ---
->[!abstract] Index
->1. 
-
 >[!abstract] Related
->- 
+>- [[Sistemi Operativi 1 (class)]]
 
 ---
 ## Introduzione
@@ -40,7 +37,7 @@ Il concetto di processo come visto prima ha 2 caratteristiche principale:
 
 >[!done] Vantaggio dei Thread
 >
->I Thread rispetto hai processi sono più efficienti, è inoltre più semplice crearli, terminarli e fare lo switching.
+>I Thread rispetto hai processi sono più *efficienti*, è inoltre più semplice *crearli*, *terminarli* e fare lo *switching*.
 >
 >Ogni processo viene creato con un thread al suo interno, dopo il programmatore può utilizzare questo thread per 
 >
@@ -65,14 +62,29 @@ Il concetto di processo come visto prima ha 2 caratteristiche principale:
 >>
 >>![[Pasted image 20241020193412.png]]
 
-Quindi in un sistema a singolo thread è gestito come abbiamo visto fino ad adesso con un PCB per ogni processo e i 2 stack.
-
-Su un sistema multithread abbiamo un PCB del processo, la _User Address Space_ che è la parte in comune fra tutti i thread, quindi variabili globali ecc.., e per ogni thread la gestione di quel thread quindi un **Thread Control Block** che serve a gestire lo scheduling fra questi e poi due stack separati per ogni thread, uno utente e uno kernel mode.
-
 ---
 ## ULT vs KLT
 
-**ULT:** User Level Thread
-**KLT:** Kernel Level Thread
+>[!note] Definition
+>
+>Bisogna fare una differenza fra Thread a livello Utente (ULT) e Thread a livello di Sistema (KLT)
+>
+>![[Pasted image 20241020202110.png]]
+>
+>1. Nel primo caso vediamo che se ci sono Thread a livello utente, per il sistema operativo i thread non esistono, ci sono delle librerie a livello utente che gestiscono i thread.
+>2. Nel secondo caso, il sistema operativo prevede i thread anche a livello di kernel e quindi li “vede”.
+>3. Nel terzo caso vediamo come si potrebbero usare entrambe le cose.
+>
+>Nella maggior parte dei sistemi operativi moderni si utilizza il secondo metodo, quindi il sistema operativo è a conoscenza dei thread.
 
-![[Pasted image 20241020202110.png|600]]
+>[!check] Vantaggi ULT
+>- **Switch** del thread in esecuzione  più *efficiente* (non richiede il mode switch al kernel)
+>- Ogni applicazione applicazione può avere una **politica di scheduling differente**.
+>- Permettono di usare i thread anche sui sistemi operativi che non li offrono nativamente.
+
+>[!failure] Svantaggi ULT
+>- Se **un thread si blocca**, si *bloccano tutti i thread di quel processo* (KLT può bloccare i thread singolarmente)
+>- Anche se il si hanno più processori o cores, tutti i thread dello stesso processo devono usare un solo processore comune.
+>- Se il sistema operativo non ha i KLT, niente thread per le routine del sistema operativo stesso
+
+---
