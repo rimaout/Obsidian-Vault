@@ -6,7 +6,7 @@ academic year: 2024/2025
 related: 
 completed: true
 created: 2024-10-04T18:51
-updated: 2024-10-20T17:03
+updated: 2024-10-27T15:55
 ---
 >[!abstract] Index
 >1. [[#Introduzione]]
@@ -146,6 +146,8 @@ Quando il processore è principalmente inutilizzato o la memoria principale è s
 >![[Pasted image 20241006110217.png|450]]
 >
 >Naturalmente il dispatcher esegue soltanto i processi `ready` e non i `ready/suspended`.
+
+^458367897
 
 ---
 ## Condivisione delle Risorse

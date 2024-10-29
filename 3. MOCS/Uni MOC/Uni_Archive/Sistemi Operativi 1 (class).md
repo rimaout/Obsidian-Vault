@@ -2,7 +2,7 @@
 Main Moc: "[[Uni MOC]]"
 related: 
 created: 2024-09-24T15:33
-updated: 2024-10-27T15:31
+updated: 2024-10-28T16:51
 academic year: 2024/2025
 ---
 **Sito Corso:** Class Room
@@ -20,4 +20,4 @@ academic year: 2024/2025
 >- [[Processi in UNIX]] 🟢
 >- [[Thread]] 🟢
 >- [[Processi e Thread in Linux]] 🟢
->  [[Scheduling]]
+>- [[Scheduling]] - [[Algoritmi di Scheduling]]

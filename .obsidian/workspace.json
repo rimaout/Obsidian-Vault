@@ -4,37 +4,51 @@
     "type": "split",
     "children": [
       {
-        "id": "2a5cae831ab82e26",
+        "id": "57dedee1556c1c9e",
         "type": "tabs",
         "children": [
           {
-            "id": "a0ea078b6afb5d4d",
+            "id": "e6699577acf971c4",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Sistemi Operativi 1 (class).md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Calcolo delle Probabilità (class).md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "Sistemi Operativi 1 (class)"
+              "title": "Calcolo delle Probabilità (class)"
             }
           },
           {
-            "id": "caa66f13a9624952",
+            "id": "cc4792467793805f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Scheduling.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Variabili Aleatorie.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Scheduling"
+              "title": "Variabili Aleatorie"
+            }
+          },
+          {
+            "id": "598ac993d7bdbf1a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Variabili Aleatorie.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Variabili Aleatorie"
             }
           }
         ],
@@ -71,7 +85,7 @@
               "state": {
                 "query": "",
                 "matchingCase": true,
-                "explainSearch": false,
+                "explainSearch": true,
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical"
@@ -104,7 +118,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 227.50336456298828,
+    "width": 308.504789352417,
     "collapsed": true
   },
   "right": {
@@ -135,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Sistemi Operativi 1 (class).md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Calcolo delle Probabilità (class).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +159,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Sistemi Operativi 1 (class)"
+              "title": "Backlinks for Calcolo delle Probabilità (class)"
             }
           },
           {
@@ -154,12 +168,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Sistemi Operativi 1 (class).md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Calcolo delle Probabilità (class).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Sistemi Operativi 1 (class)"
+              "title": "Outgoing links from Calcolo delle Probabilità (class)"
             }
           },
           {
@@ -182,14 +196,24 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Sistemi Operativi 1 (class).md"
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Calcolo delle Probabilità (class).md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Sistemi Operativi 1 (class)"
+              "title": "Outline of Calcolo delle Probabilità (class)"
+            }
+          },
+          {
+            "id": "2be710a38fb52417",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       },
       {
         "id": "0ee4f1dd2040ea54",
@@ -216,7 +240,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Sistemi Operativi 1 (class).md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Rapporto a Favore.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -244,11 +268,10 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Sistemi Operativi 1 (class)"
+              "title": "Graph of Rapporto a Favore"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -257,6 +280,9 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obisidian-note-linker:Note Linker": false,
+      "obsidian-git:Open Git source control": false,
+      "omnisearch:Omnisearch": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -264,51 +290,48 @@
       "command-palette:Open command palette": false,
       "audio-recorder:Start/stop recording": false,
       "workspaces:Manage workspace layouts": false,
-      "markdown-importer:Open format converter": false,
-      "obsidian-git:Open Git source control": false,
-      "omnisearch:Omnisearch": false,
-      "obisidian-note-linker:Note Linker": false
+      "markdown-importer:Open format converter": false
     }
   },
-  "active": "caa66f13a9624952",
+  "active": "cc4792467793805f",
   "lastOpenFiles": [
+    "3. MOCS/Uni MOC/Uni_Archive/Calcolo delle Probabilità (class).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Variabili Aleatorie.md",
+    "3. MOCS/Uni MOC/Uni_Archive/L12 Calcolo Probabilità.md",
+    "3. MOCS/Uni MOC/Uni_Archive/L10 Calcolo Probabilità.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Funzioni Composte.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Algoritmi di Scheduling.md",
     "3. MOCS/Uni MOC/Uni_Archive/Sistemi Operativi 1 (class).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Funzioni.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241028202456.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241028202341.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241028202319.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241028202250.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241028194958.png",
+    "To-Do/|non preemtive.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241028181951.png",
     "3. MOCS/Uni MOC/Uni_Archive/Scheduling.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241028175305.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241028174913.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241028174505.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241028171209.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Probabilità Condizionata.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Relazioni d'ordine.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Processi.md",
     "3. MOCS/Uni MOC/Uni_Archive/Processi e Thread in Linux.md",
     "3. MOCS/Uni MOC/Uni_Archive/Interruzioni 101.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241027144151.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241027144003.png",
     "Storage/Backend/My Resonance Calendar/My Resonance Calendar.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Processi.md",
     "To-Do/[[Processi.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241027111758.png",
     "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
     "3. MOCS/Uni MOC/Uni_Archive/Trucchi MVC.md",
     "2. Litterateur Notes/Books/The Martian Book.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Calcolo delle Probabilità (class).md",
-    "3. MOCS/Uni MOC/Uni_Archive/L12 Calcolo Probabilità.md",
     "3. MOCS/Uni MOC/Uni MOC.md",
     "Storage/test1.md",
     "3. MOCS/Uni MOC/Uni_Archive/Thread.md",
     "3. MOCS/Uni MOC/Uni_Archive/Processi in UNIX.md",
     "3. MOCS/Uni MOC/Uni_Archive/Indipendenza di Eventi.md",
-    "3. MOCS/Uni MOC/Uni_Archive/L10 Calcolo Probabilità.md",
     "3. MOCS/Uni MOC/Uni_Archive/L11 Calcolo Probabilità.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Dipendenze Funzionali.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241024185332.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Basi di Dati 1 (class).md",
-    "3. MOCS/Uni MOC/Uni_Archive/L8 Basi di dati 1.md",
-    "3. MOCS/Uni MOC/Uni_Archive/L2 Basi di dati 1.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Basi di dati - Definizioni Comuni.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Introduzione Algebra Relazionale.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Introduzione alle Basi di Dati.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241024174207.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241024170543.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241024165408.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241024151434.png",
     "Storage/Backend/Logs",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241021163719.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241021161720.png",
     "3. MOCS/Uni MOC/Uni_Archive/Recording 20240926150358.webm",
     "Storage/Backend/Monthly Log",
     "Storage/Backend/Monthly Logs",

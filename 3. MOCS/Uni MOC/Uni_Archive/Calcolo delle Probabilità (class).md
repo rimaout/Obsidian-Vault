@@ -1,6 +1,6 @@
 ---
 created: 2024-09-23T16:18
-updated: 2024-10-25T12:05
+updated: 2024-10-29T15:31
 Main Moc: "[[Uni MOC]]"
 academic year: 2024/2025
 ---
@@ -29,4 +29,5 @@ academic year: 2024/2025
 >- [[Rapporto a Favore]] 🟢
 >- [[Indipendenza di Eventi]] 🟢 (fare esempio circuito)
 >- [[Monty Hall Problem]] 🟢
+>  [[Variabili Aleatorie]]
 

@@ -1,6 +1,6 @@
 ---
 created: 2023-10-24T14:43
-updated: 2024-06-28T14:51
+updated: 2024-10-29T15:19
 related:
   - "[[Funzioni]]"
 completed: 
@@ -15,14 +15,36 @@ class:
 >- [[Matematica 0 (class)]] 
 
 ---
+## Introduzione
+
+Per poter effettuare l'operazioni di composizione $g \circ f$, il co-dominio di $f$ deve essere un sottoinsieme del dominio di $g$.
+
+$$
+Cod(f)⊆Dom(g)
+$$
+
+---
 ## Proprietà
 
-🏗️ -- da rivedere non sono sicuro -- 🏗️
+>[!note] NON Commutativa
+>In generale l'operazione di composizione di funzioni non gode della proprietà commutativa quindi:
+>$$
+> g \circ h \not = h \circ f
+>$$
+>
+>Tuttavia, quando le funzioni sono inverse l'una dell'altra o quando sono funzioni identiche allora possiamo dire che $g \circ h = h \circ f$
 
->[!note] Prop. Inniettiva
->- se due funzioni sono inniettive la loro composizione è inniettiva 
->- se una composizione è inniettiva allora almeno una delle due funzioni è inniettiva ***vero?***
+>[!note] Composizione di Funzioni Iniettive 
+>Se $f(x)$ e $g(x)$ sono [[Funzione Inniettiva, Surriettiva, Biettiva, Inversa#Funzione Inniettiva|funzioni iniettive]] sui rispettivi domini allora la funzione composta $g \circ f$ è una funzione **iniettiva** sul proprio dominio. 
+>
+>>Attenzione: in generale non vale il viceversa.
 
->[!note] Prop. Surriettiva
->- se due funzioni sono surriettiva la loro composizione è inniettiva 
->- se una composizione è surriettiva allora *boh*
+>[!note] Composizione di Funzioni Suriettive
+>Se $f(x)$ e $g(x)$ sono [[Funzione Inniettiva, Surriettiva, Biettiva, Inversa#Funzione Surriettiva|funzioni suriettive]] sui rispettivi domini allora la funzione composta $g \circ f$ è una funzione **suriettiva** sul proprio dominio. 
+>
+>>Attenzione: in generale non vale il viceversa.
+
+>[!note] Composizione di Funzioni Biettive
+>Se $f(x)$ e $g(x)$ sono [[Funzione Inniettiva, Surriettiva, Biettiva, Inversa#Funzione Biettiva o Biunivoca|funzioni suriettive]] sui rispettivi domini allora la funzione composta $g \circ f$ è una funzione **biettive** sul proprio dominio. 
+>
+>>Attenzione: in generale non vale il viceversa.
