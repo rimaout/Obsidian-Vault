@@ -52,7 +52,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -293,10 +293,16 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "cc4792467793805f",
+  "active": "598ac993d7bdbf1a",
   "lastOpenFiles": [
+    "Storage/Backend/Monthly Logs/🏫 October 2024 (Log).md",
     "3. MOCS/Uni MOC/Uni_Archive/Calcolo delle Probabilità (class).md",
+    "Storage/Backend/Monthly Logs/Monthly Logs.md",
+    "Storage/Backend/Monthly Logs/🕹️ September 2024 (Log).md",
     "3. MOCS/Uni MOC/Uni_Archive/Variabili Aleatorie.md",
+    "Storage/Templates/Monthly Log (Template).md",
+    "3. MOCS/Tech MOC/Tech_Archive/Quartz Setup.md",
+    "3. MOCS/Programming MOC/Pro_Archive/Quartz.md",
     "3. MOCS/Uni MOC/Uni_Archive/L12 Calcolo Probabilità.md",
     "3. MOCS/Uni MOC/Uni_Archive/L10 Calcolo Probabilità.md",
     "3. MOCS/Uni MOC/Uni_Archive/Funzioni Composte.md",
@@ -325,13 +331,7 @@
     "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
     "3. MOCS/Uni MOC/Uni_Archive/Trucchi MVC.md",
     "2. Litterateur Notes/Books/The Martian Book.md",
-    "3. MOCS/Uni MOC/Uni MOC.md",
-    "Storage/test1.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Thread.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Processi in UNIX.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Indipendenza di Eventi.md",
-    "3. MOCS/Uni MOC/Uni_Archive/L11 Calcolo Probabilità.md",
-    "Storage/Backend/Logs",
+    "Storage/Backend/Monthly Logs",
     "3. MOCS/Uni MOC/Uni_Archive/Recording 20240926150358.webm",
     "Storage/Backend/Monthly Log",
     "Storage/Backend/Monthly Logs",

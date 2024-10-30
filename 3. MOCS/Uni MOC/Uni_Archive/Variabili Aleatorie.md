@@ -5,7 +5,7 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2024-10-29T15:31
-updated: 2024-10-29T16:46
+updated: 2024-10-29T22:01
 ---
 >[!abstract] Index
 >1. 
@@ -164,4 +164,46 @@ Una variabile aleatoria $X$ è detta **discreta** se i valori che può assumere 
 >[!note] Definizione
 >La funzione di distribuzione (o ripartizione) è una funzione matematica che descrive la probabilità che una variabile aleatoria assuma valori inferiori o uguali a un certo valore.
 >
->$F_{X}​\mathbb{R}\to [0,1] \text{ con } F_{x}​(a) = P(X\leq a)\  \forall a \in \mathbb{R}$
+>**Matematicamente:**
+>Data una variabile aleatoria X, la sua funzione di distribuzione è definiti come:
+>
+>$$
+>F_{X} : \mathbb{R} \to  [0,1] \text{ con } F_{X }(a) = P(X \leq a) \forall  a \in \mathbb{R} 
+>$$
+
+>[!example] Esempio 1
+>Lanciamo un dado equilibrato a sei facce e definiamo una variabile aleatoria $X = \#\text{ facce del dado}$
+>
+>I valori possibili di $X$ sono 1, 2, 3, 4, 5 e 6; la probabilità di ciascun valore è la seguente:
+>* $P(X=1) = 1/6$ (esce la faccia con il numero 1)
+>* $P(X=2) = 1/6$ (esce la faccia con il numero 2)
+>* $P(X=3) = 1/6$ (esce la faccia con il numero 3)
+>* $P(X=4) = 1/6$ (esce la faccia con il numero 4)
+>* $P(X=5) = 1/6$ (esce la faccia con il numero 5)
+>* $P(X=6) = 1/6$ (esce la faccia con il numero 6)
+>
+>La funzione di distribuzione di $X$ è:
+>$$
+>F_{X}(x) = P(X \leq x)
+>$$
+>
+>Calcoliamo la funzione di distribuzione per alcuni valori di x:
+>$$F_{X}(1) = P(X \leq 1) = 1/6$$
+>$$F_{X}(2) = P(X \leq 2) = 2/6$$
+>$$F_{X}(3) = P(X \leq 3) = 3/6$$
+>$$F_{X}(4) = P(X \leq 4) = 4/6$$
+>$$F_{X}(5) = P(X \leq 5) = 5/6$$
+>$$F_{X}(6) = P(X \leq 6) = 1$$
+>
+>Quindi, la funzione di distribuzione di $X$ è:
+>
+>$$F_{X}(x) = \begin{cases}
+>0 & \text{se } x < 1 \\
+>1/6 & \text{se } 1 \leq x < 2 \\
+>2/6 & \text{se } 2 \leq x < 3 \\
+>3/6 & \text{se } 3 \leq x < 4 \\
+>4/6 & \text{se } 4 \leq x < 5 \\
+>5/6 & \text{se } 5 \leq x < 6 \\
+>1 & \text{se } x \geq 6
+>\end{cases}$$
+>
