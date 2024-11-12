@@ -8,7 +8,7 @@ academic year: 2023/2024
 related:
   - "[[Relazioni]]"
 completed: true
-updated: 2024-05-27T13:29
+updated: 2024-11-04T22:50
 ---
 
 ## Indice
@@ -31,10 +31,12 @@ Le relazioni di equivalenza sono un tipo di relazioni che soddisfano le propriet
 
 - Una **classe di equivalenza** di un elemento *a* contiene tutti gli elementi (*x*) in relazione con *a*
 
-$$ \begin{align}
+$$ 
+\begin{align}
 & \text{Classe di quivalenza di } a \in A \\ \\
 & [a] = \{x \in A |(a,x)\} \\
-\end{align}$$
+\end{align}
+$$
 
 **oss:** il prodotto cartesiano di un insieme ha una sola classe di equivalenza, perché tutti gli elementi sono in relazione tra loro
 

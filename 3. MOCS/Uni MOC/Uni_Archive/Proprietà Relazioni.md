@@ -8,7 +8,7 @@ related:
   - "[[Relazioni]]"
   - "[[Relazioni d'ordine]]"
 completed: false
-updated: 2024-10-19T11:54
+updated: 2024-11-04T22:47
 ---
 ---
 >[!abstract] Index
@@ -81,28 +81,5 @@ $$
 ---
 ## Chiusure
 
->[!note] Chiusura Riflessiva
->
+La chiusura simmetrica di una relazione $R \subseteq A \times A$ è la più piccola relazione simmetrica $R_{1}$ tale che $R \subseteq R_{1} \subseteq A \times A$
 
->[!warning] Chiusura Transitiva
->
->$$
->R \subseteq A \times A
->$$
->
->è la più piccola relazione transitiva che contiene R
->
->>**oss:** la chiusura transitiva di una relazione transitiva è la relazione stessa.
-
->[!note] Chiusura Simmetrica
->
-
->[!note] Chiusura Transitiva
-
-- Sia R una relazione sull’insieme S
--  La **chiusura riflessiva** e **transitiva** di *R* è la più piccola relazione riflessiva e transitiva *R'* (un'altra relazione su S) che contiene R.
-
----
-## Casi particolari
-
-Può esistere una funzione che è sia simmetrica che anti simmetrica, *esempio:* (1,1), (2,2), (3,3)

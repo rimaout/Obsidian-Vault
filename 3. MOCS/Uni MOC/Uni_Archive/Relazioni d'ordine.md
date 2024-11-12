@@ -8,7 +8,7 @@ related:
   - "[[Relazioni]]"
   - "[[Proprietà Relazioni]]"
 completed: false
-updated: 2024-10-19T11:51
+updated: 2024-11-04T22:51
 ---
 ---
 ## Index
@@ -19,27 +19,32 @@ updated: 2024-10-19T11:51
 
 ---
 ## Relazione d'ordine Largo
-- Relazione che soddisfa 3 proprietà:
-	- [[Proprietà Relazioni#Riflessiva|Riflessiva]] **\***
-	- [[Proprietà Relazioni#Anti simmetrica|Anti Simmetrica]]
-	- [[Proprietà Relazioni#Transitiva|Transitiva]]
-	![[IMG_112F8FBE6DDB-1.jpeg]]
+Relazione che soddisfa 3 proprietà:
+- [[Proprietà Relazioni#Riflessiva|Riflessiva]] **\***
+- [[Proprietà Relazioni#Anti simmetrica|Anti Simmetrica]]
+- [[Proprietà Relazioni#Transitiva|Transitiva]]
+
+![[IMG_112F8FBE6DDB-1.jpeg]]
+
 ---
 ## Relazione d'ordine Stretto
-- Relazione che soddisfa 3 proprietà:
-	- [[Proprietà Relazioni#Anti riflessiva|Anti Riflessiva]]
-	- [[Proprietà Relazioni#Transitiva|Transitiva]]
-	![[IMG_4C72533C1D1F-1.jpeg]]
+
+Relazione che soddisfa 3 proprietà:
+- [[Proprietà Relazioni#Anti riflessiva|Anti Riflessiva]]
+- [[Proprietà Relazioni#Transitiva|Transitiva]]
+
+![[IMG_4C72533C1D1F-1.jpeg]]
+
 ---
 ## Relazione d'ordine ***totale***
 
 Le relazioni d'ordine totale mettono in *relazione tutti gli elementi dell'insieme*.
 
-- In questo caso è sempre possibile confrontare ogni elemento con tutti gli altri.	![[IMG_BC2423C5AC50-1.jpeg]]
+In questo caso è sempre possibile confrontare ogni elemento con tutti gli altri.	![[IMG_BC2423C5AC50-1.jpeg]]
 
 $$
-\forall x \forall y(aRb\ \vee bRa) 
-$$ 
+\forall a \forall b(aRb\ \vee bRa) 
+$$
 
 ---
 ## Relazione d'ordine Parziale

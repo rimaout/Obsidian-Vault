@@ -5,15 +5,17 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2024-10-02T13:35
-updated: 2024-10-09T13:47
+updated: 2024-11-08T11:11
 ---
->[!abstract] Index
+[!abstract] Index
 >1. 
 
 >[!abstract] Related
 >- 
 
 ---
+
+##
 
 >[!example] Esempio
 >Estraggo 3 carte da un mezzo di 40 carte, senza rimpiazzo, qual'è la probabilità che a 1° carte e la 3° siano uguali.
@@ -85,3 +87,11 @@ updated: 2024-10-09T13:47
 >$$
 >P(E) = \frac{{ \lvert E \rvert }  }{{ \lvert S \rvert }  } = \frac{\binom{9}{2} \cdot \binom{9}{2}}{\binom{15}{5} } = \frac{240}{1001}
 >$$
+
+
+
+
+
+
+
+

@@ -6,13 +6,8 @@ academic year: 2024/2025
 related: "[[Dipendenze Funzionali]]"
 completed: true
 created: 2024-10-24T16:33
-updated: 2024-10-24T17:44
+updated: 2024-11-08T17:46
 ---
->[!abstract] Index
->1. [[#Problemi]]
->2. [[#Vincoli]]
->3. [[#Esempio]]
-
 >[!abstract] Related
 >- [[Basi di Dati 1 (class)]]
 >- [[Dipendenze Funzionali]]
@@ -128,4 +123,3 @@ Possiamo dividere le informazioni in tre relazioni separate:
 >![[Pasted image 20241024174207.png|730]]
 >
 >>In questo modo non abbiamo più ridondanze e anomalie.
-

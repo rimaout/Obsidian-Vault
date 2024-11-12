@@ -1,17 +1,17 @@
 ---
 type: Uni Note
-class: 
+class:
+  - "[[Sistemi Operativi 1 (class)]]"
 academic year: 2024/2025
-related: 
-completed: false
+related: "[[Scheduling]]"
+completed: true
 created: 2024-10-28T16:51
-updated: 2024-10-28T21:01
+updated: 2024-11-07T12:30
 ---
->[!abstract] Index
->1. 
 
 >[!abstract] Related
->- 
+>- [[Scheduling]]
+>- [[Sistemi Operativi 1 (class)]]
 
 ---
 ## Introduzione
@@ -56,11 +56,11 @@ In particolare tutti gli algoritmi, per effettuare effettuare delle scelte utili
 ## Algoritmi
 
 Gli algoritmi più noti per la scelta dei processi da eseguire sono:
-- [[#FCFS]]
+- [[#FCFS (First Come First Served)]]
 - [[#Round Robin]]
-- [[#SPN]]
-- [[#SRT]]
-- [[#HRRN]]
+- [[#SPN (Short Process Next)]]
+- [[#SRT (Shortest Remaining Time)]]
+- [[#HRRN (Highest Response Ratio Next)]]
 - [[#Feedback]]
 
 Nei sistemi operativi moderni, questi algoritmi non sono solitamente utilizzati direttamente, ma costituiscono la base per quelli utilizzati nel mondo reale. Ad esempio, Linux utilizza una versione migliorata e modificata dell'algoritmo [[#Feedback]].
@@ -78,7 +78,7 @@ Nei sistemi operativi moderni, questi algoritmi non sono solitamente utilizzati 
 >| E | 8 | 2 | 
 
 ---
-### FCFS
+### FCFS (First Come First Served)
 
 Tutti i processi vengono aggiunti alla coda dei processi ready e quando un processo smette di essere eseguito si passa a quello che ha aspettato di più in coda. È [[#^363dc9|non-preemptive]] quindi si passa ad un altro solo se termina o per interrupt.
 
@@ -142,7 +142,7 @@ Quando verrà eseguito il quanto di tempo sarà uguale alla porzione del quanto 
 ![[Pasted image 20241028181951.png|350]]
 
 ---
-### SPN
+### SPN (Short Process Next)
 
 **SPN** sta per "Short Process Next" ovvero il prossimo processo da eseguire è il più breve, per più “breve” si intende quello il cui tempo di esecuzione stimato è minore tra quelli ready.
 
@@ -193,16 +193,22 @@ Quando verrà eseguito il quanto di tempo sarà uguale alla porzione del quanto 
 >>>![[Pasted image 20241028202456.png|450]]
 
 ---
-### SRT
+### SRT (Shortest Remaining Time)
 
+Come [[#SPN (Short Process Next)|SPN]] esegue il processo più corto presente nel sistema, ma è **preemptive**, quindi non ha una **time quantum** ma si basa sul fatto che esegue un controllo per scegliere il processo più corto ad ogni arrivo di un nuovo processo appena creato, o alla fine del processo in esecuzione.
 
-
----
-### HRRN
-
+![[Pasted image 20241031172730.png|700]]
 
 ---
-### Feedback
+### HRRN (Highest Response Ratio Next)
 
+Anche questo algoritmo necessita di conoscere il tempo di risposta di un processo, in questo caso **non può avvenire starvation** e non è [[#^363dc9|preemptive]].
 
+Questo algoritmo esegue il processo che ha come valore più alto:
+$$
+\frac{w+ s}{s} = \frac{\text{Tempo trascorso in attesa + Tempo totale richiesto​}}{\text{Tempo totale richiesto}}
+$$
 
+Quindi non prende in considerazione soltanto il tempo di esecuzione del processo ma anche da quanto tempo sta aspettato.
+
+![[Pasted image 20241106192207.png|750]]

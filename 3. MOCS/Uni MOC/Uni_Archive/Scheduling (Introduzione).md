@@ -3,16 +3,13 @@ type: Uni Note
 class:
   - "[[Sistemi Operativi 1 (class)]]"
 academic year: 2024/2025
-related: 
-completed: false
+related: "[[Scheduling]]"
+completed: true
 created: 2024-10-27T15:31
-updated: 2024-10-28T18:00
+updated: 2024-11-11T22:15
 ---
->[!abstract] Index
->1. 
-
->[!abstract] Related
->- [[Algoritmi Iterativi]]
+[!abstract] Related
+>- [[Scheduling]]
 >- [[Sistemi Operativi 1 (class)]]
 
 ---
@@ -91,7 +88,7 @@ Il **Medium-Term Scheduling** si occupa della gestione del *memory swap* ovvero 
 Importante per il controllo del grado di multiprogrammazione b
 
 ---
-## Short-Term Scheduling
+## Short-Term Scheduling (dispatcher)
 
 Viene chiamato anche **dispatcher**, è lo scheduler eseguito più frequentemente e viene invocato in seguito a seguiti di alcuni eventi:
 - Interruzioni di clock (fanno parte degli interrupt)

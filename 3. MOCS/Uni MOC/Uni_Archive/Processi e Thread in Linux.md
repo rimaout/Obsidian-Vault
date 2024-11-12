@@ -6,7 +6,7 @@ academic year: 2024/2025
 related: "[[Interruzioni 101]]"
 completed: true
 created: 2024-10-26T10:56
-updated: 2024-10-27T15:07
+updated: 2024-11-07T11:58
 info: 
 ---
 >[!abstract] Index
@@ -22,7 +22,7 @@ info:
 ---
 ## Thread in Linux
 
-Linux, nonostante sia un sistema operativo moderno, non si comporta come visto in [[Thread#Rappresentazione dei Threads|Rappresentazione dei Threads]], questo perché è basato su Unix e Unix non prevedeva l'utilizzo di thread. Quindi in Linux è stato implementato il funzionamento dei thread con alcuni vincoli dettati dall'architettura di Unix.
+Linux, nonostante sia un sistema operativo moderno, non si comporta come visto in [[Threads#Rappresentazione dei Threads|Rappresentazione dei Threads]], questo perché è basato su Unix e Unix non prevedeva l'utilizzo di thread. Quindi in Linux è stato implementato il funzionamento dei thread con alcuni vincoli dettati dall'architettura di Unix.
 
 >[!note] Caratteristiche dei threads in linux
 >
@@ -30,7 +30,7 @@ Il kernel Linux non fa una distinzione netta tra processi e thread, ma piuttosto
 >
 >I thread sono chiamati **LWP** (Lightweight Process) 
 >
->Esistono sia i **[[Thread#ULT vs KLT|KLT (kernel level threads)]]** che gli **[[Thread#ULT vs KLT|ULT (user level threads)]]** ma:
+>Esistono sia i **[[Threads#ULT vs KLT|KLT (kernel level threads)]]** che gli **[[Threads#ULT vs KLT|ULT (user level threads)]]** ma:
 >- KLT sono usati principalmente del sistema operativo
 >- ULT possono essere scritti da qualsiasi utente, poi solitamente vengono convertiti in KLT (esempio se si usa la libreria `pthreads`)
 

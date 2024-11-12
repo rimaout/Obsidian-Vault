@@ -6,7 +6,7 @@ academic year: 2024/2025
 related: "[[Algebra Relazionale]]"
 completed: false
 created: 2024-10-15T18:30
-updated: 2024-10-17T18:25
+updated: 2024-11-09T18:03
 ---
 >[!abstract] Index
 >1. [[#Quantificatore Esistenziale]]
@@ -33,7 +33,7 @@ Quando si incontra una tuple che soddisfa le condizioni, questa viene inserita n
 >Un esempio di query che utilizza il quantificatore esistenziale è:
 >
 >$$
->\text{Query: Codici dei clienti che hanno effettuato \textcolor{red}{almeno} un ordine per più di 100 pezzi}
+>\text{Query: Codici dei clienti che hanno effettuato \textcolor{orange}{almeno} un ordine per più di 100 pezzi}
 >$$
 
 ---
@@ -54,7 +54,7 @@ $$
 >Un esempio di query che utilizza il quantificatore universale è:
 >
 >$$
->\text{Query: Codice dei clienti che hanno \textcolor{red}{sempre} ordinato più di 100 pezzi per un articolo}
+>\text{Query: Codice dei clienti che hanno \textcolor{orange}{sempre} ordinato più di 100 pezzi per un articolo}
 >$$
 
 >[!warning] Negazione dell'operatore universale

@@ -1,6 +1,6 @@
 ---
 created: 2024-09-23T16:18
-updated: 2024-10-29T15:31
+updated: 2024-11-11T16:42
 Main Moc: "[[Uni MOC]]"
 academic year: 2024/2025
 ---
@@ -11,8 +11,8 @@ academic year: 2024/2025
 - [[L8 Calcolo Probabilità]] (esercizi visti a lezione)
 - [[L9 Calcolo Probabilità]] (esercizi visti a lezione)
 - [[L10 Calcolo Probabilità]] (esercizi visti a lezione)
-- [[L12 Calcolo Probabilità]] (esercizi visti a lezione)
-
+- [[L13 Calcolo Probabilità]] (esercizi visti a lezione)
+- [[L11 Nov Calcolo Probabilità]]
 
 >[!note] Calcolo Combinatorio
 >- [[Principio fondamentale del calcolo combinatorio]] 🟢
@@ -29,5 +29,5 @@ academic year: 2024/2025
 >- [[Rapporto a Favore]] 🟢
 >- [[Indipendenza di Eventi]] 🟢 (fare esempio circuito)
 >- [[Monty Hall Problem]] 🟢
->  [[Variabili Aleatorie]]
+>- [[Variabili Aleatorie]]
 

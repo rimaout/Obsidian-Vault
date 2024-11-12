@@ -312,7 +312,7 @@
         }
       },
       "active": "268d71c4919a1026",
-      "mtime": "2024-10-27T11:17:17+01:00"
+      "mtime": "2024-11-11T20:01:31+01:00"
     },
     "Default": {
       "main": {
@@ -623,20 +623,320 @@
                 }
               },
               {
-                "id": "fc8531a7875a1f35",
+                "id": "5517b40f829c239d",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/L12 Calcolo Probabilità.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/L11 Nov Calcolo Probabilità.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "L12 Calcolo Probabilità"
+                  "title": "L11 Nov Calcolo Probabilità"
+                }
+              },
+              {
+                "id": "f1934b0624829f41",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Variabili Aleatorie.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Variabili Aleatorie"
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "ea17b4a25a7f38c6",
+        "type": "split",
+        "children": [
+          {
+            "id": "ed1111de2574fd88",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "ba7d0379bd9741ad",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
+              },
+              {
+                "id": "d4aca3edb3bdc908",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": true,
+                    "explainSearch": true,
+                    "collapseAll": true,
+                    "extraContext": true,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              },
+              {
+                "id": "7f34f9e8b8261cab",
+                "type": "leaf",
+                "state": {
+                  "type": "starred",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "Plugin no longer active"
+                }
+              },
+              {
+                "id": "8720924e16a6a7ab",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
                 }
               }
             ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 392.504789352417,
+        "collapsed": true
+      },
+      "right": {
+        "id": "1599d9a7234429ed",
+        "type": "split",
+        "children": [
+          {
+            "id": "b33702b1304e824a",
+            "type": "tabs",
+            "dimension": 35.19736842105263,
+            "children": [
+              {
+                "id": "73d6fce2365a09ef",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              },
+              {
+                "id": "734f0b87ccb39174",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Calcolo delle Probabilità (class).md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": false
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks for Calcolo delle Probabilità (class)"
+                }
+              },
+              {
+                "id": "1899c835ee03ed03",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Calcolo delle Probabilità (class).md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links from Calcolo delle Probabilità (class)"
+                }
+              },
+              {
+                "id": "c9dd3a742136f31e",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "All properties"
+                }
+              },
+              {
+                "id": "b5486e50ab568cef",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/8 Nov Calcolo Probabilità.md"
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of 8 Nov Calcolo Probabilità"
+                }
+              },
+              {
+                "id": "2be710a38fb52417",
+                "type": "leaf",
+                "state": {
+                  "type": "git-view",
+                  "state": {},
+                  "icon": "git-pull-request",
+                  "title": "Source Control"
+                }
+              }
+            ],
+            "currentTab": 4
+          },
+          {
+            "id": "0ee4f1dd2040ea54",
+            "type": "tabs",
+            "dimension": 64.80263157894737,
+            "children": [
+              {
+                "id": "08bb0d9d4b18b672",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "To-Do/To-Do.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "To-Do"
+                }
+              },
+              {
+                "id": "6217f74dd2639932",
+                "type": "leaf",
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/8 Nov Calcolo Probabilità.md",
+                    "options": {
+                      "collapse-filter": true,
+                      "search": "",
+                      "localJumps": 1,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": false,
+                      "showTags": false,
+                      "showAttachments": false,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": true,
+                      "colorGroups": [],
+                      "collapse-display": true,
+                      "showArrow": false,
+                      "textFadeMultiplier": 0,
+                      "nodeSizeMultiplier": 1,
+                      "lineSizeMultiplier": 1,
+                      "collapse-forces": true,
+                      "centerStrength": 0.518713248970312,
+                      "repelStrength": 10,
+                      "linkStrength": 1,
+                      "linkDistance": 250,
+                      "scale": 0.0078125,
+                      "close": true
+                    }
+                  },
+                  "icon": "lucide-git-fork",
+                  "title": "Graph of 8 Nov Calcolo Probabilità"
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "horizontal",
+        "width": 473.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "obisidian-note-linker:Note Linker": false,
+          "obsidian-git:Open Git source control": false,
+          "omnisearch:Omnisearch": false,
+          "switcher:Open quick switcher": false,
+          "graph:Open graph view": false,
+          "canvas:Create new canvas": false,
+          "templates:Insert template": false,
+          "command-palette:Open command palette": false,
+          "audio-recorder:Start/stop recording": false,
+          "workspaces:Manage workspace layouts": false,
+          "markdown-importer:Open format converter": false
+        }
+      },
+      "active": "5517b40f829c239d",
+      "mtime": "2024-11-12T10:58:40+01:00"
+    },
+    "Metodi Matematici": {
+      "main": {
+        "id": "c0e3ba1eaba3cf97",
+        "type": "split",
+        "children": [
+          {
+            "id": "cc7c3ca3645abfc4",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "f132b4b7894834f2",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Metodi matematici per l'informatica (class).md",
+                    "mode": "preview",
+                    "source": false
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "Metodi matematici per l'informatica (class)"
+                }
+              },
+              {
+                "id": "5db400d6684c8c75",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Proprietà Relazioni.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Proprietà Relazioni"
+                }
+              }
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -733,7 +1033,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Calcolo delle Probabilità (class).md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Proprietà Relazioni.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -743,7 +1043,7 @@
                     "unlinkedCollapsed": false
                   },
                   "icon": "links-coming-in",
-                  "title": "Backlinks for Calcolo delle Probabilità (class)"
+                  "title": "Backlinks for Proprietà Relazioni"
                 }
               },
               {
@@ -752,12 +1052,12 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Calcolo delle Probabilità (class).md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Proprietà Relazioni.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   },
                   "icon": "links-going-out",
-                  "title": "Outgoing links from Calcolo delle Probabilità (class)"
+                  "title": "Outgoing links from Proprietà Relazioni"
                 }
               },
               {
@@ -780,24 +1080,14 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Calcolo delle Probabilità (class).md"
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Proprietà Relazioni.md"
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of Calcolo delle Probabilità (class)"
-                }
-              },
-              {
-                "id": "2be710a38fb52417",
-                "type": "leaf",
-                "state": {
-                  "type": "git-view",
-                  "state": {},
-                  "icon": "git-pull-request",
-                  "title": "Source Control"
+                  "title": "Outline of Proprietà Relazioni"
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 1
           },
           {
             "id": "0ee4f1dd2040ea54",
@@ -824,7 +1114,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Rapporto a Favore.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Proprietà Relazioni.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -852,7 +1142,7 @@
                     }
                   },
                   "icon": "lucide-git-fork",
-                  "title": "Graph of Rapporto a Favore"
+                  "title": "Graph of Proprietà Relazioni"
                 }
               }
             ]
@@ -877,256 +1167,8 @@
           "markdown-importer:Open format converter": false
         }
       },
-      "active": "e6699577acf971c4",
-      "mtime": "2024-10-26T17:57:46+02:00"
-    },
-    "Metodi Matematici": {
-      "main": {
-        "id": "c0e3ba1eaba3cf97",
-        "type": "split",
-        "children": [
-          {
-            "id": "cc7c3ca3645abfc4",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "f132b4b7894834f2",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Metodi matematici per l'informatica (class).md",
-                    "mode": "preview",
-                    "source": false
-                  },
-                  "pinned": true
-                }
-              },
-              {
-                "id": "5db400d6684c8c75",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Proprietà Relazioni.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ],
-            "currentTab": 1
-          }
-        ],
-        "direction": "vertical"
-      },
-      "left": {
-        "id": "ea17b4a25a7f38c6",
-        "type": "split",
-        "children": [
-          {
-            "id": "ed1111de2574fd88",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "ba7d0379bd9741ad",
-                "type": "leaf",
-                "state": {
-                  "type": "file-explorer",
-                  "state": {
-                    "sortOrder": "alphabetical"
-                  }
-                }
-              },
-              {
-                "id": "d4aca3edb3bdc908",
-                "type": "leaf",
-                "state": {
-                  "type": "search",
-                  "state": {
-                    "query": "",
-                    "matchingCase": true,
-                    "explainSearch": true,
-                    "collapseAll": true,
-                    "extraContext": true,
-                    "sortOrder": "alphabetical"
-                  }
-                }
-              },
-              {
-                "id": "7f34f9e8b8261cab",
-                "type": "leaf",
-                "state": {
-                  "type": "starred",
-                  "state": {}
-                }
-              },
-              {
-                "id": "8720924e16a6a7ab",
-                "type": "leaf",
-                "state": {
-                  "type": "bookmarks",
-                  "state": {}
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 308.504789352417,
-        "collapsed": true
-      },
-      "right": {
-        "id": "1599d9a7234429ed",
-        "type": "split",
-        "children": [
-          {
-            "id": "b33702b1304e824a",
-            "type": "tabs",
-            "dimension": 35.19736842105263,
-            "children": [
-              {
-                "id": "73d6fce2365a09ef",
-                "type": "leaf",
-                "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "useHierarchy": true
-                  }
-                }
-              },
-              {
-                "id": "734f0b87ccb39174",
-                "type": "leaf",
-                "state": {
-                  "type": "backlink",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Proprietà Relazioni.md",
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": false
-                  }
-                }
-              },
-              {
-                "id": "1899c835ee03ed03",
-                "type": "leaf",
-                "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Proprietà Relazioni.md",
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": true
-                  }
-                }
-              },
-              {
-                "id": "c9dd3a742136f31e",
-                "type": "leaf",
-                "state": {
-                  "type": "all-properties",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "showSearch": false,
-                    "searchQuery": ""
-                  }
-                }
-              },
-              {
-                "id": "b5486e50ab568cef",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Proprietà Relazioni.md"
-                  }
-                }
-              }
-            ],
-            "currentTab": 1
-          },
-          {
-            "id": "0ee4f1dd2040ea54",
-            "type": "tabs",
-            "dimension": 64.80263157894737,
-            "children": [
-              {
-                "id": "08bb0d9d4b18b672",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "To-Do/To-Do.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              },
-              {
-                "id": "6217f74dd2639932",
-                "type": "leaf",
-                "state": {
-                  "type": "localgraph",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Proprietà Relazioni.md",
-                    "options": {
-                      "collapse-filter": true,
-                      "search": "",
-                      "localJumps": 1,
-                      "localBacklinks": true,
-                      "localForelinks": true,
-                      "localInterlinks": false,
-                      "showTags": false,
-                      "showAttachments": false,
-                      "hideUnresolved": false,
-                      "collapse-color-groups": true,
-                      "colorGroups": [],
-                      "collapse-display": true,
-                      "showArrow": false,
-                      "textFadeMultiplier": 0,
-                      "nodeSizeMultiplier": 1,
-                      "lineSizeMultiplier": 1,
-                      "collapse-forces": true,
-                      "centerStrength": 0.518713248970312,
-                      "repelStrength": 10,
-                      "linkStrength": 1,
-                      "linkDistance": 250,
-                      "scale": 1,
-                      "close": true
-                    }
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 350.5,
-        "collapsed": true
-      },
-      "left-ribbon": {
-        "hiddenItems": {
-          "obsidian-git:Open Git source control": false,
-          "omnisearch:Omnisearch": false,
-          "obsidian-excalidraw-plugin:Create new drawing": false,
-          "switcher:Open quick switcher": false,
-          "graph:Open graph view": false,
-          "canvas:Create new canvas": false,
-          "templates:Insert template": false,
-          "command-palette:Open command palette": false,
-          "audio-recorder:Start/stop recording": false,
-          "workspaces:Manage workspace layouts": false,
-          "markdown-importer:Open format converter": false
-        }
-      },
       "active": "5db400d6684c8c75",
-      "mtime": "2024-10-02T15:30:00+02:00"
+      "mtime": "2024-11-12T10:52:17+01:00"
     },
     "Algebra": {
       "main": {
@@ -1372,7 +1414,7 @@
             "type": "tabs",
             "children": [
               {
-                "id": "a8ee3df6748f4353",
+                "id": "d7d198aaabf471d9",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
@@ -1388,7 +1430,21 @@
                 }
               },
               {
-                "id": "b08f5be555f82261",
+                "id": "3cd80247d5efbb3d",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Calcolare chiusura di un insiemi di dipendenze funzionali (Armstrong).md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Calcolare chiusura di un insiemi di dipendenze funzionali (Armstrong)"
+                }
+              },
+              {
+                "id": "86c1e770206222fe",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -1402,7 +1458,7 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -1634,8 +1690,8 @@
           "markdown-importer:Open format converter": false
         }
       },
-      "active": "b08f5be555f82261",
-      "mtime": "2024-10-25T12:04:19+02:00"
+      "active": "86c1e770206222fe",
+      "mtime": "2024-11-11T11:51:48+01:00"
     },
     "Sistemi Operativi": {
       "main": {
@@ -1643,11 +1699,11 @@
         "type": "split",
         "children": [
           {
-            "id": "2a5cae831ab82e26",
+            "id": "6cd9850831fd6a14",
             "type": "tabs",
             "children": [
               {
-                "id": "a0ea078b6afb5d4d",
+                "id": "75593a0534a625ab",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
@@ -1663,35 +1719,20 @@
                 }
               },
               {
-                "id": "260dc69f0cb5b90b",
+                "id": "a3cb6af06e216c36",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Algoritmi di Scheduling.md",
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Scheduling in Linux.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "Algoritmi di Scheduling"
-                }
-              },
-              {
-                "id": "ee94b032bbe0214d",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Funzioni Composte.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Funzioni Composte"
+                  "title": "Scheduling in Linux"
                 }
               }
-            ],
-            "currentTab": 2
+            ]
           }
         ],
         "direction": "vertical"
@@ -1923,8 +1964,8 @@
           "obisidian-note-linker:Note Linker": false
         }
       },
-      "active": "ee94b032bbe0214d",
-      "mtime": "2024-10-29T15:30:32+01:00"
+      "active": "75593a0534a625ab",
+      "mtime": "2024-11-12T12:27:35+01:00"
     }
   },
   "active": "Probabilità"

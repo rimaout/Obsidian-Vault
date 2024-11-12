@@ -6,7 +6,7 @@ class:
 related:
   - "[[Funzioni]]"
 completed: true
-updated: 2024-09-26T18:27
+updated: 2024-11-04T22:57
 ---
 
 >[!abstract] Index
@@ -36,7 +36,6 @@ Funzione che associa a elementi distinti del [[Funzioni#Dominio e Co-dominio|Dom
 >![[IMG_D5D514234762-1 2.jpeg|600]]
 
 ---
-
 ## Funzione Surriettiva
 
 Una funzione *f* è surriettiva se per ogni elemento *b* del  [[Funzioni#Dominio e Co-dominio|Co-dominio]] esiste almeno un elemento *a* del [[Funzioni#Dominio e Co-dominio|Dominio]] tale per cui *b* è l'[[Funzioni#Immagine|Immagine]] di a mediante *f*,

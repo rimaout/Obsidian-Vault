@@ -7,7 +7,7 @@ academic year: 2023/2024
 related:
   - "[[Teoria degli insiemi]]"
 completed: true
-updated: 2024-05-27T13:29
+updated: 2024-11-04T22:40
 ---
 ---
 ## Indice
@@ -16,6 +16,7 @@ updated: 2024-05-27T13:29
 
 ---
 ## Definizione
+
 Per partizione di un insieme si intende la divisione dell'insieme in diversi **sottoinsiemi non vuoti** e **disgiunti tra loro**, la cui *somma coincide con l'insieme di partenza*.
 
 **oss:** Una partizione di un insieme *A* è un insieme di insiemi che contengono tutti gli elementi di A ma senza ripetizioni

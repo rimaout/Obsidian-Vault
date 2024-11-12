@@ -2,7 +2,7 @@
 Main Moc: "[[Uni MOC]]"
 related: 
 created: 2024-09-24T15:33
-updated: 2024-10-28T16:51
+updated: 2024-11-12T12:08
 academic year: 2024/2025
 ---
 **Sito Corso:** Class Room
@@ -16,8 +16,16 @@ academic year: 2024/2025
 >- [[Gestione dell' Input Output]]
 >- [[Cache]]
 >- [[Introduzione Sistema Operativo]]
->- [[Processi]]
+
+>[!note] Processi & Theads
+>- [[Processi]] 🟢
 >- [[Processi in UNIX]] 🟢
->- [[Thread]] 🟢
+>- [[Threads]] 🟢
 >- [[Processi e Thread in Linux]] 🟢
->- [[Scheduling]] - [[Algoritmi di Scheduling]]
+
+>[!note] Sheduling
+>- [[Scheduling (Introduzione)]] 🟢
+>- [[Algoritmi di Scheduling]] 🟢
+>- [[Scheduling in UNIX]] 🟢
+>- [[Scheduling in Architetture Multiprocessore]] 🟢
+>- [[Scheduling in Linux]] 🟢

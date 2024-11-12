@@ -25,6 +25,6 @@
     "excalidraw-open-md": "checkbox",
     "discontinued": "date",
     "completed": "checkbox",
-    "related": "text"
+    "related": "multitext"
   }
 }
