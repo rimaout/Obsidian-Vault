@@ -6,11 +6,11 @@ academic year: 2024/2025
 related: "[[Progettazione basi di dati - Problemi e Vincoli]]"
 completed: true
 created: 2024-10-24T18:09
-updated: 2024-11-09T21:30
+updated: 2024-11-13T10:03
 ---
 >[!abstract] Related
 >- [[Progettazione basi di dati - Problemi e Vincoli]]
->- [[Calcolare chiusura di un insiemi di dipendenze funzionali (Armstrong)]]
+>- [[Calcolare chiusura di un insiemi di dipendenze funzionali]]
 >- [[Basi di Dati 1 (class)]]
 
 ---
@@ -82,7 +82,7 @@ In altre parole la chiusura di un insieme di dipendenze funzionali è l'insieme 
 >F^{+} = \{ A \to BC,\ A \to B,\ A \to C \}
 >$$
 
->**Vedi:** [[Calcolare chiusura di un insiemi di dipendenze funzionali (Armstrong)]]
+>**Vedi:** [[Calcolare chiusura di un insiemi di dipendenze funzionali]]
 
 ---
 ## Chiave

@@ -5,7 +5,7 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2024-11-06T15:21
-updated: 2024-11-08T20:13
+updated: 2024-11-13T16:13
 ---
 >[!abstract] Related
 >- 
@@ -55,6 +55,8 @@ Siano $F$ e $G$ due insiemi di dipendenze funzionali. Se $F \subseteq G^{+}$ all
 >
 >Sempre il teorema che dimostra $F^{+} = F^{A}$, $f$  in $F^{+}$ è derivabile dalle dipendenze in $F$ mediante gli assiomi di Armstrong
 
+Questo lemma insieme al teorema $F^{+} = F^{A}$ ci permette di calcolare $F^{+}$ semplicemente ...vjkjasvdjl
+
 ## ### Definizione FORMALE di uno schema relazionale
 
 Sia $R$ uno schema di relazione, $F$ un insieme di dipendenze funzionali su $R$ e $\rho  = \{ R_{1}, R_{2}, \dots, R_{k} \}$ una decomposizione di $R$-
@@ -66,5 +68,19 @@ $$
 \pi_{Ri} (F) = \{ X \to Y: X \to  Y \in F^{+} \wedge XY \subseteq R_{i} \}
 $$
 
+ovvero $F$ è l'unione di tutte le ...kszjhvskjhd
+
 ## Algoritmo
+
+
+![[Recording 20241113155032.webm]]
+
+Spiegazione passo passo del algoritmo:
+
+![[Recording 20241113160006.webm]]
+
+
+**Dimostrazione:**
+
+![[Recording 20241113161258.webm]]
 

@@ -6,9 +6,8 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2024-10-29T15:31
-updated: 2024-11-12T15:19
+updated: 2024-11-15T09:27
 ---
-
 >[!abstract] Related
 >- 
 
@@ -814,14 +813,273 @@ Questa approssimazione è nota come "**legge dei piccoli numeri**" e si basa sul
 ---
 ## Variabile Geometrica
 
+Una variabile aleatoria geometrica è una variabile aleatoria che rappresenta il numero di prove necessarie per ottenere il primo successo in una sequenza di prove indipendenti, ognuna delle quali ha una probabilità di successo costante.
+
+>[!note] Notazione
+>Indichiamo una v.a. geometrica $X$ di parametro $p$ con:
+>
+>$$
+>X = \text{Geom}(p)
+>$$
+>
+>Dove $p$ indica la probabilità di successo in ogni prova.
+
+>[!danger] Probabilità
+>
+>La probabilità di ottenere il primo successo alla $k$-esima prova è data dalla formula:
+>
+>$$
+>P(X=k) = (1-p)^{k-1} \cdot p
+>$$
+>
+>>**oss:** $P(k = \infty ) = 0\ \ \to\ \  \text{probabilità che non ci sia mai un successo}$ 
+
+>[!danger] Valore Atteso
+>$$
+>E[X] = \frac{1}{p}
+>$$
+
+>[!danger] Varianza
+>$$
+>\text{Var}(X) = \frac{1-p}{p^{2}}
+>$$
+
+>[!example]- Esempio 1
+>
+>Supponiamo di avere una moneta truccata che ha una probabilità di testa del 20% ($p = 0,2$). Sia $X$ la variabile aleatoria che rappresenta il numero di lanci necessari per ottenere la prima testa.
+>
+>Determinare:
+>1. Probabilità di ottenere la prima testa al primo lancio
+>2. Probabilità di ottenere la prima testa al secondo lancio
+>3. Probabilità di ottenere la prima testa al terzo lancio
+>4. Valore atteso di $X$
+>5. Varianza di $X$
+>
+>**1. Probabilità di ottenere la prima testa al primo lancio:**
+>
+>$$
+>P(X=1) = (1-p)^{1-1} \cdot p = p = 0,2
+>$$
+>
+>**2. Probabilità di ottenere la prima testa al secondo lancio:**
+>
+>$$
+>P(X=2) = (1-p)^{2-1} \cdot p = (1-p) \cdot p = 0,16
+>$$
+>
+>**3. Probabilità di ottenere la prima testa al terzo lancio:**
+>
+>$$
+>P(X=3) = (1-p)^{3-1} \cdot p = (1-p)^2 \cdot p = 0,128
+>$$
+>
+>**4. Valore atteso di $X$:**
+>
+>$$
+>E[X] = \frac{1}{p} = \frac{1}{0,2} = 5
+>$$
+>
+>**5. Varianza di $X$:**
+>
+>$$
+>\text{Var}(X) = \frac{1-p}{p^2} = \frac{1-0,2}{0,2^2} = 20
+>$$
+
+>[!example]- Esempio 2
+>Lanciamo un dado fino a quando esce il numero 6.
+>
+>**Calcolare il valore atteso del numero di lanci effettuati:**
+>- $X = \text{Lanci effettuati fino al primo 6} = Geom(p)$
+>- $p = P(\text{esce 6}) = \frac{1}{6}$
+>
+>$$
+>E[X] = \frac{1}{\frac{1}{p}} = \frac{1}{\frac{1}{6}} = 6
+>$$
+>
+>**Calcolare la probabilità di aver effettuato almeno 7 lanci:**
+>
+>$$
+>P(X=7) = (p)^{k-1} = \left( \frac{5}{6} \right)^{6}
+>$$
 
 ---
-## Binomiale negativa 
+## Binomiale Negativa 
 
+La variabile aleatoria binomiale negativa rappresenta il numero di prove necessarie per ottenere un certo numero di successi, dove ogni prova ha una probabilità costante di successo, e l'ultima prova deve essere un successo.
 
->[!example] Esempio
+>[!note] Notazione
+>Indichiamo una v.a. binomiale negativa $X$ di parametri $r,p$ con:
+>$$
+>X = \text{Bin}^{-}(r,p)
+>$$
 >
->***Aggiungi esempio partite basket (ipad)***
+>Dove:
+>- $r$ è il numero di successi desiderati
+>- $p$ è la probabilità di successo in ogni prova
+
+>[!danger] Calcolo Probabilità
+>La probabilità di ottenere $k$ prove per ottenere $r$ successi dove l'ultima prova è sicuramente un successo è data dalla formula:
+>
+>$$
+>P(X=k) = \binom{k-1}{r-1} \cdot p^r \cdot (1-p)^{k-r}
+>$$
+
+>[!danger] Calcolo Valore Atteso
+>$$
+>E[X] = \frac{r}{p}
+>$$
+
+>[!danger] Varianza
+>$$
+>\text{Var}(X) = \frac{r(1-p)}{p^2}
+>$$
+
+>[!example]- Esempio 1
+>In questo gioco s estrae una pallina da urna di 40 paline di cui una è dorata, se si estrae quest'ultima si vince un peluche.  Vogliamo giocare finché non vinciamo 2 peluche.
+>
+>Calcolare il valore atteso della spesa sapendo che ogni estrazione di un pallina costa 1.5 euro.
+>
+>**Definiamo:**
+>- $X = \text{Numero di volte che giochiamo}$
+>- $Y = \text{Spesa effettuata} = 1.5 \cdot X$
+>- $p = P(\text{Estrarre pallina dorata}) = \frac{1}{40}$
+>
+>Possiamo vedere $X$ come una variabile binomiale negativa infatti continuiamo a estrarre palline con probabilità $1/40$ fino a quando non otteniamo due successi, quindi:
+>
+>$$
+>X = \text{Bin}^{-}\left( p = \frac{1}{40}, r=2 \right)
+>$$
+>
+>**Valore atteso delle estrazione effettuate:**
+>$$
+>E[X] = \frac{r}{p} = \frac{2}{\frac{1}{40}} = 80
+>$$
+>
+>**Valore atteso della spesa effettuata:**
+>$$
+>E[y] = E[X] \cdot  1.5 = 80 \cdot  1.5 = 120
+>$$
+
+>[!example]- Esempio 2 (utile)
+>
+>Due squadre di basket si sfidano ad una parità dove la prima ad arrivare a 4 match vinti allora vince la sfida.
+>
+>Sapendo che la squadra più forte ha una probabilità di $0.6$ di vincere ogni singola match, calcolare la probabilità che questa squadra vinca la sfida in esattamente $i$ incontri dove $i \in \{ 4,5,6,7 \}$.
+>
+>**Definiamo:**
+>- $X = \#\text{match giocati}$
+>
+>$X$ non è altro che una v.a. binomiale negativa, infatti può essere vista come il numero di match giocati fino a quando la squadra più forte ottiene 4 vittorie con probabilità $0.6$, quindi:
+>
+>$$
+>X= \text{Bin}^{-}(p=0.6 , r=4)
+>$$
+>
+>Ora calcoliamo che la partita finisca in 4,5,6,7 match:
+>
+>$$
+>\begin{align*}
+>P(X = 4) &= \binom{4-1}{4-1} \cdot 0.6^{4} \cdot  (1-0.6)^{4-4}\\
+>& \ \ |\\
+>&= \binom{3}{3} \cdot 0.6^{4} \cdot (1-0.6)^{0} = 1 \cdot 0.6^{4} \cdot 1 = 0.1296\\ \\
+>
+>P(X = 5) &= \binom{5-1}{4-1} \cdot 0.6^{4} \cdot (1-0.6)^{5-4}\\
+>& \ \ |\\
+>&= \binom{4}{3} \cdot 0.6^{4} \cdot (1-0.6)^{1} = 4 \cdot 0.6^{4} \cdot 0.4 = 0.20736\\ \\
+>
+>P(X = 6) &= \binom{6-1}{4-1} \cdot 0.6^{4} \cdot (1-0.6)^{6-4}\\
+>& \ \ |\\
+>&= \binom{5}{3} \cdot 0.6^{4} \cdot (1-0.6)^{2} = 10 \cdot 0.6^{4} \cdot 0.4^{2} = 0.20736\\ \\
+>
+>P(X = 7) &= \binom{7-1}{4-1} \cdot 0.6^{4} \cdot (1-0.6)^{7-4}\\
+>& \ \ |\\
+>&= \binom{6}{3} \cdot 0.6^{4} \cdot (1-0.6)^{3} = 20 \cdot 0.6^{4} \cdot 0.4^{3} = 0.16588
+>
+>\end{align*}
+>$$
+
+---
+## Variabile Aleatoria Ipergeometrica
 
 
+Una variabile aleatoria ipergeometrica è una variabile aleatoria che rappresenta il numero di successi in una sequenza di prove senza sostituzione, dove ogni prova ha una probabilità di successo costante.
 
+>[!note] Notazione
+>Indichiamo una v.a. ipergeometrica $X$ di parametri $N, K, n$ con:
+>$$
+>X = \text{Hyp}(N, K, n)
+>$$
+>
+>Dove:
+>- $N$ è il numero totale di oggetti
+>- $K$ è il numero di oggetti "successo"
+>- $n$ è il numero di prove
+
+>[!danger] Calcolo Probabilità
+>La probabilità di ottenere $k$ successi in $n$ prove è data dalla formula:
+>
+>$$
+>P(X=k) = \frac{\binom{K}{k} \cdot \binom{N-K}{n-k}}{\binom{N}{n}}
+>$$
+
+>[!danger] Calcolo Valore Atteso
+>$$
+>E[X] = \frac{nK}{N}
+>$$
+
+>[!danger] Varianza
+>$$
+>\text{Var}(X) = \frac{nK(N-K)(N-n)}{N^2(N-1)}
+>$$
+
+>[!example]- Esempio 1
+>Supponiamo di avere un'urna con 10 palline, di cui 4 sono rosse e 6 sono bianche. Estraiamo 3 palline senza sostituzione. Sia $X$ la variabile aleatoria che rappresenta il numero di palline rosse estratte.
+>
+>$$
+>X = Hyp(N = 10, K = 4, n = 3)
+>$$
+>
+>
+>Determinare:
+>1. Probabilità di ottenere 0 palline rosse
+>2. Probabilità di ottenere 1 pallina rossa
+>3. Probabilità di ottenere 2 palline rosse
+>4. Probabilità di ottenere 3 palline rosse
+>5. Valore atteso di $X$
+>6. Varianza di $X$
+>
+>**1. Probabilità di ottenere 0 palline rosse:**
+>
+>$$
+>P(X=0) = \frac{\binom{4}{0} \cdot \binom{6}{3}}{\binom{10}{3}} = \frac{1 \cdot 20}{120} = \frac{1}{6}
+>$$
+>
+>**2. Probabilità di ottenere 1 pallina rossa:**
+>
+>$$
+>P(X=1) = \frac{\binom{4}{1} \cdot \binom{6}{2}}{\binom{10}{3}} = \frac{4 \cdot 15}{120} = \frac{1}{2}
+>$$
+>
+>**3. Probabilità di ottenere 2 palline rosse:**
+>
+>$$
+>P(X=2) = \frac{\binom{4}{2} \cdot \binom{6}{1}}{\binom{10}{3}} = \frac{6 \cdot 6}{120} = \frac{1}{2}
+>$$
+>
+>**4. Probabilità di ottenere 3 palline rosse:**
+>
+>$$
+>P(X=3) = \frac{\binom{4}{3} \cdot \binom{6}{0}}{\binom{10}{3}} = \frac{4 \cdot 1}{120} = \frac{1}{30}
+>$$
+>
+>**5. Valore atteso di $X$:**
+>
+>$$
+>E[X] = \frac{3 \cdot 4}{10} = \frac{6}{5}
+>$$
+>
+>**6. Varianza di $X$:**
+>
+>$$
+>\text{Var}(X) = \frac{3 \cdot 4 \cdot 6 \cdot 7}{10^2 \cdot 9} = \frac{14}{25}
+>$$

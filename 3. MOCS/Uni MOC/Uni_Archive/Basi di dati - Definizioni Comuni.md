@@ -1,19 +1,17 @@
 ---
 type: Uni Note
-class: 
+class:
+  - "[[Basi di Dati 1 (class)]]"
 academic year: 2024/2025
-related: 
-completed: false
+related:
+  - "[[Dipendenze Funzionali]]"
+completed: true
 created: 2024-10-24T18:06
-updated: 2024-10-24T18:31
+updated: 2024-11-13T14:34
 ---
->[!abstract] Index
->1. [[#Schema di relazione]]
->2. [[#Tupla]]
->3. [[#Istanza di Relazione]]
-
 >[!abstract] Related
->- 
+>- [[Dipendenze Funzionali]]
+>- [[Basi di Dati 1 (class)]]
 
 ---
 
