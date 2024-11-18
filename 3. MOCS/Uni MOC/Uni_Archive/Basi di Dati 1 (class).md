@@ -3,7 +3,7 @@ Main Moc:
 related: 
 completed: 
 created: 2024-09-25T15:37
-updated: 2024-11-14T14:21
+updated: 2024-11-16T17:24
 ---
 **Sito Corso:** [link](https://sites.google.com/di.uniroma1.it/basididati-modulo1canalem-z?usp=sharing)
 
@@ -26,7 +26,10 @@ updated: 2024-11-14T14:21
 >- [[Basi di dati - Definizioni Comuni]] 🟢
 >- [[Dipendenze Funzionali]] 🟢
 >- [[Calcolare chiusura di un insiemi di dipendenze funzionali]] 🟡 (finire dimostrazione $F^{A} = F^{+}$)
->- [[Terza Forma Normale (3NF)]]
+>- [[Terza Forma Normale (3NF)]] 🟡 (finire dimostrazione)
+>- [[Decomposizione di uno schema relazionale]] 🟢
+>- [[Forma Normale di Boyce-Codd (BCNF)]] 🟢
+>- [[Chiusura di un Insieme di Attributi]]
 
 per esame:
 - negli esercizi dove ci dice di trovare le chiavi prima di fare l'esercizio spiegare come trovarla

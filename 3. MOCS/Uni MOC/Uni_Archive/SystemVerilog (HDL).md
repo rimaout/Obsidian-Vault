@@ -7,7 +7,7 @@ academic year: 2023/2024
 related:
   - "[[HDL (hardware description language)]]"
 completed: true
-updated: 2024-06-25T12:57
+updated: 2024-11-15T11:14
 ---
 
 >[!abstract] Related
@@ -35,7 +35,7 @@ updated: 2024-06-25T12:57
 - **Simulazione:**  si forniscono gli input e controllando gli output si osserva se il modulo si comporta correttamente 
 - **Sintesi:** La descrizione del modulo viene tradotta in un circuito
 
->[!warning] Oss:
+>[!warning] oss
 > *HDL* = hardware description language 
 
 ---
@@ -45,7 +45,7 @@ Esistono due "stili" per descrivere un modulo:
 - *Comportamentale:* descrive cosa fa un modulo (utilizzando espressioni booleane e controlli condizionali)
 - *Strutturale:* descrive com il circuito interno di un modulo, suddividendolo in moduli più piccoli.
 
->[!warning] Oss: 
+>[!warning] oss 
 >Noi descriveremo i moduli in modo *comportamentale* 
 
 ---
@@ -96,7 +96,7 @@ logic [0:3] c, d; // c e d sono bus a 4 canali
 
 ```
 
->[!warning] Oss:
+>[!warning] oss
 >Sostituendo `logic` con `logic input` o `logic output` si definiscono rispettivamente gli input e gli output logici
 
 ---
@@ -524,5 +524,3 @@ ff0(m0,clk, reset, o0)
 
 endmodule
 ```
-
----

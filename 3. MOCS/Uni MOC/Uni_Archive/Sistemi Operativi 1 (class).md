@@ -2,12 +2,12 @@
 Main Moc: "[[Uni MOC]]"
 related: 
 created: 2024-09-24T15:33
-updated: 2024-11-12T12:08
+updated: 2024-11-17T16:58
 academic year: 2024/2025
 ---
-**Sito Corso:** Class Room
 
-**Da archiviare:
+
+**Da archiviare:**
 - [[L1 Sistemi Operativi 1]]
 - [[L4 Sistemi Operativi]]
 
@@ -29,3 +29,9 @@ academic year: 2024/2025
 >- [[Scheduling in UNIX]] 🟢
 >- [[Scheduling in Architetture Multiprocessore]] 🟢
 >- [[Scheduling in Linux]] 🟢
+
+>[!note] Gestione della Memoria
+>- [[Gestione della Memoria (introduzione)]]
+>- [[Partizionamento]]
+>- [[Paginazione]]
+>- [[Segmentazione]]

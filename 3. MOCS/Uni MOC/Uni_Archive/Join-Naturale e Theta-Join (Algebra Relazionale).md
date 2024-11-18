@@ -7,12 +7,8 @@ related:
   - "[[Algebra Relazionale]]"
 completed: false
 created: 2024-10-09T16:48
-updated: 2024-10-17T17:37
+updated: 2024-11-16T12:20
 ---
->[!abstract] Index
->1. [[#Join Naturale]]
->2. [[#Theta Join]]
-
 >[!abstract] Related
 >- [[Operatori (Algebra Relazionale)]]
 >- [[Algebra Relazionale]]

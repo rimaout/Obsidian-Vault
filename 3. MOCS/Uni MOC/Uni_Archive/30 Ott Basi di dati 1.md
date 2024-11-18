@@ -5,59 +5,10 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2024-10-30T15:30
-updated: 2024-10-31T15:20
+updated: 2024-11-16T16:36
 ---
->[!abstract] Index
->1. 
-
->[!abstract] Related
->- 
-
->[!danger] TLDR
 
 ---
-Se dopo il processo di individualizzazione abbiamo prodotto uno schema non in 3FN, dobbiam procedere a una fase di **decomposizione**.
-Uno schema non in 3FN può essere decomposto in più modi.
-R = ABC con l'insime delle dipendenza funzionali f = {A to B to C} non è in terza forma normale
-
-R può essere decomposto in:
-
-•R1=AB con {A to B} 
-•R2=BC con {B to C}
-
-•Oppure
-	•R1=AB con {A to B} e
-	•R2=AC con {A to C}
-	
-Entrambi gli schemi sono in 3NF, tuttavia la seconda soluzione non è soddisfacente.
-
-
-Consideriamo gli schemi dele istanza appena ottenute
-![[Pasted image 20241030153946.png|300]]
-
-•L’istanza dello schema originario R che posso ricostruire da questa (l’unico modo è di ricostruirla facendo un join naturale!) è la seguente
-
-![[Pasted image 20241030154054.png]]
-
-•MA non è un’istanza legale di R, in quanto non soddisfa la dipendenza funzionale B to C (che sarà pure transitiva ma va soddisfatta comunque!)
-
-**Occorre preservare TUTTE le dipendenze in F+**
-
-
-sljaljòhljflò
-
----
-## Forma Normale di Boyce-Cood
-
-La 3NF non è la più restrittiva che si può ottenere. Ne esistono altre, tra cui la forma normale di Boyce-Codd.
-
->[!note] Definition
-> Una relazione è in forma normale di Boyce-Codd (BCNF, Boyce-Codd Normal Form) quando in essa ogni determinante è una superchiave (ricordiamo che una chiave è anche superchiave).
->
->Una relazione che rispetta la forma normale di Boyce-Codd è anche in terza forma
-normale, ma non è vero l’opposto.
-
->[!example] Esempio Ospedale
 
 ---
 ## Come calcolare $X^{+}$

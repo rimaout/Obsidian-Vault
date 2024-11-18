@@ -4,65 +4,51 @@
     "type": "split",
     "children": [
       {
-        "id": "1d3df57368887a29",
+        "id": "57dedee1556c1c9e",
         "type": "tabs",
         "children": [
           {
-            "id": "0c1ae05208e37818",
+            "id": "e6699577acf971c4",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Basi di Dati 1 (class).md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Calcolo delle Probabilità (class).md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "Basi di Dati 1 (class)"
+              "title": "Calcolo delle Probabilità (class)"
             }
           },
           {
-            "id": "0b379fff72d2ada3",
+            "id": "a34561dd9fd624c2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/14 Nov Basi di dati 1.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Variabili Aleatorie.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "14 Nov Basi di dati 1"
+              "title": "Variabili Aleatorie"
             }
           },
           {
-            "id": "177cb6da56147de5",
+            "id": "97578b91538f7413",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/6 Nov Basi di dati 1.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/15 Nov Calcolo Probabilità.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6 Nov Basi di dati 1"
-            }
-          },
-          {
-            "id": "ff5d566e63f12f70",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Terza Forma Normale (3NF).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Terza Forma Normale (3NF)"
+              "title": "15 Nov Calcolo Probabilità"
             }
           }
         ],
@@ -132,7 +118,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 308.504789352417,
+    "width": 392.504789352417,
     "collapsed": true
   },
   "right": {
@@ -142,7 +128,7 @@
       {
         "id": "b33702b1304e824a",
         "type": "tabs",
-        "dimension": 42.06642066420663,
+        "dimension": 35.19736842105263,
         "children": [
           {
             "id": "73d6fce2365a09ef",
@@ -163,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Valore assoluto.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Calcolo delle Probabilità (class).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +159,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Valore assoluto"
+              "title": "Backlinks for Calcolo delle Probabilità (class)"
             }
           },
           {
@@ -182,12 +168,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Valore assoluto.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Calcolo delle Probabilità (class).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Valore assoluto"
+              "title": "Outgoing links from Calcolo delle Probabilità (class)"
             }
           },
           {
@@ -210,10 +196,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Valore assoluto.md"
+                "file": "3. MOCS/Uni MOC/Uni_Archive/8 Nov Calcolo Probabilità.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Valore assoluto"
+              "title": "Outline of 8 Nov Calcolo Probabilità"
+            }
+          },
+          {
+            "id": "2be710a38fb52417",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -222,7 +218,7 @@
       {
         "id": "0ee4f1dd2040ea54",
         "type": "tabs",
-        "dimension": 57.93357933579337,
+        "dimension": 64.80263157894737,
         "children": [
           {
             "id": "08bb0d9d4b18b672",
@@ -244,7 +240,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Valore assoluto.md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/8 Nov Calcolo Probabilità.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -267,12 +263,12 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 1.4401488037773973,
+                  "scale": 0.0078125,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Valore assoluto"
+              "title": "Graph of 8 Nov Calcolo Probabilità"
             }
           }
         ],
@@ -280,7 +276,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 323.5,
+    "width": 473.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -298,47 +294,48 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "0b379fff72d2ada3",
+  "active": "a34561dd9fd624c2",
   "lastOpenFiles": [
+    "3. MOCS/Uni MOC/Uni_Archive/15 Nov Calcolo Probabilità.md",
     "3. MOCS/Uni MOC/Uni_Archive/Variabili Aleatorie.md",
-    "3. MOCS/Uni MOC/Uni_Archive/L11 Nov Calcolo Probabilità.md",
     "3. MOCS/Uni MOC/Uni_Archive/Calcolo delle Probabilità (class).md",
-    "3. MOCS/Uni MOC/Uni_Archive/14 Nov Basi di dati 1.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Recording 20241114151345.webm",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241114144523.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Basi di Dati 1 (class).md",
-    "3. MOCS/Uni MOC/Uni_Archive/Terza Forma Normale (3NF).md",
-    "3. MOCS/Uni MOC/Uni_Archive/6 Nov Basi di dati 1.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Trucchi MVC.md",
+    "3. MOCS/Uni MOC/Uni_Archive/L13 Calcolo Probabilità.md",
+    "3. MOCS/Uni MOC/Uni_Archive/L11 Nov Calcolo Probabilità.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Disposizioni.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Permutazioni.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Combinazioni (Coefficiente Binomiale).md",
+    "3. MOCS/Uni MOC/Uni_Archive/L5 Calcolo Probabilità.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Spazzi di Probabilità con Esiti Equiparabili.md",
     "3. MOCS/Uni MOC/Uni_Archive/Sistemi Operativi 1 (class).md",
-    "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
-    "3. MOCS/Uni MOC/Uni_Archive/13 Nov Basi dati 1.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Paginazione.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Partizionamento.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Gestione della Memoria (introduzione).md",
+    "To-Do/Paginazione.md",
+    "Storage/Backend/Monthly Logs/Monthly Logs.md",
+    "Storage/Backend/Monthly Logs/⭐ November 2024 (Log).md",
+    "3. MOCS/Uni MOC/Uni_Archive/⭐ November 2024 (Log).md",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241117165736.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241117165721.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241117164556.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241117162030.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241117162028.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Processi in UNIX.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Processi e Thread in Linux.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241117124422.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241117114351.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241116231342.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Scheduling in Linux.md",
+    "To-Do/Scheduling.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Processi.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Chiusura di un Insieme di Attributi.md",
+    "3. MOCS/Uni MOC/Uni_Archive/30 Ott Basi di dati 1.md",
+    "3. MOCS/Uni MOC/Uni_Archive/14 Nov Basi di dati 1.md",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241030153946.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241030154054.png",
+    "3. MOCS/Uni MOC/Uni_Archive/Recording 20241114151345.webm",
     "3. MOCS/Uni MOC/Uni_Archive/Recording 20241113161258.webm",
     "3. MOCS/Uni MOC/Uni_Archive/Recording 20241113160006.webm",
     "3. MOCS/Uni MOC/Uni_Archive/Recording 20241113155032.webm",
-    "3. MOCS/Uni MOC/Uni_Archive/30 Ott Basi di dati 1.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Calcolare chiusura di un insiemi di dipendenze funzionali.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Dipendenze Funzionali.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Basi di dati - Definizioni Comuni.md",
-    "3. MOCS/Uni MOC/Uni_Archive/L8 Basi di dati 1.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241112190513.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Scheduling in Linux.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Algoritmi di Scheduling.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Scheduling in UNIX.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Proprietà Relazioni.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Scheduling (Introduzione).md",
-    "To-Do/Scheduling.md",
-    "3. MOCS/Uni MOC/Uni_Archive/8 Nov Calcolo Probabilità.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241108154302.png",
-    "3. MOCS/Uni MOC/Uni_Archive/4 Nov Calcolo Probabilità.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Perché le costanti additive non importano nella varianza?.md",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241108122416.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241108121634.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241111121106.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241109175709.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241108180524.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241108121051.png",
-    "3. MOCS/Uni MOC/Uni_Archive/Pasted image 20241107092942.png",
     "Storage/Backend/Monthly Logs",
     "3. MOCS/Uni MOC/Uni_Archive/Recording 20240926150358.webm",
     "Storage/Backend/Monthly Log",

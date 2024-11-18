@@ -6,7 +6,7 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2024-10-29T15:31
-updated: 2024-11-15T09:27
+updated: 2024-11-18T14:56
 ---
 >[!abstract] Related
 >- 
@@ -1001,7 +1001,6 @@ La variabile aleatoria binomiale negativa rappresenta il numero di prove necessa
 ---
 ## Variabile Aleatoria Ipergeometrica
 
-
 Una variabile aleatoria ipergeometrica è una variabile aleatoria che rappresenta il numero di successi in una sequenza di prove senza sostituzione, dove ogni prova ha una probabilità di successo costante.
 
 >[!note] Notazione
@@ -1083,3 +1082,161 @@ Una variabile aleatoria ipergeometrica è una variabile aleatoria che rappresent
 >$$
 >\text{Var}(X) = \frac{3 \cdot 4 \cdot 6 \cdot 7}{10^2 \cdot 9} = \frac{14}{25}
 >$$
+
+>[!example]- Esempio 2 ksdhazhkjhdj
+
+---
+## Variabile Aleatoria Congiunta
+
+Una variabile aleatoria congiunta è una variabile aleatoria che rappresenta il comportamento di due o più variabili aleatorie correlate.
+
+>[!note] Notazione
+>
+>Siano $X$ e $Y$ due variabili aleatorie definite su uno stesso spazio campionario. Indichiamo con  $(X, Y)$ la variabile aleatoria congiunta ovvero una funzione che associa ad ogni punto dello spazio campionario un valore della coppia $X,Y$.
+
+>[!danger] Densità di probabilità discreta congiunta
+>Date due v.a $X$ e $Y$ definite sullo stesso spazio campionario ($X: S \to \mathbb{R}$ e $Y: S \to \mathbb{R}$) ed entrambe discrete dove:
+>- $X$ ha valori in $\{ x_{i} \}_{i \in I}$ 
+>- $Y$ ha valori in $\{ y _{j}\}_{j \in J}$
+>
+>La densità di probabilità discreta disgiunta $P_{X,Y}$ è la funzione:
+>
+>$$
+>P_{X \times Y}: \{ x_{i} \}_{i \in I} \times \{ y_{j} \}_{j \in J} \to  [0,1]
+>$$
+>
+>Data da $P_{X, Y} (x_{i}, y_{j} )=P(X= x_{i}, Y = y_{j})$
+>
+>>[!example]- Esempio 1
+>>Supponiamo di lanciare un dado 2 volte, chiamiamo 
+>>- $X := \# \text{Lanci in cui ho faccia pari}$
+>>- $Y := \# \text{Lanci in cui esce multiplo di 3}$. 
+>>  
+>>Possiamo osservare che:
+>>- $X$ assume i valori $\{ 0,1,2 \}$
+>>- $Y$ assume i valori $\{ 0,1,2 \}$
+>>  
+>>**Come calcoliamo $P_{X,Y}​$?**
+>>
+>>Dobbiamo riempire questa tabella che copre tutti i casi possibili:
+>>
+>>| X/Y | 0        | 1        | 2      |
+>>| --- | -------- | -------- | -------- |
+>>| 0   | $P_{X,Y}(0,0)$ | $P_{X,Y}(0,1)$ | $P_{X,Y}(0,2)$ |
+>>| 1   | $P_{X,Y}(1,0)$ | $P_{X,Y}(1,1)$ | $P_{X,Y}(1,2)$ |
+>>| 2   | $P_{X,Y}(2,0)$ | $P_{X,Y}(2,1)$ |  $P_{X,Y}(2,2)$ |
+>>
+>>* $P_{X,Y}(0,0) = P((1,5),\ (5,1),\ (1,1),\ (5,5)) = \frac{4}{36}$
+>>* $P_{X,Y}(0,1) = P((1,3),\ (5,3),\ (1,6),\ (5,6),\ (3,1),\ (6,1),\ (3,5),\ (6,5)) = \frac{8}{36}$
+>>* $P_{X,Y}(0,2) = P() = \frac{0}{36}$
+>>* $P_{X,Y}(1,0) = P((2,1),\ (2,5),\ (4,1),\ (4,5),\ (6,1),\ (6,5),\ (1,2),\ (5,2),\ (1,4),\ (5,4)) = \frac{10}{36}$
+>>* $P_{X,Y}(1,1) = P((2,3),\ (2,6),\ (4,3),\ (4,6),\ (6,3),\ (6,6),\ (3,2),\ (6,2),\ (3,4),\ (6,4)) = \frac{10}{36}$
+>>* $P_{X,Y}(1,2) = P() = \frac{0}{36}$
+>>* $P_{X,Y}(2,0) = P((2,2),\ (2,4),\ (4,2),\ (4,4),\ (6,2),\ (6,4),\ (2,6),\ (4,6)) = \frac{8}{36}$
+>>* $P_{X,Y}(2,1) = P((2,6),\ (6,2),\ (4,6),\ (6,4)) = \frac{4}{36}$
+>>* $P_{X,Y}(2,2) = P() = \frac{0}{36}$
+>>  
+>>| X/Y | 0               | 1               | 2              |
+>>| --- | --------------- | --------------- | -------------- |
+>>| 0   | $\frac{4}{36}$  | $\frac{8}{36}$  | $\frac{0}{36}$ |
+>>| 1   | $\frac{10}{36}$ | $\frac{10}{36}$ | $\frac{0}{36}$ |
+>>| 2   | $\frac{8}{36}$  | $\frac{4}{36}$  | $\frac{0}{36}$ |
+>>
+>>**Metodo alternativo:** fare la tabella con i possibili valori dello spazio campionario, in questo caso un 6x6 e poi inserire in ogni casella la coppia di valori $(x,y)$, poi contiamo quante caselle per ogni coppia di valori.
+>>
+>>
+>>|  | 1 | 2 | 3 | 4 | 5 | 6 |
+>>| --- | --- | --- | --- | --- | --- | --- |
+>>| 1 | (0,0) | (1,0) | (0,1) | (1,0) | (0,0) | (1,1) |
+>>| 2 | (1,0) | (2,0) | (1,1) | (2,0) | (1,0) | (2,1) |
+>>| 3 | (0,1) | (1,1) | (0,2) | (1,1) | (0,1) | (1,2) |
+>>| 4 | (1,0) | (2,0) | (1,1) | (2,0) | (1,0) | (2,1) |
+>>| 5 | (0,0) | (1,0) | (0,1) | (1,0) | (0,0) | (1,1) |
+>>| 6 | (1,1) | (2,1) | (1,2) | (2,1) | (1,1) | (2,2) |
+>>Ora, contiamo quante caselle per ogni coppia di valori:
+>>* $(0,0)$: 4 caselle
+>>* (0,1): 4 caselle
+>>* (0,2): 0 caselle
+>>* (1,0): 6 caselle
+>>* (1,1): 6 caselle
+>>* (1,2): 0 caselle
+>>* (2,0): 4 caselle
+>>* (2,1): 4 caselle
+>>* (2,2): 0 caselle
+>>
+>>Quindi, la tabella della densità di probabilità discreta disgiunta $P_{X,Y}$ è:
+>>  
+>>| X/Y | 0              | 1              | 2              |
+>>| --- | -------------- | -------------- | -------------- |
+>>| 0   | $\frac{4}{36}$ | $\frac{4}{36}$ | $\frac{0}{36}$ |
+>>| 1   | $\frac{6}{36}$ | $\frac{6}{36}$ | $\frac{0}{36}$ |
+>>| 2   | $\frac{4}{36}$ | $\frac{4}{36}$ | $\frac{0}{36}$ |
+>>
+>>>***Attenzione:*** Ci sono sicuramente degli errori perché la tabella non sono uguali ma in generale il ragionamento è giusto
+>
+>>[!example] Esempio 2 (fai esempio un solo dado)
+>
+>>[!example] Esempio 3 (quello delle carte dato per casa per il 18 nov)
+>>asjdkfkjlsbkjbakj
+
+>[!warning] Proprietà
+>Siano 
+>- $X$ e $Y$ v.a. discrete definite su lo spazio campionario $S$, 
+>- $\{x_{i}\}_{i} \in I$​ l’insieme dei possibili valori di $X$
+>- $\{y_{j}​\}_{j} \in J$​ l’insieme dei possibili valori di $Y$.
+>
+>Allora:
+>1. $P_{X,Y}(x_{i}, y_{i}) i [0,1]$
+>2. $\sum_{i\in I}\sum_{j \in J} P_{X,Y}(x_{i}, y_{j}) = 1$
+>3. $p_{X}​(x_{i}​) = \sum_{j\in J} P_{X,Y}​(x_{i}​,y_{j}​)$
+>4. $P_{Y}​(y_{j}​) = \sum_{i \in I} P_{X,Y}​(x_{i}​,y_{j}​)$
+>   
+>>[!example]- Esempio
+>>Ho due v.a. $X$ e $Y$ su $S$, dove:  
+>>- $X$ assume valori $−2,0,5$
+>>- $Y$ assume valori $4,9$
+>>  
+>>Inoltre $P_{X,Y}$​ è data da:
+>>
+>>| X/Y | 4 | 9 |
+>>| --- | --- | --- |
+>>| $-2$ | $\frac{1}{10}$ | $\frac{2}{10}$ |
+>>| $0$  | $\frac{0}{10}$ | $\frac{1}{10}$ |
+>>| $5$  | $\frac{3}{10}$ | $\frac{3}{10}$ |
+>>
+>>**Determinare pX​ e pY​.**
+>>
+>>Ricordiamo la formula:
+>>
+>>$$
+>>P_{X}(x_{i})=\sum_{j}P_{X,Y}(x_{i},y_{j})
+>>$$
+>>
+>>Quindi calcolando $P_{X}$
+>>
+>>$$
+>>P_{X}(-2) = P_{X,Y}(-2,4)+P_{X,Y}(-2,9) = \frac{1}{10}+\frac{2}{10}=\frac{3}{10}
+>>$$
+>>
+>>$$
+>>P_{X}(0) = \frac{0}{10}+\frac{1}{10} = \frac{1}{10}
+>>$$
+>>
+>>$$
+>>P_{X}(-2,9) = \frac{1}{10}+\frac{2}{10} = \frac{3}{10}
+>>$$
+>>
+>>$$
+>>P_{X}(5) = \frac{3}{10}+\frac{3}{10} = \frac{6}{10}
+>>$$
+>>
+>>Mentre per la $P_{Y}$:
+>>
+>>$$
+>>P_{Y}(4) = P_{XY}(-2,4)+P_{XY}(0,4)+P_{XY}(5,4) = \frac{1}{10}+\frac{0}{10}+\frac{3}{10}=\frac{4}{10}
+>>$$
+>>
+>>$$
+>>P_{Y}(9) = \frac{2}{10}+\frac{1}{10}+\frac{3}{10} = \frac{6}{10}
+>>$$
+

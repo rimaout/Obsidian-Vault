@@ -6,7 +6,7 @@ academic year: 2024/2025
 related: "[[Progettazione basi di dati - Problemi e Vincoli]]"
 completed: true
 created: 2024-10-24T18:09
-updated: 2024-11-13T10:03
+updated: 2024-11-16T17:05
 ---
 >[!abstract] Related
 >- [[Progettazione basi di dati - Problemi e Vincoli]]
@@ -29,6 +29,8 @@ Dato uno schema di relazione $R$, una dipendenza funzionale su $R$ è una cop
 >Dove:
 >- $X$ = **Determinante**
 >- $Y$ = **Dipendente**
+
+^74530a
 
 ---
 ## Soddisfare una Dipendenza Funzionale
@@ -101,6 +103,8 @@ Dove:
 >Quindi una chiava i cui sottoinsiemi sono a loro volta chiavi è detta super chiave.
 >
 >>**oss:** Una chiave è sempre super chiave, dato che contiene se stessa, ma una super chiave non è detto che sia sempre chiave, ma ne contiene sempre una.
+
+^12345
 
 >[!warning] Chiave Primaria (SQL)
 >
