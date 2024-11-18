@@ -13,7 +13,7 @@
       "folder": {
         "enabled": true,
         "folders": [
-          "3. MOCS/Uni MOC/Uni_Archive"
+          "3. MOCS/Uni MOC/archive"
         ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
@@ -43,7 +43,7 @@
       "folder": {
         "enabled": true,
         "folders": [
-          "3. MOCS/Programming MOC/Pro_Archive"
+          "3. MOCS/Programming MOC/archive"
         ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
