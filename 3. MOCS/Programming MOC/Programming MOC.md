@@ -1,6 +1,6 @@
 ---
 created: 2023-10-02T08:38
-updated: 2024-09-28T11:26
+updated: 2024-11-18T20:21
 ---
 >**Programming  Languages:**
 >- [[Python MOC|Python]]
@@ -11,7 +11,7 @@ updated: 2024-09-28T11:26
 
 **Algorithms:**
 - [[Binary search]]<--
-- [[Bubble sort]]
+- [[Bubble Sort]]
 - [[Marge Sort]] <--
 
 **Ide/Terminal:**
