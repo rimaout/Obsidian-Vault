@@ -3,15 +3,13 @@ Main Moc:
 related: 
 completed: 
 created: 2024-09-25T15:37
-updated: 2024-11-16T17:24
+updated: 2024-11-19T11:29
 ---
-**Sito Corso:** [link](https://sites.google.com/di.uniroma1.it/basididati-modulo1canalem-z?usp=sharing)
-
 **Lezioni:**
 - [[L1 Basi di dati 1]]
 - [[L2 Basi di dati 1]]
 - [[30 Ott Basi di dati 1]]
-- [[6 Nov Basi di dati 1]]
+- [[6 Nov Bai di dati 1]]
 - [[14 Nov Basi di dati 1]]
 
 >[!note] Introduzione

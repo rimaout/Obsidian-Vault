@@ -7,7 +7,7 @@ academic year: 2023/2024
 related:
   - "[[Limiti Notevoli]]"
 completed: false
-updated: 2024-06-29T13:21
+updated: 2024-11-18T22:43
 ---
 >[!abstract] Related
 >- [[Limiti]]
@@ -30,6 +30,3 @@ updated: 2024-06-29T13:21
 >   0 &\text{se } \textcolor{orange}{x}<e
 >\end{cases}
 >$$
-
->[!example] Esempio
->🏗️ -- To-Do -- 🏗️
