@@ -3,13 +3,13 @@ Main Moc:
 related: 
 completed: 
 created: 2024-09-25T15:37
-updated: 2024-11-19T11:29
+updated: 2024-11-20T11:42
 ---
 **Lezioni:**
 - [[L1 Basi di dati 1]]
 - [[L2 Basi di dati 1]]
 - [[30 Ott Basi di dati 1]]
-- [[6 Nov Bai di dati 1]]
+- [[6 Nov Basi di dati 1]]
 - [[14 Nov Basi di dati 1]]
 
 >[!note] Introduzione
@@ -25,9 +25,16 @@ updated: 2024-11-19T11:29
 >- [[Dipendenze Funzionali]] 🟢
 >- [[Calcolare chiusura di un insiemi di dipendenze funzionali]] 🟡 (finire dimostrazione $F^{A} = F^{+}$)
 >- [[Terza Forma Normale (3NF)]] 🟡 (finire dimostrazione)
->- [[Decomposizione di uno schema relazionale]] 🟢
 >- [[Forma Normale di Boyce-Codd (BCNF)]] 🟢
->- [[Chiusura di un Insieme di Attributi]]
+>- [[Chiusura di un Insieme di Attributi]] 🟡 (fai dim e aggiungi esempi)
+>- [[Identificare le Chiavi di uno Schema]]
+
+>[!note] Decomposizioni
+>- [[Introduzione - Decomposizione di uno Schema Relazionale]]
+>- [[Lemma 2 - Basi di Dati 1]]
+>- [[Decomposizione di uno schema relazionale]]
+>- [[Decomposizione che Preserva le Dipendenze Funzionali]]
+>- [[Decomposizione con Join senza Perdita]]
 
 per esame:
 - negli esercizi dove ci dice di trovare le chiavi prima di fare l'esercizio spiegare come trovarla

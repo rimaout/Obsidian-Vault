@@ -4,26 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "1d3df57368887a29",
+        "id": "57dedee1556c1c9e",
         "type": "tabs",
         "children": [
           {
-            "id": "9b5ee948960d4911",
+            "id": "e2f46c373ab04f18",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Basi di Dati 1 (class).md",
+                "file": "3. MOCS/Uni MOC/archive/Calcolo delle Probabilità (class).md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "Basi di Dati 1 (class)"
+              "title": "Calcolo delle Probabilità (class)"
+            }
+          },
+          {
+            "id": "7518c5f1dda40658",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. MOCS/Uni MOC/archive/20 Nov Calcolo Prob.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "20 Nov Calcolo Prob"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,11 +100,13 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 308.504789352417
+    "width": 392.504789352417,
+    "collapsed": true
   },
   "right": {
     "id": "1599d9a7234429ed",
@@ -98,7 +115,7 @@
       {
         "id": "b33702b1304e824a",
         "type": "tabs",
-        "dimension": 42.06642066420663,
+        "dimension": 35.19736842105263,
         "children": [
           {
             "id": "73d6fce2365a09ef",
@@ -119,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Basi di Dati 1 (class).md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Calcolo delle Probabilità (class).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +146,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Basi di Dati 1 (class)"
+              "title": "Backlinks for Calcolo delle Probabilità (class)"
             }
           },
           {
@@ -138,12 +155,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Basi di Dati 1 (class).md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Calcolo delle Probabilità (class).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Basi di Dati 1 (class)"
+              "title": "Outgoing links from Calcolo delle Probabilità (class)"
             }
           },
           {
@@ -166,19 +183,29 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Chiusura di un Insieme di Attributi.md"
+                "file": "3. MOCS/Uni MOC/Uni_Archive/8 Nov Calcolo Probabilità.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Chiusura di un Insieme di Attributi"
+              "title": "Outline of 8 Nov Calcolo Probabilità"
+            }
+          },
+          {
+            "id": "2be710a38fb52417",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       },
       {
         "id": "0ee4f1dd2040ea54",
         "type": "tabs",
-        "dimension": 57.93357933579337,
+        "dimension": 64.80263157894737,
         "children": [
           {
             "id": "08bb0d9d4b18b672",
@@ -200,7 +227,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Basi di Dati 1 (class).md",
+                "file": "3. MOCS/Uni MOC/Uni_Archive/8 Nov Calcolo Probabilità.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -223,12 +250,12 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.844410989828754,
+                  "scale": 0.0078125,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Basi di Dati 1 (class)"
+              "title": "Graph of 8 Nov Calcolo Probabilità"
             }
           }
         ],
@@ -236,7 +263,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 323.5
+    "width": 473.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -253,54 +281,54 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "9b5ee948960d4911",
+  "active": "7518c5f1dda40658",
   "lastOpenFiles": [
-    "3. MOCS/Uni MOC/archive/Architettura dei calcolatori (class).md",
+    "3. MOCS/Uni MOC/archive/Calcolo delle Probabilità (class).md",
+    "3. MOCS/Uni MOC/archive/20 Nov Calcolo Prob.md",
+    "3. MOCS/Uni MOC/archive/Formula di Stirling.md",
     "3. MOCS/Uni MOC/archive/Basi di Dati 1 (class).md",
-    "3. MOCS/Programming MOC/archive/MIPS Assembly MOC.md",
-    "3. MOCS/Uni MOC/archive/Architettura MIPS.md",
-    "3. MOCS/Programming MOC/archive/MIPS Syscalls.md",
-    "3. MOCS/Uni MOC/archive/Fasi di Esecuzione di un Istruzione MIPS (senza Pipeline).md",
-    "3. MOCS/Programming MOC/archive/MIPS Arithmetic Instructions.md",
-    "3. MOCS/Programming MOC/archive/MIPS Directives.md",
-    "3. MOCS/Uni MOC/archive/Architetture CISC e RISC.md",
-    "3. MOCS/Uni MOC/archive/Arch 05 Mar.md",
-    "3. MOCS/Uni MOC/attachments/Pasted image 20240305134628.png",
-    "3. MOCS/Uni MOC/attachments/Pasted image 20240305121228.png",
-    "3. MOCS/Uni MOC/archive/Arch 08 Mar.md",
-    "3. MOCS/Uni MOC/archive/Arch 12 Mar.md",
-    "3. MOCS/Uni MOC/attachments/Pasted image 20240312122241.png",
-    "3. MOCS/Uni MOC/archive/Arch 15 Mar.md",
-    "3. MOCS/Uni MOC/archive/Arch 19 Mar.md",
-    "3. MOCS/Uni MOC/archive/Arch 12 Apr.md",
-    "3. MOCS/Uni MOC/Uni MOC.md",
+    "3. MOCS/Uni MOC/archive/Decomposizione di uno schema relazionale.md",
+    "3. MOCS/Uni MOC/archive/Introduzione - Decomposizione di uno Schema Relazionale.md",
+    "To-Do/Introduzione - Decomposizione di uno Schema Relazionale.md",
+    "3. MOCS/Uni MOC/archive/Decomposizione con Join senza Perdita.md",
+    "3. MOCS/Uni MOC/archive/Lemma 2 - Basi di Dati 1.md",
     "3. MOCS/Personal MOC/private notes/6 Nov Basi di dati 1.md",
+    "3. MOCS/Personal MOC/private notes/14 Nov Basi di dati 1.md",
+    "3. MOCS/Uni MOC/archive/30 Ott Basi di dati 1.md",
+    "Storage/Backend/Monthly Logs/⭐ November 2024 (Log).md",
+    "3. MOCS/Uni MOC/archive/Identificare le Chiavi di uno Schema.md",
+    "To-Do/^0aed0f.md",
+    "3. MOCS/Programming MOC/archive/Python Escaping Sequences.md",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20241119182549.png",
+    "3. MOCS/Uni MOC/archive/Forma Normale di Boyce-Codd (BCNF).md",
+    "3. MOCS/Uni MOC/archive/Chiusura di un Insieme di Attributi.md",
+    "3. MOCS/Uni MOC/archive/Dipendenze Funzionali.md",
+    "3. MOCS/Uni MOC/archive/Basi di dati - Definizioni Comuni.md",
+    "3. MOCS/Uni MOC/attachments/12he3uh8.png",
+    "3. MOCS/Programming MOC/Programming MOC.md",
+    "3. MOCS/Programming MOC/attachments/Pasted image 20240229123207.png",
+    "3. MOCS/Tech MOC/Tech MOC.md",
+    "3. MOCS/Tech MOC/attachments/icon.png",
+    "3. MOCS/Tech MOC/attachments/og-image.png",
+    "3. MOCS/Uni MOC/Uni MOC.md",
+    "3. MOCS/Uni MOC/archive/ori.md",
+    "3. MOCS/Uni MOC/attachments/signal-2024-05-01-122654_002.png",
+    "3. MOCS/Uni MOC/attachments/signal-2024-05-01-182815_002.png",
+    "3. MOCS/Uni MOC/attachments/signal-2024-05-01-122756.png",
+    "3. MOCS/Uni MOC/attachments/Pasted image 20240501114121.png",
+    "3. MOCS/Uni MOC/attachments/MIPS_Instruction_Set.pdf",
+    "3. MOCS/Uni MOC/attachments/1721y32yuh327y.png",
+    "3. MOCS/Uni MOC/archive/attachments",
+    "3. MOCS/Uni MOC/archive/Architettura dei calcolatori (class).md",
+    "3. MOCS/Programming MOC/archive/MIPS Assembly MOC.md",
     "3. MOCS/Personal MOC/private notes/Recording 20241113161258.webm",
     "3. MOCS/Personal MOC/private notes/Recording 20241113160006.webm",
     "3. MOCS/Personal MOC/private notes/Recording 20241113155032.webm",
-    "3. MOCS/Personal MOC/private notes/14 Nov Basi di dati 1.md",
     "3. MOCS/Personal MOC/private notes/Recording 20241114151345.webm",
-    "3. MOCS/Uni MOC/archive/L2 Basi di dati 1.md",
-    "3. MOCS/Uni MOC/archive/30 Ott Basi di dati 1.md",
-    "3. MOCS/Personal MOC/Personal MOC.md",
     "3. MOCS/Personal MOC/private notes",
-    "3. MOCS/Personal MOC/private notes.md",
-    "3. MOCS/Uni MOC/archive/Formula di Stirling.md",
-    "3. MOCS/Uni MOC/archive/Calcolo delle Probabilità (class).md",
-    "3. MOCS/Programming MOC/archive/Jekyll.md",
-    "3. MOCS/Programming MOC/Programming MOC.md",
-    "3. MOCS/Uni MOC/attachments/bubble_bobble_apple.png",
-    "3. MOCS/Uni MOC/attachments/bubble_bobble_grape.png",
-    "3. MOCS/Uni MOC/attachments/bubble_bobble_cherry.png",
-    "3. MOCS/Uni MOC/attachments/bubble_bobble_banana.png",
-    "3. MOCS/Uni MOC/archive/1721y32yuh327y.png",
     "3. MOCS/Uni MOC/attachments/Appunti generali trigonometria.pdf",
-    "3. MOCS/Uni MOC/attachments/IMG_2094.jpg",
-    "3. MOCS/Uni MOC/attachments/IMG_A64DF460974D-1.jpeg",
     "Storage/Backend/Monthly Logs",
     "3. MOCS/Uni MOC/Uni_Archive/Recording 20240926150358.webm",
-    "Storage/Backend/Monthly Log",
-    "Storage/Backend/Monthly Logs",
     "Buy List/Skin Care Buy List.canvas",
     "Buy List/Clothing Buy List.canvas",
     "Storage/Untitled.canvas",
