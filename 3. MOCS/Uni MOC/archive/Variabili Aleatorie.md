@@ -6,7 +6,7 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2024-10-29T15:31
-updated: 2024-11-18T17:58
+updated: 2024-11-25T15:18
 ---
 >[!abstract] Related
 >- 
@@ -1175,6 +1175,7 @@ Una variabile aleatoria congiunta è una variabile aleatoria che rappresenta il 
 >>>***Attenzione:*** Ci sono sicuramente degli errori perché la tabella non sono uguali ma in generale il ragionamento è giusto
 >
 >>[!example] Esempio 2 (fai esempio un solo dado)
+>>kjkjlhkjlhkj
 >
 >>[!example] Esempio 3 (quello delle carte dato per casa per il 18 nov)
 >>asjdkfkjlsbkjbakj
@@ -1235,7 +1236,99 @@ Una variabile aleatoria congiunta è una variabile aleatoria che rappresenta il 
 >>P_{Y}(9) = \frac{2}{10}+\frac{1}{10}+\frac{3}{10} = \frac{6}{10}
 >>$$
 
+>[!danger] Valore Medio
+>Siano $X$ e $Y$ v.a. discrete e sia $f:\mathbb{R}^{2} \to R$, allora:
+>$$
+>E[f(X,Y)] = \sum_{i\in I} \sum_{j\in J} f(x_{i}, y_{j}) P_{X,Y} (x_{i}, y_{j})
+>$$
+>
+>Dove 
+>- $\{ X_{i} \}_{i \in I}$ è l'insieme dei possibili valori di $X$
+>- $\{ Y_{j} \}_{j \in J}$ è l'insieme dei possibili valori di $Y$
+>
+>>[!example]- Esempio
+>>
+>>Data $f:\mathbb{R}^{2}\to R$ definita come $f(a,b) = a^{2}b$ e le v.a $X,Y$  tali che:
+>>
+>>![[Pasted image 20241125150221.png|200]]
+>>
+>>Calcolare $E[X^{2}Y]$:
+>>
+>>![[Pasted image 20241125151035.png]]
+
 >[!warning] Proprietà
->- $P_{X,Y}(x_{i}, y_{i}) i [0,1]$
+>- $P_{X,Y}(x_{i}, y_{i}) \in [0,1]$
 >- $\sum_{i\in I}\sum_{j \in J} P_{X,Y}(x_{i}, y_{j}) = 1$
 
+## Proposizioni
+
+>[!warning] Prop
+>
+>$$
+>E[X_{1} + \dots+ x_{n}] = E[X_{1}] + \dots + E[X_{n}]
+>$$
+>
+>$$
+>E[a_{1}X_{1} + \dots+ a_{n}x_{n}] = a_{1}E[X_{1}] + \dots + a_{n}E[X_{n}]
+>$$
+>
+>più in generale dai $a_{1}, a_{2}, \dots , a_{n} \in \mathbb{R}$
+
+---
+## Densità Marginale
+
+In una v.a. discreta congiunta, le densità che la compongono vengono chiamata **marginali** e conoscendo la congiunta possiamo calcolare le marginali, ma non vale il contrario.
+
+>[!example] Esempio con Rimpiazzo
+>Abbiamo un’urna con 6 palline numerate da 1 a 6, estraiamo 2 palline con rimpiazzo e definiamo:
+>
+>$$
+>\begin{align*}
+>&X := \text{Numero della prima pallina}\\
+>&Y := \text{Numero della seconda pallina}
+>\end{align*}
+>$$
+>
+>Quindi $X$ assume valori in $\{ 1,2,3,4,5,6 \}$ e con $P_{X}(k)= \frac{1}{6}$ per ogni $k$ da 1 a 6 (stessa cosa per $Y$)
+>
+>La congiunta $(X,Y)$ assume valori $(a,b)$ con $a,b \in \{ 1,2,3,4,5,6 \}$
+>
+>$$
+>P_{X,Y}(X=a,Y=b) = \frac{1}{36}\ \ \ \ \forall (a,b) \in \{ 1,2,3,4,5,6 \}^{2}
+>$$
+
+>[!example] Esempio senza Rimpiazzo
+>Abbiamo un’urna con 6 palline numerate da 1 a 6, estraiamo 2 palline con rimpiazzo e definiamo:
+>
+>$$
+>\begin{align*}
+>&X := \text{Numero della prima pallina}\\
+>&Y := \text{Numero della seconda pallina}
+>\end{align*}
+>$$
+>
+>Quindi $X$ assume valori in $\{ 1,2,3,4,5,6 \}$ e con $P_{X}(k)= \frac{1}{6}$ per ogni $k$ da 1 a 6 (stessa cosa per $Y$)
+>
+>La congiunta $(X,Y)$ assume valori $(a,b)$ con $a,b \in \{ 1,2,3,4,5,6 \}$
+>
+>$$
+>P_{X,Y}(X=a,Y=b) = \begin{cases}
+\frac{1}{30} & \text{se } a,b \in \{ 1,\dots,6 \} \text{ e } a \not = b\\ \\
+>0 & \text{se }a,b \in \{ 1,\dots,6 \} \text{ e } a = b
+>\end{cases} 
+>$$
+
+>***oss:*** Notiamo quindi che nei due esperimenti le due marginali sono uguali ma la congiunta dipende dall’esperimento e quindi cambia.
+
+--- 
+
+**Lezione 22 Nov**
+
+Abbiamo $N$ palle di cui $m$ sono bianche
+
+Estraiamo un pallina alla volta e definiamo:
+$E_{i} = \text{"l'i-esima palinna estratta è bianca}$
+
+
+La probabilità di estrarre la prima pallina bianca è:
+- $P(E_{1}) = \frac{m}{N}$ 

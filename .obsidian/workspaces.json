@@ -603,33 +603,37 @@
         "type": "split",
         "children": [
           {
-            "id": "57dedee1556c1c9e",
+            "id": "647afcaa8eaf9d5c",
             "type": "tabs",
             "children": [
               {
-                "id": "e6699577acf971c4",
+                "id": "73e84f36ea956f6e",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
-                  "type": "empty",
-                  "state": {},
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/archive/Calcolo delle Probabilità (class).md",
+                    "mode": "source",
+                    "source": false
+                  },
                   "pinned": true,
                   "icon": "lucide-file",
-                  "title": "New tab"
+                  "title": "Calcolo delle Probabilità (class)"
                 }
               },
               {
-                "id": "9d39e808619fc2ac",
+                "id": "93e4f454da6cc0ef",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/archive/Formula di Stirling.md",
+                    "file": "3. MOCS/Uni MOC/archive/20 Nov Calcolo Prob.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "Formula di Stirling"
+                  "title": "20 Nov Calcolo Prob"
                 }
               }
             ],
@@ -876,8 +880,8 @@
           "markdown-importer:Open format converter": false
         }
       },
-      "active": "9d39e808619fc2ac",
-      "mtime": "2024-11-19T10:21:57+01:00"
+      "active": "93e4f454da6cc0ef",
+      "mtime": "2024-11-26T12:37:11+01:00"
     },
     "Metodi Matematici": {
       "main": {
@@ -1413,20 +1417,21 @@
                 }
               },
               {
-                "id": "24826258b7429d80",
+                "id": "1c6c0bbcec1d408b",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/archive/Decomposizione di uno schema relazionale.md",
+                    "file": "3. MOCS/Uni MOC/archive/Copertura Minimale.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "Decomposizione di uno schema relazionale"
+                  "title": "Copertura Minimale"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -1659,8 +1664,8 @@
           "markdown-importer:Open format converter": false
         }
       },
-      "active": "9b5ee948960d4911",
-      "mtime": "2024-11-20T14:18:23+01:00"
+      "active": "1c6c0bbcec1d408b",
+      "mtime": "2024-11-25T11:33:51+01:00"
     },
     "Sistemi Operativi": {
       "main": {
@@ -1672,13 +1677,13 @@
             "type": "tabs",
             "children": [
               {
-                "id": "75593a0534a625ab",
+                "id": "01abab4389c228fc",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Sistemi Operativi 1 (class).md",
+                    "file": "3. MOCS/Uni MOC/archive/Sistemi Operativi 1 (class).md",
                     "mode": "source",
                     "source": false
                   },
@@ -1753,7 +1758,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 227.50336456298828,
+        "width": 531.504789352417,
         "collapsed": true
       },
       "right": {
@@ -1803,12 +1808,12 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Sistemi Operativi 1 (class).md",
+                    "file": "3. MOCS/Uni MOC/archive/Memoria Virtuale.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   },
                   "icon": "links-going-out",
-                  "title": "Outgoing links from Sistemi Operativi 1 (class)"
+                  "title": "Outgoing links from Memoria Virtuale"
                 }
               },
               {
@@ -1865,7 +1870,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Sistemi Operativi 1 (class).md",
+                    "file": "3. MOCS/Uni MOC/archive/Memoria Virtuale.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -1893,7 +1898,7 @@
                     }
                   },
                   "icon": "lucide-git-fork",
-                  "title": "Graph of Sistemi Operativi 1 (class)"
+                  "title": "Graph of Memoria Virtuale"
                 }
               }
             ],
@@ -1919,9 +1924,9 @@
           "obisidian-note-linker:Note Linker": false
         }
       },
-      "active": "75593a0534a625ab",
-      "mtime": "2024-11-18T11:19:47+01:00"
+      "active": "01abab4389c228fc",
+      "mtime": "2024-11-25T09:34:37+01:00"
     }
   },
-  "active": "Probabilità"
+  "active": "Basi Dati"
 }

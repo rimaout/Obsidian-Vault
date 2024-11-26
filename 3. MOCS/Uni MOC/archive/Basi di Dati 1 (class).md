@@ -3,7 +3,7 @@ Main Moc:
 related: 
 completed: 
 created: 2024-09-25T15:37
-updated: 2024-11-20T11:42
+updated: 2024-11-25T09:41
 ---
 **Lezioni:**
 - [[L1 Basi di dati 1]]
@@ -34,7 +34,9 @@ updated: 2024-11-20T11:42
 >- [[Lemma 2 - Basi di Dati 1]]
 >- [[Decomposizione di uno schema relazionale]]
 >- [[Decomposizione che Preserva le Dipendenze Funzionali]]
->- [[Decomposizione con Join senza Perdita]]
+>- [[Decomposizione con Join senza Perdita (Verifica)]]
+>- [[Copertura Minimale]]
+>- [[Calcolo di una Decomposizione]]
 
 per esame:
 - negli esercizi dove ci dice di trovare le chiavi prima di fare l'esercizio spiegare come trovarla

@@ -5,7 +5,7 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2024-11-16T19:24
-updated: 2024-11-17T18:37
+updated: 2024-11-23T13:03
 ---
 >[!abstract] Related
 >- 
@@ -35,7 +35,7 @@ Per ottenere tutto questo si devono rispettare questi requisiti:
 
 Ci sono diversi metodi per la gestione della memoria:
 - [[Partizionamento]]
-- [[Paginazione]]
+- [[Paginazione e Segmentazione (semplice)]]
 - [[Segmentazione]]
 
 ---
@@ -78,7 +78,7 @@ La rilocazione è un aspetto cruciale nella gestione della memoria da parte del 
 >- Questa tecnica funziona soltanto se conosciamo esattamente dove posizionare il programma in memoria (e non può mai essere spostato), quindi non è utilizzata dai sistemi operativi moderni.
 >- Nell’immagine, questo è il caso `b`.
 >  
->>**oss:** in realtà nei sistemi operativi moderni si utilizza la [[Paginazione]] e non gli indirizzi relativi.
+>>**oss:** in realtà nei sistemi operativi moderni si utilizza la [[Paginazione e Segmentazione (semplice)]] e non gli indirizzi relativi.
 >
 >>[!warning] Conversione in indirizzi assoluti
 >>Per eseguire un codice c'è bisogni di "tradurre" gli indirizzi logici  o relativi in indirizzi assoluti abbiamo due metodi:
@@ -91,6 +91,8 @@ La rilocazione è un aspetto cruciale nella gestione della memoria da parte del 
 >>- Serve hardware dedicato 
 >>- Avviene in run-time
 >>
+
+^cc500d
 
 >[!note] Rilocazione a run-time
 >
