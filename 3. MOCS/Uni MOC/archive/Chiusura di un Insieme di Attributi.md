@@ -5,7 +5,7 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2024-11-16T17:24
-updated: 2024-11-19T11:53
+updated: 2024-11-27T10:34
 ---
 >[!abstract] Related
 >- 
@@ -22,7 +22,7 @@ In realtà ci basta sapere se una dipendenza funzionale $X \to Y$ appartiene ad 
 Inoltre il calcolo di $X^{+}$ può tornare utile per verificare che un insieme di attributi sia chiave di uno schema.
 
 ---
-## Calcolo Chiusura
+## Calcolo Chiusura (Algo)
 
 Il calcolo della chiusura di un insieme di attributi $X$ denotato come $X^{+}$ può essere fatto attraverso questo algoritmo.
 

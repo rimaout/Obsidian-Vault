@@ -3,7 +3,7 @@ Main Moc:
 related: 
 completed: 
 created: 2024-09-25T15:37
-updated: 2024-11-25T09:41
+updated: 2024-12-01T17:33
 ---
 **Lezioni:**
 - [[L1 Basi di dati 1]]
@@ -38,8 +38,27 @@ updated: 2024-11-25T09:41
 >- [[Copertura Minimale]]
 >- [[Calcolo di una Decomposizione]]
 
+>[!note] Organizzazione Fisica
+>1. [[Introduzione all'organizzazioni dei database|Introduzione]] 🟢
+>2. [[File Heap]] 
+>3. [[File Hash]]
+
+---
+
 per esame:
 - negli esercizi dove ci dice di trovare le chiavi prima di fare l'esercizio spiegare come trovarla
 - negli esercizi calcolo della decomposizione spiegare come si fa prima di fare l'esercizio
   
-  
+
+***Futura Divisione:***
+
+>[!note] Database & DBMS
+
+>[!note] Modello Relazionale
+
+>[!note] Algebra Relazionale
+
+>[!note] Teoria della Normalizzazione
+
+
+

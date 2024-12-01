@@ -1,11 +1,11 @@
 ---
 type: Uni Note
-class: 
+class: "[[Sistemi Operativi 1 (class)]]"
 academic year: 2024/2025
 related: 
 completed: false
 created: 2024-11-16T19:24
-updated: 2024-11-23T13:03
+updated: 2024-11-29T16:01
 ---
 >[!abstract] Related
 >- 
@@ -142,5 +142,3 @@ Questo compito non può essere lasciato al programmatore, poiché la memoria pot
 >Naturalmente, questo è un compito complesso che può essere gestito solo dal sistema operativo.
 
 ^0b705b
-
----

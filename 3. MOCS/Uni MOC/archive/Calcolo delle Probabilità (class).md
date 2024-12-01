@@ -1,6 +1,6 @@
 ---
 created: 2024-09-23T16:18
-updated: 2024-11-20T14:18
+updated: 2024-11-30T15:29
 Main Moc: "[[Uni MOC]]"
 academic year: 2024/2025
 ---
@@ -14,6 +14,7 @@ academic year: 2024/2025
 - [[L13 Calcolo Probabilità]] (esercizi visti a lezione)
 - [[18 Nov Calcolo Prob]]
 - [[20 Nov Calcolo Prob]]
+- [[27 Nov Calcolo Prob]]
 
 >[!note] Calcolo Combinatorio
 >- [[Principio fondamentale del calcolo combinatorio]] 🟢
@@ -30,5 +31,22 @@ academic year: 2024/2025
 >- [[Rapporto a Favore]] 🟢
 >- [[Indipendenza di Eventi]] 🟢 (fare esempio circuito)
 >- [[Monty Hall Problem]] 🟢
->- [[Variabili Aleatorie]]
 
+## Variabili Aleatorie
+**Marco Argomento:** [[Variabili Aleatorie]]
+
+- [[Introduzione - Variabili Aleatorie]]
+
+- [[Funzioni di Variabili Aleatorie]] 🟢
+- [[Variabile Aleatorie Congiunte]] 🟡
+- [[Variabili Aleatorie Indipendenti]] 
+
+>[!note] Tipi di variabili Aleatorie Discrete
+>- [[Variabile Aleatoria di Bernoulli]] 🟢
+>- [[Variabile Aleatoria di Binomiale]] 🟡 (fare dim)
+>- [[Variabile Aleatoria di Negativa]] 🟡 (fare dim)
+>- [[Variabile Aleatoria di Poisson]] 🟡 (fare dim)
+>- [[Variabile Aleatoria Geometrica]] 🟡 (fare dim)
+>- [[Variabile Aleatorie Ipergeometrica]] 🟢 (aggiungi più esempi)
+
+- [[Variabili Aleatorie Continue]] 

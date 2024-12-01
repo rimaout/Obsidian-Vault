@@ -3,13 +3,13 @@ type: Uni Note
 class:
   - "[[Calcolo delle Probabilità (class)]]"
 academic year: 2024/2025
-related: "[[Variabili Aleatorie#Varianza]]"
+related: "[[Introduzione - Variabili Aleatorie#Varianza]]"
 completed: true
 created: 2024-11-11T12:04
-updated: 2024-11-11T12:13
+updated: 2024-11-30T10:54
 ---
 >[!abstract] Related
->- [[Variabili Aleatorie#Varianza]]
+>- [[Introduzione - Variabili Aleatorie#Varianza]]
 >- [[Calcolo delle Probabilità (class)]]
 
 ---

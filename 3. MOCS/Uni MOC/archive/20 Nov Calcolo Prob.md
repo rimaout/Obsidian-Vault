@@ -5,8 +5,9 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2024-11-20T14:18
-updated: 2024-11-25T15:17
+updated: 2024-11-27T12:37
 ---
+
 >[!example] Lancio un dado 1000 volte calcolano senza usare formulari, $E[X]$ dati $X = \#\text{volte in cuiesce 5}$
 >
 >$X = \text{Bin}\left( n=1000,p=\frac{1}{6}  \right)$
