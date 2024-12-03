@@ -7,7 +7,7 @@ related:
   - "[[Variabile Aleatoria Discreta]]"
 completed: false
 created: 2024-11-30T11:48
-updated: 2024-12-03T13:25
+updated: 2024-12-03T13:28
 ---
 >[!abstract] Related
 >- [[Variabili Aleatorie]]
@@ -235,6 +235,7 @@ Una ***variabile aleatoria continua uniforme*** è un tipo specifico di [[Variab
 >
 >
 >>[!example]- Esempio
+>>
 >>Sia $X = \text{Unif}\big([2,8]\big)$, calcolare la probabilità che avvenga l'evento "$-3<X<4$ o $5\leq X <8$".
 >>
 >>Calcolare la probabilità di questo evento significa calcolare $P(X \in A)$ tale che $A = (-3,4) \cup [5,8)$
@@ -324,7 +325,7 @@ La funzione di distribuzione (o ripartizione) è una funzione matematica che des
 >&1. \ \ X < -2 \ \ \implies \ \ F(X) = \int^{x}_{-\infty} 0 \, du = 0\\ \\
 >&2. \ \ -2\leq x \leq 10 \ \ \implies \ \ F(X) = \int^{x}_{-\infty} \frac{1}{12} \, du = \frac{x -(-2)}{12} = \frac{x+2}{12}\\ \\ 
 >&3. \ \ X > 10 \ \ \implies \ \ F(X) = \int^{x}_{-\infty} f(u) \, du = \int^{10}_{-2} f(u) \, du = 1\\ \\
-\end{align*}
+>\end{align*}
 >$$
 >
 >Quindi:
@@ -358,7 +359,7 @@ La funzione di distribuzione (o ripartizione) è una funzione matematica che des
 >&1. \ \ X < 1 \ \ \implies \ \ F(X) = \int^{x}_{-\infty} 0 \, du = 0\\ \\
 >&2. \ \ 1\leq x \leq 5 \ \ \implies \ \ F(X) = \int^{x}_{1} \frac{3}{124}x^{2} \, du = \frac{\cancel{3}}{124} \cdot \frac{u^{3}}{\cancel{3}} \Bigg|^{x}_{1} = \frac{x^{3}-1}{124} \\ \\ 
 >&3. \ \ X > 5 \ \ \implies \ \ F(X) = \int^{x}_{-\infty} f(u) \, du = \int^{5}_{1} f(u) \, du = 1\\ \\
-\end{align*}
+>\end{align*}
 >$$
 >
 >Quindi:
