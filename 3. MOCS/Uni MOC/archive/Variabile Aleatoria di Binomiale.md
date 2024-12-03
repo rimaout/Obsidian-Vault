@@ -6,7 +6,7 @@ related:
   - "[[Variabile Aleatoria di Binomiale]]"
 completed: false
 created: 2024-11-30T11:05
-updated: 2024-11-30T11:36
+updated: 2024-12-02T09:52
 ---
 >[!abstract] Related
 >- [[Variabile Aleatoria di Binomiale]]
@@ -50,6 +50,8 @@ La variabile aleatoria binomiale può assumere valori interi compresi tra $0$ e 
 >E[X] = n \cdot p
 >$$
 >>[!warning]- Dim (da fare)
+
+^77219d
 
 >[!danger] Varianza
 >$$

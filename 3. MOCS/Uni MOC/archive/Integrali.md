@@ -6,16 +6,16 @@ class:
 academic year: 2023/2024
 related: 
 completed: false
-updated: 2024-05-27T13:29
+updated: 2024-12-03T12:12
 ---
 ---
 
 >[!abstract] Related
 >- [[Calcolo Integrale (class)]]
 
->[!note] Introduione
->- [[Definizione Geometrica di Integrale]] 🔴 (vedi appunti exys)
->- [[Definizione di Integrale]] 🟡 (aggiungere definizione rigorosa)
+>[!note] Introduzione
+>- [[Definizione Geometrica di Integrale]] 🔴
+>- [[Definizione di Integrale]] 🟡
 >- [[Teorema Fondamentale del Calcolo Integrale]] 🟢
 >- [[Primitive]] 🟢
 >- [[Proprietà Integrali]] 🟢
@@ -23,17 +23,16 @@ updated: 2024-05-27T13:29
 >[!note] Tecniche di Integrazione
 >- [[Primitive Elementari|Integrali Immediati (Primitive Elementari)]] 🟢
 >- [[Integrazione per Sostituzione]] 🟢
->- [[Integrazione per Parti]] 🟡 (aggiungi [link](https://alem1105.github.io/Quartz/Primo-Anno/Secondo-Semestre/Calcolo-Integrale/Integrali#integrazione-per-parti-fattore-differenziale-1-e-integrali-ciclici))
+>- [[Integrazione per Parti]] 🟢
 >
->- [[Integrazioni pre-calcolate e "trucchetti"]] 🔴 (appunti exys per-calcolate + sink(x) e cosk(x))
-
-^4581ca
+>- [[Integrazioni pre-calcolate e "trucchetti"]] 🟢
 
 >[!note] Integrali "Particolari"
 >- [[Integrali di Funzioni Composte]]  🟢
 >- [[Integrali di Funzioni Razionali]] 🟢
->- [[Integrali Impropri]] 🟡 (aggiungi integrali noti vedi immagini)
+>- [[Integrali Impropri]] 🟢
 
 >[!example] Calcolatori Online
 >- [Integral Calculator](https://www.integral-calculator.com/)
 >- [Derivative Calculator](https://www.derivative-calculator.net/)
+>- [EDO Calculator](https://www.emathhelp.net/en/calculators/differential-equations/differential-equation-calculator/) 

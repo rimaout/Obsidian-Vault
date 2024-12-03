@@ -1,20 +1,16 @@
 ---
 created: 2024-09-23T16:18
-updated: 2024-11-30T15:29
+updated: 2024-12-03T12:13
 Main Moc: "[[Uni MOC]]"
 academic year: 2024/2025
 ---
 **Sito Corso:** [link](https://drive.google.com/drive/folders/1ger_KNOx4Uk9rszz_T9U1EYD20dfiVc6)
 **Playlist Youtube:** [link](https://www.youtube.com/watch?v=Q8un3ma7UVw&list=PL056CC710F7E17321&index=2)
 
-- [[L5 Calcolo Probabilità]] (esercizi visti a lezione)
-- [[L8 Calcolo Probabilità]] (esercizi visti a lezione)
-- [[L9 Calcolo Probabilità]] (esercizi visti a lezione)
-- [[L10 Calcolo Probabilità]] (esercizi visti a lezione)
-- [[L13 Calcolo Probabilità]] (esercizi visti a lezione)
-- [[18 Nov Calcolo Prob]]
-- [[20 Nov Calcolo Prob]]
-- [[27 Nov Calcolo Prob]]
+>[!warning] Manca questa parte
+>Lezione 22 Nov [link](https://drive.google.com/drive/folders/10VKiGTtRtk1o3Y6BigF9bBqydGLgoJbM)
+>
+>![[Pasted image 20241202144550.png|600]]
 
 >[!note] Calcolo Combinatorio
 >- [[Principio fondamentale del calcolo combinatorio]] 🟢
@@ -38,8 +34,9 @@ academic year: 2024/2025
 - [[Introduzione - Variabili Aleatorie]]
 
 - [[Funzioni di Variabili Aleatorie]] 🟢
-- [[Variabile Aleatorie Congiunte]] 🟡
-- [[Variabili Aleatorie Indipendenti]] 
+- [[Variabile Aleatorie Congiunte]] 🟢
+- [[Variabili Aleatorie Indipendenti]]  🟢
+- [[Covarianza]]
 
 >[!note] Tipi di variabili Aleatorie Discrete
 >- [[Variabile Aleatoria di Bernoulli]] 🟢
@@ -49,4 +46,4 @@ academic year: 2024/2025
 >- [[Variabile Aleatoria Geometrica]] 🟡 (fare dim)
 >- [[Variabile Aleatorie Ipergeometrica]] 🟢 (aggiungi più esempi)
 
-- [[Variabili Aleatorie Continue]] 
+- [[Variabili Aleatorie Continue]] 🟡

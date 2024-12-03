@@ -7,7 +7,7 @@ academic year: 2023/2024
 related:
   - "[[Integrali]]"
 completed: true
-updated: 2024-05-27T13:29
+updated: 2024-12-03T12:11
 ---
 ---
 
@@ -94,7 +94,4 @@ In realtà ci basta considerare $g'(x)=1$ e integrare per parti prendendolo come
 
 >[!note] Esempio
 >![[Pasted image 20240526164419.png|800]]
-
----
-
 

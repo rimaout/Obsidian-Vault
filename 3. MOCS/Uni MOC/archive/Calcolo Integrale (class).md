@@ -2,7 +2,7 @@
 academic year: 2023/2024
 type: Uni Note
 created: 2024-05-24T10:49
-updated: 2024-05-27T13:29
+updated: 2024-12-03T12:12
 ---
 ---
 ## 1° Parte ([[Serie]])
@@ -46,8 +46,8 @@ updated: 2024-05-27T13:29
 ## 2° Parte ([[Integrali]])
 
 >[!note] Introduzione
->- [[Definizione Geometrica di Integrale]] 🔴 (vedi appunti exys)
->- [[Definizione di Integrale]] 🟡 (aggiungere definizione rigorosa)
+>- [[Definizione Geometrica di Integrale]] 🔴
+>- [[Definizione di Integrale]] 🟡
 >- [[Teorema Fondamentale del Calcolo Integrale]] 🟢
 >- [[Primitive]] 🟢
 >- [[Proprietà Integrali]] 🟢

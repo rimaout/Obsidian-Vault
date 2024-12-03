@@ -1,12 +1,12 @@
 ---
 created: 2024-11-17T17:17
-updated: 2024-12-02T00:27
+updated: 2024-12-02T08:37
 tags:
   - monthly-log
 ---
 -- 🚧 work in progress, come back at the end of the month 🚧 --
 
->[!warning] to-do
+>[!warning]- to-do
 >**Scrivi della prima stella su Github**
 >
 >**Dai aggiornamenti sito:**
@@ -15,11 +15,12 @@ tags:
 >- centra immagini + guida
 >  
 >>x dicembre, usa front matter per quando il sito è stato updetato
+
 #### What I'm reading
 
 Not much has changed since my [[🏫 October 2024 (Log)|last log]]. I'm still reading [The Hitchhiker's Guide to the Galaxy](https://hardcover.app/books/the-ultimate-hitchhikers-guide), but I've slowed my pace and have only read about 100 pages since then. As painful as it is to admit, I don’t think I’ll be able to finish the book. My interest peaked around page 300, and I don’t see myself making it to the end of the series.
 
-What makes this book so special is its humor and the copious amount of absurdity. I believe that this is its greatest strength, but at the same time, it’s also its biggest weakness. In fact, the complete randomness of certain events, in the long run, makes the plot too chaotic, leaving me with a sense of a lack of clear direction and finding the randomness a bit overwhelming.
+What makes this book so special is its humor and the copious amount of absurdity. I believe that this is its greatest strength, but at the same time, it’s also its biggest weakness. In fact, the complete randomness of certain events, in the long run, makes the plot too chaotic, leaving me with a sense of a lack of clear direction.
 
 Honestly, I love how Douglas Adams is able to characterize extremely funny and absurd characters in just a few lines. Each chapter introduces a new character to discover, which is truly fascinating. No other book has ever made me laugh this much, while at the same time leaving me wondering how on earth he came up with certain ideas.
 
@@ -27,9 +28,9 @@ But sadly, the length of the story is a challenge for me. I would probably adore
 
 I guess it just wasn't my cup of Nutri-Matic.
 
-If you are thinking to read this classic collection of sci-fi books go a head, i really think that the especially first book is worth the read, even more if you want to know the answer to the **Ultimate Question of Life, the Universe, and Everything**.
+If you are thinking to read this classic collection of sci-fi books go a head, I really think that especially the first book is worth the read, even more if you want to know the answer to the *Ultimate Question of Life, the Universe, and Everything*.
 
-But if you don't want to read the all book just to know the answer to the **Ultimate Question of Life, the Universe, and Everything** , here it is:
+But if you are an uneducated Vogon and want to know the answer without reading the book, here it is:
 
 >[!quote]- The answer to the ultimate question of life, the universe, and everything (SPOILER)
 >
@@ -114,6 +115,8 @@ If you're intrigued by this project, I suggest starting with their [first video 
 >P.S. Their website, community platform are open source on [their Github](https://github.com/ONEARMY).
 
 ![[Pasted image 20241126113719 1.jpg|900]]
+
+#### Arcane
 
 ---
 
