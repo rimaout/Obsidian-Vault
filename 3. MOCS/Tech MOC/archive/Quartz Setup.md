@@ -4,7 +4,7 @@ related:
 completed: true
 Main Moc: "[[Tech MOC]]"
 created: 2024-03-19
-updated: 2024-10-17T22:27
+updated: 2024-12-04T09:14
 ---
 This website is built using [Quartz](https://quartz.jzhao.xyz/), a tool that transforms your Markdown notes into a static website. 
 
@@ -70,6 +70,7 @@ One thing I did differently was use [[Git Submodules]] to store my content. This
 >3. Edit `variable.css`, in particular set:
 >	- `mobile: 900px`
 >	- `desktop: 1380px`
+>	- `sidePanelWidth: 300px;`
 
 >[!note] Add Custom Icon and Banner
 >1. Go to quartz root directory 
@@ -81,6 +82,11 @@ One thing I did differently was use [[Git Submodules]] to store my content. This
 >1. Go to quartz root directory
 >2. Go to `quartz/componets`
 >3. Edit `footer.tsx` like this: [[Quartz Footer Edit]]
+
+>[!note] Add icon to site Title
+>Here is [[How to add custom icon to site title - Quartz|how to make it]].
+>
+>![[Screenshot 2024-12-04 at 08.10.26.png|600]]
 
 >[!note] Edit README
 >1. Go to quartz root directory

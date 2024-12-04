@@ -4,7 +4,7 @@ Main Moc: "[[Tech MOC]]"
 related:
   - "[[Quartz Setup]]"
 completed: true
-updated: 2024-10-03T16:39
+updated: 2024-12-04T08:01
 ---
 ```typescript
 colors: {
@@ -15,7 +15,7 @@ colors: {
           darkgray: "#1a194d",
           dark: "#1a194d",
           secondary: "#433bfb",
-          tertiary: "#ff6a4d",
+          tertiary: "#ef4253",
           highlight: "rgba(143, 159, 169, 0.15)",
         },
         darkMode: {
@@ -25,7 +25,7 @@ colors: {
           darkgray: "#f7f5ff",
           dark: "#f7f5ff",
           secondary: "#615eff",
-          tertiary: "#ff6a4d",
+          tertiary: "#ef4253",
           highlight: "rgba(143, 159, 169, 0.15)",
         },
 ```

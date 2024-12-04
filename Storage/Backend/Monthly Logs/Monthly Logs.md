@@ -1,10 +1,10 @@
 ---
 created: 2024-10-05T20:08
-updated: 2024-11-18T20:18
+updated: 2024-12-03T14:45
 ---
 👋 Welcome to my monthly log! This is a space that serves as a way to keep track of and document what I do and experience throughout the year. 
 
-Here, I’ll share updates on my projects, the books I’m reading, my university journey, and everything I feel comfortable sharing with you.
+Here, I’ll update on my projects, the books I’m reading, my university journey, and everything I feel comfortable sharing with you.
 
 >**See all the logs:** [[#📦 Log Archive]]
 

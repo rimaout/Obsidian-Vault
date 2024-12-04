@@ -7,7 +7,7 @@ related:
   - "[[Variabile Aleatoria Discreta]]"
 completed: false
 created: 2024-11-30T11:48
-updated: 2024-12-03T13:28
+updated: 2024-12-03T15:20
 ---
 >[!abstract] Related
 >- [[Variabili Aleatorie]]
@@ -235,7 +235,6 @@ Una ***variabile aleatoria continua uniforme*** è un tipo specifico di [[Variab
 >
 >
 >>[!example]- Esempio
->>
 >>Sia $X = \text{Unif}\big([2,8]\big)$, calcolare la probabilità che avvenga l'evento "$-3<X<4$ o $5\leq X <8$".
 >>
 >>Calcolare la probabilità di questo evento significa calcolare $P(X \in A)$ tale che $A = (-3,4) \cup [5,8)$
@@ -374,6 +373,8 @@ La funzione di distribuzione (o ripartizione) è una funzione matematica che des
 
 ---
 ## Valore Atteso e Varianza
+
+![[Pasted image 20241203152044.png]]
 
 ![[Pasted image 20241203132545.png]]
 
