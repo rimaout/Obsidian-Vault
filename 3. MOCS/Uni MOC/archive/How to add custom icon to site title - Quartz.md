@@ -5,7 +5,7 @@ related:
   - "[[Quartz Setup]]"
 completed: true
 created: 2024-12-04T08:45
-updated: 2024-12-04T09:13
+updated: 2024-12-04T09:40
 ---
 >[!abstract] Related
 >- [[Quartz Setup]]
@@ -35,7 +35,7 @@ const PageTitle: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzCompo
   const baseDir = pathToRoot(fileData.slug!)
   return (
     <h2 class={classNames(displayClass, "page-title")}>
-      <img src="../static/icon.png" alt="icon" class="icon" />   // added (icon + use you file path here)
+      <img src="/static/icon.png" alt="icon" class="icon" />   // added (icon + use you file path here)
       <a href={baseDir}>{title}</a>
     </h2>
   )
@@ -63,4 +63,4 @@ export default (() => PageTitle) satisfies QuartzComponentConstructor
 When adding the icon, make sure to update the `src` attribute with the correct file path. If the icon is already on your site, use the relative path as shown in the example. If you want to use a new icon, you have two options:
 
 * Use a URL if the image is hosted online (e.g., `src="https://via.placeholder.com/24"`).
-* Add the image to your site (e.g., in the `../static` folder) and use the relative path in the code (e.g., `src="../static/your_custom_icon.png"`).
+* Add the image to your site (e.g., in the `/static` folder) and use the relative path in the code (e.g., `src="/static/your_custom_icon.png"`).
