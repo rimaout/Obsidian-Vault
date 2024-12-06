@@ -623,17 +623,17 @@
                 }
               },
               {
-                "id": "b6c7ec0f6bb5a264",
+                "id": "aba251b269633080",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Storage/Backend/Monthly Logs/⭐ November 2024 (Log).md",
+                    "file": "3. MOCS/Uni MOC/archive/PB 4 Dec.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "⭐ November 2024 (Log)"
+                  "title": "PB 4 Dec"
                 }
               }
             ],
@@ -703,7 +703,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 392.504789352417
+        "width": 392.504789352417,
+        "collapsed": true
       },
       "right": {
         "id": "1599d9a7234429ed",
@@ -878,8 +879,8 @@
           "markdown-importer:Open format converter": false
         }
       },
-      "active": "b6c7ec0f6bb5a264",
-      "mtime": "2024-12-03T10:28:51+01:00"
+      "active": "aba251b269633080",
+      "mtime": "2024-12-04T19:04:59+01:00"
     },
     "Metodi Matematici": {
       "main": {
@@ -1413,23 +1414,8 @@
                   "icon": "lucide-file",
                   "title": "Basi di Dati 1 (class)"
                 }
-              },
-              {
-                "id": "0c38fe642622f200",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/archive/File Heap.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "File Heap"
-                }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "vertical"
@@ -1495,7 +1481,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 308.504789352417
+        "width": 308.504789352417,
+        "collapsed": true
       },
       "right": {
         "id": "1599d9a7234429ed",
@@ -1660,8 +1647,8 @@
           "markdown-importer:Open format converter": false
         }
       },
-      "active": "0c38fe642622f200",
-      "mtime": "2024-12-02T09:21:13+01:00"
+      "active": "9b5ee948960d4911",
+      "mtime": "2024-12-04T13:36:34+01:00"
     },
     "Sistemi Operativi": {
       "main": {
@@ -1687,23 +1674,8 @@
                   "icon": "lucide-file",
                   "title": "Sistemi Operativi 1 (class)"
                 }
-              },
-              {
-                "id": "ecb12881a93b4968",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/archive/Memoria Virtuale.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Memoria Virtuale"
-                }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "vertical"
@@ -1935,8 +1907,8 @@
           "obisidian-note-linker:Note Linker": false
         }
       },
-      "active": "ecb12881a93b4968",
-      "mtime": "2024-11-30T10:49:31+01:00"
+      "active": "01abab4389c228fc",
+      "mtime": "2024-12-05T13:28:23+01:00"
     }
   },
   "active": "Probabilità"

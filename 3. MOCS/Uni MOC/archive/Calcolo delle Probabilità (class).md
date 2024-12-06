@@ -1,6 +1,6 @@
 ---
 created: 2024-09-23T16:18
-updated: 2024-12-03T12:13
+updated: 2024-12-04T13:36
 Main Moc: "[[Uni MOC]]"
 academic year: 2024/2025
 ---
@@ -47,3 +47,5 @@ academic year: 2024/2025
 >- [[Variabile Aleatorie Ipergeometrica]] 🟢 (aggiungi più esempi)
 
 - [[Variabili Aleatorie Continue]] 🟡
+
+[[PB 4 Dec]]

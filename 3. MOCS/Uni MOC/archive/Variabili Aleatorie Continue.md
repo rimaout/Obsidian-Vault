@@ -7,7 +7,7 @@ related:
   - "[[Variabile Aleatoria Discreta]]"
 completed: false
 created: 2024-11-30T11:48
-updated: 2024-12-03T15:20
+updated: 2024-12-05T13:51
 ---
 >[!abstract] Related
 >- [[Variabili Aleatorie]]
@@ -371,20 +371,30 @@ La funzione di distribuzione (o ripartizione) è una funzione matematica che des
 >\end{cases}
 >$$
 
+![[Pasted image 20241203132545.png|600]]
+
 ---
-## Valore Atteso e Varianza
+## Valore Atteso
 
-![[Pasted image 20241203152044.png]]
-
-![[Pasted image 20241203132545.png]]
-
-![[Pasted image 20241203132557.png]]
-
->[!note] Valore Atteso (Aspettativa)
->L'aspettativa di una variabile aleatoria uniforme continua è data da: 
+>[!note] Definizione
+>Se $X$ è variabile aleatoria continua allora
+>
 >$$
->E[X] = \frac{a+b}{2}
+>E[X] := \int^{+\infty }_{-\infty } x f(x) \, dx 
 >$$
+>
+>***Formula semplificata continue uniformi:*** $E[x] = \frac{a+b}{2}$ (è al centro dell'intervallo)
+
+>[!note] Valore atteso funzione di v.a.
+>
+>Sia $X$ v.a. continua con funzioni di densità $f$ e sia $g:\mathbb{R} \to \mathbb{R}$, allora:
+>
+>$$
+>E[g(x)] = \int^{+\infty }_{+\infty } g(x)f(x) \, dx 
+>$$
+
+---
+## Varianza 
 
 >[!note] Varianza
 >

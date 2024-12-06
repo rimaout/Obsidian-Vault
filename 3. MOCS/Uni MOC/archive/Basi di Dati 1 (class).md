@@ -3,7 +3,7 @@ Main Moc:
 related: 
 completed: 
 created: 2024-09-25T15:37
-updated: 2024-12-01T17:33
+updated: 2024-12-04T11:49
 ---
 **Lezioni:**
 - [[L1 Basi di dati 1]]
@@ -40,7 +40,7 @@ updated: 2024-12-01T17:33
 
 >[!note] Organizzazione Fisica
 >1. [[Introduzione all'organizzazioni dei database|Introduzione]] 🟢
->2. [[File Heap]] 
+>2. [[File Heap]] 🟢
 >3. [[File Hash]]
 
 ---
@@ -60,5 +60,4 @@ per esame:
 
 >[!note] Teoria della Normalizzazione
 
-
-
+>[!note] Organizzazione Fisica

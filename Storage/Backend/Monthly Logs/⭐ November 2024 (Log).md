@@ -1,20 +1,35 @@
 ---
 created: 2024-11-17T17:17
-updated: 2024-12-04T09:19
+updated: 2024-12-06T10:11
 tags:
   - monthly-log
 ---
--- 🚧 work in progress, come back at the end of the month 🚧 --
+#### Site Update
 
->[!warning]- to-do
->**Scrivi della prima stella su Github**
->
->**Dai aggiornamenti sito:**
->- il sito esce su Duckduck go, metti screen e test della velocità, 
->- aggiorna colore bolditalic e italic utilizzando variabile colori in config + guida
->- centra immagini + guida
->  
->>x dicembre, usa front matter per quando il sito è stato updetato
+This moth I had fun modifying and messing around with this site. Thanks to my DevOps skills, I managed to break the site multiple times, but I’m happy to report that everything is now up and running "smoothly".
+
+Here are some of the changes I made to the text formatting:
+
+- ***Text Color Change:*** I updated the color of bold text from white (or black) to **this**.
+- ***Italic Text:*** I can now use italic text to highlight important points, like _this_.
+- ***Bold Italic Text:*** The bold italic text now appears as _**this**_.
+
+I really like these text styles, as they make my notes much more readable.
+
+In addition to these text modifications, I also center-aligned the images on the site, thanks to suggestions from [@alessio](https://github.com/alem1105). 
+I was also able to add a site icon at the beginning of the site title, which enhances the overall look!
+
+![[Screenshot 2024-12-04 at 08.10.26.png|800]]
+
+I’ve documented the entire process in two guides: [[How to add custom icon to site title - Quartz|how to add an icon on the title]] and [[Quartz custom CSS|how I changed the text formatting]].
+
+As someone who doesn’t have much experience with CSS, HTML, or web development in general, For these modifications I relied heavily on the support of my friend [@alessio](https://github.com/alem1105) and the wonderful community in the [Quartz Discord server](https://discord.com/invite/cRFFHYye7t).
+
+This month, I discovered that if you search for the site on _Google_ or _DuckDuckGo_, you will find it in the search results. I have zero knowledge of SEO, but from what I understand, this site has a unique enough name. I have also followed most SEO rules, such as not using overly heavy images and ensuring high text readability (with good text contrast and font choices). In general, [Quartz](https://quartz.jzhao.xyz/) does a good job of handling SEO things on its own.
+
+![[Screenshot 2024-12-05 at 18.10.51.webp|700]]
+
+Using [pagespeed](https://duckduckgo.com/pagespeed.web.dev) to test the site's speed, I discovered that I can achieve even better performance by optimizing image sizes and converting them to more efficient web formats, such as WebP and AVIF.
 
 #### What I'm reading
 
@@ -115,6 +130,12 @@ If you're intrigued by this project, I suggest starting with their [first video 
 >P.S. Their website, community platform are open source on [their Github](https://github.com/ONEARMY).
 
 ![[Pasted image 20241126113719 1.jpg|900]]
+
+#### Other things that made my November
+
+- Kebabs, precisely 5 (I have a soft spot for falafel kebabs)
+- Arcane: I loved the animation style, finding it incredibly innovative and beautiful. My favorite action scene from the series is [this one](https://www.youtube.com/watch?v=9fqLlnlcFFw). What also stood out to me was the depth of the characters and their genuine motivations. The line between good and evil is so blurred that I often found myself empathizing with the "bad guys," which I really appreciated.
+- I received my first star ⭐ on Github from someone outside of my friend circle, thanks [@PiotrEsse](https://github.com/PiotrEsse) for liking my [fact2mp3](https://github.com/rimaout/flac2mp3) repo.
 
 ---
 
