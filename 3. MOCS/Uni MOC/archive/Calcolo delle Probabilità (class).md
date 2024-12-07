@@ -1,6 +1,6 @@
 ---
 created: 2024-09-23T16:18
-updated: 2024-12-04T13:36
+updated: 2024-12-07T11:47
 Main Moc: "[[Uni MOC]]"
 academic year: 2024/2025
 ---
@@ -29,14 +29,14 @@ academic year: 2024/2025
 >- [[Monty Hall Problem]] 🟢
 
 ## Variabili Aleatorie
-**Marco Argomento:** [[Variabili Aleatorie]]
+**Macro Argomento:** [[Variabili Aleatorie]]
 
 - [[Introduzione - Variabili Aleatorie]]
 
 - [[Funzioni di Variabili Aleatorie]] 🟢
 - [[Variabile Aleatorie Congiunte]] 🟢
 - [[Variabili Aleatorie Indipendenti]]  🟢
-- [[Covarianza]]
+- [[Covarianza]] 🟡 (da fare)
 
 >[!note] Tipi di variabili Aleatorie Discrete
 >- [[Variabile Aleatoria di Bernoulli]] 🟢
@@ -47,5 +47,4 @@ academic year: 2024/2025
 >- [[Variabile Aleatorie Ipergeometrica]] 🟢 (aggiungi più esempi)
 
 - [[Variabili Aleatorie Continue]] 🟡
-
-[[PB 4 Dec]]
+- [[Variabile Aleatoria Gaussiana]]

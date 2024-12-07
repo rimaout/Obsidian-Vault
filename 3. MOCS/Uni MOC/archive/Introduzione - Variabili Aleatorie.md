@@ -6,7 +6,7 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2024-10-29T15:31
-updated: 2024-11-30T15:09
+updated: 2024-12-07T11:15
 ---
 >[!abstract] Related
 >- [[Variabili Aleatorie]]
@@ -476,17 +476,6 @@ Una variabile aleatoria $X$ è detta **discreta** se i valori che può assumere 
 >>***DA FAREEE metti esempi  visto con il prof sostitutivo*** 
 
 ---
+## Co-Varianza
 
->[!note] Proposizione
->Sia $S$  uno spazio di probabilità con esiti equi-probabili e sia $f:S \to S$ una bigezione, allora:
->
->$$
->P(E) = P(f(E)\ \ \forall  E \subset S 
->$$
->
->>[!warning]- Dim
->>
->>$$
->>P(E) \underset{\text{esiti equiparabili}}{=} \frac{{ \lvert E \rvert }  }{{ \lvert S \rvert } } \underset{\text{f è bigettiva}}{=} \frac{{ \lvert f(E) \rvert }  }{{ \lvert S \rvert }  } \underset{\text{esiti equiprobabili}}{=} P(f(E))
->>$$
->
+

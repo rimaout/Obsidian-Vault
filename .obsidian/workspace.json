@@ -24,31 +24,31 @@
             }
           },
           {
-            "id": "2c438d6c81ef0fc3",
+            "id": "80f3aec1b2ce9d24",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Variabili Aleatorie Continue.md",
+                "file": "3. MOCS/Uni MOC/archive/Variabile Aleatoria Gaussiana.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Variabili Aleatorie Continue"
+              "title": "Variabile Aleatoria Gaussiana"
             }
           },
           {
-            "id": "8ad544952ec715e6",
+            "id": "faa599c37fa9a21c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Storage/Backend/Monthly Logs/⭐ November 2024 (Log).md",
+                "file": "3. MOCS/Programming MOC/archive/Quartz.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "⭐ November 2024 (Log)"
+              "title": "Quartz"
             }
           }
         ],
@@ -213,7 +213,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       },
       {
         "id": "0ee4f1dd2040ea54",
@@ -240,7 +240,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Variabili Aleatorie Indipendenti.md",
+                "file": "3. MOCS/Uni MOC/archive/Variabile Aleatoria Gaussiana.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -268,7 +268,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Variabili Aleatorie Indipendenti"
+              "title": "Graph of Variabile Aleatoria Gaussiana"
             }
           }
         ],
@@ -294,17 +294,29 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "8ad544952ec715e6",
+  "active": "faa599c37fa9a21c",
   "lastOpenFiles": [
-    "Storage/Backend/Monthly Logs/attachments/Screenshot 2024-12-05 at 18.10.51.webp",
-    "Storage/Backend/Monthly Logs/Monthly Logs.md",
-    "3. MOCS/Uni MOC/archive/Variabili Aleatorie Continue.md",
-    "To-Do/Quartz custom CSS.md",
+    "3. MOCS/Uni MOC/archive/Variabile Aleatoria Gaussiana.md",
+    "3. MOCS/Uni MOC/archive/How to add custom icon to site title - Quartz.md",
     "Storage/Backend/Monthly Logs/⭐ November 2024 (Log).md",
+    "Storage/Backend/Monthly Logs/Monthly Logs.md",
+    "Storage/Backend/Monthly Logs/🏫 October 2024 (Log).md",
+    "3. MOCS/Uni MOC/archive/Calcolo delle Probabilità (class).md",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20241207115755.png",
+    "3. MOCS/Uni MOC/archive/Covarianza.md",
+    "3. MOCS/Uni MOC/archive/Variabili Aleatorie Indipendenti.md",
+    "3. MOCS/Uni MOC/archive/Variabili Aleatorie Continue.md",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20241207113006.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20241207112945.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20241207112923.png",
+    "3. MOCS/Uni MOC/archive/Introduzione - Variabili Aleatorie.md",
+    "3. MOCS/Uni MOC/archive/Perché le costanti additive non importano nella varianza?.md",
+    "3. MOCS/Uni MOC/archive/Funzioni di Variabili Aleatorie.md",
+    "3. MOCS/Uni MOC/archive/PB 4 Dec.md",
+    "Storage/Backend/Monthly Logs/attachments/Screenshot 2024-12-05 at 18.10.51.webp",
+    "To-Do/Quartz custom CSS.md",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20241203132557.png",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20241203152044.png",
-    "3. MOCS/Uni MOC/archive/Calcolo delle Probabilità (class).md",
-    "3. MOCS/Uni MOC/archive/PB 4 Dec.md",
     "3. MOCS/Uni MOC/archive/Sistemi Operativi 1 (class).md",
     "3. MOCS/Tech MOC/archive/Quartz Setup.md",
     "3. MOCS/Programming MOC/archive/Quartz.md",
@@ -319,22 +331,10 @@
     "To-Do/Introduzione all'organizzazioni dei database.md",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20241204112034.png",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20241204111552.png",
-    "3. MOCS/Uni MOC/archive/How to add custom icon to site title - Quartz.md",
-    "To-Do/How to add custom icon to site title - Quartz.md",
-    "To-Do/Hot to add custom icon to site title - Quartz.md",
     "3. MOCS/Tech MOC/archive/attachments/Screenshot 2024-12-04 at 08.10.26.png",
     "Untitled.canvas",
-    "3. MOCS/Uni MOC/Uni MOC.md",
-    "attachments/Pasted image 20241204080633.png",
-    "attachments/Pasted image 20241204080621.png",
     "attachments",
-    "To-Do/Untitled.md",
-    "3. MOCS/Tech MOC/archive/attachments/Pasted image 20241204080451.png",
     "3. MOCS/Tech MOC/archive/attachments",
-    "3. MOCS/Tech MOC/archive/My Quartz Theme.md",
-    "3. MOCS/Tech MOC/archive/quartz layout config.md",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20241203132545.png",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20241203124751.png",
     "3. MOCS/Uni MOC/archive/attachments/Recording 20241128150638.webm",
     "3. MOCS/Uni MOC/archive/attachments/20. Algoritmo di decomposizione - Esercizi.pdf",
     "Storage/Backend/Monthly Logs/attachments",

@@ -1,6 +1,6 @@
 ---
 created: 2024-10-05T20:08
-updated: 2024-12-03T14:45
+updated: 2024-12-07T16:03
 ---
 👋 Welcome to my monthly log! This is a space that serves as a way to keep track of and document what I do and experience throughout the year. 
 
@@ -17,7 +17,7 @@ Now that the exams are a distant memory, it's nice to have some time to relax an
 
 Talking about deep and meaningful things, I recently had to completely rebuild this site after upgrading to the latest [Quartz](https://quartz.jzhao.xyz/) version, which unfortunately broke my configuration. However, I took this opportunity to document the process of rebuilding it from scratch, so that next time I'll be better prepared for the worst. You can find the guide here: [[Quartz Setup]].
 
->P.S: luckily I documented the process because i broke the site again!!
+>P.S. luckily I documented the process because i broke the site again!!
 
 **What I'm reading:** I'm still reading [The Hitchhiker's Guide to the Galaxy](https://hardcover.app/books/the-ultimate-hitchhikers-guide). 
 

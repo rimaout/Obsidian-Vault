@@ -7,7 +7,7 @@ related:
   - "[[Variabile Aleatoria Discreta]]"
 completed: false
 created: 2024-11-30T11:48
-updated: 2024-12-05T13:51
+updated: 2024-12-07T11:30
 ---
 >[!abstract] Related
 >- [[Variabili Aleatorie]]
@@ -393,19 +393,48 @@ La funzione di distribuzione (o ripartizione) è una funzione matematica che des
 >E[g(x)] = \int^{+\infty }_{+\infty } g(x)f(x) \, dx 
 >$$
 
----
-## Varianza 
-
->[!note] Varianza
+>[!tip] Proprietà
+>Stesse delle variabili aleatorie discrete:
 >
->La varianza di una variabile aleatoria uniforme continua è data da:
+>1. $X$ v.a. continua e $a,b \in \mathbb{R}$ allora:
+>   
+>$$
+>E[aX+b] = a\cdot E[X] + b
+>$$
+>
+>2. $X$ v.a. continua tale che $X_{1}, \; \dots ,\;  X_{n}$ con $a_{1},\; \dots, \; a_{n}\in \mathbb{R}$ allora:
 >
 >$$
->\text{Var}(X) = \frac{(b-a)^{2}}{12}
+>E\left[ \sum^{n}_{i=2} a_{i} X_{i}\right] = \sum^{n}_{i=1} a_{i} E[X_{i}]
 >$$
 
+#todo : ***Metti esempio esercizi visti a lezione 4 dicembre*** 
+
 ---
-## Proprietà
-Sia $X$ una variabile continua sull'intervallo $[a,b]$, allora:
+## Varianza, Deviazione e Co-Varianza
 
+>[!note] Definizione Varianza
+>Sia $X$ v.a. continua allora la varianza è:
+>
+>$$
+>Var(X) = E \big[ (X-EX)^{2} \big]
+>$$
+>
+>***Formula semplificata continue uniformi:*** $\text{Var}(X) = \frac{(b-a)^{2}}{12}$
 
+>[!note] Definizione Co-Varianza
+>Siano $X$ e $Y$  v.a. continue:
+>
+>$$
+>\text{Cov}(X,Y) = E[(X-EX)(Y-EY)]
+>$$
+
+Sono le stesse definizione delle variabili aleatori discrete, valgono alche le stesso proprietà:
+- [[Introduzione - Variabili Aleatorie#Varianza|Proprietà Varianza]]
+- [[Introduzione - Variabili Aleatorie#Co-Varianza|Proprietà Co-Varianza]]
+
+![[Pasted image 20241207112923.png|500]]
+
+![[Pasted image 20241207112945.png|500]]
+
+![[Pasted image 20241207113006.png|500]]

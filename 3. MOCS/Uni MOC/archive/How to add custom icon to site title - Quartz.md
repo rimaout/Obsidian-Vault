@@ -5,7 +5,7 @@ related:
   - "[[Quartz Setup]]"
 completed: true
 created: 2024-12-04T08:45
-updated: 2024-12-04T09:40
+updated: 2024-12-07T16:07
 ---
 >[!abstract] Related
 >- [[Quartz Setup]]
@@ -52,8 +52,8 @@ PageTitle.css = `
 
 .page-title .icon {          //added 
   margin-right: 0.5rem;      //added (right padding) 
-  width: 60px;               //added (icon size)
-  height: 60px;              //added (icon size)
+  width: 60px;               //added (icon size - change to fit your needs)
+  height: 60px;              //added (icon size - change to fit your needs)
 }                            //added
 `
 
