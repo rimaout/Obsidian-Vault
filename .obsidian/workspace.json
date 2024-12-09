@@ -38,17 +38,17 @@
             }
           },
           {
-            "id": "faa599c37fa9a21c",
+            "id": "5989059865561cc2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Programming MOC/archive/Quartz.md",
+                "file": "3. MOCS/Programming MOC/archive/Using GitHub Actions to automatically update repo's submodules.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Quartz"
+              "title": "Using GitHub Actions to automatically update repo's submodules"
             }
           }
         ],
@@ -294,8 +294,11 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "faa599c37fa9a21c",
+  "active": "5989059865561cc2",
   "lastOpenFiles": [
+    "3. MOCS/Tech MOC/archive/Quartz Setup.md",
+    "3. MOCS/Programming MOC/archive/Using GitHub Actions to automatically update repo's submodules.md",
+    "3. MOCS/Programming MOC/archive/Quartz.md",
     "3. MOCS/Uni MOC/archive/Variabile Aleatoria Gaussiana.md",
     "3. MOCS/Uni MOC/archive/How to add custom icon to site title - Quartz.md",
     "Storage/Backend/Monthly Logs/⭐ November 2024 (Log).md",
@@ -318,8 +321,6 @@
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20241203132557.png",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20241203152044.png",
     "3. MOCS/Uni MOC/archive/Sistemi Operativi 1 (class).md",
-    "3. MOCS/Tech MOC/archive/Quartz Setup.md",
-    "3. MOCS/Programming MOC/archive/Quartz.md",
     "3. MOCS/Uni MOC/archive/Memoria Virtuale.md",
     "3. MOCS/Uni MOC/archive/Basi di Dati 1 (class).md",
     "3. MOCS/Uni MOC/archive/Join-Naturale e Theta-Join (Algebra Relazionale).md",
@@ -328,7 +329,6 @@
     "3. MOCS/Uni MOC/archive/File Heap.md",
     "To-Do/To-Do.md",
     "To-Do/Quartz Index Example.md",
-    "To-Do/Introduzione all'organizzazioni dei database.md",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20241204112034.png",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20241204111552.png",
     "3. MOCS/Tech MOC/archive/attachments/Screenshot 2024-12-04 at 08.10.26.png",

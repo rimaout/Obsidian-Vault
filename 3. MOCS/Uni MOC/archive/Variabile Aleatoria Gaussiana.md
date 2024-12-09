@@ -5,7 +5,7 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2024-12-06T12:20
-updated: 2024-12-07T16:35
+updated: 2024-12-08T15:42
 ---
 >[!abstract] Related
 >- [[Calcolo delle Probabilità (class)]]
@@ -45,6 +45,8 @@ La distribuzione gaussiana è completamente determinata da due parametri:
 >$$
 >X = \mathcal{N} \big(\mu, \sigma^{2} \big)
 >$$
+>
+>>***oss:*** $\mu = E[x]$ e $\sigma^{2} = \text{Var}(x)$
 
 >[!warning] Gaussiana ben definita
 >
@@ -53,13 +55,24 @@ La distribuzione gaussiana è completamente determinata da due parametri:
 ---
 ## Funzione di distribuzione 
 
+Sia $X =  \mathcal{N} \big(\mu, \sigma^{2} \big)$ calcoliamo $F(x)$ ovvero $P(X)\leq x$:
+
 $$
-\Phi (X) = \frac{1}{\sqrt{ 2\pi }} \int^{x}_{-\infty }e^{-\frac{z^{2}}{z}} \, dz 
+P(X<x) = \int_{-\infty }^{x} f(z) \, dz  = \frac{1}{\sqrt{ 2\pi }\cdot \sigma} \int^{x}_{-\infty } e^{- \frac{(z-\mu)^{2}}{2\sigma^{2}} }  \, dz
 $$
 
-Sul libro sono presenti valori di $\Phi(x)$ per $x$ maggiori di 0, se vogliamo trovare il valore negativo basta fare $\Phi(-x) = 1- \Phi(x)$.
 
->***oss:** $\Phi(x) = P(Z\leq x)$
+>[!note] Funzione di distribuzione gaussiana standard
+>
+>Sia $X =  \mathcal{N} \big(0, 1 \big)$ invece di scrivere $F(x)$ scriviamo $\Phi(x)$:
+>
+>$$
+>\Phi (X) = \frac{1}{\sqrt{ 2\pi }} \int^{x}_{-\infty }e^{-\frac{z^{2}}{z}} \, dz 
+>$$
+>
+>Sul libro sono presenti valori di $\Phi(x)$ per $x$ maggiori di 0, se vogliamo trovare il valore negativo basta fare $\Phi(-x) = 1- \Phi(x)$.
+>
+>>***oss:*** $\Phi(x) = P(Z\leq x)$
 
 >[!example] Esempio
 >Sia $Z \sim \mathcal{N}(0,1)$
@@ -78,4 +91,13 @@ Sul libro sono presenti valori di $\Phi(x)$ per $x$ maggiori di 0, se vogliamo t
 >Quindi:
 >$$
 >P(|Z|\geq 2) = 2 \cdot  (1 - \Phi(2)) = 2 \cdot  (1 - 0.9772) = 2(0.0228) = 0.0456 = 4,56%
+>$$
+
+---
+## Proposizione
+
+>[!note] Prop
+>Siano $\mu \in \mathbb{R}$, $\; \sigma^{2}>0\;$ e $\;Z =  \mathcal{N} \big(0, 1 \big)$, allora:
+>$$
+>Y := \pm \sigma Z + \mu
 >$$

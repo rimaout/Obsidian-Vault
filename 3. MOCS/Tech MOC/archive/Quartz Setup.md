@@ -4,7 +4,7 @@ related:
 completed: true
 Main Moc: "[[Tech MOC]]"
 created: 2024-03-19
-updated: 2024-12-04T12:34
+updated: 2024-12-08T15:04
 ---
 >[!abstract] Related
 >- [[Quartz]]
@@ -31,6 +31,8 @@ One thing I did differently was use [[Git Submodules]] to store my content. This
 >```
 
 >[!note] Add Git Submodule
+>
+>
 >Add [[Git Submodules|Git Submodule]] as content:
 >1. Go in Quartz directory
 >2. Run: 
@@ -39,11 +41,18 @@ One thing I did differently was use [[Git Submodules]] to store my content. This
 >	git commit -m "Added a new submodule for obsidian notes"
 >	```
 >	
->>[!warning]- How to update the content
+>>[!warning] How to update the content
+>>
+>>**Simple Method:**
+>>In this method we have to manually update the submodule in the content directory:
 >>1. Go in Obsidian vault, commit and push all changers
 >>2. Go to Quartz directory
->>3. Run: `git submodule update --remote content/vault` to update content directory\
+>>3. Run: `git submodule update --remote content/vault` to update submodule in content directory
 >>4. Run `npx quartz sync` to push the changes
+>>   
+>>**Advanced Method:**
+>>In this method we use a workflow to automagicaly update the submodule each time the repo of the submodule is modified.
+>>- ***Read:*** [[Using GitHub Actions to automatically update repo's submodules]]
 
 >[!note] Add Index File
 >1. Go in `quartz/content/Index.md`
