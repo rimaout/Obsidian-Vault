@@ -5,7 +5,7 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2024-12-06T12:20
-updated: 2024-12-08T15:42
+updated: 2024-12-09T15:12
 ---
 >[!abstract] Related
 >- [[Calcolo delle Probabilità (class)]]
@@ -13,7 +13,6 @@ updated: 2024-12-08T15:42
 ---
 
 ## Introduzione
-
 
 Una variabile aleatoria gaussiana (o normale), è una variabile aleatoria che segue una distribuzione di probabilità normale, anche nota come distribuzione gaussiana. 
 
@@ -94,10 +93,49 @@ $$
 >$$
 
 ---
-## Proposizione
+## Proposizioni
 
->[!note] Prop
+>[!note] Prop 1
 >Siano $\mu \in \mathbb{R}$, $\; \sigma^{2}>0\;$ e $\;Z =  \mathcal{N} \big(0, 1 \big)$, allora:
 >$$
 >Y := \pm \sigma Z + \mu
 >$$
+>
+>
+>***Dove possiamo calcolare:***
+>- $E[Y] = E[\sigma Z + \mu] = \sigma E[Z] + \mu = \sigma \cdot 0+ \mu = \textcolor{orange}{\mu}$
+>- $\text{Var}(Y) = \text{Var}(\sigma Z+\mu) = \sigma^{2}\cdot Z\cdot\text{Var}(Z) = \sigma^{2} \cdot 1 = \textcolor{orange}{\sigma^{2}}$
+
+>[!note] Prop 2
+>
+>$$
+>Y = \mathcal{N} \big(\mu, \sigma^{2} \big) \implies  \frac{Y-\mu}{\sigma} = \mathcal{N} \big(0,1\big)
+>$$
+
+>[!example] Esempio
+>
+>Sia $Y =  \mathcal{N} \big(3,16\big)$, usando $\Phi$ calcolare $P(Y \geq 10)$
+>
+>Per calcolare $P(Y\geq10)$ di $Y= \mathcal{N} \big(3,16\big)$, possiamo utilizzare la proprietà data:
+>
+>In questo caso, abbiamo:
+>- $\mu = 3$
+>- $\sigma^{2} = 16$
+>- $\sigma = \sqrt{ 16 } = 4$
+>
+>Vogliamo calcolare $P(Y\geq10)$. Per farlo, possiamo trasformare $Y$ in una variabile standardizzata $Z$, utilizzando la proprietà data:
+>
+>$$
+>Z = \frac{Y-\mu}{\sigma} = \frac{Y-3}{4}
+>$$
+>
+>Quindi, $P(Y\geq10)$ è equivalente a 
+>$$
+>P\left(Z \geq \frac{10-3}{4} \right) = P\left( Z\geq \frac{7}{4} \right) = P(Z\geq1,75)
+>$$
+>
+>Utilizzando una tabella di distribuzione standardizzata (Z-table), possiamo trovare il valore di $P(Z\geq1,75)$. La probabilità è uguale a $1 - P(Z\leq1,75)$.
+>
+>Dalla tabella, troviamo che $P(Z<1,75) ≈ 0,9599$. Quindi, $P(Z\geq1,75) ≈ 1 - 0,9599 ≈ 0,0401$.
+>
+>Quindi, $P(Y\geq10) ≈ 0,0401$

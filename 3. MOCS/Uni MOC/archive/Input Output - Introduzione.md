@@ -7,7 +7,7 @@ related:
   - "[[Interruzioni 101]]"
 completed: true
 created: 2024-09-28T12:03
-updated: 2024-10-01T13:56
+updated: 2024-12-09T16:14
 ---
 
 >[!abstract] Related
@@ -45,5 +45,7 @@ Esistono tre modi principali in cui un sistema informatico può gestire l'I/O:
 >- Il processore viene interrotto soltanto al termine del trasferimento.
 >
 >Questo approccio è molto più veloce dell'I/O programmato e dell'I/O da interruzioni, poiché il processore non è coinvolto nell'operazione di I/O.
+
+^d3d6d0
 
 ![[1721y32yuh327y.png]]

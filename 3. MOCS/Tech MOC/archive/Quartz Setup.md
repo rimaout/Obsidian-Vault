@@ -4,7 +4,7 @@ related:
 completed: true
 Main Moc: "[[Tech MOC]]"
 created: 2024-03-19
-updated: 2024-12-08T15:04
+updated: 2024-12-10T19:17
 ---
 >[!abstract] Related
 >- [[Quartz]]
@@ -12,13 +12,9 @@ updated: 2024-12-08T15:04
 
 ---
 
-This website is built using [Quartz](https://quartz.jzhao.xyz/), a tool that transforms your Markdown notes into a static website. 
+This website is built using [Quartz](https://quartz.jzhao.xyz/), a tool that transforms your Markdown notes into a static website. On this page, I've outlined every step I took to make the site look and behave as you see it.
 
-On this page, I've outlined every step I took to make the site look and behave as you see it.
-
-Most of the setup follows the official [Quartz documentation](https://quartz.jzhao.xyz/#-get-started), but I've also done some modification mainly on the colours and page layouts.
-
-One thing I did differently was use [[Git Submodules]] to store my content. This means that my website's content ([my obsidian vault](https://github.com/rimaout/Obsidian-Vault)) is kept in a separate repository.
+Most of the setup follows the official [Quartz documentation](https://quartz.jzhao.xyz/#-get-started), but I've also done some modification mainly on the colors and page layouts. One thing I did differently was use [[Git Submodules]] to store my content. This means that my website's content ([my obsidian vault](https://github.com/rimaout/Obsidian-Vault)) is kept in a separate repository.
 
 ## Steps
 

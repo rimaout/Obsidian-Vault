@@ -5,7 +5,7 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2024-11-23T13:04
-updated: 2024-11-24T19:37
+updated: 2024-12-09T15:22
 ---
 >[!abstract] Related
 >- 
@@ -28,7 +28,7 @@ Quando avviene un *page fault* Il sistema operativo mette il processo in modalit
 ---
 ### Terminologia
 
-Con ***memoria virtuale*** intendiamo uno schema di allocazione in cui la memoria secondaria può essere usata come se fosse principale.
+Con **memoria virtuale** intendiamo uno schema di allocazione in cui la memoria secondaria può essere usata come se fosse principale.
 
 - Gli indirizzi dei programmi sono logici mentre quelli usati dal sistema sono fisici
 - C’è bisogno di una traduzione dai logici a fisici
@@ -43,8 +43,8 @@ Con ***memoria virtuale*** intendiamo uno schema di allocazione in cui la memo
 >
 
 >[!danger] TLDR
->- Memoria Reale: Indichiamo la memoria principale (RAM)
->- Memoria Virtuale: Quella su disco, ci permette di avere multiprogrammazione elevata liberando il programmatore dai vincoli della principale
+>- ***Memoria Reale:*** Indichiamo la memoria principale (RAM)
+>- ***Memoria Virtuale:*** Quella su disco, ci permette di avere multiprogrammazione elevata liberando il programmatore dai vincoli della principale
 
 ---
 ### Effetti Collaterali
@@ -68,7 +68,7 @@ Con ***memoria virtuale*** intendiamo uno schema di allocazione in cui la memo
 Precedentemente abbiamo visto la [[Paginazione e Segmentazione (semplice)#Paginazione Semplice|paginazione semplice]] ora vediamo come viene implementa utilizzando anche la memoria virtuale.
 
 >[!note] Tabella delle Pagine
-Ogni processo ha una sua tabella delle pagine, ogni entry di questa tabella contiene:
+>Ogni processo ha una sua tabella delle pagine, ogni entry di questa tabella contiene:
 >- Un bit di presenza che indica se quella pagina è in RAM o se bisogna prenderla su disco
 >- Un bit che indica se la pagina è stata usata in lettura o anche scrittura
 >- Altri bit di controllo
@@ -160,8 +160,6 @@ L'OS ha il compito di effettuare il reset del TLB, infatti ogni processo ha il s
 ***NON HO CAPITO SE OGNI PROCESSO HA IL SUO TLB O SE ESISTE UN TLP UNICO CHE é RESETTATO AD OGNI PROCESS SWITCH***
 
 
-
----
 
 [^1]:Insieme delle pagine di un processo che sono presenti in memoria principale
 [^2]:Interrupt generato quando si prova ad accedere ad una pagina non presente nella memoria principale

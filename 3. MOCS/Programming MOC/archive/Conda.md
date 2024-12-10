@@ -4,12 +4,7 @@ type: Programming Note
 programming language: "[[Python MOC]]"
 related: 
 completed: false
-updated: 2024-05-27T13:29
----
----
-## Index
-1. [[]]
-
+updated: 2024-12-10T14:31
 ---
 ## Common commands
 

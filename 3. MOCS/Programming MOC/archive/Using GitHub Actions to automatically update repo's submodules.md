@@ -5,7 +5,7 @@ related:
   - "[[Quartz Setup]]"
 completed: false
 created: 2024-12-08T10:34
-updated: 2024-12-09T11:16
+updated: 2024-12-10T20:21
 ---
 
 >[!abstract] Related
@@ -77,11 +77,151 @@ To create a token, follow these steps:
 ---
 ## 2. Save the token as a secret inside each repository
 
+Now that we have created the token, we need to save it as a repository secret inside both the parent and child repositories.
+
+>**Parent Repository**
+>
+>To save the token as a secret in the parent repository, follow these steps:
+>
+>1. Open your GitHub parent repository (the repository that contains the submodule).
+>2. Go to `Settings > Actions > Secrets`.
+>3. Click on `New repository secret`.
+>4. Enter a name for the secret, such as `PARENT_SUBMODULE_TOKEN`.
+>5. Paste the token into the secret section.
+>6. Click `Add secret`.
+
+>**Child Repository**
+>
+>Repeat the same steps for the child repository (the repository used as a submodule). Use the same name (`PARENT_SUBMODULE_TOKEN`) and paste the same token.
 
 ---
-## 3. Create workflow inside the child repository
+## 3. Create workflow inside the child parent
 
+Now that we have created the token and saved it as a secret, we can create the workflow in the parent repository that can be called by the child repository when a change occurs.
+
+This workflow simply updates all the submodules present in the repo.
+
+To create the workflow, follow these steps:
+1. Open the directory of your parent repository (in my case, `Notes-In-Public`) using your preferred IDE.
+2. If it doesn't already exist, create a directory called `.github`.
+3. Inside the `.github` directory, create another directory called `workflows`.
+4. In the `workflows` directory, create a new file for your workflow. For example, you can name it `submodule-sync.yml`.
+5. Inside the file write this:
+
+```yaml
+name: 'Submodules Sync'
+
+on:
+  # Allows you to run this workflow manually from the Actions tab or through HTTP API
+  workflow_dispatch:
+
+jobs:
+  sync:
+    name: 'Submodules Sync'
+    runs-on: ubuntu-latest
+
+    # Use the Bash shell regardless whether the GitHub Actions runner is ubuntu-latest, macos-latest, or windows-latest
+    defaults:
+      run:
+        shell: bash
+
+    steps:
+    # Checkout the repository to the GitHub Actions runner
+    - name: Checkout
+      uses: actions/checkout@v2
+      with:
+        token: ${{ secrets.YOUR_TOKEN }}
+        submodules: true
+
+    # Update references
+    - name: Git Submodule Update
+      run: |
+        git pull --recurse-submodules
+        git submodule update --remote --recursive
+
+    - name: Commit update
+      run: |
+        git config --global user.name 'Git bot'
+        git config --global user.email 'bot@noreply.github.com'
+        git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+        git commit -am "Auto updated submodule references" && git push || echo "No changes to commit"
+```
+
+**Important:** Make sure to replace `YOUR_TOKEN` with the actual name of the secret you created in [[#2. Save the token as a secret inside each repository|Step 2]] for your parent repository, in my case `PARENT_SUBMODULE_TOKEN`.
+
+⚠️ Now commit all changes and push to your Github account.
 
 ---
-## 4. Create workflow inside the parent repository
+## 4. Create workflow inside the child repository
 
+The final step is to create a workflow in the child repository, this workflow activate the workflow created in [[#3. Create workflow inside the child parent|step 3]] in the parent repo, each time a change in the child is occurred.
+
+To create the workflow, follow these steps:
+
+1. Open the directory of your child repository (in your case, `obsidian-vault`) using your preferred IDE.
+2. If it doesn't already exist, create a directory called `.github`.
+3. Inside the `.github` directory, create another directory called `workflows`.
+4. In the `workflows` directory, create a new file for your workflow. For example, you can name it `submodule-notify-parent.yml`.
+
+Here's an example of what the `submodule-notify-parent.yml` file might look like:
+
+```yaml
+name: 'Submodule Notify Parent'
+
+on:
+  push:
+    branches:
+      - main    
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  notify:
+    name: 'Submodule Notify Parent'
+    runs-on: ubuntu-latest
+
+    # Use the Bash shell regardless whether the GitHub Actions runner is ubuntu-latest, macos-latest, or windows-latest
+    defaults:
+      run:
+        shell: bash
+
+    steps:
+    - name: Github REST API Call
+      env:
+        CI_TOKEN: ${{ secrets.YOUR_TOKEN }}
+        PARENT_REPO: <you_name/your-repo>
+        PARENT_BRANCH: <branch>
+        WORKFLOW_ID: <your_workflow_id>
+      run: |
+        curl -fL --retry 3 -X POST -H "Accept: application/vnd.github.v3+json" -H "Authorization: token ${{ env.CI_TOKEN }}" https://api.github.com/repos/${{ env.PARENT_REPO }}/actions/workflows/${{ env.WORKFLOW_ID }}/dispatches -d '{"ref":"${{ env.PARENT_BRANCH }}"}'
+```
+
+>**Important:** Make sure to replace the following placeholders with your actual values:
+>
+>- `YOUR_TOKEN`: The name of the secret you created in [[#2. Save the token as a secret inside each repository|Step 2]] for your parent repository, in my case `PARENT_SUBMODULE_TOKEN`.
+>- `<you_name/your-repo>`: The name of your parent repository, including you Github username, in my case *rimaout/Notes-In-Public*
+> - `<branch>`: The branch in your parent repository that you want to update, if you are using is `main`, but if you are using using this for you [quartz](https://quartz.jzhao.xyz/) site is `v4` .
+>- `<your_workflow_id>`: The ID of the workflow in your parent repository that you want to trigger, read [[#How to get a Github Workflow ID|this]] to learn how to get the workflow ID.
+
+⚠️ Now commit all changes and push to your Github account.
+
+---
+## How to get a Github Workflow ID
+
+To get the workflow ID, you can use the GitHub API to see the list of workflows associated with to the repository that can be accessed with a specific token.
+
+In particular you can use this command to get the list of workflows:
+
+```bash
+curl -X GET -H "Authorization: token $YOUR_TOKEN_CODE" https://api.github.com/repos/$PARENT_REPO/actions/workflows
+```
+
+Where you token need to be substitute with the token code generate in [[#1. Create access token|step 1]].
+
+The result will be a list of workflows you have to get the ID of the workflow created in step [[#3. Create workflow inside the child repository|step 3]], just search the same name.
+
+---
+## The end
+
+That's it! With these you should now have a working setup that automatically updates the submodule in your parent repository whenever changes are made to the child repository.

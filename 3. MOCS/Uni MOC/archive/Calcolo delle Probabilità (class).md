@@ -1,6 +1,6 @@
 ---
 created: 2024-09-23T16:18
-updated: 2024-12-07T11:47
+updated: 2024-12-09T11:57
 Main Moc: "[[Uni MOC]]"
 academic year: 2024/2025
 ---
@@ -48,3 +48,4 @@ academic year: 2024/2025
 
 - [[Variabili Aleatorie Continue]] 🟡
 - [[Variabile Aleatoria Gaussiana]]
+- [[Variabili Aleatorie Identicamente Distribuite]]
