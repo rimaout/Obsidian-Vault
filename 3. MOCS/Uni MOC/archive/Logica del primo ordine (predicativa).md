@@ -6,11 +6,11 @@ class:
 related:
   - "[[Logica Proposizionale]]"
 completed: true
-updated: 2024-05-27T13:29
+updated: 2024-12-14T18:37
 ---
 ---
 # Info
-- La **logica del primo ordine**  aggiunge alla [[Logica Proposizionale]] i  *quantificatori Universale* ed *Esistenziale*
+- La **logica del primo ordine** aggiunge alla [[Logica Proposizionale]] i  *quantificatori Universale* ed *Esistenziale*
 - Quest'ultimi ci permettono di formalizzare ragionamenti logici più complessi rispetto a quelli possibili con la [[Logica Proposizionale]]
 
 ---

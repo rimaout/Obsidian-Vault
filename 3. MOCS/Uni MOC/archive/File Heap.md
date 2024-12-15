@@ -6,7 +6,7 @@ related:
   - "[[Introduzione all'organizzazioni dei database]]"
 completed: true
 created: 2024-11-30T19:23
-updated: 2024-12-04T11:51
+updated: 2024-12-11T11:43
 ---
 >[!abstract] Related
 >- [[Introduzione all'organizzazioni dei database]]
@@ -94,7 +94,7 @@ Per ottenere il costo medio occorre sommare i costi per accedere ai singoli reco
 >>***Formule usate per le semplificazioni***
 >>$$
 >>\begin{align*}
->>&\ \ \ \ \ \ \  - \text{sappiamo che } \frac{N}{R} = n \text{ quindi } \frac{R}{N} = \frac{1}{N}\\
+>>&\ \ \ \ \ \ \  - \text{sappiamo che } \frac{N}{R} = n \text{ quindi } \frac{R}{N} = \frac{1}{n}\\
 >>&\ \ \ \ \ \ \  - 1 + 2 + \dots + n = \sum_{1}^{n} k = \frac{n(n+1)}{2} \ \ \text{(Gauss)}
 >>\end{align*}
 >>$$

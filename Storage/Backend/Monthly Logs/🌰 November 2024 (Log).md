@@ -1,9 +1,41 @@
 ---
 created: 2024-11-17T17:17
-updated: 2024-12-06T10:11
+updated: 2024-12-15T11:36
 tags:
   - monthly-log
 ---
+As I predicted last month, the initial relaxed atmosphere at the start of university lessons didn't last long. By November, it's become clear that everyone is starting to fall behind with their studying schedule, and obviously , I'm no exception.
+
+To take back control on the situation, I decided to start going to the university quite early to work on my coursework in the study room of my faculty. I find it much easier to stay focused in this environment, probably due to the social pressure that motivates me to keep studying instead of getting distracted in front of all the other people.
+
+If I turn a blind eye to the fact that the study room is literally underground with only two small windows (the students have affectionately renamed it the "small bunker") and that at times it can be a bit overcrowded, I'm really enjoying going there. It's started to become a special moment because I get to study with my friends there too, which makes it much easier than figuring things out on my own. And the best part is taking a break to grab a snack at the café after an hour or two of studying.
+
+It's also a great place to meet people who are studying the same course as me but are in different years, and it's really interesting to receive life advice from students who are ahead on the university path. Something that I had never noticed, but was pointed out to me, is that Computer Science students at my university are quite united and help each other a lot. It's normal to see people sharing their notes and intel on the subjects with each other. Additionally, it's possible to find online a wealth of resources created by students for students.
+
+For me, this was normal, but lately, I've talked to friends from other faculties who were shocked when I showed them all the free resources made by my colleagues. I was even more shocked when they told me that in their faculties, it was normal for people to sell their notes. Honestly, I haven't yet understood why it's not more common for students to share, because at the end of the day, everyone wins, right?
+
+But what's even more remarkable to me is how optimized the sharing is among Computer Science students. We use personal sites and blogs to share notes, and have collaborative platforms to help each other.
+
+Here are some of the best and long-lasting resources I've found, created by the OGs:
+
+- There's the [Sapienza Students Network](https://github.com/sapienzastudentsnetwork) , a community hosted on GitHub that's packed with old exams and solutions made by students.
+- There are notes the notes made by [Exyss](https://github.com/Exyss/university-notes) that at times are better of the real books and still are kept updated after years.
+- There are also solutions to the exams of the course *"Metodi matematici per l'informatica"* (Mathematics Applied to Computer Science) made by [Princic-1837592](https://github.com/Princic-1837592/metodi-matematici), which can be found on GitHub. What's impressive is that even though he's no longer a student, he continues to share his solutions to the latest exams.
+
+But so far the resources that have been the most useful to me are the one made from some of my friends and colleagues that are studying at my same year:
+- There's the site made by Alessio, which can be found at [alem1105.github.io/Quartz/](https://alem1105.github.io/Quartz/), with the best notes on the block.
+- There are the notes made by Aglaia, which can be found on GitHub at [github.com/AglaiaNorza/notes-ig](https://github.com/AglaiaNorza/notes-ig), that are always updated to the latest lesson. In fact, most of the time, she's even faster than the teacher at publishing the notes from the last class!
+- There are also many people who share their Obsidian vaults directly on GitHub, such as [Flavio](https://github.com/thegeek-sys/Vault), [Diego](https://github.com/diegotty/obsidian_vault) and [Chiara](https://github.com/ChiareDaze/Ineffable-Notes).
+
+Obviously, they are not the only people who share their notes, they are just the ones I know who have shared them online. There are many other students who help each other offline.
+
+I also try to do my part:
+- I share my notes here on this site.
+- Last year, together with [@alessio](https://github.com/alem1105) and [@edoardo](https://github.com/notedo), we shared all the exercises we did in our 1st year of uni on [CS-Swap](https://github.com/CS-Swap).
+- This year, I'm helping out the [Sapienza Students Network](https://github.com/sapienzastudentsnetwork) on GitHub.
+
+I know that this might seem like a little bit of a sales pitch for my faculty, but it's just my way of expressing my gratitude and excitement to the people and the community that has created such a collaborative environment, and I want to share that with others.
+
 #### Site Update
 
 This moth I had fun modifying and messing around with this site. Thanks to my DevOps skills, I managed to break the site multiple times, but I’m happy to report that everything is now up and running "smoothly".
@@ -133,9 +165,10 @@ If you're intrigued by this project, I suggest starting with their [first video 
 
 #### Other things that made my November
 
-- Kebabs, precisely 5 (I have a soft spot for falafel kebabs)
-- Arcane: I loved the animation style, finding it incredibly innovative and beautiful. My favorite action scene from the series is [this one](https://www.youtube.com/watch?v=9fqLlnlcFFw). What also stood out to me was the depth of the characters and their genuine motivations. The line between good and evil is so blurred that I often found myself empathizing with the "bad guys," which I really appreciated.
-- I received my first star ⭐ on Github from someone outside of my friend circle, thanks [@PiotrEsse](https://github.com/PiotrEsse) for liking my [fact2mp3](https://github.com/rimaout/flac2mp3) repo.
+- *Kebabs*, precisely 5 (I have a soft spot for falafel kebabs)
+- *Arcane*: I loved the animation style, finding it incredibly innovative and beautiful. My favorite action scene from the series is [this one](https://www.youtube.com/watch?v=9fqLlnlcFFw). What also stood out to me was the depth of the characters and their genuine motivations. The line between good and evil is so blurred that I often found myself empathizing with the "bad guys," which I really appreciated.
+- Roasted *chestnuts* 🌰
+- I received *my first star* ⭐ on Github from someone outside of my friend circle, thanks [@PiotrEsse](https://github.com/PiotrEsse) for liking my [fact2mp3](https://github.com/rimaout/flac2mp3) repo.
 
 ---
 

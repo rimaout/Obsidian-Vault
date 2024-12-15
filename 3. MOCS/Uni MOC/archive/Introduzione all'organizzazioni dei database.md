@@ -5,7 +5,7 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2024-11-30T15:34
-updated: 2024-11-30T19:38
+updated: 2024-12-11T11:23
 ---
 >[!abstract] Related
 >- 
@@ -16,7 +16,7 @@ updated: 2024-11-30T19:38
 Un requisito fondamentale di un sistema di gestione di basi di dati è l’efficienza, cioè la
 capacità di rispondere alle richieste dell’utente il più rapidamente possibile.
 
-Il **tempo di risposta del sistema** è teoricamente composto da diversi cosi:
+Il **tempo di risposta del sistema** è teoricamente composto da diversi casi:
 - tempo di acceso alla memoria secondaria
 - tempo di accesso alla memoria principale
 - tempo di elaborazione della CPU
@@ -67,7 +67,7 @@ Un Record non è altro che la rappresentazione fisica di una **tupla**, ovvero u
 >
 >**Metodo avanzato:** Puntatore rappresentato da una coppia `b,k` in cui `b` è l’indirizzo del blocco che contiene il record e `k` è il valore di uno o più campi che servono come chiave (attributo chiave) nel file a cui il record appartiene. 
 >
->>**oss:** con il metodo avanzato è possibile* spostare il record all’interno del blocco*.
+>>**oss:** con il metodo avanzato è possibile *spostare il record all’interno del blocco*.
 
 >[!warning] Accesso ai campi 
 >Per poter accedere ad un campo contenente un dato è necessario sapere qual è il primo byte del campo all interno del record. il* numero di byte del record che precedono il campo* è detto *offset* del campo.
@@ -109,7 +109,7 @@ I blocchi sono gli spazzi fisici sul disco in cui vengono salvati i record.
 >Se un blocco contiene record di lunghezza variabile per accedere ai record si possono usare due strategie:
 >
 >**Metodo 1:** 
->- Si suppone che il primo record abbia inizio dal primo byte del blocco, sogni record contiene un campo che ne specifica la lunghezza in termini di numero di byte.
+>- Si suppone che il primo record abbia inizio dal primo byte del blocco, su ogni record contiene un campo che ne specifica la lunghezza in termini di numero di byte.
 >- Per calcolare il byte di inizio di un record si somma all’offset del record precedente la sua lunghezza ed eventualmente si prende il successivo multiplo di 4
 >
 >**Metodo 2:** All’inizio del blocco è presente una directory contenente i puntatori ai record nel blocco. Poiché il numero di record che possono entrare in un blocco è in questo caso variabile, la directory può essere realizzata in uno dei modi seguenti:

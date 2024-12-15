@@ -3,9 +3,9 @@ type: Programming Note
 programming language: "[[Git]]"
 related:
   - "[[Quartz Setup]]"
-completed: false
+completed: true
 created: 2024-12-08T10:34
-updated: 2024-12-10T20:21
+updated: 2024-12-10T20:27
 ---
 
 >[!abstract] Related
@@ -147,7 +147,7 @@ jobs:
         git commit -am "Auto updated submodule references" && git push || echo "No changes to commit"
 ```
 
-**Important:** Make sure to replace `YOUR_TOKEN` with the actual name of the secret you created in [[#2. Save the token as a secret inside each repository|Step 2]] for your parent repository, in my case `PARENT_SUBMODULE_TOKEN`.
+>**Important:** Make sure to replace `YOUR_TOKEN` with the actual name of the secret you created in [[#2. Save the token as a secret inside each repository|Step 2]] for your parent repository, in my case `PARENT_SUBMODULE_TOKEN`.
 
 ⚠️ Now commit all changes and push to your Github account.
 

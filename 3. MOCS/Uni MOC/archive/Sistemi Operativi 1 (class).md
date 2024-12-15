@@ -2,7 +2,7 @@
 Main Moc: "[[Uni MOC]]"
 related: 
 created: 2024-09-24T15:33
-updated: 2024-12-10T18:57
+updated: 2024-12-13T18:42
 academic year: 2024/2025
 ---
 **Da archiviare:**
@@ -40,3 +40,7 @@ academic year: 2024/2025
 >- [[Dispositivi di Input Output]]
 >- [[Progettazione dell'Input Output]]
 >- 
+>  
+>Assunzioni per esame:
+>- ogni blocco ha record appartenenti allo stesso file (in mono reale non è vero)
+>- i record devono essere allocati per intero (nel modi reale non è vero)

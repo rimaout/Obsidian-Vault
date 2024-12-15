@@ -621,8 +621,37 @@
                   "icon": "lucide-file",
                   "title": "Calcolo delle Probabilità (class)"
                 }
+              },
+              {
+                "id": "8e23ff2459940209",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/archive/Lezione 13 Dec Prob.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Lezione 13 Dec Prob"
+                }
+              },
+              {
+                "id": "24900aa541d09e9f",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/archive/Variabili Aleatorie Continue.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Variabili Aleatorie Continue"
+                }
               }
-            ]
+            ],
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -864,8 +893,8 @@
           "markdown-importer:Open format converter": false
         }
       },
-      "active": "abcfcf229ce037ab",
-      "mtime": "2024-12-09T15:13:06+01:00"
+      "active": "24900aa541d09e9f",
+      "mtime": "2024-12-13T18:40:41+01:00"
     },
     "Metodi Matematici": {
       "main": {
@@ -1399,8 +1428,23 @@
                   "icon": "lucide-file",
                   "title": "Basi di Dati 1 (class)"
                 }
+              },
+              {
+                "id": "2d8ecacc10124020",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/archive/File B-tree.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "File B-tree"
+                }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -1632,8 +1676,8 @@
           "markdown-importer:Open format converter": false
         }
       },
-      "active": "9b5ee948960d4911",
-      "mtime": "2024-12-04T13:36:34+01:00"
+      "active": "2d8ecacc10124020",
+      "mtime": "2024-12-13T11:28:40+01:00"
     },
     "Sistemi Operativi": {
       "main": {
@@ -1659,8 +1703,37 @@
                   "icon": "lucide-file",
                   "title": "Sistemi Operativi 1 (class)"
                 }
+              },
+              {
+                "id": "33ae4739d824021a",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Programming MOC/archive/Using GitHub Actions to automatically update repo's submodules.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Using GitHub Actions to automatically update repo's submodules"
+                }
+              },
+              {
+                "id": "a8815aaef0075fff",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/archive/Basi di Dati 1 (class).md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Basi di Dati 1 (class)"
+                }
               }
-            ]
+            ],
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -1892,8 +1965,8 @@
           "obisidian-note-linker:Note Linker": false
         }
       },
-      "active": "01abab4389c228fc",
-      "mtime": "2024-12-05T13:28:23+01:00"
+      "active": "a8815aaef0075fff",
+      "mtime": "2024-12-13T18:40:49+01:00"
     }
   },
   "active": "Sistemi Operativi"

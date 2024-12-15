@@ -6,7 +6,7 @@ related:
   - "[[Introduzione all'organizzazioni dei database]]"
 completed: false
 created: 2024-12-04T11:50
-updated: 2024-12-04T12:25
+updated: 2024-12-12T11:58
 ---
 >[!abstract] Related
 >- [[Introduzione all'organizzazioni dei database]]
@@ -15,7 +15,11 @@ updated: 2024-12-04T12:25
 ---
 ## Introduzione
 
-Questo tipo di file è suddiviso in **bucket** numerati da 0 a B-1, ciascun bucket è costituito da uno o più blocchi collegati fra loro tramite puntatori e organizzati come un heap. In cima al file c’è la **bucket directory** che contiene tutti i puntatori per i bucket ovvero B elementi.
+Il file hash è suddiviso in **bucket** numerati da $B_{0}$ a $B_{n-1}$, ciascun bucket è costituito da uno o più blocchi collegati fra loro tramite puntatori e organizzati come un heap. 
+
+In cima al file c’è la **bucket directory** che contiene tutti i puntatori per i bucket, la lunghezza della directory è uguale al numero di bucket ($n$).
+
+![[Pasted image 20241212111722.png|600]]
 
 ---
 ## Funzione Hash
@@ -49,7 +53,7 @@ Una qualsiasi operazione in un file hash richiede:
 
 Inoltre dato che l’inserimento di nuovi record viene effettuato sull’ultimo bucket, la bucket directory dovrà contenere anche un puntatore all’ultimo record di ogni bucket oltre che al loro inizio.
 
-Quindi se la funzione di hash distribuisce in modo uniforme i record nei vari bucket avremo che ogni bucket è costituito da Bn​ blocchi e quindi il costo richiesto da un’operazione è approssimativamente $\frac{1}{b} - \text{esimo}$ del costo della stessa operazione eseguita su un file heap.
+Quindi se la funzione di hash distribuisce in modo uniforme i record nei vari bucket avremo che ogni bucket è costituito da Bn​ blocchi e quindi il costo richiesto da un’operazione è approssimativamente $\frac{1}{b_{\text{esimo}}} - \text{esimo}$ del costo della stessa operazione eseguita su un file heap.
 
 ---
 ## Osservazione
