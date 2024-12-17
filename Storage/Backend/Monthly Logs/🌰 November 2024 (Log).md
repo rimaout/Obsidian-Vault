@@ -1,16 +1,16 @@
 ---
 created: 2024-11-17T17:17
-updated: 2024-12-15T11:36
+updated: 2024-12-17T16:40
 tags:
   - monthly-log
 ---
-As I predicted last month, the initial relaxed atmosphere at the start of university lessons didn't last long. By November, it's become clear that everyone is starting to fall behind with their studying schedule, and obviously , I'm no exception.
+As I predicted last month, the initial relaxed atmosphere at the start of university didn't last long. By November, it's become clear that everyone is starting to fall behind with their studying schedule, and obviously , I'm no exception.
 
 To take back control on the situation, I decided to start going to the university quite early to work on my coursework in the study room of my faculty. I find it much easier to stay focused in this environment, probably due to the social pressure that motivates me to keep studying instead of getting distracted in front of all the other people.
 
 If I turn a blind eye to the fact that the study room is literally underground with only two small windows (the students have affectionately renamed it the "small bunker") and that at times it can be a bit overcrowded, I'm really enjoying going there. It's started to become a special moment because I get to study with my friends there too, which makes it much easier than figuring things out on my own. And the best part is taking a break to grab a snack at the café after an hour or two of studying.
 
-It's also a great place to meet people who are studying the same course as me but are in different years, and it's really interesting to receive life advice from students who are ahead on the university path. Something that I had never noticed, but was pointed out to me, is that Computer Science students at my university are quite united and help each other a lot. It's normal to see people sharing their notes and intel on the subjects with each other. Additionally, it's possible to find online a wealth of resources created by students for students.
+It's also a great place to meet people who are studying the same course as me but are in different years, and it's really interesting to receive life advice from students who are ahead on the university path. Something that I had never noticed, but was pointed out to me, is that Computer Science students at my university are quite united and help each other a lot. It's normal to see people sharing their notes and intel on the subjects with each other. Additionally, it's possible to find online lots of resources created by students for students.
 
 For me, this was normal, but lately, I've talked to friends from other faculties who were shocked when I showed them all the free resources made by my colleagues. I was even more shocked when they told me that in their faculties, it was normal for people to sell their notes. Honestly, I haven't yet understood why it's not more common for students to share, because at the end of the day, everyone wins, right?
 
@@ -36,7 +36,7 @@ I also try to do my part:
 
 I know that this might seem like a little bit of a sales pitch for my faculty, but it's just my way of expressing my gratitude and excitement to the people and the community that has created such a collaborative environment, and I want to share that with others.
 
-#### Site Update
+## Site Update
 
 This moth I had fun modifying and messing around with this site. Thanks to my DevOps skills, I managed to break the site multiple times, but I’m happy to report that everything is now up and running "smoothly".
 
@@ -63,7 +63,7 @@ This month, I discovered that if you search for the site on _Google_ or _DuckDuc
 
 Using [pagespeed](https://duckduckgo.com/pagespeed.web.dev) to test the site's speed, I discovered that I can achieve even better performance by optimizing image sizes and converting them to more efficient web formats, such as WebP and AVIF.
 
-#### What I'm reading
+## What I'm reading
 
 Not much has changed since my [[🏫 October 2024 (Log)|last log]]. I'm still reading [The Hitchhiker's Guide to the Galaxy](https://hardcover.app/books/the-ultimate-hitchhikers-guide), but I've slowed my pace and have only read about 100 pages since then. As painful as it is to admit, I don’t think I’ll be able to finish the book. My interest peaked around page 300, and I don’t see myself making it to the end of the series.
 
@@ -147,7 +147,7 @@ But if you are an uneducated Vogon and want to know the answer without reading t
 >>
 >
 >The Hitchiker's Guide to the Galaxy, Chapter 27; stolen from [here](https://scifi.stackexchange.com/questions/173600/what-is-the-original-42-quote-joke)  
-#### Video of the Month
+## Video of the Month
 
 This time I'm not sharing just a Youtube video but an entire channel.
 
@@ -163,7 +163,7 @@ If you're intrigued by this project, I suggest starting with their [first video 
 
 ![[Pasted image 20241126113719 1.jpg|900]]
 
-#### Other things that made my November
+## Other things that made my November
 
 - *Kebabs*, precisely 5 (I have a soft spot for falafel kebabs)
 - *Arcane*: I loved the animation style, finding it incredibly innovative and beautiful. My favorite action scene from the series is [this one](https://www.youtube.com/watch?v=9fqLlnlcFFw). What also stood out to me was the depth of the characters and their genuine motivations. The line between good and evil is so blurred that I often found myself empathizing with the "bad guys," which I really appreciated.
