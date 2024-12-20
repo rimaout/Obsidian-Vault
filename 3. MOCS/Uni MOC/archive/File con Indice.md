@@ -5,18 +5,32 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2024-12-12T13:21
-updated: 2024-12-12T13:58
+updated: 2024-12-20T10:32
 ---
->[!abstract] Index
->1. 
-
 >[!abstract] Related
 >- 
 
->[!danger] TLDR
-
 ---
+## Introduzione
 
+Quando le chiavi ammettono un ordine, è più conveniente utilizzare un organizzazione fisica che tenga conto di questa caratteristica dei dati.
+
+>[!note] Ordinamenti
+>La maggior parte dei data type hanno un ordinamento
+>- Valori numerici per confronto
+>- Stringhe ordine lessicografico
+>
+>Se abbiamo dati composti da campi multipli, si ordina il primo campo, poi il secondo e cosi via (oss: l'ordinamento lessicografo si comporta allo stesso modo in cui i vari simboli rappresentano i campi)
+>
+>>[!warning]- Algoritmo di Ordinamento
+>>
+>>Le condizioni appena viste sono equivalenti al seguente algoritmo:
+>>- Si pone n=1
+>>- Si confrontano i simboli nella posizione n-esima della stringa:
+>>    - Se una delle due non possiede l’elemento n-esimo allora è minore dell’altra e terminiamo
+>>    - Se entrambe le stringhe non possiedono l’elemento n-esimo allora sono uguali e l’algoritmo termina
+>>    - Se i simboli sono uguali si passa alla posizione successiva
+>    - Se questi sono diversi, il loro ordine è l’ordine delle stringhe
 
 ## Inserimento
 

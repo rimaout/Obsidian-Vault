@@ -4,27 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "6cd9850831fd6a14",
+        "id": "1d3df57368887a29",
         "type": "tabs",
         "children": [
           {
-            "id": "01abab4389c228fc",
+            "id": "9b5ee948960d4911",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Sistemi Operativi 1 (class).md",
+                "file": "3. MOCS/Uni MOC/archive/Basi di Dati 1 (class).md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "Sistemi Operativi 1 (class)"
+              "title": "Basi di Dati 1 (class)"
             }
           },
           {
-            "id": "a244d8895004e672",
+            "id": "2b90d371248f17c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. MOCS/Uni MOC/archive/File con Indice.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "File con Indice"
+            }
+          },
+          {
+            "id": "a0f2cf6ce9eba40e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -38,17 +52,21 @@
             }
           },
           {
-            "id": "27955bda0f990058",
+            "id": "f85db0ee4ac8e138",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Storage/Backend/Monthly Logs/Monthly Logs.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Monthly Logs"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -79,11 +97,11 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
-                "matchingCase": true,
+                "query": "tag:monthly-log",
+                "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": true,
-                "extraContext": true,
+                "collapseAll": false,
+                "extraContext": false,
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
@@ -110,12 +128,12 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 531.504789352417,
-    "collapsed": true
+    "width": 308.504789352417
   },
   "right": {
     "id": "1599d9a7234429ed",
@@ -124,7 +142,7 @@
       {
         "id": "b33702b1304e824a",
         "type": "tabs",
-        "dimension": 35.19736842105263,
+        "dimension": 42.06642066420663,
         "children": [
           {
             "id": "73d6fce2365a09ef",
@@ -145,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Sistemi Operativi 1 (class).md",
+                "file": "Storage/Backend/Monthly Logs/⭐ November 2024 (Log).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +173,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Sistemi Operativi 1 (class)"
+              "title": "Backlinks for ⭐ November 2024 (Log)"
             }
           },
           {
@@ -164,12 +182,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Memoria Virtuale.md",
+                "file": "Storage/Backend/Monthly Logs/⭐ November 2024 (Log).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Memoria Virtuale"
+              "title": "Outgoing links from ⭐ November 2024 (Log)"
             }
           },
           {
@@ -192,19 +210,19 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Sistemi Operativi 1 (class).md"
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Chiusura di un Insieme di Attributi.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Sistemi Operativi 1 (class)"
+              "title": "Outline of Chiusura di un Insieme di Attributi"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "0ee4f1dd2040ea54",
         "type": "tabs",
-        "dimension": 64.80263157894737,
+        "dimension": 57.93357933579337,
         "children": [
           {
             "id": "08bb0d9d4b18b672",
@@ -226,7 +244,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Memoria Virtuale.md",
+                "file": "Storage/Backend/Monthly Logs/⭐ November 2024 (Log).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -249,12 +267,12 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 1,
+                  "scale": 0.844410989828754,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Memoria Virtuale"
+              "title": "Graph of ⭐ November 2024 (Log)"
             }
           }
         ],
@@ -262,11 +280,14 @@
       }
     ],
     "direction": "horizontal",
-    "width": 350.5,
+    "width": 323.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obisidian-note-linker:Note Linker": false,
+      "obsidian-git:Open Git source control": false,
+      "omnisearch:Omnisearch": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -274,15 +295,21 @@
       "command-palette:Open command palette": false,
       "audio-recorder:Start/stop recording": false,
       "workspaces:Manage workspace layouts": false,
-      "markdown-importer:Open format converter": false,
-      "obsidian-git:Open Git source control": false,
-      "omnisearch:Omnisearch": false,
-      "obisidian-note-linker:Note Linker": false
+      "markdown-importer:Open format converter": false
     }
   },
-  "active": "a244d8895004e672",
+  "active": "f85db0ee4ac8e138",
   "lastOpenFiles": [
+    "Storage/Backend/Monthly Logs/🌰 November 2024 (Log).md",
     "Storage/Backend/Monthly Logs/Monthly Logs.md",
+    "Storage/Templates/Monthly Log (Template).md",
+    "3. MOCS/Uni MOC/archive/File con Indice.md",
+    "3. MOCS/Uni MOC/archive/Basi di Dati 1 (class).md",
+    "3. MOCS/Uni MOC/archive/File Hash.md",
+    "3. MOCS/Uni MOC/archive/File B-tree.md",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20241219100233.png",
+    "3. MOCS/Uni MOC/archive/File Heap.md",
+    "3. MOCS/Uni MOC/archive/Sistemi Operativi 1 (class).md",
     "3. MOCS/Programming MOC/archive/dotfiles (gnu stow).md",
     "3. MOCS/Programming MOC/Programming MOC.md",
     "3. MOCS/Programming MOC/archive/Java Input.md",
@@ -294,20 +321,12 @@
     "3. MOCS/Programming MOC/archive/Quartz custom CSS.md",
     "3. MOCS/Programming MOC/archive/Quartz.md",
     "To-Do/To-Do.md",
-    "Storage/Backend/Monthly Logs/🌰 November 2024 (Log).md",
     "Slurped Pages/publish workflow.md",
     "Storage/Backend/Monthly Logs/🏫 October 2024 (Log).md",
-    "3. MOCS/Uni MOC/archive/Sistemi Operativi 1 (class).md",
     "3. MOCS/Uni MOC/archive/Metodologie di Programmazione (class).md",
     "3. MOCS/Uni MOC/archive/Logica del primo ordine (predicativa).md",
     "3. MOCS/Uni MOC/archive/Metodi matematici per l'informatica (class).md",
     "2. Litterateur Notes/Books/L'avvocato dell'atomo (book)/L’avvocato dell’atomo (Book).md",
-    "3. MOCS/Uni MOC/archive/Definizione di Relazione.md",
-    "3. MOCS/Programming MOC/archive/Using GitHub Actions to automatically update repo's submodules.md",
-    "3. MOCS/Uni MOC/archive/Basi di Dati 1 (class).md",
-    "3. MOCS/Uni MOC/archive/Variabili Aleatorie Continue.md",
-    "3. MOCS/Uni MOC/archive/Lezione 13 Dec Prob.md",
-    "3. MOCS/Uni MOC/archive/Calcolo delle Probabilità (class).md",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20241212135747.png",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20241212111722.png",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20241210145425.png",
@@ -318,7 +337,6 @@
     "3. MOCS/Uni MOC/archive/Gestione dell'Input",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20241207115755.png",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20241207113006.png",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20241207112945.png",
     "Untitled.canvas",
     "attachments",
     "3. MOCS/Tech MOC/archive/attachments",

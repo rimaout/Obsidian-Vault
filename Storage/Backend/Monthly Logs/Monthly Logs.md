@@ -1,6 +1,6 @@
 ---
 created: 2024-10-05T20:08
-updated: 2024-12-17T16:39
+updated: 2024-12-20T10:38
 ---
 👋 Welcome to my monthly log! This is a space that serves as a way to keep track of and document what I do and experience throughout the year. 
 
@@ -56,15 +56,14 @@ Here are some of the changes I made to the text formatting:
 I really like these text styles, as they make my notes much more readable.
 
 In addition to these text modifications, I also center-aligned the images on the site, thanks to suggestions from [@alessio](https://github.com/alem1105). 
-I was also able to add a site icon at the beginning of the site title, which enhances the overall look!
-
+I was also able to add a site icon at the beginning of the site title, which adds a touch of color and personality.
 ![[Screenshot 2024-12-04 at 08.10.26.png|800]]
 
 I’ve documented the entire process in two guides: [[How to add custom icon to site title - Quartz|how to add an icon on the title]] and [[Quartz custom CSS|how I changed the text formatting]].
 
-As someone who doesn’t have much experience with CSS, HTML, or web development in general, For these modifications I relied heavily on the support of my friend [@alessio](https://github.com/alem1105) and the wonderful community in the [Quartz Discord server](https://discord.com/invite/cRFFHYye7t).
+As someone who doesn’t have much experience with CSS, HTML, or web development in general, For these modifications I relied heavily on the support of my friend [@alessio](https://github.com/alem1105) and the great community in the [Quartz Discord server](https://discord.com/invite/cRFFHYye7t).
 
-This month, I discovered that if you search for the site on _Google_ or _DuckDuckGo_, you will find it in the search results. I have zero knowledge of SEO, but from what I understand, this site has a unique enough name. I have also followed most SEO rules, such as not using overly heavy images and ensuring high text readability (with good text contrast and font choices). In general, [Quartz](https://quartz.jzhao.xyz/) does a good job of handling SEO things on its own.
+This month, I discovered that if you search for the site on _Google_ or _DuckDuckGo_, you will find it in the search results. I have zero knowledge of SEO, but from what I understand, this site has a unique enough name.Apparently I have also followed most SEO rules, such as not using overly heavy images and ensuring high text readability (with good text contrast and font choices). In general, [Quartz](https://quartz.jzhao.xyz/) does a good job of handling SEO things on its own.
 
 ![[Screenshot 2024-12-05 at 18.10.51.webp|700]]
 

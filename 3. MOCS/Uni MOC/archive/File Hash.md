@@ -6,7 +6,7 @@ related:
   - "[[Introduzione all'organizzazioni dei database]]"
 completed: false
 created: 2024-12-04T11:50
-updated: 2024-12-12T11:58
+updated: 2024-12-19T10:12
 ---
 >[!abstract] Related
 >- [[Introduzione all'organizzazioni dei database]]
@@ -21,14 +21,16 @@ In cima al file c’è la **bucket directory** che contiene tutti i puntatori pe
 
 ![[Pasted image 20241212111722.png|600]]
 
+
+
 ---
 ## Funzione Hash
 
 Dato un valore _v_ per la chiave, il numero del bucket in cui deve trovarsi un record con chiave _v_ è calcolato mediante una funzione chiamata **funzione hash**.
 
-Una funzione di Hash per essere “buona” deve suddividere in modo equo i record nei vari bucket, quindi al variare della chiave tutti i bucket devono avere la stessa probabilità di “uscita”. 
+Una funzione di Hash per essere “buona” deve suddividere in modo equo i record nei vari bucket, quindi al variare della chiave tutti i bucket devono avere la stessa probabilità di “uscita”.
 
-***Funzionamento:*** In genere una funzione hash trasforma la chiave in un numero, lo divide per B e fornisce il resto della divisione come numero del bucket (in modo da rimanere limitati al numero di bucket), questo resto è il bucket dove andrà inserito il record.
+>***Funzionamento:*** In genere una funzione hash trasforma la chiave in un numero, lo divide per B e fornisce il resto della divisione come numero del bucket (in modo da rimanere limitati al numero di bucket), questo resto è il bucket dove andrà inserito il record.
 
 >[!example] Esempio
 >
@@ -46,18 +48,32 @@ Una funzione di Hash per essere “buona” deve suddividere in modo equo i reco
 ---
 ## Operazioni
 
-Una qualsiasi operazione in un file hash richiede:
+Una qualsiasi operazione su un file hash richiede:
 
-- Valutazione della funzione di hash per _v_, `h(v)`, per individuare il bucket, per noi questo ha costo 0 dato che ci interessano soltanto gli accessi in memoria.
-- Esecuzione dell’operazione sul bucket che è organizzato come un heap.
+1. Valutazione della funzione di hash per _v_, `h(v)`, per individuare il bucket su cui eseguire l'operazione (per noi questo ha costo 0 dato che ci interessano soltanto gli accessi in memoria.)
+2. Esecuzione dell’operazione sul bucket che è organizzato come un heap.
 
-Inoltre dato che l’inserimento di nuovi record viene effettuato sull’ultimo bucket, la bucket directory dovrà contenere anche un puntatore all’ultimo record di ogni bucket oltre che al loro inizio.
+>[!warning] Puntatore alla fine del bucket
+>Dato che l’inserimento di nuovi record viene effettuato sull’ultimo bucket, a volte la bucket directory può contenere anche un puntatore all’ultimo record di ogni bucket (oltre che il puntatore all'inizio).
 
-Quindi se la funzione di hash distribuisce in modo uniforme i record nei vari bucket avremo che ogni bucket è costituito da Bn​ blocchi e quindi il costo richiesto da un’operazione è approssimativamente $\frac{1}{b_{\text{esimo}}} - \text{esimo}$ del costo della stessa operazione eseguita su un file heap.
+>[!note] Costo Operazioni
+>![[Pasted image 20241219100233.png|500]]
+>
+>Dove:
+>- $n$ è numero di record
+>- $B$ è numero di bucket
 
 ---
 ## Osservazione
 
-Ovviamente più bucket abbiamo più è basso il costo delle operazioni, ma dobbiamo fare delle considerazioni che ci portano a limitare questo numero:
+Ovviamente più bucket abbiamo più è basso il costo delle operazioni, ma dobbiamo ci sono dei fattori che limita il numero di bucket che possiamo utilizzare:
 - Ogni bucket deve avere almeno un blocco
 - La bucket directory deve avere una dimensione tale da essere mantenuta in memoria principale altrimenti effettueremo accessi per leggere i blocchi della bucket directory.
+
+---
+## Esercizi
+
+Negli esempi che seguono (come per gli esercizi d'esame), a meno che non venga specificato diversamente dobbiamo assumere che:
+- Ogni record deve essere contenuto completamente in un blocco.
+- I blocchi vengono allocati per intero.
+

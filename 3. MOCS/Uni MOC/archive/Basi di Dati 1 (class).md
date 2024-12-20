@@ -3,7 +3,7 @@ Main Moc:
 related: 
 completed: 
 created: 2024-09-25T15:37
-updated: 2024-12-12T14:25
+updated: 2024-12-19T10:13
 ---
 **Lezioni:**
 - [[L1 Basi di dati 1]]
@@ -40,8 +40,8 @@ updated: 2024-12-12T14:25
 
 >[!note] Organizzazione Fisica
 >1. [[Introduzione all'organizzazioni dei database|Introduzione]] 🟢
->2. [[File Heap]] 🟢
->3. [[File Hash]]
+>2. [[File Heap]] 🟢 fare esercizi
+>3. [[File Hash]] 🟡 rivedere costo operazioni + fare esercizi
 >4. [[File con Indice]] 
 >5. [[File B-tree]]
 
