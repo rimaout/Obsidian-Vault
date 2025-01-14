@@ -6,7 +6,7 @@ related:
   - "[[Introduzione all'organizzazioni dei database]]"
 completed: true
 created: 2024-11-30T19:23
-updated: 2024-12-11T11:43
+updated: 2024-12-20T10:57
 ---
 >[!abstract] Related
 >- [[Introduzione all'organizzazioni dei database]]
@@ -112,7 +112,6 @@ Se **non ammettiamo duplicati** l’inserimento è preceduto da una ricerca e qu
 ## Modifica
 
 Abbiamo come primo costo quello della ricerca, infatti dobbiamo trovare il record, poi dobbiamo aggiungere un accesso in scrittura per riscrivere il blocco in memoria una volta modificato, questo costo va ripetuto per ogni occorrenza della chiave, se ammettiamo duplicati.
-
 
 ---
 ## Cancellazione

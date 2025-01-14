@@ -6,77 +6,163 @@
         "type": "split",
         "children": [
           {
-            "id": "5c80586d5a573745",
+            "id": "cd31465a07d80054",
             "type": "tabs",
             "children": [
               {
-                "id": "268d71c4919a1026",
+                "id": "b8f46099a55a4b8a",
                 "type": "leaf",
+                "pinned": true,
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Trucchi MVC.md",
+                    "file": "3. MOCS/Uni MOC/archive/Metodologie di Programmazione (class).md",
                     "mode": "source",
                     "source": false
                   },
+                  "pinned": true,
                   "icon": "lucide-file",
-                  "title": "Trucchi MVC"
+                  "title": "Metodologie di Programmazione (class)"
                 }
               },
               {
-                "id": "0f2a651b221a7f96",
+                "id": "25afb3b4a9500f88",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Projects/Relazione Bubble Bobble/Relazione Bubble Bobble.md",
+                    "file": "3. MOCS/Uni MOC/archive/Punti e BubbleDrops.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "Relazione Bubble Bobble"
+                  "title": "Punti e BubbleDrops"
                 }
               },
               {
-                "id": "b5fa27662fd15b69",
+                "id": "422d5ac5ed4170de",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Gestione Audio.md",
+                    "file": "3. MOCS/Uni MOC/archive/MDP 16 Apr.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "Gestione Audio"
+                  "title": "MDP 16 Apr"
                 }
               },
               {
-                "id": "f789bbe0da46e51d",
+                "id": "f5ac24dbbe74952a",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Gestione Audio.md",
+                    "file": "3. MOCS/Uni MOC/archive/MDP 23 Apr.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "Gestione Audio"
+                  "title": "MDP 23 Apr"
                 }
               },
               {
-                "id": "301fe45bb6f799cb",
+                "id": "16e2bac959623138",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Projects/Relazione Bubble Bobble/Bubble Drops.md",
+                    "file": "3. MOCS/Uni MOC/archive/MDP 02 May.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "Bubble Drops"
+                  "title": "MDP 02 May"
+                }
+              },
+              {
+                "id": "98e06760f9460a78",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/archive/MDP 07 May.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "MDP 07 May"
+                }
+              },
+              {
+                "id": "786fd77ef9a3b0f6",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/archive/MDP 07 May.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "MDP 07 May"
+                }
+              },
+              {
+                "id": "58aa90bd3348ad53",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/archive/MDP 09 May.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "MDP 09 May"
+                }
+              },
+              {
+                "id": "fba233a04acf5892",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/archive/MDP 14 May.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "MDP 14 May"
+                }
+              },
+              {
+                "id": "c831fa1fb824bd83",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Programming MOC/archive/Java Access Modifier.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Java Access Modifier"
+                }
+              },
+              {
+                "id": "a9f2c7358bb27d8c",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/archive/Java MOC.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Java MOC"
                 }
               }
             ]
@@ -229,9 +315,19 @@
                   "icon": "lucide-list",
                   "title": "Outline of Metodologie di Programmazione (class)"
                 }
+              },
+              {
+                "id": "5a521e8af974de35",
+                "type": "leaf",
+                "state": {
+                  "type": "git-view",
+                  "state": {},
+                  "icon": "git-pull-request",
+                  "title": "Source Control"
+                }
               }
             ],
-            "currentTab": 1
+            "currentTab": 5
           },
           {
             "id": "0ee4f1dd2040ea54",
@@ -311,8 +407,8 @@
           "markdown-importer:Open format converter": false
         }
       },
-      "active": "268d71c4919a1026",
-      "mtime": "2024-11-15T15:13:55+01:00"
+      "active": "b8f46099a55a4b8a",
+      "mtime": "2025-01-13T17:01:16+01:00"
     },
     "Default": {
       "main": {
@@ -623,35 +719,132 @@
                 }
               },
               {
-                "id": "8e23ff2459940209",
+                "id": "16e933f3e9180e7a",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/archive/Lezione 13 Dec Prob.md",
+                    "file": "3. MOCS/Uni MOC/archive/Variabile Aleatorie Congiunte.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "Lezione 13 Dec Prob"
+                  "title": "Variabile Aleatorie Congiunte"
                 }
               },
               {
-                "id": "24900aa541d09e9f",
+                "id": "27ff07f7b9f6c6d6",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/archive/Variabili Aleatorie Continue.md",
+                    "file": "3. MOCS/Uni MOC/archive/Proposizioni della Probabilità.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "Variabili Aleatorie Continue"
+                  "title": "Proposizioni della Probabilità"
+                }
+              },
+              {
+                "id": "81bdede1b29e421e",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/archive/Variabile Aleatoria di Bernoulli.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Variabile Aleatoria di Bernoulli"
+                }
+              },
+              {
+                "id": "c7b0793b0af8f884",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/archive/Introduzione - Variabili Aleatorie.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Introduzione - Variabili Aleatorie"
+                }
+              },
+              {
+                "id": "452c20c08e26bfcf",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/archive/Funzioni di Variabili Aleatorie.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Funzioni di Variabili Aleatorie"
+                }
+              },
+              {
+                "id": "c223edbe8e5797bf",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/archive/Variabile Aleatorie Congiunte.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Variabile Aleatorie Congiunte"
+                }
+              },
+              {
+                "id": "08b84bf4c2b6901e",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/archive/Variabili Aleatorie Indipendenti.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Variabili Aleatorie Indipendenti"
+                }
+              },
+              {
+                "id": "ab8c59cec682c3b9",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/archive/Covarianza.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Covarianza"
+                }
+              },
+              {
+                "id": "91adbb18f90098c8",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/archive/Variabili Aleatorie Indipendenti.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Variabili Aleatorie Indipendenti"
                 }
               }
-            ],
-            "currentTab": 2
+            ]
           }
         ],
         "direction": "vertical"
@@ -893,8 +1086,8 @@
           "markdown-importer:Open format converter": false
         }
       },
-      "active": "24900aa541d09e9f",
-      "mtime": "2024-12-13T18:40:41+01:00"
+      "active": "abcfcf229ce037ab",
+      "mtime": "2025-01-13T15:35:27+01:00"
     },
     "Metodi Matematici": {
       "main": {
@@ -1184,13 +1377,11 @@
                 "type": "leaf",
                 "pinned": true,
                 "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Algebra (class).md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "pinned": true
+                  "type": "empty",
+                  "state": {},
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "New tab"
                 }
               }
             ]
@@ -1213,7 +1404,9 @@
                   "type": "file-explorer",
                   "state": {
                     "sortOrder": "alphabetical"
-                  }
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
                 }
               },
               {
@@ -1228,7 +1421,9 @@
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "alphabetical"
-                  }
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
                 }
               },
               {
@@ -1236,7 +1431,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "starred",
-                  "state": {}
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "Plugin no longer active"
                 }
               },
               {
@@ -1244,7 +1441,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "bookmarks",
-                  "state": {}
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
                 }
               }
             ]
@@ -1270,7 +1469,9 @@
                   "state": {
                     "sortOrder": "frequency",
                     "useHierarchy": true
-                  }
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
                 }
               },
               {
@@ -1279,7 +1480,6 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Algebra (class).md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1287,7 +1487,9 @@
                     "searchQuery": "",
                     "backlinkCollapsed": false,
                     "unlinkedCollapsed": false
-                  }
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks"
                 }
               },
               {
@@ -1296,10 +1498,11 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Algebra (class).md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
-                  }
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links"
                 }
               },
               {
@@ -1311,7 +1514,9 @@
                     "sortOrder": "frequency",
                     "showSearch": false,
                     "searchQuery": ""
-                  }
+                  },
+                  "icon": "lucide-archive",
+                  "title": "All properties"
                 }
               },
               {
@@ -1319,9 +1524,9 @@
                 "type": "leaf",
                 "state": {
                   "type": "outline",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Algebra (class).md"
-                  }
+                  "state": {},
+                  "icon": "lucide-list",
+                  "title": "Outline"
                 }
               }
             ],
@@ -1341,7 +1546,9 @@
                     "file": "To-Do/To-Do.md",
                     "mode": "source",
                     "source": false
-                  }
+                  },
+                  "icon": "lucide-file",
+                  "title": "To-Do"
                 }
               },
               {
@@ -1350,7 +1557,6 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Algebra (class).md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -1376,7 +1582,9 @@
                       "scale": 1.499999999999996,
                       "close": true
                     }
-                  }
+                  },
+                  "icon": "lucide-git-fork",
+                  "title": "Graph view"
                 }
               }
             ],
@@ -1389,6 +1597,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
+          "obisidian-note-linker:Note Linker": false,
           "obsidian-git:Open Git source control": false,
           "omnisearch:Omnisearch": false,
           "switcher:Open quick switcher": false,
@@ -1402,7 +1611,7 @@
         }
       },
       "active": "3ed859c9623fbc80",
-      "mtime": "2024-10-04T12:04:17+02:00"
+      "mtime": "2025-01-04T14:25:05+01:00"
     },
     "Basi Dati": {
       "main": {
@@ -1430,17 +1639,17 @@
                 }
               },
               {
-                "id": "2d8ecacc10124020",
+                "id": "6f1df3a6db03cf77",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/archive/File B-tree.md",
+                    "file": "3. MOCS/Uni MOC/archive/Copertura Minimale.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "File B-tree"
+                  "title": "Copertura Minimale"
                 }
               }
             ],
@@ -1676,8 +1885,8 @@
           "markdown-importer:Open format converter": false
         }
       },
-      "active": "2d8ecacc10124020",
-      "mtime": "2024-12-13T11:28:40+01:00"
+      "active": "6f1df3a6db03cf77",
+      "mtime": "2025-01-13T10:51:26+01:00"
     },
     "Sistemi Operativi": {
       "main": {
@@ -1702,6 +1911,20 @@
                   "pinned": true,
                   "icon": "lucide-file",
                   "title": "Sistemi Operativi 1 (class)"
+                }
+              },
+              {
+                "id": "c2b2fdbfb93bdf84",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/archive/Algoritmi di Scheduling.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Algoritmi di Scheduling"
                 }
               }
             ]
@@ -1937,8 +2160,8 @@
         }
       },
       "active": "01abab4389c228fc",
-      "mtime": "2024-12-18T09:55:31+01:00"
+      "mtime": "2025-01-08T14:47:46+01:00"
     }
   },
-  "active": "Basi Dati"
+  "active": "Probabilità"
 }

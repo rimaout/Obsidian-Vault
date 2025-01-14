@@ -4,7 +4,7 @@ programming language: "[[Java MOC]]"
 related: 
 completed: false
 created: 2024-07-17T15:34
-updated: 2024-07-18T12:20
+updated: 2025-01-06T13:10
 ---
 >[!abstract] Index
 >1. 
@@ -25,10 +25,10 @@ Ci sono diverse librerie che premetto di implementare una Game Window, in questo
 #### Componenti
 
 Per implementare una Game Window in [[Java Swing]] abbiamo bisogno di 2 componenti principali:
-	1. **[[#JFrame]]:** che si occupa della generazione del frame della finestra.
-	2. **[[#JPanel]]:** che si occupa della generazione dell' "immagine" contenuta del frame.
+1. **[[#JFrame]]:** che si occupa della generazione del frame della finestra.
+2. **[[#JPanel]]:** che si occupa della generazione dell' "immagine" contenuta del frame.
 	
-	![[Pasted image 20240718122039.png|300]]
+![[Pasted image 20240718122039.png|300]]
 
 ---
 ## JFrame

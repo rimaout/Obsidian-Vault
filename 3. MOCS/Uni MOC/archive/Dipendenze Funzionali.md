@@ -6,7 +6,7 @@ academic year: 2024/2025
 related: "[[Progettazione basi di dati - Problemi e Vincoli]]"
 completed: true
 created: 2024-10-24T18:09
-updated: 2024-11-16T17:05
+updated: 2025-01-07T18:41
 ---
 >[!abstract] Related
 >- [[Progettazione basi di dati - Problemi e Vincoli]]
@@ -73,7 +73,7 @@ Dato uno schema di relazione $R$ e un insieme $F$ di dipendenze funzionali su $R
 
 In altre parole la chiusura di un insieme di dipendenze funzionali è l'insieme di tutte le dipendenze funzionali che possono essere derivate dalle dipendenze funzionali dell'insieme originale
 
-- **Notazione:** Lo scriviamo $F^{+}$.
+- **Notazione:** scriviamo $F^{+}$.
 - **oss:** $F \subseteq F^{+}.$
 
 >[!example] Esempio

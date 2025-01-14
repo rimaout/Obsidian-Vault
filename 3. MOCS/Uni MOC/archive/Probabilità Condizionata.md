@@ -6,7 +6,7 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2024-10-14T15:10
-updated: 2024-10-21T14:44
+updated: 2025-01-13T11:40
 ---
 >[!abstract] Index
 >1. [[#Probabilità Condizionata]]
@@ -32,13 +32,6 @@ updated: 2024-10-21T14:44
 >$$
 >P(F \vert E) = \frac{P(F) \cdot P(E \vert F) }{P(E)}
 >$$
->
->**Probabilità Totale + Beyes:**
->
->$$
->P(F \vert E) = \frac{P(F) \cdot P(E \vert F) }{P(F)\cdot P(F) + P(E^{c})\cdot P(E \vert F^{c})}
->$$
->
 
 ---
 
@@ -213,12 +206,6 @@ $$
 >P(E) = \sum^{n}_{i=1} P(F_{i}) \cdot P(E \vert F_{i})
 >$$
 
----
-## Probabilità Totale + Bayes
-
-$$
-P(F \vert E) = \frac{P(F) \cdot P(E \vert  F) }{P(F)\cdot P(F) + P(E^{c})\cdot P(E \vert  F^{c})}
-$$
 ---
 ## Proposizione 3
 

@@ -1,12 +1,9 @@
 ---
 created: 2024-09-23T16:18
-updated: 2024-12-13T12:27
+updated: 2025-01-13T11:30
 Main Moc: "[[Uni MOC]]"
 academic year: 2024/2025
 ---
-**Sito Corso:** [link](https://drive.google.com/drive/folders/1ger_KNOx4Uk9rszz_T9U1EYD20dfiVc6)
-**Playlist Youtube:** [link](https://www.youtube.com/watch?v=Q8un3ma7UVw&list=PL056CC710F7E17321&index=2)
-
 >[!warning] Manca questa parte
 >Lezione 22 Nov [link](https://drive.google.com/drive/folders/10VKiGTtRtk1o3Y6BigF9bBqydGLgoJbM)
 >
@@ -41,7 +38,7 @@ academic year: 2024/2025
 >[!note] Tipi di variabili Aleatorie Discrete
 >- [[Variabile Aleatoria di Bernoulli]] 🟢
 >- [[Variabile Aleatoria di Binomiale]] 🟡 (fare dim)
->- [[Variabile Aleatoria di Negativa]] 🟡 (fare dim)
+>- [[Variabile Aleatoria Binomiale Negativa]] 🟡 (fare dim)
 >- [[Variabile Aleatoria di Poisson]] 🟡 (fare dim)
 >- [[Variabile Aleatoria Geometrica]] 🟡 (fare dim)
 >- [[Variabile Aleatorie Ipergeometrica]] 🟢 (aggiungi più esempi)
@@ -51,3 +48,7 @@ academic year: 2024/2025
 - [[Variabili Aleatorie Identicamente Distribuite]]
 
 - [[Lezione 13 Dec Prob]]
+  
+  
+  
+  [[Formule Esame CP]]

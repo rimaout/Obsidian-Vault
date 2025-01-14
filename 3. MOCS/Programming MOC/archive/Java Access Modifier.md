@@ -5,7 +5,7 @@ related:
   - "[[Java Incapsulamento]]"
 completed: true
 created: 2024-06-16T18:49
-updated: 2024-11-18T20:20
+updated: 2025-01-13T16:39
 ---
 >[!abstract] Index
 >1. [[#TLDR]]
@@ -16,12 +16,12 @@ updated: 2024-11-18T20:20
 >- [[Java MOC]]
 >- [[Java Incapsulamento]]
 
--[](Java%20Incapsulamento.md) | Class | Package | Subclass | World |
-| --------- | ----- | ------- | -------- | ----- |
-| public    | Y     | Y       | Y        | Y     |
-| protected | Y     | Y       | Y        | N     |
-| default   | Y     | Y       | N        | N     |
-| private   | Y     | N       | N        | N     |
+| Class     | Package | Subclass | World |     |
+| --------- | ------- | -------- | ----- | --- |
+| public    | Y       | Y        | Y     | Y   |
+| protected | Y       | Y        | Y     | N   |
+| default   | Y       | Y        | N     | N   |
+| private   | Y       | N        | N     | N   |
 
 ---
 ## Java Access Modifiers

@@ -5,7 +5,7 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2024-11-25T09:41
-updated: 2024-11-28T10:58
+updated: 2025-01-08T17:49
 ---
 >[!abstract] Related
 >- 
@@ -31,7 +31,7 @@ La decomposizione che si ottiene dall’algoritmo che studieremo non è l’unic
 Prima di continuare è importante conoscere il concetto di [[Copertura Minimale|copertura minimale]] di un insieme $F$ di dipendenze funzionali.
 
 $$
-\begin{align}
+\begin{align*}
 &S:=\varnothing \\
 &\mathbf{for\,\,every} A\in R\text{ tale che }A\text{ non è coinvolto in nessuna dipendenza funzionale in F} \\
 &\qquad S:=S\cup \{A\} \\\\
@@ -42,7 +42,7 @@ $$
 &\qquad\rho:=\rho \cup \{R\} \\ \\
 &\mathbf{else}\ \; \mathbf{for\,\,every\,\,}X\to A \\
 &\qquad\qquad \rho:=\rho \cup \{XA\} \\
-\end{align}
+\end{align*}
 $$
 
 >[!note] Input/Output
@@ -56,7 +56,7 @@ $$
 >- $\rho$ preserva $F$
 >- $\rho$ ha un [[Decomposizione con Join senza Perdita (Verifica)|join senza perdita]]
 
->[!warning] Spiega
+>[!warning] Spiegazione
 >***Primo FOR:*** inserisce dentro $S$ tutti gli attributi che non compaiono in nessuna delle dipendenze funzionali di $F$.
 >
 >***Primo IF:*** Se $S$ non è vuoto allora

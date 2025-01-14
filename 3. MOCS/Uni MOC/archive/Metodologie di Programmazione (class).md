@@ -4,7 +4,7 @@ academic year: 2023/2024
 related:
   - "[[Java MOC]]"
 created: 2024-02-27T09:04
-updated: 2024-12-14T10:20
+updated: 2025-01-08T15:25
 ---
 ---
 
@@ -51,13 +51,15 @@ updated: 2024-12-14T10:20
 
 ---
 ## Progetto
-- [[Relazione Bubble Bobble]]
+- [[Introduzione - Progetto Bubble Bobble]]
 - [[Game Window]]
-- [[Bubble Drops]]
-- [[Trucchi MVC]]
-  
-**annotations:**
-- ***Java Doc:*** The methods with the @Override annotation do not have JavaDoc comments because they are implementing methods from the InputMethods interface. It is common practice to document the interface methods, and the implementing methods inherit those comments. However, you can still add JavaDoc comments to the overridden methods if you want to provide additional details or context.
-## Domande Scritta Esame
-- [[Domanda Scritta Esame Metodologia di Programmazione]]
+- [[Bolle e Proiettili]]
+- [[Punti e BubbleDrops]]
+- [[Livelli e Mappe]] 🟢
+- [[Design Pattern]]
+- [[Gestione Utenti]]
 
+---
+## Domande Esame
+- [[Domanda Scritta Esame Metodologia di Programmazione]]
+- [[Domanda Orali Esame Metodologia di Programmazione]]

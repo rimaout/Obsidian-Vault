@@ -1,6 +1,6 @@
 ---
 created: 2024-10-05T20:08
-updated: 2024-12-20T10:38
+updated: 2025-01-09T19:15
 ---
 👋 Welcome to my monthly log! This is a space that serves as a way to keep track of and document what I do and experience throughout the year. 
 
@@ -11,7 +11,7 @@ Here, I’ll update on my projects, the books I’m reading, my university journ
 ---
 # November 2024 🌰
 
-As I predicted last month, the initial relaxed atmosphere at the start of university didn't last long. By November, it's become clear that everyone is starting to fall behind with their studying schedule, and obviously , I'm no exception.
+As I predicted last month, the initial relaxed atmosphere at the start of university didn't last long. By November, it's become clear that everyone is starting to fall behind with their studying schedule, and obviously, I'm no exception.
 
 To take back control on the situation, I decided to start going to the university quite early to work on my coursework in the study room of my faculty. I find it much easier to stay focused in this environment, probably due to the social pressure that motivates me to keep studying instead of getting distracted in front of all the other people.
 
@@ -45,7 +45,7 @@ I know that this might seem like a little bit of a sales pitch for my faculty, b
 
 ## Site Update
 
-This moth I had fun modifying and messing around with this site. Thanks to my DevOps skills, I managed to break the site multiple times, but I’m happy to report that everything is now up and running "smoothly".
+This month I had fun modifying and messing around with this site. Thanks to my DevOps skills, I managed to break the site multiple times, but I’m happy to report that everything is now up and running "smoothly".
 
 Here are some of the changes I made to the text formatting:
 
@@ -179,6 +179,8 @@ If you're intrigued by this project, I suggest starting with their [first video 
 ---
 ## 📦 Log Archive
 
+- [[🚧 January 2025 (log)]]
+- [[🚧 December 2024 (log)]]
 - [[🌰 November 2024 (Log)]]
 - [[🏫 October 2024 (Log)]]
 - [[🕹️ September 2024 (Log)]]

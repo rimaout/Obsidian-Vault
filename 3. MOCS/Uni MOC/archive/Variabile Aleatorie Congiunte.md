@@ -6,7 +6,7 @@ related:
   - "[[Variabili Aleatorie]]"
 completed: true
 created: 2024-11-28T11:46
-updated: 2024-12-02T10:35
+updated: 2025-01-08T10:48
 ---
 
 >[!abstract] Related
@@ -283,14 +283,18 @@ In una v.a. discreta congiunta, le densità che la compongono vengono chiamata *
 >>
 >>![[Pasted image 20241125151035.png|800]]
 
->[!warning] Prop
+>[!warning] Prop. Somma
 >
 >$$
->E[X_{1} + \dots+ x_{n}] = E[X_{1}] + \dots + E[X_{n}]
+>E[X + Y] = E[X] + E[Y]
 >$$
 >
 >$$
->E[a_{1}X_{1} + \dots+ a_{n}x_{n}] = a_{1}E[X_{1}] + \dots + a_{n}E[X_{n}]
+>E[X_{1} + \dots+ X_{n}] = E[X_{1}] + \dots + E[X_{n}]
+>$$
+>
+>$$
+>E[a_{1}X_{1} + \dots+ a_{n}X_{n}] = a_{1}E[X_{1}] + \dots + a_{n}E[X_{n}]
 >$$
 >
 >più in generale dai $a_{1}, a_{2}, \dots , a_{n} \in \mathbb{R}$
@@ -327,3 +331,11 @@ In una v.a. discreta congiunta, le densità che la compongono vengono chiamata *
 >>>$$
 >>
 >>***Notiamo*** che il secondo metodo non è altro i procedimento con cui si ottiene la [[Variabile Aleatoria di Binomiale#^77219d|formula del valore atteso di una variabile binomiale]] $E[X] = np$
+>
+
+>[!warning] Prop. Prodotto
+>Questo vale soltanto se sono **indipendenti:**
+>$$
+>E[XY] = E[X] \cdot  E[Y]
+>$$
+

@@ -6,7 +6,7 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2024-10-29T15:31
-updated: 2024-12-07T11:15
+updated: 2025-01-13T12:37
 ---
 >[!abstract] Related
 >- [[Variabili Aleatorie]]
@@ -162,6 +162,8 @@ Una variabile aleatoria $X$ è detta **discreta** se i valori che può assumere 
 >E[aX+b] = aE[X] + b
 >$$
 >
+>il valore atteso è lineare
+>
 >>[!warning]- Dimostrazione
 >>
 >>Sia $\{ x_{i} \}_{i \in I}$ l'insieme dei valori assunti dalla v.a. $X$
@@ -186,7 +188,7 @@ Una variabile aleatoria $X$ è detta **discreta** se i valori che può assumere 
 >>E[3X-500] = 3E[X] - 500 = 3000 - 500 = 2500
 >>$$
 >
->>**oss:** $E[a + X + Yc] = E[a] + E[X] + E[Yc]$
+>>**oss:** $E[aX + bY + y] = aE[X] + bE[Y] + c$
 
 ---
 ## Funzione di Distribuzione (o Ripartizione)
@@ -195,10 +197,10 @@ Una variabile aleatoria $X$ è detta **discreta** se i valori che può assumere 
 >La funzione di distribuzione (o ripartizione) è una funzione matematica che descrive la probabilità che una variabile aleatoria assuma valori inferiori o uguali a un certo valore.
 >
 >**Matematicamente:**
->Data una variabile aleatoria X, la sua funzione di distribuzione è definiti come:
+>Data una variabile aleatoria $X$, la sua funzione di distribuzione è definiti come:
 >
 >$$
->F_{X} : \mathbb{R} \to  [0,1] \text{ con } F_{X }(a) = P(X \leq a)\ \ \forall  a \in \mathbb{R} 
+>F_{X} : \mathbb{R} \to  [0,1] \text{ con } F_{X}(a) = P(X \leq a)\ \ \forall a \in \mathbb{R} 
 >$$
 
 >[!example]- Esempio 1
@@ -227,7 +229,8 @@ Una variabile aleatoria $X$ è detta **discreta** se i valori che può assumere 
 >
 >Quindi, la funzione di distribuzione di $X$ è:
 >
->$$F_{X}(a) = \begin{cases}
+>$$
+>F_{X}(a) = \begin{cases}
 >0 & \text{se } a < 1 \\
 >1/6 & \text{se } 1 \leq a < 2 \\
 >2/6 & \text{se } 2 \leq a < 3 \\
@@ -235,8 +238,8 @@ Una variabile aleatoria $X$ è detta **discreta** se i valori che può assumere 
 >4/6 & \text{se } 4 \leq a < 5 \\
 >5/6 & \text{se } 5 \leq a < 6 \\
 >1 & \text{se } a \geq 6
->\end{cases}$$
->
+>\end{cases}
+>$$
 
 >[!example]- Esempio 2
 >Estraggo 3 carte da un mazzo da 40 e definiamo una variabile aleatoria $X$ come $X :=\# \text{Carte di bastoni uscite}$ 
@@ -406,7 +409,7 @@ Una variabile aleatoria $X$ è detta **discreta** se i valori che può assumere 
 >\text{Var}(aX + b) = a^{2}\text{Var}(X)
 >$$
 >
->Notiamo che le variabili addizionali vengono eliminate e quelle moltiplicative aplificate
+>Notiamo che le variabili addizionali vengono eliminate e quelle moltiplicative amplificate, la varianza è quadratica.
 >
 >>[!example] Esempio
 >>***DA FAREEE metti esempio fatto con prof sostitutivo***
@@ -474,8 +477,4 @@ Una variabile aleatoria $X$ è detta **discreta** se i valori che può assumere 
 >
 >>[!example] Esempio
 >>***DA FAREEE metti esempi  visto con il prof sostitutivo*** 
-
----
-## Co-Varianza
-
 

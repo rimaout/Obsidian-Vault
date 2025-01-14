@@ -4,9 +4,9 @@ class: "[[Basi di Dati 1 (class)]]"
 academic year: 2024/2025
 related:
   - "[[Introduzione all'organizzazioni dei database]]"
-completed: false
+completed: true
 created: 2024-12-04T11:50
-updated: 2024-12-19T10:12
+updated: 2024-12-20T10:57
 ---
 >[!abstract] Related
 >- [[Introduzione all'organizzazioni dei database]]
@@ -57,18 +57,21 @@ Una qualsiasi operazione su un file hash richiede:
 >Dato che l’inserimento di nuovi record viene effettuato sull’ultimo bucket, a volte la bucket directory può contenere anche un puntatore all’ultimo record di ogni bucket (oltre che il puntatore all'inizio).
 
 >[!note] Costo Operazioni
->![[Pasted image 20241219100233.png|500]]
 >
->Dove:
+>Definiamo:
 >- $n$ è numero di record
 >- $B$ è numero di bucket
-
----
-## Osservazione
-
-Ovviamente più bucket abbiamo più è basso il costo delle operazioni, ma dobbiamo ci sono dei fattori che limita il numero di bucket che possiamo utilizzare:
-- Ogni bucket deve avere almeno un blocco
-- La bucket directory deve avere una dimensione tale da essere mantenuta in memoria principale altrimenti effettueremo accessi per leggere i blocchi della bucket directory.
+>  
+>Se la funzione di hash distribuisce uniformemente i record nei bucket allora ogni bucket è consistito da $n/B$ blocchi.
+>
+Di conseguenza, il costo di qualsiasi operazione può essere approssimato a $1/B$ del costo della stessa operazione se il file fosse stato organizzato come una heap.
+>
+>Ciò è dovuto al fatto che, una volta trovato il bucket corretto (il cui costo è trascurabile grazie alla funzione di hash), dobbiamo eseguire l'operazione sul bucket stesso come se fosse una heap, ma con una dimensione ridotta di $n/B$ record invece di $n$.
+>
+>>[!warning] Dimensione massima della bucket directory
+>>Ovviamente più bucket abbiamo più è basso il costo delle operazioni, ma dobbiamo ci sono dei fattori che limita il numero di bucket che possiamo utilizzare:
+>>- Ogni bucket deve avere almeno un blocco.
+>>- La bucket directory deve avere una dimensione tale da essere mantenuta in memoria principale altrimenti effettueremo accessi per leggere i blocchi della bucket directory.
 
 ---
 ## Esercizi

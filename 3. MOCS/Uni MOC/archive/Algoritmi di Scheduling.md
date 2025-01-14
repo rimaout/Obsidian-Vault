@@ -6,7 +6,7 @@ academic year: 2024/2025
 related: "[[Scheduling]]"
 completed: true
 created: 2024-10-28T16:51
-updated: 2024-11-07T12:30
+updated: 2025-01-04T14:51
 ---
 
 >[!abstract] Related
@@ -212,3 +212,13 @@ $$
 Quindi non prende in considerazione soltanto il tempo di esecuzione del processo ma anche da quanto tempo sta aspettato.
 
 ![[Pasted image 20241106192207.png|750]]
+
+
+$$
+\frac{\sqrt{ 5 }}{\int^{+\infty }_{-\infty } 22  \, dx } = \textcolor{orange}{\text{puzzi tanto}}
+$$
+
+$$
+a \wedge b \vee  c \times s
+$$
+

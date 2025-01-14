@@ -7,7 +7,7 @@ related:
   - "[[Variabile Aleatorie Congiunte]]"
 completed: true
 created: 2024-12-02T10:35
-updated: 2024-12-02T12:10
+updated: 2025-01-13T10:54
 ---
 >[!abstract] Related
 >- [[Variabili Aleatorie]]
@@ -28,7 +28,7 @@ Delle variabili aleatorie si dicono indipendenti quando per ogni v.a. il valore 
 >
 >$\forall A_{1}, A_{2},..,A_{n} \subset \mathbb{R}$
 >
->**Ovvero:** Se ho un esperimento formato da sottoesperimenti operativamente indipendenti (non si influenzano) allora variabili aleatorie che si riferiscono a sottoesperimenti diversi sono tra loro indipendenti.
+>>***Ovvero:*** Se ho un esperimento formato da sotto-esperimenti operativamente indipendenti (non si influenzano) allora variabili aleatorie che si riferiscono a sotto-esperimenti diversi sono tra loro indipendenti.
 
 >[!example] Esempio
 >Lanciamo un dado 20 volte
@@ -52,10 +52,10 @@ Delle variabili aleatorie si dicono indipendenti quando per ogni v.a. il valore 
 >- $X$ assume i valori $\{ x_{i} \}_{i\in I}$
 >- $Y$ assume i valori $\{y_{j}\}_{j \in J}$
 >
->$X e Y$ sono indipendenti se: 
+>$X$ e $Y$ sono indipendenti se e solo se: 
 >
 >$$
->P_{X,Y}(x_{i}, y_{j}) = P_{X}(x_{i})P_{Y}(y_{j})\ \ \ \ \forall i \in I, \,j \in J
+>P_{X,Y}(x_{i}, y_{j}) = P_{X}(x_{i}) \cdot  P_{Y}(y_{j})\ \ \ \ \forall i \in I, \,j \in J
 >$$
 
 >[!warning] Scorciatoia
@@ -70,3 +70,17 @@ Delle variabili aleatorie si dicono indipendenti quando per ogni v.a. il valore 
 >&P_{Y}(y_{j}) = \sum_{i}P_{X,Y} (x_{i}, y_{j})
 >\end{align*}
 >$$
+
+## Valore atteso
+
+$$
+E[XY] = E[X]\cdot  E[Y]
+$$
+
+## Varianza
+
+## Covarianza
+
+$$
+\text{Cov}(X,Y) = 0
+$$

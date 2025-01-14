@@ -7,7 +7,7 @@ related:
   - "[[Dipendenze Funzionali]]"
 completed: true
 created: 2024-11-09T18:10
-updated: 2024-11-13T14:35
+updated: 2025-01-07T19:03
 ---
 >[!abstract] Related
 >- [[Dipendenze Funzionali]]
@@ -33,7 +33,7 @@ Denotiamo con $F^{A}$ l’insieme di dipendenze funzionali definito nel modo seg
 >
 >Se $Y \subseteq X \subseteq R$ allora $X\to Y \in F^{A}$
 >
->>**Esempio:**
+>>***Esempio:***
 >>Supponiamo di avere un insieme di attributi $R = \{Indirizzo, Città, Provincia\}$ e un insieme di dipendenze funzionali $F^{A}$ definito come sopra.
 >>
 >>Se consideriamo l'insieme $X = \{Indirizzo, Città, Provincia\}$ e l'insieme $Y = \{Città\}$, possiamo vedere che $Y \subseteq X \subseteq R$.
@@ -47,7 +47,7 @@ Denotiamo con $F^{A}$ l’insieme di dipendenze funzionali definito nel modo seg
 >[!danger] Assioma dell'Aumento
 >Se $X\to Y \in F^{A}$ allora $XZ \to YZ \in F^{A}$, per ogni $Z \in R$
 >
->>**Esempio:**
+>>***Esempio:***
 >>Supponiamo di avere un insieme di attributi $R = \{Nome, Cognome, Età\}$ e un insieme di dipendenze funzionali $F^{A}$ definito come sopra.
 >>
 >>Se consideriamo l'insieme $X = \{Nome, Cognome\}$ e l'insieme $Y = \{Nome\}$, possiamo vedere che $X \to Y \in F^{A}$, ovvero $\{Nome, Cognome\} \to \{Nome\} \in F^{A}$.
@@ -59,7 +59,7 @@ Denotiamo con $F^{A}$ l’insieme di dipendenze funzionali definito nel modo seg
 >[!danger] Assioma della Transitività
 >Se $X\to Y\in F^{A}$ e $Y \to Z \in F^{A}$ allora $X \to Z \in F^{A}$
 >
->>**Esempio:**
+>>***Esempio***
 >>Supponiamo di avere un insieme di attributi $R = \{Nome, Cognome, Indirizzo, Città\}$ e un insieme di dipendenze funzionali $F^{A}$ definito come sopra.
 >>
 >>Se consideriamo l'insieme $X = \{Nome, Cognome\}$ e l'insieme $Y = \{Indirizzo\}$, possiamo vedere che $X \to Y \in F^{A}$, ovvero $\{Nome, Cognome\} \to \{Indirizzo\} \in F^{A}$.
@@ -127,7 +127,7 @@ Altre tre regole che sono conseguenza degli assiomi di Armstrong che consentono 
 >
 >Quindi ogni stanza legale se due tuple sono uguali su $X$ allora sono uguali su tutti gli attributi della chiusura di $X$, ovviamente se $F^{A} = F^{+}$ 
 >
->**oss1:** la chiusura di $X$ non può essere mai vuota perché sicuramente $X$ determina se stesso ($X \subseteq X^{+}_{ F}$)
+>***oss*** la chiusura di $X$ non può essere mai vuota perché sicuramente $X$ determina se stesso ($X \subseteq X^{+}_{ F}$)
 >
 >>[!example]- Esempio 1
 >>- $Cod.Fiscale \to Comune$
@@ -149,8 +149,8 @@ Altre tre regole che sono conseguenza degli assiomi di Armstrong che consentono 
 >>
 >>Siano date le seguenti dipendenze funzionali:
 >>
->>* `Modello → Marca`
->>* `Modello → Colore`
+>>- `Modello → Marca`
+>>- `Modello → Colore`
 >>
 >>**Chiusure degli attributi**
 >>

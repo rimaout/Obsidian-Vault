@@ -1,10 +1,10 @@
 ---
 created: 2024-11-17T17:17
-updated: 2024-12-20T10:36
+updated: 2025-01-09T18:32
 tags:
   - monthly-log
 ---
-As I predicted last month, the initial relaxed atmosphere at the start of university didn't last long. By November, it's become clear that everyone is starting to fall behind with their studying schedule, and obviously , I'm no exception.
+As I predicted last month, the initial relaxed atmosphere at the start of university didn't last long. By November, it's become clear that everyone is starting to fall behind with their studying schedule, and obviously, I'm no exception.
 
 To take back control on the situation, I decided to start going to the university quite early to work on my coursework in the study room of my faculty. I find it much easier to stay focused in this environment, probably due to the social pressure that motivates me to keep studying instead of getting distracted in front of all the other people.
 
@@ -36,9 +36,9 @@ I also try to do my part:
 
 I know that this might seem like a little bit of a sales pitch for my faculty, but it's just my way of expressing my gratitude and excitement to the people and the community that has created such a collaborative environment, and I want to share that with others.
 
-## Site Update
+## 🌐 Site Update
 
-This moth I had fun modifying and messing around with this site. Thanks to my DevOps skills, I managed to break the site multiple times, but I’m happy to report that everything is now up and running "smoothly".
+This month I had fun modifying and messing around with this site. Thanks to my DevOps skills, I managed to break the site multiple times, but I’m happy to report that everything is now up and running "smoothly".
 
 Here are some of the changes I made to the text formatting:
 
@@ -63,7 +63,7 @@ This month, I discovered that if you search for the site on _Google_ or _DuckDuc
 
 Using [pagespeed](https://duckduckgo.com/pagespeed.web.dev) to test the site's speed, I discovered that I can achieve even better performance by optimizing image sizes and converting them to more efficient web formats, such as WebP and AVIF.
 
-## What I'm reading
+## 📚 What I'm reading
 
 Not much has changed since my [[🏫 October 2024 (Log)|last log]]. I'm still reading [The Hitchhiker's Guide to the Galaxy](https://hardcover.app/books/the-ultimate-hitchhikers-guide), but I've slowed my pace and have only read about 100 pages since then. As painful as it is to admit, I don’t think I’ll be able to finish the book. My interest peaked around page 300, and I don’t see myself making it to the end of the series.
 
@@ -147,7 +147,7 @@ But if you are an uneducated Vogon and want to know the answer without reading t
 >>
 >
 >The Hitchiker's Guide to the Galaxy, Chapter 27; stolen from [here](https://scifi.stackexchange.com/questions/173600/what-is-the-original-42-quote-joke)  
-## Video of the Month
+## 📹 Video of the Month
 
 This time I'm not sharing just a Youtube video but an entire channel.
 

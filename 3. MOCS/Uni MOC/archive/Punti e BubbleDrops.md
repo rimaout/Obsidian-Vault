@@ -6,22 +6,21 @@ related:
   - "[[Relazione Bubble Bobble]]"
 completed: false
 created: 2024-08-28T13:23
-updated: 2024-09-16T11:44
+updated: 2025-01-08T15:45
 ---
 
-Senza l'uso di abilità speciali, l'unico modo per eliminare i nemici è catturarli in una bolla e farla esplodere.
-
-Ogni volta che il giocatore fa esplodere una bolla contenente un nemico, si verificano due eventi:
-
+Senza l'utilizzo di abilità speciali, l'unico modo per eliminare i nemici è catturarli in una bolla e poi farla esplodere, ogni volta che il giocatore fa esplodere una bolla contenente un nemico, si verificano due eventi:
 1. Il giocatore guadagna punti.
-2. Viene generato un alimento.
+2. Viene generato un frutto.
 
-> [!warning] Alimenti 
-> Il giocatore può raccogliere un alimento semplicemente passandoci sopra; la quantità di punti guadagnati dipende dal tipo di alimento.
+> [!warning] Frutta 
+> Il giocatore può raccogliere un frutto semplicemente passandoci sopra ricevendo dei punti, la quantità di punti ricevuti dipende dal tipo di alimento.
+
+La quantità di punti e il tipo di drop generato dipendono dalla quantità di bolle contenenti nemici che vengono fatte esplodere consecutivamente, questo meccanismo viene gestito attraverso l'esplosione a catena.
 
 ### Esplosioni a Catena
 
-Una delle meccaniche più affascinanti è l'esplosione a catena delle bolle. Infatti, ogni volta che una bolla esplode, provoca automaticamente l'esplosione di tutte le bolle con cui è in contatto.
+Una delle meccaniche più interessanti è l'esplosione a catena delle bolle. Infatti, ogni volta che una bolla esplode, provoca automaticamente l'esplosione di tutte le bolle con cui è in contatto.
 
 **Questa caratteristica è fondamentale per determinare:**
 - Il numero di punti che il giocatore riceverà dall'esplosione delle bolle.

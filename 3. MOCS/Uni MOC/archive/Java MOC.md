@@ -4,9 +4,10 @@ type: "[[Programming MOC]]"
 related:
   - "[[Programmazione ad Oggetti]]"
   - "[[Metodologie di Programmazione (class)]]"
-updated: 2024-09-12T17:48
+updated: 2025-01-13T16:41
 ---
 ---
+
 >[!abstract] Basics
 >- [[Hello Word in java]] 🟢
 >- [[Java Variables]] 🟢 
@@ -43,6 +44,8 @@ updated: 2024-09-12T17:48
 >- [[Java Incapsulamento]] 🟢
 >- [[Java Enumerations]] 🟢
 >- [[Java Interfaces]] 🟢
+>- [[Java Abstract Classes]]
+>- [[Java Final and Static Flags]]
 >- differenza tra over-raiding e over-loading [[MDP 21 Mar#Java method overriding|link]]
 
 >[!abstract] Extras

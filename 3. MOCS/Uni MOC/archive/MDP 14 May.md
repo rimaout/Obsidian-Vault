@@ -6,7 +6,7 @@ class:
 academic year: 2023/2024
 related: 
 completed: false
-updated: 2024-05-27T13:29
+updated: 2025-01-13T15:40
 ---
 ---
 
@@ -39,9 +39,10 @@ Su uno stream posso dichiarare più operazioni intermedie ma solo un unica (fina
 Le operazioni Intermedie possono essere:
 - **Stateless (senza stato):** non hanno nessun impatto sull'ordine delle esecuzioni intermedie, l'elaborazione dei vari elementi può procedere in modo indipendente (es. filter)
 
-- **Stateful (senza stato):** l'elaborazione di un elemento potrebbe dipendere da quella di altri elementi (es. sorted)
+- **Stateful (senza stato):** l'elaborazione di un elemento potrebbe dipendere da quella di altri elementi (es. sorted) (non possono essere eseguite in parallelo)
 
 ##### Stram su primitivi
+
 Steam di base opera su oggetti, ma esistono anche versioni analoghe per 3 tipi primitivi:
 - `intStream`
 - `DoubleStream`

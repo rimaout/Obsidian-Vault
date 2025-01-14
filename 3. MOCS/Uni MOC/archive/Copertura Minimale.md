@@ -6,7 +6,7 @@ related:
   - "[[Calcolo di una Decomposizione]]"
 completed: false
 created: 2024-11-25T09:40
-updated: 2024-11-28T09:10
+updated: 2025-01-13T10:16
 ---
 >[!abstract] Related
 >- [[Calcolo di una Decomposizione]]
@@ -145,7 +145,7 @@ Visto che ci troviamo in condizioni speciali vedremo che ci sono dei metodi semp
 ---
 ## Esempi
 
-**Vedi altre esercizi [[20. Algoritmo di decomposizione - Esercizi.pdf|qui]]**
+**Vedi altri esercizi [[20. Algoritmo di decomposizione - Esercizi.pdf|qui]]**
 
 >[!example] Esempio
 >***Calcolare la copertura minimale di:***
@@ -154,7 +154,7 @@ Visto che ci troviamo in condizioni speciali vedremo che ci sono dei metodi semp
 >$$
 >
 >$$
->F = \{ AB \to C,\ AB \to D,\ C \to E\ AB \to E,\ ABC \to D  \}
+>F = \{ AB \to CD,\ C \to E\ AB \to E,\ ABC \to D  \}
 >$$
 >
 >![[Pasted image 20241127110630.png|900]]
