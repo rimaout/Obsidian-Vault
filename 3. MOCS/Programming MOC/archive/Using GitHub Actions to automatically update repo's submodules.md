@@ -5,7 +5,7 @@ related:
   - "[[Quartz Setup]]"
 completed: true
 created: 2024-12-08T10:34
-updated: 2025-01-17T18:37
+updated: 2025-01-17T19:08
 ---
 
 >[!abstract] Related
@@ -227,6 +227,6 @@ The result will be a list of workflows you have to get the ID of the workflow cr
 ---
 ## The end
 
-That's it! With these you should now have a working setup that automatically updates the submodule in your parent repository whenever changes are made to the child repository.
+🥳 That's it! With these you should now have a working setup that automatically updates the submodule in your parent repository whenever changes are made to the child repository.
 
 ![](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExanpyZThld21iOHZtM2JwNTJpaGRqMHJkMm9jaHAyNjJkM2p1YnZiMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XreQmk7ETCak0/giphy.gif)

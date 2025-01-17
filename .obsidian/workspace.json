@@ -24,21 +24,35 @@
             }
           },
           {
-            "id": "7d31e7b985beda2c",
+            "id": "d1c0d310cdd79ce7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Bolle.md",
+                "file": "To-Do/Design Pattern.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bolle"
+              "title": "Design Pattern"
             }
           },
           {
-            "id": "662f7baf9d33e206",
+            "id": "8d2c5c70618f6f43",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. MOCS/Programming MOC/archive/Game Window.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Game Window"
+            }
+          },
+          {
+            "id": "87d186aa8cd4d984",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -50,23 +64,9 @@
               "icon": "lucide-file",
               "title": "Using GitHub Actions to automatically update repo's submodules"
             }
-          },
-          {
-            "id": "6ac275e5becab9bd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/archive/Livelli e Mappe.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Livelli e Mappe"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -308,26 +308,26 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "662f7baf9d33e206",
+  "active": "87d186aa8cd4d984",
   "lastOpenFiles": [
-    "3. MOCS/Uni MOC/archive/Bolle.md",
-    "3. MOCS/Programming MOC/archive/Using GitHub Actions to automatically update repo's submodules.md",
-    "3. MOCS/Uni MOC/archive/Livelli e Mappe.md",
-    "3. MOCS/Uni MOC/archive/Metodologie di Programmazione (class).md",
     "Storage/Backend/Monthly Logs/🚧 December 2024 (log).md",
     "Storage/Backend/Monthly Logs/Monthly Logs.md",
-    "3. MOCS/Uni MOC/archive/Power Ups.md",
+    "3. MOCS/Uni MOC/archive/Metodologie di Programmazione (class).md",
+    "3. MOCS/Programming MOC/archive/Game Window.md",
+    "To-Do/Design Pattern.md",
     "3. MOCS/Uni MOC/archive/Proiettili.md",
+    "3. MOCS/Uni MOC/archive/Punti e Bubble Drops.md",
+    "3. MOCS/Uni MOC/archive/Bolle.md",
+    "3. MOCS/Uni MOC/archive/Livelli e Mappe.md",
+    "3. MOCS/Uni MOC/archive/Power Ups.md",
+    "3. MOCS/Programming MOC/archive/Using GitHub Actions to automatically update repo's submodules.md",
     "3. MOCS/Uni MOC/archive/attachments/maitafilreprojectile.png",
     "3. MOCS/Uni MOC/archive/attachments/lightinigprojectile.png",
     "3. MOCS/Uni MOC/archive/attachments/bollaproj.png",
     "3. MOCS/Uni MOC/archive/attachments/bolleprojectile.png",
     "3. MOCS/Uni MOC/archive/attachments/projectileBubble.png",
-    "3. MOCS/Uni MOC/archive/Punti e Bubble Drops.md",
     "3. MOCS/Programming MOC/archive/Strategy (Design Pattern).md",
     "3. MOCS/Uni MOC/archive/Software Design Pattern.md",
-    "To-Do/Design Pattern.md",
-    "3. MOCS/Programming MOC/archive/Game Window.md",
     "3. MOCS/Uni MOC/archive/MDP 07 May.md",
     "3. MOCS/Uni MOC/archive/Introduzione - Progetto Bubble Bobble.md",
     "3. MOCS/Uni MOC/archive/Calcolo di una Decomposizione.md",
