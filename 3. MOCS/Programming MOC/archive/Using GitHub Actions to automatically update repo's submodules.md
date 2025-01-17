@@ -5,7 +5,7 @@ related:
   - "[[Quartz Setup]]"
 completed: true
 created: 2024-12-08T10:34
-updated: 2024-12-10T20:27
+updated: 2025-01-17T18:29
 ---
 
 >[!abstract] Related
@@ -200,7 +200,7 @@ jobs:
 >**Important:** Make sure to replace the following placeholders with your actual values:
 >
 >- `YOUR_TOKEN`: The name of the secret you created in [[#2. Save the token as a secret inside each repository|Step 2]] for your parent repository, in my case `PARENT_SUBMODULE_TOKEN`.
->- `<you_name/your-repo>`: The name of your parent repository, including you Github username, in my case *rimaout/Notes-In-Public*
+>- `<you_name/your-repo>`: The name of your parent repository, including you Github username, in my case *rimaout/Notes-In-Public* (open your Github repo page from a browser and reed the URL to get the right name)
 > - `<branch>`: The branch in your parent repository that you want to update, if you are using is `main`, but if you are using using this for you [quartz](https://quartz.jzhao.xyz/) site is `v4` .
 >- `<your_workflow_id>`: The ID of the workflow in your parent repository that you want to trigger, read [[#How to get a Github Workflow ID|this]] to learn how to get the workflow ID.
 
@@ -217,9 +217,12 @@ In particular you can use this command to get the list of workflows:
 curl -X GET -H "Authorization: token $YOUR_TOKEN_CODE" https://api.github.com/repos/$PARENT_REPO/actions/workflows
 ```
 
-Where you token need to be substitute with the token code generate in [[#1. Create access token|step 1]].
-
 The result will be a list of workflows you have to get the ID of the workflow created in step [[#3. Create workflow inside the child repository|step 3]], just search the same name.
+
+>**Important:** Make sure to replace the following placeholders with your actual values:
+>
+>- `$YOUR_TOKEN_CODE`: use the token code generate in [[#1. Create access token|step 1]].
+>- `$PARENT_REPO`: The name of your parent repository, *Notes-In-Public* (open your Github repo page from a browser and look the URL to get the right name)
 
 ---
 ## The end

@@ -3,7 +3,7 @@
   "cssTheme": "Border",
   "baseFontSize": 30,
   "interfaceFontFamily": "",
-  "textFontFamily": "Inter",
+  "textFontFamily": "Inter,Fast_Sans",
   "theme": "obsidian",
   "translucency": false,
   "monospaceFontFamily": "Cascadia Code PL",

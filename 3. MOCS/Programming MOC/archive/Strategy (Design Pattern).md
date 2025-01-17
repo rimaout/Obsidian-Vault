@@ -6,9 +6,9 @@ related:
   - "[[Metodologie di Programmazione (class)]]"
 completed: true
 created: 2024-07-09T15:38
-updated: 2024-07-12T19:26
+updated: 2025-01-17T16:57
 ---
->	[!abstract] Index
+>[!abstract] Index
 >1. [[#Introduzione]]
 >2. [[#Funzionamento]]
 >3. [[#Esempio]]

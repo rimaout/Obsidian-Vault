@@ -4,181 +4,55 @@
     "type": "split",
     "children": [
       {
-        "id": "91c725e60ec20fd8",
+        "id": "cd31465a07d80054",
         "type": "tabs",
         "children": [
           {
-            "id": "abcfcf229ce037ab",
+            "id": "b8f46099a55a4b8a",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Calcolo delle Probabilità (class).md",
+                "file": "3. MOCS/Uni MOC/archive/Metodologie di Programmazione (class).md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "Calcolo delle Probabilità (class)"
+              "title": "Metodologie di Programmazione (class)"
             }
           },
           {
-            "id": "16e933f3e9180e7a",
+            "id": "7d31e7b985beda2c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Variabile Aleatorie Congiunte.md",
+                "file": "3. MOCS/Uni MOC/archive/Bolle.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Variabile Aleatorie Congiunte"
+              "title": "Bolle"
             }
           },
           {
-            "id": "27ff07f7b9f6c6d6",
+            "id": "662f7baf9d33e206",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Proposizioni della Probabilità.md",
+                "file": "3. MOCS/Programming MOC/archive/Using GitHub Actions to automatically update repo's submodules.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Proposizioni della Probabilità"
-            }
-          },
-          {
-            "id": "81bdede1b29e421e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/archive/Variabile Aleatoria di Bernoulli.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Variabile Aleatoria di Bernoulli"
-            }
-          },
-          {
-            "id": "c7b0793b0af8f884",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/archive/Introduzione - Variabili Aleatorie.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Introduzione - Variabili Aleatorie"
-            }
-          },
-          {
-            "id": "452c20c08e26bfcf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/archive/Funzioni di Variabili Aleatorie.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Funzioni di Variabili Aleatorie"
-            }
-          },
-          {
-            "id": "c223edbe8e5797bf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/archive/Variabile Aleatorie Congiunte.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Variabile Aleatorie Congiunte"
-            }
-          },
-          {
-            "id": "08b84bf4c2b6901e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/archive/Variabili Aleatorie Indipendenti.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Variabili Aleatorie Indipendenti"
-            }
-          },
-          {
-            "id": "ab8c59cec682c3b9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/archive/Covarianza.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Covarianza"
-            }
-          },
-          {
-            "id": "91adbb18f90098c8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/archive/Variabili Aleatorie Indipendenti.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Variabili Aleatorie Indipendenti"
-            }
-          },
-          {
-            "id": "c6ebb8c8b3bd3236",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/archive/Variabile Aleatorie Congiunte.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Variabile Aleatorie Congiunte"
-            }
-          },
-          {
-            "id": "f3aa4f78f9b2d1e3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/archive/Covarianza.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Covarianza"
+              "title": "Using GitHub Actions to automatically update repo's submodules"
             }
           }
         ],
-        "currentTab": 11
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -209,7 +83,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "---",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -240,11 +114,12 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 392.504789352417,
+    "width": 246.5,
     "collapsed": true
   },
   "right": {
@@ -275,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Calcolo delle Probabilità (class).md",
+                "file": "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -285,7 +160,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Calcolo delle Probabilità (class)"
+              "title": "Backlinks for Metodologie di Programmazione (class)"
             }
           },
           {
@@ -294,12 +169,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Calcolo delle Probabilità (class).md",
+                "file": "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Calcolo delle Probabilità (class)"
+              "title": "Outgoing links from Metodologie di Programmazione (class)"
             }
           },
           {
@@ -322,14 +197,14 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Variabili Aleatorie Indipendenti.md"
+                "file": "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Variabili Aleatorie Indipendenti"
+              "title": "Outline of Metodologie di Programmazione (class)"
             }
           },
           {
-            "id": "2be710a38fb52417",
+            "id": "5a521e8af974de35",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -366,7 +241,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Variabile Aleatoria Gaussiana.md",
+                "file": "3. MOCS/Uni MOC/Uni_Classes/Metodologie di Programmazione (class).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -389,27 +264,26 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.0078125,
+                  "scale": 1,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Variabile Aleatoria Gaussiana"
+              "title": "Graph of Metodologie di Programmazione (class)"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 473.5,
+    "width": 350.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obisidian-note-linker:Note Linker": false,
       "obsidian-git:Open Git source control": false,
       "omnisearch:Omnisearch": false,
+      "obisidian-note-linker:Note Linker": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -420,45 +294,45 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "f3aa4f78f9b2d1e3",
+  "active": "662f7baf9d33e206",
   "lastOpenFiles": [
+    "Storage/Backend/Monthly Logs/🚧 December 2024 (log).md",
+    "Storage/Backend/Monthly Logs/Monthly Logs.md",
+    "3. MOCS/Uni MOC/archive/Bolle.md",
+    "3. MOCS/Uni MOC/archive/Metodologie di Programmazione (class).md",
+    "3. MOCS/Uni MOC/archive/Power Ups.md",
+    "3. MOCS/Uni MOC/archive/Proiettili.md",
+    "3. MOCS/Uni MOC/archive/attachments/maitafilreprojectile.png",
+    "3. MOCS/Uni MOC/archive/attachments/lightinigprojectile.png",
+    "3. MOCS/Uni MOC/archive/attachments/bollaproj.png",
+    "3. MOCS/Uni MOC/archive/attachments/bolleprojectile.png",
+    "3. MOCS/Uni MOC/archive/attachments/projectileBubble.png",
+    "3. MOCS/Uni MOC/archive/Punti e Bubble Drops.md",
+    "3. MOCS/Programming MOC/archive/Strategy (Design Pattern).md",
+    "3. MOCS/Uni MOC/archive/Software Design Pattern.md",
+    "3. MOCS/Uni MOC/archive/Livelli e Mappe.md",
+    "To-Do/Design Pattern.md",
+    "3. MOCS/Programming MOC/archive/Game Window.md",
+    "3. MOCS/Uni MOC/archive/MDP 07 May.md",
+    "3. MOCS/Uni MOC/archive/Introduzione - Progetto Bubble Bobble.md",
+    "3. MOCS/Uni MOC/archive/Calcolo di una Decomposizione.md",
+    "3. MOCS/Uni MOC/archive/Basi di Dati 1 (class).md",
+    "3. MOCS/Uni MOC/archive/Copertura Minimale.md",
     "3. MOCS/Uni MOC/archive/Calcolo delle Probabilità (class).md",
     "3. MOCS/Uni MOC/archive/Variabile Aleatorie Congiunte.md",
-    "3. MOCS/Uni MOC/archive/Metodologie di Programmazione (class).md",
-    "3. MOCS/Uni MOC/archive/Java MOC.md",
-    "3. MOCS/Uni MOC/archive/Punti e BubbleDrops.md",
-    "3. MOCS/Programming MOC/archive/Java Access Modifier.md",
-    "3. MOCS/Uni MOC/archive/MDP 14 May.md",
-    "3. MOCS/Uni MOC/archive/MDP 09 May.md",
-    "3. MOCS/Uni MOC/archive/MDP 07 May.md",
-    "3. MOCS/Uni MOC/archive/MDP 02 May.md",
-    "3. MOCS/Uni MOC/archive/MDP 23 Apr.md",
-    "3. MOCS/Uni MOC/archive/MDP 16 Apr.md",
+    "3. MOCS/Uni MOC/archive/Proposizioni della Probabilità.md",
+    "3. MOCS/Uni MOC/archive/Variabile Aleatoria di Bernoulli.md",
+    "3. MOCS/Uni MOC/archive/Introduzione - Variabili Aleatorie.md",
+    "3. MOCS/Uni MOC/archive/Funzioni di Variabili Aleatorie.md",
     "3. MOCS/Uni MOC/archive/Variabili Aleatorie Indipendenti.md",
     "3. MOCS/Uni MOC/archive/Covarianza.md",
-    "3. MOCS/Uni MOC/archive/Funzioni di Variabili Aleatorie.md",
-    "3. MOCS/Uni MOC/archive/Introduzione - Variabili Aleatorie.md",
-    "3. MOCS/Uni MOC/archive/Variabile Aleatoria di Bernoulli.md",
-    "3. MOCS/Uni MOC/archive/Proposizioni della Probabilità.md",
-    "3. MOCS/Uni MOC/archive/Perché le costanti additive non importano nella varianza?.md",
-    "3. MOCS/Uni MOC/archive/Indipendenza di Eventi.md",
-    "3. MOCS/Uni MOC/archive/Rapporto a Favore.md",
-    "3. MOCS/Uni MOC/archive/Spazzi di Probabilità con Esiti Equiparabili.md",
-    "3. MOCS/Uni MOC/archive/Probabilità Condizionata.md",
-    "3. MOCS/Uni MOC/archive/Formule Esame CP.md",
-    "3. MOCS/Uni MOC/archive/Copertura Minimale.md",
-    "3. MOCS/Uni MOC/archive/Basi di Dati 1 (class).md",
+    "3. MOCS/Uni MOC/archive/Java MOC.md",
     "3. MOCS/Uni MOC/archive/attachments/20. Algoritmo di decomposizione - Esercizi.pdf",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20241212111722.png",
     "Storage/Backend/Monthly Logs/attachments/Screenshot 2024-12-05 at 18.10.51.webp",
     "Storage/Backend/Monthly Logs/attachments/Pasted image 20241126113719 1.jpg",
     "Storage/Backend/Monthly Logs/attachments/Pasted image 20241126113719.jpg",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250108154432.png",
-    "3. MOCS/Uni MOC/archive/attachments/Screenshot 2025-01-07 at 21.53.49.png",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250107145750.png",
-    "3. MOCS/Uni MOC/archive/attachments/Screenshot 2025-01-07 at 9.49.43.png",
-    "3. MOCS/Uni MOC/archive/attachments/Screenshot 2025-01-07 at 10.10.59.png.png",
-    "3. MOCS/Uni MOC/archive/attachments/Screenshot 2025-01-07 at 10.10.59.png",
     "3. MOCS/Uni MOC/archive/Gestione dell'Input",
     "Untitled.canvas",
     "attachments",

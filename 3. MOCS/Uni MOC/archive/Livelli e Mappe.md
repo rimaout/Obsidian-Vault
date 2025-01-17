@@ -5,12 +5,12 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2025-01-06T21:24
-updated: 2025-01-08T15:23
+updated: 2025-01-17T16:54
 ---
 ---
 ## Livelli
 
-I livelli sono un elemento fondamentale del gioco.  Ogni livello è composto da una serie di elementi, tra cui la mappa, le tile, i nemici e le bolle. 
+I **livelli** sono un elemento fondamentale del gioco. Ogni livello è composto da una serie di elementi, tra cui la mappa, le tile, i nemici e le bolle. 
 
 A livelli pratico i livelli sono oggetti rappresentati da oggetti composti da cinque campi specifici: l'immagine della mappa, un array 2D di interi che rappresenta il tipo e la posizione delle tile, un array 2D di direzioni utilizzato per ricreare le correnti dei venti, un generatore di bolle che gestisce la posizione e il tipo di bolle speciali da generare, e una lista di nemici.
 

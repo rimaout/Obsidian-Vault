@@ -4,10 +4,8 @@ academic year: 2023/2024
 related:
   - "[[Java MOC]]"
 created: 2024-02-27T09:04
-updated: 2025-01-08T15:25
+updated: 2025-01-17T17:56
 ---
----
-
 >[!abstract] Lezioni
 >1. [[MDP 27 Feb]]
 >2. [[MDP 29 Feb]]
@@ -53,11 +51,15 @@ updated: 2025-01-08T15:25
 ## Progetto
 - [[Introduzione - Progetto Bubble Bobble]]
 - [[Game Window]]
-- [[Bolle e Proiettili]]
-- [[Punti e BubbleDrops]]
+- [[Proiettili]] 🟢
+- [[Bolle]]
+- [[Punti e Bubble Drops]] 🟢
+- [[Power Ups]] 🟢
 - [[Livelli e Mappe]] 🟢
-- [[Design Pattern]]
 - [[Gestione Utenti]]
+- [[Audio Manager]]
+- [[Design Pattern]]
+- [[Streams - Progetto]]
 
 ---
 ## Domande Esame
