@@ -5,12 +5,12 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2025-01-16T16:41
-updated: 2025-01-18T11:23
+updated: 2025-01-18T17:21
 ---
 
 I proiettili sono una tipologia di oggetti, ognuno con le sue abilità, ma che sono tutti accomunati dal fatto che si muovono orizzontalmente sulla mappa e che permettono di eliminare delle entità specifiche.
 
-Di tutti i "proiettili" presenti nel gioco originale, io ho deciso di implementare:
+Di tutti i "proiettili" presenti nel gioco originale, ho deciso di implementare:
 
 | Immagine                          | Nome                         |
 | --------------------------------- | ---------------------------- |

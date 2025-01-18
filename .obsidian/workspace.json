@@ -24,77 +24,21 @@
             }
           },
           {
-            "id": "3fcfdeddf87454d2",
+            "id": "3d0a964b7774c869",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Streams - Progetto.md",
+                "file": "3. MOCS/Uni MOC/archive/Proiettili.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Streams - Progetto"
+              "title": "Proiettili"
             }
           },
           {
-            "id": "3c2428b8846dacc0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/archive/Audio Manager.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Audio Manager"
-            }
-          },
-          {
-            "id": "542cdafd94c2032b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/archive/Audio Manager.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Audio Manager"
-            }
-          },
-          {
-            "id": "0d95208e7749b9ce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/archive/Livelli e Mappe.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Livelli e Mappe"
-            }
-          },
-          {
-            "id": "995296a4ecc68873",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/archive/Power Ups.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Power Ups"
-            }
-          },
-          {
-            "id": "8439f6eec376abe3",
+            "id": "466a840fea8e7214",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -108,7 +52,7 @@
             }
           },
           {
-            "id": "62b094b39599d898",
+            "id": "ff3f4cc85c25b21e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -122,7 +66,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -364,18 +308,18 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "62b094b39599d898",
+  "active": "ff3f4cc85c25b21e",
   "lastOpenFiles": [
     "3. MOCS/Uni MOC/archive/Metodologie di Programmazione (class).md",
     "3. MOCS/Uni MOC/archive/Bolle.md",
+    "3. MOCS/Uni MOC/archive/Proiettili.md",
+    "3. MOCS/Uni MOC/archive/Punti e Bubble Drops.md",
     "3. MOCS/Uni MOC/archive/Power Ups.md",
     "3. MOCS/Uni MOC/archive/Livelli e Mappe.md",
     "3. MOCS/Uni MOC/archive/Streams - Progetto.md",
     "3. MOCS/Uni MOC/archive/Audio Manager.md",
     "3. MOCS/Uni MOC/archive/Gestione Utenti.md",
     "3. MOCS/Uni MOC/archive/attachments/usermanagerviewexample.png",
-    "3. MOCS/Uni MOC/archive/Proiettili.md",
-    "3. MOCS/Uni MOC/archive/Punti e Bubble Drops.md",
     "3. MOCS/Uni MOC/archive/attachments/bubblechainreactionexample.png",
     "3. MOCS/Uni MOC/archive/attachments/bubblehitbox.png",
     "3. MOCS/Uni MOC/archive/attachments/emptybubble.png",
