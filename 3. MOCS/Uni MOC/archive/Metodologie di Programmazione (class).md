@@ -4,7 +4,7 @@ academic year: 2023/2024
 related:
   - "[[Java MOC]]"
 created: 2024-02-27T09:04
-updated: 2025-01-17T17:56
+updated: 2025-01-18T16:02
 ---
 >[!abstract] Lezioni
 >1. [[MDP 27 Feb]]
@@ -51,15 +51,18 @@ updated: 2025-01-17T17:56
 ## Progetto
 - [[Introduzione - Progetto Bubble Bobble]]
 - [[Game Window]]
+- [[Nemici]]
 - [[Proiettili]] 🟢
-- [[Bolle]]
+- [[Bolle]] 🟢
 - [[Punti e Bubble Drops]] 🟢
 - [[Power Ups]] 🟢
 - [[Livelli e Mappe]] 🟢
-- [[Gestione Utenti]]
-- [[Audio Manager]]
-- [[Design Pattern]]
+- [[Gestione Utenti]] 🟢
+- [[Audio Manager]] 🟢
 - [[Streams - Progetto]]
+- [[Design Pattern]]
+
+aggiungi ad UML l'serializable, oberver, observable, keyinpyt, jframe e jpanel
 
 ---
 ## Domande Esame

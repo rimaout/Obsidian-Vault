@@ -24,49 +24,105 @@
             }
           },
           {
-            "id": "d1c0d310cdd79ce7",
+            "id": "3fcfdeddf87454d2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "To-Do/Design Pattern.md",
+                "file": "3. MOCS/Uni MOC/archive/Streams - Progetto.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Design Pattern"
+              "title": "Streams - Progetto"
             }
           },
           {
-            "id": "8d2c5c70618f6f43",
+            "id": "3c2428b8846dacc0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Programming MOC/archive/Game Window.md",
+                "file": "3. MOCS/Uni MOC/archive/Audio Manager.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Game Window"
+              "title": "Audio Manager"
             }
           },
           {
-            "id": "87d186aa8cd4d984",
+            "id": "542cdafd94c2032b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Programming MOC/archive/Using GitHub Actions to automatically update repo's submodules.md",
+                "file": "3. MOCS/Uni MOC/archive/Audio Manager.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Using GitHub Actions to automatically update repo's submodules"
+              "title": "Audio Manager"
+            }
+          },
+          {
+            "id": "0d95208e7749b9ce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. MOCS/Uni MOC/archive/Livelli e Mappe.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Livelli e Mappe"
+            }
+          },
+          {
+            "id": "995296a4ecc68873",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. MOCS/Uni MOC/archive/Power Ups.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Power Ups"
+            }
+          },
+          {
+            "id": "8439f6eec376abe3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. MOCS/Uni MOC/archive/Bolle.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Bolle"
+            }
+          },
+          {
+            "id": "62b094b39599d898",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. MOCS/Uni MOC/archive/Punti e Bubble Drops.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Punti e Bubble Drops"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -308,24 +364,32 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "87d186aa8cd4d984",
+  "active": "62b094b39599d898",
   "lastOpenFiles": [
-    "Storage/Backend/Monthly Logs/🚧 December 2024 (log).md",
-    "Storage/Backend/Monthly Logs/Monthly Logs.md",
     "3. MOCS/Uni MOC/archive/Metodologie di Programmazione (class).md",
-    "3. MOCS/Programming MOC/archive/Game Window.md",
-    "To-Do/Design Pattern.md",
+    "3. MOCS/Uni MOC/archive/Bolle.md",
+    "3. MOCS/Uni MOC/archive/Power Ups.md",
+    "3. MOCS/Uni MOC/archive/Livelli e Mappe.md",
+    "3. MOCS/Uni MOC/archive/Streams - Progetto.md",
+    "3. MOCS/Uni MOC/archive/Audio Manager.md",
+    "3. MOCS/Uni MOC/archive/Gestione Utenti.md",
+    "3. MOCS/Uni MOC/archive/attachments/usermanagerviewexample.png",
     "3. MOCS/Uni MOC/archive/Proiettili.md",
     "3. MOCS/Uni MOC/archive/Punti e Bubble Drops.md",
-    "3. MOCS/Uni MOC/archive/Bolle.md",
-    "3. MOCS/Uni MOC/archive/Livelli e Mappe.md",
-    "3. MOCS/Uni MOC/archive/Power Ups.md",
+    "3. MOCS/Uni MOC/archive/attachments/bubblechainreactionexample.png",
+    "3. MOCS/Uni MOC/archive/attachments/bubblehitbox.png",
+    "3. MOCS/Uni MOC/archive/attachments/emptybubble.png",
+    "3. MOCS/Uni MOC/archive/attachments/Screenshot 2025-01-17 at 22.51.27.png",
+    "3. MOCS/Uni MOC/archive/attachments/enemybubble 1.png",
+    "3. MOCS/Uni MOC/archive/attachments/enemybubble.png",
+    "3. MOCS/Uni MOC/archive/attachments/lightingbubble.png",
+    "3. MOCS/Uni MOC/archive/attachments/waterbubble.png",
+    "To-Do/Design Pattern.md",
+    "3. MOCS/Programming MOC/archive/Game Window.md",
     "3. MOCS/Programming MOC/archive/Using GitHub Actions to automatically update repo's submodules.md",
+    "Storage/Backend/Monthly Logs/🚧 December 2024 (log).md",
+    "Storage/Backend/Monthly Logs/Monthly Logs.md",
     "3. MOCS/Uni MOC/archive/attachments/maitafilreprojectile.png",
-    "3. MOCS/Uni MOC/archive/attachments/lightinigprojectile.png",
-    "3. MOCS/Uni MOC/archive/attachments/bollaproj.png",
-    "3. MOCS/Uni MOC/archive/attachments/bolleprojectile.png",
-    "3. MOCS/Uni MOC/archive/attachments/projectileBubble.png",
     "3. MOCS/Programming MOC/archive/Strategy (Design Pattern).md",
     "3. MOCS/Uni MOC/archive/Software Design Pattern.md",
     "3. MOCS/Uni MOC/archive/MDP 07 May.md",
@@ -338,15 +402,7 @@
     "3. MOCS/Uni MOC/archive/Proposizioni della Probabilità.md",
     "3. MOCS/Uni MOC/archive/Variabile Aleatoria di Bernoulli.md",
     "3. MOCS/Uni MOC/archive/Introduzione - Variabili Aleatorie.md",
-    "3. MOCS/Uni MOC/archive/Funzioni di Variabili Aleatorie.md",
-    "3. MOCS/Uni MOC/archive/Variabili Aleatorie Indipendenti.md",
-    "3. MOCS/Uni MOC/archive/Covarianza.md",
     "3. MOCS/Uni MOC/archive/attachments/20. Algoritmo di decomposizione - Esercizi.pdf",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20241212111722.png",
-    "Storage/Backend/Monthly Logs/attachments/Screenshot 2024-12-05 at 18.10.51.webp",
-    "Storage/Backend/Monthly Logs/attachments/Pasted image 20241126113719 1.jpg",
-    "Storage/Backend/Monthly Logs/attachments/Pasted image 20241126113719.jpg",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250108154432.png",
     "3. MOCS/Uni MOC/archive/Gestione dell'Input",
     "Untitled.canvas",
     "attachments",
