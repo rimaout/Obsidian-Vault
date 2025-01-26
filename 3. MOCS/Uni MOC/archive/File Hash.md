@@ -6,12 +6,7 @@ related:
   - "[[Introduzione all'organizzazioni dei database]]"
 completed: true
 created: 2024-12-04T11:50
-updated: 2024-12-20T10:57
----
->[!abstract] Related
->- [[Introduzione all'organizzazioni dei database]]
->- [[Basi di Dati 1 (class)]]
-
+updated: 2025-01-24T14:14
 ---
 ## Introduzione
 
@@ -62,9 +57,20 @@ Una qualsiasi operazione su un file hash richiede:
 >- $n$ è numero di record
 >- $B$ è numero di bucket
 >  
->Se la funzione di hash distribuisce uniformemente i record nei bucket allora ogni bucket è consistito da $n/B$ blocchi.
+>Se la funzione di hash distribuisce uniformemente i record nei bucket allora ogni bucket è consistito da $n/B$ blocco.
 >
-Di conseguenza, il costo di qualsiasi operazione può essere approssimato a $1/B$ del costo della stessa operazione se il file fosse stato organizzato come una heap.
+>Il costo di ricerca è pari al costo di ricerca su bucket ottunuto attraverso alla funzione hash. In particolare se descriviamo il costo come numero di accessi in memoria avremo che:
+>
+>$$
+>\begin{align*}
+>&-\ \ \text{Costo Massimo} = \text{Numero blocchi del bucket}\\ \\
+>&-\ \text{Costo Medio} = \frac{\text{Numero blocchi del bucket}}{2}\\
+>\end{align*}
+>$$
+>
+>###### Differenza con [[File Heap]]
+>
+>Di conseguenza, il costo di qualsiasi operazione può essere approssimato a $1/B$ del costo della stessa operazione se il file fosse stato organizzato come una heap.
 >
 >Ciò è dovuto al fatto che, una volta trovato il bucket corretto (il cui costo è trascurabile grazie alla funzione di hash), dobbiamo eseguire l'operazione sul bucket stesso come se fosse una heap, ma con una dimensione ridotta di $n/B$ record invece di $n$.
 >
@@ -72,11 +78,4 @@ Di conseguenza, il costo di qualsiasi operazione può essere approssimato a $1/B
 >>Ovviamente più bucket abbiamo più è basso il costo delle operazioni, ma dobbiamo ci sono dei fattori che limita il numero di bucket che possiamo utilizzare:
 >>- Ogni bucket deve avere almeno un blocco.
 >>- La bucket directory deve avere una dimensione tale da essere mantenuta in memoria principale altrimenti effettueremo accessi per leggere i blocchi della bucket directory.
-
----
-## Esercizi
-
-Negli esempi che seguono (come per gli esercizi d'esame), a meno che non venga specificato diversamente dobbiamo assumere che:
-- Ogni record deve essere contenuto completamente in un blocco.
-- I blocchi vengono allocati per intero.
 

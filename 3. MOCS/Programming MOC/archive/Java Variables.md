@@ -5,7 +5,7 @@ programming language: "[[Java MOC]]"
 related:
   - "[[Java Literals]]"
 completed: true
-updated: 2024-05-27T13:29
+updated: 2025-01-25T19:16
 ---
 ---
 
@@ -98,7 +98,7 @@ Java programming language has its own set of rules and conventions for naming va
      
 - Variables must start with either a **letter** or an **underscore**, **\_** or a **$**.
     ```java
-    int age;  // valid name and good practice
+    int age;   // valid name and good practice
     int _age;  // valid but bad practice
     int $age;  // valid but bad practice
     ```
@@ -126,8 +126,7 @@ int Speed    // bad practise
 ```
 
 Java uses the **Camel case notation**, if we need to use variable names having more than one word, use all lowercase letters for the first word and capitalise the first letter of each subsequent word.  
+
 ```
 Examples: myAge, speedLimit
 ```
-
----

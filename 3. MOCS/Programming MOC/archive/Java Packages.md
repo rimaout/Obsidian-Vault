@@ -4,7 +4,7 @@ type: Programming Note
 programming language: "[[Java MOC]]"
 related: 
 completed: false
-updated: 2024-05-27T13:29
+updated: 2025-01-25T19:40
 ---
 ---
 
@@ -22,6 +22,7 @@ A package is simply a container that groups related types (Java classes, interfa
 
 ---
 ## Built-in Package
+
 Built-in packages are existing java packages that come along with the [JDK](https://www.programiz.com/java-programming/jvm-jre-jdk#jdk). 
 
 For example, `java.lang`, `java.util`, `java.io`, etc. For example:
@@ -44,5 +45,3 @@ class ArrayListUtilization {
 
 >[!warning] oss
 >You don't need to import `java.lang` because it’s already integrated with the java environment
-
---- 

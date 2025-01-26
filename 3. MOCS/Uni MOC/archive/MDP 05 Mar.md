@@ -6,7 +6,7 @@ class:
 academic year: 2023/2024
 related: 
 completed: false
-updated: 2024-07-17T12:34
+updated: 2025-01-26T12:47
 ---
 ---
 >[!info] Index
@@ -62,7 +62,7 @@ i membri di una classe sono `campi` e `metodi`
 >[!warning] oss
 >- `void` indica che il metodo non ritorna niente come output 
 
-[[Java Class and Objects]]
+[[Java - Class and Objects]]
 
 ---
 ### Modificatore della visibilità
@@ -72,7 +72,7 @@ i membri di una classe sono `campi` e `metodi`
 >[!warning] oss
 >Metodi privati possono essere utilizzati da gli altri metodi della sua stessa classe ma non da metodi di classi esterne
 
-[[Java Access Modifier]]
+[[Java - Access Modifier]]
 
 ---
 ### Campi 
@@ -90,7 +90,7 @@ i membri di una classe sono `campi` e `metodi`
 >
 >*oss:* le parentesi quadre indicano l’opzionalità del parametro
 
-[[Java Fields]]
+[[Java - Fields]]
 
 ---
 ### Metodi 
@@ -119,14 +119,14 @@ public void reset(int newValue) {value = newValue;}
 >public void reset(int newValue) {value = newValue} 
 >```
 
-[[Java Methods]]
+[[Java - Methods]]
 
 ---
 ### Costruttori 
 - I costruttori sono metodi "speciali" utilizzati per la creazione degli oggetti di una classe
 - Possiedono sempre lo stesso nome della della classe (sono i costruttori hanno questa caratteristica)
 - Inizializzano i campi dello stato iniziale di un oggetto
-- Una classe può avere anche più costruttori che differiscono nel numero e nei tipi dei parametri ([[Java Overloading ]])
+- Una classe può avere anche più costruttori che differiscono nel numero e nei tipi dei parametri ([[Java - Overloading & Overloading]])
 
 >[!warning] oss
 >Non hanno valori in uscita ma non specificano void
@@ -155,7 +155,7 @@ static public void main(String[] args)
 >[!danger] Non è obbligatorio definire un costruttore
 >Infatti se non definiamo un costruttore utilizzerà un costruttore  di default che non ha nessun input e non ritorna nessun output
 
-[[Java Constructor]]
+[[Java - Constructor]]
 
 ---
 ## Variabili locali vs Campi 
@@ -168,7 +168,7 @@ Le **variabili locali** sono variabili definite all’interno di un metodo
 -  Come parametri del metodo o all’interno del corpo del metodo
 - Esistono dal momento in cui sono definite fino al termine dell’esecuzione della chiamata al metodo in questione
 
-[[Java Fields#Campi vs. variabili locali]]
+[[Java - Fields#Campi vs. variabili locali]]
 
 ---
 ## Incapsulamento
@@ -187,7 +187,7 @@ Si semplifica e modularizza il lavoro di sviluppo assumendo un certo funzionamen
 - L’incapsulamento facilita il lavoro di gruppo e l’aggiornamento del codice (maintenance)
 - Aiuta a rilevare errori: in presenza di moltissime classi, un certo errore si verifica solo in una determinata classe per cui ci si può concentrare su di essa
 
-[[Java Incapsulamento]]
+[[Java - Incapsulamento]]
 
 ---
 ## Interazione tra classi

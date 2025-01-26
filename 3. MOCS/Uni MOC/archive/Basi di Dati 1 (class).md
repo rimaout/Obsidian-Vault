@@ -3,7 +3,7 @@ Main Moc:
 related: 
 completed: 
 created: 2024-09-25T15:37
-updated: 2025-01-03T12:09
+updated: 2025-01-24T14:15
 ---
 **Lezioni:**
 - [[L1 Basi di dati 1]]
@@ -39,11 +39,14 @@ updated: 2025-01-03T12:09
 >- [[Calcolo di una Decomposizione]]
 
 >[!note] Organizzazione Fisica
->1. [[Introduzione all'organizzazioni dei database|Introduzione]] 🟢
->2. [[File Heap]] 🟢
->3. [[File Hash]] 🟡 rivedere costo operazioni + fare esercizi
->4. [[File con Indice]] 🟡
->5. [[File B-tree]] 🟡
+>- [[Introduzione all'organizzazioni dei database|Introduzione]] 🟢
+>- [[File Heap]] 🟢
+>- [[File Hash]] 🟢
+>- [[File con Indice]] 🟢
+>- [[File B-Tree]] 🟡 rivedi ultima parte su altezza del albero
+
+>[!note] Concorrenza
+>- [[Controlo della Concorrenza]]
 
 ---
 

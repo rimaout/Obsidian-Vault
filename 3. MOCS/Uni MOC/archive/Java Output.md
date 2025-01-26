@@ -4,7 +4,7 @@ type: "[[Programming MOC]]"
 programming language: "[[Java MOC]]"
 related: 
 completed: false
-updated: 2024-07-17T16:17
+updated: 2025-01-26T12:47
 ---
 ---
 
@@ -22,8 +22,8 @@ In Java, to standard output (screen) you can simply use:
 - `System.out.printf();`
 
 Here:
-- `System` is a [[Java Class and Objects|class]]
-- `out` is a `public` `static` [[Java Fields|field]]
+- `System` is a [[Java - Class and Objects|class]]
+- `out` is a `public` `static` [[Java - Fields|field]]
 
 ---
 ## println() and print()
@@ -65,8 +65,6 @@ String firstName = "John ";
 String lastName = "Doe";
 String fullName = firstName + lastName;
 System.out.println(fullName);
-
-
 ```
 
 ---
@@ -80,6 +78,3 @@ int age = 30;
 
 System.out.printf("Hello, my name is %s and I am %d years old.", name, age);
 ```
-
-
----

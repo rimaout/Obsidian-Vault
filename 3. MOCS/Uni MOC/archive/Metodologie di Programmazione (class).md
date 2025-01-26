@@ -4,7 +4,7 @@ academic year: 2023/2024
 related:
   - "[[Java MOC]]"
 created: 2024-02-27T09:04
-updated: 2025-01-18T16:02
+updated: 2025-01-26T13:12
 ---
 >[!abstract] Lezioni
 >1. [[MDP 27 Feb]]
@@ -39,30 +39,34 @@ updated: 2025-01-18T16:02
 > 
 >– Strategy Pattern 🟢
 >– Observer/Observable
->– Command
+>– Command call back
 >– Iterator
 >– Template method
 >– SimpleFactory e Factory
 >– Builder 🟢
 >– Singleton 🟢
 >– Decorator
+>
+>- Vedi slide design pattern
+>- Fai esempio di upcasting esplicito ed implicito
+>- Quando parli della super class object spiega cosa significa interfaccia segna posto.
+>- Vedi meglio interfacce funzionali
+>- Come implementare equals e hash code e Compare
 
----
-## Progetto
-- [[Introduzione - Progetto Bubble Bobble]]
-- [[Game Window]]
-- [[Nemici]]
-- [[Proiettili]] 🟢
-- [[Bolle]] 🟢
-- [[Punti e Bubble Drops]] 🟢
-- [[Power Ups]] 🟢
-- [[Livelli e Mappe]] 🟢
-- [[Gestione Utenti]] 🟢
-- [[Audio Manager]] 🟢
-- [[Streams - Progetto]]
-- [[Design Pattern]]
 
-aggiungi ad UML l'serializable, oberver, observable, keyinpyt, jframe e jpanel
+## Preparazione Esame Orale
+
+- [[Java - Wrapper Classes & Autoboxing]] 
+- [[Java - Upcasting & Downcasting]]
+- [[Java - Objest Superclass]]
+- [[Java - Polimorfism & Binding]]
+- [[Java - Functional Interfaces]]
+- [[Java - Jolly Operator (?)]]
+- [[Java - Streams]]
+- [[Java - Final]]
+
+
+
 
 ---
 ## Domande Esame

@@ -3,13 +3,9 @@ type: Uni Note
 class: "[[Basi di Dati 1 (class)]]"
 academic year: 2024/2025
 related: 
-completed: false
+completed: true
 created: 2024-11-30T15:34
-updated: 2024-12-11T11:23
----
->[!abstract] Related
->- 
-
+updated: 2025-01-24T14:14
 ---
 ## Introduzione
 
@@ -143,4 +139,4 @@ Le **operazioni elementari** su questi file sono:
 >- [[File Heap]]
 >- [[File Hash]]
 >- [[File con Indice]]
->- [[File B-tree]]
+>- [[File B-Tree]]

@@ -4,7 +4,7 @@ type: Programming Note
 programming language: "[[UML MOC]]"
 related: 
 completed: true
-updated: 2024-07-17T12:34
+updated: 2025-01-26T12:47
 ---
 ---
 
@@ -23,7 +23,7 @@ The [UML](https://en.wikipedia.org/wiki/Unified_Modeling_Language) Class diagram
     - The name of the class is typically written in the top compartment of the class box and is centred and bold.
 
 2. [[#Attributes]]
-    - Attributes, also known as properties or [[Java Fields|fields]], represent the data members of the class. 
+    - Attributes, also known as properties or [[Java - Fields|fields]], represent the data members of the class. 
     - They are listed in the second compartment of the class box and often include the visibility (e.g. public, private) and the data type of each attribute.
 
 4. [[#Methods]]
@@ -35,7 +35,7 @@ The [UML](https://en.wikipedia.org/wiki/Unified_Modeling_Language) Class diagram
 
 ---
 ## Attributes
-In UML Class Diagram notation `visibility fieldName : dataType <static> <final>` is a way to represent the [[Java Fields|fields]] of a class. 
+In UML Class Diagram notation `visibility fieldName : dataType <static> <final>` is a way to represent the [[Java - Fields|fields]] of a class. 
 
 Here's what each part means:
 
@@ -54,7 +54,7 @@ Here's what each part means:
 For example, `- count : int <static> <final>` would represent a private, static, final attribute named `count` of type `int`.
 
 >[!tip]
->Read about [[Java Fields]] to lear more
+>Read about [[Java - Fields]] to lear more
 
 ---
 ## Methods
@@ -77,7 +77,7 @@ Here's what each part means:
 For example, `+ calculateSum(a: int, b: int) : int <static>` would represent a public, static method named `calculateSum` that takes two parameters of type `int` and returns an `int`.
 
 >[!tip]
->Read about [[Java Methods]] to learn more
+>Read about [[Java - Methods]] to learn more
 
 ---
 ## Visibility Notation
@@ -89,7 +89,7 @@ Visibility notations indicate the access level of attributes and methods. Common
 - `~` for package or default visibility (visible to classes in the same package)
 
 >[!tip]
->Read [[Java Access Modifier]] to learn more
+>Read [[Java - Access Modifier]] to learn more
 
 ---
 ## Classes Dependance

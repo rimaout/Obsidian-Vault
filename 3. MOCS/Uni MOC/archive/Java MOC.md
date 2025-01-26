@@ -4,7 +4,7 @@ type: "[[Programming MOC]]"
 related:
   - "[[Programmazione ad Oggetti]]"
   - "[[Metodologie di Programmazione (class)]]"
-updated: 2025-01-13T16:41
+updated: 2025-01-26T17:16
 ---
 ---
 
@@ -13,49 +13,79 @@ updated: 2025-01-13T16:41
 >- [[Java Variables]] 🟢 
 >- [[Java Literals]] 🟢
 >- [[Java Input]] 🟢
->- [[Java Output]] 🟡 (add printf)
+>- [[Java Output]] 🟢
 >- [[Java Packages]] 
 
 >[!abstract] Data Types
 >- [[Java built-in data types]] 🟢
 >- [[Java Operators]] 🟡
 >- [[Java Casting]] 🟢
->- [[Java Strings]]
+>- [[Java - Strings]]
+>  
+>**Advanced:**
+>  - [[Generic Types]]
+>  - [[Java - Jolly Operator (?)]]
 
->[!abstract] Java Flow Control
+>[!abstract] Flow Control
 >- [[Java if...else]] 🟢
 >- ﻿﻿[[Java switch Statement]]
 >- [[Java for Loop]]
->- [[﻿﻿Java for-each Loop]]
->- [[﻿﻿Java while Loop]]
->- [[﻿﻿Java break Statement]]
->- [[﻿﻿Java continue Statement]]
+>- [[Java - for-each Loop]]
+>- [[Java - while Loop]]
 
->[!abstract] Java Arrays
->- [[Java Arrays]]
->- [[Java Bi-dimensional Arrays]]
+>[!abstract] Data Structures
+>- [[Java - Arrays]]
+>- [[Java - Collections]]
+>- [[Java - Lists]]
+>- [[Java - Sets]]
+>- [[Java - Record]]
+>- [[Java - Maps]]
+>  
+>[[Java - Come scegliere la giusta struttura dati]]
 
 >[!abstract] Object Oriented Programming
->- [[Java Class and Objects]]
->- [[Java Fields]]
->- [[Java Methods]]
->- [[Java Constructor]]
->- [[Java Access Modifier]] 🟢
->- [[Java Incapsulamento]] 🟢
->- [[Java Enumerations]] 🟢
->- [[Java Interfaces]] 🟢
->- [[Java Abstract Classes]]
->- [[Java Final and Static Flags]]
->- differenza tra over-raiding e over-loading [[MDP 21 Mar#Java method overriding|link]]
+>- [[Java - Class and Objects]]
+>- [[Java - Fields]]
+>- [[Java - Methods]]
+>- [[Java - Constructor]]
+> 
+> **Modificatori:**
+>- [[Java - Final]] 🔵
+>- [[Java - Static]] 🔵
+>- [[Java - Abstract]] 🔵
+>- [[Java - Access Modifier]] 🔵
+>- [[Java - Incapsulamento]] 🔵
+> 
+> **Types:**
+>- [[Java - Enumerations]] 🟢
+>- [[Java - Interfaces]] 🟢
+>- [[Java - Functional & SAM Interfaces]]
+>- [[Java - Abstract Classes]]
+>- [[Java - Anonimus Classes]]
+>- [[Java - Lambda Function]]
+
+>[!abstract] Inheritance
+>- [[Java - Inheritance]]
+>- [[Java - Wrapper Classes & Autoboxing]] 
+>- [[Java - Upcasting & Downcasting]]
+>- [[Java - Objest Superclass]]
+>- [[Java - Polimorfism & Binding]]
+>
+>**Object SuperClass:**  
+>- [[Java - hashCode(), equal()]]
+>- [[Java - Clone Method]]
+
+>[!abstract] Streams (Functional Programming)
+>- [[Java - Streams]]
+>- [[Java - Collectors]]
+
+>[!abstract] Eccezioni
 
 >[!abstract] Extras
 >- [[UML MOC]] finisci metodo [[Metodo ULM Step by Step]]
 >- [[Rappresentazione Heap Stack Metaspace]]
->- [[Java Lambda Function]]
+>- [[Java - Lambda Function]]
+>  [[Java - How to implement compareTo Method]]
 
->[!todo] 
->- [[Java Stram (java.util.stream)]]
->- differenza interfacce e classi astratte
->- Iterators
->- Inheritance
->- [[How to implement hashCode(), equal() and compare()]]
+**Domanda:**
+- differenza interfacce e classi astratte

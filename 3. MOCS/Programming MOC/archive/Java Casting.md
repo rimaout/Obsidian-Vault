@@ -5,7 +5,7 @@ programming language: "[[Java MOC]]"
 related:
   - "[[Java built-in data types]]"
 completed: true
-updated: 2024-05-27T13:29
+updated: 2025-01-25T19:18
 ---
 ---
 
@@ -31,6 +31,7 @@ To learn about other types of type conversion, visit [Java Type Conversion (offi
 
 ---
 ## Explicit conversion
+
 Using a method that takes an argument of one type and returns a value of another type
 
 Some of this methods are:
@@ -52,7 +53,7 @@ Java automatically converts one data type to another data type.
 
 // create int type variable
 int num = 10;
-    System.out.println("The integer value: " + num);
+System.out.println("The integer value: " + num);
 
 // convert into double type
 double data = num;
