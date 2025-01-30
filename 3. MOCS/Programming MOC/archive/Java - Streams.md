@@ -4,7 +4,7 @@ programming language:
 related: 
 completed: false
 created: 2024-06-17T18:21
-updated: 2025-01-25T19:27
+updated: 2025-01-30T15:41
 ---
 ## Introduzione 
 
@@ -16,7 +16,7 @@ Un `Stream` in Java può essere visto come una sequenza di dati. Un `Stream`�
 
 >[!note] Stram Pipeline
 >Una pipeline di stream è una sequenza di operazioni di stream, composta da: 
->- **Sorgente:** che può essere una [[Java Collections|collezione]], un [[Java - Arrays|array]], un generatore di numeri, ecc.
+>- **Sorgente:** che può essere una [[Java - Collections|collezione]], un [[Java - Arrays|array]], un generatore di numeri, ecc.
 >- **Operazioni intermedie:** che trasformano un stream in un altro stream.
 >- Un **operazione terminale:** (che produce un risultato o un effetto collaterale, come `count` o `forEach`).
 

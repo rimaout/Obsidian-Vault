@@ -5,41 +5,32 @@ academic year: 2023/2024
 related: 
 completed: true
 created: 2024-06-17T15:30
-updated: 2024-08-11T18:07
----
->[!abstract] Index
->1. [[#Introduzione]]
->2. [[#Implementazione]]
->3. [[#Metodi Default e Statici]]
->4. [[#Eredità Multipla]]
->5. [[#Estendibilità]]
->6. [[#Interfacce Funzionali]]
-
->[!abstract] Related
->- [[Java MOC]]
->- [[Metodologie di Programmazione (class)]]
-
->[!danger] TLDR
->Un'interfaccia specifica un insieme di metodi che una classe deve implementare se vuole implementare quell'interfaccia
-
+updated: 2025-01-30T18:01
 ---
 ## Introduzione 
 
-In Java, un'interfaccia è un tipo di riferimento che può contenere solo:
-- **Metodi astratti**
-- **Campi costanti** (che sono implicitamente `public`, `static`, e `final`
+Le interfacce sono uno strumento fornito da java per risolvere il problema dell'*eredità multipla*, non è possibile estendere più di una classe, ma è possibile implementare più di un interfaccia.
 
- Le interfacce vengono utilizzate per definire un contratto che deve essere implementato da una classe concreta. In altre parole, una classe che implementa un'interfaccia deve fornire una implementazione per tutti i metodi definiti nell'interfaccia.
+Infatti non possono essere istanziate ed il loro obbiettivo è quello di fornire dei metodi che devono essere implementati da una classe concreta, (le classi astratte non devono fornire un implementazione dei metodi).
 
->[!note] Esempio
->```java
->java
->public interface FormaGeometrica {
->   double PI = 3.14;
->   double area();
->   double perimetro();
->}
->```
+Le classi possono contenere:
+- **Metodi** senza implementazione che sono implicitamente `abstract` e `public`
+- **Campi costanti** che sono implicitamente `public`, `static` e `final`
+- **Metodi di Default**  con implementazione ma che sono implicitamente `public`e  `static`
+
+Un interfaccia può estendere un altra interfaccia ed ereditare tutti i sui metodi, di cui tutti quelli non di default dovranno essere implementati dalla classe che implementa l’interfaccia
+
+>[!warning] Differenza tra Interfacce e classi astratte
+>
+>**Ereditarietà:** una classe può estendere solo una altra classe, ma implementare molteplici interfacce.
+>
+>**Metodi:**
+>- Nelle ***Interfacce*** sono `astract` e `public`, se di default allora `public`, `static` e `final`.
+>- Nelle ***Classi Astratte*** posso avere *qualsiasi visibilità* ed essere *astratti* o *concreti*.
+>
+>**Attributi:**
+>- Nelle ***Interfacce*** sono `statici` e `finali`.
+>- Nelle ***Classi Astratte*** possono avere *qualsiasi visibilità* ed essere *static* o non static.
 
 ---
 ## Implementazione
@@ -179,31 +170,4 @@ Le interfacce possono estendere altre interfacce, consentendo la creazione di ge
 >```
 >
 >In questo esempio, l'interfaccia `FormaStampabile` estende le interfacce `Forma` e `Stampabile`, il che significa che una classe che implementa `FormaStampabile` deve fornire implementazioni per i metodi astratti `area()` e `stampa()` ereditati da `Forma` e `Stampabile`, nonché per il metodo astratto `perimetro()` definito in `FormaStampabile`.
-
----
-## Interfacce Funzionali
-
-Le interfacce funzionali sono un tipo speciale di interfacce che hanno un solo metodo astratto, che può essere implementato come una funzione lambda. Queste interfacce sono anche note come interfacce a singolo metodo o SAM (Single Abstract Method) interfaces.
-
-Le interfacce funzionali sono state introdotte per semplificare l'uso delle funzioni lambda in Java, che sono blocchi di codice anonimi che possono essere passati come argomenti a metodi o assegnati a variabili. Le funzioni lambda possono essere utilizzate per creare oggetti che implementano interfacce funzionali, il che può semplificare il codice e renderlo più conciso ed espressivo.
-
->[!note]- Esempio
->```java
->
->@FunctionalInterface 
->public interface Calcolatrice {    
->	int calcola(int a, int b); 
->} 
->
-> public class Main {    
->	public static void main(String[] args) {       
->		Calcolatrice somma = (a, b) -> a + b;       
->		Calcolatrice differenza = (a, b) -> a - b;              
->		System.out.println("Somma: " + somma.calcola(5, 3));       
->		System.out.println("Differenza: " + differenza.calcola(5, 3));    
->	}
->}
->```
->
->In questo esempio, l'interfaccia `Calcolatrice` è una interfaccia funzionale che definisce un metodo astratto `calcola()` che prende due argomenti interi e restituisce un intero. Nella classe `Main`, creiamo due oggetti `Calcolatrice` che implementano il metodo `calcola()` come funzioni lambda. Questo ci permette di creare oggetti `Calcolatrice` in modo conciso e di utilizzarli per eseguire calcoli semplici.
 

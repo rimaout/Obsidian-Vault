@@ -6,7 +6,7 @@ class:
 academic year: 2023/2024
 related: 
 completed: false
-updated: 2025-01-26T12:47
+updated: 2025-01-29T19:05
 ---
 ---
 >[!info] Index
@@ -119,14 +119,14 @@ public void reset(int newValue) {value = newValue;}
 >public void reset(int newValue) {value = newValue} 
 >```
 
-[[Java - Methods]]
+[[Java - Methods & Overloading]]
 
 ---
 ### Costruttori 
 - I costruttori sono metodi "speciali" utilizzati per la creazione degli oggetti di una classe
 - Possiedono sempre lo stesso nome della della classe (sono i costruttori hanno questa caratteristica)
 - Inizializzano i campi dello stato iniziale di un oggetto
-- Una classe può avere anche più costruttori che differiscono nel numero e nei tipi dei parametri ([[Java - Overloading & Overloading]])
+- Una classe può avere anche più costruttori che differiscono nel numero e nei tipi dei parametri ([[Java - Overloading & Overriding]])
 
 >[!warning] oss
 >Non hanno valori in uscita ma non specificano void

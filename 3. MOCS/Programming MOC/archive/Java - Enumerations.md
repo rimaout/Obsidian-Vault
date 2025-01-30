@@ -5,22 +5,34 @@ related:
   - "[[Metodologie di Programmazione (class)]]"
 completed: true
 created: 2024-06-17T11:22
-updated: 2025-01-26T12:47
+updated: 2025-01-30T17:52
 ---
->[!abstract] Index
->1. [[#Introduzione]]
->2. [[#Campi, Metodi, e Costruttori]]
->3. [[#Metodi Polimorfici]]
->4. [[#Interfacce ed Enum]]
 
->[!abstract] Related
->- [[Java MOC]]
->- [](Java%20MOC.md)e di Programmazione (class)]]
+>[!danger] tldr
+>In Java, le enum sono un tipo speciale di classe che rappresenta un insieme di costanti. 
+>
+>Per ognuna delle costanti è definita da un **identificatore univoco** a cui corrisponde un riferimento ad un oggetto della enumerazione.
+>
+>In ogni enum è possibile definire, ***Metodi***, ***Campi*** e ***Costruttori***.
+>
+>- ***Campi:*** memorizzano informazioni relative a ogni costante dell'enum e devono essere inizializzati dal costruttore
+>- ***Costruttori:*** inizializzano i campi ed è private (non è possibile usare `new` per creare un nuovo oggetto della enum)
+>  
+>  **Metodi Statici:**
+>- `values()`: restituisce l'array delle costanti enumerative
+>- `valuesOf(String s)`: restituisce l'oggetto associato al nume della costante dato
+>
+>**Metodi non Statici:**
+>- `ordina()`: restituisce la posizione della costante data
+>- `toSting()`: restituisce il nome come stringa (può essere effettuato override)
+>- `name()`: restituisce il nome come stringa, ma è final (no override)
 
 ---
 ## Introduzione
 
-In Java, le enum sono un tipo speciale di classe che rappresenta un insieme di costanti. Sono utili quando si desidera lavorare con un gruppo di valori ben definiti e limitati.
+In Java, le enum sono un tipo speciale di classe che rappresenta un insieme di costanti. 
+
+Per ognuna delle costanti è definita da un **identificatore univoco** a cui corrisponde un riferimento ad un oggetto della enumerazione.
 
 >[!note] Esempio
 >```java
@@ -54,7 +66,7 @@ In Java, le enum sono un tipo speciale di classe che rappresenta un insieme di c
 ---
 ## Campi, Metodi, e Costruttori 
 
-Le enum possono avere [[Java - Fields|campi]], [[Java - Methods|metodi]] e [[Java - Constructor|costruttori]]:
+Le enum possono avere [[Java - Fields|campi]], [[Java - Methods & Overloading|metodi]] e [[Java - Constructor|costruttori]]:
 - **Campi:** che sono variabili di istanza che memorizzano informazioni relative a ogni costante dell'enum.
 - **Metodi:** che vengono utilizzati per fornire funzionalità alle costanti dell'enum.
 - **Costruttori:** che vengono utilizzati per inizializzare i campi di ogni costante dell'enum.
@@ -161,7 +173,7 @@ Per implementare un'interfaccia in un enum, si utilizza la parola chiave `implem
 >In questo esempio, abbiamo definito un'interfaccia `Suonabile` che definisce un metodo `suona()` che restituisce una stringa che rappresenta il suono che fa un animale. La enum `Animali` implementa l'interfaccia `Suonabile`, il che significa che deve fornire un'implementazione del metodo `suona()`.
 
 ---
-## Metodi predefiniti Enums
+## Metodi Predefiniti
 
 ```java
 enum Size { 
@@ -169,7 +181,16 @@ enum Size {
 }
 ```
 
-1. `ordinal()`: Restituisce la posizione di una costante enum. Ad esempio, `ordinal(SMALL)` restituisce `0`.
+**Metodi Statici:**
+- `values()`: restituisce l'array delle costanti enumerative
+- `valuesOf(String s)`: restituisce l'oggetto associato al nume della costante dato
+
+**Metodi non Statici:**
+- `ordina()`: restituisce la posizione della costante data
+- `toSting()`: restituisce il nome come stringa (può essere effettuato override)
+- `name()`: restituisce il nome come stringa, ma è final (no override)
+
+1. `ordinal()`: Restituisce la posizione di una costante enum. Ad esempio, `SMALL.ordinal()` restituisce `0`.
 2. `compareTo()`: Confronta le costanti enum in base al loro valore ordinale. Ad esempio, `Size.SMALL.compareTo(Size.MEDIUM)` restituisce `ordinal(SMALL) - ordinal(MEDIUM)`.
 3. `toString()`: Restituisce la rappresentazione stringa delle costanti enum. Ad esempio, `SMALL.toString()` restituisce `"SMALL"`.
 4. `name()`: Restituisce il nome definito di una costante enum in forma di stringa. Il valore restituito dal metodo `name()` è finale. Ad esempio, `name(SMALL)` restituisce `"SMALL"`.

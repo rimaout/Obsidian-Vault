@@ -5,7 +5,7 @@ programming language: "[[Java MOC]]"
 related:
   - "[[Java OOP]]"
 completed: false
-updated: 2025-01-26T12:47
+updated: 2025-01-29T18:48
 ---
 ---
 
@@ -20,7 +20,7 @@ updated: 2025-01-26T12:47
 
 ---
 ## Introduzione 
-- A constructor in Java is a "special" [[Java - Methods|method]] that is invoked when an [[Java - Class and Objects|object]] of the [[Java - Class and Objects|class]] is created.
+- A constructor in Java is a "special" [[Java - Methods & Overloading|method]] that is invoked when an [[Java - Class and Objects|object]] of the [[Java - Class and Objects|class]] is created.
 - Inizializzano i campi dello stato iniziale di un oggetto
 
 >[!warning] Important Notes on Java Constructors

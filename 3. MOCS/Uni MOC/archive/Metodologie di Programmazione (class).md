@@ -4,7 +4,7 @@ academic year: 2023/2024
 related:
   - "[[Java MOC]]"
 created: 2024-02-27T09:04
-updated: 2025-01-26T13:12
+updated: 2025-01-29T21:16
 ---
 >[!abstract] Lezioni
 >1. [[MDP 27 Feb]]
@@ -35,7 +35,7 @@ updated: 2025-01-26T13:12
 >[!warning] todo
 >- **AutoBoxing:** conversione dal tipo primitivo all'oggetto (es: int to integer)
 >- [[Software Design Pattern]]
->- [[Rappresentazione Heap Stack Metaspace]]
+>- [[Java - Heap Stack Metaspace]]
 > 
 >– Strategy Pattern 🟢
 >– Observer/Observable
@@ -56,7 +56,7 @@ updated: 2025-01-26T13:12
 
 ## Preparazione Esame Orale
 
-- [[Java - Wrapper Classes & Autoboxing]] 
+- [[Java - Wrapper Classes, Auto-boxing and Auto-unboxing]] 
 - [[Java - Upcasting & Downcasting]]
 - [[Java - Objest Superclass]]
 - [[Java - Polimorfism & Binding]]

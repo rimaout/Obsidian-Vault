@@ -5,25 +5,8 @@ programming language: "[[Java MOC]]"
 related:
   - "[[Java OOP]]"
 completed: false
-updated: 2025-01-26T12:47
+updated: 2025-01-29T18:49
 ---
----
-
->[!info] Index
->1. [[#Introduzione]]
->2. [[#Class Structure]]
->3. [[#Create a class in Java]]
-
----
-## Introduzione
-Java is an object-oriented programming language. The core concept of the object-oriented approach is to break complex problems into smaller objects.
-
-An object is any entity that has a **state** and **behaviour**. For example, a bicycle is an object. It has:
-- **States** (fields): idle, first gear, etc
-- **Behaviours** (methods): braking, accelerating, etc.
-
-Before we learn about objects, let's first know about classes in Java
-
 Una classe è un pezzo di codice all'interno di un programma che descrive un particolare tipo di oggetti 
 
 La classe fornisce un prototipo astratto gli oggetti di un particolare tipo, definendo la loro struttura in termini di:

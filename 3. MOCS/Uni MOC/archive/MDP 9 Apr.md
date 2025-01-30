@@ -6,7 +6,7 @@ class:
 academic year: 2023/2024
 related: 
 completed: false
-updated: 2024-05-27T13:29
+updated: 2025-01-30T16:16
 ---
 ---
 
@@ -41,6 +41,7 @@ public interface Runnable{
 
 ---
 ## metodo clone()
+
 `clone()` appartiene all'interfaccia `cloneable` e permette di fare una shallow copy di un oggetto, questo significa che quando l’oggetto ha come capi dei riferimenti (puntatori) crea dei problemi (ovvero non viene effettuata la creazione di un nuovo riferimento, quindi i riferimenti dell’oggetto originale e della copia punteranno allo stesso riferimento )
 
 >[!warning] oss

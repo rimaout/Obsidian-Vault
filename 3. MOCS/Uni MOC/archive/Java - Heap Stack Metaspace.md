@@ -5,7 +5,7 @@ academic year: 2023/2024
 related: 
 completed: false
 created: 2024-06-13T18:38
-updated: 2024-06-16T15:24
+updated: 2025-01-27T10:44
 ---
 ---
 
@@ -99,5 +99,3 @@ name2 = p2.toString()
 ```
 
  In questo caso utilizziamo il metodo di `Persona`, sia per `p1` che per `p2`, infatti entrambi ereditano il metodo dalla classe to string
-
----

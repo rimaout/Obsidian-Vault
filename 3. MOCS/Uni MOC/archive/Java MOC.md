@@ -4,7 +4,7 @@ type: "[[Programming MOC]]"
 related:
   - "[[Programmazione ad Oggetti]]"
   - "[[Metodologie di Programmazione (class)]]"
-updated: 2025-01-26T17:16
+updated: 2025-01-30T18:36
 ---
 ---
 
@@ -18,6 +18,7 @@ updated: 2025-01-26T17:16
 
 >[!abstract] Data Types
 >- [[Java built-in data types]] 🟢
+>- [[Java - Wrapper Classes, Auto-boxing and Auto-unboxing]] 🔵
 >- [[Java Operators]] 🟡
 >- [[Java Casting]] 🟢
 >- [[Java - Strings]]
@@ -48,7 +49,14 @@ updated: 2025-01-26T17:16
 >- [[Java - Fields]]
 >- [[Java - Methods]]
 >- [[Java - Constructor]]
+>- [[Java - Top Level Classes ]]
 > 
+> **Inheritance:**
+>- [[Java - Inheritance]] 🔵
+>  [[Java - Overloading & Overriding]] 🔵
+>- [[Java - Upcasting & Downcasting]] 🔵
+>- [[Java - Polimorfism & Binding]] 🔵
+>
 > **Modificatori:**
 >- [[Java - Final]] 🔵
 >- [[Java - Static]] 🔵
@@ -57,23 +65,16 @@ updated: 2025-01-26T17:16
 >- [[Java - Incapsulamento]] 🔵
 > 
 > **Types:**
->- [[Java - Enumerations]] 🟢
->- [[Java - Interfaces]] 🟢
->- [[Java - Functional & SAM Interfaces]]
->- [[Java - Abstract Classes]]
->- [[Java - Anonimus Classes]]
+>- [[Java - Enumerations]] 🔵
+>- [[Java - Interfaces]] 🔵
+>- [[Notable Interfaces]]
+>- [[Java - SAM & Functional Interfaces]]
 >- [[Java - Lambda Function]]
-
->[!abstract] Inheritance
->- [[Java - Inheritance]]
->- [[Java - Wrapper Classes & Autoboxing]] 
->- [[Java - Upcasting & Downcasting]]
->- [[Java - Objest Superclass]]
->- [[Java - Polimorfism & Binding]]
+>- [[Java - Anonimus classes (si die cosi boo)]]
 >
->**Object SuperClass:**  
->- [[Java - hashCode(), equal()]]
->- [[Java - Clone Method]]
+>**Object Methods:**  
+>- [[Java - HashCode & Equals Methods]] 🔵
+>- [[Java - Clone Method]] 🔵
 
 >[!abstract] Streams (Functional Programming)
 >- [[Java - Streams]]
@@ -81,9 +82,11 @@ updated: 2025-01-26T17:16
 
 >[!abstract] Eccezioni
 
->[!abstract] Extras
->- [[UML MOC]] finisci metodo [[Metodo ULM Step by Step]]
->- [[Rappresentazione Heap Stack Metaspace]]
+>[!abstract] Memoria
+>- [[Java - Heap Stack Metaspace]]
+>- [[Java - Object Cost in Memory]]
+
+>**Extra**
 >- [[Java - Lambda Function]]
 >  [[Java - How to implement compareTo Method]]
 

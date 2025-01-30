@@ -5,7 +5,7 @@ programming language: "[[Java MOC]]"
 related:
   - "[[Java built-in data types]]"
 completed: true
-updated: 2025-01-25T19:18
+updated: 2025-01-29T19:13
 ---
 ---
 
@@ -117,5 +117,3 @@ In the case of **Narrowing Type Casting**, the higher data types (having larger 
 | `(int)42 * 0.4`            | double | 16.8   |
 | `42 * (int)0.4`            | int    | 0      |
 | `(int)(42 * 0.4)`          | int    | 16     |
-
----
