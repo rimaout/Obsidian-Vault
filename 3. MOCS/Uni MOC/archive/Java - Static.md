@@ -6,9 +6,8 @@ related:
   - "[[Java MOC]]"
 completed: true
 created: 2025-01-26T14:06
-updated: 2025-01-26T14:41
+updated: 2025-02-01T00:20
 ---
-
 Il risultato dell'utilizzo della keyword `static` varia in base al tipo di elemento su cui la si sta applicando:
 
 >[!note] Classe Statica

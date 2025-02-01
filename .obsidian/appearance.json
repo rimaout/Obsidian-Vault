@@ -19,5 +19,6 @@
     "mmw-kbd-styling",
     "mmw-maintenance-template-callout",
     "mmw-transclusion-adjustments"
-  ]
+  ],
+  "showRibbon": true
 }

@@ -6,7 +6,7 @@ related:
   - "[[Introduzione all'organizzazioni dei database]]"
 completed: true
 created: 2024-11-30T19:23
-updated: 2024-12-20T10:57
+updated: 2025-01-30T18:48
 ---
 >[!abstract] Related
 >- [[Introduzione all'organizzazioni dei database]]
@@ -85,6 +85,7 @@ Per ottenere il costo medio occorre sommare i costi per accedere ai singoli reco
 >Dove: $n$ è il numero di blocchi
 
 >[!warning] Dimostrazione
+>
 >![[Pasted image 20241204112034.png|700]]
 >
 >$$

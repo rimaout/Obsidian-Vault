@@ -4,7 +4,7 @@ academic year: 2023/2024
 related:
   - "[[Java MOC]]"
 created: 2024-02-27T09:04
-updated: 2025-01-29T21:16
+updated: 2025-01-30T19:41
 ---
 >[!abstract] Lezioni
 >1. [[MDP 27 Feb]]
@@ -52,21 +52,6 @@ updated: 2025-01-29T21:16
 >- Quando parli della super class object spiega cosa significa interfaccia segna posto.
 >- Vedi meglio interfacce funzionali
 >- Come implementare equals e hash code e Compare
-
-
-## Preparazione Esame Orale
-
-- [[Java - Wrapper Classes, Auto-boxing and Auto-unboxing]] 
-- [[Java - Upcasting & Downcasting]]
-- [[Java - Objest Superclass]]
-- [[Java - Polimorfism & Binding]]
-- [[Java - Functional Interfaces]]
-- [[Java - Jolly Operator (?)]]
-- [[Java - Streams]]
-- [[Java - Final]]
-
-
-
 
 ---
 ## Domande Esame

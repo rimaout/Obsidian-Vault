@@ -4,7 +4,7 @@ type: "[[Programming MOC]]"
 related:
   - "[[Programmazione ad Oggetti]]"
   - "[[Metodologie di Programmazione (class)]]"
-updated: 2025-01-30T18:36
+updated: 2025-02-02T00:05
 ---
 ---
 
@@ -67,8 +67,8 @@ updated: 2025-01-30T18:36
 > **Types:**
 >- [[Java - Enumerations]] 🔵
 >- [[Java - Interfaces]] 🔵
->- [[Notable Interfaces]]
->- [[Java - SAM & Functional Interfaces]]
+>- [[Java - SAM & Functional Interfaces]] 🔵
+>- [[Notable Interfaces]] 🔵
 >- [[Java - Lambda Function]]
 >- [[Java - Anonimus classes (si die cosi boo)]]
 >
