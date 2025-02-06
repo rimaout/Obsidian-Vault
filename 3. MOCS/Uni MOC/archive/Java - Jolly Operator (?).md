@@ -6,7 +6,7 @@ related:
   - "[[Java MOC]]"
 completed: true
 created: 2025-02-06T10:49
-updated: 2025-02-06T12:24
+updated: 2025-02-06T15:14
 ---
 ## Introduzione
 
@@ -56,20 +56,24 @@ ArrayList<?> lista = new ArrayList<String>();
 >
 >È possibile risolvere questo problema limitando il tipo di dati che può essere utilizzato attraverso `extends`.
 
-## Extends
+## Extends e Super
 
-Il `? extends` è un modo per limitare il tipo di dati che può essere utilizzato con l'operatore wildcard `?`. Quando si utilizza `? extends`, si specifica che il tipo di dati deve essere un sottotipo di un tipo specifico
+Il `? extends` e  `? super` sono un modi per limitare il tipo di dati che può essere utilizzato con l'operatore jolly `?` e sono utilizzati con la [[Java - PECS|convenzione PECS]].
+
+Quando si utilizza `? extends`, si specifica che il tipo di dati deve essere una sotto-classe di un tipo specifico.
+
+Quando si utilizza `? super`, si specifica che il tipo di dati deve essere una super-classe di un tipo specifico.
 
 ```java
-List<? super Integer> lista = new ArrayList<Number>();
+List<? extends Number> a = new ArrayList<Number>();
+List<? extends Number> b = new ArrayList<Integer>();
+List<? extends Number> c = new ArrayList<Double>();
 ```
 
 ```java
-public void stampaLista(List<? extends Number> lista) {
-    for (Number elemento : lista) {
-        System.out.println(elemento);
-    }
-}
+List<? super Integer> x = new ArrayList<Number>();
+List<? super Integer> y = new ArrayList<Integer>();
+List<? super Integer> z = new ArrayList<Object>();
 ```
 
 >[!example] Esempio Approfondito
@@ -80,3 +84,4 @@ public void stampaLista(List<? extends Number> lista) {
 >```
 >
 >In questo esempio, l'operatore jolly `?` è utilizzato con un limite superiore `super Integer`, il che significa che la lista può contenere solo elementi di tipo `Integer` o suoi supertipi. In questo caso, l'aggiunta di un elemento alla lista è consentita, poiché il tipo di lista è compatibile con il tipo dell'elemento aggiunto.
+

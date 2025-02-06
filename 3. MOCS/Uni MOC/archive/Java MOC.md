@@ -4,7 +4,7 @@ type: "[[Programming MOC]]"
 related:
   - "[[Programmazione ad Oggetti]]"
   - "[[Metodologie di Programmazione (class)]]"
-updated: 2025-02-06T12:27
+updated: 2025-02-06T18:59
 ---
 >[!abstract] Basics
 >- [[Hello Word in java]] 🟢
@@ -24,7 +24,8 @@ updated: 2025-02-06T12:27
 >**Advanced:**
 >  - [[Java - Generic Types]] 🔵
 >  - [[Java - Jolly Operator (?)]] 🔵
->  - [[Java - Cancellazione del Tipo  (type erasure)]]
+>  - [[Java - PECS]] 🔵
+>  - [[Java - Cancellazione del Tipo  (type erasure)]] 🔵
 
 >[!abstract] Flow Control
 >- [[Java if...else]] 🟢
