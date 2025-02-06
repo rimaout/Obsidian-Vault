@@ -7,7 +7,7 @@ related:
   - "[[Calcolo Combinatorio]]"
 completed: true
 created: 2024-10-01T10:34
-updated: 2024-10-01T13:54
+updated: 2025-02-04T16:26
 ---
 
 >[!abstract] Related
@@ -25,7 +25,7 @@ updated: 2024-10-01T13:54
 >[!note] Principio Generalizzato
 >Si realizzino $\textcolor{orange}{r}$ esperimenti. Si supponga che il primo esperimento abbia $\textcolor{orange}{n}$ esiti possibili, che per ognuno di questi il secondo esperimento abbia $\textcolor{orange}{n}$, esiti possibili, che per ognuno degli esiti dei due primi esperimenti il terzo esperimento abbia $\textcolor{orange}{n}$, esiti possibili ecc. 
 >
->Allora, se sequenze distinte di esiti degli $\textcolor{orange}{r}$ esperimenti producono esiti finali distinti allora gli $\textcolor{orange}{r}$ esperimenti hanno in tutto $n_{1} \cdot n_{2}\cdot \dots \cdot n$ esiti possibili.
+>Allora, se sequenze distinte di esiti degli $\textcolor{orange}{r}$ esperimenti producono esiti finali distinti allora gli $\textcolor{orange}{r}$ esperimenti hanno in tutto $n_{1} \cdot n_{2}\cdot \dots \cdot n_{r}$ esiti possibili.
 
 ---
 ## Esempio

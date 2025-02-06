@@ -4,14 +4,21 @@ class: "[[Metodologie di Programmazione (class)]]"
 academic year: 2024/2025
 related:
   - "[[Java MOC]]"
-completed: false
+completed: true
 created: 2025-02-02T00:07
-updated: 2025-02-02T00:19
+updated: 2025-02-02T21:07
 ---
-Una lambda function in Java è un tipo di funzione anonima che può essere definita in linea all'interno di un codice. È stata introdotta nella versione 8 di Java come parte delle funzionalità di programmazione funzionale.
+>[!danger] TLDR
+>
+>Una lambda function è una tecnica per definire una funzione in modo compatto. È stata introdotta nella versione 8 di Java come parte delle funzionalità di programmazione funzionale.
+>
+>Le lambda function creano oggetti anonimi assegnabili a riferimenti di interfacce funzionali. 
+>
+>**oss:** *Funzione anonima* è oggetto virtuale non istanziato nella heap.
+
+## Introduzione
 
 Una lambda function è una funzione che non ha un nome e che può essere definita utilizzando la sintassi seguente:
-
 
 ```java
 (parametri) -> { corpo della funzione }
@@ -28,30 +35,45 @@ Le lambda function possono essere utilizzate in diversi modi, ad esempio:
 - Come valore di ritorno di un metodo.
 - Come membro di una collezione.
 
-Esempio `(x, y) -> {x + y}`<
+>[!note] Memoria Lambda Function
+>
+>Il `this` si riferisce all oggetto della classe esterna in cui è usata, vengono compilate come dei metodi privati e quindi non vanno nella heap.
+>
+>***Differenza con*** [[Java - Anonymous Classes]]
 
-## Interfaccie Funzionali e Lambda function
+## Interfacce Funzionali e Lambda function
 
-Le interfaccie funzionali sono un tipo di interfaccia che contiene un solo metodo astratto. Le lambda function possono essere utilizzate per implementare queste interfacce.
-
-Ecco un esempio di come utilizzare una lambda function per implementare un'interfaccia funzionale:
-
+Le lambda function possono essere utilizzate per implementare le [[Java - SAM & Functional Interfaces]], dove la funzione lambda deve rispettare i parametri in input e il tipo in output dell'unico metodo astratto dell'interfaccia funzionale.
 
 ```java
-
 @FunctionalInterface 
-interface Somma {     
-	int somma(int x, int y); 
+interface FunzioneMatematica {     
+	int calcola(int x, int y); 
 } 
-
-public class Main {     
-	public static void main(String[] args) {         
-		Somma somma = (x, y) -> x + y;         
-        System.out.println(somma.somma(2, 3)); // stampa 5     
-    } 
-}
 ```
-In questo esempio, la lambda function `(x, y) -> x + y` è utilizzata per implementare l'interfaccia funzionale `Somma`. La lambda function prende due parametri `x` e `y` e restituisce la loro somma.
+
+```java
+FunzioneMatematica somma = (int x, int y) -> {return x + y;};
+FunzioneMatematica prodotto = (int x, int y) -> {return x * y;};
+
+System.out.println(somma.calcola(2, 5)); // output: 7
+System.out.println(somma.calcola(2, 5)); // output: 10
+```
+
+>[!note] Tipi generici
+>
+>Le lambda function posso implementare anche interfacce funzionali con tipi generici:
+>
+>```java
+>@FunctionalInterface 
+>interface Converter<F, T> {     
+>	T convert(F from); 
+>}
+>
+>//Main
+>Converter<String, Integer> intConverter = from -> Integer.valueOf(from);
+>Converter<String, MyString> stringConverter = a -> new MyString(a)
+>```
 
 ## Vantaggi Limiti
 
@@ -66,3 +88,15 @@ Tuttavia, le lambda function hanno anche alcuni limiti, tra cui:
 - Non possono essere utilizzate per implementare interfacce con più di un metodo astratto.
 - Non possono essere utilizzate per definire costruttori o metodi statici.
 - Non possono essere utilizzate per accedere a variabili non finali dell'ambiente circostante.
+
+## Versione Compatta
+
+Esistono delle sintassi semplificate per le lambda functions:
+
+- Se si implementa un interfaccia funzionale non serve specificare i tipi in input, essendo già definiti nell'interfaccia.
+- Se il corpo della funzione è una singola istruzione possiamo omettere le parentesi graffe.
+- Se si restituisce un singolo valore possiamo omettere il `return`.
+- Se in input abbiamo un singolo parametri possiamo omettere le parentesi tonde.
+
+
+

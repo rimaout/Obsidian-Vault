@@ -6,7 +6,7 @@ academic year: 2024/2025
 related: "[[Studio delle Probabilità]]"
 completed: true
 created: 2024-10-10T17:48
-updated: 2024-10-15T14:15
+updated: 2025-02-04T10:54
 ---
 >[!abstract] Index
 >-  [[#1° Probabilità dell’evento impossibile]]
@@ -143,16 +143,16 @@ $$
 >
 >$$
 >P(E \cup F) = P(E) + P(F) - P(E \cap F)
-\geq 0,5 + 0,4 - 0,3
-\geq 0,6
+>\geq 0,5 + 0,4 - 0,3
+>\geq 0,6
 >$$
 >
 >L'evento complementare di "Le piace almeno un libro" è "Non le piace nessun libro". Quindi, la probabilità che non le piaccia alcun libro è:
 >
 >$$
 >P((E \cup F)') = 1 - P(E \cup F)
->= 1 - 0,6
->= 0,4
+> -1 - 0,6
+> - 0,4
 >$$
 >
 >Quindi, la probabilità che non le piaccia alcun libro è del 40%.

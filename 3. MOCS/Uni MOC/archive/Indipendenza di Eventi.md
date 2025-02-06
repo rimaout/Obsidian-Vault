@@ -6,7 +6,7 @@ academic year: 2024/2025
 related: 
 completed: true
 created: 2024-10-21T13:48
-updated: 2024-10-24T16:11
+updated: 2025-02-05T09:33
 ---
 >[!abstract] Index
 >1. [[#Introduzione]]
@@ -198,5 +198,3 @@ updated: 2024-10-24T16:11
 >$$
 >
 >Questo formula è detta [[Principio di Inclusione ed Esclusione]] e fa parte delle [[Proposizioni della Probabilità]].
-
->[!example] Esempio Circuito

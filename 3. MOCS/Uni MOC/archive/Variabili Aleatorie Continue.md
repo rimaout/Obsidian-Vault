@@ -7,7 +7,7 @@ related:
   - "[[Variabile Aleatoria Discreta]]"
 completed: false
 created: 2024-11-30T11:48
-updated: 2024-12-07T11:30
+updated: 2025-02-03T12:48
 ---
 >[!abstract] Related
 >- [[Variabili Aleatorie]]
@@ -293,12 +293,12 @@ La funzione di distribuzione (o ripartizione) è una funzione matematica che des
 >Data $X$ v.a. continue la funzione di distribuzione è calcolata facendo:
 >
 >$$
->F(x) = \int_{-\infty }^{x} f(u) \, du
+>F_{X}(b) = P(X<b) = \int_{-\infty }^{b} f(x) \, dx
 >$$
 >
 >Dove:
->- $F(X)$ è la funzione di distribuzione di $X$
->- $f(u)$ è la funzione di densità di $X$
+>- $F_{X}(b)$ è la funzione di distribuzione di $X$
+>- $f(x)$ è la funzione di densità di $X$
 
 >[!warning] F(X) vs f(x)
 >
@@ -371,7 +371,7 @@ La funzione di distribuzione (o ripartizione) è una funzione matematica che des
 >\end{cases}
 >$$
 
-![[Pasted image 20241203132545.png|600]]
+[[Pasted image 20241203132545.png|600]]
 
 ---
 ## Valore Atteso

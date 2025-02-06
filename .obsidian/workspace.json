@@ -40,20 +40,21 @@
             }
           },
           {
-            "id": "96c6b5366adbd839",
+            "id": "a5bda8d3fd9f6309",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Java - Lambda Function.md",
+                "file": "3. MOCS/Uni MOC/archive/Java - Cancellazione del Tipo  (type erasure).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Java - Lambda Function"
+              "title": "Java - Cancellazione del Tipo  (type erasure)"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -151,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Java - Clone Method.md",
+                "file": "3. MOCS/Uni MOC/archive/Java - SAM & Functional Interfaces.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +162,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Java - Clone Method"
+              "title": "Backlinks for Java - SAM & Functional Interfaces"
             }
           },
           {
@@ -170,12 +171,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Java MOC.md",
+                "file": "3. MOCS/Uni MOC/archive/Java - Generic Types.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Java MOC"
+              "title": "Outgoing links from Java - Generic Types"
             }
           },
           {
@@ -198,7 +199,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Java - SAM & Functional Interfaces.md"
+                "file": "3. MOCS/Uni MOC/archive/Java - SAM & Functional Interfaces.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
               "title": "Outline of Java - SAM & Functional Interfaces"
@@ -215,7 +219,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       },
       {
         "id": "0ee4f1dd2040ea54",
@@ -242,7 +246,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Java - SAM & Functional Interfaces.md",
+                "file": "3. MOCS/Uni MOC/archive/Java - Generic Types.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -270,7 +274,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Java - SAM & Functional Interfaces"
+              "title": "Graph of Java - Generic Types"
             }
           }
         ],
@@ -278,7 +282,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 350.5,
+    "width": 763.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -296,35 +300,37 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "b8f46099a55a4b8a",
+  "active": "a5bda8d3fd9f6309",
   "lastOpenFiles": [
-    "3. MOCS/Uni MOC/archive/Java - Lambda Function.md",
     "3. MOCS/Uni MOC/archive/Java MOC.md",
+    "3. MOCS/Uni MOC/archive/Java - Generic Types.md",
+    "3. MOCS/Uni MOC/archive/Java - Jolly Operator (?).md",
+    "3. MOCS/Uni MOC/archive/Java - Cancellazione del Tipo  (type erasure).md",
     "3. MOCS/Uni MOC/archive/Metodologie di Programmazione (class).md",
-    "3. MOCS/Uni MOC/archive/Notable Interfaces.md",
-    "3. MOCS/Uni MOC/archive/Java - Clone Method.md",
-    "3. MOCS/Uni MOC/archive/Java - SAM & Functional Interfaces.md",
-    "3. MOCS/Uni MOC/archive/Java - Static.md",
-    "3. MOCS/Uni MOC/archive/Java - Final.md",
-    "3. MOCS/Uni MOC/archive/Java - Iterable & Iterator Interfaces.md",
-    "To-Do/To-Do.md",
-    "3. MOCS/Uni MOC/Uni MOC.md",
-    "Storage/Backend/Monthly Logs/🌰 November 2024 (Log).md",
-    "Storage/Backend/Monthly Logs/🚧 January 2025 (log).md",
-    "Storage/Backend/Monthly Logs/🏫 October 2024 (Log).md",
-    "3. MOCS/Programming MOC/archive/Java - Enumerations.md",
-    "3. MOCS/Uni MOC/archive/File Heap.md",
+    "3. MOCS/Uni MOC/archive/Sistemi Operativi 1 (class).md",
+    "3. MOCS/Uni MOC/archive/Calcolo delle Probabilità (class).md",
+    "3. MOCS/Uni MOC/archive/Covarianza.md",
+    "3. MOCS/Uni MOC/archive/Indipendenza di Eventi.md",
+    "3. MOCS/Uni MOC/archive/Rapporto a Favore.md",
+    "3. MOCS/Uni MOC/archive/Probabilità Condizionata.md",
+    "3. MOCS/Uni MOC/archive/Spazzi di Probabilità con Esiti Equiparabili.md",
+    "3. MOCS/Uni MOC/archive/Proposizioni della Probabilità.md",
+    "3. MOCS/Uni MOC/archive/Definizioni e Assiomi della Probabilità.md",
+    "3. MOCS/Uni MOC/archive/Introduzione alla Probabilità.md",
+    "3. MOCS/Uni MOC/archive/Disposizioni.md",
+    "3. MOCS/Uni MOC/archive/Permutazioni.md",
+    "3. MOCS/Uni MOC/archive/Principio fondamentale del calcolo combinatorio.md",
+    "3. MOCS/Uni MOC/archive/Variabili Aleatorie Continue.md",
+    "3. MOCS/Uni MOC/archive/Introduzione - Variabili Aleatorie.md",
+    "Storage/Backend/Monthly Logs/🚧 December 2024 (log).md",
+    "Storage/Backend/Monthly Logs/Monthly Logs.md",
+    "3. MOCS/Uni MOC/archive/Variabili Aleatorie Indipendenti.md",
+    "3. MOCS/Uni MOC/archive/Variabili Aleatorie Identicamente Distribuite.md",
+    "3. MOCS/Uni MOC/archive/Monty Hall Problem.md",
+    "3. MOCS/Uni MOC/archive/Variabile Aleatorie Congiunte.md",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20241202144550.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20241203132545.png",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20241204112034.png",
-    "3. MOCS/Uni MOC/archive/Basi di Dati 1 (class).md",
-    "3. MOCS/Uni MOC/archive/File B-Tree.md",
-    "To-Do/Java - Functional & SAM Interfaces.md",
-    "3. MOCS/Uni MOC/archive/Java - Interfaces.md",
-    "3. MOCS/Uni MOC/archive/MDP 9 Apr.md",
-    "3. MOCS/Uni MOC/archive/MDP 26 Mar.md",
-    "3. MOCS/Uni MOC/archive/Java - Polimorfism & Binding.md",
-    "3. MOCS/Uni MOC/archive/Java - Wrapper Classes, Auto-boxing and Auto-unboxing.md",
-    "To-Do/Java - Collections.md",
-    "3. MOCS/Uni MOC/archive/Java - Upcasting & Downcasting.md",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250127202018.png",
     "progetto/attachments/Pasted image 20240718122039.png",
     "progetto/attachments/hurryupimagexample.png",
@@ -332,8 +338,6 @@
     "progetto/attachments/enemyattackexample.png",
     "progetto/attachments/bollaproj.png",
     "3. MOCS/Uni MOC/archive/attachments/maitafilreprojectile.png",
-    "3. MOCS/Uni MOC/archive/attachments/bollaproj.png",
-    "progetto/attachments/bolleprojectile.png",
     "3. MOCS/Uni MOC/archive/attachments/20. Algoritmo di decomposizione - Esercizi.pdf",
     "3. MOCS/Uni MOC/archive/Gestione dell'Input",
     "Untitled.canvas",

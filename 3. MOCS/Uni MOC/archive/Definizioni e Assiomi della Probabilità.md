@@ -6,7 +6,7 @@ academic year: 2024/2025
 related: "[[Studio delle Probabilità]]"
 completed: true
 created: 2024-10-01T12:25
-updated: 2024-10-13T13:37
+updated: 2025-02-05T09:16
 ---
 >[!abstract] Index
 >1. [[#Spazio Campionario]]
@@ -19,19 +19,33 @@ updated: 2024-10-13T13:37
 >- [[Calcolo delle Probabilità (class)]]
 
 ---
+## Definizione di Probabilità
+
+
+Una definizione semplice di probabilità è:
+
+$$
+P = \frac{\text{casi favorevoli}}{\text{casi possibili}}
+$$
+
+>[!danger] Inconveniente di questa definizione
+>1. Funziona soltanto se tutti i casi possibili sono **Equi-Probabili**
+>2. È una definizione **Circolare**. Questa definizione richiede che tutti i casi abbiano la stessa $\textcolor{orange}{\text{probabilità}}$ ma è proprio quello che stiamo provando a definire.
+>3. Funziona soltanto se si utilizza un numero finito di casi.
+
+---
 ## Spazio Campionario
 
 >[!note] Definizione
->Lo **spazio campionario** rappresenta l'insieme di tutti possibili valori che possono essere assunti da una variabile aleatoria.
->
->O in altre parole l'insieme di tutti possibili i possibili esiti di un esperimento.
+>Lo **spazio campionario** rappresenta l'insieme di tutti possibili esiti di un esperimento,
 >
 >$$
 >\text{Simbolo Matematico: S}
 >$$
 
->[!warning] Esempio
+>[!example] Esempio
 >Se l'esperimento è il lancio di un dado, lo spazio campionari di questo esperimento è:
+>
 >$$
 >S = \{ 1,2,3,4,5,6 \}
 >$$
@@ -42,7 +56,7 @@ updated: 2024-10-13T13:37
 Un **evento** è descritto matematicamente da un sotto insieme di uno spazio campionario, in particolare rappresenta tutto gli esiti che realizzano l'evento.
 
 >[!warning] Esempio
->**Esperimento:** lancio del dado
+>**Esperimento:** Lancio del dado
 >**Spazio Campionario:** $S = \{ 1,2,3,4,5,6 \}$
 >
 >L'evento "esce un numero pari" è descritto dall’insieme $\{ 2,4,6 \} \subset S$
@@ -61,10 +75,10 @@ Un **evento** è descritto matematicamente da un sotto insieme di uno spazio cam
 >$$
 >
 >> [!warning] Esempio
->>  **Esperimento:** lancio del dado 
->>  **Spazio Campionario:** S={1,2,3,4,5,6}
+>>  **Esperimento:** Lancio del dado 
+>>  **Spazio Campionario:** $S=\{1,2,3,4,5,6 \}$$
 >>
->> L'evento "esce un numero" è descritto dall’insieme {1,2,3,4,5,6}=S, quindi è un evento certo.
+>> L'evento "esce un numero" è descritto dall’insieme $\{1,2,3,4,5,6\}$ es è uguale a $S$, quindi è un evento certo.
 
 >[!note] Evento Impossibile
 >
@@ -75,38 +89,38 @@ Un **evento** è descritto matematicamente da un sotto insieme di uno spazio cam
 >$$
 >
 >> [!warning] Esempio 
->> **Esperimento:** lancio del dado 
->> **Spazio Campionario:** S={1,2,3,4,5,6}
+>> **Esperimento:** Lancio del dado 
+>> **Spazio Campionario:** $S=\{1,2,3,4,5,6\}$
 >> 
->> L'evento "esce un numero maggiore di 6" è descritto dall’insieme ∅, quindi è un evento impossibile.
+>> L'evento "esce un numero maggiore di 6" è descritto dall’insieme $\emptyset$, quindi è un evento impossibile.
 
 >[!note] Evento Complementare
 >
->Un evento è detto **complementare** di un altro evento se è l'insieme di tutti gli elementi dello spazio campionario che non sono in quell'evento.
+>Un evento $E^{c}$ è detto **complementare** di un altro evento $E$, se è l'insieme di tutti gli elementi dello spazio campionario che non sono in quell'evento.
 >
 >$$
 >E^{c} = S \setminus E
 >$$
 >
 >> [!warning] Esempio 
->> **Esperimento:** lancio del dado 
->> **Spazio Campionario:** S={1,2,3,4,5,6}
+>> **Esperimento:** Lancio del dado 
+>> **Spazio Campionario:** $S={1,2,3,4,5,6}$
 >> 
->> L'evento "esce un numero pari" è descritto dall’insieme E={2,4,6}. L'evento complementare di E è $E^c =\{1,3,5\}$.
+>> L'evento "esce un numero pari" è descritto dall’insieme $E=\{2,4,6\}$. L'evento complementare di E è $E^c =\{1,3,5\}$.
 
 >[!note] Evento Incompatibile
 >
->Due eventi sono detti **incompatibili** se la loro intersezione è vuota. In altre parole, due eventi sono incompatibili se non possono verificarsi contemporaneamente.
+>Due eventi $E$ ed $F$ sono detti **incompatibili** se la loro intersezione è vuota. In altre parole, due eventi sono incompatibili se non possono verificarsi contemporaneamente.
 >
 >$$
->\text{Eventi incompatibili: } A \cap B = \emptyset
+>\text{Eventi incompatibili: } E \cap F = \emptyset
 >$$
 >
 >> [!warning] Esempio 
->> **Esperimento:** lancio del dado 
->> **Spazio Campionario:** S={1,2,3,4,5,6}
+>> **Esperimento:** Lancio del dado 
+>> **Spazio Campionario:** $S=\{1,2,3,4,5,6\}$
 >> 
->> L'evento "esce un numero pari" è descritto dall’insieme {2,4,6} e l'evento "esce un numero dispari" è descritto dall’insieme {1,3,5}. Questi due eventi sono incompatibili.
+>> L'evento "esce un numero pari" è descritto dall’insieme $\{2,4,6\}$ e l'evento "esce un numero dispari" è descritto dall’insieme $\{1,3,5\}$. Questi due eventi sono incompatibili.
 
 ^14f29a
 

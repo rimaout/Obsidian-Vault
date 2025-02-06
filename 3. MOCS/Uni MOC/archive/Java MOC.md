@@ -4,10 +4,8 @@ type: "[[Programming MOC]]"
 related:
   - "[[Programmazione ad Oggetti]]"
   - "[[Metodologie di Programmazione (class)]]"
-updated: 2025-02-02T00:05
+updated: 2025-02-06T12:27
 ---
----
-
 >[!abstract] Basics
 >- [[Hello Word in java]] 🟢
 >- [[Java Variables]] 🟢 
@@ -24,8 +22,9 @@ updated: 2025-02-02T00:05
 >- [[Java - Strings]]
 >  
 >**Advanced:**
->  - [[Generic Types]]
->  - [[Java - Jolly Operator (?)]]
+>  - [[Java - Generic Types]] 🔵
+>  - [[Java - Jolly Operator (?)]] 🔵
+>  - [[Java - Cancellazione del Tipo  (type erasure)]]
 
 >[!abstract] Flow Control
 >- [[Java if...else]] 🟢
@@ -41,7 +40,7 @@ updated: 2025-02-02T00:05
 >- [[Java - Sets]]
 >- [[Java - Record]]
 >- [[Java - Maps]]
->  
+>
 >[[Java - Come scegliere la giusta struttura dati]]
 
 >[!abstract] Object Oriented Programming
@@ -53,7 +52,7 @@ updated: 2025-02-02T00:05
 > 
 > **Inheritance:**
 >- [[Java - Inheritance]] 🔵
->  [[Java - Overloading & Overriding]] 🔵
+>- [[Java - Overloading & Overriding]] 🔵
 >- [[Java - Upcasting & Downcasting]] 🔵
 >- [[Java - Polimorfism & Binding]] 🔵
 >
@@ -69,8 +68,9 @@ updated: 2025-02-02T00:05
 >- [[Java - Interfaces]] 🔵
 >- [[Java - SAM & Functional Interfaces]] 🔵
 >- [[Notable Interfaces]] 🔵
->- [[Java - Lambda Function]]
->- [[Java - Anonimus classes (si die cosi boo)]]
+>- [[Notable Functional Interfaces]]
+>- [[Java - Lambda Function]] 🔵
+>- [[Java - Anonymous Classes]] 🔵
 >
 >**Object Methods:**  
 >- [[Java - HashCode & Equals Methods]] 🔵
@@ -85,10 +85,3 @@ updated: 2025-02-02T00:05
 >[!abstract] Memoria
 >- [[Java - Heap Stack Metaspace]]
 >- [[Java - Object Cost in Memory]]
-
->**Extra**
->- [[Java - Lambda Function]]
->  [[Java - How to implement compareTo Method]]
-
-**Domanda:**
-- differenza interfacce e classi astratte

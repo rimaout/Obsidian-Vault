@@ -6,7 +6,7 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2024-10-14T15:10
-updated: 2025-01-13T11:40
+updated: 2025-02-05T09:30
 ---
 >[!abstract] Index
 >1. [[#Probabilità Condizionata]]
@@ -34,7 +34,6 @@ updated: 2025-01-13T11:40
 >$$
 
 ---
-
 ## Probabilità Condizionata
 
 Dati gli eventi $E$ ed $F$, con $P(F)>0$ si definisce la probabilità di $E$ condizionata a $F$ come:
@@ -48,7 +47,7 @@ $$
 >- $E = \# \text{ Esce 1 o 2}$
 >- $F = \# \text{ Esce un nemero}\leq 4$
 >
->Normalmente la probabilità di $E$ è $P(E) = \frac{1}{3}$, ma se vogliamo calcolare la probabilità Di $E$ condizionata da $F$, allora otteniamo:
+>Normalmente la probabilità di $E$ è $P(E) = \frac{1}{3}$, ma se vogliamo calcolare la probabilità di $E$ condizionata da $F$, allora otteniamo:
 >
 >$$
 >P(E \vert F) = \frac{P(E\cap F)}{P(F)} = \frac{2}{4} = \frac{1}{2}
@@ -70,14 +69,14 @@ Con $P(F)$ positiva
 > P(E \vert F) = \frac{P(E \cap F)}{P(F)} = \frac{ \frac{{ \lvert E \cap F \rvert }  }{{ \lvert S \rvert }  } }{ \frac{{ \lvert F \rvert }  }{{ \lvert S \rvert }  } } = \frac{E \cap  F}{F}
 >$$
 
->[!example]- Esempio da rivedere 🟡
+>[!example]- Esempio
 >Estraggo 3 carte da un mazzo da 40 senza rimpiazzo, sapendo che ho estratto solo carte di bastoni, qual è la probabilità di aver estratto un asso?
 >- $E = \# \text{ Estraggo un asso}$
->- $E=\# \text{Estraggo solo bastoni}$
+>- $F=\# \text{ Estraggo solo bastoni}$
 >- $S = \{ A \subset M: \lvert A \rvert = 3 \}$ dove $M$ è un mazzo di carte
 >
 >$$
->P(E \vert F) = \frac{{ \lvert E \cap F \rvert }  }{{ \lvert F \rvert }  } = \frac{\binom{9}{2}}{\binom{10}{3}} = \frac{3}{10}
+>P(E \vert F) = \frac{{ \lvert E \cap F \rvert }  }{{ \lvert F \rvert }  } = \frac{1}{10}
 >$$
 >
 >>**oss:** $\binom{9}{2}$ sono le terne non ordinate di bastoni dove non c'è l'asso
@@ -122,7 +121,7 @@ Con $P(F)$ positiva
 >\end{align*}
 >$$
 
->[!example] Esempio
+>[!example]- Esempio
 >Estraggo 3 carte senza rimpiazzo da un mazzo da 40, qual è la probabilità che la prima carta è di bastoni, la seconda di denari e la terza di bastoni.
 >
 >$G = \# \text{ 1° carta bastoni, 2° carta denari, 3° carta bastoni}$
@@ -220,5 +219,3 @@ Sia $F$ evento con $P(F)>0$, Allora la funzione $R \to P(F \vert F)$ , al variar
 >$$
 >P\left( \bigcup^{n}_{i=1} \right) = \sum^{n}_{i=1}P(A_{i}\vert F)
 >$$
-
----

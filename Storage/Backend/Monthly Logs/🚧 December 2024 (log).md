@@ -1,6 +1,6 @@
 ---
 created: 2025-01-01T21:51
-updated: 2025-01-27T23:30
+updated: 2025-02-05T09:01
 tags:
   - monthly-log
 ---
@@ -8,7 +8,9 @@ tags:
 
 ## Christmas Gifts
 
-The best Christmas gift i received this year was [Ghosty 👻](https://github.com/ghostty-org).
+The best Christmas gift i received this year was [Ghosty 👻](https://github.com/ghostty-org). 
+
+add: https://ghostty.zerebos.com/
 
 add who made it, when it was released (around Christmas but before was in a private alpha so it is already super stable) why is such interesting project (fast and feature reach but not bloted like Iterm), in future there will be plugins (application for the terminal) but the thing i like the most is the community backing the project. It's also native this means that the "backend" is written in zig but the fronted is written in a laguage native to the OS this means that on mac the app uses swift to have full integration with the os and on linux uses ... (vedi se ci sono differenze per gnome e gli altri, forse usa gtk4?) [Interview](https://www.youtube.com/watch?v=YQnz7L6x068)
 

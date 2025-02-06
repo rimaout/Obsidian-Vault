@@ -6,7 +6,7 @@ related:
   - "[[Variabili Aleatorie]]"
 completed: false
 created: 2024-12-09T11:58
-updated: 2024-12-09T14:32
+updated: 2025-02-04T12:38
 ---
 
 >[!abstract] Related
@@ -15,7 +15,7 @@ updated: 2024-12-09T14:32
 ---
 ## Introduzione
 
-È possibile avere delle variabili aleatorie diverse, con spazzi campionari diversi ma che hanno la stessa distribuzione, vediamo un esempio:
+È possibile avere delle variabili aleatorie diverse, con spazi campionari diversi ma che hanno la stessa funzione distribuzione, vediamo un esempio:
 
 >***Caso 1:***
 >

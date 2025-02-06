@@ -7,7 +7,7 @@ related:
   - "[[Variabile Aleatorie Congiunte]]"
 completed: false
 created: 2024-12-02T11:56
-updated: 2025-01-11T11:14
+updated: 2025-02-04T16:05
 ---
 >[!abstract] Related
 >- 
@@ -20,20 +20,12 @@ updated: 2025-01-11T11:14
 >$$
 >\text{Cov}(X,Y) = E\big[(X-EX)(Y -EY) \big]
 >$$
->
->>[!warning] Dim
->>
->>akcjhaeklvjhklejhad
 
 >[!note] Proprietà
 >
 >- $\text{Cov}(X,X) = \text{Var(X)}$
 >- $\text{Cov}(X,Y) =\text{Cov}(Y,X)$
 >- $\text{Cov}(X,a) = 0 \ \ \ \ (a \text{ costante})$ 
->  
->>[!warning] Dim
->>
->>dòj lsk
 
 >[!danger] Linearità
 >
@@ -44,10 +36,6 @@ updated: 2025-01-11T11:14
 >$$
 >\text{Cov}(X, Y) = 0 \ \text{se }X \text{ e } Y \text{ sono indipendenti}
 >$$
->
->>[!warning] Dim
->>
->>kjhkjh
 
 ![[Pasted image 20241230130608.png]]
 

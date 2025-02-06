@@ -7,7 +7,7 @@ related:
   - "[[Variabile Aleatorie Congiunte]]"
 completed: true
 created: 2024-12-02T10:35
-updated: 2025-01-13T10:54
+updated: 2025-02-04T16:18
 ---
 >[!abstract] Related
 >- [[Variabili Aleatorie]]
@@ -71,15 +71,19 @@ Delle variabili aleatorie si dicono indipendenti quando per ogni v.a. il valore 
 >\end{align*}
 >$$
 
-## Valore atteso
+### Valore atteso
 
 $$
 E[XY] = E[X]\cdot  E[Y]
 $$
 
-## Varianza
+### Varianza
 
-## Covarianza
+$$
+\text{Var}(aX + bY) = \text{Var}(aX) + \text{Var}(bY) + 2\text{Cov}(aX,bY)
+$$
+
+### Covarianza
 
 $$
 \text{Cov}(X,Y) = 0

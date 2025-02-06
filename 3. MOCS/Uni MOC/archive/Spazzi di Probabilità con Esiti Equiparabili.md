@@ -6,7 +6,7 @@ academic year: 2024/2025
 related: "[[Definizioni e Assiomi della Probabilità#Spazio di Probabilità]]"
 completed: false
 created: 2024-10-13T13:35
-updated: 2024-10-17T16:32
+updated: 2025-02-05T09:22
 ---
 >[!abstract] Index
 >1. [[#Introduzione]]
@@ -22,9 +22,13 @@ updated: 2024-10-17T16:32
 
 >[!note] Premesse
 >- Supponiamo che $S$ uno spazio campionari con un numero finito $n$ di esiti.
->- Gli esiti di $S$ sono tutti **equi-probabili** e questo valore lo chiamiamo $z$ $P(E_{1}) = P(E_{2}) = \dots = P(E_{n}) = z$
+>- Gli esiti di $S$ sono tutti **equi-probabili**, la il valore della probabilità lo chiamiamo $z$. 
+>  
+>$$
+>P(E_{1}) = P(E_{2}) = \dots = P(E_{n}) = z
+>$$
 >
->**oss:** $P(S) = 1$
+>>**oss:** $P(S) = 1$
 
 >[!note] Conseguenze
 >La probabilità dello spazio campionario non è altro la somma tra tutte le probabilità degli eventi che lo compongono
@@ -122,6 +126,3 @@ $$
 >$$
 >P(E) = \frac{6 \cdot  \binom{5}{2} }{\binom{11}{3} } = \frac{4}{11}
 >$$
-
->[!example] Esempio 4 (compleanni)
-

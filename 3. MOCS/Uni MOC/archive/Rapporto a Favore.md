@@ -6,7 +6,7 @@ academic year: 2024/2025
 related: 
 completed: true
 created: 2024-10-19T14:53
-updated: 2024-10-24T12:31
+updated: 2025-02-05T09:31
 ---
 ## Definizione 
 
@@ -93,4 +93,4 @@ $$
 >Il nostro rapporto a favore quindi aumenta se $P(E\vert H)>P(E \vert H^{c})$ ovvero se il loro rapporto > 1. Aumenta se appunto l’ipotesi è vera piuttosto che quando è falsa.
 
 
-![[Pasted image 20241016145931.png|200]]
+![[Pasted image 20241016145931.png|500]]
