@@ -6,7 +6,7 @@ related:
   - "[[Java MOC]]"
 completed: true
 created: 2025-01-30T18:05
-updated: 2025-02-02T00:08
+updated: 2025-02-08T18:00
 ---
 ## Iterable e Iterator
 
@@ -70,9 +70,9 @@ In Java, le interfacce `Iterable` e `Iterator` sono due concetti fondamentali pe
 - `set(Object o)`: sostituisce l'elemento corrente con l'oggetto specificato.
 - `add(Object o)`: aggiunge l'oggetto specificato alla lista.
 
-## Comparable
+## Comparable e Comparator
 
->[!note] Comparable e Comparator
+>[!note] Comparable 
 >
 >`Comparable` è un'interfaccia funzionale che consente di definire un ordinamento per una classe di oggetti. 
 >

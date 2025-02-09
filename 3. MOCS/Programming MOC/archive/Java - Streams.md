@@ -4,32 +4,82 @@ programming language:
 related: 
 completed: false
 created: 2024-06-17T18:21
-updated: 2025-01-30T15:41
+updated: 2025-02-08T17:53
 ---
 ## Introduzione 
 
-Un `Stream` in Java può essere visto come una sequenza di dati. Un `Stream` non memorizza dati e, in questo senso, non è una struttura dati che memorizza elementi. Piuttosto, rappresenta una sequenza di elementi e funzioni di supporto che possono essere utilizzate per eseguire operazioni su quegli elementi.
+Un `Stream` in Java può essere visto come una sequenza di dati proveniente da una sorgente (ad esempio una [[Java - Collections|collezione]] o [[Java - Arrays|array]]), su cui possiamo effettuare delle operazioni.
 
-##### Concetti Chiave
+## Tipi di Operazioni
 
->**🔥 Nota:** Al contrario delle Collection, uno Stream non memorizza né modifica i dati della sorgente, ma opera su di essi
-
->[!note] Stram Pipeline
->Una pipeline di stream è una sequenza di operazioni di stream, composta da: 
->- **Sorgente:** che può essere una [[Java - Collections|collezione]], un [[Java - Arrays|array]], un generatore di numeri, ecc.
->- **Operazioni intermedie:** che trasformano un stream in un altro stream.
->- Un **operazione terminale:** (che produce un risultato o un effetto collaterale, come `count` o `forEach`).
-
->[!note] Operazioni intermedie vs Operazioni terminali
->Le **operazioni intermedie** restituiscono un altro stream su cui continuare a lavorare.
+>[!note] Operazioni Intermedie vs Terminali
+>Le operazioni **intermedie** restituiscono un altro stream su cui continuare a lavorare.
+>- ad esempio: `map()`, `filter()`, `sorted()` 
 >
->come filter e map restituiscono un nuovo stream. Sono sempre lazy, eseguendo un'operazione su un elemento dello stream solo quando necessario.
+>Le operazioni **terminali** restituisco un tipo atteso e terminano lo stream impedendone il riutilizzo.
+>- ad esempio: `collet()`, `sorted()`
+
+>[!note] Operazione State-less vs State-full
 >
->Le **operazioni terminali** come forEach, count, collect, ecc., producono un risultato o un effetto collaterale e terminano la pipeline.
->[!note] Stream sequenziali vs Stream paralleli
+>Le operazioni **state-less** vengono elaborate in modo indipendente tra gli elementi, questo significa che possono essere parallelizzate.
+>- ad esempio: `filter()`
+>
+>Le operazioni **state-full** sono operazioni dove l'elaborazione di un elemento potrebbe dipendere da un altro elemento, e che quindi non possono essere parallelizzate.
+>- ad esempio: `sorted()`
+
+>[!warning] Lazy Behaviour
+>
+>Le operazione intermedie non vengono eseguite immediatamente ma soltanto nel momento quando viene effettuata un operazione terminale.
+>
+>Quest'approccio permette di ottimizzare il consumo di memoria e migliorare le prestazioni.
+
+## Tipi di Stream
+
+>[!note] Stream Sequenziali vs Paralleli
 >Un stream sequenziale ha un unico elemento corrente, elaborato in modo indipendente dagli altri. 
 >
 >Un stream parallelo è in grado di suddividere il suo lavoro in più parti, elaborando più elementi contemporaneamente.
 
+>[!note] Stream Primitivi
+>
+>Gli stream normalmente possono lavorare solo su oggetti, per questo sono stati creati degli stream speciali soltanto per i primitivi, che non richiedono di passare attraverso le classi [[Java - Wrapper Classes, Auto-boxing and Auto-unboxing#Classi Wrapper|classi wrapper]].
+>
+>Ad esempio `IntStream`, `DoubleStream` e `LongStream`
 
----
+## Come Creare uno stream
+
+Per creare uno stream ci sono diversi modi:
+
+Utilizzare `Stream.of(elenco dati)` 
+
+```java
+Stream.of(1,2,3,4)
+Stream.of(new Persona("Mario"), new Persona "Giulia"))
+```
+
+Utilizzare il metodo `stream()` o `parallelStream()` delle collection:
+
+```java
+List<Persona> persone = new ArrayList<>();
+persone.stream();
+persone.stream();
+```
+
+É possibile creare uno stream da un array utilizzare il metodo `Array.stream(T[] array)`
+
+```java
+Integer[] numeri = {1, 2, 3, 4, 5}; 
+Arrays.stream(numeri);
+```
+
+Uno stream di righe di testo da `BufferedReader.lines()`, `Files.lines(path)` e `String.lines()`
+
+```java
+BufferedReader reader = new BufferedReader(new FileReader("file.txt")); 
+reader.lines() // lines è uno stream
+
+Files.lines("file.txt") // lines è uno stream
+
+String testo = "Linea 1\n Linea 2\n Linea 3";
+testo.lines() // lines è uno stream
+```

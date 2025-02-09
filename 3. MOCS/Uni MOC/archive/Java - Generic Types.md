@@ -6,7 +6,7 @@ related:
   - "[[Java MOC]]"
 completed: true
 created: 2025-02-02T22:33
-updated: 2025-02-06T12:27
+updated: 2025-02-07T10:00
 ---
 ## Introduzione
 
@@ -136,3 +136,12 @@ ArrayList<Sting> lista = ArrayList<>();
 >}
 >```
 
+---
+## Overloading Metodi Generici
+
+Un metodo generico può essere sovraccaricato anche da un metodo non generico ma con lo stesso nome e numero di parametri. Quando il compilatore riceve una chiamata a questo metodo cerca prima l'implementazione più specifica, ovvero quella non generica e poi il generico, per garantire un'ottimizzazione in base al tipo.
+
+```java
+static public<T extends Comparable<T>> T getMassimo(T a, T b, T c){ ... }
+static public String getMassimo(String a, String b, String c){ ... }
+```

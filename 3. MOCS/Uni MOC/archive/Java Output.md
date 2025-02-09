@@ -4,7 +4,7 @@ type: "[[Programming MOC]]"
 programming language: "[[Java MOC]]"
 related: 
 completed: false
-updated: 2025-01-26T12:47
+updated: 2025-02-07T10:11
 ---
 ---
 
@@ -23,7 +23,7 @@ In Java, to standard output (screen) you can simply use:
 
 Here:
 - `System` is a [[Java - Class and Objects|class]]
-- `out` is a `public` `static` [[Java - Fields|field]]
+- `out` is a `public` `static` [[Java - Fields & Methods|field]]
 
 ---
 ## println() and print()

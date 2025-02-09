@@ -5,7 +5,7 @@ programming language: "[[Java MOC]]"
 related:
   - "[[Java OOP]]"
 completed: false
-updated: 2025-01-29T18:48
+updated: 2025-02-07T10:29
 ---
 ---
 
@@ -142,4 +142,3 @@ static public void main(String[] args)
 
 ```
 
----

@@ -4,7 +4,7 @@ type: "[[Programming MOC]]"
 related:
   - "[[Programmazione ad Oggetti]]"
   - "[[Metodologie di Programmazione (class)]]"
-updated: 2025-02-06T18:59
+updated: 2025-02-09T10:52
 ---
 >[!abstract] Basics
 >- [[Hello Word in java]] 🟢
@@ -20,12 +20,6 @@ updated: 2025-02-06T18:59
 >- [[Java Operators]] 🟡
 >- [[Java Casting]] 🟢
 >- [[Java - Strings]]
->  
->**Advanced:**
->  - [[Java - Generic Types]] 🔵
->  - [[Java - Jolly Operator (?)]] 🔵
->  - [[Java - PECS]] 🔵
->  - [[Java - Cancellazione del Tipo  (type erasure)]] 🔵
 
 >[!abstract] Flow Control
 >- [[Java if...else]] 🟢
@@ -34,20 +28,9 @@ updated: 2025-02-06T18:59
 >- [[Java - for-each Loop]]
 >- [[Java - while Loop]]
 
->[!abstract] Data Structures
->- [[Java - Arrays]]
->- [[Java - Collections]]
->- [[Java - Lists]]
->- [[Java - Sets]]
->- [[Java - Record]]
->- [[Java - Maps]]
->
->[[Java - Come scegliere la giusta struttura dati]]
-
 >[!abstract] Object Oriented Programming
 >- [[Java - Class and Objects]]
->- [[Java - Fields]]
->- [[Java - Methods]]
+>- [[Java - Fields & Methods]] 🔵
 >- [[Java - Constructor]]
 >- [[Java - Top Level Classes ]]
 > 
@@ -68,8 +51,8 @@ updated: 2025-02-06T18:59
 >- [[Java - Enumerations]] 🔵
 >- [[Java - Interfaces]] 🔵
 >- [[Java - SAM & Functional Interfaces]] 🔵
->- [[Notable Interfaces]] 🔵
->- [[Notable Functional Interfaces]]
+>- [[Java - Notable Interfaces]] 🔵
+>- [[Java - Notable Functional Interfaces]]
 >- [[Java - Lambda Function]] 🔵
 >- [[Java - Anonymous Classes]] 🔵
 >
@@ -77,11 +60,29 @@ updated: 2025-02-06T18:59
 >- [[Java - HashCode & Equals Methods]] 🔵
 >- [[Java - Clone Method]] 🔵
 
+>[!abstract] Generics Types
+>- [[Java - Generic Types]] 🔵
+>- [[Java - Jolly Operator (?)]] 🔵
+>- [[Java - PECS]] 🔵
+>- [[Java - Cancellazione del Tipo  (type erasure)]] 🔵
+>- [[Java - Tipi RAW]] 🔵
+ 
+>[!abstract] Data Structures
+>- [[Java - Collections]] 🔵
+>- [[Java - Collections Iteration]] 🔵
+>- [[Java - Lists]] 🔵
+>- [[Java - Sets]] 🔵
+>- [[Java - Maps]] 🔵
+>- [[Java - Queue & Stack]] 🔵
+>- [[Java - Data structure and how to chose them]] 🔵
+ 
 >[!abstract] Streams (Functional Programming)
 >- [[Java - Streams]]
+>- [[Java - Metodi Stream]]
 >- [[Java - Collectors]]
 
 >[!abstract] Eccezioni
+>- [[Java - Exception]]
 
 >[!abstract] Memoria
 >- [[Java - Heap Stack Metaspace]]

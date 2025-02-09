@@ -6,7 +6,7 @@ class:
 academic year: 2023/2024
 related: 
 completed: false
-updated: 2025-01-29T19:05
+updated: 2025-02-07T10:11
 ---
 ---
 >[!info] Index
@@ -90,7 +90,7 @@ i membri di una classe sono `campi` e `metodi`
 >
 >*oss:* le parentesi quadre indicano l’opzionalità del parametro
 
-[[Java - Fields]]
+[[Java - Fields & Methods]]
 
 ---
 ### Metodi 
@@ -168,7 +168,7 @@ Le **variabili locali** sono variabili definite all’interno di un metodo
 -  Come parametri del metodo o all’interno del corpo del metodo
 - Esistono dal momento in cui sono definite fino al termine dell’esecuzione della chiamata al metodo in questione
 
-[[Java - Fields#Campi vs. variabili locali]]
+[[Java - Fields & Methods#Campi vs. variabili locali]]
 
 ---
 ## Incapsulamento

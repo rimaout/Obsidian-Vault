@@ -6,7 +6,7 @@ related:
   - "[[Java MOC]]"
 completed: true
 created: 2025-01-29T16:25
-updated: 2025-01-30T16:15
+updated: 2025-02-09T11:09
 ---
 ## Polimorfismo
 
@@ -44,7 +44,8 @@ Infatti per la presenza di polimorfismo, il tipo del riferimento (variabile) pu�
 >Ad esempio:
 >
 >```java
->Animal animale = new Cane(); animale.abbaia();
+>Animal animale = new Cane(); 
+>animale.abbaia();
 >```
 >
 >In questo caso, il compilatore non può determinare con certezza quale metodo `abbaia()` verrà chiamato, perché il tipo della variabile `animale` è `Animal`, ma l'oggetto vero e proprio è di tipo `Cane`. A runtime, il sistema verifica il tipo dell'oggetto e chiama il metodo `

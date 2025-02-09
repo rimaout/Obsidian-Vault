@@ -5,7 +5,7 @@ related:
   - "[[Metodologie di Programmazione (class)]]"
 completed: true
 created: 2024-06-17T11:22
-updated: 2025-01-30T17:52
+updated: 2025-02-07T10:11
 ---
 
 >[!danger] tldr
@@ -66,7 +66,7 @@ Per ognuna delle costanti è definita da un **identificatore univoco** a cui cor
 ---
 ## Campi, Metodi, e Costruttori 
 
-Le enum possono avere [[Java - Fields|campi]], [[Java - Methods & Overloading|metodi]] e [[Java - Constructor|costruttori]]:
+Le enum possono avere [[Java - Fields & Methods|campi]], [[Java - Methods & Overloading|metodi]] e [[Java - Constructor|costruttori]]:
 - **Campi:** che sono variabili di istanza che memorizzano informazioni relative a ogni costante dell'enum.
 - **Metodi:** che vengono utilizzati per fornire funzionalità alle costanti dell'enum.
 - **Costruttori:** che vengono utilizzati per inizializzare i campi di ogni costante dell'enum.
