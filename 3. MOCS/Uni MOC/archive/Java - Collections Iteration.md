@@ -6,7 +6,7 @@ related:
   - "[[Java MOC]]"
 completed: true
 created: 2025-02-07T16:01
-updated: 2025-02-07T17:16
+updated: 2025-02-09T18:42
 ---
 
 È possibile **iterare esternamente** ad una collezione attraverso:
@@ -72,7 +72,7 @@ updated: 2025-02-07T17:16
 >
 >Il metodo `accept()` dell'interfaccia `Consumer` viene chiamato per ogni elemento della collezione, passando l'elemento come input. In questo modo, è possibile eseguire un'azione personalizzata su ogni elemento della collezione.
 >
->Essendo `Consumer` una classe funzionale ci sono diversi modi per implementarla, usando una [[Java - Lambda Function|lambda function]], una [[Java - Anonymous Classes|classe anonima]], un riferimento a metodo o implementandolo esplicitamente.
+>Essendo `Consumer` una classe funzionale ci sono diversi modi per implementarla, usando una [[Java - Lambda Expressions|lambda function]], una [[Java - Anonymous Classes|classe anonima]], un riferimento a metodo o implementandolo esplicitamente.
 >
 >```java
 >persone.forEach(p -> System.out.println(p)

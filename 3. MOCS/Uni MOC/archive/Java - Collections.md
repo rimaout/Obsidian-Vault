@@ -6,13 +6,13 @@ related:
   - "[[Metodologie di Programmazione (class)]]"
 completed: true
 created: 2025-02-07T11:24
-updated: 2025-02-08T13:18
+updated: 2025-02-09T15:34
 ---
 ## Introduzione
 
 Le strutture servono a memorizzare e organizzare i dati in memoria in modo da poterli utilizzare efficientemente. In Java le principale strutture dati sono implementate attraverso una serie di interfacce che formano il Java Collection Framework.
 
-Le collection si possono dividere in 4 categorie:
+Le collection si possono dividere in 3 categorie:
 - [[Java - Lists]]
 - [[Java - Sets]]
 - [[Java - Maps]]

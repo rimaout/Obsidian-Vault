@@ -6,36 +6,23 @@ related:
   - "[[Java MOC]]"
 completed: true
 created: 2025-01-30T18:35
-updated: 2025-02-08T13:17
+updated: 2025-02-09T17:52
 ---
-## SAM (Single Abstract Method)
-
-Una SAM è un'interfaccia che contiene un solo metodo astratto, ovvero un metodo che non ha un'implementazione
-
-```java
-public interface MySAM {     
-	void doSomething();
-}
-```
-
->**Osservazione:** ogni SAM è anche un'interfaccia funzionale, ma non ogni interfaccia funzionale è necessariamente una SAM
-
 ## Functional Interfaces
 
-Un'interfaccia funzionale, invece, è un'interfaccia che contiene un solo metodo astratto e può avere degli opzionali metodi default.
+Un'interfaccia funzionale, è un'interfaccia che contiene un solo metodo astratto
 
 ```java
 public interface MyFunctionalInterface {
     void doSomething();
-
-    default void doSomethingElse() {
-        System.out.println("Doing something else");
-    }
 }
 ```
 
-## Come Implementare un Interfaccia funzionale
+## SAM (Single Abstract Method)
 
+Una SAM è un tipo di interfaccia funzionale che può dichiarata attraverso una funzione lambda o un riferimento a metodo. 
+
+## Come Implementare un Interfaccia funzionale
 
 In generale, le ***lambda expression*** e i ***riferimenti a metodo*** sono i modi più concisi e leggibili per implementare le interfacce funzionali, mentre le ***classi anonime*** e le ***implementazioni esplicite*** possono essere utili in situazioni più complesse
 

@@ -6,7 +6,7 @@ related:
   - "[[Java MOC]]"
 completed: false
 created: 2025-02-08T17:53
-updated: 2025-02-08T20:13
+updated: 2025-02-09T20:09
 ---
 #### Min e Max
 
@@ -28,7 +28,7 @@ Stream<String> stream2 = Stream.of("apple", "banana", "cherry", "avocado");
 stream2.filter(s -> s.startsWith("a"))
 
 Stream<Integer> stream = Stream.of(1, 2, 3, 4, 5, 10, 20, 30); 
-stream.filter(n -> n > 10).map(n -> n * 2)
+stream.filter(n -> n > 10)
 ```
 
 #### ForEach
@@ -49,7 +49,7 @@ Stream<Integer> stream = Stream.of(1, 2, 3, 4, 5);
 long count = stream.count();
 ```
 
-##### Sorted
+#### Sorted
 
 Restituisce uno stream ordinato secondo l'ordinamento naturale degli elementi o è possibile passare un [[Java - Notable Interfaces#Comparable e Comparator|comparator]].
 
@@ -66,7 +66,7 @@ stream.sorted((p1, p2) -> Integer.compare(p1.getEta(p2.getEta())));
 
 #### Map
 
-Restituisce un nuovo stream dove ciascun elemento è stato convertito tramite la funzione passata in input.
+Restituisce un nuovo stream dove ciascun elemento è stato convertito tramite la *funzione* passata in input.
 
 ```java
 Stream<Integer> stream = Stream.of(5, 2, 8, 1, 9, 15, 20); 
@@ -98,9 +98,75 @@ Restituisce un nuovo stream ma senza ripetizioni
 
 ```java
 // Rimuove gli elementi duplicati da uno stream di numeri interi 
-Stream<Integer> stream = Stream.of(1, 2, 2, 3, 3, 3, 4, 5, 5); stream.distinct().forEach(System.out::println);
+Stream<Integer> stream = Stream.of(1, 2, 2, 3, 3, 3, 4, 5, 5); 
+stream.distinct().forEach(System.out::println);
 ```
 
 #### Reduce
 
-Consente di ridurre gli elementi di uno stream a un singolo valore che poi verra ritornato. 
+Applica una funzione di riduzione a tutti gli elementi dello stream, riducendoli a un singolo valore.
+
+```java
+Stream<Integer> stream = Stream.of(1, 2, 3, 4, 5); 
+int somma = stream.reduce((a, b) -> a + b)
+```
+
+#### Limit
+
+Metodo che prende in input un long `n` e restituisce uno stream che contiene solo i primi `n` elementi dello stream originale.
+
+```java
+Stream<String> stream = Stream.of("1", "2", "3", "4", "5"); 
+Stream<String> limitStream = stream.limit(3);
+```
+
+#### Skip
+
+Metodo che prende in input un long `n` e restituisce uno stream che salta i primi `n` elementi dello stream originale e contiene solo gli elementi rimanenti.
+
+```java
+Stream<String> stream = Stream.of("1", "2", "3", "4", "5"); 
+Stream<String> limitStream = stream.skip(3);
+```
+
+#### TakeWhile e DropWhile
+
+**takeWhile**: restituisce uno stream che contiene tutti gli elementi dello stream originale fino a quando la condizione specificata (predicate) non viene violata.
+
+**dropWhile**: restituisce uno stream che salta tutti gli elementi dello stream originale fino a quando la condizione specificata (predicate) non viene violata.
+
+```java
+Stream<Integer> stream = Stream.of(1, 2, 3, 4, 5, 6, 7, 8, 9); 
+
+Stream<Integer> takeWhileStream = stream.takeWhile(n -> n <= 5);
+Stream<Integer> dropWhileStream = stream.dropWhile(n -> n <= 5);
+```
+
+#### AnyMatch, AllMatch e NonoMatch
+
+**anyMatch**: restituisce `true` se almeno un elemento dello stream soddisfa la condizione specificata ([[Java - Notable Functional Interfaces#Predicate|predicate]]), `false` altrimenti.
+
+**allMatch**: restituisce `true` se tutti gli elementi dello stream soddisfano la condizione specificata ([[Java - Notable Functional Interfaces#Predicate|predicate]]), `false` altrimenti.
+
+**noneMatch**: restituisce `true` se nessun elemento dello stream soddisfa la condizione specificata ([[Java - Notable Functional Interfaces#Predicate|predicate]]), `false` altrimenti.
+
+```java
+Stream<Integer> stream = Stream.of(6, 7, 8, 9); 
+
+boolean result = stream.allMatch(n -> n > 5);
+boolean result = stream.noneMatch(n -> n > 5);
+boolean result = stream.anyMatch(n -> n > 5);
+```
+
+#### FindFirst e FindAny
+
+**findFirst**: restituisce il *primo elemento* dello stream che *soddisfa la condizione specificata* ([[Java - Notable Functional Interfaces#Predicate|predicate]]), o un `Optional` vuoto se nessun elemento soddisfa la condizione.
+
+**findAny**: restituisce un *elemento qualsiasi* dello stream che *soddisfa la condizione specificata* ([[Java - Notable Functional Interfaces#Predicate|predicate]]), o un `Optional` vuoto se nessun elemento soddisfa la condizione.
+
+#### FlatMap
+
+Se abbiamo uno stream di array ed usiamo:
+- `.map(Arrays::stream)`  otteniamo uno stream di stream
+- `.flatMap(Array::stream)` otteniamo un stream
+

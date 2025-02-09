@@ -4,7 +4,7 @@ type: "[[Programming MOC]]"
 related:
   - "[[Programmazione ad Oggetti]]"
   - "[[Metodologie di Programmazione (class)]]"
-updated: 2025-02-09T10:52
+updated: 2025-02-09T20:09
 ---
 >[!abstract] Basics
 >- [[Hello Word in java]] 🟢
@@ -53,7 +53,7 @@ updated: 2025-02-09T10:52
 >- [[Java - SAM & Functional Interfaces]] 🔵
 >- [[Java - Notable Interfaces]] 🔵
 >- [[Java - Notable Functional Interfaces]]
->- [[Java - Lambda Function]] 🔵
+>- [[Java - Lambda Expressions]] 🔵
 >- [[Java - Anonymous Classes]] 🔵
 >
 >**Object Methods:**  
@@ -77,8 +77,8 @@ updated: 2025-02-09T10:52
 >- [[Java - Data structure and how to chose them]] 🔵
  
 >[!abstract] Streams (Functional Programming)
->- [[Java - Streams]]
->- [[Java - Metodi Stream]]
+>- [[Java - Streams]] 🔵
+>- [[Java - Metodi Stream]] 🟡 finire flat map
 >- [[Java - Collectors]]
 
 >[!abstract] Eccezioni

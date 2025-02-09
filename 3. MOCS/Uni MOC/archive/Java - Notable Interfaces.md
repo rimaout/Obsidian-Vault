@@ -6,7 +6,7 @@ related:
   - "[[Java MOC]]"
 completed: true
 created: 2025-01-30T18:05
-updated: 2025-02-08T18:00
+updated: 2025-02-09T17:17
 ---
 ## Iterable e Iterator
 
@@ -34,10 +34,10 @@ In Java, le interfacce `Iterable` e `Iterator` sono due concetti fondamentali pe
 >
 >    @Override
 >    public Iterator<String> iterator() {
->        return new MiaIterazione();
+>        return new MioIterator();
 >    }
 >
->    private class MiaIterazione implements Iterator<String> {
+>    private class MioIterator implements Iterator<String> {
 >        private int indice = 0;
 >
 >        @Override

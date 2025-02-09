@@ -6,9 +6,9 @@ related:
   - "[[Java MOC]]"
 completed: true
 created: 2025-02-06T14:56
-updated: 2025-02-06T19:20
+updated: 2025-02-09T15:25
 ---
-PECS è l'abbreviazione di ***Producer extends Consumer super*** ed indica il principi che regola l'utilizzo del operatore jolly dove, che:
+PECS è l'abbreviazione di ***Producer extends Consumer super*** ed indica il principio che regola l'utilizzo del operatore jolly dove, che:
 - per i **Producer** (lettore), ovvero metodi ed oggetti che effettuano operazioni di lettura su collezioni generiche, si utilizza `extends`,
 - per i **Consumer** (scrittore) ovvero metodi ed oggetti che effettuano operazioni di scrittura su collezioni generiche, si utilizza`super`.  
 

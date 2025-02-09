@@ -1,10 +1,11 @@
 ---
 type: Programming Note
-programming language: 
-related: 
+programming language: "[[Java MOC]]"
+related:
+  - "[[Metodologie di Programmazione (class)]]"
 completed: false
 created: 2024-06-17T18:21
-updated: 2025-02-08T17:53
+updated: 2025-02-09T20:10
 ---
 ## Introduzione 
 

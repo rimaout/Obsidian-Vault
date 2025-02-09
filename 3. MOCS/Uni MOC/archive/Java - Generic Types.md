@@ -6,10 +6,10 @@ related:
   - "[[Java MOC]]"
 completed: true
 created: 2025-02-02T22:33
-updated: 2025-02-07T10:00
+updated: 2025-02-09T16:51
 ---
-## Introduzione
-
+## Introduzione[[
+]]
 I tipi generici in Java sono un potente meccanismo che permette di scrivere codice flessibile e riutilizzabile; dando la possibilità di definire classi, interfacce e metodi che operano su tipi di dati specificati solo al momento dell'utilizzo.
 
 Ad esempio le [[Java - Collections|collezioni]] sono classi generiche dove il tipo su cui operano è definito soltanto al momento dell'istanziazione attraverso l'*operatore diamante* `<>`. Questo ha permesso di utilizzare un singolo codice per creare delle collection per qualsiasi tipo, ad esempio senza i tipi generici si sarebbe dovuto difinire un tipo specifico di ArrayList per ogni tipo d'oggetto esistente.
@@ -68,7 +68,7 @@ ArrayList<Sting> lista = ArrayList<>();
 >
 >Tuttavia, questo ci darà un errore di compilazione. Il motivo è che il metodo `aggiungiPera` prende in input una lista di frutti, mentre noi gli stiamo passando una lista di mele. Questo non è possibile perché non si può fare l'upcasting dei tipi generici.
 >
->Se fosse possibile, avremmo come risultato una lista di mele che contiene un frutto, il che non è corretto. La lista di mele dovrebbe contenere solo mele, non frutti di tipo diverso.
+>Se fosse possibile, avremmo come risultato una lista di mele che contiene una pera, il che non è corretto. La lista di mele dovrebbe contenere solo mele, non frutti di tipo diverso.
 >
 >>*oss:* Le collection (come `ArrayList`) sono generiche.
 >
