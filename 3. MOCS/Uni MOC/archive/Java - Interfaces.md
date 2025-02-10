@@ -5,7 +5,7 @@ academic year: 2023/2024
 related: 
 completed: true
 created: 2024-06-17T15:30
-updated: 2025-01-30T18:01
+updated: 2025-02-10T11:22
 ---
 ## Introduzione 
 
@@ -31,6 +31,11 @@ Un interfaccia può estendere un altra interfaccia ed ereditare tutti i sui meto
 >**Attributi:**
 >- Nelle ***Interfacce*** sono `statici` e `finali`.
 >- Nelle ***Classi Astratte*** possono avere *qualsiasi visibilità* ed essere *static* o non static.
+
+>[!warning] Estendere ed Implementare
+>
+>- Un interfaccia può estendere un altra interfaccia
+>- Un interfaccia non può implementare un altra interfaccia
 
 ---
 ## Implementazione

@@ -4,9 +4,9 @@ class: "[[Metodologie di Programmazione (class)]]"
 academic year: 2024/2025
 related:
   - "[[Java MOC]]"
-completed: false
+completed: true
 created: 2025-02-08T17:53
-updated: 2025-02-09T20:09
+updated: 2025-02-10T16:27
 ---
 #### Min e Max
 
@@ -166,7 +166,12 @@ boolean result = stream.anyMatch(n -> n > 5);
 
 #### FlatMap
 
-Se abbiamo uno stream di array ed usiamo:
-- `.map(Arrays::stream)`  otteniamo uno stream di stream
-- `.flatMap(Array::stream)` otteniamo un stream
+Il metodo `flatMap` è un metodo che prende un stream di elementi e applica una funzione di trasformazione a ciascun elemento del stream. Se la funzione di trasformazione restituisce un nuovo stream di elementi allora allora verrà appiattito formando un unico stream.
+
+>[!note] Esempio
+>
+>Quando si utilizza il metodo `map(Arrays::stream)` su uno stream di array, si ottiene uno stream di stream, poiché ogni array viene trasformato in uno stream separato.
+>
+>Per ottenere un unico stream dove gli elementi degli array diventano elementi dello stream, è necessario utilizzare il metodo `flatMap(Arrays::stream)` invece di `map`. Il metodo `flatMap` appiattisce lo stream, combinando gli stream interni in un unico stream.
+
 

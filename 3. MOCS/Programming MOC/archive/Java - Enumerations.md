@@ -5,7 +5,7 @@ related:
   - "[[Metodologie di Programmazione (class)]]"
 completed: true
 created: 2024-06-17T11:22
-updated: 2025-02-07T10:11
+updated: 2025-02-10T13:15
 ---
 
 >[!danger] tldr
@@ -18,7 +18,7 @@ updated: 2025-02-07T10:11
 >- ***Campi:*** memorizzano informazioni relative a ogni costante dell'enum e devono essere inizializzati dal costruttore
 >- ***Costruttori:*** inizializzano i campi ed è private (non è possibile usare `new` per creare un nuovo oggetto della enum)
 >  
->  **Metodi Statici:**
+>**Metodi Statici:**
 >- `values()`: restituisce l'array delle costanti enumerative
 >- `valuesOf(String s)`: restituisce l'oggetto associato al nume della costante dato
 >

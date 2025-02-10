@@ -4,7 +4,7 @@ type: "[[Programming MOC]]"
 related:
   - "[[Programmazione ad Oggetti]]"
   - "[[Metodologie di Programmazione (class)]]"
-updated: 2025-02-09T20:09
+updated: 2025-02-10T16:27
 ---
 >[!abstract] Basics
 >- [[Hello Word in java]] 🟢
@@ -12,7 +12,7 @@ updated: 2025-02-09T20:09
 >- [[Java Literals]] 🟢
 >- [[Java Input]] 🟢
 >- [[Java Output]] 🟢
->- [[Java Packages]] 
+>- [[Java - Heap, Stack and Metaspace]] 🔴
 
 >[!abstract] Data Types
 >- [[Java built-in data types]] 🟢
@@ -32,7 +32,6 @@ updated: 2025-02-09T20:09
 >- [[Java - Class and Objects]]
 >- [[Java - Fields & Methods]] 🔵
 >- [[Java - Constructor]]
->- [[Java - Top Level Classes ]]
 > 
 > **Inheritance:**
 >- [[Java - Inheritance]] 🔵
@@ -52,9 +51,10 @@ updated: 2025-02-09T20:09
 >- [[Java - Interfaces]] 🔵
 >- [[Java - SAM & Functional Interfaces]] 🔵
 >- [[Java - Notable Interfaces]] 🔵
->- [[Java - Notable Functional Interfaces]]
->- [[Java - Lambda Expressions]] 🔵
->- [[Java - Anonymous Classes]] 🔵
+>- [[Java - Notable Functional Interfaces]] 🔵
+>- [[Java - Lambda Expressions]] 🔵 <-- vedi roba di memoria
+>- [[Java - Anonymous Classes]] 🔵 <--
+>- [[Java -  Method Reference]] 🔵
 >
 >**Object Methods:**  
 >- [[Java - HashCode & Equals Methods]] 🔵
@@ -62,7 +62,7 @@ updated: 2025-02-09T20:09
 
 >[!abstract] Generics Types
 >- [[Java - Generic Types]] 🔵
->- [[Java - Jolly Operator (?)]] 🔵
+>- [[Java - Jolly Operator (?)]] 🔵 <--
 >- [[Java - PECS]] 🔵
 >- [[Java - Cancellazione del Tipo  (type erasure)]] 🔵
 >- [[Java - Tipi RAW]] 🔵
@@ -78,7 +78,7 @@ updated: 2025-02-09T20:09
  
 >[!abstract] Streams (Functional Programming)
 >- [[Java - Streams]] 🔵
->- [[Java - Metodi Stream]] 🟡 finire flat map
+>- [[Java - Metodi Stream]] 🔵
 >- [[Java - Collectors]]
 
 >[!abstract] Eccezioni

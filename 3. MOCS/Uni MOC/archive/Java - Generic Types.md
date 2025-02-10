@@ -6,10 +6,10 @@ related:
   - "[[Java MOC]]"
 completed: true
 created: 2025-02-02T22:33
-updated: 2025-02-09T16:51
+updated: 2025-02-10T11:32
 ---
-## Introduzione[[
-]]
+## Introduzione
+
 I tipi generici in Java sono un potente meccanismo che permette di scrivere codice flessibile e riutilizzabile; dando la possibilità di definire classi, interfacce e metodi che operano su tipi di dati specificati solo al momento dell'utilizzo.
 
 Ad esempio le [[Java - Collections|collezioni]] sono classi generiche dove il tipo su cui operano è definito soltanto al momento dell'istanziazione attraverso l'*operatore diamante* `<>`. Questo ha permesso di utilizzare un singolo codice per creare delle collection per qualsiasi tipo, ad esempio senza i tipi generici si sarebbe dovuto difinire un tipo specifico di ArrayList per ogni tipo d'oggetto esistente.

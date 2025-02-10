@@ -6,7 +6,7 @@ related:
   - "[[Java MOC]]"
 completed: true
 created: 2025-02-07T17:38
-updated: 2025-02-08T12:36
+updated: 2025-02-09T22:35
 ---
 Gli insiemi sono [[Java - Collections|collezioni]] **prive di duplicati** che estendono la classe `AbstractSet` ed implementano l'interfaccia `Set`. Gli oggetti inseriti nei set devono implementare correttamente i metodi [[Java - HashCode & Equals Methods|hashCode() ed equals()]].
 
@@ -46,4 +46,4 @@ Memorizza gli elementi in una tabella hash proprio come un [[#HashSet]] ma allo 
 
 Questo permette di avere le prestazioni del [[#HashSet]] e allo stesso tempo mantenere l'ordinamento di inserimento attraverso la [[Java - Lists#LinkedList|LinkedList]].
 
-Naturalmente questa struttura dati richiede più memoria ed overHead per il mantenimento della due strutture dati.
+Naturalmente questa struttura dati richiede più memoria ed overhead per il mantenimento della due strutture dati.
