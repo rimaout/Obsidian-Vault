@@ -6,7 +6,7 @@ related:
   - "[[Java MOC]]"
 completed: false
 created: 2025-02-08T18:07
-updated: 2025-02-10T16:18
+updated: 2025-02-10T17:55
 ---
 #### Function
 
@@ -62,6 +62,8 @@ System.out.println(risultato); // stampa true
 #### Supplier
 
 L'interfaccia `Supplier<T>` in Java è un'interfaccia funzionale che rappresenta una funzione che non accetta argomenti e restituisce un valore di tipo `T`.
+
+>**oss:** spesso utilizzato con i costruttori che non hanno input
 
 ```java
 Supplier<Integer> numeroCasuale = () -> (int) (Math.random() * 100); 

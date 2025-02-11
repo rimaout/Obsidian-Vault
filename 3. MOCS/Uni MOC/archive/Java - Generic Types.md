@@ -6,7 +6,7 @@ related:
   - "[[Java MOC]]"
 completed: true
 created: 2025-02-02T22:33
-updated: 2025-02-10T11:32
+updated: 2025-02-10T19:35
 ---
 ## Introduzione
 
@@ -30,16 +30,16 @@ ArrayList<Sting> lista = ArrayList<>();
 
 >[!note] No ereditarietà dei tipi generici
 >
->Per le classi generiche non vale l'ereditarietà dei tipi generici ovvero `ArrayList<Integer>` non è di tipo `ArrayList<Number>` o `ArrayList<Object>`, quindi non possiamo fare:
+>Per le classi generiche non vale l'ereditarietà dei tipi generici ovvero `ArrayList<Mela>` non è di tipo `ArrayList<Frutto>` o `ArrayList<Object>`, quindi non possiamo fare:
 >
 >```java
->ArrayList`<Number> listaNumeri = new ArrayList<Integer>(); //errore
+>ArrayList`<Frutto> listaNumeri = new ArrayList<Mela>(); //errore
 >```
 >
 >Ma rimane comunque l'ereditarietà tra classi:
 >
 >```java
->List`<Integer> listaNumeri = new ArrayList<Integer>();
+>List`<Frutto> listaNumeri = new ArrayList<Frutto>();
 >```
 
 >[!note] No upcasting 

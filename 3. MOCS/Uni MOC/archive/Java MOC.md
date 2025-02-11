@@ -4,7 +4,7 @@ type: "[[Programming MOC]]"
 related:
   - "[[Programmazione ad Oggetti]]"
   - "[[Metodologie di Programmazione (class)]]"
-updated: 2025-02-10T16:27
+updated: 2025-02-11T14:43
 ---
 >[!abstract] Basics
 >- [[Hello Word in java]] 🟢
@@ -12,7 +12,6 @@ updated: 2025-02-10T16:27
 >- [[Java Literals]] 🟢
 >- [[Java Input]] 🟢
 >- [[Java Output]] 🟢
->- [[Java - Heap, Stack and Metaspace]] 🔴
 
 >[!abstract] Data Types
 >- [[Java built-in data types]] 🟢
@@ -51,10 +50,10 @@ updated: 2025-02-10T16:27
 >- [[Java - Interfaces]] 🔵
 >- [[Java - SAM & Functional Interfaces]] 🔵
 >- [[Java - Notable Interfaces]] 🔵
->- [[Java - Notable Functional Interfaces]] 🔵
+>- [[Java - Notable Functional Interfaces]] 🔵 <-
 >- [[Java - Lambda Expressions]] 🔵 <-- vedi roba di memoria
 >- [[Java - Anonymous Classes]] 🔵 <--
->- [[Java -  Method Reference]] 🔵
+>- [[Java -  Method Reference]] 🔵 <--
 >
 >**Object Methods:**  
 >- [[Java - HashCode & Equals Methods]] 🔵
@@ -82,8 +81,14 @@ updated: 2025-02-10T16:27
 >- [[Java - Collectors]]
 
 >[!abstract] Eccezioni
->- [[Java - Exception]]
+>- [[Java - Exception]] 🔵 <-
+>- [[Java - Optiona]] 🔵
 
 >[!abstract] Memoria
->- [[Java - Heap Stack Metaspace]]
->- [[Java - Object Cost in Memory]]
+>- [[Java - Heap Stack Metaspace]] 🔵
+
+
+>[!abstract] DesignPattern
+>
+>- [[Software Design Pattern]]
+>- [[Java - Appunti Orale (Design Pattern)]]

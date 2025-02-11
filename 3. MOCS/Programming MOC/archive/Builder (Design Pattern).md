@@ -6,7 +6,7 @@ related:
   - "[[Metodologie di Programmazione (class)]]"
 completed: true
 created: 2024-07-09T12:13
-updated: 2024-07-09T15:10
+updated: 2025-02-10T23:05
 ---
 >[!abstract] Index
 >1. [[#Introduzione]]
@@ -34,8 +34,6 @@ Il Builder Pattern è un **design pattern creazionale** che viene utilizzato per
 
 ---
 ## Implementazione in Java
-
-Certamente! Posso generalizzare l'implementazione del Builder Pattern utilizzando una classe generica anziché la classe specifica Computer. Ecco una spiegazione più generale dell'implementazione del Builder Pattern:
 
 >[!note] Struttura
 >1. **Classe Generica:**

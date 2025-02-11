@@ -1,40 +1,21 @@
 ---
 type: Uni Note
-class: 
+class: "[[Metodologie di Programmazione (class)]]"
 academic year: 2023/2024
-related: 
-completed: false
+related:
+  - "[[Java MOC]]"
+completed: true
 created: 2024-06-13T18:38
-updated: 2025-01-27T10:44
+updated: 2025-02-11T11:14
 ---
+In Java la memoria è suddivisa in 3 aree principali `Heap`, `Stack` e `Metaspace`, dove:
+- **Stack:** è la memoria più veloce ma piccola, è utilizzata per le variabili locali ed i frame di attivazione dei metodi, è una stack ovvero una pila, questo vuol dire che l'ultimo metodo chiamato sarà il primo ad essere chiuso.
+- **Heap:** è la memoria più grande, ed è utilizzata per allocare istanze oggetti, quest’ultime sono puntate dalle variabili presenti nello stack.
+- **Metaspace:** è utilizzato per memorizzare i metadati delle informazioni delle classi a runtime, inoltre è dove vengono allocati i capi statici (che sono i primi capi ad essere allocati di una classe).
+
+>***Garbage Collector:*** Quando un oggetto nella heap non è più puntato da alcuna variabile, questo viene eliminato dal *garbage collector* in un momento casuale.
+
 ---
-
->[!abstract] Index
->1. 
-
->[!abstract] Related
->- 
-
----
-
-**Heap:**
-Rappresenta l'allocazione degli oggetti, contenenti i loro campi.
-
-**Stack:**
-Rappresenta i "Frame di attivazione" ovvero:
-- Chiamate ai metodi
-- Variabili locali
-
-**Metaspace:**
-Rappresenta l'allocazione dei capi statici:
-- quindi variabili statiche
-- (forse anche metodi ????)
-
-1. cosa analizzare capi statici
-2. analizzare main (partendo da args)
-
-
-
 
 >[!warning] A cosa inizializzo una capo "vuoto"
 >`0` --> Variabili Numeriche (int, double, etc.)

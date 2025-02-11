@@ -5,7 +5,7 @@ related:
   - "[[Metodologie di Programmazione (class)]]"
 completed: false
 created: 2024-06-17T18:21
-updated: 2025-02-09T20:10
+updated: 2025-02-11T12:49
 ---
 ## Introduzione 
 
@@ -84,3 +84,13 @@ Files.lines("file.txt") // lines è uno stream
 String testo = "Linea 1\n Linea 2\n Linea 3";
 testo.lines() // lines è uno stream
 ```
+
+## Stream Infiniti
+
+È possibile creare degli stream infiniti attraverso il metodo `iterate` che prende in input un valore iniziale e una funzione da allocare al valore iniziale per calcolare i successivi.
+
+```java
+Stream<Integer> numeri = Stream.iterare(0, n -> n+10);
+numeri.limit(5).forEach(System.out::println); // 0, 10, 20, 30, 40
+```
+
