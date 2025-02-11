@@ -6,7 +6,7 @@ related:
   - "[[Java MOC]]"
 completed: false
 created: 2025-02-10T20:17
-updated: 2025-02-11T17:55
+updated: 2025-02-11T18:27
 ---
 I design pattern sono soluzioni note di problemi specifici, che possono essere seguite passo passo.
 
@@ -15,6 +15,79 @@ Esistono tre categorie di design pattern:
 - **Creazionali:** riguardano meccanismi di creazione degli oggetti che aumentano la flessibilità e il riutilizzo del codice
 - **Strutturali:** riguardano l'organizzazione delle classi
 
+## Observer
+
+Design pattern **strutturale** dove gli oggetti sono divisi in:
+
+- Gli osservabili estendono la classe **Observable** 
+- gli osservatori che implementano l’interfaccia **Observer**
+
+Ogni osservabile ha una lista dei suoi osservatori ai quali invia una notifica ad ogni suo cambio di stato tramite il metodo **notifyObserver**. Gli Observer hanno un metodo **update** che viene chiamato quando ricevono una notifica dai loro observable.
+
+## Iterator
+
+Viene utilizzato per accedere agli elementi di una collezione in sequenza senza esporre la struttura sottostante alla collezione stessa. Tramite questo pattern separiamo la logica della collezione dall’iterazione in modo da nascondere i dettagli interni.
+
+## Template Method
+
+Il template method serve a permettere a delle sottoclassi di una classe astratta di reimplementare solo alcune parti di un algoritmo favorendo quindi la personalizzazione soltanto di alcuni passaggi. I suoi componenti sono quindi:
+
+- **Template Method**: Il metodo che definisce la logica base da non modificare, di solito è final per non permettere modifiche.
+- **Metodi astratti**: Sono i metodi che verrano ridefiniti dalle sottoclassi, quindi i passi personalizzabili visti primi.
+- **Metodi Concreti**: Metodi già implementati nella classe base ma anch’essi non modificabili. Quindi una classe astratta definisce il template method che chiama una serie di metodi astratti che verrano implementati dalle sottoclassi a modo loro.
+
+## Callback pattern
+
+Il callback pattern consiste nell’invocare una funzione quando un’operazione è terminata, un callback non è altro che una funzione passata come parametro ad un’altra funzione, quando la prima termina allora viene chiamato il callback.
+
+In Java le funzioni di callback vengono implementate tramite interfacce funzionali.
+
+>[!example]- Esempio
+>
+>```java
+>@FunctionalInterface
+>public interface Callback {
+>	void execute();
+>}
+> 
+>class Task { 
+>	public void execute(Callback callback) { 
+>		System.out.println("Eseguendo un'operazione lunga...");
+>		try { 
+>			Thread.sleep(2000); 
+>		} catch (InterruptedException e) {
+>			e.printStackTrace();
+>		}
+>		callback.onComplete();
+>	}
+>}
+> 
+>public class CallbackExample {
+>	public static void main(String[] args) {
+>		Task task = new Task();
+>		task.execute(() -> System.out.println("Operazione completata!"));
+>	}
+>}
+>```
+
+In questo modo non ci interessa dell’operazione che svolge la classe Task, ma sappiamo che una volta finita stamperà a schermo “Operazione completata!“.
+
+## Command
+
+Questo design pattern serve a incapsulare una richiesta o un’azione di un oggetto, in questo modo la rendiamo modulare e possiamo associarla ad altri oggetti. Gli obiettivi principali infatti sono:
+
+- Disaccoppiamento tra mittente e ricevente: chi richiede l’esecuzione non è interessato a chi la svolgerà.
+- Incapsulamento della richiesta: Ogni comando rappresenta una richiesta.
+
+Abbiamo bisogno di:
+
+- Una classe astratta o interfaccia command che dichiara il metodo execute().
+- Una classe concreta che implementa un’azione specifica per il comando.
+- Receiver: ovvero l’oggetto che riceve l’azione quando viene chiamato il comando.
+- Invoker: L’oggetto che invoca il comando.
+- Client: L’oggetto che crea il comando e lo assegna ad un invoker
+
+Quindi la classe client creerà il _ricevitore_, varie classi _command_ per i comandi e un _invoker_ al quale passerà il giusto comando da invocare, tramite un metodo dell’invoker chiamerà il metodo che gli è assegnato in quel momento.
 
 ## Decorator
 
@@ -82,5 +155,7 @@ Per creare un oggetto ci basta creare il builder e chiamare su di esso i metodi 
 
 ## Singleton
 
-
-
+Design patter **creazionale** che rende possibile istanziare una classe una sola volta:
+- nella classe creiamo statico `instance` del tipo della classe.
+- Rendiamo il costruttore `private`.
+- Creiamo un metodo statico `getInstance()` che ritorna l'istanza dell’oggetto, il metodo crea una nuova istanza dell’oggetto se l'istanza è `null` altrimenti ritorna l’istanza già esistente.
