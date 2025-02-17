@@ -4,11 +4,10 @@ related:
 completed: true
 Main Moc: "[[Tech MOC]]"
 created: 2024-03-19
-updated: 2024-12-10T19:17
+updated: 2025-02-17T11:22
 ---
 >[!abstract] Related
 >- [[Quartz]]
->- [[Quartz Setup]]
 
 ---
 
@@ -106,13 +105,13 @@ Most of the setup follows the official [Quartz documentation](https://quartz.jzh
 
 >[!note] Edit README
 >1. Go to quartz root directory
->2. Edit the `README.md` line this: [[New Quartz README]]
+>2. Edit the `README.md` like this: [[New Quartz README]]
 >   
 >**Also:** Also remove code of conduct and license files
 
 >[!note] Upload to GitHub
->1. Make a blank git repository (no readme, no license, no code of conduct)
->2. Then, run the following commands, replacing `REMOTE-URL` with the URL of your new repository.
+>3. Make a blank git repository (no readme, no license, no code of conduct)
+>4. Then, run the following commands, replacing `REMOTE-URL` with the URL of your new repository.
 >	
 >	```shell
 >	# list all the repositories that are tracked
@@ -129,16 +128,16 @@ Most of the setup follows the official [Quartz documentation](https://quartz.jzh
 >	git remote add upstream https://github.com/jackyzha0/quartz.git
 >	```
 >
->3. run `npx quartz sync --no-pull` to upload to Github
+>5. run `npx quartz sync --no-pull` to upload to Github
 
 >[!note] Set Github Pages
->1. Go to GitHub
->2. Open the repository used to host [[Quartz]]
->3. Go to settings
->4. Go to Pages section 
->5. Select `git up actions` in Source
->6. Set custom domain if you have one (see how [here](https://quartz.jzhao.xyz/hosting#custom-domain))
->7. Go to Environment section and delete all the environments
+>6. Go to GitHub
+>7. Open the repository used to host [[Quartz]]
+>8. Go to settings
+>9. Go to Pages section 
+>10. Select `git up actions` in Source
+>11. Set custom domain if you have one (see how [here](https://quartz.jzhao.xyz/hosting#custom-domain))
+>12. Go to Environment section and delete all the environments
 
 
 

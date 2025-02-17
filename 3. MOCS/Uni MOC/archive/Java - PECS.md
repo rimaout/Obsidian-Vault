@@ -6,7 +6,7 @@ related:
   - "[[Java MOC]]"
 completed: true
 created: 2025-02-06T14:56
-updated: 2025-02-10T20:00
+updated: 2025-02-11T22:03
 ---
 PECS è l'abbreviazione di ***Producer extends Consumer super*** ed indica il principio che regola l'utilizzo del operatore jolly dove, che:
 - per i **Producer** (lettore), ovvero metodi ed oggetti che effettuano operazioni di lettura su collezioni generiche, si utilizza `extends` come vincolo,
@@ -82,3 +82,13 @@ Quando ad un operatori jolly `?` è associato l'operatore `super` di una classe 
 >
 >- (1) e (2) sono corretti perché la lista potrebbe essere di Mela o di super-classi come Frutto o Object, e quindi il down-casting è ammesso.
 >- (3) non va bene perché se la lista è di Mela, allora non possiamo inserire un Frutto (up-casting). Questo è perché il tipo di lista è specificato come super-classe di Mela, quindi possiamo solo aggiungere oggetti di tipo Mela o suoi sottotipi.
+
+## Copia con PECS
+
+```java
+public <T> void copy(List<? extends T) input, List<? super T> output) {
+	for(T elem : input) {
+		dest.add(k);
+	}
+}
+```

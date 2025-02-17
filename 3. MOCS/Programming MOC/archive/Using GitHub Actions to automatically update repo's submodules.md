@@ -5,7 +5,7 @@ related:
   - "[[Quartz Setup]]"
 completed: true
 created: 2024-12-08T10:34
-updated: 2025-01-17T19:08
+updated: 2025-02-17T14:38
 ---
 
 >[!abstract] Related
@@ -128,7 +128,7 @@ jobs:
     steps:
     # Checkout the repository to the GitHub Actions runner
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
       with:
         token: ${{ secrets.YOUR_TOKEN }}
         submodules: true
@@ -222,7 +222,7 @@ The result will be a list of workflows you have to get the ID of the workflow cr
 >**Important:** Make sure to replace the following placeholders with your actual values:
 >
 >- `$YOUR_TOKEN_CODE`: use the token code generate in [[#1. Create access token|step 1]].
->- `$PARENT_REPO`: The name of your parent repository, *Notes-In-Public* (open your Github repo page from a browser and look the URL to get the right name)
+>- `$PARENT_REPO`: The name of your parent repository (*Notes-In-Public* in my case, open your Github repo page from a browser and look the URL to get the right name)
 
 ---
 ## The end

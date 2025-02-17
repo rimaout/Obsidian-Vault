@@ -4,7 +4,7 @@ type: "[[Programming MOC]]"
 related:
   - "[[Programmazione ad Oggetti]]"
   - "[[Metodologie di Programmazione (class)]]"
-updated: 2025-02-11T14:43
+updated: 2025-02-12T08:24
 ---
 >[!abstract] Basics
 >- [[Hello Word in java]] 🟢
@@ -82,7 +82,7 @@ updated: 2025-02-11T14:43
 
 >[!abstract] Eccezioni
 >- [[Java - Exception]] 🔵 <-
->- [[Java - Optiona]] 🔵
+>- [[Java - Optional]] 🔵
 
 >[!abstract] Memoria
 >- [[Java - Heap Stack Metaspace]] 🔵

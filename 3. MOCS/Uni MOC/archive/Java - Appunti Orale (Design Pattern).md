@@ -6,7 +6,7 @@ related:
   - "[[Java MOC]]"
 completed: false
 created: 2025-02-10T20:17
-updated: 2025-02-11T18:27
+updated: 2025-02-12T12:43
 ---
 I design pattern sono soluzioni note di problemi specifici, che possono essere seguite passo passo.
 
@@ -20,7 +20,7 @@ Esistono tre categorie di design pattern:
 Design pattern **strutturale** dove gli oggetti sono divisi in:
 
 - Gli osservabili estendono la classe **Observable** 
-- gli osservatori che implementano l’interfaccia **Observer**
+- Gli osservatori che implementano l’interfaccia **Observer**
 
 Ogni osservabile ha una lista dei suoi osservatori ai quali invia una notifica ad ogni suo cambio di stato tramite il metodo **notifyObserver**. Gli Observer hanno un metodo **update** che viene chiamato quando ricevono una notifica dai loro observable.
 
@@ -30,7 +30,7 @@ Viene utilizzato per accedere agli elementi di una collezione in sequenza senza 
 
 ## Template Method
 
-Il template method serve a permettere a delle sottoclassi di una classe astratta di reimplementare solo alcune parti di un algoritmo favorendo quindi la personalizzazione soltanto di alcuni passaggi. I suoi componenti sono quindi:
+Il template method serve a permettere a delle sottoclassi di una classe astratta di re-implementare solo alcune parti di un algoritmo favorendo quindi la personalizzazione soltanto di alcuni passaggi. I suoi componenti sono quindi:
 
 - **Template Method**: Il metodo che definisce la logica base da non modificare, di solito è final per non permettere modifiche.
 - **Metodi astratti**: Sono i metodi che verrano ridefiniti dalle sottoclassi, quindi i passi personalizzabili visti primi.
@@ -89,18 +89,6 @@ Abbiamo bisogno di:
 
 Quindi la classe client creerà il _ricevitore_, varie classi _command_ per i comandi e un _invoker_ al quale passerà il giusto comando da invocare, tramite un metodo dell’invoker chiamerà il metodo che gli è assegnato in quel momento.
 
-## Decorator
-
-Il decorator è un design patter **strutturale** che permette di ampliare le funzionalità di una classe ma senza modificare il suo codice.
-
-Si basa sull'idea di creare una classe wrapper (il decorator), che allo stesso tempo contiene come campo ed estende la classe che vuole decorare.
-
-La classe wrapper deve implementare tutti gli stessi metodi della classe originale e per ognuno di questi chiama il metodo dell'oggetto originale, a cui poi è possibile aggiungere nuove funzionalità.
-
-É anche possibile definire nuovi metodi non presenti nella classe originale.
-
-![[Pasted image 20250211154953.png|900]]
-
 ## Strategy
 
 È un design patter **comportamentale** che permette di definire delle superclassi dove alcuni dei comportamenti non implementati direttamente attraverso dei metodi ma sono delegati a delle interfacce funzionali.
@@ -120,10 +108,6 @@ public class AnatraDomestica extends Anatra {
 	}
 }
 ```
-
-## Command Callback
-
-
 
 ## SimpleFactory
 
@@ -156,6 +140,19 @@ Per creare un oggetto ci basta creare il builder e chiamare su di esso i metodi 
 ## Singleton
 
 Design patter **creazionale** che rende possibile istanziare una classe una sola volta:
+
 - nella classe creiamo statico `instance` del tipo della classe.
 - Rendiamo il costruttore `private`.
 - Creiamo un metodo statico `getInstance()` che ritorna l'istanza dell’oggetto, il metodo crea una nuova istanza dell’oggetto se l'istanza è `null` altrimenti ritorna l’istanza già esistente.
+
+## Decorator
+
+Il decorator è un design patter **strutturale** che permette di ampliare le funzionalità di una classe ma senza modificare il suo codice.
+
+Si basa sull'idea di creare una classe wrapper (il decorator), che allo stesso tempo contiene come campo ed estende la classe che vuole decorare.
+
+La classe wrapper deve implementare tutti gli stessi metodi della classe originale e per ognuno di questi chiama il metodo dell'oggetto originale, a cui poi è possibile aggiungere nuove funzionalità.
+
+É anche possibile definire nuovi metodi non presenti nella classe originale.
+
+![[Pasted image 20250211154953.png|900]]

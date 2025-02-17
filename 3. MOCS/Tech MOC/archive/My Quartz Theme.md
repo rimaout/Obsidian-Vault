@@ -4,28 +4,27 @@ Main Moc: "[[Tech MOC]]"
 related:
   - "[[Quartz Setup]]"
 completed: true
-updated: 2024-12-04T08:01
+updated: 2025-02-16T22:12
 ---
 ```typescript
-colors: {
-        lightMode: {
-          light: "#f7f5ff",
-          lightgray: "#e8e8ed",
-          gray: "#5f5e82",
-          darkgray: "#1a194d",
-          dark: "#1a194d",
-          secondary: "#433bfb",
-          tertiary: "#ef4253",
-          highlight: "rgba(143, 159, 169, 0.15)",
-        },
-        darkMode: {
-          light: "#232634",
-          lightgray: "#333845",
-          gray: "#b5b5bd",
-          darkgray: "#f7f5ff",
-          dark: "#f7f5ff",
-          secondary: "#615eff",
-          tertiary: "#ef4253",
-          highlight: "rgba(143, 159, 169, 0.15)",
-        },
+lightMode: {
+	light: "#f7f5ff",
+	lightgray: "#e8e8ed",
+	gray: "#5f5e82",
+	darkgray: "#1a194d",
+	dark: "#1a194d",
+	secondary: "#433bfb",
+	tertiary: "#ef4253",
+	highlight: "rgba(143, 159, 169, 0.15)",
+},
+darkMode: {
+	light: "#232634",
+	lightgray: "#333845",
+	gray: "#b5b5bd",
+	darkgray: "#f7f5ff",
+	dark: "#f7f5ff",
+	secondary: "#615eff",
+	tertiary: "#ef4253",
+	highlight: "rgba(143, 159, 169, 0.15)",
+},
 ```

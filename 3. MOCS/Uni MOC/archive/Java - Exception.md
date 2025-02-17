@@ -6,7 +6,7 @@ related:
   - "[[Java MOC]]"
 completed: false
 created: 2025-02-08T22:04
-updated: 2025-02-11T10:58
+updated: 2025-02-11T19:44
 ---
 
 Le eccezioni sono classi che ereditano `Exception`, sono utilizzate per segnalare una condizione anomale che impediscono la normale prosecuzione del programma.
@@ -45,7 +45,7 @@ Dopo il costrutto `try-catch` è possibile inserire un blocco `finaly` che conti
 
 ^c29e66
 
-## Gareggia delle Classi di Errore
+## Gerarchia delle Classi di Errore
 
 ![[Pasted image 20250210182429.png|600]]
 

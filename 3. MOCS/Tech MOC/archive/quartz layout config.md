@@ -4,7 +4,7 @@ related:
   - "[[Quartz Setup]]"
 completed: true
 Main Moc: "[[Tech MOC]]"
-updated: 2024-10-17T21:59
+updated: 2025-02-16T22:14
 ---
 ```typescript
 import { PageLayout, SharedLayout } from "./quartz/cfg"
@@ -16,7 +16,7 @@ export const sharedPageComponents: SharedLayout = {
   header: [],
   footer: Component.Footer({
     links: {
-      "GitHub": "https://github.com/rimaout",
+      GitHub: "https://github.com/rimaout",
       "Source Code": "https://github.com/rimaout/Notes-In-Public",
       "Report Error": "https://github.com/rimaout/Notes-In-Public/issues/new",
     },

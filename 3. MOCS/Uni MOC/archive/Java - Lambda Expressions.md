@@ -6,11 +6,11 @@ related:
   - "[[Java MOC]]"
 completed: true
 created: 2025-02-02T00:07
-updated: 2025-02-02T21:07
+updated: 2025-02-11T19:21
 ---
 >[!danger] TLDR
 >
->Una lambda function è una tecnica per definire una funzione in modo compatto. È stata introdotta nella versione 8 di Java come parte delle funzionalità di programmazione funzionale.
+>Una lambda expression è una tecnica per definire una funzione in modo compatto. È stata introdotta nella versione 8 di Java come parte delle funzionalità di programmazione funzionale.
 >
 >Le lambda function creano oggetti anonimi assegnabili a riferimenti di interfacce funzionali. 
 >
