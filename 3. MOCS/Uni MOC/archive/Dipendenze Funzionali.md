@@ -6,7 +6,7 @@ academic year: 2024/2025
 related: "[[Progettazione basi di dati - Problemi e Vincoli]]"
 completed: true
 created: 2024-10-24T18:09
-updated: 2025-01-07T18:41
+updated: 2025-02-17T17:37
 ---
 >[!abstract] Related
 >- [[Progettazione basi di dati - Problemi e Vincoli]]
@@ -43,7 +43,7 @@ $$
 \forall  t_{1}, t_{2} \in r:\ \ t_{1}[X] = t_{2}[X] \implies t_{1}[Y] = t_{2}[Y] 
 $$
 
->**oss:** Se $t_{1}​[X] \not= t_{2}[X]$ allora la dipendenza è comunque **soddisfatta** qualsiasi siano i valori di $t_{1}​[Y]$ e $t_{2}​[Y]$.
+>***oss:*** Se $t_{1}​[X] \not= t_{2}[X]$ allora la dipendenza è comunque **soddisfatta** indipendentemente dai valori di $t_{1}​[Y]$ e $t_{2}​[Y]$.
 
 ---
 ## Istanza Legale
@@ -94,8 +94,8 @@ Dati uno schema di relazione $R$ e un insieme di dipendenze funzionali $F$, un s
 - **Condizione 2:** Non esiste un sottoinsieme proprio $K'$ di $K$ tale che $K' \to R \in F^{+}$
 
 Dove:
-- Condizione 1 intende che $K$ è un insieme di attributi che identifica univocamente ogni tupla della relazione.
-- Condizione 2 intende che $K$ è minimale, cioè non esiste un sottoinsieme proprio $K$ che determini funzionalmente tutte le altre attributi di R ($k'$ non deve essere una chiave).
+- *Condizione 1* intende che $K$ è un insieme di attributi che determina ogni tupla della relazione.
+- *Condizione 2* intende che $K$ è minimale, cioè non esiste un sottoinsieme proprio $K$ che determini funzionalmente tutte le altre attributi di R ($k'$ non deve essere una chiave).
 
 >[!warning] Super Chiave
 >Se il sottoinsieme $K$ di $R$ rispetta **soltanto** la **1° condizione** allora è detto **super chiave**, ovvero è una *chiave non minimale*.
@@ -118,7 +118,7 @@ Dove:
 Dati uno schema di relazione $R$ e due sottoinsiemi di $R$ non vuoti $X,Y$.  Se $Y \subseteq X$ allora ogni istanza $r$ di $R$ soddisfa la dipendenza funzionale $X \to Y$.
 
 >[!note] Definizione
->Pertante se $Y \subseteq X$ allora:
+>Se $Y \subseteq X$ allora:
 >$$
 >X \to  Y \in F^{+}
 >$$

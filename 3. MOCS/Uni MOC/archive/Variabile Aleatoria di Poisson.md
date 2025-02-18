@@ -5,9 +5,9 @@ academic year: 2024/2025
 related:
   - "[[Variabile Aleatoria di Binomiale]]"
   - "[[Variabili Aleatorie]]"
-completed: false
+completed: true
 created: 2024-11-30T11:10
-updated: 2024-11-30T11:38
+updated: 2025-02-17T17:11
 ---
 >[!abstract] Related
 >- [[Variabile Aleatorie Congiunte]]
@@ -43,21 +43,18 @@ Una variabile aleatoria di Poisson è una variabile aleatoria che rappresenta il
 >- $P_{X}(k) \geq 0 \forall  k = 0,1,2, \dots$
 >- $\sum^{\infty}_{k=0} P_{X}(k)=1$
 >  
->>[!warning]- Dim (da fare)
 
 >[!danger] Calcolo Valore Atteso
 >$$
 >E[X] = \lambda
 >$$
 >
->>[!warning]- Dim (da fare)
 
 >[!danger] Varianza
 >$$
 >\text{Var}(X) = \lambda
 >$$
 >
->>[!warning]- Dim (da fare)
 
 >[!example]- Esempio
 >Supponiamo di avere una linea di produzione dove si verificano errori con una media di 2 errori all'ora ($\lambda = 2$). Sia $X$ la variabile aleatoria che rappresenta il numero di errori che si verificano in un'ora.
@@ -133,7 +130,6 @@ Questa approssimazione è nota come "*legge dei piccoli numeri*" e si basa sul f
 >>
 >>Dove $X= \text{Bin(n,p)}$ e $Z =\text{Pois}(\lambda)$.
 >
->>[!warning]- Dim (da fare)
 
 >[!example]- Esempio Astratto
 >Prendiamo la pagina di un libro e consideriamo la probabilità che un carattere venga stampato in modo errato. 

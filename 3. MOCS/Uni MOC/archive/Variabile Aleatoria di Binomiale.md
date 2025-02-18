@@ -4,9 +4,9 @@ class: "[[Calcolo delle Probabilità (class)]]"
 academic year: 2024/2025
 related:
   - "[[Variabile Aleatoria di Binomiale]]"
-completed: false
+completed: true
 created: 2024-11-30T11:05
-updated: 2024-12-02T09:52
+updated: 2025-02-17T17:09
 ---
 >[!abstract] Related
 >- [[Variabile Aleatoria di Binomiale]]
@@ -42,14 +42,11 @@ La variabile aleatoria binomiale può assumere valori interi compresi tra $0$ e 
 >$$
 >P(X=k) = \binom{n}{k}\cdot  p^k \cdot  (1-p)^{n-k}
 >$$
->
->>[!warning]- Dim (da fare)
 
 >[!danger] Valore Atteso
 >$$
 >E[X] = n \cdot p
 >$$
->>[!warning]- Dim (da fare)
 
 ^77219d
 
@@ -57,7 +54,6 @@ La variabile aleatoria binomiale può assumere valori interi compresi tra $0$ e 
 >$$
 >\text{Var}(X) = n\cdot p\cdot (1−p)
 >$$
->>[!warning]- Dim (da fare)
 
 ---
 ## Esempi

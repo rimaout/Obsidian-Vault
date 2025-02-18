@@ -1,18 +1,11 @@
 ---
-Main Moc: 
+Main Moc: "[[Uni MOC]]"
 related: 
 completed: 
 created: 2024-09-25T15:37
-updated: 2025-01-24T14:15
+updated: 2025-02-18T16:16
 ---
-**Lezioni:**
-- [[L1 Basi di dati 1]]
-- [[L2 Basi di dati 1]]
-- [[30 Ott Basi di dati 1]]
-- [[6 Nov Basi di dati 1]]
-- [[14 Nov Basi di dati 1]]
-
->[!note] Introduzione
+>[!note] Modello Relazionale
 >- [[Introduzione alle Basi di Dati]] 🔴 
 >- [[Introduzione Algebra Relazionale]] 🟡 (finire vincoli di integrità)
 >- [[Operatori (Algebra Relazionale)]] 🟢
@@ -20,7 +13,7 @@ updated: 2025-01-24T14:15
 >- [[Quantificatori Esistenziale ed Universale]] 🟡
 >- [[Progettazione basi di dati - Problemi e Vincoli]] 🟢
 
->[!note] Dipendenze Funzionali
+>[!note] Algebra Relazionale
 >- [[Basi di dati - Definizioni Comuni]] 🟢
 >- [[Dipendenze Funzionali]] 🟢
 >- [[Calcolare chiusura di un insiemi di dipendenze funzionali]] 🟡 (finire dimostrazione $F^{A} = F^{+}$)
@@ -29,7 +22,7 @@ updated: 2025-01-24T14:15
 >- [[Chiusura di un Insieme di Attributi]] 🟡 (fai dim e aggiungi esempi)
 >- [[Identificare le Chiavi di uno Schema]]
 
->[!note] Decomposizioni
+>[!note] Teoria della Normalizzazione
 >- [[Introduzione - Decomposizione di uno Schema Relazionale]]
 >- [[Lemma 2 - Basi di Dati 1]]
 >- [[Decomposizione di uno schema relazionale]]
@@ -48,21 +41,5 @@ updated: 2025-01-24T14:15
 >[!note] Concorrenza
 >- [[Controlo della Concorrenza]]
 
----
 
-per esame:
-- negli esercizi dove ci dice di trovare le chiavi prima di fare l'esercizio spiegare come trovarla
-- negli esercizi calcolo della decomposizione spiegare come si fa prima di fare l'esercizio
-  
-
-***Futura Divisione:***
-
->[!note] Database & DBMS
-
->[!note] Modello Relazionale
-
->[!note] Algebra Relazionale
-
->[!note] Teoria della Normalizzazione
-
->[!note] Organizzazione Fisica
+[[Basi di Dati - Preparazione Orale]]

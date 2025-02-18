@@ -1,13 +1,13 @@
 ---
 created: 2024-09-23T16:18
-updated: 2025-02-05T09:34
+updated: 2025-02-17T17:17
 Main Moc: "[[Uni MOC]]"
 academic year: 2024/2025
 ---
 >[!note] Calcolo Combinatorio
 >- [[Principio fondamentale del calcolo combinatorio]] 🟢
 >- [[Permutazioni]] 🟢
->- [[Disposizioni]]
+>- [[Disposizioni]] 🟢
 >- [[Combinazioni (Coefficiente Binomiale)]] 🟢
 
 >[!note] Studio della Probabilità
@@ -16,25 +16,25 @@ academic year: 2024/2025
 >- [[Spazzi di Probabilità con Esiti Equiparabili]] 🟢
 >- [[Probabilità Condizionata]] 🟢
 >- [[Rapporto a Favore]] 🟢
->- [[Indipendenza di Eventi]] 🟢 (fare esempio circuito)
+>- [[Indipendenza di Eventi]] 🟢
 >- [[Monty Hall Problem]] 🟢
 
-## Variabili Aleatorie
+>[!note] Variabili Aleatorie
+>- [[Introduzione - Variabili Aleatorie]] 🟢
+>- [[Funzioni di Variabili Aleatorie]] 🟢
+>- [[Variabile Aleatorie Congiunte]] 🟢
+>- [[Variabili Aleatorie Indipendenti]]  🟢
+>- [[Covarianza]] 🟡
+> - [[Variabili Aleatorie Identicamente Distribuite]] 🟢
 
-- [[Introduzione - Variabili Aleatorie]] 🟢
-- [[Funzioni di Variabili Aleatorie]] 🟢
-- [[Variabile Aleatorie Congiunte]] 🟢
-- [[Variabili Aleatorie Indipendenti]]  🟢
-- [[Covarianza]] 🟡
-
->[!note] Tipi di variabili Aleatorie Discrete
+>[!note] Variabili Aleatorie Discrete
 >- [[Variabile Aleatoria di Bernoulli]] 🟢
->- [[Variabile Aleatoria di Binomiale]] 🟡 (fare dim)
->- [[Variabile Aleatoria Binomiale Negativa]] 🟡 (fare dim)
->- [[Variabile Aleatoria di Poisson]] 🟡 (fare dim)
->- [[Variabile Aleatoria Geometrica]] 🟡 (fare dim)
->- [[Variabile Aleatorie Ipergeometrica]] 🟢 (aggiungi più esempi)
+>- [[Variabile Aleatoria di Binomiale]] 🟢
+>- [[Variabile Aleatoria Binomiale Negativa]] 🟢
+>- [[Variabile Aleatoria di Poisson]] 🟢
+>- [[Variabile Aleatoria Geometrica]] 🟢
+>- [[Variabile Aleatorie Ipergeometrica]] 🟢
 
-- [[Variabili Aleatorie Continue]] 🟡
-- [[Variabile Aleatoria Gaussiana]]
-- [[Variabili Aleatorie Identicamente Distribuite]]
+>[!note] Variabili Aleatorie Continue e Gaussiane
+>- [[Variabili Aleatorie Continue]] 🟢
+>- [[Variabile Aleatoria Gaussiana]]

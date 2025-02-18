@@ -5,13 +5,12 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2024-12-06T12:20
-updated: 2024-12-09T15:12
+updated: 2025-02-17T17:14
 ---
 >[!abstract] Related
 >- [[Calcolo delle Probabilità (class)]]
 
 ---
-
 ## Introduzione
 
 Una variabile aleatoria gaussiana (o normale), è una variabile aleatoria che segue una distribuzione di probabilità normale, anche nota come distribuzione gaussiana. 

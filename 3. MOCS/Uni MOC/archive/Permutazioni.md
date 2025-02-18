@@ -3,19 +3,13 @@ type: Uni Note
 class:
   - "[[Calcolo delle Probabilità (class)]]"
 academic year: 2024/2025
-related:
-  - "[[Calcolo Combinatorio]]"
+related: []
 completed: true
 created: 2024-09-23T18:25
-updated: 2024-10-01T13:54
+updated: 2025-02-17T17:18
 ---
->[!abstract] Index
->1. [[#Permutazioni con Ripetizioni]]
->2. [[#Permutazioni con Ripetizioni]]
-
 >[!abstract] Related
 >- [[Calcolo delle Probabilità (class)]]
->- [[Calcolo Combinatorio]]
 
 ---
 ## Permutazioni Semplici

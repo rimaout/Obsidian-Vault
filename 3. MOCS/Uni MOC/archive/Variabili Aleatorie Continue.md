@@ -5,9 +5,9 @@ academic year: 2024/2025
 related:
   - "[[Variabili Aleatorie]]"
   - "[[Variabile Aleatoria Discreta]]"
-completed: false
+completed: true
 created: 2024-11-30T11:48
-updated: 2025-02-03T12:48
+updated: 2025-02-17T17:14
 ---
 >[!abstract] Related
 >- [[Variabili Aleatorie]]
@@ -371,8 +371,6 @@ La funzione di distribuzione (o ripartizione) è una funzione matematica che des
 >\end{cases}
 >$$
 
-[[Pasted image 20241203132545.png|600]]
-
 ---
 ## Valore Atteso
 
@@ -408,13 +406,11 @@ La funzione di distribuzione (o ripartizione) è una funzione matematica che des
 >E\left[ \sum^{n}_{i=2} a_{i} X_{i}\right] = \sum^{n}_{i=1} a_{i} E[X_{i}]
 >$$
 
-#todo : ***Metti esempio esercizi visti a lezione 4 dicembre*** 
-
 ---
 ## Varianza, Deviazione e Co-Varianza
 
 >[!note] Definizione Varianza
->Sia $X$ v.a. continua allora la varianza è:
+>Sia $X$ v.a. continua allora la varianza è (come le altre aleatorie):
 >
 >$$
 >Var(X) = E \big[ (X-EX)^{2} \big]
@@ -423,18 +419,8 @@ La funzione di distribuzione (o ripartizione) è una funzione matematica che des
 >***Formula semplificata continue uniformi:*** $\text{Var}(X) = \frac{(b-a)^{2}}{12}$
 
 >[!note] Definizione Co-Varianza
->Siano $X$ e $Y$  v.a. continue:
+>Siano $X$ e $Y$  v.a. continue (come le altre aleatorie:
 >
 >$$
 >\text{Cov}(X,Y) = E[(X-EX)(Y-EY)]
 >$$
-
-Sono le stesse definizione delle variabili aleatori discrete, valgono alche le stesso proprietà:
-- [[Introduzione - Variabili Aleatorie#Varianza|Proprietà Varianza]]
-- [[Introduzione - Variabili Aleatorie#Co-Varianza|Proprietà Co-Varianza]]
-
-![[Pasted image 20241207112923.png|500]]
-
-![[Pasted image 20241207112945.png|500]]
-
-![[Pasted image 20241207113006.png|500]]

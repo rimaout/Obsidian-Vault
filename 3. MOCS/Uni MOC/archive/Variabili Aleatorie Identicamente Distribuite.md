@@ -4,9 +4,9 @@ class: "[[Calcolo delle Probabilità (class)]]"
 academic year: 2024/2025
 related:
   - "[[Variabili Aleatorie]]"
-completed: false
+completed: true
 created: 2024-12-09T11:58
-updated: 2025-02-04T12:38
+updated: 2025-02-17T17:16
 ---
 
 >[!abstract] Related
@@ -17,7 +17,7 @@ updated: 2025-02-04T12:38
 
 È possibile avere delle variabili aleatorie diverse, con spazi campionari diversi ma che hanno la stessa funzione distribuzione, vediamo un esempio:
 
->***Caso 1:***
+>[!note] Caso 1
 >
 >Abbiamo un mazzo da 40 carte, estraiamo una carta e definiamo:
 >
@@ -33,7 +33,7 @@ updated: 2025-02-04T12:38
 >P(X=1) = \frac{1}{2} \ \ \ \ \ \ \ \ \ P(X=0) = \frac{1}{2}
 >$$
 
->***Caso 2:***
+>[!note] Caso 2
 >
 >Abbiamo una moneta, lanciamola e definiamo:
 >
@@ -49,7 +49,7 @@ updated: 2025-02-04T12:38
 >P(X=1) = \frac{1}{2} \ \ \ \ \ \ \ \ \ P(X=0) = \frac{1}{2}
 >$$
 
-Notiamo che X,Y sono v.a. distinte e anche con funzioni definite anche su spazi campionari diversi, nonostante questo assumono gli stessi valori con le stesse probabilità.
+Notiamo che `X`,`Y` sono v.a. distinte e anche con funzioni definite anche su spazi campionari diversi, nonostante questo assumono gli stessi valori con le stesse probabilità.
 
 ---
 ## Definizione
@@ -107,8 +107,3 @@ Notiamo che X,Y sono v.a. distinte e anche con funzioni definite anche su spazi 
 >>$$
 >>
 >>Abbiamo provato quindi che due v.a. discrete $X$ e $Y$  con $f_{X}​ = f_{Y}$​ sono **identicamente distribuite** e si può provare anche il viceversa.
-
----
-## Teorema di De Moivre - Laplace
-
-Fissiamo $p \in (0,1)$

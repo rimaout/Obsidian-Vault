@@ -3,20 +3,12 @@ type: Uni Note
 class:
   - "[[Calcolo delle Probabilità (class)]]"
 academic year: 2024/2025
-related: "[[Studio delle Probabilità]]"
+related: []
 completed: true
 created: 2024-10-10T17:48
-updated: 2025-02-04T10:54
+updated: 2025-02-17T17:25
 ---
->[!abstract] Index
->-  [[#1° Probabilità dell’evento impossibile]]
->-  [[#2° Additività finita]]
->- [[#3° Probabilità dell’evento complementare]]
->- [[#4° Monotonia della funzione di probabilità]]
->- [[#5° Somma probabilità di eventi non disgiunti]]
-
 >[!abstract] Related
->- [[Studio delle Probabilità]]
 >- [[Calcolo delle Probabilità (class)]]
 
 ---

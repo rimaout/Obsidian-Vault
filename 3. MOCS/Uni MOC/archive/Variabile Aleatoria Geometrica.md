@@ -4,9 +4,9 @@ class: "[[Calcolo delle Probabilità (class)]]"
 academic year: 2024/2025
 related:
   - "[[Variabili Aleatorie]]"
-completed: false
+completed: true
 created: 2024-11-30T11:19
-updated: 2024-11-30T11:38
+updated: 2025-02-17T17:11
 ---
 >[!abstract] Related
 >- [[Variabili Aleatorie]]
@@ -39,21 +39,18 @@ Una variabile aleatoria geometrica è una variabile aleatoria che rappresenta il
 >
 >>**oss:** $P(k = \infty ) = 0\ \ \to\ \  \text{probabilità che non ci sia mai un successo}$ 
 >
->>[!warning]- Dim (da fare)
 
 >[!danger] Valore Atteso
 >$$
 >E[X] = \frac{1}{p}
 >$$
 >
->>[!warning]- Dim (da fare)
 
 >[!danger] Varianza
 >$$
 >\text{Var}(X) = \frac{1-p}{p^{2}}
 >$$
 >
->>[!warning]- Dim (da fare)
 
 ---
 ## Esempi

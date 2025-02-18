@@ -7,7 +7,7 @@ related:
   - "[[Dipendenze Funzionali]]"
 completed: true
 created: 2024-11-09T18:10
-updated: 2025-01-07T19:03
+updated: 2025-02-17T18:28
 ---
 >[!abstract] Related
 >- [[Dipendenze Funzionali]]

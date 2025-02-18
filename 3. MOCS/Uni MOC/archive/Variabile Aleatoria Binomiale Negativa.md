@@ -3,9 +3,9 @@ type: Uni Note
 class: 
 academic year: 2024/2025
 related: 
-completed: false
+completed: true
 created: 2024-11-30T11:24
-updated: 2024-11-30T11:36
+updated: 2025-02-17T17:11
 ---
 >[!abstract] Related
 >- [[Variabile Aleatoria di Binomiale]]
@@ -37,21 +37,18 @@ La variabile aleatoria binomiale negativa rappresenta il numero di prove necessa
 >P(X=k) = \binom{k-1}{r-1} \cdot p^r \cdot (1-p)^{k-r}
 >$$
 >
->>[!warning]- Dim (da fare)
 
 >[!danger] Valore Atteso
 >$$
 >E[X] = \frac{r}{p}
 >$$
 >
->>[!warning]- Dim (da fare)
 
 >[!danger] Varianza
 >$$
 >\text{Var}(X) = \frac{r(1-p)}{p^2}
 >$$
 >
->>[!warning]- Dim (da fare)
 
 ---
 ## Esercizi

@@ -3,19 +3,12 @@ type: Uni Note
 class:
   - "[[Calcolo delle Probabilità (class)]]"
 academic year: 2024/2025
-related: "[[Studio delle Probabilità]]"
+related: []
 completed: true
 created: 2024-10-01T12:25
-updated: 2025-02-05T09:16
+updated: 2025-02-17T17:25
 ---
->[!abstract] Index
->1. [[#Spazio Campionario]]
->2. [[#Evento]]
->3. [[#Spazio di Probabilità]]
->4. [[#Funzione di Probabilità]]
-
 >[!abstract] Related
->- [[Studio delle Probabilità]]
 >- [[Calcolo delle Probabilità (class)]]
 
 ---

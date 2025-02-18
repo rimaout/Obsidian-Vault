@@ -3,16 +3,15 @@ type: Uni Note
 class:
   - "[[Calcolo delle Probabilità (class)]]"
 academic year: 2024/2025
-related:
-  - "[[Calcolo Combinatorio]]"
+related: []
 completed: true
 created: 2024-10-01T10:34
-updated: 2025-02-04T16:26
+updated: 2025-02-17T17:26
 ---
 
 >[!abstract] Related
->- [[Calcolo Combinatorio]]
 >- [[Calcolo delle Probabilità (class)]]
+>- [[Calcolo Combinatorio]]
 
 ---
 ## Principio Fondamentale del Calcolo Combinatorio

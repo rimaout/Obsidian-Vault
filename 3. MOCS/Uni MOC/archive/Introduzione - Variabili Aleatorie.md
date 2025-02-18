@@ -4,12 +4,11 @@ class:
   - "[[Calcolo delle Probabilità (class)]]"
 academic year: 2024/2025
 related: 
-completed: false
+completed: true
 created: 2024-10-29T15:31
-updated: 2025-01-13T12:37
+updated: 2025-02-17T17:18
 ---
 >[!abstract] Related
->- [[Variabili Aleatorie]]
 >- [[Calcolo delle Probabilità (class)]]
 
 ---
