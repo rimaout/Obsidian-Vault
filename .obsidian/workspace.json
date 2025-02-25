@@ -24,13 +24,27 @@
             }
           },
           {
-            "id": "a036de243f6bbe1c",
+            "id": "b1f32c0377ee57b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. MOCS/Uni MOC/archive/Basi di Dati - Domande Orale.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Basi di Dati - Domande Orale"
+            }
+          },
+          {
+            "id": "bddd8ea6d849a9cc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "3. MOCS/Uni MOC/archive/Basi di Dati - Preparazione Orale.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -38,7 +52,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -57,7 +71,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -100,12 +115,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 308.504789352417,
+    "width": 494.5062494277954,
     "collapsed": true
   },
   "right": {
@@ -253,7 +267,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 527.5
+    "width": 527.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -270,12 +285,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "a036de243f6bbe1c",
+  "active": "bddd8ea6d849a9cc",
   "lastOpenFiles": [
+    "3. MOCS/Uni MOC/archive/Basi di Dati - Domande Orale.md",
     "3. MOCS/Uni MOC/archive/Basi di Dati 1 (class).md",
     "3. MOCS/Uni MOC/archive/Basi di Dati - Preparazione Orale.md",
     "3. MOCS/Uni MOC/archive/Dipendenze Funzionali.md",
+    "3. MOCS/Uni MOC/archive/Basi di dati - Definizioni Comuni.md",
+    "1. Easy Notes/I have invented a card game.md",
     "3. MOCS/Uni MOC/archive/Calcolare chiusura di un insiemi di dipendenze funzionali.md",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250220170956.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250218173714.png",
     "3. MOCS/Personal MOC/private notes/14 Nov Basi di dati 1.md",
     "3. MOCS/Personal MOC/private notes/Recording 20241114151345.webm",
     "3. MOCS/Uni MOC/attachments/Pasted image 20241114144523.png",
@@ -290,7 +310,6 @@
     "3. MOCS/Uni MOC/attachments/Pasted image 20240926132959.png",
     "3. MOCS/Uni MOC/archive/Terza Forma Normale (3NF).md",
     "3. MOCS/Uni MOC/archive/L1 Basi di dati 1.md",
-    "3. MOCS/Uni MOC/archive/Basi di dati - Definizioni Comuni.md",
     "3. MOCS/Uni MOC/archive/Controlo della Concorrenza.md",
     "3. MOCS/Uni MOC/archive/Principio fondamentale del calcolo combinatorio.md",
     "3. MOCS/Uni MOC/archive/Calcolo delle Probabilità (class).md",
@@ -304,14 +323,10 @@
     "3. MOCS/Uni MOC/archive/Introduzione - Variabili Aleatorie.md",
     "3. MOCS/Uni MOC/archive/Variabili Aleatorie Identicamente Distribuite.md",
     "3. MOCS/Uni MOC/archive/Variabile Aleatoria Gaussiana.md",
-    "3. MOCS/Uni MOC/archive/Variabili Aleatorie Continue.md",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20241207113006.png",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20241207112945.png",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20241207112923.png",
     "progetto/attachments/Pasted image 20241203132545.png",
-    "3. MOCS/Uni MOC/archive/Variabile Aleatorie Ipergeometrica.md",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250211162038.png",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250211154953.png",
     "3. MOCS/Uni MOC/archive/attachments/20. Algoritmo di decomposizione - Esercizi.pdf",
     "3. MOCS/Uni MOC/archive/Gestione dell'Input",
     "Untitled.canvas",

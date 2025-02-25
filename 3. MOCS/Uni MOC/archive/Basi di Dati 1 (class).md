@@ -3,7 +3,7 @@ Main Moc: "[[Uni MOC]]"
 related: 
 completed: 
 created: 2024-09-25T15:37
-updated: 2025-02-18T16:16
+updated: 2025-02-24T17:45
 ---
 >[!note] Modello Relazionale
 >- [[Introduzione alle Basi di Dati]] 🔴 
@@ -43,3 +43,4 @@ updated: 2025-02-18T16:16
 
 
 [[Basi di Dati - Preparazione Orale]]
+[[Basi di Dati - Domande Orale]]
