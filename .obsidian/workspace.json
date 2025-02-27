@@ -24,27 +24,13 @@
             }
           },
           {
-            "id": "b1f32c0377ee57b6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/archive/Basi di Dati - Domande Orale.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Basi di Dati - Domande Orale"
-            }
-          },
-          {
-            "id": "bddd8ea6d849a9cc",
+            "id": "de13c0aa58220cc4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "3. MOCS/Uni MOC/archive/Basi di Dati - Preparazione Orale.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -52,7 +38,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -254,7 +240,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.7439546553875022,
+                  "scale": 1.417527765661771,
                   "close": true
                 }
               },
@@ -267,8 +253,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 527.5,
-    "collapsed": true
+    "width": 527.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -285,55 +270,54 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "bddd8ea6d849a9cc",
+  "active": "de13c0aa58220cc4",
   "lastOpenFiles": [
-    "3. MOCS/Uni MOC/archive/Basi di Dati - Domande Orale.md",
     "3. MOCS/Uni MOC/archive/Basi di Dati 1 (class).md",
-    "3. MOCS/Uni MOC/archive/Basi di Dati - Preparazione Orale.md",
-    "3. MOCS/Uni MOC/archive/Dipendenze Funzionali.md",
-    "3. MOCS/Uni MOC/archive/Basi di dati - Definizioni Comuni.md",
-    "1. Easy Notes/I have invented a card game.md",
-    "3. MOCS/Uni MOC/archive/Calcolare chiusura di un insiemi di dipendenze funzionali.md",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250220170956.png",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250218173714.png",
-    "3. MOCS/Personal MOC/private notes/14 Nov Basi di dati 1.md",
+    "3. MOCS/Uni MOC/archive/BD2 L1 - 26 Feb.md",
+    "3. MOCS/Uni MOC/archive/Basi di Dati 2 (class).md",
+    "3. MOCS/Uni MOC/archive/Associazione e Link (UML).md",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250227112026.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250227111910.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250227111448.png",
+    "3. MOCS/Uni MOC/archive/Classi e Oggetti (UML).md",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250227104754.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250227104408.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250227104159.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250227104319.png",
+    "3. MOCS/Uni MOC/archive/Introduzione UML.md",
+    "3. MOCS/Uni MOC/archive/MDP 23 Apr.md",
+    "3. MOCS/Uni MOC/archive/Metodologie di Programmazione (class).md",
+    "To-Do/MDP 16 Apr.md",
+    "3. MOCS/Uni MOC/archive/MDP 16 Apr.md",
+    "3. MOCS/Uni MOC/attachments/Pasted image 20240416100942.png",
+    "3. MOCS/Uni MOC/attachments/Pasted image 20240416100837.png",
+    "To-Do/Pasted image 20240416100618.png.md",
+    "3. MOCS/Uni MOC/attachments/Pasted image 20240416100618.png",
+    "3. MOCS/Uni MOC/archive/MDP 9 Apr.md",
+    "To-Do/Pasted image 20240409092733.png.md",
+    "3. MOCS/Programming MOC/archive/MDP 19 Mar.md",
+    "3. MOCS/Uni MOC/archive/MDP Lab 10 Apr.md",
+    "3. MOCS/Uni MOC/archive/MDP Lab 06 Mar.md",
+    "3. MOCS/Uni MOC/archive/MDP Lab 28 Feb.md",
+    "3. MOCS/Uni MOC/archive/MDP 21 Mar.md",
+    "3. MOCS/Uni MOC/archive/Ciclo di Vita del Software - Basi di Dati 2.md",
+    "3. MOCS/Uni MOC/archive/Conteso Organizzativo - Basi di Dati 2.md",
+    "3. MOCS/Uni MOC/Uni MOC.md",
+    "progetto/attachments/20. Algoritmo di decomposizione - Esercizi.pdf",
+    "3. MOCS/Uni MOC/archive/Copertura Minimale.md",
+    "Storage/Backend/Monthly Logs/Monthly Logs.md",
+    "Storage/Backend/Monthly Logs/🚧 February 2025 (Log).md",
+    "Storage/Backend/My Recipe Book/My Recipe Book.md",
     "3. MOCS/Personal MOC/private notes/Recording 20241114151345.webm",
-    "3. MOCS/Uni MOC/attachments/Pasted image 20241114144523.png",
-    "3. MOCS/Personal MOC/private notes/6 Nov Basi di dati 1.md",
     "3. MOCS/Personal MOC/private notes/Recording 20241113161258.webm",
     "3. MOCS/Personal MOC/private notes/Recording 20241113160006.webm",
     "3. MOCS/Personal MOC/private notes/Recording 20241113155032.webm",
-    "3. MOCS/Uni MOC/archive/30 Ott Basi di dati 1.md",
-    "3. MOCS/Uni MOC/attachments/Pasted image 20241031133956.png",
-    "3. MOCS/Uni MOC/archive/L2 Basi di dati 1.md",
-    "3. MOCS/Uni MOC/attachments/Pasted image 20240926134958.png",
-    "3. MOCS/Uni MOC/attachments/Pasted image 20240926132959.png",
-    "3. MOCS/Uni MOC/archive/Terza Forma Normale (3NF).md",
-    "3. MOCS/Uni MOC/archive/L1 Basi di dati 1.md",
-    "3. MOCS/Uni MOC/archive/Controlo della Concorrenza.md",
-    "3. MOCS/Uni MOC/archive/Principio fondamentale del calcolo combinatorio.md",
-    "3. MOCS/Uni MOC/archive/Calcolo delle Probabilità (class).md",
-    "3. MOCS/Uni MOC/archive/Definizioni e Assiomi della Probabilità.md",
-    "3. MOCS/Uni MOC/archive/Disposizioni.md",
-    "3. MOCS/Uni MOC/archive/Proposizioni della Probabilità.md",
-    "To-Do/Studio delle Probabilità.md",
-    "3. MOCS/Uni MOC/archive/Permutazioni.md",
-    "3. MOCS/Uni MOC/archive/Combinazioni (Coefficiente Binomiale).md",
-    "To-Do/Calcolo Combinatorio.md",
-    "3. MOCS/Uni MOC/archive/Introduzione - Variabili Aleatorie.md",
-    "3. MOCS/Uni MOC/archive/Variabili Aleatorie Identicamente Distribuite.md",
-    "3. MOCS/Uni MOC/archive/Variabile Aleatoria Gaussiana.md",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20241207113006.png",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20241207112945.png",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20241207112923.png",
-    "progetto/attachments/Pasted image 20241203132545.png",
     "3. MOCS/Uni MOC/archive/attachments/20. Algoritmo di decomposizione - Esercizi.pdf",
     "3. MOCS/Uni MOC/archive/Gestione dell'Input",
     "Untitled.canvas",
     "attachments",
     "3. MOCS/Tech MOC/archive/attachments",
     "3. MOCS/Uni MOC/archive/attachments/Recording 20241128150638.webm",
-    "Storage/Backend/Monthly Logs/attachments",
     "Buy List/Skin Care Buy List.canvas",
     "Buy List/Clothing Buy List.canvas",
     "Storage/Untitled.canvas",

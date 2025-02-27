@@ -5,7 +5,7 @@ class:
 academic year: 2023/2024
 related: 
 completed: false
-updated: 2024-05-27T13:29
+updated: 2025-02-27T10:15
 ---
 ---
 
@@ -92,11 +92,11 @@ public class BinaryTree{
 
 Errori sincroni, che si verificano a seguito dell’esecuzione di un’istruzione
 
-- –  Errori non critici: errori che derivano da condizioni anomale • divisione per zero  
+- Errori non critici: errori che derivano da condizioni anomale • divisione per zero  
     • errore di I/O  
     • errori durante il parsing
     
-- –  Errori critici o irrecuperabili: errori interni alla JVM  
+-  Errori critici o irrecuperabili: errori interni alla JVM  
     • conversione di tipo non consentito  
     • accesso ad una variabile riferimento con valore null • mancanza di memoria libera  
     • riferimento a una classe inesistente

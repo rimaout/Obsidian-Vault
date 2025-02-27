@@ -6,7 +6,7 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2025-02-18T16:16
-updated: 2025-02-24T17:39
+updated: 2025-02-27T11:40
 ---
 >[!note]- Def. 1: Dipendenza Funzionale 🟢
 >
@@ -45,6 +45,8 @@ updated: 2025-02-24T17:39
 >Un sottoinsieme `K` di `R` si dice chiave se:
 >- $K \to R \in F^{+}$
 >- Per ogni sotto insieme `K'` si `k` si ha che $K' \to R \not \in F^{+}$
+>  
+>
 
 >[!note]- Def. 3: Attributo Primo e Super-chiave 🟢
 >Dati uno schema relazionale `R` e un insieme di dipendenze funzionali `F`.
@@ -86,13 +88,25 @@ updated: 2025-02-24T17:39
 >
 >Sia `R` uno schema relazionale e `F` un insieme di dipendenze funzionali su `R`. Lo schema `R` è 3NF (terza forma normale) se e solo se ***non esistono dipendenze parziali o transitive***.
 >
->**Dimostrazione pare SE:** Se lo schema è in 3NF allora per ogni dipendenza $X \to A$ abbiamo che $A$ è primo, oppure $X$ è super chiave:
->1. Se `A` è primo viene a mancare la condizione per avere dipendenze parziali e transitive
->2. Se `A` non è primo allora `X` è superchiave, infatti:
->	- non possiamo avere dipendenze parziali in quanto l'`X` di quest'ultime deve essere contenuto da una chiave.
->	- non possiamo avere dipendenze transitive in quanto l'`X` di quest'ultime non deve contenere alcuna chiave.
+>Obbiettivo dimostrare $3NF \iff \text{no parziali e no transitive}$ 
 >
->**Dimostrazione parte SOLO SE:** se non abbiamo dipendenze parziali o transitive implica che tutte le dipendenza $X \to A$ avranno $X$ superchiave.
+>>**Dimostrazione pare SE:** ($3NF \implies \text{no parziali e no transitive}$) 
+>>
+>>Se lo schema è in 3NF allora per ogni dipendenza $X \to A$ abbiamo che $A$ è primo, oppure $X$ è super chiave:
+>>1. Se `A` è primo viene a mancare la condizione per avere dipendenze parziali e transitive
+>>2. Se `A` non è primo allora `X` è superchiave, infatti:
+>>	- non possiamo avere dipendenze parziali in quanto l'`X` di quest'ultime deve essere contenuto da una chiave.
+>>	- non possiamo avere dipendenze transitive in quanto l'`X` di quest'ultime non deve contenere alcuna chiave.
+>
+>>**Dimostrazione parte SOLO SE:** ($\text{no parziali e no transitive} \implies 3NF$)
+>>
+>>Se non abbiamo dipendenze parziali o transitive implica che per ogni dipendenza si ha che:
+>>- `A` è primo, oppure
+>>- `X` superchiave, condizione che falsifica sia:
+>>	- parziale, infatti se `X` superchiave allora `X` non è sotto insieme proprio di `K`
+>>	- transitiva, infatti se `X` superchiave allora `k - X` è uguale a $\emptyset$
+>>
+>>Quindi è in 3NF.
 
 >[!note]- Chiusura $F^{A}$ 🟢
 >
@@ -132,3 +146,64 @@ updated: 2025-02-24T17:39
 >>- ***Regola dell' Unione:*** Se $X \to Y\in F^{A}$ e $X \to Z \in F^{A}$ allora $X \to YZ \in F^{A}$
 >>- ***Regola della Decomposizione:*** Se $X \to Y \in F^{A}$ e $Z \subseteq Y$ allora $X \to Z \in F^{A}$
 >>- ***Regola della Pseudo-Transività:*** Se $X \to Y \in F^{A}$ e $WY \to Z \in F^{A}$ allora $WX \to Z \in F^{A}$
+
+>[!note]- Def. 6: $X^{+}$
+>
+>Siano `R` uno schema relazionale e `F` un insieme di dipendenze funzionali su `R`.
+>
+>Dato un sottoinsieme di `R` chiamato `X`. Denominiamo con $X^{+}_{F}$ la chiusura di `X` rispetto `F`, dove:
+>
+>$$
+>X^{+}_{F} = \{ A : X \to A \in F^{A} \}
+>$$
+>
+>Ovvero l'insieme degli attributi determinati da `X`.
+
+>[!note] Lemma 1
+>
+>Siano `R` uno schema relazionale e `F` un insieme di dipendenze funzionali su `R`.
+>
+>Si ha che $X\to Y \in F^{A}$ **se e solo se** $Y \subseteq X^{+}$
+>
+>Dobbiamo **dimostrare** che $X\to Y \in F^{A} \iff Y \subseteq X^{+}$.
+>
+>Sia $Y = A_{1} A_{2} \dots A_{3}$
+>
+>>**Parte Se** ($X\to Y \in F^{A} \implies Y \subseteq X^{+}$)
+>>
+>>Poiché $X \to Y \in F^{A}$ per la regola della decomposizione abbiamo che 
+>>
+>
+>>**Parte Solo Se** ($Y \subseteq X^{+} \implies X\to Y \in F^{A}$)
+>>
+
+>[!note] Teo 3: $F^{+} = F^{A}$
+>
+>Siano `R` uno schema di relazione ed `F` un insieme di dipendenze funzionali su `R`. Si ha $F^{+} = F^{A}$.
+>
+>Per dimostrarlo dobbiamo dimostrare che $F^{A} \subseteq F^{+}$ e $F^{+} \subseteq F^{A}$
+
+FA sub F+: usiamo ricorsivamnte assiomi di armstrong (quindi dimostrazione per induzione)
+
+F+ sub FA: 
+
+- Quando Istanza legale? ->vuota solo elemento o rispetta definizione
+- Algoritmi degli esercizi visti allo scritto
+- definire chiusura di F
+- Cosa troviamo in  F^+
+- Quali sono gli assiomi di Armstrong
+- Quando una funzione di hash è buona
+- Cosa'è una dipendenza banale
+- Definizione di 3NF (fai attenzione a $A \not \in X$)
+- Calcolare costo di ricerca medio su file hash, se ho due tabelle diverse la ricerca media vale sempre n/2
+- Protocollo a due fasi (concorrenza)
+- Quali sono i vantaggi dei due fasi (è serializzabile + dimostrazione)
+- Quando uno scheduler è serializabile
+- Quando uno scheduler è seriale
+- Qual'è il metodo di controllo per vedere che uno scheduler è serializzabile
+- Time stamps
+
+Dimostrare la algoritmo della validità della chiusura di $X$ (ovvero $X^{+}$)
+
+
+1. se X->A in F allora X->A in FA 
