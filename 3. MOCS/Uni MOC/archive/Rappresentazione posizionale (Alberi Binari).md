@@ -2,13 +2,13 @@
 created: 2024-05-01
 type: Uni Note
 class:
-  - "[[Introduzione agli Algoritmi (class)]]"
+  - "[[Algoritmi 1 (class)]]"
 academic year: 2023/2024
 related:
   - "[[Alberi Binari (Struttura Dati)]]"
   - "[[Alberi (Struttura Dati)]]"
 completed: true
-updated: 2024-05-27T13:29
+updated: 2025-02-27T18:34
 ---
 ---
 
@@ -19,7 +19,7 @@ updated: 2024-05-27T13:29
 
 >[!abstract] Related
 >- [[Alberi Binari (Struttura Dati)]]
->- [[Introduzione agli Algoritmi (class)]]
+>- [[Algoritmi 1 (class)]]
 
 ---
 ## Introduzione

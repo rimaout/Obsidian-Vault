@@ -1,8 +1,7 @@
 ---
 created: 2023-09-26T10:14
-updated: 2025-02-26T14:31
+updated: 2025-02-28T11:20
 ---
-
 >**First year, first semester:**
 >- [[Matematica 0 (class)]]
 >- [[Progettazione Sistemi Digitali (class)]]
@@ -13,7 +12,7 @@ updated: 2025-02-26T14:31
 >**First year, second semester:**
 >- [[Calcolo Integrale (class)]]
 >- [[Architettura dei calcolatori (class)]]
->- [[Introduzione agli Algoritmi (class)]]
+>- [[Algoritmi 1 (class)]]
 >- [[Metodologie di Programmazione (class)]]
 
 >**Second year, first semester:**
@@ -24,3 +23,5 @@ updated: 2025-02-26T14:31
 
 >**Second year, second semester:**
 >- [[Basi di Dati 2 (class)]]
+>- [[Reti (class)]]
+>- [[Algoritmi 2 (class)]]

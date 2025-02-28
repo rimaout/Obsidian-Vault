@@ -6,7 +6,7 @@ class:
 academic year: 2023/2024
 related: 
 completed: true
-updated: 2024-05-27T13:29
+updated: 2025-02-27T18:34
 ---
 ---
 
@@ -17,7 +17,7 @@ updated: 2024-05-27T13:29
 >	- [[#Insiemi Dinamici e Statici]]
 
 >[!info] Related
->- [[Introduzione agli Algoritmi (class)]]
+>- [[Algoritmi 1 (class)]]
 
 ---
 ## Tipi

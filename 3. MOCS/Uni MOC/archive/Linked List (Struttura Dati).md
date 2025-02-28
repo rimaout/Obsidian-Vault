@@ -2,12 +2,12 @@
 created: 2024-04-23
 type: Uni Note
 class:
-  - "[[Introduzione agli Algoritmi (class)]]"
+  - "[[Algoritmi 1 (class)]]"
 academic year: 2023/2024
 related:
   - "[[Strutture Dati]]"
 completed: false
-updated: 2024-06-03T20:14
+updated: 2025-02-27T18:34
 ---
 ---
 
@@ -19,7 +19,7 @@ updated: 2024-06-03T20:14
 
 >[!abstract] Related
 >- [[Strutture Dati]]
->- [[Introduzione agli Algoritmi (class)]]
+>- [[Algoritmi 1 (class)]]
 
 ---
 ## Definizione

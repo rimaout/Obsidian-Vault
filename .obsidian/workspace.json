@@ -4,37 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "1d3df57368887a29",
+        "id": "652e3f4f523715eb",
         "type": "tabs",
         "children": [
           {
-            "id": "9b5ee948960d4911",
+            "id": "9fdc480e7e6edb27",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Basi di Dati 1 (class).md",
+                "file": "3. MOCS/Uni MOC/archive/Algoritmi 2 (class).md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "Basi di Dati 1 (class)"
+              "title": "Algoritmi 2 (class)"
             }
           },
           {
-            "id": "de13c0aa58220cc4",
+            "id": "92ba27fa150c5c69",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Basi di Dati - Preparazione Orale.md",
+                "file": "To-Do/To-Do.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Basi di Dati - Preparazione Orale"
+              "title": "To-Do"
             }
           }
         ],
@@ -70,11 +70,11 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:monthly-log",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": true,
+                "collapseAll": true,
+                "extraContext": true,
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
@@ -105,8 +105,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 494.5062494277954,
-    "collapsed": true
+    "width": 392.504789352417
   },
   "right": {
     "id": "1599d9a7234429ed",
@@ -115,7 +114,7 @@
       {
         "id": "b33702b1304e824a",
         "type": "tabs",
-        "dimension": 42.06642066420663,
+        "dimension": 35.19736842105263,
         "children": [
           {
             "id": "73d6fce2365a09ef",
@@ -136,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Basi di Dati - Preparazione Orale.md",
+                "file": "Storage/attachments/Pasted image 20241204080621.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +145,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Basi di Dati - Preparazione Orale"
+              "title": "Backlinks for Calcolo delle Probabilità (class)"
             }
           },
           {
@@ -155,12 +154,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Storage/Backend/Monthly Logs/⭐ November 2024 (Log).md",
+                "file": "Storage/attachments/Pasted image 20241204080621.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from ⭐ November 2024 (Log)"
+              "title": "Outgoing links from Calcolo delle Probabilità (class)"
             }
           },
           {
@@ -183,19 +182,29 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Chiusura di un Insieme di Attributi.md"
+                "file": "3. MOCS/Uni MOC/archive/Variabili Aleatorie Indipendenti.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Chiusura di un Insieme di Attributi"
+              "title": "Outline of Variabili Aleatorie Indipendenti"
+            }
+          },
+          {
+            "id": "2be710a38fb52417",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       },
       {
         "id": "0ee4f1dd2040ea54",
         "type": "tabs",
-        "dimension": 57.93357933579337,
+        "dimension": 64.80263157894737,
         "children": [
           {
             "id": "08bb0d9d4b18b672",
@@ -217,7 +226,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Basi di Dati - Preparazione Orale.md",
+                "file": "Storage/attachments/Pasted image 20241204080621.png",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -240,12 +249,12 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 1.417527765661771,
+                  "scale": 0.0078125,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Basi di Dati - Preparazione Orale"
+              "title": "Graph of Variabile Aleatoria Gaussiana"
             }
           }
         ],
@@ -253,7 +262,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 527.5
+    "width": 473.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -270,44 +280,45 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "de13c0aa58220cc4",
+  "active": "92ba27fa150c5c69",
   "lastOpenFiles": [
+    "3. MOCS/Uni MOC/Uni MOC.md",
+    "3. MOCS/Tech MOC/Tech MOC.md",
+    "3. MOCS/Uni MOC/archive/Ripasso Iniziale di Algo 1.md",
+    "3. MOCS/Uni MOC/archive/File Heap.md",
+    "3. MOCS/Uni MOC/archive/Algoritmi 2 (class).md",
     "3. MOCS/Uni MOC/archive/Basi di Dati 1 (class).md",
+    "3. MOCS/Uni MOC/archive/Reti (class).md",
+    "3. MOCS/Uni MOC/archive/Reti L1 - 27 Feb.md",
+    "3. MOCS/Uni MOC/archive/Progettazione basi di dati - Problemi e Vincoli.md",
+    "Storage/Backend/Monthly Logs/attachments/Pasted image 20241204080633.png",
+    "Storage/Backend/Monthly Logs/attachments/Screenshot 2024-12-05 at 18.10.51.webp",
+    "Storage/Backend/Monthly Logs/attachments/Pasted image 20241126113719 1.jpg",
+    "Storage/Backend/Monthly Logs/attachments/Pasted image 20241204080621.png",
+    "Storage/Backend/Monthly Logs/attachments/Pasted image 20241126113719.jpg",
+    "Storage/attachments/Pasted image 20241204080633.png",
+    "Storage/attachments/Pasted image 20241204080621.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250228104735.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250228104529.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250228104022.png",
+    "3. MOCS/Uni MOC/archive/Calcolo delle Probabilità (class).md",
+    "3. MOCS/Uni MOC/archive/Bucket Sort.md",
+    "3. MOCS/Uni MOC/archive/Algoritmi 1 (class).md",
+    "3. MOCS/Uni MOC/archive/Hash Table.md",
+    "3. MOCS/Uni MOC/archive/Introduzione ad Algoritmi 1.md",
+    "3. MOCS/Uni MOC/archive/Principio fondamentale del calcolo combinatorio.md",
+    "3. MOCS/Uni MOC/archive/Basi di Dati - Preparazione Orale.md",
     "3. MOCS/Uni MOC/archive/BD2 L1 - 26 Feb.md",
     "3. MOCS/Uni MOC/archive/Basi di Dati 2 (class).md",
     "3. MOCS/Uni MOC/archive/Associazione e Link (UML).md",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250227112026.png",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250227111910.png",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250227111448.png",
     "3. MOCS/Uni MOC/archive/Classi e Oggetti (UML).md",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250227104754.png",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250227104408.png",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250227104159.png",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250227104319.png",
     "3. MOCS/Uni MOC/archive/Introduzione UML.md",
     "3. MOCS/Uni MOC/archive/MDP 23 Apr.md",
     "3. MOCS/Uni MOC/archive/Metodologie di Programmazione (class).md",
     "To-Do/MDP 16 Apr.md",
     "3. MOCS/Uni MOC/archive/MDP 16 Apr.md",
-    "3. MOCS/Uni MOC/attachments/Pasted image 20240416100942.png",
-    "3. MOCS/Uni MOC/attachments/Pasted image 20240416100837.png",
     "To-Do/Pasted image 20240416100618.png.md",
-    "3. MOCS/Uni MOC/attachments/Pasted image 20240416100618.png",
-    "3. MOCS/Uni MOC/archive/MDP 9 Apr.md",
-    "To-Do/Pasted image 20240409092733.png.md",
-    "3. MOCS/Programming MOC/archive/MDP 19 Mar.md",
-    "3. MOCS/Uni MOC/archive/MDP Lab 10 Apr.md",
-    "3. MOCS/Uni MOC/archive/MDP Lab 06 Mar.md",
-    "3. MOCS/Uni MOC/archive/MDP Lab 28 Feb.md",
-    "3. MOCS/Uni MOC/archive/MDP 21 Mar.md",
-    "3. MOCS/Uni MOC/archive/Ciclo di Vita del Software - Basi di Dati 2.md",
-    "3. MOCS/Uni MOC/archive/Conteso Organizzativo - Basi di Dati 2.md",
-    "3. MOCS/Uni MOC/Uni MOC.md",
     "progetto/attachments/20. Algoritmo di decomposizione - Esercizi.pdf",
-    "3. MOCS/Uni MOC/archive/Copertura Minimale.md",
-    "Storage/Backend/Monthly Logs/Monthly Logs.md",
-    "Storage/Backend/Monthly Logs/🚧 February 2025 (Log).md",
-    "Storage/Backend/My Recipe Book/My Recipe Book.md",
     "3. MOCS/Personal MOC/private notes/Recording 20241114151345.webm",
     "3. MOCS/Personal MOC/private notes/Recording 20241113161258.webm",
     "3. MOCS/Personal MOC/private notes/Recording 20241113160006.webm",
@@ -315,7 +326,7 @@
     "3. MOCS/Uni MOC/archive/attachments/20. Algoritmo di decomposizione - Esercizi.pdf",
     "3. MOCS/Uni MOC/archive/Gestione dell'Input",
     "Untitled.canvas",
-    "attachments",
+    "Storage/attachments",
     "3. MOCS/Tech MOC/archive/attachments",
     "3. MOCS/Uni MOC/archive/attachments/Recording 20241128150638.webm",
     "Buy List/Skin Care Buy List.canvas",

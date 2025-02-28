@@ -2,14 +2,14 @@
 created: 2024-05-15
 type: Uni Note
 class:
-  - "[[Introduzione agli Algoritmi (class)]]"
+  - "[[Algoritmi 1 (class)]]"
 academic year: 2023/2024
 related:
   - "[[Alberi (Struttura Dati)]]"
   - "[[Alberi Binari (Struttura Dati)]]"
   - "[[Visite Alberi (preorder, inorder, postorder)]]"
 completed: true
-updated: 2024-05-27T13:29
+updated: 2025-02-27T18:34
 ---
 ---
 
@@ -23,7 +23,7 @@ updated: 2024-05-27T13:29
 >[!abstract] Related
 >- [[Visite Alberi (preorder, inorder, postorder)]]
 >- [[Alberi Binari (Struttura Dati)]]
->- [[Introduzione agli Algoritmi (class)]]
+>- [[Algoritmi 1 (class)]]
 
 ---
 ## Applicazione delle visite

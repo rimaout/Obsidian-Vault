@@ -1,18 +1,19 @@
 ---
 created: 2024-02-26
 type: Uni Note
-class: 
+class:
+  - "[[Algoritmi 1 (class)]]"
 academic year: 2023/2024
 related: 
-completed: false
-updated: 2024-05-27T13:29
+completed: true
+updated: 2025-02-27T18:36
 ---
 ---
 ## Index
 1. [[#Algoritmo]]
 2. [[#Strutture Dati]]
 3. [[#Efficienza]]
-4. [[RAM (Random Acces Machine)]]
+4. [[#RAM (Random Acces Machine)]]
 
 ---
 ## Algoritmo
@@ -72,5 +73,3 @@ Per studiare l’efficienza di un algoritmo dobbiamo ANALIZZARLO, cioè preveder
 - Faremo l’ipotesi che ogni operazione aritmetica o di confronto viene eseguita in tempo costante, indipendentemente dalla dimensione degli operandi.
 - Questo criterio è detto MISURA DI COSTO UNIFORME.
 - Sebbene utile, questo è un modello di costo non sempre realistico perché i dati potrebbero non essere rappresentabili in una sola parola di memoria, e quindi anche le operazioni aritmetiche non richiederebbero, in realtà, tempo costante.
-
----

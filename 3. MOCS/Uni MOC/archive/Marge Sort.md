@@ -2,12 +2,12 @@
 created: 2024-04-25
 type: Uni Note
 class:
-  - "[[Introduzione agli Algoritmi (class)]]"
+  - "[[Algoritmi 1 (class)]]"
 academic year: 2023/2024
 related:
   - "[[Algoritmi di Ordinamento]]"
 completed: true
-updated: 2024-05-27T13:29
+updated: 2025-02-27T18:34
 ---
 ---
 
@@ -18,7 +18,7 @@ updated: 2024-05-27T13:29
 
 >[!abstract] Related
 >- [[Algoritmi di Ordinamento]]
->- [[Introduzione agli Algoritmi (class)]]
+>- [[Algoritmi 1 (class)]]
 
 ---
 ## Introduzione

@@ -1,564 +1,5 @@
 {
   "workspaces": {
-    "Metodologie di Programmazione": {
-      "main": {
-        "id": "c0e3ba1eaba3cf97",
-        "type": "split",
-        "children": [
-          {
-            "id": "cd31465a07d80054",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "66534e2661bab057",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/archive/Java MOC.md",
-                    "mode": "preview",
-                    "source": false
-                  },
-                  "pinned": true,
-                  "icon": "lucide-file",
-                  "title": "Java MOC"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical"
-      },
-      "left": {
-        "id": "ea17b4a25a7f38c6",
-        "type": "split",
-        "children": [
-          {
-            "id": "ed1111de2574fd88",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "ba7d0379bd9741ad",
-                "type": "leaf",
-                "state": {
-                  "type": "file-explorer",
-                  "state": {
-                    "sortOrder": "alphabetical",
-                    "autoReveal": false
-                  },
-                  "icon": "lucide-folder-closed",
-                  "title": "Files"
-                }
-              },
-              {
-                "id": "d4aca3edb3bdc908",
-                "type": "leaf",
-                "state": {
-                  "type": "search",
-                  "state": {
-                    "query": "",
-                    "matchingCase": true,
-                    "explainSearch": true,
-                    "collapseAll": true,
-                    "extraContext": true,
-                    "sortOrder": "alphabetical"
-                  },
-                  "icon": "lucide-search",
-                  "title": "Search"
-                }
-              },
-              {
-                "id": "7f34f9e8b8261cab",
-                "type": "leaf",
-                "state": {
-                  "type": "starred",
-                  "state": {},
-                  "icon": "lucide-file",
-                  "title": "Plugin no longer active"
-                }
-              },
-              {
-                "id": "8720924e16a6a7ab",
-                "type": "leaf",
-                "state": {
-                  "type": "bookmarks",
-                  "state": {},
-                  "icon": "lucide-bookmark",
-                  "title": "Bookmarks"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 771.5099258422852,
-        "collapsed": true
-      },
-      "right": {
-        "id": "1599d9a7234429ed",
-        "type": "split",
-        "children": [
-          {
-            "id": "b33702b1304e824a",
-            "type": "tabs",
-            "dimension": 35.19736842105263,
-            "children": [
-              {
-                "id": "73d6fce2365a09ef",
-                "type": "leaf",
-                "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "useHierarchy": true
-                  },
-                  "icon": "lucide-tags",
-                  "title": "Tags"
-                }
-              },
-              {
-                "id": "734f0b87ccb39174",
-                "type": "leaf",
-                "state": {
-                  "type": "backlink",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/archive/Java - SAM & Functional Interfaces.md",
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": false
-                  },
-                  "icon": "links-coming-in",
-                  "title": "Backlinks for Java - SAM & Functional Interfaces"
-                }
-              },
-              {
-                "id": "1899c835ee03ed03",
-                "type": "leaf",
-                "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/archive/Java - Generic Types.md",
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-going-out",
-                  "title": "Outgoing links from Java - Generic Types"
-                }
-              },
-              {
-                "id": "c9dd3a742136f31e",
-                "type": "leaf",
-                "state": {
-                  "type": "all-properties",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-archive",
-                  "title": "All properties"
-                }
-              },
-              {
-                "id": "b5486e50ab568cef",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/archive/Java - SAM & Functional Interfaces.md",
-                    "followCursor": false,
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-list",
-                  "title": "Outline of Java - SAM & Functional Interfaces"
-                }
-              },
-              {
-                "id": "5a521e8af974de35",
-                "type": "leaf",
-                "state": {
-                  "type": "git-view",
-                  "state": {},
-                  "icon": "git-pull-request",
-                  "title": "Source Control"
-                }
-              }
-            ],
-            "currentTab": 2
-          },
-          {
-            "id": "0ee4f1dd2040ea54",
-            "type": "tabs",
-            "dimension": 64.80263157894737,
-            "children": [
-              {
-                "id": "08bb0d9d4b18b672",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "To-Do/To-Do.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "To-Do"
-                }
-              },
-              {
-                "id": "6217f74dd2639932",
-                "type": "leaf",
-                "state": {
-                  "type": "localgraph",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/archive/Java - Generic Types.md",
-                    "options": {
-                      "collapse-filter": true,
-                      "search": "",
-                      "localJumps": 1,
-                      "localBacklinks": true,
-                      "localForelinks": true,
-                      "localInterlinks": false,
-                      "showTags": false,
-                      "showAttachments": false,
-                      "hideUnresolved": false,
-                      "collapse-color-groups": true,
-                      "colorGroups": [],
-                      "collapse-display": true,
-                      "showArrow": false,
-                      "textFadeMultiplier": 0,
-                      "nodeSizeMultiplier": 1,
-                      "lineSizeMultiplier": 1,
-                      "collapse-forces": true,
-                      "centerStrength": 0.518713248970312,
-                      "repelStrength": 10,
-                      "linkStrength": 1,
-                      "linkDistance": 250,
-                      "scale": 0.03896843203911521,
-                      "close": false
-                    }
-                  },
-                  "icon": "lucide-git-fork",
-                  "title": "Graph of Java - Generic Types"
-                }
-              }
-            ],
-            "currentTab": 1
-          }
-        ],
-        "direction": "horizontal",
-        "width": 763.5,
-        "collapsed": true
-      },
-      "left-ribbon": {
-        "hiddenItems": {
-          "obsidian-git:Open Git source control": false,
-          "omnisearch:Omnisearch": false,
-          "obisidian-note-linker:Note Linker": false,
-          "switcher:Open quick switcher": false,
-          "graph:Open graph view": false,
-          "canvas:Create new canvas": false,
-          "templates:Insert template": false,
-          "command-palette:Open command palette": false,
-          "audio-recorder:Start/stop recording": false,
-          "workspaces:Manage workspace layouts": false,
-          "markdown-importer:Open format converter": false
-        }
-      },
-      "active": "66534e2661bab057",
-      "mtime": "2025-02-17T17:08:20+01:00"
-    },
-    "Probabilità": {
-      "main": {
-        "id": "c0e3ba1eaba3cf97",
-        "type": "split",
-        "children": [
-          {
-            "id": "652e3f4f523715eb",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "c8a56e10203b27ab",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/archive/Calcolo delle Probabilità (class).md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "pinned": true,
-                  "icon": "lucide-file",
-                  "title": "Calcolo delle Probabilità (class)"
-                }
-              },
-              {
-                "id": "69a85be121d0c1be",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/archive/Principio fondamentale del calcolo combinatorio.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Principio fondamentale del calcolo combinatorio"
-                }
-              }
-            ],
-            "currentTab": 1
-          }
-        ],
-        "direction": "vertical"
-      },
-      "left": {
-        "id": "ea17b4a25a7f38c6",
-        "type": "split",
-        "children": [
-          {
-            "id": "ed1111de2574fd88",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "ba7d0379bd9741ad",
-                "type": "leaf",
-                "state": {
-                  "type": "file-explorer",
-                  "state": {
-                    "sortOrder": "alphabetical"
-                  },
-                  "icon": "lucide-folder-closed",
-                  "title": "Files"
-                }
-              },
-              {
-                "id": "d4aca3edb3bdc908",
-                "type": "leaf",
-                "state": {
-                  "type": "search",
-                  "state": {
-                    "query": "",
-                    "matchingCase": true,
-                    "explainSearch": true,
-                    "collapseAll": true,
-                    "extraContext": true,
-                    "sortOrder": "alphabetical"
-                  },
-                  "icon": "lucide-search",
-                  "title": "Search"
-                }
-              },
-              {
-                "id": "7f34f9e8b8261cab",
-                "type": "leaf",
-                "state": {
-                  "type": "starred",
-                  "state": {},
-                  "icon": "lucide-file",
-                  "title": "Plugin no longer active"
-                }
-              },
-              {
-                "id": "8720924e16a6a7ab",
-                "type": "leaf",
-                "state": {
-                  "type": "bookmarks",
-                  "state": {},
-                  "icon": "lucide-bookmark",
-                  "title": "Bookmarks"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 392.504789352417,
-        "collapsed": true
-      },
-      "right": {
-        "id": "1599d9a7234429ed",
-        "type": "split",
-        "children": [
-          {
-            "id": "b33702b1304e824a",
-            "type": "tabs",
-            "dimension": 35.19736842105263,
-            "children": [
-              {
-                "id": "73d6fce2365a09ef",
-                "type": "leaf",
-                "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "useHierarchy": true
-                  },
-                  "icon": "lucide-tags",
-                  "title": "Tags"
-                }
-              },
-              {
-                "id": "734f0b87ccb39174",
-                "type": "leaf",
-                "state": {
-                  "type": "backlink",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Calcolo delle Probabilità (class).md",
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": false
-                  },
-                  "icon": "links-coming-in",
-                  "title": "Backlinks for Calcolo delle Probabilità (class)"
-                }
-              },
-              {
-                "id": "1899c835ee03ed03",
-                "type": "leaf",
-                "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Calcolo delle Probabilità (class).md",
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-going-out",
-                  "title": "Outgoing links from Calcolo delle Probabilità (class)"
-                }
-              },
-              {
-                "id": "c9dd3a742136f31e",
-                "type": "leaf",
-                "state": {
-                  "type": "all-properties",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-archive",
-                  "title": "All properties"
-                }
-              },
-              {
-                "id": "b5486e50ab568cef",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/archive/Variabili Aleatorie Indipendenti.md"
-                  },
-                  "icon": "lucide-list",
-                  "title": "Outline of Variabili Aleatorie Indipendenti"
-                }
-              },
-              {
-                "id": "2be710a38fb52417",
-                "type": "leaf",
-                "state": {
-                  "type": "git-view",
-                  "state": {},
-                  "icon": "git-pull-request",
-                  "title": "Source Control"
-                }
-              }
-            ],
-            "currentTab": 5
-          },
-          {
-            "id": "0ee4f1dd2040ea54",
-            "type": "tabs",
-            "dimension": 64.80263157894737,
-            "children": [
-              {
-                "id": "08bb0d9d4b18b672",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "To-Do/To-Do.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "To-Do"
-                }
-              },
-              {
-                "id": "6217f74dd2639932",
-                "type": "leaf",
-                "state": {
-                  "type": "localgraph",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/archive/Variabile Aleatoria Gaussiana.md",
-                    "options": {
-                      "collapse-filter": true,
-                      "search": "",
-                      "localJumps": 1,
-                      "localBacklinks": true,
-                      "localForelinks": true,
-                      "localInterlinks": false,
-                      "showTags": false,
-                      "showAttachments": false,
-                      "hideUnresolved": false,
-                      "collapse-color-groups": true,
-                      "colorGroups": [],
-                      "collapse-display": true,
-                      "showArrow": false,
-                      "textFadeMultiplier": 0,
-                      "nodeSizeMultiplier": 1,
-                      "lineSizeMultiplier": 1,
-                      "collapse-forces": true,
-                      "centerStrength": 0.518713248970312,
-                      "repelStrength": 10,
-                      "linkStrength": 1,
-                      "linkDistance": 250,
-                      "scale": 0.0078125,
-                      "close": true
-                    }
-                  },
-                  "icon": "lucide-git-fork",
-                  "title": "Graph of Variabile Aleatoria Gaussiana"
-                }
-              }
-            ],
-            "currentTab": 1
-          }
-        ],
-        "direction": "horizontal",
-        "width": 473.5,
-        "collapsed": true
-      },
-      "left-ribbon": {
-        "hiddenItems": {
-          "obisidian-note-linker:Note Linker": false,
-          "obsidian-git:Open Git source control": false,
-          "omnisearch:Omnisearch": false,
-          "switcher:Open quick switcher": false,
-          "graph:Open graph view": false,
-          "canvas:Create new canvas": false,
-          "templates:Insert template": false,
-          "command-palette:Open command palette": false,
-          "audio-recorder:Start/stop recording": false,
-          "workspaces:Manage workspace layouts": false,
-          "markdown-importer:Open format converter": false
-        }
-      },
-      "active": "69a85be121d0c1be",
-      "mtime": "2025-02-17T17:26:17+01:00"
-    },
     "Basi Dati": {
       "main": {
         "id": "c0e3ba1eaba3cf97",
@@ -585,17 +26,17 @@
                 }
               },
               {
-                "id": "323db51eec488090",
+                "id": "a19918f39f5faeed",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/archive/Controlo della Concorrenza.md",
+                    "file": "3. MOCS/Uni MOC/archive/File Heap.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "Controlo della Concorrenza"
+                  "title": "File Heap"
                 }
               }
             ],
@@ -618,7 +59,8 @@
                 "state": {
                   "type": "file-explorer",
                   "state": {
-                    "sortOrder": "alphabetical"
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
                   },
                   "icon": "lucide-folder-closed",
                   "title": "Files"
@@ -661,12 +103,11 @@
                   "title": "Bookmarks"
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "horizontal",
-        "width": 308.504789352417,
+        "width": 494.5062494277954,
         "collapsed": true
       },
       "right": {
@@ -697,7 +138,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/archive/Controlo della Concorrenza.md",
+                    "file": "3. MOCS/Uni MOC/archive/Basi di Dati - Preparazione Orale.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -707,7 +148,7 @@
                     "unlinkedCollapsed": false
                   },
                   "icon": "links-coming-in",
-                  "title": "Backlinks for Controlo della Concorrenza"
+                  "title": "Backlinks for Basi di Dati - Preparazione Orale"
                 }
               },
               {
@@ -778,7 +219,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/archive/Controlo della Concorrenza.md",
+                    "file": "3. MOCS/Uni MOC/archive/Basi di Dati - Preparazione Orale.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -801,12 +242,12 @@
                       "repelStrength": 10,
                       "linkStrength": 1,
                       "linkDistance": 250,
-                      "scale": 0.844410989828754,
+                      "scale": 1.417527765661771,
                       "close": true
                     }
                   },
                   "icon": "lucide-git-fork",
-                  "title": "Graph of Controlo della Concorrenza"
+                  "title": "Graph of Basi di Dati - Preparazione Orale"
                 }
               }
             ],
@@ -814,7 +255,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 323.5
+        "width": 527.5,
+        "collapsed": true
       },
       "left-ribbon": {
         "hiddenItems": {
@@ -831,8 +273,8 @@
           "markdown-importer:Open format converter": false
         }
       },
-      "active": "323db51eec488090",
-      "mtime": "2025-02-17T17:24:38+01:00"
+      "active": "a19918f39f5faeed",
+      "mtime": "2025-02-28T11:17:30+01:00"
     },
     "Sistemi Operativi": {
       "main": {
@@ -1093,7 +535,593 @@
       },
       "active": "01abab4389c228fc",
       "mtime": "2025-02-07T22:54:52+01:00"
+    },
+    "Algo": {
+      "main": {
+        "id": "c0e3ba1eaba3cf97",
+        "type": "split",
+        "children": [
+          {
+            "id": "652e3f4f523715eb",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "9fdc480e7e6edb27",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/archive/Algoritmi 2 (class).md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "Algoritmi 2 (class)"
+                }
+              },
+              {
+                "id": "92ba27fa150c5c69",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/archive/Ripasso Iniziale di Algo 1.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Ripasso Iniziale di Algo 1"
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "ea17b4a25a7f38c6",
+        "type": "split",
+        "children": [
+          {
+            "id": "ed1111de2574fd88",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "ba7d0379bd9741ad",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
+              },
+              {
+                "id": "d4aca3edb3bdc908",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": true,
+                    "explainSearch": true,
+                    "collapseAll": true,
+                    "extraContext": true,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              },
+              {
+                "id": "7f34f9e8b8261cab",
+                "type": "leaf",
+                "state": {
+                  "type": "starred",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "Plugin no longer active"
+                }
+              },
+              {
+                "id": "8720924e16a6a7ab",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 392.504789352417,
+        "collapsed": true
+      },
+      "right": {
+        "id": "1599d9a7234429ed",
+        "type": "split",
+        "children": [
+          {
+            "id": "b33702b1304e824a",
+            "type": "tabs",
+            "dimension": 35.19736842105263,
+            "children": [
+              {
+                "id": "73d6fce2365a09ef",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              },
+              {
+                "id": "734f0b87ccb39174",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "Storage/attachments/Pasted image 20241204080621.png",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": false
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks for Calcolo delle Probabilità (class)"
+                }
+              },
+              {
+                "id": "1899c835ee03ed03",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "Storage/attachments/Pasted image 20241204080621.png",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links from Calcolo delle Probabilità (class)"
+                }
+              },
+              {
+                "id": "c9dd3a742136f31e",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "All properties"
+                }
+              },
+              {
+                "id": "b5486e50ab568cef",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/archive/Variabili Aleatorie Indipendenti.md"
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of Variabili Aleatorie Indipendenti"
+                }
+              },
+              {
+                "id": "2be710a38fb52417",
+                "type": "leaf",
+                "state": {
+                  "type": "git-view",
+                  "state": {},
+                  "icon": "git-pull-request",
+                  "title": "Source Control"
+                }
+              }
+            ],
+            "currentTab": 5
+          },
+          {
+            "id": "0ee4f1dd2040ea54",
+            "type": "tabs",
+            "dimension": 64.80263157894737,
+            "children": [
+              {
+                "id": "08bb0d9d4b18b672",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "To-Do/To-Do.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "To-Do"
+                }
+              },
+              {
+                "id": "6217f74dd2639932",
+                "type": "leaf",
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "file": "Storage/attachments/Pasted image 20241204080621.png",
+                    "options": {
+                      "collapse-filter": true,
+                      "search": "",
+                      "localJumps": 1,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": false,
+                      "showTags": false,
+                      "showAttachments": false,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": true,
+                      "colorGroups": [],
+                      "collapse-display": true,
+                      "showArrow": false,
+                      "textFadeMultiplier": 0,
+                      "nodeSizeMultiplier": 1,
+                      "lineSizeMultiplier": 1,
+                      "collapse-forces": true,
+                      "centerStrength": 0.518713248970312,
+                      "repelStrength": 10,
+                      "linkStrength": 1,
+                      "linkDistance": 250,
+                      "scale": 0.0078125,
+                      "close": true
+                    }
+                  },
+                  "icon": "lucide-git-fork",
+                  "title": "Graph of Variabile Aleatoria Gaussiana"
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "horizontal",
+        "width": 473.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "obisidian-note-linker:Note Linker": false,
+          "obsidian-git:Open Git source control": false,
+          "omnisearch:Omnisearch": false,
+          "switcher:Open quick switcher": false,
+          "graph:Open graph view": false,
+          "canvas:Create new canvas": false,
+          "templates:Insert template": false,
+          "command-palette:Open command palette": false,
+          "audio-recorder:Start/stop recording": false,
+          "workspaces:Manage workspace layouts": false,
+          "markdown-importer:Open format converter": false
+        }
+      },
+      "active": "92ba27fa150c5c69",
+      "mtime": "2025-02-28T11:17:22+01:00"
+    },
+    "Reti": {
+      "main": {
+        "id": "c0e3ba1eaba3cf97",
+        "type": "split",
+        "children": [
+          {
+            "id": "652e3f4f523715eb",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "842d636a1f8cae78",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/archive/Reti (class).md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "Reti (class)"
+                }
+              },
+              {
+                "id": "193349f347bff5c2",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni MOC.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Uni MOC"
+                }
+              },
+              {
+                "id": "b80c124da6f273c6",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/archive/Reti L1 - 27 Feb.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Reti L1 - 27 Feb"
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "ea17b4a25a7f38c6",
+        "type": "split",
+        "children": [
+          {
+            "id": "ed1111de2574fd88",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "ba7d0379bd9741ad",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
+              },
+              {
+                "id": "d4aca3edb3bdc908",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": true,
+                    "explainSearch": true,
+                    "collapseAll": true,
+                    "extraContext": true,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              },
+              {
+                "id": "7f34f9e8b8261cab",
+                "type": "leaf",
+                "state": {
+                  "type": "starred",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "Plugin no longer active"
+                }
+              },
+              {
+                "id": "8720924e16a6a7ab",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 392.504789352417
+      },
+      "right": {
+        "id": "1599d9a7234429ed",
+        "type": "split",
+        "children": [
+          {
+            "id": "b33702b1304e824a",
+            "type": "tabs",
+            "dimension": 35.19736842105263,
+            "children": [
+              {
+                "id": "73d6fce2365a09ef",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              },
+              {
+                "id": "734f0b87ccb39174",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni MOC.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": false
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks for Uni MOC"
+                }
+              },
+              {
+                "id": "1899c835ee03ed03",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni MOC.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links from Uni MOC"
+                }
+              },
+              {
+                "id": "c9dd3a742136f31e",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "All properties"
+                }
+              },
+              {
+                "id": "b5486e50ab568cef",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/archive/Variabili Aleatorie Indipendenti.md"
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of Variabili Aleatorie Indipendenti"
+                }
+              },
+              {
+                "id": "2be710a38fb52417",
+                "type": "leaf",
+                "state": {
+                  "type": "git-view",
+                  "state": {},
+                  "icon": "git-pull-request",
+                  "title": "Source Control"
+                }
+              }
+            ],
+            "currentTab": 1
+          },
+          {
+            "id": "0ee4f1dd2040ea54",
+            "type": "tabs",
+            "dimension": 64.80263157894737,
+            "children": [
+              {
+                "id": "08bb0d9d4b18b672",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "To-Do/To-Do.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "To-Do"
+                }
+              },
+              {
+                "id": "6217f74dd2639932",
+                "type": "leaf",
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni MOC.md",
+                    "options": {
+                      "collapse-filter": true,
+                      "search": "",
+                      "localJumps": 1,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": false,
+                      "showTags": false,
+                      "showAttachments": false,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": true,
+                      "colorGroups": [],
+                      "collapse-display": true,
+                      "showArrow": false,
+                      "textFadeMultiplier": 0,
+                      "nodeSizeMultiplier": 1,
+                      "lineSizeMultiplier": 1,
+                      "collapse-forces": true,
+                      "centerStrength": 0.518713248970312,
+                      "repelStrength": 10,
+                      "linkStrength": 1,
+                      "linkDistance": 250,
+                      "scale": 0.0078125,
+                      "close": true
+                    }
+                  },
+                  "icon": "lucide-git-fork",
+                  "title": "Graph of Uni MOC"
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "horizontal",
+        "width": 473.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "obisidian-note-linker:Note Linker": false,
+          "obsidian-git:Open Git source control": false,
+          "omnisearch:Omnisearch": false,
+          "switcher:Open quick switcher": false,
+          "graph:Open graph view": false,
+          "canvas:Create new canvas": false,
+          "templates:Insert template": false,
+          "command-palette:Open command palette": false,
+          "audio-recorder:Start/stop recording": false,
+          "workspaces:Manage workspace layouts": false,
+          "markdown-importer:Open format converter": false
+        }
+      },
+      "active": "193349f347bff5c2",
+      "mtime": "2025-02-28T11:15:05+01:00"
     }
   },
-  "active": "Basi Dati"
+  "active": "Algo"
 }

@@ -2,11 +2,11 @@
 created: 2024-04-11
 type: Uni Note
 class:
-  - "[[Introduzione agli Algoritmi (class)]]"
+  - "[[Algoritmi 1 (class)]]"
 academic year: 2023/2024
 related: 
 completed: false
-updated: 2024-05-27T13:29
+updated: 2025-02-27T18:34
 ---
 ---
 
@@ -18,7 +18,7 @@ updated: 2024-05-27T13:29
 >5. [[#Stable Sorting Algoritms]]
 
 >[!info] Related
->- [[Introduzione agli Algoritmi (class)]]
+>- [[Algoritmi 1 (class)]]
 
 ---
 ## Introduzione
