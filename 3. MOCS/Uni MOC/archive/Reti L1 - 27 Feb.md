@@ -1,13 +1,15 @@
 ---
 type: Uni Note
 class:
-  - "[[Matematica Discreta (class)]]"
+  - "[[Reti (class)]]"
 academic year: 2024/2025
 related: 
 completed: false
 created: 2025-02-27T14:31
-updated: 2025-02-28T10:55
+updated: 2025-02-28T14:09
 ---
+file:///Users/mr/Downloads/lezione_1_Reti.pdf
+
 ## Rete
 
 Una rete è composta da noti, ovvero dispositivi capaci di scambiarsi informazioni che vengono categorizzati in *sistemi terminali* e *dispositivi di interconnessione* che sono collegati tra loro attraverso dei *collegamenti* detti link.
@@ -149,25 +151,35 @@ Oggi giorno è difficile trovare LAN o WAN isolate: esse sono in genere connesse
 >
 >**Sito GARR:** http://www.garr.it/it/infrastrutture/rete-nazionale/infrastruttura-direte-nazionale
 
-Attachments
-
 ## Comunicazione (Switching)
 
-Una internet (internetwork) è una combinazione di link e dispositivi di scambiarsi informazioni.
+Una internet (internetwork) è una combinazione di link e dispositivi capaci di scambiarsi informazioni. In particolare i sistemi terminali comunicano tra di loro per mezzo di dispositivi come switch e router.
+
+Ci sono due tipi di reti basate su switch:
+- [[#^25f8b9|Reti a comunicazione di circuito]]
+- [[#^d8b0c9|Rete di comunicazione di pacchetto]]
 
 >[!note] Reti a commutazione di circuito
 >
->Tra due dispositivi è sempre disponibile un collegamento ddedicato chiamato circuito
+>Tra due dispositivi è sempre disponibile un collegamento dedicato chiamato **circuito**, *utilizzato per l'intera comunicazione*.
 >
->Stabilire un circuito significa riservare risorse fisiche necessarie per effettuare il collegamento tra i due dispositivi.
+>Stabilire un circuito significa riservare le risorse fisiche necessarie per effettuare il collegamento tra i due dispositivi. Queste risorse saranno inaccessibili a gli altri dispositivi per tutto il tempo necessario per effettuare la comunicazione.
 >
->**Efficenza** - questo tipo di comunicazione ci assicura che le risorse fisiche siano "prenotate" per tutto il tempo delle comunicazione. Questo però non permette vlkjklsflkjhf
+>**Percorso** - anche se esistono più percorsi tra due dispositivi in comunicazione, solo uno di questi verrà usato per l’intera comunicazione
 >
->La banda può essere divisa in due modi per frequenza (FDM) o per tempo (TDM):
+>**Efficenza** - questo tipo di comunicazione ci assicura che le risorse fisiche siano "prenotate" per tutto il tempo delle comunicazione.
 >
->Frequenza da slalfj
+>Le risorse della rete (es. ampiezza di banda) possono essere suddivise in "pezzi". La banda in particolare può essere divisa in due modi per frequenza (**FDM**) o per tempo (**TDM**).
 >
->Time da tutta la banda a ogni utente che vuole trasmettere ma per un tempo limitato
+>>***FDM (Frequency Division Multiplexing)***
+>>
+>>![[Pasted image 20250228121344.png|600]]
+>
+>>***TDM (Time Division Multiplexing)***
+>>
+>>![[Pasted image 20250228121504.png|600]]
+
+^25f8b9
 
 >[!note] Rete di comunicazione di pacchetto
 >
@@ -179,7 +191,8 @@ Una internet (internetwork) è una combinazione di link e dispositivi di scambia
 >
 >I router che ricevono i dati dagli utenti li inseriscono ad una coda (store) ed li inviano nella rete in modo sequenziale (forward). 
 
-## Struttura concettuale di Internet
+^d8b0c9
 
+## Struttura concettuale di Internet
 
 ## Rete di accesso

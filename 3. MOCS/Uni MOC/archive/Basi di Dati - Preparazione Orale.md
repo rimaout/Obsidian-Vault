@@ -6,7 +6,7 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2025-02-18T16:16
-updated: 2025-02-27T12:53
+updated: 2025-02-28T13:34
 ---
 >[!note]- Def. 1: Dipendenza Funzionale 🟢
 >
@@ -186,19 +186,33 @@ updated: 2025-02-27T12:53
 >
 >Per dimostrare $F^{+} = F^{A}$ dobbiamo dimostrare che $F^{A} \subseteq F^{+}$ e che $F^{+} \subseteq F^{A}$.
 >
->**Dimostrazione:** $F^{A} \subseteq F^{+}$
+>**Dimostrazione:** $F^{A} \subseteq F^{+}$ 
 >
 >Per calcolare $F^{A}$ si applicano ricorsivamente gli assiomi di Armstrong, dobbiamo dimostrare che ogni dipendenza funzionale ottenuta applichiamo un assioma di Armstrong sia presente anche in $F^{+}$.
 >
->Questo può essere fatto per induzione, dove:
+>Questo può essere fatto ***per induzione***, dove:
 > 
 >- `i` è il numero di applicazioni di uno degli assiomi di Armstrong.
 >- il *caso base* $i=0$ indica che non abbiamo applicato nessun assioma e che quindi $F^{A}$ contiene soltanto gli elementi in $F$ e banalmente anche $F^{+}$ contiene gli elementi in $F$
 >- l'*Ipotesi induttiva* indica che ogni dipendenza funzionale ottenuta a partire da $F$$ applicando gli assiomi di Armstrong un numero di volte minore o uguale a `i–1` è in F+. Tre casi si possono presentare:
 >
->**1.** $X \to Y$ ottenuta attraverso l'**assioma della riflessività** in tal caso $Y \subseteq X$. quindi date due tuple  `t1` e `t2` tali che `t1[X] = t2[X]`; banalmente si ha t`1[Y] = t2[Y]`.
+>>**1.** $X \to Y$ ottenuta attraverso l'**assioma della riflessività** in tal caso $Y \subseteq X$. 
+>>
+>>Quindi date due tuple  `t1` e `t2` tali che `t1[X] = t2[X]`, banalmente si ha t`1[Y] = t2[Y]`.
 >
->**2.** $X \to Y$ ottenuta applicando l'assioma dell'aumento ad una dipendenza $V \to W \in F^{A}$, dove quindi $X = VZ$ e $Y = WZ$. Date due tuple `t1` e `t2` tali che `t1[X] = t2[X]` si avrà che `t1[V] = t2[V]` e `t1[Z] = t2[Z]` per ipotesi induzione `t1[V] = t2[V]` ci permette di dire che `t1[V] = t2[V]` e insieme ci permettono di determinare che `t1[Z] = t2[Z]` e quindi otteniamo che `t1​[Y] = t2​[Y]`.
+>>**2.** $X \to Y$ ottenuta applicando l'**assioma dell'aumento** ad una dipendenza $V \to W \in F^{A}$, dove quindi $X = VZ$ e $Y = WZ$. 
+>>
+>>Date due tuple `t1` e `t2` tali che `t1[X] = t2[X]` si avrà che `t1[V] = t2[V]` e `t1[Z] = t2[Z]`, per ipotesi induzione `t1[V] = t2[V]` ci permette di dire che `t1[V] = t2[V]` e insieme ci permettono di determinare che `t1[Z] = t2[Z]` e quindi otteniamo che `t1​[Y] = t2​[Y]`.
+>
+>>**3.** $X \to Y$ ottenuta applicando l'**assioma della transitività** ad due dipendenze $X \to Y,\; Z \to Y \in F_{A}$:
+>>
+>>Sia `r` un istanza di `R` e siano `t1` e `t2` due tuple in `r`tali che `t1​[X] = t2​[X]`.
+>>
+>>Per *ipotesi induttiva* si ha che `t1​[X] = t2​[X]` $\implies$ `t1​[Z] = t2​[Z]` e sempre per *ipotesi induttiva* `t1​[Z] = t2​[Z]` $\implies$ `t1​[Y] = t2​[Y].
+>
+>**Dimostrazione:** $F^{+} \subseteq F^{A}$
+>
+>
 
 FA sub F+: usiamo ricorsivamnte assiomi di armstrong (quindi dimostrazione per induzione)
 
