@@ -6,9 +6,9 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2025-02-18T16:16
-updated: 2025-03-02T16:46
+updated: 2025-03-02T19:45
 ---
->[!note]- Def. 1: Dipendenza Funzionale 🟢
+>[!note]- Def 1: Dipendenza Funzionale 🟢
 >
 >Dato uno schema relazionale `R`, una dipendenza funzionale su `R` è una coppia orinata di sottoinsiemi non vuoti `X` e `Y` di `R`.
 >
@@ -16,7 +16,7 @@ updated: 2025-03-02T16:46
 >- `X` è il determinante
 >- `Y` è il determinato
 
->[!note]- Def. 1.1: Soddisfare Dipendenza Funzionale 🟢
+>[!note]- Def 1.1: Soddisfare Dipendenza Funzionale 🟢
 >
 >Si dice che un istanza `r` di `R` soddisfa la dipendenza funzionale $X \to Y$ se per ogni coppia di tuple `t1` e `t2` abbiamo che:
 >
@@ -24,13 +24,13 @@ updated: 2025-03-02T16:46
 >
 >**oss:** un istanza di `R` non un insieme di tuple, può essere vista come una tabella che rappresenta le relazione.
 
->[!note]- Def: 1.2: Istanza Legale 🟢
+>[!note]- Def 1.2: Istanza Legale 🟢
 >
 >Dati uno schema relazionale `R` e un insieme di dipendenze funzionali `F`.
 >
 >Un istanza `r` di `R` si dice legale se soddisfa tutte le dipendenze funzionali in `F`.
 
->[!note]- 1.3: Chiusura 🟢
+>[!note]- Def 1.3: Chiusura 🟢
 >
 >Dato uno schema relazionale `R` e un insieme di dipendenze funzionali `F` su `R`.
 >
@@ -38,7 +38,7 @@ updated: 2025-03-02T16:46
 >
 >***oss:*** $F \subseteq F^{+}$ ($F$ è contenuto da $F^{+}$)
 
->[!note]- Def. 2: Chiave 🟢
+>[!note]- Def 2: Chiave 🟢
 >
 >Dati un schema relazionale `R` ed un insieme di dipendenze funzionali `F`  su `R`.
 >
@@ -48,13 +48,13 @@ updated: 2025-03-02T16:46
 >  
 >
 
->[!note]- Def. 3: Attributo Primo e Super-chiave 🟢
+>[!note]- Def 3: Attributo Primo e Super-chiave 🟢
 >Dati uno schema relazionale `R` e un insieme di dipendenze funzionali `F`.
 >
 >- Un attributo `A` di `R` si dice primo se appartiene ad una chiave di `R`.
 >- Un sottoinsieme `X` di `R` si dice super-chiave se contiene una chiave di `R` o alternativamente contiene determina tutto `R` (ovvero la sua chiusura è uguale ad `R`)
 
->[!note]- Def. 4: Dipendenze Parziali e Transitive 🟢
+>[!note]- Def 4: Dipendenze Parziali e Transitive 🟢
 >
 >Siano `R` uno schema relazionale e `F` un insieme di dipendenze funzionali e una dipendenza $X \to A \in F^{+}$ con $A \not \in X$.
 >
@@ -76,7 +76,7 @@ updated: 2025-03-02T16:46
 >>	  
 >>**oss:** Non abbiamo dipendenze transitive se gli attributi che non appartengono alla chiave, dipendono direttamente dalla chiave e non da altri attributi non chiave.
 
->[!note]- Def. 5: Schema in 3NF 🟢
+>[!note]- Def 5: Schema in 3NF 🟢
 >
 >Sia `R` uno schema relazionale e `F` un insieme di dipendenze funzionali su `R`.
 >
@@ -84,7 +84,7 @@ updated: 2025-03-02T16:46
 >- `X` è una superchiave, oppure
 >- `A` è primo
 
->[!note]- Teo. 1: 3NF = no parziali e no transitive 🟢
+>[!note]- Teo 1: 3NF = no parziali e no transitive 🟢
 >
 >Sia `R` uno schema relazionale e `F` un insieme di dipendenze funzionali su `R`. Lo schema `R` è 3NF (terza forma normale) se e solo se ***non esistono dipendenze parziali o transitive***.
 >
@@ -123,7 +123,7 @@ updated: 2025-03-02T16:46
 >  
 >**oss:** L'insieme $F^{A}$ può essere ottenuto applicando ricorsivamente gli assiomi di Armstrong su l'insieme di dipendenze funzionali $F$.
 
->[!note]- Teo. 2: Regole derivate da Armstrong 🟢
+>[!note]- Teo 2: Regole derivate da Armstrong 🟢
 >
 >Sia $F$ un insieme di dipendenze funzionali, allora su questo valgono le 3 regole viste precedentemente:
 >
@@ -147,7 +147,7 @@ updated: 2025-03-02T16:46
 >>- ***Regola della Decomposizione:*** Se $X \to Y \in F^{A}$ e $Z \subseteq Y$ allora $X \to Z \in F^{A}$
 >>- ***Regola della Pseudo-Transività:*** Se $X \to Y \in F^{A}$ e $WY \to Z \in F^{A}$ allora $WX \to Z \in F^{A}$
 
->[!note]- Def. 6: $X^{+}$ 🟢
+>[!note]- Def 6: $X^{+}$ 🟢
 >
 >Siano `R` uno schema relazionale e `F` un insieme di dipendenze funzionali su `R`.
 >
@@ -204,31 +204,37 @@ updated: 2025-03-02T16:46
 >
 >>**2.** $X \to Y$ ottenuta applicando l'**assioma dell'aumento** ad una dipendenza $V \to W \in F^{A}$, dove quindi $X = VZ$ e $Y = WZ$ per qualche $Z\subseteq R$.
 >>
->>Date due tuple `t1` e `t2` tali che `t1[X] = t2[X]` (ovvero `t1[VZ] = t2[VZ]`) si avrà che `t1[V] = t2[V]` e `t1[Z] = t2[Z]`
+>>Sia `r` un istanza di `R` e siano `t1` e `t2` due tuple in `r`tali che `t1​[X] = t2​[X]` (ovvero `t1[VZ] = t2[VZ]`) si avrà che `t1[V] = t2[V]` e `t1[Z] = t2[Z]`.
 >>
->>Visto che per *ipotesi induttiva* $V \to W \in F^{+}$ allora possiamo dire che `t1[V] = t2[V]` porta ad avere `t1[W] = t2[W]` ed insieme portano a `t1[Z] = t2[Z]`.
->>
->>Quindi otteniamo che `t1[Y] = T2[Y]` (ovvero  `t1[VZ] = t2[WZ]`).
+>>Visto che per ***ipotesi induttiva*** $V \to W \in F^{+}$ allora possiamo dire che `t1[V] = t2[V]` porta ad avere `t1[W] = t2[W]`. Quindi otteniamo che `t1[Y] = T2[Y]` (ovvero  `t1[VZ] = t2[WZ]`).
 >
->>**3.** $X \to Y$ ottenuta applicando l'**assioma della transitività** ad due dipendenze $X \to Y,\; Z \to Y \in F_{A}$:
+>>**3.** $X \to Y$ ottenuta applicando l'**assioma della transitività** su due dipendenze $X \to Z$ e $Z \to Y$ appartenenti as $F^{A}$:
 >>
 >>Sia `r` un istanza di `R` e siano `t1` e `t2` due tuple in `r`tali che `t1​[X] = t2​[X]`.
 >>
->>Per *ipotesi induttiva* si ha che `t1​[X] = t2​[X]` $\implies$ `t1​[Z] = t2​[Z]` e sempre per *ipotesi induttiva* `t1​[Z] = t2​[Z]` $\implies$ `t1​[Y] = t2​[Y].
->
+>>Per ***ipotesi induttiva*** le dipendenze  $X \to Z$ e $Z \to Y$ fanno parte di $F^{+}$.
+>>
+>>Grazie all'ipotesi induttiva si ha che `t1​[X] = t2​[X]` $\implies$ `t1​[Z] = t2​[Z]` e che `t1​[Z] = t2​[Z]` $\implies$ `t1​[Y] = t2​[Y]`.
+>>
+>>Quindi per transitività $X \to Y \in F^{+}$.
 >
 >---
+>
 >**Dimostrazione:** $F^{+} \subseteq F^{A}$
 >
 >Supponiamo ***per assurdo*** che esista una dipendenza funzionale $X\to Y \in F^{+}$ tale che $X \to Y \not \in F^{A}$.
 >
 >L'obbiettivo è mostrare che esiste un'istanza legale di `R` che non soddisfa $X \to Y$, contraddicendo il fatto che $X \to Y \in F^{+}$.
->
->
 
-FA sub F+: usiamo ricorsivamnte assiomi di armstrong (quindi dimostrazione per induzione)
+>[!note] Aglo 1
 
-F+ sub FA: 
+>[!note] Teo 4
+
+>[!note] Def 7: Decomposizione 🟢
+>
+>Sia `R` uno schema di relazione. Una **decomposizione** di `R` è una famiglia $ρ = \{ R_{1}​,\, R_{2}​,\, …,\, R_{k}​\}$ di sottoinsiemi di `R` che ricopre `R`, ovvero tale che $\bigcup^{k}_{i=1} R_{i} = R$
+
+
 
 - Quando Istanza legale? ->vuota solo elemento o rispetta definizione
 - Algoritmi degli esercizi visti allo scritto

@@ -6,7 +6,7 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2025-02-27T14:31
-updated: 2025-02-28T14:09
+updated: 2025-03-03T10:27
 ---
 file:///Users/mr/Downloads/lezione_1_Reti.pdf
 
@@ -181,18 +181,78 @@ Ci sono due tipi di reti basate su switch:
 
 ^25f8b9
 
->[!note] Rete di comunicazione di pacchetto
+>[!note] Rete di comunicazione di pacchetto (store and forward)
 >
->Metodo su cio si base l'attuale rete internet
+>La comunicazione fra i due lati, invece di avvenire in modo continuaviene effettuata trasmettendo blocchi di dati chiamati pacchetti.
 >
->non viene riservato nessun tipo di risorsa ma si vanno a suddividere i dati.
+>Gli switch memorizzano i dati ricevuti dagli utenti in una coda (store) e  li inoltrano nella rete in modo sequenziale (forward).
 >
->I dati che vogliamo trasmettere vengono suddivse in blocchi ovvero "piccole parti" chiamate pacchetti.
+>![[Pasted image 20250302223106.png|600]]
 >
->I router che ricevono i dati dagli utenti li inseriscono ad una coda (store) ed li inviano nella rete in modo sequenziale (forward). 
+>>***oss:*** non viene riservato nessun tipo di risorsa ma si vanno a suddividere i dati.
+>
+>---
+>
+>Non c’è un **percorso** specifico che viene usato per il trasferimento di dati tra due dispositivi. 
+>
+>Blocchi di dati, anche dello stesso file o comunicazione, possono prendere percorsi diversi nel viaggio dalla sorgente alla destinazione e arrivare a destinazione in un ordine diverso.
+>
+>![[Pasted image 20250302224616.png|700]]
 
 ^d8b0c9
 
-## Struttura concettuale di Internet
+## Internet
 
-## Rete di accesso
+Con la parola **internet** (con i minuscola) ci si riferisci ad una rete composta da reti intercorresse. L’internet più famosa è chiamata **Internet** (I maiuscola) ed è composta da migliaia di reti interconnesse.
+
+>***oss:*** È una rete a commutazione di pacchetto.
+
+>[!note] Rappresentazione concettuale di Internet
+>
+>![[Pasted image 20250302224953.png|650]]
+
+### Acesso ad Internet
+
+Internet è una internetwork che consente a qualsiasi utente di farne parte. L’utente, tuttavia, deve essere fisicamente collegato a un ISP, solitamente mediante una WAN punto-punto.
+
+Il collegamento che connette l’utente al primo router di Internet è detto **rete di accesso**, esistono 4 principali tecnologie per "collegarsi" ad una rete di accesso:
+- [[#^d1e4d5|Accesso tramite rete telefonica]]
+- [[#^7f0288|Accesso tramite Ethernet]]
+- [[#^06c125|Accesso Wireless]]
+
+>[!note] Accesso tramite rete telefonica
+>
+>E’ possibile collegarsi a Internet modificando la linea telefonica fra la sede del dispositivo che vuole connettersi (casa, azienda, etc.) e la centrale telefonica con una WAN punto-punto. Esistono due principali tecniche servizio **dial-up** e servizio **DSL**.
+>
+>>Servizio **dial-up** consiste nel inserire sulla linea telefonica un modem (modulatore-demodulatore) che converte i dati digitali (del computer) in analogici (per trasmetterli sulla linea telefonica) e viceversa.
+>>
+>>Lento e rende impossibile effettuare chiamate telefoniche e navigare internet contemporaneamente.
+>>
+>>![[Screenshot 2025-03-03 at 08.30.26.png|800]]
+>
+>>Servizio **DSL** (Digital Subscriber Line) tecnologia che supporta la comunicazione digitale
+
+^d1e4d5
+
+>[!note] Accesso tramite Ethernet
+>
+>Nelle reti aziendali e universitarie una delle tecnologie utilizzate per l'accesso internet è il collegamento Ethernet.
+>
+>Lo switch (Ethernet) della LAN è generalmente collegato a un router istituzionale che è connesso diretamente ai router della dorsale.
+
+^7f0288
+
+>[!note] Accesso Wireless
+>
+>Il **wi-fi** è un Access Point (locale) connesso alla Ethernet cablata e ha un raggio di azione di qualche decina di metri.
+>
+>La **rete cellulare** ha un access point (base station) molto potente della compagnia telefonica cellulare, con raggio di azioni di decine di kilometri.
+
+^06c125
+
+
+
+
+
+
+
