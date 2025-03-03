@@ -6,10 +6,8 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2025-02-27T14:31
-updated: 2025-03-03T10:27
+updated: 2025-03-03T11:50
 ---
-file:///Users/mr/Downloads/lezione_1_Reti.pdf
-
 ## Rete
 
 Una rete è composta da noti, ovvero dispositivi capaci di scambiarsi informazioni che vengono categorizzati in *sistemi terminali* e *dispositivi di interconnessione* che sono collegati tra loro attraverso dei *collegamenti* detti link.
@@ -230,7 +228,11 @@ Il collegamento che connette l’utente al primo router di Internet è detto **r
 >>
 >>![[Screenshot 2025-03-03 at 08.30.26.png|800]]
 >
->>Servizio **DSL** (Digital Subscriber Line) tecnologia che supporta la comunicazione digitale
+>>Servizio **DSL** (Digital Subscriber Line) tecnologia che supporta la comunicazione digitale ad alta velocità sulla linea telefonica.
+>>
+>> Il segnale tra abitazione e ISP è diviso tre bande di frequenza non sovrapposte ognuna con un compito specifico.
+>> 
+>> ![[Pasted image 20250303115019.png|700]]
 
 ^d1e4d5
 

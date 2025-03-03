@@ -6,13 +6,21 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2025-02-28T14:09
-updated: 2025-02-28T15:23
+updated: 2025-03-03T12:04
 ---
 ## Access Network
 
+Collegamenti fisici che connettono un sistema al primo **edge router**, un router esterno della rete [[#BackHome]].
+
+>Nell'immagine gli edge router sono quelli in cui finiscono le line blu.
+
+![[Pasted image 20250303115524.png|400]]
+
 ## BackHome
 
-Solo router e collegamenti tra router
+Solo router e collegamenti tra altri router.
+
+![[Pasted image 20250303120401.png|500]]
 
 ## Livello Rete ISP
 

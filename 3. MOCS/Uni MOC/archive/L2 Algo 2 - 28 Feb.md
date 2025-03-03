@@ -5,7 +5,7 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2025-02-28T16:14
-updated: 2025-03-02T13:20
+updated: 2025-03-03T14:39
 ---
 ## Introduzione
 
@@ -52,6 +52,10 @@ E definiamo $n = |V|$ e $m = |E|$.
 >
 >Un grafo si dice **completo** se se ha tutto gli archi possibili, ovvero $m = \Theta(n^{2})$.
 
+>[!note] Grafo Connesso
+>
+>Un grafo **connesso** è un grafo in cui *esiste un percorso tra ogni coppia di vertici*. In altre parole, è possibile raggiungere ogni vertice da ogni altro vertice attraverso una sequenza di archi.
+
 >[!note] Torneo
 >
 >Un grafo si si dice **torneo** se tra ogni coppia di nodi c'è esattamente un arco, ovvero $m = \Theta(n^{2})$.
@@ -95,6 +99,11 @@ Dato un grafo diretto, se `M[i][j] = 1` allora i nodi `i` e `j` sono uniti da un
 
 ![[Pasted image 20250228171310.png|250]]
 
+>[!note] Calcolare Grado di un nodo `x`
+>
+>Calcolare il grado di un nodo `x` dobbiamo sommare tutti gli uno, della riga `x`, costo $\Theta(n)$.
+
+
 ## Rappresentazione tramite liste di adiacenza
 
 Per rappresentare un grafo è possibile utilizzare un lista di liste. Dove
@@ -102,6 +111,10 @@ Per rappresentare un grafo è possibile utilizzare un lista di liste. Dove
 - la lista `G[X]` è una lista contenente i nodi adiacenti al nodo `x`
 
 ![[Pasted image 20250302131843.png|500]]
+
+>[!note] Calcolare il grado un nodo `n`
+>
+>Dobbiamo vedere la lunghezza della lista `G[X]`, con costo $\Theta(n)$.
 
 - **Vantaggio:** Notevole risparmio di spazio nel caso di grafi sparsi
 - **Svantaggio:** Vedere se due archi son connessi o meno può costare ora anche `O(n)`
