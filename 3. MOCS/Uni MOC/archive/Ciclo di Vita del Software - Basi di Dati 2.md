@@ -5,8 +5,8 @@ class:
 academic year: 2024/2025
 related: 
 completed: true
-created: 2025-02-27T09:36
-updated: 2025-02-27T10:07
+created: 2025-03-03T19:29
+updated: 2025-03-03T19:29
 ---
 ## Fasi
 
@@ -33,7 +33,7 @@ updated: 2025-02-27T10:07
 
 **8) Manutenzione dell’applicazione** - L’applicazione viene monitorata durante l’esercizio e correzioni ed aggiornamenti vengono prodotti se necessari.
 
-## Metodo
+### Metodo
 
 Solitamente in situazione accademica e didattica si utilizza il modello a **cascata** (waterfall model) dove ogni attività inizia quando termina quella precedente.
 
@@ -44,3 +44,5 @@ Questo permette di eseguire varie fasi in parallelo, ad esempio, nel tempo `t0` 
 ![[Pasted image 20250227100427.png|700]]
 
 >Schema preso dagli appunti di [@CasuFrost](https://github.com/CasuFrost/University_notes)
+
+

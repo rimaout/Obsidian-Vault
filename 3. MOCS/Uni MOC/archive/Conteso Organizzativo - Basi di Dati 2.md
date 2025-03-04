@@ -6,7 +6,7 @@ academic year: 2024/2025
 related: 
 completed: true
 created: 2025-02-27T09:23
-updated: 2025-02-27T09:36
+updated: 2025-03-03T19:29
 ---
 ## Introduzione
 
@@ -25,5 +25,3 @@ Le figure professionali chiave coinvolte nel progetto generalmente sono:
 Il *dominio* dell’applicazione è l’insieme di informazioni necessarie da conoscere per poter lavorare ad un progetto che fa riferimento ad uno specifico ambito, ad esempio, un applicazione che si occupa di registrare e gestire le contravvenzioni stradali, vedrà sicuramente nel suo dominio il codice stradale e le informazioni legislative. 
 
 L’esperto del dominio è una figura, appunta esperta, del dominio inerente al progetto in questione, viene pagata dal committente e funge da consulente durante lo sviluppo.
-
-

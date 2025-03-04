@@ -6,7 +6,7 @@ academic year: 2024/2025
 related: 
 completed: true
 created: 2025-02-27T10:16
-updated: 2025-02-27T10:25
+updated: 2025-03-03T19:28
 ---
 ## Introduzione
 
@@ -34,9 +34,9 @@ UML definisce 14 tipi di diagrammi per modellare l’applicazione sotto prospett
 
 >[!warning] In questo corso
 >
->ci concentriamo solo sugli aspetti base e sui diagrammi più importanti, in particolare nell’analisi concettuale useremo solo i seguenti diagrammi (e di questi diagrammi useremo solo le caratteristiche più importanti): 
->- Diagramma delle classi (strutturale)
->- Diagramma degli oggetti (strutturale)
->- Diagramma degli use case (comportamentale)
->- Diagramma degli stati e delle transizioni (comportamentale)
+>In questo corso ci concentriamo solo sugli aspetti base e sui diagrammi più importanti, in particolare nell’analisi concettuale useremo solo i seguenti diagrammi (e di questi diagrammi useremo solo le caratteristiche più importanti): 
+>- ***Diagramma delle classi*** (strutturale)
+>- ***Diagramma degli oggetti*** (strutturale)
+>- ***Diagramma degli use case*** (comportamentale)
+>- ***Diagramma degli stati e delle transizioni*** (comportamentale)
 

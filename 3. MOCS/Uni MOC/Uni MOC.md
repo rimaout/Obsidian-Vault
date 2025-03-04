@@ -1,6 +1,6 @@
 ---
 created: 2023-09-26T10:14
-updated: 2025-02-28T11:20
+updated: 2025-03-03T16:42
 ---
 >**First year, first semester:**
 >- [[Matematica 0 (class)]]
@@ -25,3 +25,4 @@ updated: 2025-02-28T11:20
 >- [[Basi di Dati 2 (class)]]
 >- [[Reti (class)]]
 >- [[Algoritmi 2 (class)]]
+>- [[Sistemi Operativi 2 (class)]]  

@@ -4,7 +4,7 @@ type: Uni Note
 academic year: 2024/2025
 completed: false
 created: 2025-02-26T14:31
-updated: 2025-02-27T10:49
+updated: 2025-03-04T09:44
 ---
 **Sito:** [link](https://elearning.uniroma1.it/course/view.php?id=17659&section=5)
 
@@ -19,4 +19,4 @@ updated: 2025-02-27T10:49
 >[!note] Linguaggio UML (Analisi)
 >- [[Introduzione UML]] 🟢
 >- [[Classi e Oggetti (UML)|Classi e Oggetti]] 🟢
->- [[Associazione e Link (UML)|Associazione e Link]]
+>- [[Associazione e Link (UML)|Associazione e Link]] 🟢
