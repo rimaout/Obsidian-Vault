@@ -5,17 +5,9 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2024-11-20T11:42
-updated: 2024-11-20T11:43
+updated: 2025-03-05T14:53
 ---
->[!abstract] Index
->1. 
 
->[!abstract] Related
->- 
-
->[!danger] TLDR
-
----
 ## Introduzione 
 
 Una decomposizione di uno schema relazionale è un processo che consiste nel suddividere uno schema relazionale in più schemi più piccoli e indipendenti, mantenendo le relazioni tra di loro.
@@ -42,12 +34,12 @@ Uno schema non in 3NF può essere **decomposto** in **più modi** in un insieme 
 
 >[!note] Regole
 >Quando si decompone uno schema per ottenere una 3NF dobbiamo ricordare che:
->1. Occorre **preservare le dipendenze funzionali $F^{+}$** che valgono sullo schema originario.
+>1. Occorre **preservare le [[Dipendenze Funzionali]] $F^{+}$** che valgono sullo schema originario.
 >2. Occorre permettere di **ricostruire tramite join** lo schema originario, senza aggiunta di informazioni estranee.
  
 >[!example]- Esempio 1
 >**Schema relazionale:** $R = ABC$
->**Dipendenze Funzionali:** $F = \{ A \to B, B\to C \}$
+>**[[Dipendenze Funzionali]]:** $F = \{ A \to B, B\to C \}$
 >
 >Questo schema non è in 3NF per via della dipendenza transitiva `B -> C` dato che la chiave è `A`. 
 >
@@ -71,7 +63,7 @@ Uno schema non in 3NF può essere **decomposto** in **più modi** in un insieme 
 
 >[!example]- Esempio 2
 >**Schema relazionale:** $R = ABC$
->**Dipendenze Funzionali:** $F = \{ A \to B, C\to B \}$
+>**[[Dipendenze Funzionali]]:** $F = \{ A \to B, C\to B \}$
 >
 >Questo schema non è in 3NF dato che entrambe le dipendenze sono parziali, la chiave è `AC`.
 >

@@ -6,7 +6,7 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2025-02-18T16:16
-updated: 2025-03-02T19:45
+updated: 2025-03-05T14:18
 ---
 >[!note]- Def 1: Dipendenza Funzionale 🟢
 >
@@ -180,7 +180,9 @@ updated: 2025-03-02T19:45
 >>
 >>Dato che $Y \subseteq X^{+}$, per ogni `i` si ha che $X \to A_{i} \in F^{A}$ pertanto per *unione* $X \to Y \in F^{A}$.
 
->[!note] Teo 3: $F^{+} = F^{A}$
+^ad6bfd
+
+>[!note]- Teo 3: $F^{+} = F^{A}$ 🟢
 >
 >Siano `R` uno schema di relazione ed `F` un insieme di dipendenze funzionali su `R`. Si ha $F^{+} = F^{A}$.
 >
@@ -222,13 +224,48 @@ updated: 2025-03-02T19:45
 >
 >**Dimostrazione:** $F^{+} \subseteq F^{A}$
 >
->Supponiamo ***per assurdo*** che esista una dipendenza funzionale $X\to Y \in F^{+}$ tale che $X \to Y \not \in F^{A}$.
+>La dimostrazione è divisa in due parti.
 >
->L'obbiettivo è mostrare che esiste un'istanza legale di `R` che non soddisfa $X \to Y$, contraddicendo il fatto che $X \to Y \in F^{+}$.
+>>La **prima parte** consiste nel dimostrare che esiste un istanza legale di $R$ di questo tipo:
+>>
+>>![[Pasted image 20250304115012.png|600]]
+>>
+>>Sia `r` un istanza legale e supponiamo per assurdo che la dipendenza funzionale $V \to W \in F$ non sia soddisfatta (quindi `r` sarebbe non legale).
+>>
+>>Questo implica che tutti le dipendenze in $F$ hanno uguali valori in `V` ed hanno diversi valori in `W` ed in particolare che $V \subset X^{+}$ e $W\cap(R-X^{+}) \not = \emptyset$.
+>>
+>>Poiché $V \subset X^{+}$, per il  otteniamo che $X \to V \in F^{A}$, e visto che $X \to V$ e $V \to X$ fanno parte di $F^{A}$ allora attraverso l'*assioma della transitività* possiamo dire che $X \to W \in F^{A}$.
+>>
+>>Se applichiamo il [[#^ad6bfd|Lemma 1]] su $X \to W \in F^{A}$ otteniamo che $W \subseteq X^{+}$ che contraddice $V\cap( R-X^{+}) \not = \emptyset$ dimostrando che non esistono dipendenze funzionali in `R` che non soddisfano $V \to W$.
+>
+>>La **seconda parte** consiste nel dimostrare che se $X \to F \in F^{+} \implies X \to Y \in F^{A}$.
+>>
+>>Supponiamo che $X \to Y \in F^{+}$
+>>
+>>Abbiamo mostrato che `r` è un istanza legale che quindi soddisfa tutte le dipendenze di $F^{+}$, compresa $X \to Y$.
+>>
+>>Poiché $X \subseteq X^{+}$ le due tuple di `r` coincidono su gli attributi `X` 
+>>
+>>Poiché `r` soddisfa $X \to Y$, allora le due tuple devono coincidere anche sugli attributi di `Y`.
+>>
+>>Questo implica che $Y \subseteq X^{+}$ e, per il [[#^ad6bfd|Lemma 1]]  otteniamo che $X \to Y \in F^{A}$
 
->[!note] Aglo 1
+>[!note]- Algo 1  🟢
+>Prende come input uno schema `R`, un insieme `F` di dipendenze su `R` e un sottoinsieme `X` di `R`. Come output fornisce la chiusura di `X` rispetto ad `F` all’interno della variabile `Z`.
+>
+>![[Pasted image 20250304180030.png|1000]]
 
->[!note] Teo 4
+>[!note] Teo 4: Dimostrazione Teo 4
+>
+>L'algoritmo 1 calcola correttamente la chiusura di un insieme di attributi $X$ rispetto ad un insieme di dipendenze funzionali $F$.
+>
+>**Dimostrazione:**
+>
+>Inimichiamo con $Z^{0}$ il valore iniziale di $Z$ (ovvero $Z^{0} = X$) e con $Z^{i}$ ed $S^{i}$, i valori di $Z$ e $S$ alla i-esima iterazione.
+>	
+>>***oss:*** $Z^{i} \subseteq X^{+}$ per ogni $i$.
+>
+>L'obbiettivo è dimostrare che esiste un $i$ tale che $A \in Z^{i}$ *se e solo se* $A \in X^{+}$.
 
 >[!note] Def 7: Decomposizione 🟢
 >

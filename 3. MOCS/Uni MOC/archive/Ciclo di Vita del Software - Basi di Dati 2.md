@@ -6,7 +6,7 @@ academic year: 2024/2025
 related: 
 completed: true
 created: 2025-03-03T19:29
-updated: 2025-03-03T19:29
+updated: 2025-03-05T14:55
 ---
 ## Fasi
 
@@ -23,7 +23,7 @@ updated: 2025-03-03T19:29
 >- Modella i dati di interesse, le loro articolazioni, interrelazioni ed evoluzioni possibili
 >- Specifica i servizi computazionali che l'applicazione dovrà offrire ai diversi utenti
 
-**4) Progetto (design) dell'applicazione** - Viene specificato `come` l’applicazione dovrà realizzare le sue funzioni, ovvero viene definita la struttura del progetto e vengono scelte le tecnologie e le strutture dati utilizzate.
+**4) Progetto (design) dell'applicazione** - Viene specificato `come` l’applicazione dovrà realizzare le sue funzioni, ovvero viene definita la struttura del progetto e vengono scelte le tecnologie e le Strutture Dati utilizzate.
 
 **5) Realizzazione (implementazione) dell’applicazione** -  Consiste nella *scrittura il codice* e della documentazione.
 

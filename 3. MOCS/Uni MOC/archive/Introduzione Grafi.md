@@ -1,13 +1,14 @@
 ---
 type: Uni Note
-class: 
+class:
+  - "[[Algoritmi 2 (class)]]"
 academic year: 2024/2025
 related: 
-completed: false
-created: 2025-02-28T16:14
-updated: 2025-03-03T14:39
+completed: true
+created: 2025-03-05T08:36
+updated: 2025-03-05T08:37
 ---
-## Introduzione
+## Grafo
 
 Grafo definito da $G(V,E)$, dove:
 - $V$ è l'insieme dei *vertici*
@@ -89,32 +90,3 @@ E definiamo $n = |V|$ e $m = |E|$.
 >>- In un albero di `n` nodi ci saranno esattamente `m = n-1` archi (per questo un albero è sempre sparso).
 >>- Se rimuoviamo una foglia rimane comunque un albero.
 >>- Tutti li alberi sono grafi planari, ma non tutti i grafi planari sono alberi.
-
----
-## Rappresentazione tramite matrici binarie
-
-Dato un grafo diretto, se `M[i][j] = 1` allora i nodi `i` e `j` sono uniti da un arco diretto che va da `i` a `j`.
-
->***oss:*** in un grafo non diretto avremo che `M[i][j] = M[j][i]`.
-
-![[Pasted image 20250228171310.png|250]]
-
->[!note] Calcolare Grado di un nodo `x`
->
->Calcolare il grado di un nodo `x` dobbiamo sommare tutti gli uno, della riga `x`, costo $\Theta(n)$.
-
-
-## Rappresentazione tramite liste di adiacenza
-
-Per rappresentare un grafo è possibile utilizzare un lista di liste. Dove
-- la lista `G` ha tanti elementi quanto i nodi del grafo
-- la lista `G[X]` è una lista contenente i nodi adiacenti al nodo `x`
-
-![[Pasted image 20250302131843.png|500]]
-
->[!note] Calcolare il grado un nodo `n`
->
->Dobbiamo vedere la lunghezza della lista `G[X]`, con costo $\Theta(n)$.
-
-- **Vantaggio:** Notevole risparmio di spazio nel caso di grafi sparsi
-- **Svantaggio:** Vedere se due archi son connessi o meno può costare ora anche `O(n)`

@@ -6,9 +6,10 @@ academic year: 2024/2025
 related: 
 completed: true
 created: 2025-02-27T09:23
-updated: 2025-03-03T19:29
+updated: 2025-03-04T10:04
 ---
 ## Introduzione
+
 
 Questo corso non `e ristretto esclusivamente alla progettazione di basi di dati, bens`ı fornisce cenni sulla progettazione di software di grandi dimensioni, supportati da basi di dati reali.
 

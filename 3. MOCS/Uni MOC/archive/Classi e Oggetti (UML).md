@@ -6,7 +6,7 @@ academic year: 2024/2025
 related: 
 completed: true
 created: 2025-02-27T10:30
-updated: 2025-02-27T10:50
+updated: 2025-03-04T14:49
 ---
 ## Classi
 
@@ -47,7 +47,7 @@ Un oggetto modella un elemento del dominio di analisi, questo oggetto è `autono
 
 ## Esempio Classe ed Oggetti
 
-![[Pasted image 20250227104754.png]]
+![[Pasted image 20250227104754.png|1000]]
 
 >[!note] Oggetti Duplicati
 >

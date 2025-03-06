@@ -2,11 +2,11 @@
 created: 2024-04-11
 type: Uni Note
 class:
-  - "[[Calcolo Differenziale (class)]]"
+  - "[[Algoritmi 1 (class)]]"
 academic year: 2023/2024
 related: 
 completed: true
-updated: 2025-02-27T18:34
+updated: 2025-03-05T14:55
 ---
 ---
 
