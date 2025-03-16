@@ -5,7 +5,7 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2024-11-16T17:24
-updated: 2024-11-27T10:34
+updated: 2025-03-11T10:18
 ---
 >[!abstract] Related
 >- 
@@ -62,7 +62,7 @@ $$
 ***Aggiungere Esempi Migliori***
 
 >[!example] Esempio 1 
->![[Pasted image 20241119114652.png]]
+>![[3. MOCS/Uni MOC/archive/attachments/Pasted image 20241119114652.png]]
 >
 >Notiamo che per ogni passaggio dobbiamo sempre far partire la catena di operazioni da $AB$ .
 >

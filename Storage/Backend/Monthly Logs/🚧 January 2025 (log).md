@@ -1,16 +1,14 @@
 ---
 created: 2025-01-09T19:15
-updated: 2025-01-23T19:42
+updated: 2025-03-10T09:23
 tags:
   - monthly-log
 ---
--- 🚧 work in progress, come back at the end of the month 🚧 --
+## Exams
 
-something 1
+scrivi che a gennaio non hai fatto molto oltre che a studiare 
 
-something 2
-
-**What I'm reading:**
+**What I'm reading:** 2040
 
 **Video of the Month:** Veritasium robots compilation:
 - [Why Are Scientists Making Robots Insects?](https://www.youtube.com/watch?v=H6q6pYZ9Fho)

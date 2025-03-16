@@ -5,7 +5,7 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2024-11-17T18:40
-updated: 2024-11-23T14:20
+updated: 2025-03-11T10:18
 ---
 >[!abstract] Related
 >- 
@@ -39,11 +39,11 @@ aiuto hardware
 >Questo lavoro richiede un grande overhead ma è totalmente giustificato dalla semplicità di gestione della memoria che si ottiene.
 
 >[!example] Esempio
->![[jkhv34254tvkadwlkh3.png]]
+>![[3. MOCS/Uni MOC/archive/attachments/jkhv34254tvkadwlkh3.png]]
 >
 >**Tabelle delle pagine risultanti:**
 >
->![[Pasted image 20241122121029.png|600]]
+>![[3. MOCS/Uni MOC/archive/attachments/Pasted image 20241122121029.png|600]]
 
 ---
 ## Segmentazione Semplice
@@ -63,7 +63,7 @@ Il funzionamento è simile al [[Partizionamento#Partizionamento Dinamico|partizi
 >
 >Questo esempio ci mostra in usando tre metodi diversi come si accede alla memoria
 >
->![[Screenshot 2024-11-23 at 11.26.16.png|900]]
+>![[3. MOCS/Uni MOC/archive/attachments/Screenshot 2024-11-23 at 11.26.16.png|900]]
 >
 >**Primo caso (a) riguarda gli [[Gestione della Memoria (introduzione)#^cc500d|indirizzi relativi]]:**
 >- Per andare ad un determinato indirizzo dobbiamo sapere dove comincia il processo, e sommare il suo indirizzo iniziale (base) a quello dell’istruzione (relativo).

@@ -5,7 +5,7 @@ academic year: 2024/2025
 related: 
 completed: true
 created: 2024-11-30T15:34
-updated: 2025-01-24T14:14
+updated: 2025-03-11T10:18
 ---
 ## Introduzione
 
@@ -74,7 +74,7 @@ Un Record non è altro che la rappresentazione fisica di una **tupla**, ovvero u
 >1. All’inizio di ogni campo c’è un contatore che ne specifica la lunghezza in numero di byte.
 >2. All’inizio del record ci sono dei puntatori (qui un puntatore è inteso come l’offset del campo) all’inizio di ciascun campo a lunghezza variabile (tutti i campi a lunghezza fissa precedono quelli a lunghezza variabile).
 >   
->![[Pasted image 20241130181929.png|800]]
+>![[3. MOCS/Uni MOC/archive/attachments/Pasted image 20241130181929.png|800]]
 
 ---
 ## Blocco

@@ -1,6 +1,6 @@
 ---
 created: 2025-02-26T10:23
-updated: 2025-02-26T12:14
+updated: 2025-03-10T09:24
 tags:
   - monthly-log
 ---
@@ -37,13 +37,9 @@ git push --force-with-lease origin <brench>
 >- `git add .` aggiunge tutti i file modificati allo staging area
 >- `git push --force-with-lease origin <brench>`  questo comando forza l'aggiornamento del repository remoto con il nuovo commit squashato, sovrascrivendo la commit history.
 
-something 1
+## Siena
 
-something 2
 
-**What I'm reading:**
-
-**Video of the Month:**
 
 ---
 

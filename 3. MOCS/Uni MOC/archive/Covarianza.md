@@ -7,7 +7,7 @@ related:
   - "[[Variabile Aleatorie Congiunte]]"
 completed: false
 created: 2024-12-02T11:56
-updated: 2025-02-04T16:05
+updated: 2025-03-11T10:18
 ---
 >[!abstract] Related
 >- 
@@ -37,7 +37,7 @@ updated: 2025-02-04T16:05
 >\text{Cov}(X, Y) = 0 \ \text{se }X \text{ e } Y \text{ sono indipendenti}
 >$$
 
-![[Pasted image 20241230130608.png]]
+![[3. MOCS/Uni MOC/archive/attachments/Pasted image 20241230130608.png]]
 
 se hai una costante nella covarianza tipo:
 

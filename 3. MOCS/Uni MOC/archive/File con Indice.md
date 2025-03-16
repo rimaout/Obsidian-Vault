@@ -6,7 +6,7 @@ related:
   - "[[Basi di Dati 1 (class)]]"
 completed: true
 created: 2024-12-12T13:21
-updated: 2025-01-23T18:47
+updated: 2025-03-11T10:18
 ---
 ## Introduzione
 
@@ -59,7 +59,7 @@ Questa struttura è composta da due file:
 >   
 >Anche i ***record*** del file indice sono ***ordinati*** dal più piccolo al più grande, utilizzando come valore di ordinamento la chiave.
 >
->![[Pasted image 20241220150200.png|450]]
+>![[3. MOCS/Uni MOC/archive/attachments/Pasted image 20241220150200.png|450]]
 >
 >>**Da Sapere:**
 >>- $-\infty$ è una convenzione per la chiave del primo record del file indce. 
@@ -89,7 +89,7 @@ Una volta trovato il *record del file indice* con valore `v` utilizziamo il suo 
 
 >[!example]- Esempio
 >
->![[Pasted image 20241220150200.png|450]]
+>![[3. MOCS/Uni MOC/archive/attachments/Pasted image 20241220150200.png|450]]
 >
 >Ad esempio il record del file principale con chiave `090` deve trovarsi nel blocco del blocco che ha come chiave del record più piccola `031`, dato che:
 >- il blocco precedente ha come chiave più piccola `003` 

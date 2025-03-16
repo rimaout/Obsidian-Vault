@@ -6,7 +6,7 @@ related:
   - "[[Introduzione all'organizzazioni dei database]]"
 completed: true
 created: 2024-11-30T19:23
-updated: 2025-01-30T18:48
+updated: 2025-03-11T10:18
 ---
 >[!abstract] Related
 >- [[Introduzione all'organizzazioni dei database]]
@@ -86,7 +86,7 @@ Per ottenere il costo medio occorre sommare i costi per accedere ai singoli reco
 
 >[!warning] Dimostrazione
 >
->![[Pasted image 20241204112034.png|700]]
+>![[3. MOCS/Uni MOC/archive/attachments/Pasted image 20241204112034.png|700]]
 >
 >$$
 >\text{Costi Medio} = \frac{\text{accessi}}{\text{num. blocchi}} =  \frac{R(1+2 + \dots+ n)}{N} = \frac{R}{N} \cdot  (1 + 2 + \dots + n) = \frac{1}{n} \cdot  \frac{n(n+1)}{2} \approx \frac{n}{2}

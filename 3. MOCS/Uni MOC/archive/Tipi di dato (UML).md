@@ -6,9 +6,9 @@ academic year: 2024/2025
 related: 
 completed: true
 created: 2025-03-04T16:02
-updated: 2025-03-06T08:22
+updated: 2025-03-15T18:04
 ---
-## Introduzione
+# Introduzione
 
 Durante l'analisi concettuale dobbiamo definire il tipo di ogni attributo, di classe e di associazione.
 

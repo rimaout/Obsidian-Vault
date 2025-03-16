@@ -5,7 +5,7 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2024-12-06T12:20
-updated: 2025-02-17T17:14
+updated: 2025-03-11T10:18
 ---
 >[!abstract] Related
 >- [[Calcolo delle Probabilità (class)]]
@@ -21,7 +21,7 @@ La distribuzione gaussiana è completamente determinata da due parametri:
 - La media ($\mu$), che rappresenta il valore centrale della distribuzione
 - La varianza ($\sigma^{2}$), che rappresenta la dispersione dei valori intorno alla media
 
-![[Pasted image 20241207115755.png|300]]
+![[3. MOCS/Uni MOC/archive/attachments/Pasted image 20241207115755.png|300]]
 
 >[!note] Definizione
 >

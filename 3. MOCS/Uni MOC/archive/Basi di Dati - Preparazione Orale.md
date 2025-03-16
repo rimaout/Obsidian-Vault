@@ -6,7 +6,7 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2025-02-18T16:16
-updated: 2025-03-05T14:18
+updated: 2025-03-13T12:18
 ---
 >[!note]- Def 1: Dipendenza Funzionale 🟢
 >
@@ -234,7 +234,7 @@ updated: 2025-03-05T14:18
 >>
 >>Questo implica che tutti le dipendenze in $F$ hanno uguali valori in `V` ed hanno diversi valori in `W` ed in particolare che $V \subset X^{+}$ e $W\cap(R-X^{+}) \not = \emptyset$.
 >>
->>Poiché $V \subset X^{+}$, per il  otteniamo che $X \to V \in F^{A}$, e visto che $X \to V$ e $V \to X$ fanno parte di $F^{A}$ allora attraverso l'*assioma della transitività* possiamo dire che $X \to W \in F^{A}$.
+>>Poiché $V \subset X^{+}$, per il [[#^ad6bfd|Lemma 1]] otteniamo che $X \to V \in F^{A}$, e visto che $X \to V$ e $V \to X$ fanno parte di $F^{A}$ allora attraverso l'*assioma della transitività* possiamo dire che $X \to W \in F^{A}$.
 >>
 >>Se applichiamo il [[#^ad6bfd|Lemma 1]] su $X \to W \in F^{A}$ otteniamo che $W \subseteq X^{+}$ che contraddice $V\cap( R-X^{+}) \not = \emptyset$ dimostrando che non esistono dipendenze funzionali in `R` che non soddisfano $V \to W$.
 >
@@ -250,28 +250,161 @@ updated: 2025-03-05T14:18
 >>
 >>Questo implica che $Y \subseteq X^{+}$ e, per il [[#^ad6bfd|Lemma 1]]  otteniamo che $X \to Y \in F^{A}$
 
+^7ae4ca
+
 >[!note]- Algo 1  🟢
 >Prende come input uno schema `R`, un insieme `F` di dipendenze su `R` e un sottoinsieme `X` di `R`. Come output fornisce la chiusura di `X` rispetto ad `F` all’interno della variabile `Z`.
 >
 >![[Pasted image 20250304180030.png|1000]]
 
->[!note] Teo 4: Dimostrazione Teo 4
+>[!note]- Teo 4: Dimostrazione Teo 4 🔴
 >
 >L'algoritmo 1 calcola correttamente la chiusura di un insieme di attributi $X$ rispetto ad un insieme di dipendenze funzionali $F$.
 >
 >**Dimostrazione:**
 >
->Inimichiamo con $Z^{0}$ il valore iniziale di $Z$ (ovvero $Z^{0} = X$) e con $Z^{i}$ ed $S^{i}$, i valori di $Z$ e $S$ alla i-esima iterazione.
+>Indichiamo con $Z^{0}$ il valore iniziale di $Z$ (ovvero $Z^{0} = X$) e con $Z^{i}$ ed $S^{i}$, i valori di $Z$ e $S$ alla i-esima iterazione.
 >	
 >>***oss:*** $Z^{i} \subseteq X^{+}$ per ogni $i$.
 >
->L'obbiettivo è dimostrare che esiste un $i$ tale che $A \in Z^{i}$ *se e solo se* $A \in X^{+}$.
-
->[!note] Def 7: Decomposizione 🟢
+>L'obbiettivo è dimostrare che esiste un $i$ tale che $A \in Z^{i}$ *se e solo se* $A \in X^{+}$, per fare ciò scomponiamo la dimostrazione in due parti:
+>- Dimostrazione di $A \in Z^{i} \implies A \in X^{+}$
+>- Dimostrazione di $A \in X^{+} \implies A \in Z^{i}$
 >
->Sia `R` uno schema di relazione. Una **decomposizione** di `R` è una famiglia $ρ = \{ R_{1}​,\, R_{2}​,\, …,\, R_{k}​\}$ di sottoinsiemi di `R` che ricopre `R`, ovvero tale che $\bigcup^{k}_{i=1} R_{i} = R$
+>---
+>
+>**Dimostrazione parte:** $A \in Z^{\text{i}} \implies A \in X^{+}$
+>
+>L’obiettivo è dimostrare per induzione su `i` che $Z^{\text{i}} \subseteq X^{+}$ per ogni `i`, quindi:
+>
+>***Ipotesi Induttiva:*** $Z^{i} \subseteq X^{+}$ per ogni `i`.
+>
+>***Base dell'induzione:*** la base è `i = 0`, poiché $X^{(0)} = X$ e $X \subseteq X^{+}$, si ha che $Z^{(0)} \subseteq X^{+}$
+>
+>***Induzione:*** 
+>
+>Per ipotesi induttiva $Z^{(\text{i}-1)} \subseteq X^{+}$
+>
+>Sia `A` un attributo in $Z^{(\text{i})}-Z^{\text{i}-1}$ (ovvero un attributo aggiunto all'iterazione `i`)
+>
+>Deve esistere una dipendenza $Y \to V \in F$ tale che $Y \subseteq Z^{(\text{i}-1)}$ e $A \in V$.
+>
+>Per il lemma 1 abbiamo che $X \to Y \in F^{A}$ (visto che $Y \subseteq Z^{(\text{i}-1)} \subseteq X^{+}$)
+>
+>Poiché $X \to Y \in F^{A}$ e $Y \to V \in F^{A}$, per transitività abbiamo che $X \to V \in F^{A}$, quindi per il lemma 1 $V \subseteq X^{+}$.
+>
+>Visto che $A \in V$ e $V \subseteq X^{+}$, allora per ogni $A\in Z^{\text{i}}-Z^{\text{i}-1}$ si ha che $A \in X^{+}$, e quindi si conferma l'ipotesi induttiva $Z^{i}\subseteq X^{+}$
+>
+>---
+>
+>**Dimostrazione parte:** $A \in X^{+} \implies A \in Z^{i}$
+>
+>Questa dimostrazione si divide in altre due parti.
+>
+>>La **prima parte** consiste nel dimostrare che esiste una istanza legale di $R$ di questo tipo:
+>>
+>>![[Pasted image 20250309173754.png|700]]
+>>
+>>Sia `r` un istanza legale e supponiamo per assurdo che la dipendenza funzionale $V \to W \in F$ non sia soddisfatta (quindi `r` sarebbe non legale).
+>>
+>>Questo implica che tutti le dipendenze in $F$ hanno uguali valori in `V` ed hanno diversi valori in `W` ed in particolare che $V \subset X^{+}$ e $W\cap(R-X^{+}) \not = \emptyset$.
+>>
+>>Poiché $V \subset X^{+}$, per il [[#^ad6bfd|Lemma 1]] otteniamo che $X \to V \in F^{A}$, e visto che $X \to V$ e $V \to X$ fanno parte di $F^{A}$ allora attraverso l'*assioma della transitività* possiamo dire che $X \to W \in F^{A}$.
+>>
+>>Se applichiamo il [[#^ad6bfd|Lemma 1]] su $X \to W \in F^{A}$ otteniamo che $W \subseteq X^{+}$ che contraddice $V\cap( R-X^{+}) \not = \emptyset$ dimostrando che non esistono dipendenze funzionali in `R` che non soddisfano $V \to W$.
 
+>[!note]- Def 7: Decomposizione 🟢
+>
+>Sia `R` uno schema di relazione. Una **decomposizione** di `R` è una famiglia $ρ = \{ R_{1}​,\, R_{2}​,\, …,\, R_{k}​\}$ di sottoinsiemi di `R` che ricopre `R`, ovvero tale che $\bigcup^{k}_{i=1} R_{i} = R$.
 
+>[!note]- Def 8: Equivalenza tra insiemi di dipendenze funzionali 🟢
+>
+>Siano $F$ e $G$ due insiemi di dipendenze funzionali. $F$ e $G$ si dicono equivalenti ($F \equiv G$) se $F^{+} = G^{+}$.
+>
+>>***oss:*** verificare l'equivalenza richiederebbe tempo esponenziale dato che dovremmo calcolare che $F^{+}$ e anche $G^{+}$, per questo possiamo utilizzare il [[#^fcc7ac|Lemma 2]].
+
+>[!note]- Lemma 2 🟢
+>
+>Siano $F$ e $G$ due insiemi di dipendenze funzionali, se $F \subseteq G^{+}$ allora $F^{+} \subseteq G^{+}$.
+>
+>>**Dimostrazione:** Sia $f \in F^{+}-F$, poiché per il [[#^7ae4ca|teorema 3]] `f` è derivabile fa `F` mediante gli assiomi di Armstrong e ogni dipendenza funzionale in `F` è derivabile da `G` mediante gli assiomi di armstrong, `f` è derivabile da `G` mediante gli assiomi di Armstrong.
+
+^fcc7ac
+
+>[!note]- Def 9: Decomposizione preserva F 🟢
+>
+>Sia $R$ uno schema relazionale ed $F$ un insieme di dipendenze funzionali su $R$.
+>
+>Definiamo con $\rho = \{ R_{1},\, R_{2},\, \dots ,\, R_{k} \}$ una decomposizione di $R$ (ovvero $R = R_{1} \cup r_{2} \cup \dots \cup R_{k}$)
+>
+>Questa decomposizione si dice che preserva `R` se $F \equiv \bigcup^{k}_{i=1}\pi_{R_{i}}(F)$, dove:
+>
+>$$
+>\pi R_{i}(F) = \{ X \to  Y:\ \ X \to  Y \in F^{+} \wedge XY \subseteq  R_{i} \}
+>$$
+>
+>>***oss:*** Per verificare l'equivalenza tra $F$ e $G$ , dove $G = \bigcup^{k}_{i=1}\pi_{R_{i}}(F)$, ci basta verificare che $F \subseteq G^{+}$, infatti $G \subseteq ^{+}F$ sappiamo essere vero per definizione.
+
+>[!note]- Algo 2 🟡
+>
+>![[Pasted image 20250310092640.png|800]]
+>
+>Questo algoritmo richiede che venga calcolato $X^{+}_{G}$ ma noi non conosciamo $G$ quindi usiamo il prossimo algoritmo per calcolarlo ([[#^c94635|Algo 3]]).
+
+>[!note]- Algo 3 🟡
+>
+>![[Pasted image 20250310093023.png|850]]
+
+^c94635
+
+>[!note]- Teorema 5 🔴
+>
+>Sia `R` uno schema relazionale, `F` un insiemi di dipendenze funzionali su `R` e $\rho = \{ R_{1},\, R_{2}, \, \dots, R_{k} \}$ una decomposizione di `R` e `X` un sotto insieme di `R`.
+>
+>L'algoritmo 3 calcola correttamente $X^{+}_{G}$
+>
+>---
+>
+>**Dimostrazione**
+>
+>Indichiamo con $Z^{(0)}$ il valore iniziale di $Z$ (ovvero $Z^{0} = X$), ed in particolare con $Z^{(\text{i})}$ il valore di $Z$ dopo l'i-esima iterazione dell'assegnazione $Z = Z \cup S$. 
+>
+>Indichiamo con $Z^{f}$ il valore di $Z$ al termine dell algoritmo.
+>
+>>***oss:*** $Z^{(\text{i})} \subseteq Z^{(\text{i}+1)}$
+>
+>
+>
+
+>[!note]- Def 10: Join senza perdita 🟢
+>
+>Sia $R$ uno schema relazionale. Una decomposizione di $\rho$ di $R$ ha un join senza perdita se per ogni istanza legale $r$ di $R$ si ha $r = \pi_{R_{i}}(r) \bowtie \dots \bowtie \pi_{R_{k}}(r)$
+
+>[!note] Teorema 6 🟢
+>
+>Sia $R$ uno schema relazionale e $\rho$ una decomposizione di $R$.
+>
+>Per ogni istanza di $R$, indichiamo con $m_{\rho}(r) = \pi_{R_{1}}(r) \bowtie \dots \bowtie \pi_{R_{k}}(r)$ che ha queste 3 proprietà:
+>
+>1. $r \subseteq m_{p}(r)$, indica che il risultato del join potrebbe avere introdotto nuove tuple nelle tabella, portando a una *perdita di informazioni*. Il join si dice senza perdita se $r = m_{\rho}(r)$.
+>2. $\pi_{R_{i}}(m_{\rho}​(r)) = \pi_{R_{i}​}(r)\ \text{ per ogni }\, i$, indica che se facciamo la proiezione di qualsiasi schema $R_{i}$ della decomposizione sul join, otteniamo lo stesso se effettuiamo la stessa proiezione sullo istanza originale `r`.
+>3. $m_{\rho}(m_{\rho}(r)) = m_{\rho}(r)$ 
+
+>[!note] Algo 4: Tabella 🔴
+
+>[!note] Teorema 4: Dimostrazione Tabella 🔴
+
+>[!note] Def 11: Copertura minimale
+>
+>Sia `F` un insieme di dipendenze funzionali, una **copertura minimale** di `F` è un insieme `G` di dipendenze funzionali equivalente ad `F`  tale che:
+>- Ogni dipendenza in `G` ha la parte destra singleton
+>- Non esistono dipendenze funzioni $X \to A \in G$ che 
+>
+
+>[!note] Algo 5:
+>
+
+>[!note] Teorema 8
 
 - Quando Istanza legale? ->vuota solo elemento o rispetta definizione
 - Algoritmi degli esercizi visti allo scritto

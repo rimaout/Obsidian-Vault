@@ -22,65 +22,8 @@
               "icon": "lucide-file",
               "title": "Algoritmi 2 (class)"
             }
-          },
-          {
-            "id": "fb62c0baef5becd0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/archive/Albero DFS.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Albero DFS"
-            }
-          },
-          {
-            "id": "9ecff719ef1f422c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/archive/L4 Algo 2 - 06 Mar.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "L4 Algo 2 - 06 Mar"
-            }
-          },
-          {
-            "id": "26f392df079f8b65",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/archive/L4 Algo 2 - 06 Mar.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "L4 Algo 2 - 06 Mar"
-            }
-          },
-          {
-            "id": "f24f87bf797944bd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/archive/Visita in profondità (DFS) - Grafi.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Visita in profondità (DFS) - Grafi"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -112,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#colora",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -178,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Albero DFS.md",
+                "file": "3. MOCS/Uni MOC/archive/Algoritmi 2 (class).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +131,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Albero DFS"
+              "title": "Backlinks for Algoritmi 2 (class)"
             }
           },
           {
@@ -253,7 +196,7 @@
             "id": "08bb0d9d4b18b672",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
                 "file": "To-Do/To-Do.md",
                 "mode": "source",
@@ -269,7 +212,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Albero DFS.md",
+                "file": "3. MOCS/Uni MOC/archive/Algoritmi 2 (class).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -297,15 +240,14 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Albero DFS"
+              "title": "Graph of Algoritmi 2 (class)"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 473.5,
+    "width": 483.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -324,54 +266,54 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "fb62c0baef5becd0",
+  "active": "9fdc480e7e6edb27",
   "lastOpenFiles": [
+    "3. MOCS/Uni MOC/archive/Ricerca Ponti - Grafi.md",
     "3. MOCS/Uni MOC/archive/Algoritmi 2 (class).md",
-    "3. MOCS/Uni MOC/archive/Albero DFS.md",
-    "3. MOCS/Uni MOC/archive/L4 Algo 2 - 06 Mar.md",
-    "3. MOCS/Uni MOC/archive/Visita in profondità (DFS) - Grafi.md",
-    "To-Do/visita in profondità.md",
-    "To-Do/Untitled Kanban.md",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250306175357.png",
-    "To-Do/Screenshot 2025-03-06 at 14.24.11.png.md",
-    "3. MOCS/Uni MOC/archive/attachments/Screenshot 2025-03-06 at 14.24.11.png",
-    "3. MOCS/Uni MOC/archive/L3 Algo 2 - 03 Mar.md",
-    "To-Do/Visita in profondità (DFS) - Grafi.md",
-    "3. MOCS/Uni MOC/archive/Introduzione Grafi.md",
+    "3. MOCS/Uni MOC/archive/Algo L7 - 13 Mar.md",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250316124839.png",
+    "3. MOCS/Uni MOC/archive/Reti (class).md",
     "To-Do/To-Do.md",
-    "3. MOCS/Uni MOC/archive/Ripasso Iniziale di Algo 1.md",
-    "3. MOCS/Uni MOC/archive/Rappresentazione dei Grafi.md",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250306144000.png",
-    "To-Do/Screenshot 2025-03-06 at 14.22.13.png.md",
-    "3. MOCS/Uni MOC/archive/attachments/Screenshot 2025-03-06 at 14.22.13.png",
-    "To-Do/Esercitazione E.A.1.1 - Azienda 1.md",
-    "3. MOCS/Uni MOC/archive/Basi di Dati 2 (class).md",
-    "3. MOCS/Uni MOC/archive/L3 BD2 - 5 Mar.md",
-    "3. MOCS/Uni MOC/archive/Ereditarietà (UML).md",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250306123414.png",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250306122944.png",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250306121455.png",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250306105326.png",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250306105938.png",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250306104904.png",
-    "3. MOCS/Uni MOC/archive/Basi di Dati 1 (class).md",
-    "To-Do/Object Oriented Programming (OOP).md",
+    "3. MOCS/Uni MOC/archive/Basi di Dati - Preparazione Orale.md",
+    "3. MOCS/Uni MOC/archive/Progetto Travel to the Moon - BD2.md",
+    "3. MOCS/Uni MOC/archive/Classi e Oggetti (UML).md",
     "3. MOCS/Uni MOC/archive/Tipi di dato (UML).md",
-    "3. MOCS/Tech MOC/Tech MOC.md",
-    "To-Do/Java - Strings.md",
-    "To-Do/Java - while Loop.md",
-    "3. MOCS/Tech MOC/archive/Quartz Index Example.md",
-    "3. MOCS/Uni MOC/archive/Ciclo di Vita del Software - Basi di Dati 2.md",
+    "3. MOCS/Uni MOC/archive/Associazione e Link (UML).md",
+    "Storage/Backend/Monthly Logs/🚧 December 2024 (log).md",
+    "3. MOCS/Uni MOC/archive/Basi di Dati 2 (class).md",
+    "Storage/Backend/Monthly Logs/Monthly Logs.md",
+    "Storage/Backend/Monthly Logs/attachments/Pasted image 20241204080633.png",
+    "Storage/Backend/Monthly Logs/attachments/Pasted image 20241204080621.png",
+    "Storage/Backend/Monthly Logs/attachments/Pasted image 20241126113719 1.jpg",
+    "Storage/Backend/Monthly Logs/🌰 November 2024 (Log).md",
+    "3. MOCS/Uni MOC/archive/Basi di Dati 1 (class).md",
+    "3. MOCS/Uni MOC/archive/Ereditarietà (UML).md",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250313173928.png",
+    "3. MOCS/Uni MOC/archive/attachments/Screenshot 2025-03-13 at 17.35.04.png",
+    "3. MOCS/Uni MOC/archive/Archi già Visitati - Grafi.md",
+    "3. MOCS/Uni MOC/archive/Ripasso Iniziale di Algo 1.md",
+    "3. MOCS/Uni MOC/archive/Introduzione Grafi.md",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250313161906.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250313161244.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250313161214.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250313161158.png",
+    "3. MOCS/Uni MOC/archive/Reti L4 - 13 Mar.md",
+    "3. MOCS/Uni MOC/archive/Introduzione allo stack protocollare TCP-IP.md",
+    "3. MOCS/Uni MOC/archive/L12 Mar Basi2.md",
+    "3. MOCS/Uni MOC/archive/Reti L3 - 11 Mar.md",
+    "3. MOCS/Uni MOC/archive/Introduzione allo stack protocollare TCP/IP.md",
+    "3. MOCS/Uni MOC/archive/Introduzione allo stack protocollare TCP",
+    "To-Do/Reti L3 - 11 Mar.md",
+    "3. MOCS/Uni MOC/archive/Capacità e Prestazioni di una Rete.md",
     "3. MOCS/Uni MOC/archive/attachments/Lez03A2Grafi2.pdf",
     "Users/mr/Downloads",
     "Users/mr",
     "Users",
-    "progetto/attachments/20. Algoritmo di decomposizione - Esercizi.pdf",
+    "1. Easy Notes/progetto/attachments/20. Algoritmo di decomposizione - Esercizi.pdf",
     "3. MOCS/Personal MOC/private notes/Recording 20241114151345.webm",
     "3. MOCS/Personal MOC/private notes/Recording 20241113161258.webm",
     "3. MOCS/Personal MOC/private notes/Recording 20241113160006.webm",
     "3. MOCS/Personal MOC/private notes/Recording 20241113155032.webm",
-    "3. MOCS/Uni MOC/archive/attachments/20. Algoritmo di decomposizione - Esercizi.pdf",
     "Untitled.canvas",
     "Buy List/Skin Care Buy List.canvas",
     "Buy List/Clothing Buy List.canvas",

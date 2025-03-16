@@ -5,7 +5,7 @@ academic year: 2024/2025
 related: 
 completed: true
 created: 2024-12-09T16:13
-updated: 2024-12-10T14:38
+updated: 2025-03-11T10:18
 ---
 >[!abstract] Related
 >- [[Input Output - Introduzione]]
@@ -104,7 +104,7 @@ I dispositivi di I/O possono differire sotto molti aspetti:
 >**Data Rate**
 >È la velocità di trasferimento dei dati, ci sono dispositivi molto lenti e altri molto veloci
 >
->![[Pasted image 20241209165504.png|550]]
+>![[3. MOCS/Uni MOC/archive/attachments/Pasted image 20241209165504.png|550]]
 
 ^fd974f
 

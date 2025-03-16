@@ -6,7 +6,7 @@ related:
   - "[[Variabili Aleatorie]]"
 completed: true
 created: 2024-11-28T11:46
-updated: 2025-01-08T10:48
+updated: 2025-03-11T10:18
 ---
 
 >[!abstract] Related
@@ -154,7 +154,7 @@ Una variabile aleatoria congiunta è una variabile aleatoria che rappresenta il 
 
 >[!example]- Esempio 3
 >
->![[Pasted image 20241202101734.png]]
+>![[3. MOCS/Uni MOC/archive/attachments/Pasted image 20241202101734.png]]
 
 ---
 ## Densità di probabilità Marginale
@@ -277,11 +277,11 @@ In una v.a. discreta congiunta, le densità che la compongono vengono chiamata *
 >>
 >>Data $f:\mathbb{R}^{2}\to R$ definita come $f(a,b) = a^{2}b$ e le v.a $X,Y$  tali che:
 >>
->>![[Pasted image 20241125150221.png|200]]
+>>![[3. MOCS/Uni MOC/archive/attachments/Pasted image 20241125150221.png|200]]
 >>
 >>Calcolare $E[X^{2}Y]$:
 >>
->>![[Pasted image 20241125151035.png|800]]
+>>![[3. MOCS/Uni MOC/archive/attachments/Pasted image 20241125151035.png|800]]
 
 >[!warning] Prop. Somma
 >

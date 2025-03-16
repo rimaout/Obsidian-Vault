@@ -5,7 +5,7 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2024-12-09T17:49
-updated: 2024-12-10T14:54
+updated: 2025-03-11T10:18
 ---
 >[!abstract] Related
 >- [[Introduzione ai Sistemi Operativi]]
@@ -27,7 +27,7 @@ Per implementare l'I/O ci sono principalmente 4 modalità, che sono riassunte da
 >- Il modulo trasferisce i dati direttamente da o verso la memoria principale
 >- Quando l’operazione è terminata, il modulo genera l’interrupt per il processore
 >  
->![[Pasted image 20241209182918.png]]
+>![[3. MOCS/Uni MOC/archive/attachments/Pasted image 20241209182918.png]]
 >
 >- ***Data Register:*** Contiene i dati da trasferire
 >- ***Control Logic:*** Decide cosa deve fare, contiene quindi informazioni sull’operazione da eseguire.
@@ -103,7 +103,7 @@ Ci sono 3 principali macro tipi di progettazione gerarchica:
 >[!note] Dispositivo Locale
 >Usato per dispositivi locali, ad esempio stampante, monitor e tastiera.
 >
->![[Pasted image 20241210143858.png|150]]
+>![[3. MOCS/Uni MOC/archive/attachments/Pasted image 20241210143858.png|150]]
 >
 >A ***livello più in alto*** abbiamo il *processo utente* che ha richiesto un’informazione da un dispositivo. 
 >In ***fondo*** abbiamo l’*hardware* che fornisce istruzioni macchina.
@@ -120,7 +120,7 @@ Ci sono 3 principali macro tipi di progettazione gerarchica:
 >
 >Questo perché possiamo avere diverse architetture di comunicazione, ad esempio TCP/IP.
 >
->![[Pasted image 20241210144958.png|140]]
+>![[3. MOCS/Uni MOC/archive/attachments/Pasted image 20241210144958.png|140]]
 
 ^70b855
 
@@ -128,7 +128,7 @@ Ci sono 3 principali macro tipi di progettazione gerarchica:
 >
 >Struttura organizzativa utilizzata per dispositivi di storage dati come *HDD*, *SDD*, *USB Key*, *CD*, ...
 >
->![[Pasted image 20241210145425.png|140]]
+>![[3. MOCS/Uni MOC/archive/attachments/Pasted image 20241210145425.png|140]]
 >
 >Anche qui partiamo da processo utente e arriviamo all’hardware.
 >- **Directory Management**: Definisce le operazioni sui file come crearli, cancellarli ecc…

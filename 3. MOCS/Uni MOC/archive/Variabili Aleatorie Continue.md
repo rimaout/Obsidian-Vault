@@ -7,7 +7,7 @@ related:
   - "[[Variabile Aleatoria Discreta]]"
 completed: true
 created: 2024-11-30T11:48
-updated: 2025-02-17T17:14
+updated: 2025-03-11T10:18
 ---
 >[!abstract] Related
 >- [[Variabili Aleatorie]]
@@ -90,7 +90,7 @@ Una ***variabile aleatoria continua uniforme*** è un tipo specifico di [[Variab
 >
 >Per ogni $a≤c<d≤b$ 
 >
->![[Pasted image 20241130135315.png|500]]
+>![[3. MOCS/Uni MOC/archive/attachments/Pasted image 20241130135315.png|500]]
 >
 >---
 >
@@ -219,7 +219,7 @@ Una ***variabile aleatoria continua uniforme*** è un tipo specifico di [[Variab
 >---
 >
 >Se gli *intervalli sono sovrapposti* li consideriamo un intervallo solo, esempio:
->![[Pasted image 20241130135002.png|500]]
+>![[3. MOCS/Uni MOC/archive/attachments/Pasted image 20241130135002.png|500]]
 >
 >$$
 >P(X \in [c,d] \cup [e,f]) = P(X \in [c,f])
@@ -228,7 +228,7 @@ Una ***variabile aleatoria continua uniforme*** è un tipo specifico di [[Variab
 >---
 >
 >Se gli *intervalli non hanno elementi in comune* allora:
->![[Pasted image 20241130135118.png|500]]
+>![[3. MOCS/Uni MOC/archive/attachments/Pasted image 20241130135118.png|500]]
 >$$
 >P(X \in [c,d] \cup [e,f]) = P(X \in [c,d]) + P(X \in [e,f])
 >$$
@@ -302,7 +302,7 @@ La funzione di distribuzione (o ripartizione) è una funzione matematica che des
 
 >[!warning] F(X) vs f(x)
 >
->![[Pasted image 20241203124751.png|900]]
+>![[3. MOCS/Uni MOC/archive/attachments/Pasted image 20241203124751.png|900]]
 
 >[!example]- Esempio (uniforme)
 >Calcolare la funzione di distribuzione $F(x)$ di $X = Unif\big( [-2,10] \big)$

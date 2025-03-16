@@ -1,15 +1,15 @@
 ---
-type: Uni Note
-class: 
+type: 
 academic year: 2024/2025
 related: 
 completed: false
 created: 2025-02-27T16:31
-updated: 2025-03-06T18:48
+updated: 2025-03-16T12:56
 ---
 **Sito:** [link](https://twiki.di.uniroma1.it/twiki/view/Algoritmi2/PALGdiario2014_2)
 
-[[L4 Algo 2 - 06 Mar]] aggiungi testo agli esempi e algoritmi spiegano le varie cose e anche scrivi i costi
+- [[Algo L7 - 13 Mar]]
+- [[Algo L8 - 14 Mar]]
 
 ---
 
@@ -20,8 +20,12 @@ updated: 2025-03-06T18:48
 >- [[Introduzione Grafi]] 🟢
 >- [[Rappresentazione dei Grafi]] 🟢
 >- [[Visita in profondità (DFS) - Grafi]] 🟢
->- [[Albero DFS]]
->- [[Colorazione dei Grafi]]
+>- [[Albero DFS]] 🟢
+>- [[Colorazione dei Grafi]] 🟢
+>- [[Componente Connessa - Grafi]] 🟢
+>- [[Ordinamento Topologico - Grafi]] 🟢
+>- [[Archi già Visitati - Grafi]] 🟡
+>- [[Ricerca Ponti - Grafi]]
 
 
 

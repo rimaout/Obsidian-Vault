@@ -6,7 +6,7 @@ academic year: 2024/2025
 related: 
 completed: true
 created: 2025-03-05T15:23
-updated: 2025-03-06T12:39
+updated: 2025-03-11T18:04
 ---
 ## Introduzione
 
@@ -16,7 +16,7 @@ Tutti gli attributi, associazioni e le molteplicità della super-classe sono ere
 
 ## Costrutto is-a
 
-***Scrivi cos'è*** lfdhjkhfdksjhfkjhkj**dfkjzvkjfhvzk**kvkzjvbkjxbv***vlcnzxnvljkz***
+Il costrutto is-a indica che una classe è sottoclassi di una solo altra classe, premettendo alla sotto classe di ereditare le caratteristiche della classe madre.
 
 >[!example] Esempio
 >
@@ -76,3 +76,10 @@ Ad esempio in questo esempio una persona può essere: `Studente`, `Lavoratore`, 
 >In questo caso la generalizzazione di `genere` è sia **completa** e **disgiunta**, ovvero ogni istanza di `Persona` deve essere anche istanza di esattamente una sottoclasse tra `Uomo` e `Donna`.
 >
 >Quindi una persona o è un `Uomo` o è una `Donna`.
+
+## Ereditarietà Multipla
+
+Una classe può essere sottoclasse di più classi. Il meccanismo dell’ereditarietà vale come sempre.
+
+![[Pasted image 20250311180354.png|400]]
+

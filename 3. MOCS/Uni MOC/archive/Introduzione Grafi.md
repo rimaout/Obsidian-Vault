@@ -6,7 +6,7 @@ academic year: 2024/2025
 related: 
 completed: true
 created: 2025-03-05T08:36
-updated: 2025-03-05T08:37
+updated: 2025-03-10T19:29
 ---
 ## Grafo
 
@@ -40,6 +40,10 @@ E definiamo $n = |V|$ e $m = |E|$.
 >---
 >
 >Un **pozzo** è un *nodo senza archi uscenti*, un pozzo si dice **universale** se tutti gli altri nodi del grafo hanno un arco uscente verso il pozzo, esiste un solo pozzo universale.
+>
+>Una **sorgente** è un *nodo con soli archi uscenti*.
+
+^e35772
 
 >[!note] Grafo Sparso o Denso
 >
@@ -73,8 +77,8 @@ E definiamo $n = |V|$ e $m = |E|$.
 >>
 >>![[Pasted image 20250302124401.png|700]]
 >>
->>- La prima colonna della tabella ci mostra il numero `m` di archi di un grafo completo di `n` nodi, ovvero il numero `m` massimo di archi.
->>- La seconda colonna ci mostra il numero `m` di archi fino a cui un grafo di `n` nodi ha la possibilità di essere planare.
+>>- La *prima colonna* della tabella ci mostra il numero `m` di archi di un grafo completo di `n` nodi, ovvero il numero `m` massimo di archi.
+>>- La *seconda colonna* ci mostra il numero `m` di archi fino a cui un grafo di `n` nodi ha la possibilità di essere planare.
 >>
 >>Quindi ad esempio un grafo da `6` nodi e `13` archi è sicuramente non planare, ma con `12` archi potrebbe essere planare.
 

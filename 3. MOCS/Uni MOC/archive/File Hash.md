@@ -6,7 +6,7 @@ related:
   - "[[Introduzione all'organizzazioni dei database]]"
 completed: true
 created: 2024-12-04T11:50
-updated: 2025-01-24T14:14
+updated: 2025-03-11T10:18
 ---
 ## Introduzione
 
@@ -14,7 +14,7 @@ Il file hash è suddiviso in **bucket** numerati da $B_{0}$ a $B_{n-1}$, ciascun
 
 In cima al file c’è la **bucket directory** che contiene tutti i puntatori per i bucket, la lunghezza della directory è uguale al numero di bucket ($n$).
 
-![[Pasted image 20241212111722.png|600]]
+![[3. MOCS/Uni MOC/archive/attachments/Pasted image 20241212111722.png|600]]
 
 
 

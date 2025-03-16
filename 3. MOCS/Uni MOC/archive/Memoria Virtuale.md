@@ -5,7 +5,7 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2024-11-23T13:04
-updated: 2024-12-09T15:22
+updated: 2025-03-11T10:18
 ---
 >[!abstract] Related
 >- 
@@ -74,7 +74,7 @@ Precedentemente abbiamo visto la [[Paginazione e Segmentazione (semplice)#Pagina
 >- Altri bit di controllo
 >- Il numero di frame in memoria principale
 >  
->![[Pasted image 20241123143824.png|400]]
+>![[3. MOCS/Uni MOC/archive/attachments/Pasted image 20241123143824.png|400]]
 
 ### Traduzione degli indirizzi
 
@@ -86,7 +86,7 @@ Un *indirizzo virtuale* è composto da due parti il *numero di pagina* e l'***of
 >
 >Per "creare" l'indirizzo fisico dobbiamo unire il ***numero del frame*** di attivazione all'***offset*** presente nell'indirizzo virtuale.
 >
->![[Pasted image 20241123154946.png|700]]
+>![[3. MOCS/Uni MOC/archive/attachments/Pasted image 20241123154946.png|700]]
 >
 >>***Svantaggio:*** Questa struttura porta però a molto overhead, le tabelle potrebbero contenere molti elementi. 
 >
@@ -107,7 +107,7 @@ Un *indirizzo virtuale* è composto da due parti il *numero di pagina* e l'***of
 >
 >Per risolvere il problema dell’overhead della [[#^bd6ece|traduzione degli indirizzi (base)]] si utilizza un sistema a 2 (o più) tabelle delle pagine.
 >
->![[Pasted image 20241123175547.png|800]]
+>![[3. MOCS/Uni MOC/archive/attachments/Pasted image 20241123175547.png|800]]
 >
 >In questo caso abbiamo una tabella che invece di puntare direttamente a zone di RAM punta ad un’altra tabella che poi punta allo spazio utente
 >
@@ -115,7 +115,7 @@ Un *indirizzo virtuale* è composto da due parti il *numero di pagina* e l'***of
 >- Funzionamento identico alla versione "[[#^bd6ece|base]]" ma l’hardware deve consultare due tabelle
 >- Da notare che che adesso l’indirizzo virtuale è diviso in 3 sezioni, in generale in n.livelli + 1.
 >
->![[Pasted image 20241123180333.png|900]]
+>![[3. MOCS/Uni MOC/archive/attachments/Pasted image 20241123180333.png|900]]
 >
 >>[!warning]- Esempio di overhead
 >>Vediamo perché conviene facendo dei conti.
@@ -151,7 +151,7 @@ Un *indirizzo virtuale* è composto da due parti il *numero di pagina* e l'***of
 >
 >>***oss:*** Dopo un page miss si aggiorna il TLB includendo la pagina appena acceduta, usando algoritmi di rimpiazzo se necessario proprio come una cache.
 >
->![[Screenshot 2024-11-24 at 10.20.49.jpg|1300]]
+>![[3. MOCS/Uni MOC/archive/attachments/Screenshot 2024-11-24 at 10.20.49.jpg|1300]]
 
 Il TLB è totalmente hardware, ma in alcune situazioni il sistema operativo prende il controllo.
 
