@@ -5,7 +5,7 @@ related:
   - "[[Quartz Setup Proces]]"
 completed: true
 created: 2024-10-03T16:56
-updated: 2025-03-16T13:09
+updated: 2025-03-16T13:15
 ---
 ---
 
@@ -18,7 +18,7 @@ You can find the site at [notesinpublic.xyz](https://notesinpublic.xyz) and the 
 
 ---
 
-### Issues 👾
+### Replicate 🔨
 
- If you encounter any problems with the notes or the website, or if you have any suggestions for improvements, please [create an issue](https://github.com/rimaout/Notes-In-Public/issues/new/choose). Thanks for the help!!
+If you want to build somthing similar, I have documented the exact steps I took to deploy [notesinpublic](https://notesinpublic.xyz) in this guide [Quartz Setup Proces](https://notesinpublic.xyz/vault/3.-MOCS/Tech-MOC/archive/Quartz-Setup-Proces).
 ```

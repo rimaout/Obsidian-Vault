@@ -7,7 +7,7 @@ related:
   - "[[Visita in profondità (DFS) - Grafi]]"
 completed: true
 created: 2025-03-16T12:56
-updated: 2025-03-16T12:57
+updated: 2025-03-16T13:28
 ---
 ## Introduzione
 
@@ -63,6 +63,8 @@ Quindi, per ogni arco padre figlio `(u,v)` presente nell’albero [[Visita in pr
 Ogni nodo `v`:
 - Calcola la sua altezza nell’albero    
 - Calcola e restituisce al padre l’altezza minima che si può raggiungere con archi che partono dai nodi del suo sottoalbero diversi dall’arco `(u,v)`.
+
+![[Pasted image 20250316132800.png|900]]
 
 ```python
 def trova_ponti(G):

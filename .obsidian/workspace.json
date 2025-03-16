@@ -22,23 +22,8 @@
               "icon": "lucide-file",
               "title": "Algoritmi 2 (class)"
             }
-          },
-          {
-            "id": "cbf1288408ec0434",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Tech MOC/archive/Quartz Setup Proces.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Quartz Setup Proces"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -281,16 +266,27 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "cbf1288408ec0434",
+  "active": "9fdc480e7e6edb27",
   "lastOpenFiles": [
-    "3. MOCS/Tech MOC/archive/New Quartz README.md",
+    "3. MOCS/Uni MOC/archive/Albero BFS.md",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250316172529.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250316171012.png",
+    "3. MOCS/Uni MOC/archive/Visita in Ampiezza (BFS) - Grafi.md",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250316165634.png",
     "3. MOCS/Uni MOC/archive/Algoritmi 2 (class).md",
+    "To-Do/Algo L8 - 14 Mar.md",
+    "3. MOCS/Uni MOC/archive/Algo L7 - 13 Mar.md",
+    "3. MOCS/Uni MOC/archive/Albero DFS.md",
+    "3. MOCS/Uni MOC/archive/Visita in profondità (DFS) - Grafi.md",
+    "3. MOCS/Uni MOC/archive/Introduzione Grafi.md",
+    "3. MOCS/Tech MOC/archive/New Quartz README.md",
+    "3. MOCS/Uni MOC/archive/Reti (class).md",
+    "3. MOCS/Uni MOC/archive/Ricerca Ponti - Grafi.md",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250316132800.png",
+    "3. MOCS/Uni MOC/Uni MOC.md",
     "3. MOCS/Tech MOC/archive/Quartz Setup Proces.md",
     "3. MOCS/Programming MOC/archive/Quartz.md",
-    "3. MOCS/Uni MOC/archive/Ricerca Ponti - Grafi.md",
-    "3. MOCS/Uni MOC/archive/Algo L7 - 13 Mar.md",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250316124839.png",
-    "3. MOCS/Uni MOC/archive/Reti (class).md",
     "To-Do/To-Do.md",
     "3. MOCS/Uni MOC/archive/Basi di Dati - Preparazione Orale.md",
     "3. MOCS/Uni MOC/archive/Progetto Travel to the Moon - BD2.md",
@@ -305,20 +301,8 @@
     "Storage/Backend/Monthly Logs/attachments/Pasted image 20241126113719 1.jpg",
     "Storage/Backend/Monthly Logs/🌰 November 2024 (Log).md",
     "3. MOCS/Uni MOC/archive/Basi di Dati 1 (class).md",
-    "3. MOCS/Uni MOC/archive/Ereditarietà (UML).md",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250313173928.png",
     "3. MOCS/Uni MOC/archive/attachments/Screenshot 2025-03-13 at 17.35.04.png",
-    "3. MOCS/Uni MOC/archive/Archi già Visitati - Grafi.md",
-    "3. MOCS/Uni MOC/archive/Ripasso Iniziale di Algo 1.md",
-    "3. MOCS/Uni MOC/archive/Introduzione Grafi.md",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250313161906.png",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250313161244.png",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250313161214.png",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250313161158.png",
-    "3. MOCS/Uni MOC/archive/Reti L4 - 13 Mar.md",
-    "3. MOCS/Uni MOC/archive/Introduzione allo stack protocollare TCP-IP.md",
-    "3. MOCS/Uni MOC/archive/L12 Mar Basi2.md",
-    "3. MOCS/Uni MOC/archive/Reti L3 - 11 Mar.md",
     "3. MOCS/Uni MOC/archive/Introduzione allo stack protocollare TCP",
     "3. MOCS/Uni MOC/archive/attachments/Lez03A2Grafi2.pdf",
     "Users/mr/Downloads",

@@ -3,16 +3,17 @@ type: Uni Note
 class:
   - "[[Algoritmi 2 (class)]]"
 academic year: 2024/2025
-related: 
+related:
+  - "[[Visita in profondità (DFS) - Grafi]]"
 completed: true
 created: 2025-03-06T18:48
-updated: 2025-03-06T18:48
+updated: 2025-03-16T15:59
 ---
 ## Introduzione
 
 Quando si utilizza l'*algoritmo DFS* per la visita di un grafo, i *nodi visitati* e gli *archi* effettivamente *attraversati* formano un albero detto **albero DFS**.
 
-![[Pasted image 20250306175357.png|600]]
+![[Pasted image 20250306175357.png|800]]
 
 A sinistra un grafo `G`, a destra i tre alberi DFS che si ottengono facendo partire tre visite dai nodi `9`, `4`, `3` rispettivamente.
 
@@ -93,6 +94,5 @@ def Cammino(u, P):
 >```
 >
 >Anche in questo caso disponendo del vettore dei padri, la complessità della procedura è $O(n)$.
-
 
 >**Cammino Minimo:** L'albero DFS *non assicura* di calcolare il cammino minimo per raggiungere un determinato nodo, per fare ciò dobbiamo utilizzare la [[Visita in profondità (DFS) - Grafi|visita in profondità (DFS)]].
