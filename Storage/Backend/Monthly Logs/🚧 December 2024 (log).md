@@ -1,6 +1,6 @@
 ---
 created: 2025-01-01T21:51
-updated: 2025-03-15T19:21
+updated: 2025-03-16T13:09
 tags:
   - monthly-log
 ---
@@ -38,7 +38,7 @@ git submodule update --remote content/vault
 
 This is how I have always updated my site content, but there is not fully autonomous because I still had to open the terminal write write the commands and push the changes. So this month I spend some time learning about git submodules, Github secrets and actions and I have been able to use this things to completely automate the site content update. Now each time I push the changes of my obsidian vault to Github the quartz repo is notified about the change and *automagicaly* updates all the submodules. 
 
-If you want to learn how to do this, I have written a [[Using GitHub Actions to automatically update repo's submodules|small guide]], and if you want to replicate my site here is the entire process documented: [[Quartz Setup|how I setup quartz]].
+If you want to learn how to do this, I have written a [[Using GitHub Actions to automatically update repo's submodules|small guide]], and if you want to replicate my site here is the entire process documented: [[Quartz Setup Proces|how I setup quartz]].
 
 ---
 

@@ -2,15 +2,15 @@
 type: Programming Note
 programming language: "[[Git]]"
 related:
-  - "[[Quartz Setup]]"
+  - "[[Quartz Setup Proces]]"
 completed: true
 created: 2024-12-08T10:34
-updated: 2025-02-17T14:38
+updated: 2025-03-16T13:09
 ---
 
 >[!abstract] Related
 >- [[Git]]
->- [[Quartz Setup]]
+>- [[Quartz Setup Proces]]
 
 ---
 ## Introduction

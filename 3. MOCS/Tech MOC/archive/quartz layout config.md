@@ -1,10 +1,10 @@
 ---
 created: 2024-03-19
 related:
-  - "[[Quartz Setup]]"
+  - "[[Quartz Setup Proces]]"
 completed: true
 Main Moc: "[[Tech MOC]]"
-updated: 2025-02-16T22:14
+updated: 2025-03-16T13:09
 ---
 ```typescript
 import { PageLayout, SharedLayout } from "./quartz/cfg"

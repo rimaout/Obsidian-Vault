@@ -1,6 +1,6 @@
 ---
 created: 2023-09-24T12:21
-updated: 2024-10-03T18:40
+updated: 2025-03-16T13:09
 ---
 >[!note] Programming Tools
 >- [[Git]]
@@ -8,5 +8,5 @@ updated: 2024-10-03T18:40
 
 >[!note] Personal Websites
 >- [[Quartz]] 
->  [[Quartz Setup]]
+>  [[Quartz Setup Proces]]
 >- [[Jekyll]]

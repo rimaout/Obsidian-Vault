@@ -2,10 +2,10 @@
 type: Programming Note
 programming language: 
 related:
-  - "[[Quartz Setup]]"
+  - "[[Quartz Setup Proces]]"
 completed: true
 created: 2024-10-03T17:04
-updated: 2024-10-03T17:05
+updated: 2025-03-16T13:09
 ---
 Edit line 7 and below like this:
 ```ts
