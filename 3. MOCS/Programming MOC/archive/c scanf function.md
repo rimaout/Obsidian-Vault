@@ -5,7 +5,7 @@ programming language: "[[C MOC]]"
 related:
   - "[[C User Input]]"
 completed: true
-updated: 2024-05-27T13:29
+updated: 2025-03-19T11:04
 ---
 ---
 ## Index

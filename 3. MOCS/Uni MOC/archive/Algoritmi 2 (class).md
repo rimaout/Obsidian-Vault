@@ -4,12 +4,12 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2025-02-27T16:31
-updated: 2025-03-16T17:27
+updated: 2025-03-20T17:07
 ---
 **Sito:** [link](https://twiki.di.uniroma1.it/twiki/view/Algoritmi2/PALGdiario2014_2)
 
-- [[Algo L7 - 13 Mar]]
-- [[Algo L8 - 14 Mar]]
+- [[Algo L9 - 17 Mar]]
+- [[Algo L10 - 20 Mar]]
 
 ---
 
@@ -31,3 +31,7 @@ updated: 2025-03-16T17:27
 
 
 
+Algoritmi da fare:
+- Albero percorsi minimi
+- Algoritmo che controlla se due nodi sono conessi
+- algoritmo se ti dice se ci sono cilci

@@ -5,7 +5,7 @@ academic year: 2024/2025
 related: 
 completed: true
 created: 2025-03-13T10:21
-updated: 2025-03-13T10:21
+updated: 2025-03-18T09:42
 ---
 ## Introduzione
 
@@ -114,6 +114,8 @@ Abbiamo 4 fattori che contribuiscono ai ritardi:
 >- $\textcolor{orange}{\text{Intensità di Traffico} \sim 0}$: poco ritardo
 >- $\textcolor{orange}{\text{Intensità di Traffico} \to 0}$: (tende a 1) il ritardo si fa consistente
 >- $\textcolor{orange}{\text{Intensità di Traffico} > 1}$: più “lavoro” in arrivo di quanto possa essere effettivamente svolto, ritardo medio infinito!
+
+^1e0e6b
 
 >[!note] Ritardo di Trasmissione (transmission delay)
 >

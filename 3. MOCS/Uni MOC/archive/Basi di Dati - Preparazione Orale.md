@@ -6,7 +6,7 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2025-02-18T16:16
-updated: 2025-03-13T12:18
+updated: 2025-03-19T18:11
 ---
 >[!note]- Def 1: Dipendenza Funzionale 🟢
 >
@@ -394,14 +394,20 @@ updated: 2025-03-13T12:18
 
 >[!note] Teorema 4: Dimostrazione Tabella 🔴
 
->[!note] Def 11: Copertura minimale
+>[!note] Def 11: Copertura minimale 🟢
 >
 >Sia `F` un insieme di dipendenze funzionali, una **copertura minimale** di `F` è un insieme `G` di dipendenze funzionali equivalente ad `F`  tale che:
->- Ogni dipendenza in `G` ha la parte destra singleton
->- Non esistono dipendenze funzioni $X \to A \in G$ che 
+>1. Ogni dipendenza in `G` ha la *parte destra singleton*
+>2. Per nessuna dipendenza $X \to A\in G$ esiste un $X' \subseteq X$ tale che $G \equiv G - \{ X \to A \} \cup \{ X' \to A \}$
+>3. Per nessuna dipendenza $X\to A \in G$ deve accadere $G \equiv G−\{X\to A\}$.
 >
+>Ovvero:
+>- (1) Si capisce daii
+>- (2) *Gli attributi a sinistra non devono essere ridondanti* non devono esistere dipendenze funzionali in `G` tali che se sostituiamo il determinante con un suo sotto insieme `G` rimane equivalente a prima.
+>- (3) *Le dipendenze funzionali non devono essere ridondanti* ovvero non deve esistere una dipendenza in `G` che se rimossa `G` rimane quivalente `
 
 >[!note] Algo 5:
+>
 >
 
 >[!note] Teorema 8
@@ -424,5 +430,3 @@ updated: 2025-03-13T12:18
 
 Dimostrare la algoritmo della validità della chiusura di $X$ (ovvero $X^{+}$)
 
-
-1. se X->A in F allora X->A in FA 

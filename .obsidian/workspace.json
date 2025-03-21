@@ -4,26 +4,55 @@
     "type": "split",
     "children": [
       {
-        "id": "652e3f4f523715eb",
+        "id": "7f733be9df40dca8",
         "type": "tabs",
         "children": [
           {
-            "id": "9fdc480e7e6edb27",
+            "id": "b77d8cd2cb0d7fdb",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Algoritmi 2 (class).md",
+                "file": "3. MOCS/Uni MOC/archive/Reti (class).md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "Algoritmi 2 (class)"
+              "title": "Reti (class)"
+            }
+          },
+          {
+            "id": "09d4a0ce2e84cbe4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. MOCS/Uni MOC/archive/Reti L7 - 20 Mar.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Reti L7 - 20 Mar"
+            }
+          },
+          {
+            "id": "74d654637a7e2bee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. MOCS/Uni MOC/archive/Reti L6 - 18 Mar.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Reti L6 - 18 Mar"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -55,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#colora",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -109,7 +138,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -121,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Algoritmi 2 (class).md",
+                "file": "3. MOCS/Uni MOC/archive/Reti L7 - 20 Mar.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +162,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Algoritmi 2 (class)"
+              "title": "Backlinks for Reti L7 - 20 Mar"
             }
           },
           {
@@ -140,12 +171,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Storage/attachments/Pasted image 20241204080621.png",
+                "file": "3. MOCS/Uni MOC/Uni MOC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Calcolo delle Probabilità (class)"
+              "title": "Outgoing links from Uni MOC"
             }
           },
           {
@@ -195,24 +226,32 @@
           {
             "id": "08bb0d9d4b18b672",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "kanban",
               "state": {
                 "file": "To-Do/To-Do.md",
-                "mode": "source",
-                "source": false
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false
+                  ]
+                }
               },
-              "icon": "lucide-file",
+              "pinned": true,
+              "icon": "lucide-trello",
               "title": "To-Do"
             }
           },
           {
             "id": "6217f74dd2639932",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Algoritmi 2 (class).md",
+                "file": "3. MOCS/Uni MOC/archive/Web Caching.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -239,15 +278,16 @@
                   "close": true
                 }
               },
+              "pinned": true,
               "icon": "lucide-git-fork",
-              "title": "Graph of Algoritmi 2 (class)"
+              "title": "Graph of Web Caching"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 483.5,
+    "width": 742.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -266,43 +306,45 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "9fdc480e7e6edb27",
+  "active": "74d654637a7e2bee",
   "lastOpenFiles": [
-    "3. MOCS/Uni MOC/archive/Albero BFS.md",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250316172529.png",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250316171012.png",
-    "3. MOCS/Uni MOC/archive/Visita in Ampiezza (BFS) - Grafi.md",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250316165634.png",
-    "3. MOCS/Uni MOC/archive/Algoritmi 2 (class).md",
-    "To-Do/Algo L8 - 14 Mar.md",
-    "3. MOCS/Uni MOC/archive/Algo L7 - 13 Mar.md",
-    "3. MOCS/Uni MOC/archive/Albero DFS.md",
-    "3. MOCS/Uni MOC/archive/Visita in profondità (DFS) - Grafi.md",
-    "3. MOCS/Uni MOC/archive/Introduzione Grafi.md",
-    "3. MOCS/Tech MOC/archive/New Quartz README.md",
     "3. MOCS/Uni MOC/archive/Reti (class).md",
-    "3. MOCS/Uni MOC/archive/Ricerca Ponti - Grafi.md",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250316132800.png",
-    "3. MOCS/Uni MOC/Uni MOC.md",
-    "3. MOCS/Tech MOC/archive/Quartz Setup Proces.md",
-    "3. MOCS/Programming MOC/archive/Quartz.md",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250316124839.png",
+    "3. MOCS/Uni MOC/archive/Reti L6 - 18 Mar.md",
+    "3. MOCS/Uni MOC/archive/Reti L7 - 20 Mar.md",
+    "3. MOCS/Uni MOC/archive/Algoritmi 2 (class).md",
+    "To-Do/Algo L9 - 17 Mar.md",
+    "3. MOCS/Uni MOC/archive/Algo L10 - 20 Mar.md",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250320145812.png",
+    "3. MOCS/Uni MOC/archive/Codifica complemento a uno (CA1).md",
+    "3. MOCS/Uni MOC/archive/Codifica complemento a due (CA2).md",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250320145301.png",
+    "3. MOCS/Uni MOC/archive/attachments/Screenshot 2025-03-20 at 14.47.40.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250320142951.png",
+    "3. MOCS/Uni MOC/archive/Introduzione allo stack protocollare TCP-IP.md",
+    "3. MOCS/Uni MOC/archive/Introduzione Livello Applicazione (TCP-IP).md",
     "To-Do/To-Do.md",
+    "3. MOCS/Uni MOC/archive/Reti L5 - 14 Mar.md",
+    "3. MOCS/Uni MOC/archive/DNS.md",
+    "3. MOCS/Uni MOC/archive/attachments/Screenshot 2025-03-20 at 11.31.46.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250320113129.png",
+    "To-Do/Screenshot 2025-03-20 at 11.21.06.png.md",
+    "3. MOCS/Uni MOC/archive/attachments/Screenshot 2025-03-20 at 11.21.06.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250320105744.png",
+    "3. MOCS/Uni MOC/archive/attachments/Screenshot 2025-03-20 at 08.31.53.png",
+    "3. MOCS/Uni MOC/archive/attachments/Screenshot 2025-03-20 at 08.30.17.png",
     "3. MOCS/Uni MOC/archive/Basi di Dati - Preparazione Orale.md",
-    "3. MOCS/Uni MOC/archive/Progetto Travel to the Moon - BD2.md",
-    "3. MOCS/Uni MOC/archive/Classi e Oggetti (UML).md",
-    "3. MOCS/Uni MOC/archive/Tipi di dato (UML).md",
-    "3. MOCS/Uni MOC/archive/Associazione e Link (UML).md",
-    "Storage/Backend/Monthly Logs/🚧 December 2024 (log).md",
-    "3. MOCS/Uni MOC/archive/Basi di Dati 2 (class).md",
-    "Storage/Backend/Monthly Logs/Monthly Logs.md",
-    "Storage/Backend/Monthly Logs/attachments/Pasted image 20241204080633.png",
-    "Storage/Backend/Monthly Logs/attachments/Pasted image 20241204080621.png",
-    "Storage/Backend/Monthly Logs/attachments/Pasted image 20241126113719 1.jpg",
-    "Storage/Backend/Monthly Logs/🌰 November 2024 (Log).md",
     "3. MOCS/Uni MOC/archive/Basi di Dati 1 (class).md",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250313173928.png",
-    "3. MOCS/Uni MOC/archive/attachments/Screenshot 2025-03-13 at 17.35.04.png",
+    "3. MOCS/Uni MOC/archive/Basi di Dati 2 (class).md",
+    "3. MOCS/Uni MOC/archive/L19 Mar Basi 2.md",
+    "3. MOCS/Uni MOC/archive/Basi di Dati - Domande Orale.md",
+    "3. MOCS/Uni MOC/archive/Specializzazione (UML).md",
+    "3. MOCS/Uni MOC/archive/Tipi di dato (UML).md",
+    "3. MOCS/Uni MOC/archive/attachments/Recording 20250319144542.m4a",
+    "3. MOCS/Uni MOC/archive/OS L6 - 19 Mar.md",
+    "3. MOCS/Uni MOC/archive/Sistemi Operativi 1 (class).md",
+    "3. MOCS/Uni MOC/archive/Sistemi Operativi 2 (class).md",
+    "3. MOCS/Programming MOC/archive/c scanf function.md",
+    "3. MOCS/Programming MOC/archive/C User Input.md",
     "3. MOCS/Uni MOC/archive/Introduzione allo stack protocollare TCP",
     "3. MOCS/Uni MOC/archive/attachments/Lez03A2Grafi2.pdf",
     "Users/mr/Downloads",
@@ -312,7 +354,6 @@
     "3. MOCS/Personal MOC/private notes/Recording 20241114151345.webm",
     "3. MOCS/Personal MOC/private notes/Recording 20241113161258.webm",
     "3. MOCS/Personal MOC/private notes/Recording 20241113160006.webm",
-    "3. MOCS/Personal MOC/private notes/Recording 20241113155032.webm",
     "Untitled.canvas",
     "Buy List/Skin Care Buy List.canvas",
     "Buy List/Clothing Buy List.canvas",

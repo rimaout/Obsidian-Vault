@@ -17,7 +17,7 @@
                   "type": "markdown",
                   "state": {
                     "file": "3. MOCS/Uni MOC/archive/Basi di Dati 1 (class).md",
-                    "mode": "preview",
+                    "mode": "source",
                     "source": false
                   },
                   "pinned": true,
@@ -42,7 +42,7 @@
                 }
               },
               {
-                "id": "4d6e70c4e9ac1b31",
+                "id": "b0d3f080a1615a3d",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -123,7 +123,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 494.5062494277954
+        "width": 494.5062494277954,
+        "collapsed": true
       },
       "right": {
         "id": "1599d9a7234429ed",
@@ -153,7 +154,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/archive/Archi già Visitati - Grafi.md",
+                    "file": "3. MOCS/Uni MOC/archive/Basi di Dati 1 (class).md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -163,7 +164,7 @@
                     "unlinkedCollapsed": false
                   },
                   "icon": "links-coming-in",
-                  "title": "Backlinks for Archi già Visitati - Grafi"
+                  "title": "Backlinks for Basi di Dati 1 (class)"
                 }
               },
               {
@@ -215,27 +216,9 @@
             "dimension": 57.93357933579337,
             "children": [
               {
-                "id": "08bb0d9d4b18b672",
-                "type": "leaf",
-                "state": {
-                  "type": "kanban",
-                  "state": {
-                    "file": "To-Do/To-Do.md",
-                    "kanbanViewState": {
-                      "kanban-plugin": "board",
-                      "list-collapse": [
-                        false,
-                        false
-                      ]
-                    }
-                  },
-                  "icon": "lucide-trello",
-                  "title": "To-Do"
-                }
-              },
-              {
                 "id": "6217f74dd2639932",
                 "type": "leaf",
+                "pinned": true,
                 "state": {
                   "type": "localgraph",
                   "state": {
@@ -262,15 +245,38 @@
                       "repelStrength": 10,
                       "linkStrength": 1,
                       "linkDistance": 250,
-                      "scale": 1.417527765661771,
+                      "scale": 1.4547352939090106,
                       "close": true
                     }
                   },
+                  "pinned": true,
                   "icon": "lucide-git-fork",
                   "title": "Graph of To-Do"
                 }
+              },
+              {
+                "id": "8bb5fd167d10c3d5",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "kanban",
+                  "state": {
+                    "file": "To-Do/To-Do.md",
+                    "kanbanViewState": {
+                      "kanban-plugin": "board",
+                      "list-collapse": [
+                        false,
+                        false
+                      ]
+                    }
+                  },
+                  "pinned": true,
+                  "icon": "lucide-trello",
+                  "title": "To-Do"
+                }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "horizontal",
@@ -293,8 +299,8 @@
           "obsidian-kanban:Create new board": false
         }
       },
-      "active": "4d6e70c4e9ac1b31",
-      "mtime": "2025-03-16T11:28:10+01:00"
+      "active": "b0d3f080a1615a3d",
+      "mtime": "2025-03-20T08:12:00+01:00"
     },
     "Sistemi Operativi": {
       "main": {
@@ -338,17 +344,17 @@
                 }
               },
               {
-                "id": "994aa1e6d2019a20",
+                "id": "e1d666f0beee7dca",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/archive/OS L4 - 10 Mar.md",
+                    "file": "3. MOCS/Uni MOC/archive/OS L6 - 19 Mar.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "OS L4 - 10 Mar"
+                  "title": "OS L6 - 19 Mar"
                 }
               }
             ],
@@ -371,7 +377,8 @@
                 "state": {
                   "type": "file-explorer",
                   "state": {
-                    "sortOrder": "alphabetical"
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
                   },
                   "icon": "lucide-folder-closed",
                   "title": "Files"
@@ -585,8 +592,8 @@
           "obisidian-note-linker:Note Linker": false
         }
       },
-      "active": "994aa1e6d2019a20",
-      "mtime": "2025-03-12T12:31:02+01:00"
+      "active": "e1d666f0beee7dca",
+      "mtime": "2025-03-19T14:05:32+01:00"
     },
     "Algo": {
       "main": {
@@ -614,31 +621,45 @@
                 }
               },
               {
-                "id": "fd495551c72aaa7d",
+                "id": "278375335f505638",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/archive/Algo L7 - 13 Mar.md",
+                    "file": "3. MOCS/Uni MOC/archive/Algo L10 - 20 Mar.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "Algo L7 - 13 Mar"
+                  "title": "Algo L10 - 20 Mar"
                 }
               },
               {
-                "id": "4ebe544bae67395d",
+                "id": "7e293e4210057425",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/archive/Algo L7 - 13 Mar.md",
+                    "file": "To-Do/Algo L9 - 17 Mar.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "Algo L7 - 13 Mar"
+                  "title": "Algo L9 - 17 Mar"
+                }
+              },
+              {
+                "id": "a4cadb844fbe9690",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "To-Do/Algo L9 - 17 Mar.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Algo L9 - 17 Mar"
                 }
               }
             ]
@@ -811,26 +832,13 @@
             "dimension": 64.80263157894737,
             "children": [
               {
-                "id": "08bb0d9d4b18b672",
-                "type": "leaf",
-                "state": {
-                  "type": "kanban",
-                  "state": {
-                    "file": "To-Do/To-Do.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "To-Do"
-                }
-              },
-              {
                 "id": "6217f74dd2639932",
                 "type": "leaf",
+                "pinned": true,
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/archive/Algoritmi 2 (class).md",
+                    "file": "To-Do/To-Do.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -857,11 +865,34 @@
                       "close": true
                     }
                   },
+                  "pinned": true,
                   "icon": "lucide-git-fork",
-                  "title": "Graph of Algoritmi 2 (class)"
+                  "title": "Graph of To-Do"
+                }
+              },
+              {
+                "id": "b4eca7dc7ac39fd0",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "kanban",
+                  "state": {
+                    "file": "To-Do/To-Do.md",
+                    "kanbanViewState": {
+                      "kanban-plugin": "board",
+                      "list-collapse": [
+                        false,
+                        false
+                      ]
+                    }
+                  },
+                  "pinned": true,
+                  "icon": "lucide-trello",
+                  "title": "To-Do"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "horizontal",
@@ -885,7 +916,7 @@
         }
       },
       "active": "9fdc480e7e6edb27",
-      "mtime": "2025-03-16T11:29:07+01:00"
+      "mtime": "2025-03-21T11:48:40+01:00"
     },
     "Reti": {
       "main": {
@@ -913,62 +944,21 @@
                 }
               },
               {
-                "id": "145cd2215432a9ad",
+                "id": "09d4a0ce2e84cbe4",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/archive/Reti L4 - 13 Mar.md",
+                    "file": "3. MOCS/Uni MOC/archive/Reti L7 - 20 Mar.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "Reti L4 - 13 Mar"
-                }
-              },
-              {
-                "id": "cbd9e386fe49fde3",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/archive/Introduzione allo stack protocollare TCP-IP.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Introduzione allo stack protocollare TCP-IP"
-                }
-              },
-              {
-                "id": "150b0dd95f017b71",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/archive/Reti L3 - 11 Mar.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Reti L3 - 11 Mar"
-                }
-              },
-              {
-                "id": "7c51c0778f5ec942",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/archive/Introduzione allo stack protocollare TCP-IP.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Introduzione allo stack protocollare TCP-IP"
+                  "title": "Reti L7 - 20 Mar"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -1068,7 +1058,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/archive/Reti (class).md",
+                    "file": "3. MOCS/Uni MOC/archive/Reti L7 - 20 Mar.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1078,7 +1068,7 @@
                     "unlinkedCollapsed": false
                   },
                   "icon": "links-coming-in",
-                  "title": "Backlinks for Reti (class)"
+                  "title": "Backlinks for Reti L7 - 20 Mar"
                 }
               },
               {
@@ -1142,6 +1132,7 @@
               {
                 "id": "08bb0d9d4b18b672",
                 "type": "leaf",
+                "pinned": true,
                 "state": {
                   "type": "kanban",
                   "state": {
@@ -1154,6 +1145,7 @@
                       ]
                     }
                   },
+                  "pinned": true,
                   "icon": "lucide-trello",
                   "title": "To-Do"
                 }
@@ -1161,10 +1153,11 @@
               {
                 "id": "6217f74dd2639932",
                 "type": "leaf",
+                "pinned": true,
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/archive/Reti L3 - 11 Mar.md",
+                    "file": "3. MOCS/Uni MOC/archive/Web Caching.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -1191,8 +1184,9 @@
                       "close": true
                     }
                   },
+                  "pinned": true,
                   "icon": "lucide-git-fork",
-                  "title": "Graph of Reti L3 - 11 Mar"
+                  "title": "Graph of Web Caching"
                 }
               }
             ]
@@ -1218,9 +1212,9 @@
           "markdown-importer:Open format converter": false
         }
       },
-      "active": "b77d8cd2cb0d7fdb",
-      "mtime": "2025-03-16T11:33:56+01:00"
+      "active": "09d4a0ce2e84cbe4",
+      "mtime": "2025-03-20T16:08:00+01:00"
     }
   },
-  "active": "Algo"
+  "active": "Reti"
 }

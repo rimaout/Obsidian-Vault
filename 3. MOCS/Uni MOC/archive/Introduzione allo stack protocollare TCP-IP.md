@@ -3,9 +3,9 @@ type: Uni Note
 class: "[[Reti (class)]]"
 academic year: 2024/2025
 related: 
-completed: false
+completed: true
 created: 2025-03-13T11:59
-updated: 2025-03-13T12:02
+updated: 2025-03-20T14:20
 ---
 ## Introduzione
 
@@ -66,6 +66,8 @@ La pila TCP/IP è composta di cinque livelli:
 >Esistono due protocolli:
 >- `TCP` affidabile, ma più lenta.
 >- `UDP` non affidabile, ma più veloce.
+
+^ad5398
 
 >[!note] Rete
 >
@@ -137,3 +139,7 @@ Il modello TCP/IP prevede una comunicazione logica tra coppie di livelli, per qu
 >[!danger] Svantaggi
 >
 >A volte necessario scambio di informazioni tra livelli non adiacenti (esempio: per ottimizzare app funzionante su wireless) non rispettando principio della stratificazione.
+
+
+
+
