@@ -6,7 +6,7 @@ academic year: 2024/2025
 related: 
 completed: true
 created: 2024-10-04T18:51
-updated: 2024-10-27T15:55
+updated: 2025-03-21T17:39
 ---
 >[!abstract] Index
 >1. [[#Introduzione]]
@@ -244,7 +244,7 @@ Contiene informazioni di cui il SO ha bisogno per controllare e coordinare i var
 >>>**Uso delle risorse:** file aperti uso di risorse (compreso il processore) fino ad ora
 >>>
 >>
->>>[!caption|right]
+>>>[!caption]
 >>> 
 >>>![[Pasted image 20241004194346.png|170]]
 

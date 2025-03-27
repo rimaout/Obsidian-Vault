@@ -1,19 +1,18 @@
 ---
-created: 2024-05-02T12:44
 type: Uni Note
 class: 
-academic year: 2023/2024
+academic year: 2024/2025
 related: 
 completed: false
-updated: 2024-05-27T13:29
+created: 2025-03-27T17:46
+updated: 2025-03-27T17:46
 ---
----
-
 >[!abstract] Index
 >1. 
 
 >[!abstract] Related
 >- 
 
+>[!danger] TLDR
+
 ---
-	

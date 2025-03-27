@@ -6,7 +6,7 @@ academic year: 2024/2025
 related: 
 completed: true
 created: 2025-03-07T14:09
-updated: 2025-03-11T08:34
+updated: 2025-03-27T11:44
 ---
 ## Introduzione
 
@@ -31,7 +31,7 @@ La presenza di un ciclo nel grafo implica che nessuno dei nodi del ciclo possa c
 ## Algoritmi per trovare ordine topologico.
 
 ```python
-def sortTopo(G)
+def sortTopo(G):
 	'''
 	Restituisce un sort topologico di G se esiste
 	altrimenti restituisce la lista vuota
@@ -48,7 +48,7 @@ def sortTopo(G)
 	
 	# ordinamento topologico
 	ST = []
-	while len(sorgenti) != 0
+	while len(sorgenti) != 0:
 		u = sorgenti.pop()
 		ST.append(u)
 		for v in G[u]:
@@ -58,7 +58,7 @@ def sortTopo(G)
 	
 	if len(ST) == len(G): 
 		return ST
-	else 
+	else:
 		return []
 ```
 

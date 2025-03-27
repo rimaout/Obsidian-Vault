@@ -4,55 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "7f733be9df40dca8",
+        "id": "652e3f4f523715eb",
         "type": "tabs",
         "children": [
           {
-            "id": "b77d8cd2cb0d7fdb",
+            "id": "9fdc480e7e6edb27",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Reti (class).md",
+                "file": "3. MOCS/Uni MOC/archive/Algoritmi 2 (class).md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "Reti (class)"
+              "title": "Algoritmi 2 (class)"
             }
           },
           {
-            "id": "09d4a0ce2e84cbe4",
+            "id": "8bec7e0fa13be275",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Reti L7 - 20 Mar.md",
+                "file": "3. MOCS/Uni MOC/archive/Algo L11 - 27 Mar.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Reti L7 - 20 Mar"
-            }
-          },
-          {
-            "id": "74d654637a7e2bee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/archive/Reti L6 - 18 Mar.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Reti L6 - 18 Mar"
+              "title": "Algo L11 - 27 Mar"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -84,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#colora",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -138,9 +124,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
+                "useHierarchy": true
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -152,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Reti L7 - 20 Mar.md",
+                "file": "3. MOCS/Uni MOC/archive/Algoritmi 2 (class).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +146,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Reti L7 - 20 Mar"
+              "title": "Backlinks for Algoritmi 2 (class)"
             }
           },
           {
@@ -171,12 +155,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni MOC.md",
+                "file": "Storage/attachments/Pasted image 20241204080621.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Uni MOC"
+              "title": "Outgoing links from Calcolo delle Probabilità (class)"
             }
           },
           {
@@ -224,34 +208,13 @@
         "dimension": 64.80263157894737,
         "children": [
           {
-            "id": "08bb0d9d4b18b672",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "To-Do/To-Do.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false
-                  ]
-                }
-              },
-              "pinned": true,
-              "icon": "lucide-trello",
-              "title": "To-Do"
-            }
-          },
-          {
             "id": "6217f74dd2639932",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Web Caching.md",
+                "file": "To-Do/To-Do.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -280,14 +243,36 @@
               },
               "pinned": true,
               "icon": "lucide-git-fork",
-              "title": "Graph of Web Caching"
+              "title": "Graph of To-Do"
+            }
+          },
+          {
+            "id": "b4eca7dc7ac39fd0",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "To-Do/To-Do.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false
+                  ]
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-trello",
+              "title": "To-Do"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 742.5,
+    "width": 483.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -306,45 +291,46 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "74d654637a7e2bee",
+  "active": "8bec7e0fa13be275",
   "lastOpenFiles": [
-    "3. MOCS/Uni MOC/archive/Reti (class).md",
-    "3. MOCS/Uni MOC/archive/Reti L6 - 18 Mar.md",
-    "3. MOCS/Uni MOC/archive/Reti L7 - 20 Mar.md",
     "3. MOCS/Uni MOC/archive/Algoritmi 2 (class).md",
-    "To-Do/Algo L9 - 17 Mar.md",
+    "3. MOCS/Uni MOC/archive/Algo L11 - 27 Mar.md",
+    "3. MOCS/Uni MOC/archive/Ordinamento Topologico - Grafi.md",
     "3. MOCS/Uni MOC/archive/Algo L10 - 20 Mar.md",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250320145812.png",
-    "3. MOCS/Uni MOC/archive/Codifica complemento a uno (CA1).md",
-    "3. MOCS/Uni MOC/archive/Codifica complemento a due (CA2).md",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250320145301.png",
-    "3. MOCS/Uni MOC/archive/attachments/Screenshot 2025-03-20 at 14.47.40.png",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250320142951.png",
-    "3. MOCS/Uni MOC/archive/Introduzione allo stack protocollare TCP-IP.md",
-    "3. MOCS/Uni MOC/archive/Introduzione Livello Applicazione (TCP-IP).md",
-    "To-Do/To-Do.md",
-    "3. MOCS/Uni MOC/archive/Reti L5 - 14 Mar.md",
-    "3. MOCS/Uni MOC/archive/DNS.md",
-    "3. MOCS/Uni MOC/archive/attachments/Screenshot 2025-03-20 at 11.31.46.png",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250320113129.png",
-    "To-Do/Screenshot 2025-03-20 at 11.21.06.png.md",
-    "3. MOCS/Uni MOC/archive/attachments/Screenshot 2025-03-20 at 11.21.06.png",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250320105744.png",
-    "3. MOCS/Uni MOC/archive/attachments/Screenshot 2025-03-20 at 08.31.53.png",
-    "3. MOCS/Uni MOC/archive/attachments/Screenshot 2025-03-20 at 08.30.17.png",
-    "3. MOCS/Uni MOC/archive/Basi di Dati - Preparazione Orale.md",
-    "3. MOCS/Uni MOC/archive/Basi di Dati 1 (class).md",
+    "3. MOCS/Uni MOC/archive/Reti (class).md",
+    "3. MOCS/Uni MOC/archive/Reti L8 - 25 Mar.md",
+    "3. MOCS/Uni MOC/archive/Reti L9 - 27 Mar1.md",
+    "3. MOCS/Uni MOC/archive/Reti L9 - 27 Mar.md",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250327150102.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250327150053.png",
+    "3. MOCS/Uni MOC/archive/Reti L6 - 18 Mar.md",
+    "3. MOCS/Uni MOC/archive/Componente Connessa - Grafi.md",
+    "3. MOCS/Uni MOC/archive/Progetto Travel to the Moon - BD2.md",
     "3. MOCS/Uni MOC/archive/Basi di Dati 2 (class).md",
     "3. MOCS/Uni MOC/archive/L19 Mar Basi 2.md",
-    "3. MOCS/Uni MOC/archive/Basi di Dati - Domande Orale.md",
+    "3. MOCS/Uni MOC/archive/Diagramma degli Use-case.md",
+    "3. MOCS/Programming MOC/Programming MOC.md",
+    "3. MOCS/Programming MOC/archive/C Structures.md",
+    "3. MOCS/Programming MOC/archive/C MOC.md",
+    "3. MOCS/Programming MOC/archive/Python MOC.md",
+    "3. MOCS/Programming MOC/archive/Python Strings.md",
+    "3. MOCS/Uni MOC/archive/Basi di Dati 1 (class).md",
+    "3. MOCS/Uni MOC/archive/Accademia 2.md",
     "3. MOCS/Uni MOC/archive/Specializzazione (UML).md",
-    "3. MOCS/Uni MOC/archive/Tipi di dato (UML).md",
-    "3. MOCS/Uni MOC/archive/attachments/Recording 20250319144542.m4a",
-    "3. MOCS/Uni MOC/archive/OS L6 - 19 Mar.md",
-    "3. MOCS/Uni MOC/archive/Sistemi Operativi 1 (class).md",
     "3. MOCS/Uni MOC/archive/Sistemi Operativi 2 (class).md",
-    "3. MOCS/Programming MOC/archive/c scanf function.md",
-    "3. MOCS/Programming MOC/archive/C User Input.md",
+    "3. MOCS/Uni MOC/archive/Sistemi Operativi 1 (class).md",
+    "3. MOCS/Programming MOC/archive/c fgets function.md",
+    "3. MOCS/Uni MOC/archive/OS L7 - 26 Mar.md",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250325131939.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250324114153.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250324110058.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250324104007.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250324101059.png",
+    "To-Do/attachments/Pasted image 20250324100717.png",
+    "To-Do/attachments/Pasted image 20250324094529.png",
+    "To-Do/attachments/Screenshot 2025-03-23 at 16.51.27.png",
+    "To-Do/attachments",
+    "3. MOCS/Uni MOC/archive/attachments/Recording 20250319144542.m4a",
     "3. MOCS/Uni MOC/archive/Introduzione allo stack protocollare TCP",
     "3. MOCS/Uni MOC/archive/attachments/Lez03A2Grafi2.pdf",
     "Users/mr/Downloads",
@@ -353,7 +339,6 @@
     "1. Easy Notes/progetto/attachments/20. Algoritmo di decomposizione - Esercizi.pdf",
     "3. MOCS/Personal MOC/private notes/Recording 20241114151345.webm",
     "3. MOCS/Personal MOC/private notes/Recording 20241113161258.webm",
-    "3. MOCS/Personal MOC/private notes/Recording 20241113160006.webm",
     "Untitled.canvas",
     "Buy List/Skin Care Buy List.canvas",
     "Buy List/Clothing Buy List.canvas",

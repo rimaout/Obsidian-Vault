@@ -4,7 +4,7 @@ type: Programming Note
 programming language: "[[C MOC]]"
 related: 
 completed: true
-updated: 2024-05-27T13:29
+updated: 2025-03-26T10:16
 ---
 ---
 ## Index
@@ -13,6 +13,7 @@ updated: 2024-05-27T13:29
 
 ---
 ## `fgets` Function
+
 You can use `fgets()` function is used to read a line of text from a file or input from the user. 
 
 It is declared in the `stdio.h` header file as follows:

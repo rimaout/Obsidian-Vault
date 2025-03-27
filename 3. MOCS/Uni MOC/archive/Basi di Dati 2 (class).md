@@ -4,7 +4,7 @@ type: Uni Note
 academic year: 2024/2025
 completed: false
 created: 2025-02-26T14:31
-updated: 2025-03-19T14:07
+updated: 2025-03-26T13:42
 ---
 **Sito:** [link](https://elearning.uniroma1.it/course/view.php?id=17659&section=5)
 
@@ -22,12 +22,18 @@ updated: 2025-03-19T14:07
 >- [[Classi e Oggetti (UML)|Classi e Oggetti]] 🟢
 >- [[Associazione e Link (UML)|Associazione e Link]] 🟢
 >- [[Tipi di dato (UML)|Tipi di Dato]] 🟢
->- [[Ereditarietà (UML)|Ereditarietà]] 🟢
+>- [[Generalizzazione (UML)|Ereditarietà]] 🟢
 >- [[Operazioni (UML)|Operazioni]] 🟢
 >- [[Specializzazione (UML)|Specializzazione]] 🟢
 
 >[!note] UML degli Use-Case
 >
->
+>- [[Diagramma degli Use-case]] 🟢
+>- [[Documento di Specifica - UML]]
 
 [[Progetto Travel to the Moon - BD2]]
+
+>[!note] Esercitazioni
+>
+>- [[Accademia 2]]
+>- [[Impiegati e Studenti]]

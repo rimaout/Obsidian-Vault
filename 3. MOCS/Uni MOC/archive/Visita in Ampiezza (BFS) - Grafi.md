@@ -5,7 +5,7 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2025-03-16T16:41
-updated: 2025-03-16T16:58
+updated: 2025-03-23T15:12
 ---
 ## Introduzione
 
@@ -79,6 +79,7 @@ def BFS(x, G):
 			if visitati[y] == 0:
 				visitatu [y] = 1
 				coda.append(y)
+	
 	return visitati
 ```
 
@@ -91,6 +92,4 @@ def BFS(x, G):
 >[!danger] Costo Coputazionale
 >
 >Questa versione ha come costo temporale $O(m+n)$.
- 
- 
- 
+>[](https://cdn.discordapp.com/attachments/927628110009098284/1344127019658772613/image.png?ex=67e16596&is=67e01416&hm=3b7e4735a7b155597151d77e24214983c671b05595b72139ee43651efcbe0a35&)

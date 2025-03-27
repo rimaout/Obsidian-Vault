@@ -6,7 +6,7 @@ related:
   - "[[Basi di Dati 1 (class)]]"
 completed: true
 created: 2024-12-12T13:21
-updated: 2025-03-11T10:18
+updated: 2025-03-24T12:27
 ---
 ## Introduzione
 
@@ -135,15 +135,15 @@ Una volta trovato il *record del file indice* con valore `v` utilizziamo il suo 
 >- `v2` = la chiave del primo record contenuto in `B1`
 >- `v3` = la chiave del primo record contenuto in `Bn` 
 >
->Il risultato della funzione è un indice `i` di un blocco (`Bi`), ora confrontiamo il risultato on `k`:
->- se `k` è minore del valore della chiave nel primo record di `Bi`, si ripete il procedimento ripete il procedimento sui blocchi precedenti  ovvero su $B_{1}, B_{2}, \dots, B_{i}$
+>Il risultato della funzione è un indice `i` di un blocco (`Bi`), ora confrontiamo il risultato con `k`:
+>- se `k` è minore del valore della chiave nel primo record di `Bi`, si ripete il procedimento sui blocchi precedenti  ovvero su $B_{1}, B_{2}, \dots, B_{i}$
 >- Se `k` è maggiore del valore della chiave nel primo record di `Bi`, si ripete il procedimento sui blocchi successivi, ovvero su $B_{i}, B_{i+1}, \dots , B_{n}$
 >
 >Questo processo continua fino a quando non si restringe la ricerca a un unico blocco, a questo punto si scansiona il blocco per trovare un valore nei record che ricopre `k`.
 >
 >**Costo:** È stato calcolato che la ricerca per interpolazione ha una costo sotto forma di accessi a memoria di circa  $1 + \log_2 \log_2 n$ dove $n$ è il numero di blocchi del file indice.
 >
->>***Osservazioni:*** Questo tecnica può essere utilizzata soltanto se si conosle una funzione `f` che descrive la distribuzione dei valori, e questo è particolarmente difficile, ed inoltre questa tecnica non è compatibile con utilizzi che alterano la composizione dei dati nel tepo. 
+>>***Osservazioni:*** Questo tecnica può essere utilizzata soltanto se si conosce una funzione `f` che descrive la distribuzione dei valori, e questo è particolarmente difficile, ed inoltre questa tecnica non è compatibile con utilizzi che alterano la composizione dei dati nel tempo. 
 
 ---
 ## Inserimento

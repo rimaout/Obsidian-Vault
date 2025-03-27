@@ -4,12 +4,13 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2025-02-27T16:31
-updated: 2025-03-20T17:07
+updated: 2025-03-27T17:46
 ---
 **Sito:** [link](https://twiki.di.uniroma1.it/twiki/view/Algoritmi2/PALGdiario2014_2)
 
 - [[Algo L9 - 17 Mar]]
 - [[Algo L10 - 20 Mar]]
+- [[Algo L11 - 27 Mar]]
 
 ---
 
@@ -29,9 +30,7 @@ updated: 2025-03-20T17:07
 >- [[Visita in Ampiezza (BFS) - Grafi]] 🟢
 >- [[Albero BFS]] 🟢
 
-
-
 Algoritmi da fare:
-- Albero percorsi minimi
-- Algoritmo che controlla se due nodi sono conessi
+- Albero percorsi minimi con output vettore dei padri
+- Algoritmo che controlla se due nodi sono connessi
 - algoritmo se ti dice se ci sono cilci

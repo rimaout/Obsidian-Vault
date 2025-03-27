@@ -2,7 +2,7 @@
 type: "[[Uni MOC]]"
 academic year: 2024/2025
 created: 2025-03-03T16:43
-updated: 2025-03-19T09:33
+updated: 2025-03-26T09:07
 ---
 **Sito:** 
 
@@ -11,4 +11,5 @@ updated: 2025-03-19T09:33
 - [[OS L3 - 10 Mar]]
 - [[OS L4 - 14 Mar]]
 - [[OS L5 - 17 Mar]]
-- [[OS L6 - 19 Mar]] (C)
+- [[OS L6 - 19 Mar]] (C1)
+- [[OS L7 - 26 Mar]] (C1)

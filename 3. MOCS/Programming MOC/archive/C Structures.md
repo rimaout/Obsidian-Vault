@@ -4,7 +4,7 @@ type: Programming Note
 programming language: "[[C MOC]]"
 related: 
 completed: true
-updated: 2024-05-27T13:29
+updated: 2025-03-26T13:47
 ---
 ---
 ## Define Structures
@@ -55,8 +55,8 @@ struct Person {
 ```
 
 In both cases:
--   person1 and person2 are `struct Person` variables
--   p[] is a `struct Person` array of size 20.
+-   `person1` and `person2` are `struct Person` variables
+-   `p[]` is a `struct Person` array of size 20.
 
 ---
 

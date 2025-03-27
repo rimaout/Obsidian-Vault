@@ -4,7 +4,7 @@ type: "[[Programming MOC]]"
 related:
   - "[[Programmazione ad Oggetti]]"
   - "[[Metodologie di Programmazione (class)]]"
-updated: 2025-02-12T08:24
+updated: 2025-03-23T15:50
 ---
 >[!abstract] Basics
 >- [[Hello Word in java]] 🟢
@@ -18,16 +18,13 @@ updated: 2025-02-12T08:24
 >- [[Java - Wrapper Classes, Auto-boxing and Auto-unboxing]] 🔵
 >- [[Java Operators]] 🟡
 >- [[Java Casting]] 🟢
->- [[Java - Strings]]
 
 >[!abstract] Flow Control
 >- [[Java if...else]] 🟢
 >- ﻿﻿[[Java switch Statement]]
->- [[Java for Loop]]
->- [[Java - for-each Loop]]
->- [[Java - while Loop]]
 
 >[!abstract] Object Oriented Programming
+>
 >- [[Java - Class and Objects]]
 >- [[Java - Fields & Methods]] 🔵
 >- [[Java - Constructor]]
@@ -50,10 +47,10 @@ updated: 2025-02-12T08:24
 >- [[Java - Interfaces]] 🔵
 >- [[Java - SAM & Functional Interfaces]] 🔵
 >- [[Java - Notable Interfaces]] 🔵
->- [[Java - Notable Functional Interfaces]] 🔵 <-
->- [[Java - Lambda Expressions]] 🔵 <-- vedi roba di memoria
->- [[Java - Anonymous Classes]] 🔵 <--
->- [[Java -  Method Reference]] 🔵 <--
+>- [[Java - Notable Functional Interfaces]] 🔵
+>- [[Java - Lambda Expressions]] 🔵
+>- [[Java - Anonymous Classes]] 🔵 
+>- [[Java -  Method Reference]] 🔵
 >
 >**Object Methods:**  
 >- [[Java - HashCode & Equals Methods]] 🔵
@@ -61,7 +58,7 @@ updated: 2025-02-12T08:24
 
 >[!abstract] Generics Types
 >- [[Java - Generic Types]] 🔵
->- [[Java - Jolly Operator (?)]] 🔵 <--
+>- [[Java - Jolly Operator (?)]] 🔵
 >- [[Java - PECS]] 🔵
 >- [[Java - Cancellazione del Tipo  (type erasure)]] 🔵
 >- [[Java - Tipi RAW]] 🔵
