@@ -6,11 +6,11 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2025-03-11T10:01
-updated: 2025-03-13T08:42
+updated: 2025-04-02T14:57
 ---
 ## Definizioni
 
-Durante la visita **DFS** posso incontrare nodi già visitati in tre modi diversi:
+Durante la visita **DFS** di un grafo diretto posso incontrare nodi già visitati in tre modi diversi:
 
 - **archi in avanti:** archi che collegano un antenato ad un discendente.
 - **archi all’indietro** archi che collegano un discendente ad un antenato.
@@ -20,7 +20,7 @@ Durante la visita **DFS** posso incontrare nodi già visitati in tre modi divers
 >
 >![[Screenshot 2025-03-11 at 09.55.18.png|600]]
 >
->>***oss:*** gli archi in grassetto sono archi "normali", ovvero che collegano un nodo `a` ad un nodo `b`, dove `b` non era stato ancora visitato
+>>***oss:*** gli archi in grassetto sono gli *archi in avanti*, ovvero che collegano un nodo `a` ad un nodo `b`, dove `b` non era stato ancora visitato.
 
 ## Esercizio Ricerca Ciclo
 
@@ -83,7 +83,7 @@ def DFSr(u, G, visitati):
 			if DFSr(v, G, visitati):
 				return True
 
-	visitati = 2 # Nodo completamente esplorato
+	visitati[u] = 2 # Nodo completamente esplorato
 	return DFSr(u, G, visitati)
 ```
 

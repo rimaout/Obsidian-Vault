@@ -5,7 +5,7 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2025-03-27T17:47
-updated: 2025-03-27T18:01
+updated: 2025-04-02T23:30
 ---
 ## Ricerca cammini minimi su grafi con pesi anche negativi
 
@@ -17,4 +17,9 @@ updated: 2025-03-27T18:01
 
 >[!warning] Proprietà
 >
+>Se il grafo `G` non contiene cicli negativi, allora per ogni nodo `t` raggiungibile dalla sorgente `s` esiste un cammino di costo minimo che attraversa al più `n-1` archi.
 >
+>Questo perché un cammino minimo non percorre mai un nodo più di una volta.
+>
+>***Quindi:*** Questo garantisce che il costo minimo può essere calcolato considerando solo cammini di questa lunghezza
+

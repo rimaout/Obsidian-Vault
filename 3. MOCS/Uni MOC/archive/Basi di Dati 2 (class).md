@@ -4,7 +4,7 @@ type: Uni Note
 academic year: 2024/2025
 completed: false
 created: 2025-02-26T14:31
-updated: 2025-03-26T13:42
+updated: 2025-04-01T08:15
 ---
 **Sito:** [link](https://elearning.uniroma1.it/course/view.php?id=17659&section=5)
 
@@ -37,3 +37,5 @@ updated: 2025-03-26T13:42
 >
 >- [[Accademia 2]]
 >- [[Impiegati e Studenti]]
+>- [[Go]]
+>  [[Esercitazioni Universitarie 1]]

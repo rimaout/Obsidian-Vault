@@ -6,13 +6,13 @@ academic year: 2024/2025
 related: 
 completed: true
 created: 2025-03-06T17:14
-updated: 2025-03-06T17:30
+updated: 2025-04-02T22:59
 ---
 ## Introduzione
 
 Una visita profonda DFS (Depth-First Search) su un grafo è un algoritmo di ricerca che esplora il grafo visitando i nodi in profondità, cioè esplorando il più possibile lungo ogni ramo prima di tornare indietro.
 
-Quando si vista un grafo è importante non andare in loop, ovvero non dobbiamo visitare più volte lo stesso nodo.
+Quando si visita un grafo è importante non andare in loop, ovvero non dobbiamo visitare più volte lo stesso nodo.
 
 ---
 ## Versione Matrice di Adiacenza
@@ -120,4 +120,3 @@ Per l’algoritmo DFS conviene utilizzare la versione con liste di adiacenza ris
 Nel **caso migliore** abbiamo un ***grafo sparso*** con $m = \Theta(n)$ e quindi otteniamo $\Theta(n) + \Theta(m) = \Theta(n)$
 
 Nel **caso peggiore** abbiamo un ***grafo completo*** con  $m = n^{2}$ e quindi otteniamo $\Theta(n) + \Theta(m) = \Theta(n^{2})$
-

@@ -6,7 +6,7 @@ academic year: 2024/2025
 related: 
 completed: true
 created: 2025-03-07T14:09
-updated: 2025-03-23T12:24
+updated: 2025-04-02T23:01
 ---
 ## Introduzione
 
@@ -14,7 +14,7 @@ Dato un grafo connesso `G`, volgiamo sapere se è possibile colorare in `k` colo
 
 >[!example] Esempio grafo 3-colorabile
 >
->![[Pasted image 20250307101133.png|00]]
+>![[Pasted image 20250307101133.png|600]]
 
 >[!warning] Minimo e Massimo
 >- Il numero massimo di colori è `n` dove `n` è il numero di nodi (grafo completo).
@@ -26,7 +26,7 @@ Dato un grafo connesso `G`, volgiamo sapere se è possibile colorare in `k` colo
 Esistono diversi algoritmi che ci permettono di determinare il numero di colori in cui un grafo è colorabile, ad esempio:
 - è stato dimostrato che un grafo planare richiede al più 4 colori.
 - non si conosce un algoritmo polinomiale per dimostrare che un grafo è 3-colorabile.
-- ma si esiste un algoritmo per la [[#Algoritmo bi-colorabile|bi-colorabilità]]
+- ma si esiste un algoritmo per la [[#Algoritmo bi-colorabile|bi-colorabilità]].
 
 ---
 ## Algoritmo bi-colorabile

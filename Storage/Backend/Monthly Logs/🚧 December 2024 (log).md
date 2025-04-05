@@ -1,6 +1,6 @@
 ---
 created: 2025-01-01T21:51
-updated: 2025-03-16T13:09
+updated: 2025-03-29T21:34
 tags:
   - monthly-log
 ---
@@ -22,7 +22,8 @@ Write about ticket to ride Europe and
 
 ## Video Games
 
-Write about the world of lana
+In the evening when I wasn’t playing board boardgames I played [Planet of Lana](https://planetoflana.com/), a short puzzle game with the visual stile inspired by films form [Studio Ghibli](https://en.wikipedia.org/wiki/Studio_Ghibli "Studio Ghibli").
+
 
 ## 🌐 Site Update
 
