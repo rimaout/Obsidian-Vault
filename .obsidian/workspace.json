@@ -22,8 +22,65 @@
               "icon": "lucide-file",
               "title": "Algoritmi 2 (class)"
             }
+          },
+          {
+            "id": "f5804e0df58494b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. MOCS/Uni MOC/archive/Algo L11 - 27 Mar.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Algo L11 - 27 Mar"
+            }
+          },
+          {
+            "id": "aa7b8e8043cd0921",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://alem1105.github.io/Quartz/vault/Secondo-Anno/Secondo-Semestre/Progettazione-di-Algoritmi/Cammini-con-Pesi-Negativi",
+                "title": "Cammini con Pesi Negativi",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "Cammini con Pesi Negativi"
+            }
+          },
+          {
+            "id": "22d94d3953f762ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. MOCS/Uni MOC/archive/Ripasso Iniziale di Algo 1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Ripasso Iniziale di Algo 1"
+            }
+          },
+          {
+            "id": "6ef2bc74af5bb9ea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Storage/Backend/Monthly Logs/🚧 December 2024 (log).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "🚧 December 2024 (log)"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -55,7 +112,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#colora",
+                "query": "tag:monthly-log",
                 "matchingCase": true,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -86,7 +143,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -276,13 +334,26 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "9fdc480e7e6edb27",
+  "active": "6ef2bc74af5bb9ea",
   "lastOpenFiles": [
-    "3. MOCS/Uni MOC/archive/Algo L11 - 27 Mar.md",
+    "Storage/Backend/Monthly Logs/attachments/lana.png",
+    "3. MOCS/Tech MOC/archive/Git Submodules.md",
+    "Storage/Backend/Monthly Logs/🚧 December 2024 (log).md",
+    "Storage/Backend/Monthly Logs/🌰 November 2024 (Log).md",
+    "3. MOCS/Uni MOC/archive/Ripasso Iniziale di Algo 1.md",
+    "3. MOCS/Uni MOC/archive/Albero BFS.md",
     "3. MOCS/Uni MOC/archive/Algoritmi 2 (class).md",
-    "3. MOCS/Uni MOC/archive/Algo L12 - 31 Mar.md",
+    "3. MOCS/Uni MOC/archive/Algo L11 - 27 Mar.md",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250405202944.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250405202725.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250405202705.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250405202646.png",
+    "3. MOCS/Uni MOC/archive/Grafi Pesati e Percorso Minimo.md",
+    "3. MOCS/Uni MOC/archive/Albero minimo di copertura - Grafi.md",
+    "Storage/Backend/Monthly Logs/Monthly Logs.md",
     "3. MOCS/Uni MOC/archive/Algo L10 - 20 Mar.md",
     "To-Do/Algo L9 - 17 Mar.md",
+    "3. MOCS/Uni MOC/archive/Algo L12 - 31 Mar.md",
     "3. MOCS/Uni MOC/archive/Visita in Ampiezza (BFS) - Grafi.md",
     "3. MOCS/Uni MOC/archive/Ricerca Ponti - Grafi.md",
     "3. MOCS/Uni MOC/archive/Ordinamento Topologico - Grafi.md",
@@ -294,26 +365,13 @@
     "3. MOCS/Uni MOC/archive/Rappresentazione dei Grafi.md",
     "3. MOCS/Uni MOC/archive/Introduzione Grafi.md",
     "3. MOCS/Uni MOC/archive/Archi già Visitati - Grafi.md",
-    "3. MOCS/Uni MOC/archive/Ripasso Iniziale di Algo 1.md",
     "3. MOCS/Uni MOC/archive/Reti L11 - 01 Apr.md",
     "3. MOCS/Programming MOC/archive/C MOC.md",
-    "3. MOCS/Uni MOC/archive/Homework C1.md",
-    "3. MOCS/Uni MOC/archive/Sistemi Operativi 2 (class).md",
-    "3. MOCS/Uni MOC/archive/Rappresentazione tramite vettore dei padri (Alberi Binari).md",
-    "3. MOCS/Uni MOC/archive/Reti L10 - 28 Mar.md",
-    "3. MOCS/Uni MOC/archive/Reti (class).md",
-    "3. MOCS/Uni MOC/archive/Reti L9 - 27 Mar.md",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250401150105.png",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250401150102.png",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250401145450.png",
-    "3. MOCS/Uni MOC/archive/Tipi di dato (UML).md",
-    "3. MOCS/Uni MOC/archive/Esercitazioni Universitarie 1.md",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250328143328.png",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250327150102.png",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250327150053.png",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250325131939.png",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250324114153.png",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250324110058.png",
     "To-Do/attachments",
     "3. MOCS/Uni MOC/archive/attachments/Recording 20250319144542.m4a",
     "3. MOCS/Uni MOC/archive/Introduzione allo stack protocollare TCP",

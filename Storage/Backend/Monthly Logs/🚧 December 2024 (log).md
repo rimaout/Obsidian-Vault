@@ -1,29 +1,22 @@
 ---
 created: 2025-01-01T21:51
-updated: 2025-03-29T21:34
+updated: 2025-04-06T23:42
 tags:
   - monthly-log
 ---
--- 🚧 work in progress, come back later 🚧 --
+## Video games worth of enjoying
 
-## Christmas Gifts
+Since I was little, I’ve always had a passion for playing video games. However, university brought a much busier and more strict schedule, making it hard to dedicate time to “wasteful” activities like gaming.
 
-The best Christmas gift i received this year was [Ghosty 👻](https://github.com/ghostty-org). 
+I understood that things were becoming unhealthy when even the thought of choosing my next game turned into a stressful decision, as my mind stared thinking of all the other,  more productive things I could be doing.
 
-add: https://ghostty.zerebos.com/
+To overcome this, I started exploring smaller and simpler games, that require less time and commitment. This not only allowed me to enjoy gaming sacrificing less precious hours, but also made me possible to discover "hidden" gems from independent studios. These games, are seen to stupid ape brain as *small work of art worth of enjoying*.
 
-add who made it, when it was released (around Christmas but before was in a private alpha so it is already super stable) why is such interesting project (fast and feature reach but not bloted like Iterm), in future there will be plugins (application for the terminal) but the thing i like the most is the community backing the project. It's also native this means that the "backend" is written in zig but the fronted is written in a laguage native to the OS this means that on mac the app uses swift to have full integration with the os and on linux uses ... (vedi se ci sono differenze per gnome e gli altri, forse usa gtk4?) [Interview](https://www.youtube.com/watch?v=YQnz7L6x068)
+For example, this month I played [Planet of Lana](https://planetoflana.com) a crazy beautiful, story driven, short puzzle game characterized by a cozy visual style that brings to mind the films form [Studio Ghibli](https://en.wikipedia.org/wiki/Studio_Ghibli "Studio Ghibli"), which can be enjoyed in less that 5 hours. 
 
-Write about real gifts (add photo of the office cup, the tee infuser and the board game.
+![[lana.png]]
 
-## Board Games
-
-Write about ticket to ride Europe and 
-
-## Video Games
-
-In the evening when I wasn’t playing board boardgames I played [Planet of Lana](https://planetoflana.com/), a short puzzle game with the visual stile inspired by films form [Studio Ghibli](https://en.wikipedia.org/wiki/Studio_Ghibli "Studio Ghibli").
-
+>This game screen shots are taken from steam reviews of the game, I wanted to use to use my own screenshots but I lost the save files :(
 
 ## 🌐 Site Update
 
@@ -37,10 +30,9 @@ But I like automating things so I decided to use two separate repos one for quar
 git submodule update --remote content/vault
 ```
 
-This is how I have always updated my site content, but there is not fully autonomous because I still had to open the terminal write write the commands and push the changes. So this month I spend some time learning about git submodules, Github secrets and actions and I have been able to use this things to completely automate the site content update. Now each time I push the changes of my obsidian vault to Github the quartz repo is notified about the change and *automagicaly* updates all the submodules. 
-
-If you want to learn how to do this, I have written a [[Using GitHub Actions to automatically update repo's submodules|small guide]], and if you want to replicate my site here is the entire process documented: [[Quartz Setup Proces|how I setup quartz]].
+This is how I have always updated my site content, but there is not fully autonomous because I still had to open the terminal write the commands and push the changes. So this month I spend some time learning about git submodules, Github secrets and actions and I have been able to use this things to completely automate the site content update. Now each time I push the changes of my obsidian vault to Github the quartz repo is notified about the change and *automagicaly* updates all the submodules. If you want to learn how to do this, I have written a [[Using GitHub Actions to automatically update repo's submodules|small guide]].
 
 ---
 
 >**See all the other monthly logs:** [[Monthly Logs#📦 Log Archive|📦 Log Archive]]
+
