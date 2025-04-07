@@ -1,6 +1,6 @@
 ---
 created: 2024-10-05T20:08
-updated: 2025-02-26T10:23
+updated: 2025-04-07T09:49
 ---
 👋 Welcome to my monthly log! This is a space that serves as a way to keep track of and document what I do and experience throughout the year. 
 
@@ -181,7 +181,7 @@ If you're intrigued by this project, I suggest starting with their [first video 
 
 - [[🚧 February 2025 (Log)]]
 - [[🚧 January 2025 (log)]]
-- [[🚧 December 2024 (log)]]
+- [[🎄 December 2024 (log)]]
 - [[🌰 November 2024 (Log)]]
 - [[🏫 October 2024 (Log)]]
 - [[🕹️ September 2024 (Log)]]

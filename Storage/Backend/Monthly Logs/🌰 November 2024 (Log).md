@@ -1,6 +1,6 @@
 ---
 created: 2024-11-17T17:17
-updated: 2025-01-09T18:32
+updated: 2025-04-07T10:00
 tags:
   - monthly-log
 ---
@@ -161,7 +161,7 @@ If you're intrigued by this project, I suggest starting with their [first video 
 
 >P.S. Their website, community platform are open source on [their Github](https://github.com/ONEARMY).
 
-![[Pasted image 20241126113719 1.jpg|900]]
+![[projectkamp_image.webp|800]]
 
 ## Other things that made my November
 
