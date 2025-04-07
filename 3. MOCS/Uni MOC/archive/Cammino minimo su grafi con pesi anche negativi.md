@@ -1,11 +1,11 @@
 ---
 type: Uni Note
-class: 
+class: "[[Algoritmi 2 (class)]]"
 academic year: 2024/2025
 related: 
-completed: false
-created: 2025-03-27T17:47
-updated: 2025-04-06T09:15
+completed: true
+created: 2025-04-07T10:07
+updated: 2025-04-07T10:07
 ---
 ## Introduzione
 
@@ -138,4 +138,10 @@ def CostoCammini(G, s):
 
 >[!warning] Ottimizzazioni
 >
->
+>**Proprietà Tabella:**
+>- Se notiamo che una riga è uguale alla precedente allora anche le righe successive non cambieranno, possiamo quindi terminare l’algoritmo.
+>- Non serve avere sempre in memoria l’intera tabella, ci basta l’ultima riga e la precedente. In questo modo riduciamo la complessità di spazio da $O(n^{2})$ a $O(n)$.
+>  
+>**Rilevamento Cicli Negativi:**
+>- Questo algoritmo non si accorge se ci sono o no cicli negativi, se vogliamo però effettuare un test, ci basta calcolare i percorsi fino a distanza `n`, aggiungendo quindi una riga.
+>- Le ultime due righe `n−1` e `n` saranno uguali se e solo se nel grafo non ci sono cicli negativi raggiungibili da `s`. Implementare il test non cambia l’asintotica dell’algoritmo.

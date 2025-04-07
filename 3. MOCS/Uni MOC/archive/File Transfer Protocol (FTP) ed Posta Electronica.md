@@ -1,14 +1,12 @@
 ---
 type: Uni Note
-class: 
+class: "[[Reti (class)]]"
 academic year: 2024/2025
 related: 
-completed: false
-created: 2025-03-18T14:21
-updated: 2025-03-26T08:18
+completed: true
+created: 2025-04-07T18:00
+updated: 2025-04-07T18:00
 ---
-# File Transfer Protocol (FTP) ed Posta Electronica
-
 ## File Transfer Protocol (FTP)
 
 L'FTP è un programma per il trasferimento di file da un host ad un altro host remoto; si basa sul modello client/server:
@@ -121,9 +119,13 @@ I sistema della posta elettronica si basa su tre componenti principali:
 
 Per il trasferimento delle mail si utilizzando diversi tipi di protocolli.
 
-Per l'invio di mail da client ad un server si utilizzando:
+Per l'invio di mail da *client* ad un *server* si utilizzando:
 - [[#SMTP (Simple Mail Transfer Protocol)]]
 - [[#MIME (Multipurpose Internet Mail Extension)]]
+  
+Per l'invio di mail da un *server* ad un *client* si utilizzano:
+- [[#Protocollo POP3 (Post Office Protocol)]]]
+- [[#Protocollo IMAP (Internet Message Access Protocol)]]
 
 ![[Pasted image 20250318143844.png|800]]
 
@@ -135,7 +137,17 @@ La comunicazione tra client e server è composta da 3 fasi:
 - Handshaking
 - Trasferimento di messaggi
 - Chiusura
-  
+
+>[!note] Formato Messaggi SMTP
+>
+>Per il formato si utilizza lo standard RFC 822, composto da un intestazione ed un corpo.
+>
+>L'**intestazione** ha le seguenti sezioni:
+>
+>![[Pasted image 20250407170451.png|650]]
+>
+>Il **corpo** non è altro che una sequenza di *caratteri ASCII*.
+
 >[!warning] Testo ASCII
 >
 >Questo protocollo permette di inviare soltanto caratteri con formattazione ASCII 7 bit, sia per i comandi che per i messaggi (mail) inviati.
@@ -156,24 +168,70 @@ La comunicazione tra client e server è composta da 3 fasi:
 
 ### MIME (Multipurpose Internet Mail Extension)
 
-Il protocollo MIME consente di inviare file multimediali via mail, convertendoli in caratteri ASCII 7bit.
+Il protocollo MIME consente di inviare file multimediali via mail, convertendoli e de-convertendoli in caratteri ASCII 7bit.
 
-Per fare ciò è necessario fornire delle intestazioni aggiuntive:
+![[Pasted image 20250407170657.png|700]]
 
-![[Screenshot 2025-03-18 at 14.46.40.png|800]]
+>[!note] Formato Invio
+>
+>Per inviare contenuti diversi dal testo ASCII si usano intestazioni aggiuntive
+>
+>![[Screenshot 2025-03-18 at 14.46.40.png|700]]
 
-### Protocollo POP3
+>[!note] Formato Ricezione
+>
+>Un’altra classe di righe di intestazione viene inserita dal server di ricezione SMTP
+>
+>In particolare il server di ricezione aggiunge **Received** in cima al messaggio, che specifica il nome del server che ha inviato il messaggio (from), il nome del server che lo ha ricevuto (by), e l’orario di ricezione.
+>
+>![[Pasted image 20250407171228.png|700]]
 
-Permette al client di destinazione di ricevere la posta, 
+### Protocollo POP3 (Post Office Protocol)
+
+Permette al client di destinazione di ricevere la posta.
 
  Quando la connessione è stabilita si procede in 3 fasi
-1. **Autorizzazione**: L’agente utente invia nome utente e password per essere identificato
+1. **Autorizzazione**: L’agente utente invia *nome utente* e *password* per essere identificato
 2. **Transazione**: L’agente utente recupera i messaggi
-3. **Aggiornamento**: Dopo che il client ha inviato il QUIT, e quindi conclusa la connessione, vengono cancellati i messaggi marcati per la rimozione.
-   
-### Protocollo IMAP
+3. **Aggiornamento**: Dopo che il client ha inviato il `QUIT`, e quindi conclusa la connessione, vengono cancellati i messaggi marcati per la rimozione.
 
-
->[!question] Differenza tra POP3 e IMAP
+>[!note] Comandi
 >
+>Comandi utilizzabili con POP3, possiamo distinguerli in due fasi della comunicazione:
+>
+>Fase di Autorizzazione
+>- `user` dichiara il nome dell’utente
+>- `pass` password
+>- Il server può rispondere con `+OK` o `-ERR`
+>
+>Fase di Transazione
+>- `list` elenca i numeri dei messaggi
+>- `retr` ottiene i messaggi in base al numero
+>- `dele` cancella
+>- `quit`
+>
+>![[Pasted image 20250407175243.png|600]]
 
+>[!note] Protocollo locale senza stato
+>
+>Con il POP3 quindi, usando la modalità “scarica e cancella” non possiamo rileggere le mail se cambiamo client, queste infatti non saranno più disponibili sul server.
+>
+>L’utente infatti non può nemmeno creare cartelle o altro sul server, va tutto creato in locale sul proprio computer.
+
+### Protocollo IMAP (Internet Message Access Protocol)
+
+IMAP consente di **creare cartelle anche sul server** e di organizzare quindi i messaggi **mantenendo lo stato** delle sessioni dell’utente.
+
+Il protocollo per fare questo associa a una cartella ogni messaggio arrivato dal server e poi fornisce agli utenti dei comandi per:
+- Creare cartelle e spostare messaggi da una cartella all’altra
+- Effettuare ricerche nelle cartelle del server Mantengono informazioni su:
+- Nomi cartelle
+- Associazioni messaggi - cartelle
+
+Inoltre vengono forniti comandi per ottenere le componenti dei messaggi:
+- Intestazione
+- Corpo del messaggio
+
+## HTTP
+
+Alcuni mail server consentono l’accesso tramite web ovvero tramite HTTP, in questo caso l’agente utente diventa il browser e comunica con il suo mailbox tramite HTTP e anche il ricevente usa HTTP per accedere alla mailbox.

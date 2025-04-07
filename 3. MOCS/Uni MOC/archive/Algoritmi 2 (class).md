@@ -4,12 +4,11 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2025-02-27T16:31
-updated: 2025-04-05T20:21
+updated: 2025-04-07T11:27
 ---
 **Sito:** [link](https://twiki.di.uniroma1.it/twiki/view/Algoritmi2/PALGdiario2014_2)
 
-- [[Algo L11 - 27 Mar]]
-- [[Algo L12 - 31 Mar]]
+- [[Algo L13]]
 
 ---
 
@@ -34,4 +33,8 @@ updated: 2025-04-05T20:21
 >- [[Grafi Pesati e Percorso Minimo]] 🟢
 >- [[Albero minimo di copertura - Grafi]] 🟢
 >- [[Cammino minimo su grafi con pesi anche negativi]]
+>  
+>  
+>**Extra:** [[UNION-FIND Data Structure]] 🔴
 
+- [[Problemi di Ottimizzazione]] 🟡 (da finire, mancano esempi)

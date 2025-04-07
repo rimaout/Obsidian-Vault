@@ -5,15 +5,22 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2025-03-20T14:15
-updated: 2025-03-20T15:07
+updated: 2025-04-07T22:31
 ---
-# Introduzione Livello Trasporto
 
-afdòkjklsòjf
+## Introduzione
+
+I protocolli di trasporto forniscono la comunicazione logica tra processi applicativi di host differenti, ovvero gli host eseguono i processi come se fossero direttamente connessi. 
+
+I protocolli di trasporto vengono eseguiti nei sistemi terminali e funzionano con un meccanismo di **incapsulamento** quando si invia un messaggio e **decapsulamento** quando si riceve.
+
+A livello di rete abbiamo una comunicazione tra host basata sui servizi del livello di collegamento mentre a livello di trasporto una comunicazione tra processi basata sui servizi del livello di rete.
+
+![](https://alem1105.github.io/Quartz/vault/Primo-Anno/Primo-Semestre/Immagini/Pasted-image-20250322131458.png)
 
 ## Indirizzamento
 
-La maggior parte dei sistemi operativi è multiutente e multi-processo:
+La maggior parte dei sistemi operativi è multi-utente e multi-processo:
 - Diversi processi client attivi (host locale)
 - Diversi processi server attivi (host remoto)
 
@@ -23,14 +30,24 @@ Per stabilire una comunicazione tra i due processi è necessario un metodo per i
 - Processo locale
 - Processo remoto
 
->[!warning] Porta vs IP
+>[!warning] Porta vs IP e Socket Address
 >
 >- Ad un *host* è associato un **indirizzo IP**.
->- Ad un *processo* è associata una **porta**
+>- Ad un *processo* è associata una **porta**.
+>  
+>La combinazione di indirizzo IP + porta prende il nome di **socket address**.
 
 ## Incapsulamento e Decapsulamento
 
+![[Pasted image 20250407222838.png|700]]
 
+Prima di venire spediti i messaggi vengono *incapsulati* ovvero viene *aggiunto un header* che verrà poi riconosciuto quando arriva a destinazione per poi essere de-capsulato per ottenere il messaggio senza header.
+
+Questi pacchetti si chiamano:
+- **segmenti** se usiamo ***TCP***
+- **datagrammi** utente se usiamo ***UDP***
+
+Questo processo prende anche il nome di **Multiplexing / Demultiplexing**
 
 ## Multiplexing e Demultiplexing
 

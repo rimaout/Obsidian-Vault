@@ -5,7 +5,7 @@ academic year: 2024/2025
 related: 
 completed: true
 created: 2025-04-05T20:05
-updated: 2025-04-05T20:05
+updated: 2025-04-07T10:11
 ---
 ## Introduzione
 
@@ -86,7 +86,7 @@ def DFSr(a, b, T, visitati):
 
 Il costo elevato della [[#Implementazione non Ottimizzata|versione appena vista]] dipende fatto che utilizziamo la funzione connessi per determinare se due nodi sono uniti da un percorso.
 
-Per ridurre questo costo utilizziamo la struttura dati [[UNION-FIND]] per determinare efficientemente se i due nodi appartengono alla stessa componente connessa. Grazie a questa tecnica possiamo ridurre il costo a $O(m \log n)$.
+Per ridurre questo costo utilizziamo la struttura dati [[UNION-FIND Data Structure|UNION-FIND]] per determinare efficientemente se i due nodi appartengono alla stessa componente connessa. Grazie a questa tecnica possiamo ridurre il costo a $O(m \log n)$.
 
 >[!note] Definizione
 >

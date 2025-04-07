@@ -5,7 +5,7 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2025-04-01T14:30
-updated: 2025-04-01T15:27
+updated: 2025-04-07T18:25
 ---
 ## Controllo della congestione
 
@@ -34,7 +34,6 @@ Lo stato di una rete può essere determinato in base alla quantità di perdita c
 
 Esistono due principali versioni **TCP Taho** e **TCP Reno**.
 
-
 >[!note] Taho
 
 Miglioramenti fòdaksjfòlksajdf
@@ -44,7 +43,6 @@ Miglioramenti fòdaksjfòlksajdf
 >Utilizza congestion avoidance, start recovery e slow start
 >
 >![[Pasted image 20250401145450.png|800]]
-
 
 ## Time Out
 

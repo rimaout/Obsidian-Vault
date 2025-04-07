@@ -1,10 +1,10 @@
 ---
 created: 2025-01-01T21:51
-updated: 2025-04-07T09:59
+updated: 2025-04-07T22:08
 tags:
   - monthly-log
 ---
-## Video games worth of enjoying
+## 🕹️ Video games worth of enjoying
 
 Since I was little, I’ve always had a passion for playing video games. However, university brought a much busier and more strict schedule, making it hard to dedicate time to “wasteful” activities like gaming.
 
@@ -12,7 +12,9 @@ I understood that things were becoming unhealthy when even the thought of choosi
 
 To overcome this, I started exploring smaller and simpler games, that require less time and commitment. This not only allowed me to enjoy gaming sacrificing less precious hours, but also made me possible to discover "hidden" gems from independent studios. These games, are seen to stupid ape brain as *small work of art worth of enjoying*.
 
-For example, this month I played [Planet of Lana](https://planetoflana.com) a crazy beautiful, story driven, short puzzle game characterized by a cozy visual style that brings to mind the films form [Studio Ghibli](https://en.wikipedia.org/wiki/Studio_Ghibli "Studio Ghibli"), which can be enjoyed in less that 5 hours. 
+For example, this month I played [Planet of Lana](https://planetoflana.com) a crazy beautiful, story driven, short platform/puzzle game characterized by a cozy visual style that brings to mind the films form [Studio Ghibli](https://en.wikipedia.org/wiki/Studio_Ghibli "Studio Ghibli"), which can be enjoyed in less that 5 hours. 
+
+Everything in this game, from the gameplay to the story, is simple yet meticulously curated. What I loved most is the world it’s set in a planet that once enjoyed a balanced coexistence between humans, nature, and animals, and is now at risk of change. *This isn’t a story about war*, it’s a story of a beautiful planet and the journey to preserve its harmony.
 
 ![[planet_of_lana_image.webp]]
 
