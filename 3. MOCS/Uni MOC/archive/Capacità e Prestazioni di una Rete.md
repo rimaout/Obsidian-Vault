@@ -5,7 +5,7 @@ academic year: 2024/2025
 related: 
 completed: true
 created: 2025-03-13T10:21
-updated: 2025-03-18T09:42
+updated: 2025-04-09T09:58
 ---
 ## Introduzione
 
@@ -61,8 +61,7 @@ Rappresenta il numero di bit al secondo (`bps`) che passano attraverso un punto 
 >
 >Il rate è una misura della potenziale velocità di un link, il throughput è una misura dell’effettiva velocità di un link (quanto velocemente riusciamo a inviare i dati in realtà).
 >
->Un link può avere un rate di `R` bps, ma possiamo inviare solo `T` bps (throughout) tramite
-quel link, con `T ≤ R`.
+>Un link può avere un rate di `R` bps, ma possiamo inviare solo `T` bps (throughout) tramite quel link, con `T ≤ R`.
 
 >[!note] Bottleneck
 >

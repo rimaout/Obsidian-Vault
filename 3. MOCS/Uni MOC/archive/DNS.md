@@ -5,7 +5,7 @@ academic year: 2024/2025
 related: 
 completed: true
 created: 2025-03-20T12:15
-updated: 2025-03-20T12:15
+updated: 2025-04-09T10:05
 ---
 ## Identificazione degli Host
 
@@ -195,7 +195,7 @@ Ogni RR mantiene un mapping, esistono diversi tipi di record in base alla chiave
 >- `RR (uniroma1.it, dns.uniroma1.it, NS)`
 >- `RR (dns.uniroma1.it, 128.119.40.111, A)`
 
->[!note] Type A
+>[!note] Type CNAME
 >
 >```
 >Alias -> Canonical Name
@@ -206,12 +206,12 @@ Ogni RR mantiene un mapping, esistono diversi tipi di record in base alla chiave
 >- **type** è `CNAME`
 >
 >```
->Esempio: RR: (relay1.bar.foo.com, 45.37.93.126, A)
+>Esempio: RR: (foo.com, relay1.bar.foo.com, CNAME)
 >```
 
 ^45b2b1
 
->[!note] Type CNAME
+>[!note] Type A
 >
 >```
 >Hostname -> IP address
@@ -222,7 +222,7 @@ Ogni RR mantiene un mapping, esistono diversi tipi di record in base alla chiave
 >- **type** è `A` che sta per address
 >
 >```
->Esempio: RR: (foo.com, relay1.bar.foo.com, CNAME)
+>Esempio: RR: (relay1.bar.foo.com, 45.37.93.126, A)
 >```
 
 ^72436c

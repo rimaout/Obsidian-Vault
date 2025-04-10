@@ -6,7 +6,7 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2025-02-18T16:16
-updated: 2025-03-19T18:11
+updated: 2025-04-08T22:08
 ---
 >[!note]- Def 1: Dipendenza Funzionale 🟢
 >
@@ -210,7 +210,7 @@ updated: 2025-03-19T18:11
 >>
 >>Visto che per ***ipotesi induttiva*** $V \to W \in F^{+}$ allora possiamo dire che `t1[V] = t2[V]` porta ad avere `t1[W] = t2[W]`. Quindi otteniamo che `t1[Y] = T2[Y]` (ovvero  `t1[VZ] = t2[WZ]`).
 >
->>**3.** $X \to Y$ ottenuta applicando l'**assioma della transitività** su due dipendenze $X \to Z$ e $Z \to Y$ appartenenti as $F^{A}$:
+>>**3.** $X \to Y$ ottenuta applicando l'**assioma della transitività** su due dipendenze $X \to Z$ e $Z \to Y$ appartenenti a $F^{A}$:
 >>
 >>Sia `r` un istanza di `R` e siano `t1` e `t2` due tuple in `r`tali che `t1​[X] = t2​[X]`.
 >>

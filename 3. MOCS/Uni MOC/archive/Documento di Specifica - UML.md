@@ -1,14 +1,12 @@
 ---
 type: Uni Note
-class: 
+class: "[[Basi di Dati 2 (class)]]"
 academic year: 2024/2025
 related: 
-completed: false
+completed: true
 created: 2025-04-07T16:08
-updated: 2025-04-07T16:08
+updated: 2025-04-08T09:07
 ---
-# Documento di Specifica 
-
 ## Specifica tipi di dato
 
 Documento separato da accludere allo schema concettuale, utilizzato per definire [[Tipi di dato (UML)|tipi di dati non di default]].
