@@ -6,7 +6,7 @@ related:
   - "[[Introduzione Livello Applicazione (TCP-IP)]]"
 completed: true
 created: 2025-03-17T09:41
-updated: 2025-03-18T10:05
+updated: 2025-04-11T13:02
 ---
 ## Introduzione
 
@@ -79,7 +79,7 @@ HTTP sta per **hypertext transfer protocol**, è il protocollo che HTTP definisc
 
 ## Connessione HTTP
 
-Ci sono 2 principali tecniche per ottenere avviar una comunicazione tra client e server:
+Ci sono 2 principali tecniche di comunicazione tra client e server:
 
 >[!note] Connessione non persistente
 >- Un solo oggetto (file http, imagine...) viene trasmesso su una connessione TCP
@@ -88,9 +88,9 @@ Ci sono 2 principali tecniche per ottenere avviar una comunicazione tra client e
 
 >[!note] Connessioni persistenti (attualmente utilizzate)
 >- Più oggetti possono essere trasmessi su una singola connessione TCP tra client e server
->- La connessione viene chiusa quando rimane inattiva per un lasso di tempo (timeout) configurabile.
+>- La connessione viene chiusa quando rimane inattiva per un lasso di tempo (timeout) configurabile
 
->[!note] RTT (Round Trip Time)
+>[!warning]  RTT (Round Trip Time)
 >
 >Il Round Trip Time rappresenta il tempo impiegato da un piccolo pacchetto per andare dal client al server e ritornare al client.
 >
@@ -164,11 +164,11 @@ Ci sono 2 principali tecniche per ottenere avviar una comunicazione tra client e
 >| ---------| ---------- | --------- |
 >| `1xx` | Information | 100 = server agrees to handle client's request |
 >| `2xx` | Success | 200 = request succeeded; 204 = no content present |
->| `2xx` | Redirection | 301 = page moved; 304 = cached page still valid |
->| `3xx` | Client error | 403 = forbidden page; 404 = page not found |
->| `4xx` | Server error | 500 = internal server error; 503 = try again later |
+>| `3xx` | Redirection | 301 = page moved; 304 = cached page still valid |
+>| `4xx` | Client error | 403 = forbidden page; 404 = page not found |
+>| `5xx` | Server error | 500 = internal server error; 503 = try again later |
 
-![[Pasted image 20250313145502.png|600]]
+![[Pasted image 20250313145502.png|650]]
 
 #### Esempio
 

@@ -6,7 +6,7 @@ academic year: 2024/2025
 related: 
 completed: true
 created: 2025-03-11T10:57
-updated: 2025-03-11T10:57
+updated: 2025-04-11T11:52
 ---
 ## Rete
 
@@ -254,7 +254,6 @@ Il collegamento che connette l’utente al primo router di Internet è detto **r
 ## Access Network
 
 Collegamenti fisici che connettono un sistema al primo **edge router**, un router esterno della rete [[#BackBome]].
-
 
 ![[Pasted image 20250303115524.png|400]]
 

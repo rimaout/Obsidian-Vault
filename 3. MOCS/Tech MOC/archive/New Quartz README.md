@@ -2,10 +2,10 @@
 type: Programming Note
 programming language: 
 related:
-  - "[[Quartz Setup Proces]]"
+  - "[[My Quartz Setup Process]]"
 completed: true
 created: 2024-10-03T16:56
-updated: 2025-03-16T13:15
+updated: 2025-04-13T15:06
 ---
 ---
 

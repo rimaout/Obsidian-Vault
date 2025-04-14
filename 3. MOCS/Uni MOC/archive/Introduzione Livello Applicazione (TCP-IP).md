@@ -1,11 +1,11 @@
 ---
 type: Uni Note
-class: 
+class: "[[Reti (class)]]"
 academic year: 2024/2025
 related: 
 completed: true
 created: 2025-03-17T09:10
-updated: 2025-03-17T19:05
+updated: 2025-04-11T12:38
 ---
 ## Introduzione
 
@@ -29,7 +29,7 @@ Quando si crea un applicativo sulla rete si deve prendere in considerazione che:
 Si dovrà scegliere:
 - il **tipo di architettura** client-server o peer-to-peer.
 - il come **comunicano i processi** dell'applicazione.
-- Tipi di **servizi di rete** di cui usufruirà l'applicazione.
+- tipi di **servizi di rete** di cui usufruirà l'applicazione.
 
 ### Paradigma Architettare Client Server
 
@@ -38,10 +38,10 @@ Il ruolo delle due entità è totalmente differente: non è possibile eseguire u
 >[!note] Client
 >- Richiedente il servizio
 >- In esecuzione solo quando è necessario il servizio
->- Numerosi client che richiedono il servizi
+>- Numerosi client che richiedono il servizo
 
 >[!note] Server
->- fornitore di servizi
+>- Fornitore di servizi
 >- Sempre in esecuzione, in attesa di richieste dal client
 >- Numero limitato di processi server pronti a offrire uno specifico servizio
 

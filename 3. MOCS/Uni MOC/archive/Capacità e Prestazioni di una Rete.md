@@ -5,7 +5,7 @@ academic year: 2024/2025
 related: 
 completed: true
 created: 2025-03-13T10:21
-updated: 2025-04-09T09:58
+updated: 2025-04-11T12:25
 ---
 ## Introduzione
 
@@ -125,9 +125,14 @@ Abbiamo 4 fattori che contribuiscono ai ritardi:
 >**Algoritmo:** Pacchetti trasmessi in First-come-first-served
 >
 >**Calcoli:** 
+>
+>$$
+>\text{Ritardo di trasmissione} = \frac{L}{R}
+>$$
+>
+>Dove:
 >- `R = rate del collegamento (in bps)`
 >- `L = lunghezza del pacchetto (in bit)`
->- `Ritardo di trasmissione = L/R`
 
 >[!note] Ritardo di Propagazione (propagation delay)
 >
@@ -199,4 +204,3 @@ Se la sorgente non riceve risposta da un router intermedio (o ne riceve meno di 
 Tempo di andata e ritorno (*round trip time - RTT*) ed include i 4 ritardi visti precedentemente.
 
 ![[Pasted image 20250313095825.png|700]]
-

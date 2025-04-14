@@ -5,7 +5,7 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2025-03-25T14:17
-updated: 2025-03-25T15:54
+updated: 2025-04-13T17:54
 ---
 # Esercizi
 
@@ -76,3 +76,5 @@ updated: 2025-03-25T15:54
 >$$
 >p_{3} = N_{ps} \cdot  \frac{3}{10} \cdot \left( \frac{7}{10} \right)^{N_{ps}-1}
 >$$
+
+

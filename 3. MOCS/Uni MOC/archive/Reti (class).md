@@ -3,7 +3,7 @@ type: Uni Note
 academic year: 2024/2025
 completed: false
 created: 2025-02-27T14:31
-updated: 2025-04-09T17:43
+updated: 2025-04-14T10:41
 ---
 **Sito:** [link](https://classroom.google.com/c/MjEzMzIzMjE4MDBa)
 
@@ -11,8 +11,10 @@ updated: 2025-04-09T17:43
 - [[Reti L10 - 28 Mar]]
 - [[Reti L11 - 01 Apr]]
 - [[Reti L12 - 8 Apr]]
+- [[Reti L13 - 10 Apr]]
 
 - [[Reti L8 - 25 Mar]] (esercizi)
+
 ---
 
 >[!note] Introduzione
@@ -33,3 +35,7 @@ updated: 2025-04-09T17:43
 >- [[Introduzione Livello Trasporto]] 🟢
 >- [[Protocollo UDP (User Datagram Protocol)]] 🟢
 >- [[Protocollo TCP (Transmission Control Protocol)]] 
+
+- [[Esercizi HTTP e DNS]]
+- [[Esercitazione su prestazioni di rete e livello applicazione]]
+- [[Esercizi su Livello Trasporto]]

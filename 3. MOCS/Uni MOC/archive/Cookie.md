@@ -6,7 +6,7 @@ related:
   - "[[Introduzione Livello Applicazione (TCP-IP)]]"
 completed: true
 created: 2025-03-17T17:36
-updated: 2025-03-18T10:05
+updated: 2025-04-11T13:15
 ---
 ## Introduzione
 
@@ -14,7 +14,7 @@ Il protocollo [[World Wide Web e HTTP|HTTP]] è detto "senza stato", ovvero il s
 
 Ci sono molti casi in cui il server ha bisogno di ricordarsi degli utenti, per questo si possono usare i Cookie. Il meccanismo dei Cookie rappresenta un modo per creare una sessione di richieste e risposte HTTP “con stato” (stateful).
 
-## Sesione
+## Sessione
 
 La sessione rappresenta un contesto più largo rispetto alla richiesta/risposta. Ci possono essere diversi tipi di sessione in base al tipo di informazioni scambiate e la natura del sito.
 
@@ -25,7 +25,7 @@ La sessione rappresenta un contesto più largo rispetto alla richiesta/risposta.
 >1. Ogni sessione ha un inizio e una fine.
 >2.  Ogni sessione ha un tempo di vita relativamente corto. 
 >3. Sia il client che il server possono chiudere la sessione. 
->4. La sessione è **implicita** nello scambio di informazioni di stato
+>4. La sessione è **implicita** nello scambio di informazioni di stato.
 
 >[!note] Sessione vs Connessione
 >

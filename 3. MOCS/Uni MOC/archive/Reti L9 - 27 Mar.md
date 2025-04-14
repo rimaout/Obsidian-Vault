@@ -5,10 +5,10 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2025-03-27T14:21
-updated: 2025-03-27T15:34
+updated: 2025-04-10T11:29
 ---
 
-In questa lezione vediamo meccanismi (non protocolli)
+
 
 ## Numeri di sequenza e riscontro nello stop and wait
 

@@ -5,7 +5,7 @@ academic year: 2024/2025
 related: 
 completed: true
 created: 2025-04-07T18:00
-updated: 2025-04-07T18:00
+updated: 2025-04-12T20:20
 ---
 ## File Transfer Protocol (FTP)
 
@@ -60,6 +60,7 @@ In realtà vengono stabilite due connessioni:
 >|RNTO|Nome (del nuovo) file|Cambia il nome del file|
 >|STOR|Nome di uno o più file|Trasferisce uno o più file dal client al server|
 >|USER|Identificativo|Identificazione dell'utente|
+>
 >>***oss:*** Inviati come testo ASCII sulla connessione di controllo
 
 >[!note] Codici di Risposta

@@ -5,7 +5,7 @@ academic year: 2024/2025
 related: 
 completed: true
 created: 2025-04-09T17:22
-updated: 2025-04-09T17:22
+updated: 2025-04-13T17:05
 ---
 ## Introduzione
 
@@ -63,6 +63,7 @@ Il checksum è una tecnica che permette al ricevente di determinare se durante i
 
 ![[Pasted image 20250320145812.png|700]]
 
+Vedi anche [Esempio Neso Academy](https://www.youtube.com/watch?v=AtVWnyDDaDI).
 ## Utilizzi
 
 Questo protocollo è utilizzato per l'invio di dati non richiedono affidabilità come ad esempio streaming video o telefonia internet come Skype.

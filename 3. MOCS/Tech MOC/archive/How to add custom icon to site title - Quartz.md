@@ -2,13 +2,13 @@
 Main Moc: "[[Tech MOC]]"
 related:
   - "[[Quartz]]"
-  - "[[Quartz Setup Proces]]"
+  - "[[My Quartz Setup Process]]"
 completed: true
 created: 2024-12-04T08:45
-updated: 2025-03-16T13:09
+updated: 2025-04-13T15:06
 ---
 >[!abstract] Related
->- [[Quartz Setup Proces]]
+>- [[My Quartz Setup Process]]
 >- [[Quartz]]
 
 ---

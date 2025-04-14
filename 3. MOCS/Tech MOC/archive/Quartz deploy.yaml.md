@@ -1,10 +1,10 @@
 ---
 created: 2024-03-19T17:15
 related:
-  - "[[Quartz Setup Proces]]"
+  - "[[My Quartz Setup Process]]"
 completed: 
 Main Moc: "[[Tech MOC]]"
-updated: 2025-03-16T13:09
+updated: 2025-04-13T15:06
 ---
 ---
 >[!note] Normal Version (no [[Git Submodules]] for content)

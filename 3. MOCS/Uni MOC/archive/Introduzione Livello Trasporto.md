@@ -5,11 +5,11 @@ academic year: 2024/2025
 related: 
 completed: true
 created: 2025-04-08T10:52
-updated: 2025-04-09T17:43
+updated: 2025-04-13T16:29
 ---
 ## Introduzione
 
-I protocolli di trasporto forniscono la comunicazione logica tra processi applicativi di host differenti, ovvero gli host eseguono i processi come se  fossero direttamente connessi. 
+I protocolli di trasporto forniscono la comunicazione logica tra processi applicativi di host differenti, ovvero gli host eseguono i processi come se fossero direttamente connessi. 
 
 I protocolli di trasporto vengono eseguiti nei sistemi terminali e funzionano con un meccanismo di **incapsulamento** quando si invia un messaggio e **decapsulamento** quando si riceve.
 
@@ -72,7 +72,6 @@ Questi processi se visti più nello specifico prendono il nome di [[#^3886db|Mu
 >![[Pasted image 20250408094554.png|400]]
 
 ^a89c62
-
 ## Socket
 
 Le socket sono delle astrazioni create ed utilizzate dai programmi applicativi per attuare la comunicazione tra un processo client e un processo server.
@@ -105,23 +104,23 @@ Una socket é una struttura dati che nella sua forma più semplice è composta d
 >
 >Il client ha bisogno di socket address locale (client) e remoto (server):
 >
->Il **socket address locale** è fornito dal *sistema operativo* quest'ultimo infatti conosce:
+>Il **socket address locale** (client) è fornito dal *sistema operativo* quest'ultimo infatti conosce:
 >- l’*indirizzo IP* del computer sul quale il client è in esecuzione 
 >- il *numero di porta* assegnato al processo.
 >
->Per **socket address remoto**:
->- l’*indirizzo IP* viene fornito dal DNS oppure il socket intero è conosciuto dal programmatore se ad 
+>Per **socket address remoto** (server):
+>- l’*indirizzo IP* viene fornito dal DNS
 > - Il *numero di porta* varia in base all’applicazione che stiamo usando (es. http porta 80).
 
 >[!note] Lato server
 >
 >Il server ha bisogno di un socket address locale (server) e uno remoto (client) per comunicare:
 >
->Il **socket address locale** è fornito dal _sistema operativo_ quest'ultimo infatti conosce:
+>Il **socket address locale** (server) è fornito dal _sistema operativo_ quest'ultimo infatti conosce:
 >- l’_indirizzo IP_ è fornito dal sistema operativo su cui il server è in esecuzione
 >- il _numero di porta_ è noto al server perché assegnato dal progettista (numero well known o scelto).
 >  
->Il **socket address remoto** non è determinato dal server ma semplicemente è il socket address locale del client che si connette, che è comunicato all’interno del pacchetto di richiesta.
+>Il **socket address remoto** (client) non è determinato dal server ma semplicemente è il socket address locale del client che si connette, che è comunicato all’interno del pacchetto di richiesta.
 >
 >>***oss:*** l socket address locale di un server non cambia (è fissato e rimane invariato), mentre il socket address remoto varia ad ogni interazione con client diversi (anche con stesso client su connessioni diverse).
 

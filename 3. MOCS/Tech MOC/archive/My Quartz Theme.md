@@ -2,9 +2,9 @@
 created: 2024-04-21
 Main Moc: "[[Tech MOC]]"
 related:
-  - "[[Quartz Setup Proces]]"
+  - "[[My Quartz Setup Process]]"
 completed: true
-updated: 2025-03-16T13:09
+updated: 2025-04-13T15:06
 ---
 ```typescript
 lightMode: {

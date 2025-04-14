@@ -2,14 +2,14 @@
 Main Moc: "[[Tech MOC]]"
 related:
   - "[[Quartz]]"
-  - "[[Quartz Setup Proces]]"
+  - "[[My Quartz Setup Process]]"
 completed: true
 created: 2024-12-04T12:32
-updated: 2025-03-16T13:09
+updated: 2025-04-13T15:06
 ---
 >[!abstract] Related
 >- [[Quartz]]
->- [[Quartz Setup Proces]]
+>- [[My Quartz Setup Process]]
 
 ---
 Quartz has a file dedicated to the customization of the site css, it's named `custom.scss` an the relative path is `quartz/styles/custom.scss`.

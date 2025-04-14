@@ -4,9 +4,9 @@ programming language:
 related: 
 completed: false
 created: 2024-10-03T09:38
-updated: 2025-03-16T13:09
+updated: 2025-04-13T15:06
 ---
-- [[Quartz Setup Proces]]
+- [[My Quartz Setup Process]]
 - [[Quartz Suggestion]]
 
 

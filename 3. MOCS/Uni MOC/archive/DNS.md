@@ -5,13 +5,14 @@ academic year: 2024/2025
 related: 
 completed: true
 created: 2025-03-20T12:15
-updated: 2025-04-09T10:05
+updated: 2025-04-12T20:38
 ---
 ## Identificazione degli Host
 
 Gli **host internet** hanno nomi detti hostname ad esempio `www.google.com` o `w3.uniroma1.it`, questi nomi sono facili da ricordare ma non ci danno informazioni sulla collocazione degli host all’interno di Internet.
 
 Per la posizione di un **host internet** si utilizzano gli [[#Indirizzi IP]].
+
 ## Indirizzi IP
 
 Gli **indirizzi IP** sono l’informazione che permette di determinare la vera posizione di un **host** nella rete. 
@@ -54,9 +55,7 @@ Un **servizio DNS** (Domain Name System) si occupa di convertire un *hostname* i
 
 ## Aliasing
 
-Permette di associare un nome più semplice da ricordare a un hostname complesso. Un host può avere uno o sinonimi (alias). 
-
-Il DNS può essere invocato da un’applicazione per avere il nome canonico di un alias e il suo indirizzo IP
+Permette di associare un nome più semplice da ricordare a un hostname complesso. Un host può avere uno o sinonimi (alias). Il DNS può essere invocato da un’applicazione per avere il nome canonico di un alias e il suo indirizzo IP.
 
 >[!example] Esempio
 >
@@ -155,7 +154,6 @@ Facciamo 2 esempi uno [[#^b6f9e4|iterativo]] ed un altro [[#^h9j39x|ricorsivo]] 
 >![[Screenshot 2025-03-20 at 08.31.53.png|400]]
 
 ^h9j39x
-
 ## DNS Caching
 
 Una volta che un server DNS impara la mappatura, la mette nella cache.
@@ -249,7 +247,7 @@ Ogni RR mantiene un mapping, esistono diversi tipi di record in base alla chiave
 >Alias -> mail server canonical name
 >```
 >
->- **name** è un Alice
+>- **name** è un alias
 >- **value** è il nome canonico del server di posta associato a *name*
 >- **type** è `MX` che sta per Mail e poi non so onestamente
 >  
@@ -295,10 +293,9 @@ Abbiamo appena avviato la nuova società “Network Stud” ora vogliamo avviare
 Registriamo il nome `networkstud.it` presso registrar (www.registro.it).
 
 Inseriamo nel server di competenza (es. un nostro dns server `dns1.networkstud.it`) un record tipo A per `www.networkstud.it` un record tipo MX per `networkstud.it` ad esempio:
-- **A Record:** `www.networkstud.it` → `150.160.15.12` (indirizzo del server web)
+- **A Record:** `networkstud.it` → `150.160.15.12` (indirizzo del server web)
 - **MX Record:** `networkstud.it` → `mail.networkstud.it` (posta elettronica)
 - **CNAME Record:** `mail.networkstud.it` → `mail.google.com` (se usiamo Gmail)
 
 Forniamo al registrar i nomi e gli indirizzi IP dei server DNS di competenza (primario e secondario):
 - Il *Registrar* inserisce due RR nel server TLD it: `(networkstud.it, dns1.networkstud.it, NS)` e `(dns1.networkstud.it, 212.212.212.1, A)`
-
