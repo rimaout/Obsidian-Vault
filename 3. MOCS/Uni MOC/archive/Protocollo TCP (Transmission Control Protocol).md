@@ -5,7 +5,7 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2025-04-09T17:42
-updated: 2025-04-14T10:47
+updated: 2025-04-14T15:55
 ---
 ## Introduzione
 
@@ -255,12 +255,60 @@ Quindi se `ACK = 7` significa che tutti pacchetti ricevuti con numero di sequenz
 
 >[!example]- Esempio Funzionamento
 >
->
+>![[Screenshot 2025-04-14 at 10.47.34.png|800]]
 
->[!note] Dimensione Finestra di Invio
+>[!warning] Perché Finestra di Invio < 2^m
 >
+>La finestra di invio deve essere sempre minore di di $2^{m}$, infatti se la finestra di scorrimento fosse troppo grande, il ricevitore potrebbe ricevere un pacchetto con un numero di sequenza che è già stato utilizzato in precedenza, ma che non è ancora stato confermato (ACK).
 >
+>>[!example]- Esempio
+>>
+>>![[Pasted image 20250414145821.png|800]]
+>>
+>>![[Pasted image 20250414150719.png|600]]
 
 ## Selective Repeat
 
+Come abbiamo visto, nel meccanismo [[#Go back N]] quando un pacchetto non è ricevuto correttamente tutti i pacchetti presenti nella finestra vengono rinviati, e questo può portare a due problematiche:
+1. Non è efficiente rispedire cose che abbiamo erano già state spedite correttamente
+2. Se il motivo della non corretta ricezione dei pacchetti è dovuto ad una congestione della rete allora questo meccanismo va ad ulteriormente sovraccaricare il sistema.
 
+Questi problemi sono risolti del meccanismo **selective repeat** (ripetizione selettiva), che permette di rispedire soltanto i pacchetti per i quali non è stato ricevuto un ACK.
+
+>[!note] Funzionamento
+>
+>In questo meccanismo abbiamo che la **finestra di invio e ricezione** hanno la **stessa dimensione**.
+>
+>In particolare non deve superare $2^{m-1}$, leggi [[#^32435467|approfondimento dimensioni finestre]] per capire il perché.
+>
+>Il **mittente** mantiene un timer specifico per ogni pacchetto inviato di cui non ha ancora ricevuto l'ACK e li se l'timer scade.
+>
+>Il **ricevente** invia un ACK specifico per ogni che riceve correttamente e può ance memorizzare i pacchetti fuori sequenza.
+>
+>![[Pasted image 20250414153241.png|800]]
+>
+>>***oss:*** se `ACK = 7` non significa più che stiamo aspettando il 7 e abbiamo ricevuto il 6 ma significa che abbiamo ricevuto correttamente il 7.
+
+>[!note] Finite State Machine
+>
+>![[Pasted image 20250414154252.png|800]]
+>
+>![[Pasted image 20250414154335.png|800]]
+
+>[!warning] Approfondimento dimensione finestre
+>
+>Le dimensione delle finestre abbiamo detto essere uguali e in questo meccanismo sono calcolate modulo $2^{m-1}$.
+>
+>Perché non possiamo usare $2^{m-1}$?
+>
+>![[Pasted image 20250414155501.png|500]]
+>
+>In questo caso scade il timer per `0` e viene rispedito, il destinatario lo prende come nuovo pacchetto ma in realtà è un duplicato.
+>
+>Se usiamo $2^{m-1}$:
+>
+>![[Pasted image 20250414155356.png|600]]
+
+
+
+^32435467

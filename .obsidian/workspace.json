@@ -6,7 +6,7 @@
       {
         "id": "7f733be9df40dca8",
         "type": "tabs",
-        "dimension": 55.12048192771084,
+        "dimension": 99.99999999999999,
         "children": [
           {
             "id": "b77d8cd2cb0d7fdb",
@@ -25,7 +25,7 @@
             }
           },
           {
-            "id": "c335814a33bdddb7",
+            "id": "9828fb0425b7c2d3",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -40,27 +40,6 @@
           }
         ],
         "currentTab": 1
-      },
-      {
-        "id": "37e22c79c5e1fdab",
-        "type": "tabs",
-        "dimension": 44.87951807228915,
-        "children": [
-          {
-            "id": "8b0ca10ac7c23b28",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://alem1105.github.io/Quartz/vault/Secondo-Anno/Secondo-Semestre/Reti-di-Elaboratori/Livello-Trasporto---Meccanismi-di-Trasferimento-dati-Affidabili",
-                "title": "Livello Trasporto - Meccanismi di Trasferimento dati Affidabili",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "Livello Trasporto - Meccanismi di Trasferimento dati Affidabili"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -314,43 +293,44 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "8b0ca10ac7c23b28",
+  "active": "9828fb0425b7c2d3",
   "lastOpenFiles": [
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250414155501.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250414155356.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250414154335.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250414154252.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250414153241.png",
+    "To-Do/^dimens.md",
     "3. MOCS/Uni MOC/archive/Protocollo TCP (Transmission Control Protocol).md",
     "3. MOCS/Uni MOC/archive/Reti (class).md",
     "Storage/Backend/Monthly Logs/🌰 November 2024 (Log).md",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250414150719.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250414145821.png",
+    "3. MOCS/Uni MOC/archive/Capacità e Prestazioni di una Rete.md",
+    "3. MOCS/Uni MOC/archive/UNION-FIND Data Structure.md",
     "3. MOCS/Uni MOC/archive/Esercizi su Livello Trasporto.md",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250413184454.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250414120907.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250414112925.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250414112713.png",
+    "3. MOCS/Uni MOC/archive/attachments/Screenshot 2025-04-14 at 10.47.34.png",
     "3. MOCS/Uni MOC/archive/Esercitazione su prestazioni di rete e livello applicazione.md",
     "3. MOCS/Uni MOC/archive/Reti L8 - 25 Mar.md",
     "3. MOCS/Uni MOC/archive/Protocollo UDP (User Datagram Protocol).md",
     "3. MOCS/Uni MOC/archive/Introduzione Livello Trasporto.md",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250413160940.png",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250413160218.png",
     "To-Do/Quartz Callouts Grid Layout.md",
     "3. MOCS/Tech MOC/archive/My Quartz Setup Process.md",
     "3. MOCS/Programming MOC/archive/Quartz custom CSS.md",
     "3. MOCS/Programming MOC/archive/Quartz.md",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250413131604.png",
     "3. MOCS/Uni MOC/archive/File Transfer Protocol (FTP) ed Posta Electronica.md",
     "3. MOCS/Uni MOC/archive/DNS.md",
-    "To-Do/attachments/callouts_grid_layout.webp",
     "3. MOCS/Programming MOC/archive/Quartz Callouts Grid Layout.md",
     "3. MOCS/Tech MOC/archive/How to add custom icon to site title - Quartz.md",
-    "3. MOCS/Tech MOC/archive/attachments/Screenshot 2024-12-04 at 08.10.26.png",
     "3. MOCS/Programming MOC/archive/Quartz Footer Edit.md",
     "3. MOCS/Uni MOC/archive/Introduzione allo stack protocollare TCP-IP.md",
     "3. MOCS/Uni MOC/archive/Introduzione Livello Applicazione (TCP-IP).md",
     "3. MOCS/Uni MOC/archive/World Wide Web e HTTP.md",
     "3. MOCS/Uni MOC/archive/Struttura delle Reti.md",
     "3. MOCS/Uni MOC/archive/Esercizi HTTP e DNS.md",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250412164144.png",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250412164139.png",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250412162842.png",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250412160846.png",
-    "3. MOCS/Uni MOC/archive/Algoritmi 2 (class).md",
-    "3. MOCS/Uni MOC/archive/Web Caching.md",
-    "3. MOCS/Uni MOC/archive/Cookie.md",
     "attachments",
     "To-Do/attachments",
     "3. MOCS/Uni MOC/archive/attachments/Recording 20250319144542.m4a",
