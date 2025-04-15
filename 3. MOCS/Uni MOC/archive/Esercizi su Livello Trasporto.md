@@ -5,7 +5,7 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2025-04-13T16:12
-updated: 2025-04-14T13:30
+updated: 2025-04-14T18:32
 ---
 ## Esercizio 1
 
@@ -145,3 +145,17 @@ Quindi abbiamo finestra da `1000`, quindi dobbiamo trovare un `m` tale che $2^{m
 >- Mega = $10^6$
 >- Giga = $10^{9}$
 >- Tera = $10^{12}$
+
+
+
+**Timeout:**
+- SlowStart
+- Tr = cwnd/2    
+- Cwnd = 1
+
+
+**3ACK:**
+- FastRecovery
+- Tr = cwnd/2
+- cwnd = tr + 3
+

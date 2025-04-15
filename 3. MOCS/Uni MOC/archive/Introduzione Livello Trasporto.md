@@ -5,7 +5,7 @@ academic year: 2024/2025
 related: 
 completed: true
 created: 2025-04-08T10:52
-updated: 2025-04-13T16:29
+updated: 2025-04-14T16:12
 ---
 ## Introduzione
 
@@ -128,7 +128,7 @@ Una socket é una struttura dati che nella sua forma più semplice è composta d
 
 Esistono due principali protocolli di trasporto
 - [[Protocollo UDP (User Datagram Protocol)]]
-- [[Protocollo TCP (Transmission Control Protocol)]]
+- [[Introduzione ai Meccanismi del Protocollo TCP]]
 
 >[!note] Utilizzi dei protocolli nel mondo reale
 >
