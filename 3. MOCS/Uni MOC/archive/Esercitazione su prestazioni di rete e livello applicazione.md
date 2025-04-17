@@ -11,7 +11,7 @@ updated: 2025-04-13T16:09
 
 **Domanda:** Si vuole aggiungere un nuovo protocollo nel livello applicazione: quali modifiche è necessario apportare agli altri livelli?
 
-**Risposta:** Non dobbiamo apportare modifiche ad altri liveli perche il livello di applicazione non offere servizi ad altri livelli.
+**Risposta:** Non dobbiamo apportare modifiche ad altri liveli perche il livello di applicazione non offre servizi ad altri livelli.
 
 ## Esercizio 2
 
