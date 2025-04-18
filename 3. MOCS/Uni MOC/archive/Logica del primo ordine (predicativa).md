@@ -6,7 +6,7 @@ class:
 related:
   - "[[Logica Proposizionale]]"
 completed: true
-updated: 2024-12-14T18:37
+updated: 2025-04-16T15:55
 ---
 ---
 # Info
@@ -102,11 +102,13 @@ Interpretare una formula (nella logica del primo ordine) significa:
 
 ---
 ### Modello
-Un modello è un’interpretazione che rende vera una formula
+
+Un modello è un’interpretazione che rende vera una formula.
 
 ---
 ### Formula Valida
-Una formula *vera in ogni interpretazione* si dice valida
+
+Una formula *vera in ogni interpretazione* si dice valida.
 
 **oss:** una formula valida è sempre vera ma i sui valori dipendono dal significato dei [[#**Quantificatori **|quantificatori]]
 
@@ -184,4 +186,3 @@ Un insieme di formule *S* si dice soddisfacibile se esiste un interpretazione ch
 **Come dimostrare che un insieme non è soddisfacibile:**
 - Bisogna prendere la formula composta dal AND di tutte le formule presenti nel insieme, negarla r dimostrare che questa formula è valida
 
----

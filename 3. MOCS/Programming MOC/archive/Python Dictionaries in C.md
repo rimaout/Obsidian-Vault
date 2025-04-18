@@ -6,7 +6,7 @@ related:
   - "[[Python Dictionaries]]"
   - "[[Using C to make Python]]"
 completed: true
-updated: 2024-05-27T13:29
+updated: 2025-04-18T11:39
 ---
 ---
 # Dizionari in c  
@@ -280,8 +280,8 @@ void dict_set(dict d, dict_item e){
 ```
 
 ---
-
 ###### **dict_del:**
+
 - *Descrizione:* funzione elimina una coppia chiave valore associata a una specifica chiave
 - *Input:* dizionario (d),  chiave  (k)
 - *Output:* ---

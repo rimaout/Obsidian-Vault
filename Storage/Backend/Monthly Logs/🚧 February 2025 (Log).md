@@ -1,6 +1,6 @@
 ---
 created: 2025-02-26T10:23
-updated: 2025-03-10T09:24
+updated: 2025-04-18T16:09
 tags:
   - monthly-log
 ---
@@ -13,7 +13,7 @@ Add esempio se vogliamo unire gli ultimi tre commit dobbiamo:
 Runnare il seguente codice, per "eliminare" gli ultimi tre commit ma mantenendo le modifiche:
 
 ```shell
-git reset soft HEAD~3
+git reset --soft HEAD~3
 ```
 
 >[!note] Approfondimento

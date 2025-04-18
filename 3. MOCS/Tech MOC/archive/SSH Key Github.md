@@ -2,7 +2,7 @@
 created: 2023-11-19
 related: 
 completed: true
-updated: 2024-05-27T13:29
+updated: 2025-04-17T16:00
 ---
 ---
 
@@ -132,4 +132,3 @@ To troubleshoot this, try undoing the above steps\...
 
 **If it continues to fail read:** https://codewithsusan.com/notes/ssh-permission-denied
 
----

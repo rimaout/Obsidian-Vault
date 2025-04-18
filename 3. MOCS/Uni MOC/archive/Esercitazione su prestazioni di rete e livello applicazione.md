@@ -5,7 +5,7 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2025-04-12T19:07
-updated: 2025-04-13T16:09
+updated: 2025-04-17T14:40
 ---
 ## Esercizio 1
 

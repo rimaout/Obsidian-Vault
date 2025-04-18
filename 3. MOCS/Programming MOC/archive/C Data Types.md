@@ -4,28 +4,29 @@ type: Programming Note
 programming language: "[[C MOC]]"
 related: 
 completed: true
-updated: 2024-05-27T13:29
+updated: 2025-04-18T17:26
 ---
 ---
 The data type specifies the size and type of information the variable will store
 
-| Type | Size (bytes) | Format Specifier |
-| --- | --- | --- |
-| **int** | at least 2, usually 4 | %d, %i |
-| **char** | 1 | %c |
-| **float** | 4 | %f |
-| **double** | 8 | %lf |
-| short int | 2 usually | %hd |
-| unsigned int | at least 2, usually 4 | %u |
-| long int | at least 4, usually 8 | %ld, %li |
-| long long int | at least 8 | %lld, %lli |
-| unsigned long int | at least 4 | %lu |
-| unsigned long long int | at least 8 | %llu |
-| signed char | 1 | %c |
-| unsigned char | 1 | %c |
-| long double | at least 10, usually 12 or 16 | %Lf |
 
-- More information about [[C Format Specifiers]]
+| Type                   | Size (bytes)                  | Format Specifier |
+| ---------------------- | ----------------------------- | ---------------- |
+| **int**                | at least 2, usually 4         | `%d`, `%i`       |
+| **char**               | 1                             | `%c`             |
+| **float**              | 4                             | `%f`             |
+| **double**             | 8                             | `%lf`            |
+| short int              | 2 usually                     | `%hd`            |
+| unsigned int           | at least 2, usually 4         | `%u`             |
+| long int               | at least 4, usually 8         | `%ld`, `%li`     |
+| long long int          | at least 8                    | `%lld`, `%lli`   |
+| unsigned long int      | at least 4                    | `%lu`            |
+| unsigned long long int | at least 8                    | `%llu`           |
+| signed char            | 1                             | `%c`             |
+| unsigned char          | 1                             | `%c`             |
+| long double            | at least 10, usually 12 or 16 | `%Lf`            |
+
+More information about [[C Format Specifiers]]
 
 ### int [[C Numbers]]
 
@@ -47,7 +48,6 @@ int id, age;
 The size of `int` is usually 4 bytes (32 bits). And, it can take `232` distinct states from `-2147483648` to `2147483647`.
 
 ---
-
 ### float and double [[C Numbers]]
 
 `float` and `double` are used to hold real numbers.
@@ -66,7 +66,6 @@ What's the difference between `float` and `double`?
 The size of `float` (single precision float data type) is 4 bytes. And the size of `double` (double precision float data type) is 8 bytes.
 
 ---
-
 ### char [[C Chars]]
 
 Keyword `char` is used for declaring character type variables.

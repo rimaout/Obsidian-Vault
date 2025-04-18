@@ -42,35 +42,21 @@
                 }
               },
               {
-                "id": "31bf0430881cfaed",
+                "id": "a32a163dcbd89ef1",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/archive/Basi 2 - L9 Apr.md",
+                    "file": "Storage/Backend/Monthly Logs/🚧 February 2025 (Log).md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "Basi 2 - L9 Apr"
-                }
-              },
-              {
-                "id": "7095ee91034e1f4b",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/archive/Copertura Minimale.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Copertura Minimale"
+                  "title": "🚧 February 2025 (Log)"
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -168,7 +154,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/archive/Basi di Dati 1 (class).md",
+                    "file": "3. MOCS/Uni MOC/archive/Basi 2 - L16 Apr.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -178,7 +164,7 @@
                     "unlinkedCollapsed": false
                   },
                   "icon": "links-coming-in",
-                  "title": "Backlinks for Basi di Dati 1 (class)"
+                  "title": "Backlinks for Basi 2 - L16 Apr"
                 }
               },
               {
@@ -215,14 +201,17 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/Uni_Archive/Chiusura di un Insieme di Attributi.md"
+                    "file": "3. MOCS/Uni MOC/archive/Basi 2 - L16 Apr.md",
+                    "followCursor": false,
+                    "showSearch": false,
+                    "searchQuery": ""
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of Chiusura di un Insieme di Attributi"
+                  "title": "Outline of Basi 2 - L16 Apr"
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 4
           },
           {
             "id": "0ee4f1dd2040ea54",
@@ -313,8 +302,8 @@
           "obsidian-kanban:Create new board": false
         }
       },
-      "active": "7095ee91034e1f4b",
-      "mtime": "2025-04-10T11:11:35+02:00"
+      "active": "a21173ce5f5dcda3",
+      "mtime": "2025-04-17T14:41:11+02:00"
     },
     "Sistemi Operativi": {
       "main": {
@@ -621,7 +610,7 @@
         }
       },
       "active": "f42da09daa007f48",
-      "mtime": "2025-04-02T14:38:18+02:00"
+      "mtime": "2025-04-16T13:48:16+02:00"
     },
     "Algo": {
       "main": {
@@ -905,7 +894,7 @@
         }
       },
       "active": "9fdc480e7e6edb27",
-      "mtime": "2025-04-12T10:59:21+02:00"
+      "mtime": "2025-04-16T13:48:19+02:00"
     },
     "Reti": {
       "main": {
@@ -915,7 +904,6 @@
           {
             "id": "7f733be9df40dca8",
             "type": "tabs",
-            "dimension": 55.12048192771084,
             "children": [
               {
                 "id": "b77d8cd2cb0d7fdb",
@@ -931,42 +919,6 @@
                   "pinned": true,
                   "icon": "lucide-file",
                   "title": "Reti (class)"
-                }
-              },
-              {
-                "id": "c335814a33bdddb7",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/archive/Protocollo TCP (Transmission Control Protocol).md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Protocollo TCP (Transmission Control Protocol)"
-                }
-              }
-            ],
-            "currentTab": 1
-          },
-          {
-            "id": "37e22c79c5e1fdab",
-            "type": "tabs",
-            "dimension": 44.87951807228915,
-            "children": [
-              {
-                "id": "8b0ca10ac7c23b28",
-                "type": "leaf",
-                "state": {
-                  "type": "webviewer",
-                  "state": {
-                    "url": "https://alem1105.github.io/Quartz/vault/Secondo-Anno/Secondo-Semestre/Reti-di-Elaboratori/Livello-Trasporto---Meccanismi-di-Trasferimento-dati-Affidabili",
-                    "title": "Livello Trasporto - Meccanismi di Trasferimento dati Affidabili",
-                    "mode": "webview"
-                  },
-                  "icon": "globe-2",
-                  "title": "Livello Trasporto - Meccanismi di Trasferimento dati Affidabili"
                 }
               }
             ]
@@ -1223,9 +1175,9 @@
           "markdown-importer:Open format converter": false
         }
       },
-      "active": "c335814a33bdddb7",
-      "mtime": "2025-04-14T10:47:55+02:00"
+      "active": "b77d8cd2cb0d7fdb",
+      "mtime": "2025-04-16T13:48:08+02:00"
     }
   },
-  "active": "Reti"
+  "active": "Sistemi Operativi"
 }

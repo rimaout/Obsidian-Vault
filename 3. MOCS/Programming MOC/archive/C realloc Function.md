@@ -7,7 +7,7 @@ related:
   - "[[C malloc Function]]"
   - "[[C free Function]]"
 completed: true
-updated: 2024-05-27T13:29
+updated: 2025-04-18T11:35
 ---
 ---
 ## Index
@@ -37,6 +37,7 @@ void *realloc(void *ptr, size)
 ---
 ## Return Value
 - This function returns a pointer to the newly allocated memory
+
 **oss:** non c'è bisogno di fare il controllo per vedere s l'operazione è andata a buon fine (la [[C malloc Function]] ne ha bisogno)
 
 ---
@@ -46,6 +47,7 @@ void *realloc(void *ptr, size)
 
 ---
 ## Example
+
 **realloc:**
 ```c
 

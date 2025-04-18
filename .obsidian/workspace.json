@@ -4,70 +4,113 @@
     "type": "split",
     "children": [
       {
-        "id": "7f733be9df40dca8",
+        "id": "6cd9850831fd6a14",
         "type": "tabs",
-        "dimension": 99.99999999999999,
         "children": [
           {
-            "id": "b77d8cd2cb0d7fdb",
+            "id": "01abab4389c228fc",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Reti (class).md",
+                "file": "3. MOCS/Uni MOC/archive/Sistemi Operativi 1 (class).md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "Reti (class)"
+              "title": "Sistemi Operativi 1 (class)"
             }
           },
           {
-            "id": "834bbfb29f5be9e0",
+            "id": "a8b661dc45f582e8",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. MOCS/Uni MOC/archive/Sistemi Operativi 2 (class).md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Sistemi Operativi 2 (class)"
+            }
+          },
+          {
+            "id": "29967d116d5f4897",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Esonero 11-04-2024.md",
+                "file": "3. MOCS/Programming MOC/archive/C Data Types.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Esonero 11-04-2024"
+              "title": "C Data Types"
             }
           },
           {
-            "id": "ea4fedc43be92b93",
+            "id": "11cf05b4b55ca5fd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Protocollo UDP (User Datagram Protocol).md",
+                "file": "3. MOCS/Programming MOC/archive/C Format Specifiers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Protocollo UDP (User Datagram Protocol)"
+              "title": "C Format Specifiers"
             }
           },
           {
-            "id": "d3685cc63464e2ad",
+            "id": "4ade1709fa017f29",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Introduzione Livello Trasporto.md",
+                "file": "3. MOCS/Programming MOC/archive/C Variables And Constants.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Introduzione Livello Trasporto"
+              "title": "C Variables And Constants"
+            }
+          },
+          {
+            "id": "531421d168a0bec0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. MOCS/Programming MOC/archive/Puntatori.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Puntatori"
+            }
+          },
+          {
+            "id": "ed616b80b5ee7902",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. MOCS/Uni MOC/archive/OS L7 - 26 Mar.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "OS L7 - 26 Mar"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -99,9 +142,9 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:monthly-log",
+                "query": "",
                 "matchingCase": true,
-                "explainSearch": true,
+                "explainSearch": false,
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical"
@@ -134,7 +177,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 392.504789352417,
+    "width": 531.504789352417,
     "collapsed": true
   },
   "right": {
@@ -153,9 +196,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
+                "useHierarchy": true
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -167,7 +208,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Reti L7 - 20 Mar.md",
+                "file": "3. MOCS/Programming MOC/archive/Puntatori.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,7 +218,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Reti L7 - 20 Mar"
+              "title": "Backlinks for Puntatori"
             }
           },
           {
@@ -186,12 +227,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni MOC.md",
+                "file": "3. MOCS/Programming MOC/archive/Puntatori.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Uni MOC"
+              "title": "Outgoing links from Puntatori"
             }
           },
           {
@@ -214,20 +255,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Variabili Aleatorie Indipendenti.md"
+                "file": "3. MOCS/Uni MOC/Uni_Archive/Sistemi Operativi 1 (class).md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Variabili Aleatorie Indipendenti"
-            }
-          },
-          {
-            "id": "2be710a38fb52417",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "title": "Outline of Sistemi Operativi 1 (class)"
             }
           }
         ],
@@ -241,32 +272,24 @@
           {
             "id": "08bb0d9d4b18b672",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "kanban",
               "state": {
                 "file": "To-Do/To-Do.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false
-                  ]
-                }
+                "mode": "source",
+                "source": false
               },
-              "pinned": true,
-              "icon": "lucide-trello",
+              "icon": "lucide-file",
               "title": "To-Do"
             }
           },
           {
             "id": "6217f74dd2639932",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Web Caching.md",
+                "file": "3. MOCS/Programming MOC/archive/Puntatori.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -289,28 +312,25 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.0078125,
+                  "scale": 1,
                   "close": true
                 }
               },
-              "pinned": true,
               "icon": "lucide-git-fork",
-              "title": "Graph of Web Caching"
+              "title": "Graph of Puntatori"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 742.5,
+    "width": 350.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
       "obsidian-kanban:Create new board": false,
-      "obisidian-note-linker:Note Linker": false,
-      "obsidian-git:Open Git source control": false,
-      "omnisearch:Omnisearch": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -318,49 +338,52 @@
       "command-palette:Open command palette": false,
       "audio-recorder:Start/stop recording": false,
       "workspaces:Manage workspace layouts": false,
-      "markdown-importer:Open format converter": false
+      "markdown-importer:Open format converter": false,
+      "obsidian-git:Open Git source control": false,
+      "omnisearch:Omnisearch": false,
+      "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "834bbfb29f5be9e0",
+  "active": "531421d168a0bec0",
   "lastOpenFiles": [
+    "3. MOCS/Programming MOC/archive/C Data Types.md",
+    "3. MOCS/Programming MOC/archive/C Format Specifiers.md",
+    "3. MOCS/Uni MOC/archive/Sistemi Operativi 2 (class).md",
+    "3. MOCS/Uni MOC/archive/Sistemi Operativi 1 (class).md",
+    "3. MOCS/Uni MOC/archive/OS L7 - 26 Mar.md",
+    "3. MOCS/Programming MOC/archive/Puntatori.md",
+    "3. MOCS/Programming MOC/archive/C Variables And Constants.md",
+    "3. MOCS/Uni MOC/archive/C Format Specifiers.md",
+    "To-Do/C Format Specifiers.md",
+    "3. MOCS/Programming MOC/archive/Rust MOC.md",
+    "3. MOCS/Uni MOC/archive/OS L6 - 19 Mar.md",
+    "3. MOCS/Uni MOC/archive/OS L1 - 3 Mar.md",
+    "3. MOCS/Programming MOC/archive/Python Dictionaries in C.md",
+    "Storage/Backend/Monthly Logs/🚧 February 2025 (Log).md",
+    "3. MOCS/Tech MOC/archive/SSH Key Github.md",
+    "3. MOCS/Uni MOC/archive/Homework C1.md",
+    "3. MOCS/Programming MOC/archive/Using C to make Python.md",
+    "3. MOCS/Programming MOC/archive/C MOC.md",
+    "3. MOCS/Programming MOC/archive/C realloc Function.md",
+    "3. MOCS/Programming MOC/archive/C malloc Function.md",
+    "3. MOCS/Programming MOC/archive/C Embedded  Functions.md",
+    "3. MOCS/Programming MOC/archive/C Structures.md",
+    "3. MOCS/Programming MOC/archive/C Break-Continue.md",
+    "To-Do/C Memory Address.md",
+    "To-Do/C Pointers.md",
+    "3. MOCS/Programming MOC/Programming MOC.md",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250414201257.png",
-    "3. MOCS/Uni MOC/archive/Introduzione Livello Trasporto.md",
-    "3. MOCS/Uni MOC/archive/Reti (class).md",
-    "3. MOCS/Uni MOC/archive/Protocollo UDP (User Datagram Protocol).md",
-    "3. MOCS/Uni MOC/archive/Esonero 11-04-2024.md",
-    "3. MOCS/Uni MOC/archive/Reti L8 - 25 Mar.md",
-    "3. MOCS/Uni MOC/archive/Reti L12 - 8 Apr.md",
-    "3. MOCS/Uni MOC/archive/Reti L13 - 10 Apr.md",
-    "3. MOCS/Uni MOC/archive/Reti L11 - 01 Apr.md",
-    "3. MOCS/Uni MOC/archive/Reti L9 - 27 Mar.md",
-    "3. MOCS/Uni MOC/archive/Esonero 11/04/2024.md",
     "3. MOCS/Uni MOC/archive/Esonero 11/04",
     "3. MOCS/Uni MOC/archive/Esonero 11",
-    "3. MOCS/Uni MOC/archive/Esercizi su Livello Trasporto.md",
-    "3. MOCS/Uni MOC/archive/Introduzione ai Meccanismi del Protocollo TCP.md",
-    "3. MOCS/Uni MOC/archive/Protocollo TCP (Transmission Control Protocol).md",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250414161111.png",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250414155501.png",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250414155356.png",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250414154335.png",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250414154252.png",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250414153241.png",
-    "To-Do/^dimens.md",
-    "Storage/Backend/Monthly Logs/🌰 November 2024 (Log).md",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250414150719.png",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250414145821.png",
-    "3. MOCS/Uni MOC/archive/Capacità e Prestazioni di una Rete.md",
-    "3. MOCS/Uni MOC/archive/UNION-FIND Data Structure.md",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250414120907.png",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250414112925.png",
-    "3. MOCS/Uni MOC/archive/Esercitazione su prestazioni di rete e livello applicazione.md",
-    "To-Do/Quartz Callouts Grid Layout.md",
-    "3. MOCS/Tech MOC/archive/My Quartz Setup Process.md",
-    "3. MOCS/Programming MOC/archive/Quartz custom CSS.md",
-    "3. MOCS/Programming MOC/archive/Quartz.md",
-    "3. MOCS/Uni MOC/archive/File Transfer Protocol (FTP) ed Posta Electronica.md",
-    "3. MOCS/Uni MOC/archive/DNS.md",
-    "3. MOCS/Programming MOC/archive/Quartz Callouts Grid Layout.md",
     "attachments",
     "To-Do/attachments",
     "3. MOCS/Uni MOC/archive/attachments/Recording 20250319144542.m4a",

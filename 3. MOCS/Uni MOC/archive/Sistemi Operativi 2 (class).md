@@ -2,7 +2,7 @@
 type: "[[Uni MOC]]"
 academic year: 2024/2025
 created: 2025-03-03T16:43
-updated: 2025-04-02T09:06
+updated: 2025-04-18T17:16
 ---
 **Sito:** 
 
@@ -16,3 +16,8 @@ updated: 2025-04-02T09:06
 
 
 [[Homework C1]]
+
+
+[[C Data Types]]
+
+[[Puntatori]]

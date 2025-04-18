@@ -2,7 +2,7 @@
 created: 2023-07-24
 type: "[[Programming MOC]]"
 related: 
-updated: 2024-05-27T13:28
+updated: 2025-04-18T17:19
 ---
 ---
 ## What is Rust?
@@ -44,50 +44,3 @@ Here're some of the reasons why you should learn Rust:
 
 **Data Types:**
 - [[Rust Data Types]] <-- da finire prendi appunti da [official](https://doc.rust-lang.org/book/ch03-02-data-types.html) e [programiz](https://www.programiz.com/rust/data-types)
-- [[C Format Specifiers]]
-- [[C Booleans]]
----
-- [[C Numbers]]
-- [[C Num Type Conversion]]
----
-- [[C Chars]] <--
-- [[C Arrays]]
-- [[C Multi Dimensional Arrays]]
-- [[C Strings]] <--
-- [[C Structures]] 
-- [[C Unions]]
-
-**Operators:**
-- [[C Arithmetic Operators]]
-- [[C Increment and Decrement Operators]]
-- [[C Assignment Operators]]
-- [[C Comparison Operators]]
-- [[C Logical Operators]]
-- [[C Bytwise Operators]] <--
-
-**Control Flow:**
-- [[C If ... Else]]
-- [[C Switch]]
-- [[C While Loops]]
-- [[C For Loops]]
-- [[C Break-Continue]]
-- [[C Goto Statement]]
-
-**Pointers:**
-- [[C Memory Address]]
-- [[C Pointers]]
-- [[C Pointers and Arrays]]
-- [[C Pointers and Structures]]
-
-**Functions:**
-- [[How to define a new function in c]]
-- [[C main function]]
-- [[C Embedded  Functions]]
-
-### Libraries 
-
-### Projects
-[[Using C to make Python]]
-
-### My functions
-
