@@ -4,7 +4,7 @@ programming language:
 related: 
 completed: false
 created: 2025-04-17T14:42
-updated: 2025-04-18T18:27
+updated: 2025-04-18T18:51
 ---
 ## Introduzione (Memoria e Puntatori)
 
@@ -69,17 +69,11 @@ La sintassi dei puntatori è composta da due simboli speciali `*` e `&`, dove in
 
 >[!note] Dereferenziazione (modifica/lettura)
 >
->Possiamo utilizzare l'operatore di dereferenziazione `*` su una variabile puntatore già dichiarata per accedere al contenuto della variabile puntata.
->
->***Modifica del valore:***
->```c
->*pc = 'c';
->```
->
->***Lettura del valore:***
+>Possiamo utilizzare l'operatore di dereferenziazione `*` per accedere all'indirizzo di memoria puntato dal puntatore e leggere/modificare il valore contenuto.
 >
 >```c
->printf("%c", *pc);
+>*pc = 'c';           // lettura
+>printf("%c", *pc);   // modifica
 >```
 
 >[!note] Indirizzo
@@ -100,5 +94,12 @@ La sintassi dei puntatori è composta da due simboli speciali `*` e `&`, dove in
 >| `*pc = &c;` | Assegna al valore puntato da `pc` l' indirizzo di `c`  | ❌         |
 >| `pc = c;`   | Assegna a `pc` (che dovrebbe contenere un indirizzo) il valore di `c` (ovvero `'x'`)| ❌         |
 
-
-
+>[!tip] 
+>
+>```c
+>int *px = &x;
+>int y = *px
+>```
+>Possiamo leggere:
+>- `int *px = &x` --> il puntatore ad intero `px` contiene l’indirizzo della variabile `x`.
+>- `int y = *px` --> la variabile intera `y` contiene il valore contenuto dalla indirizzo di memoria puntato da `px`.
