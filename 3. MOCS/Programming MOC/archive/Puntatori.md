@@ -1,10 +1,11 @@
 ---
 type: Programming Note
-programming language: 
-related: 
+programming language: "[[C MOC]]"
+related:
+  - "[[Sistemi Operativi 2 (class)]]"
 completed: false
 created: 2025-04-17T14:42
-updated: 2025-04-18T18:51
+updated: 2025-04-18T22:03
 ---
 ## Introduzione (Memoria e Puntatori)
 
@@ -103,3 +104,23 @@ La sintassi dei puntatori è composta da due simboli speciali `*` e `&`, dove in
 >Possiamo leggere:
 >- `int *px = &x` --> il puntatore ad intero `px` contiene l’indirizzo della variabile `x`.
 >- `int y = *px` --> la variabile intera `y` contiene il valore contenuto dalla indirizzo di memoria puntato da `px`.
+
+## Relazione tra Array e Puntatori
+
+Prima di tutto dobbiamo ricordare cos'è un **array**:
+
+>[!note] Array
+Un array è un blocco consecutivo di celle in memoria. 
+>
+>La dichiarazione di un array di interi, ad esempio `int arr[2];`, riserva 8 celle consecutive (4 per ogni intero).
+
+In `C` una "variabile array" come `int arr[4]` può essere visto come un puntatore infatti `arr` rappresenta l’indirizzo della prima cella (elemento di indice 0).
+
+Stampando l’indirizzo di `arr` e quello del primo elemento `ar[0]`, si ottiene lo stesso valore:
+
+```c
+printf("%p", arr);      // Indirizzo dell'array 
+printf("%p", &arr[0]);  // Indirizzo del primo elemento
+```
+
+Per questo motivo, un array può essere trattato come un puntatore al suo primo elemento.
