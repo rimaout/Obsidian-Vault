@@ -68,7 +68,7 @@
             }
           },
           {
-            "id": "f05ca0a9790c1a0b",
+            "id": "531421d168a0bec0",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -79,34 +79,6 @@
               },
               "icon": "lucide-file",
               "title": "Monthly Logs"
-            }
-          },
-          {
-            "id": "531421d168a0bec0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Programming MOC/archive/Puntatori.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Puntatori"
-            }
-          },
-          {
-            "id": "ed616b80b5ee7902",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/archive/OS L7 - 26 Mar.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "OS L7 - 26 Mar"
             }
           }
         ],
@@ -173,8 +145,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -209,7 +180,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Storage/Backend/Monthly Logs/Monthly Logs.md",
+                "file": "Storage/Backend/Monthly Logs/attachments/strandbeest_IMG.webp",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -219,7 +190,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Monthly Logs"
+              "title": "Backlinks for strandbeest_IMG"
             }
           },
           {
@@ -228,12 +199,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Storage/Backend/Monthly Logs/Monthly Logs.md",
+                "file": "Storage/Backend/Monthly Logs/attachments/strandbeest_IMG.webp",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Monthly Logs"
+              "title": "Outgoing links from strandbeest_IMG"
             }
           },
           {
@@ -290,7 +261,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Storage/Backend/Monthly Logs/Monthly Logs.md",
+                "file": "Storage/Backend/Monthly Logs/attachments/strandbeest_IMG.webp",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -318,7 +289,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Monthly Logs"
+              "title": "Graph of strandbeest_IMG"
             }
           }
         ],
@@ -345,22 +316,27 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "f05ca0a9790c1a0b",
+  "active": "531421d168a0bec0",
   "lastOpenFiles": [
     "Storage/Backend/Monthly Logs/🐈 January 2025 (log).md",
-    "Storage/Backend/Monthly Logs/attachments/strandbeest_gif.gif",
-    "Storage/Backend/Monthly Logs/attachments/strandbeest_IMG.webp",
-    "Storage/Backend/Monthly Logs/attachments/Pasted image 20250419113716.png",
-    "Storage/Backend/Monthly Logs/attachments/Pasted image 20250419111102.png",
-    "Storage/Backend/Monthly Logs/attachments/Pasted image 20250419105051.png",
-    "Storage/Backend/Monthly Logs/attachments/Pasted image 20250419104802.png",
-    "Storage/Backend/Monthly Logs/attachments/cat.webp",
-    "Storage/Backend/Monthly Logs/🚧 February 2025 (Log).md",
-    "Storage/Backend/Monthly Logs/🌰 November 2024 (Log).md",
-    "3. MOCS/Programming MOC/archive/C Format Specifiers.md",
-    "To-Do/www.openstreetmap.org.md",
+    "To-Do/Untitled Kanban.md",
     "Storage/Backend/Monthly Logs/Monthly Logs.md",
     "3. MOCS/Programming MOC/archive/Puntatori.md",
+    "3. MOCS/Uni MOC/archive/OS L7 - 26 Mar.md",
+    "3. MOCS/Programming MOC/archive/C Format Specifiers.md",
+    "Storage/Backend/Monthly Logs/attachments/strandbeest_IMG.webp",
+    "Storage/Backend/Monthly Logs/attachments/strandbeest_gif.gif",
+    "Storage/Backend/Monthly Logs/attachments/Screenshot 2024-12-05 at 18.10.51.webp",
+    "Storage/Backend/Monthly Logs/attachments/Pasted image 20241126113719 1.jpg",
+    "Storage/Backend/Monthly Logs/attachments/Pasted image 20241204080621.png",
+    "Storage/Backend/Monthly Logs/attachments/Pasted image 20241204080633.png",
+    "Storage/Backend/Monthly Logs/attachments/Pasted image 20250419111102.png",
+    "Storage/Backend/Monthly Logs/attachments/planet_of_lana_image.webp",
+    "Storage/Backend/Monthly Logs/attachments/projectkamp_image.webp",
+    "Storage/Backend/Monthly Logs/attachments/Pasted image 20250419113716.png",
+    "Storage/Backend/Monthly Logs/🚧 February 2025 (Log).md",
+    "Storage/Backend/Monthly Logs/🌰 November 2024 (Log).md",
+    "To-Do/www.openstreetmap.org.md",
     "Storage/Backend/Monthly Logs/🎄 December 2024 (log).md",
     "3. MOCS/Uni MOC/archive/Sistemi Operativi 2 (class).md",
     "3. MOCS/Programming MOC/archive/C Data Types.md",
@@ -369,7 +345,6 @@
     "Storage/Backend/Product usage analysis/Product usage analysis.md",
     "3. MOCS/Programming MOC/archive/C Variables And Constants.md",
     "3. MOCS/Uni MOC/archive/Sistemi Operativi 1 (class).md",
-    "3. MOCS/Uni MOC/archive/OS L7 - 26 Mar.md",
     "3. MOCS/Uni MOC/archive/C Format Specifiers.md",
     "To-Do/C Format Specifiers.md",
     "3. MOCS/Programming MOC/archive/Rust MOC.md",
@@ -379,11 +354,8 @@
     "3. MOCS/Tech MOC/archive/SSH Key Github.md",
     "3. MOCS/Uni MOC/archive/Homework C1.md",
     "3. MOCS/Programming MOC/archive/Using C to make Python.md",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250414201257.png",
     "3. MOCS/Uni MOC/archive/Esonero 11/04",
     "3. MOCS/Uni MOC/archive/Esonero 11",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250414161111.png",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250414155501.png",
     "attachments",
     "To-Do/attachments",
     "3. MOCS/Uni MOC/archive/attachments/Recording 20250319144542.m4a",

@@ -1,6 +1,6 @@
 ---
 created: 2025-01-09T19:15
-updated: 2025-04-19T11:52
+updated: 2025-04-19T12:01
 tags:
   - monthly-log
 ---
@@ -43,13 +43,13 @@ This month I binge watched some [Veritasium](https://www.youtube.com/@veritasium
 - [34 Years Of Strandbeest Evolution](https://www.youtube.com/watch?v=IFaAjR_RRJs)
 - [The Real Reason Robots Shouldn’t Look Like Humans](https://www.youtube.com/watch?v=eLVAMG_3fLg)
 
-I especially loved the video on the **[Strandbeest](https://www.strandbeest.com/)** these are giant creatures made from plastic pipes that move entirely thanks to the power of the wind.
+I especially loved the video on the **[Strandbeest](https://www.strandbeest.com/)** these are giant creatures made from plastic pipes that move entirely thanks to the power of the wind, It's the perfect combination of art and engineering.
 
 ![[strandbeest_IMG.webp|1200]]
 
 ![[strandbeest_gif.gif|800]]
 
-They are made by Theo Jansen.
+Created by Dutch artist Theo Jansen.
 
 ---
 

@@ -5,7 +5,7 @@ related:
   - "[[Sistemi Operativi 2 (class)]]"
 completed: false
 created: 2025-04-17T14:42
-updated: 2025-04-18T22:03
+updated: 2025-04-19T13:01
 ---
 ## Introduzione (Memoria e Puntatori)
 
@@ -124,3 +124,36 @@ printf("%p", &arr[0]);  // Indirizzo del primo elemento
 ```
 
 Per questo motivo, un array può essere trattato come un puntatore al suo primo elemento.
+
+
+
+**TEST:** (da provare)
+
+```c
+x = 4 // indirizzo 1000
+
+int *px = &x; // indirzzo di px è 3000 e contiene 1000 (indirizzo di x)
+
+print(&px);   //out: 3000
+print(px);    //out: 1000
+print(*px);    // out: 4
+
+*px = 5
+print(x)    // out: 5
+```
+
+```c
+int *arr = {1,2} // 1 in indizizzo 1000, 2 indirizzo 1004
+				 // arr è salvato nel indirizzo 600
+
+print(arr)         // out: 1000
+print(*arr)        // out: 1
+print(arr[0])      // out: 1
+print(arr[1])      // out: 2
+print(*(arr+4))    //out: 2
+
+int **pa = &arr;   // puntatore all'indirizzo di memoria del arr
+print(pa);         // 600
+print(*pa);        // 1000
+print(**pa);       // 1
+```
