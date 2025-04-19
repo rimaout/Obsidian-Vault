@@ -1,6 +1,6 @@
 ---
 created: 2024-10-05T20:08
-updated: 2025-04-19T13:53
+updated: 2025-04-19T13:56
 ---
 👋 Welcome to my monthly log! This is a space that serves as a way to keep track of and document what I do and experience throughout the year. 
 
@@ -17,7 +17,7 @@ I also have to submit my [Java project](https://github.com/rimaout/The-Bolla-Bol
 
 Since my routine has basically been *eat*, *sleep*, *study*, and *repeat*, I don’t have that many interesting things to say about this period, but I’ll try my best.
 
-## Staying Home
+## 🏡 Staying Home
 
 As I explained in the [[🌰 November 2024 (Log)|November 2024 Log]], in the last few months I’ve spent the majority of my days at university, and I really liked this routine because it gave me plenty of time to study while enjoying the company of my friends and colleagues.
 
@@ -28,8 +28,8 @@ Studying from home has its benefits, such as spending more time with family and 
 But it also has its downsides. At least for me, it’s harder to stay focused and motivated, and honestly, it’s just less fun and more lonely. When you go to university, the environment is really dynamic: you study, then you go to the cafeteria, then you study again, have lunch with friends, and then get back to work. This is in stark contrast to studying at home, where the environment is much quieter and more isolating.
 
 Also, I might be a bit strange, but I actually really enjoy commuting. I love taking the train while reading a book, and walking around while listening to a good podcast. Commuting also forces you to move and be active something that’s much harder to do if you spend the majority of your day at home.
-![[cat.webp|900]]
-## Open Street Map
+![[cat.webp|700]]
+## 🗺️ Open Street Map
 
 When I said my routine was just eat, sleep, study, and repeat, I told a little lie, because my routine was actually more like eat, sleep, study, _OpenStreetMap_ 😅.
 
@@ -39,11 +39,11 @@ Quite often, I used the excuse of “mapping my neighborhood” to get outside f
 
 This app can also be used to easily add missing objects to the map, such as benches, street lamps, or shops. However, for more serious mapping task, like modifying roads or making detailed edit, the [official web interface](https://www.openstreetmap.org) is still the best tool to use.
 
-![[Pasted image 20250419111102.png|800]]
+![[Pasted image 20250419111102.png|1000]]
 	
 For navigating maps on my phone, I think [Organic Maps](https://github.com/organicmaps/organicmaps) is the best app I’ve found so far. It has a great interface, is really easy to use, and works perfectly offline.  In my opinion, the maps for especially densely populated areas are often much better than Google Maps. Of course, if you’re driving, Google Maps is still more convenient for real-time traffic updates, but for walking or exploring on foot, OpenStreetMap is superior in almost every way.
 
-## Video of Month
+## 📺 Video of Month
 
 This month I binge watched some [Veritasium](https://www.youtube.com/@veritasium) videos, and as always, they were great. I decided to make a list of the robot-themed videos I watched:
 - [Why Are Scientists Making Robots Insects?](https://www.youtube.com/watch?v=H6q6pYZ9Fho)

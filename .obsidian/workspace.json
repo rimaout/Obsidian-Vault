@@ -73,12 +73,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Storage/Backend/Monthly Logs/Monthly Logs.md",
+                "file": "Storage/Backend/Monthly Logs/🐈 January 2025 (log).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Monthly Logs"
+              "title": "🐈 January 2025 (log)"
             }
           }
         ],
@@ -318,9 +318,9 @@
   },
   "active": "531421d168a0bec0",
   "lastOpenFiles": [
+    "Storage/Backend/Monthly Logs/Monthly Logs.md",
     "Storage/Backend/Monthly Logs/🐈 January 2025 (log).md",
     "To-Do/Untitled Kanban.md",
-    "Storage/Backend/Monthly Logs/Monthly Logs.md",
     "3. MOCS/Programming MOC/archive/Puntatori.md",
     "3. MOCS/Uni MOC/archive/OS L7 - 26 Mar.md",
     "3. MOCS/Programming MOC/archive/C Format Specifiers.md",
