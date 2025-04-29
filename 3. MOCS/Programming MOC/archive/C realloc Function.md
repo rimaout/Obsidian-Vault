@@ -7,7 +7,7 @@ related:
   - "[[C malloc Function]]"
   - "[[C free Function]]"
 completed: true
-updated: 2025-04-18T11:35
+updated: 2025-04-24T10:11
 ---
 ---
 ## Index
@@ -63,7 +63,6 @@ array_int array_int_append( array_int v, int e ){
 	v.n++; // incremento il numero di elementi
 	
 	return v;
-	
 }
 ```
 

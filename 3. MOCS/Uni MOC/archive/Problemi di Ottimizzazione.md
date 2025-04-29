@@ -3,12 +3,10 @@ type: Uni Note
 class: "[[Algoritmi 2 (class)]]"
 academic year: 2024/2025
 related: 
-completed: false
+completed: true
 created: 2025-04-07T11:06
-updated: 2025-04-07T11:06
+updated: 2025-04-26T16:35
 ---
-# Problemi di ottimizzazione
-
 ## Introduzione
 
 Un problema di ottimizzazione è un tipo di problema in cui l'obiettivo è trovare la migliore soluzione possibile tra un insieme di soluzioni ammissibili.
@@ -18,7 +16,7 @@ Un problema di ottimizzazione è un tipo di problema in cui l'obiettivo è trova
 >Ogni soluzione ammissibile soddisfa tutte le condizioni imposte dal problema, ed ha un valore associato che può essere un **costo** o un **guadagno** (beneficio).
 >
 
-A seconda del tipo di problema, l'obiettivo può essere **minimizzare** il *costo* o **massimizzare** il *guadagno*. per questo i problemi si dividono in problemi di minimizzazione e problemi di massimizzazione.
+A seconda del tipo di problema, l'obiettivo può essere **minimizzare** il *costo* o **massimizzare** il *guadagno*. Per questo i problemi si dividono in problemi di *minimizzazione* e problemi di *massimizzazione*.
 
 >[!example] Esempio
 >
@@ -28,8 +26,7 @@ A seconda del tipo di problema, l'obiettivo può essere **minimizzare** il *cost
 
 Per la maggior parte dei problemi\, trovare una **soluzione ottima** può avere una **complessità che cresce esponenzialmente** con la dimensione del problema.
 
-In pratica, sebbene determinare se una soluzione è ammissibile possa essere fatto in tempo polinomiale, trovare la soluzione ottima richiede, nella maggior parte dei casi, algoritmi molto più
-complessi e intensivi in termini di risorse computazionali. Per questo motivo si utilizzano algoritmi di approssimazione.
+Sebbene determinare l'ammissibilità di una soluzione può essere fatto in tempo polinomiale, trovare la soluzione ottima richiede, nella maggior parte dei casi, algoritmi molto più complessi e intensivi in termini di risorse computazionali. Per questo motivo si utilizzano algoritmi di approssimazione.
 
 ## Algoritmi di Approssimazione
 
@@ -44,8 +41,7 @@ Per ora approfondiamo gli algoritmi di approssimazione, iniziando con i problemi
 
 ## Approssimazione dei Problemi di Minimizzazione
 
-
-Iniziamo con problemi di minimizzazione dove ad ogni soluzione ammissibile è associato un costo e cerchiamo quindi la soluzione ammissibile di costo minimo.
+Iniziamo con problemi di minimizzazione dove ad ogni soluzione ammissibile è associato un costo e  quindi cerchiamo la soluzione ammissibile di costo minimo.
 
 Si dice che `A` approssima il problema di minimizzazione entro un fattore di approssimazione `ρ` se per ogni istanza `I` del problema vale:
 
@@ -54,7 +50,7 @@ $$
 $$
 
 dove: 
-- `OPT(I)` è il costo della soluzione ottimale applicata sull’istanza `I`.
+- `OTT(I)` è il costo della soluzione ottimale applicata sull’istanza `I`.
 - `A(I)` il costo della soluzione prodotta dall’algoritmo `A` per quell’istanza.
 
 >[!danger] Costi

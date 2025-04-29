@@ -4,9 +4,9 @@ class:
   - "[[Algoritmi 2 (class)]]"
 academic year: 2024/2025
 related: 
-completed: false
+completed: true
 created: 2025-03-11T10:01
-updated: 2025-04-02T14:57
+updated: 2025-04-28T08:11
 ---
 ## Definizioni
 

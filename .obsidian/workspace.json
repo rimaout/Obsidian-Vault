@@ -4,83 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "6cd9850831fd6a14",
+        "id": "652e3f4f523715eb",
         "type": "tabs",
         "children": [
           {
-            "id": "01abab4389c228fc",
+            "id": "9fdc480e7e6edb27",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Sistemi Operativi 1 (class).md",
+                "file": "3. MOCS/Uni MOC/archive/Algoritmi 2 (class).md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "Sistemi Operativi 1 (class)"
+              "title": "Algoritmi 2 (class)"
             }
           },
           {
-            "id": "a8b661dc45f582e8",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/archive/Sistemi Operativi 2 (class).md",
-                "mode": "source",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Sistemi Operativi 2 (class)"
-            }
-          },
-          {
-            "id": "29967d116d5f4897",
+            "id": "1e66013cffac7aa9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Programming MOC/archive/C Data Types.md",
+                "file": "3. MOCS/Uni MOC/archive/Programmazione Dinamica.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "C Data Types"
-            }
-          },
-          {
-            "id": "11cf05b4b55ca5fd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Programming MOC/archive/C Format Specifiers.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "C Format Specifiers"
-            }
-          },
-          {
-            "id": "531421d168a0bec0",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Storage/Backend/Monthly Logs/attachments/Pasted image 20241126113719 1.jpg"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20241126113719 1"
+              "title": "Programmazione Dinamica"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -114,7 +72,7 @@
               "state": {
                 "query": "tag:monthly-log",
                 "matchingCase": true,
-                "explainSearch": false,
+                "explainSearch": true,
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical"
@@ -143,11 +101,13 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 531.504789352417
+    "width": 392.504789352417,
+    "collapsed": true
   },
   "right": {
     "id": "1599d9a7234429ed",
@@ -177,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Storage/Backend/Monthly Logs/attachments/strandbeest_IMG.webp",
+                "file": "3. MOCS/Uni MOC/archive/Algoritmi 2 (class).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +147,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for strandbeest_IMG"
+              "title": "Backlinks for Algoritmi 2 (class)"
             }
           },
           {
@@ -196,12 +156,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Storage/Backend/Monthly Logs/attachments/strandbeest_IMG.webp",
+                "file": "Storage/attachments/Pasted image 20241204080621.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from strandbeest_IMG"
+              "title": "Outgoing links from Calcolo delle Probabilità (class)"
             }
           },
           {
@@ -224,14 +184,27 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. MOCS/Uni MOC/Uni_Archive/Sistemi Operativi 1 (class).md"
+                "file": "3. MOCS/Uni MOC/archive/Algoritmi 2 (class).md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Sistemi Operativi 1 (class)"
+              "title": "Outline of Algoritmi 2 (class)"
+            }
+          },
+          {
+            "id": "2be710a38fb52417",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       },
       {
         "id": "0ee4f1dd2040ea54",
@@ -239,26 +212,13 @@
         "dimension": 64.80263157894737,
         "children": [
           {
-            "id": "08bb0d9d4b18b672",
-            "type": "leaf",
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "To-Do/To-Do.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "To-Do"
-            }
-          },
-          {
             "id": "6217f74dd2639932",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Storage/Backend/Monthly Logs/attachments/strandbeest_IMG.webp",
+                "file": "3. MOCS/Uni MOC/archive/UNION-FIND Data Structure.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -281,12 +241,34 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 1,
+                  "scale": 0.9879921026303743,
                   "close": true
                 }
               },
+              "pinned": true,
               "icon": "lucide-git-fork",
-              "title": "Graph of strandbeest_IMG"
+              "title": "Graph of UNION-FIND Data Structure"
+            }
+          },
+          {
+            "id": "b4eca7dc7ac39fd0",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "To-Do/To-Do.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false
+                  ]
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-trello",
+              "title": "To-Do"
             }
           }
         ],
@@ -294,12 +276,15 @@
       }
     ],
     "direction": "horizontal",
-    "width": 350.5,
+    "width": 385.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
       "obsidian-kanban:Create new board": false,
+      "obisidian-note-linker:Note Linker": false,
+      "obsidian-git:Open Git source control": false,
+      "omnisearch:Omnisearch": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -307,49 +292,47 @@
       "command-palette:Open command palette": false,
       "audio-recorder:Start/stop recording": false,
       "workspaces:Manage workspace layouts": false,
-      "markdown-importer:Open format converter": false,
-      "obsidian-git:Open Git source control": false,
-      "omnisearch:Omnisearch": false,
-      "obisidian-note-linker:Note Linker": false
+      "markdown-importer:Open format converter": false
     }
   },
-  "active": "ba7d0379bd9741ad",
+  "active": "1e66013cffac7aa9",
   "lastOpenFiles": [
+    "3. MOCS/Uni MOC/archive/Algoritmi 2 (class).md",
+    "3. MOCS/Uni MOC/archive/Programmazione Dinamica.md",
+    "3. MOCS/Uni MOC/archive/Basi di Dati 2 (class).md",
+    "3. MOCS/Uni MOC/archive/Basi di Dati 1 (class).md",
+    "3. MOCS/Uni MOC/archive/Progetto ebuy.md",
+    "3. MOCS/Uni MOC/archive/Esercitazioni Universitarie 1.md",
+    "3. MOCS/Uni MOC/archive/Officine 1.md",
+    "3. MOCS/Uni MOC/archive/Progetto Travel.md",
+    "3. MOCS/Uni MOC/archive/Crociere FOL.md",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250428081954.png",
+    "3. MOCS/Uni MOC/archive/Archi già Visitati - Grafi.md",
+    "3. MOCS/Uni MOC/archive/Divide et Impera.md",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250427164009.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250427163932.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250427163913.png",
+    "3. MOCS/Programming MOC/archive/Quartz.md",
+    "3. MOCS/Uni MOC/archive/Algoritmi Greedy.md",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250427112312.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250427111212.png",
+    "3. MOCS/Uni MOC/archive/Problemi di Ottimizzazione.md",
+    "3. MOCS/Uni MOC/archive/Reti (class).md",
+    "3. MOCS/Uni MOC/archive/Routing e Protocollo RIP.md",
+    "3. MOCS/Uni MOC/archive/attachments/Screenshot 2025-04-24 at 15.15.26.png",
+    "3. MOCS/Uni MOC/archive/Reti L11 - 01 Apr.md",
+    "3. MOCS/Uni MOC/archive/Reti L10 - 28 Mar.md",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250424130620.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250424115120.png",
+    "3. MOCS/Programming MOC/archive/C realloc Function.md",
+    "3. MOCS/Programming MOC/archive/C Embedded  Functions.md",
+    "3. MOCS/Programming MOC/archive/C MOC.md",
+    "3. MOCS/Uni MOC/archive/Programmazione Calcolatori (Class).md",
+    "3. MOCS/Uni MOC/archive/L8 Programmazione dei Calcolatori (C Linked Lists).md",
+    "3. MOCS/Uni MOC/archive/L7 Programmazione dei Calcolatori (C Structures, Array  agnostico).md",
+    "3. MOCS/Uni MOC/archive/L6 Programmazione dei Calcolatori (C array allocati dinamicamente).md",
+    "3. MOCS/Uni MOC/archive/L5 Programmazione dei Calcolatori (C stringhe).md",
     "Storage/Backend/Monthly Logs/attachments/Pasted image 20241126113719 1.jpg",
-    "Storage/Backend/Monthly Logs/attachments/Pasted image 20241204080621.png",
-    "Storage/Backend/Monthly Logs/attachments/Pasted image 20241204080633.png",
-    "Storage/Backend/Monthly Logs/attachments/Pasted image 20250419111102.png",
-    "Storage/Backend/Monthly Logs/attachments/planet_of_lana_image.webp",
-    "Storage/Backend/Monthly Logs/attachments/projectkamp_image.webp",
-    "Storage/Backend/Monthly Logs/attachments/Screenshot 2024-12-05 at 18.10.51.webp",
-    "Storage/Backend/Monthly Logs/attachments/strandbeest_gif.gif",
-    "Storage/Backend/Monthly Logs/attachments/strandbeest_IMG.webp",
-    "Storage/Backend/Monthly Logs/🐈 January 2025 (log).md",
-    "Storage/Backend/Monthly Logs/Monthly Logs.md",
-    "Storage/Backend/Monthly Logs/🎄 December 2024 (log).md",
-    "To-Do/Untitled Kanban.md",
-    "3. MOCS/Programming MOC/archive/Puntatori.md",
-    "3. MOCS/Uni MOC/archive/OS L7 - 26 Mar.md",
-    "3. MOCS/Programming MOC/archive/C Format Specifiers.md",
-    "Storage/Backend/Monthly Logs/attachments/Pasted image 20250419113716.png",
-    "Storage/Backend/Monthly Logs/🚧 February 2025 (Log).md",
-    "Storage/Backend/Monthly Logs/🌰 November 2024 (Log).md",
-    "To-Do/www.openstreetmap.org.md",
-    "3. MOCS/Uni MOC/archive/Sistemi Operativi 2 (class).md",
-    "3. MOCS/Programming MOC/archive/C Data Types.md",
-    "Storage/Backend/Monthly Logs/🏫 October 2024 (Log).md",
-    "Storage/Backend/My Resonance Calendar/My Resonance Calendar.md",
-    "Storage/Backend/Product usage analysis/Product usage analysis.md",
-    "3. MOCS/Programming MOC/archive/C Variables And Constants.md",
-    "3. MOCS/Uni MOC/archive/Sistemi Operativi 1 (class).md",
-    "3. MOCS/Uni MOC/archive/C Format Specifiers.md",
-    "To-Do/C Format Specifiers.md",
-    "3. MOCS/Programming MOC/archive/Rust MOC.md",
-    "3. MOCS/Uni MOC/archive/OS L6 - 19 Mar.md",
-    "3. MOCS/Uni MOC/archive/OS L1 - 3 Mar.md",
-    "3. MOCS/Programming MOC/archive/Python Dictionaries in C.md",
-    "3. MOCS/Tech MOC/archive/SSH Key Github.md",
-    "3. MOCS/Uni MOC/archive/Homework C1.md",
     "3. MOCS/Uni MOC/archive/Esonero 11/04",
     "3. MOCS/Uni MOC/archive/Esonero 11",
     "attachments",

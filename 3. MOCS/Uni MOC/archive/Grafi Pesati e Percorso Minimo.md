@@ -5,7 +5,7 @@ academic year: 2024/2025
 related: 
 completed: true
 created: 2025-04-05T17:29
-updated: 2025-04-05T20:20
+updated: 2025-04-27T12:28
 ---
 ## Introduzione
 
@@ -48,7 +48,7 @@ Ora per trovare il percorso minimo possiamo utilizzare una [[Visita in Ampiezza 
 
 Algoritmo di Dijkstra permette di trovare l'albero dei cammini minimi lavorando direttamente su grafi pesati (con pesi anche non interi).
 
-Si basa sul **paradigma della tecnica greedy**, ovvero si effettua la scelta ottimale a livello locale ad ogni passo nella speranza di trovare una soluzione ottimale globale.
+Si basa sul **paradigma della [[Algoritmi Greedy|tecnica greedy]]**, ovvero si effettua la scelta ottimale a livello locale ad ogni passo nella speranza di trovare una soluzione ottimale globale.
 
 >[!note] Funzionamento ad alto livello
 >

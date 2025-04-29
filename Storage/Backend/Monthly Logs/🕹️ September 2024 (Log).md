@@ -1,10 +1,10 @@
 ---
 created: 2024-10-05T20:11
-updated: 2024-10-06T10:02
+updated: 2025-04-19T22:49
 tags:
   - monthly-log
 ---
-I spent most of the month programming in Java, specifically working on a remake of the classic game [Bubble Bobble](https://en.wikipedia.org/wiki/Bubble_Bobble) for a university project. Now that the month is over, I can say that the game is functionally complete, but before I can submit the project to my professor, I still need to complete the implementation of the MVC design pattern and write the project [[Relazione Bubble Bobble|report]]. 
+I spent most of the month programming in Java, specifically working on a remake of the classic game [Bubble Bobble](https://en.wikipedia.org/wiki/Bubble_Bobble) for a university project. Now that the month is over, I can say that the game is functionally complete, but before I can submit the project to my professor, I still need to complete the implementation of the MVC design pattern and write the project report. 
 
 Honestly, this was my first time working on something this big, and it's been a really rewarding experience. I learned a ton and I'm really happy with the result. However, it's also been really stressful - at times even miserable - due to the fact that it was such a big project and my first time working with a deadline and project requirements that weren't chosen by me.
 

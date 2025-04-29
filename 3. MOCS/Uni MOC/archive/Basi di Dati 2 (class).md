@@ -4,7 +4,7 @@ type: Uni Note
 academic year: 2024/2025
 completed: false
 created: 2025-02-26T14:31
-updated: 2025-04-16T15:25
+updated: 2025-04-28T11:28
 ---
 **Sito:** [link](https://elearning.uniroma1.it/course/view.php?id=17659&section=5)
 
@@ -44,7 +44,8 @@ updated: 2025-04-16T15:25
 >- [[Progetto Travel to the Moon - BD2]]
 >- [[Officine 1]]
 >- [[Progetto Travel]]
-
+>- [[Progetto ebuy]]
+>- [[Crociere FOL]]
 
 >oss: solitamente i metodi non si mettono nelle classi di associazione ad esempio:
 >

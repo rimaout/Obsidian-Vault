@@ -1,6 +1,6 @@
 ---
 created: 2025-01-09T19:15
-updated: 2025-04-19T21:48
+updated: 2025-04-19T22:47
 tags:
   - monthly-log
 ---
@@ -48,7 +48,7 @@ I especially loved the video on the **[Strandbeest](https://www.strandbeest.com/
 
 ![[strandbeest_IMG.webp]]
 
-![[strandbeest_gif.gif|800]]
+![[strandbeest_gif.gif]]
 
 Created by Dutch artist Theo Jansen.
 

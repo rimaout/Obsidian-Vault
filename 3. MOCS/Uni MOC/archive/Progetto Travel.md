@@ -5,13 +5,12 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2025-04-16T13:54
-updated: 2025-04-16T14:50
+updated: 2025-04-28T10:27
 ---
 ## Specifica della classe Cliente
 
 Ogni istanza di questa classe rappresenta un cliente.
 
-============
 Operazioni di classe:
 
 	eta(d:Data): Intero >= 0

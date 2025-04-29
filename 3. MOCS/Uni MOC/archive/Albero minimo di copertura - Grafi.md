@@ -5,7 +5,7 @@ academic year: 2024/2025
 related: 
 completed: true
 created: 2025-04-05T20:05
-updated: 2025-04-07T10:11
+updated: 2025-04-27T12:28
 ---
 ## Introduzione
 
@@ -30,7 +30,7 @@ Un algoritmo utilizzato per risolvere questo problema è l’algoritmo di **Kru
 - Ad ogni iterazione controlliamo se è possibile aggiungere a `T` l'arco che stiamo analizzando senza creare un ciclo.
 - Se il nuovo arco non crea un ciclo allora lo inseriamo in `T`.
   
-L’algoritmo rientra perfettamente nel paradigma della **tecnica greedy**:
+L’algoritmo rientra perfettamente nel paradigma della [[Algoritmi Greedy|tecnica greedy]]:
 - La sequenza di decisioni irrevocabili, infatti per ciascun arco di `G` si decide se inserirlo o meno in `T`. Una volta effettuata la decisione non è possibile revocarla.
 - Le decisioni vengono prese in base ad un criterio “locale”, se l’arco preso in analisi crea ciclo in `T` non viene inserito, in caso contrario lo prendi in quanto è il meno costoso a non creare cicli tra gli archi che restano da considerare.
 
