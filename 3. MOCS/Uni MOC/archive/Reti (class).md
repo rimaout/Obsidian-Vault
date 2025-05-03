@@ -3,7 +3,7 @@ type: Uni Note
 academic year: 2024/2025
 completed: false
 created: 2025-02-27T14:31
-updated: 2025-04-24T14:15
+updated: 2025-04-29T15:24
 ---
 **Sito:** [link](https://classroom.google.com/c/MjEzMzIzMjE4MDBa)
 
@@ -40,8 +40,10 @@ updated: 2025-04-24T14:15
 >
 >slkdljsfl
 >- [[Routing e Protocollo RIP]]
+>- [[Routing Protocollo OSPF]]
 
 - [[Esercizi HTTP e DNS]]
 - [[Esercitazione su prestazioni di rete e livello applicazione]]
 - [[Esercizi su Livello Trasporto]]
 - [[Esonero 11-04-2024]]
+- [[Esercizi su Routing]]
