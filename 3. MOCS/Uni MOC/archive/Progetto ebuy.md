@@ -5,7 +5,7 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2025-04-28T10:26
-updated: 2025-05-02T13:24
+updated: 2025-05-07T07:59
 ---
 1. Requisiti **Utente**:
 	- 1. Nome (Stringa)
@@ -98,4 +98,17 @@ updated: 2025-05-02T13:24
 >Per ogni b:Bid, sia a:postOggettoAsta tale che esista il link (b, a):bid_asta, deve essere vero b.istante <= a.fine()
 >
 >[V.Bid.no_due_bid_stesso_istante_stessa_asta]
+>```
+
+>[!note] Vincoli Esterni Categoria
+>
+>```
+>[V.Categoria.no_cicli]
+>
+>Per ogni c1, c2 istanza di categoria se (sotto:c1, super:c2)sotto_categoria:
+>	- c1 =/= c2
+>	- (sotto:c1, super:c2): sotto_categoria
+>
+>Per ogni n>0:
+>	Per ogni c1,c2, ..., cn
 >```

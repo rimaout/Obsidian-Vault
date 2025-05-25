@@ -4,7 +4,7 @@ type: Uni Note
 academic year: 2024/2025
 completed: false
 created: 2025-02-26T14:31
-updated: 2025-05-02T12:37
+updated: 2025-05-07T15:21
 ---
 **Sito:** [link](https://elearning.uniroma1.it/course/view.php?id=17659&section=5)
 - [[Basi 2 - L9 Apr]]
@@ -15,10 +15,11 @@ updated: 2025-05-02T12:37
 >[!note] Introduzione
 >- [[Conteso Organizzativo - Basi di Dati 2|Conteso Organizzativo]] 🟢
 >- [[Ciclo di Vita del Software - Basi di Dati 2|Ciclo di Vita del Software]] 🟢
->- [[Introduzione UML]] 🟢
+
+## Fase di Analisi
 
 >[!note] UML
->
+>- [[Introduzione UML]] 🟢
 >- [[Classi e Oggetti (UML)|Classi e Oggetti]] 🟢
 >- [[Associazione e Link (UML)|Associazione e Link]] 🟢
 >- [[Tipi di dato (UML)|Tipi di Dato]] 🟢
@@ -27,12 +28,18 @@ updated: 2025-05-02T12:37
 >- [[Specializzazione (UML)|Specializzazione]] 🟢
 >- [[Diagramma degli Use-case]] 🟢
 >- [[Documento di Specifica - UML]] 🟢
->  [[FOL]]
->  
 
 >[!note] FOL
->- [[Introduzione FOL]]
+>- [[Introduzione First Order Logic (FOL)]]
 >- [[FOL nell’Analisi Concettuale]]
+
+## Fase di Progettazione
+
+[[DBMS]]
+[[SQL]]
+
+----
+
 
 >[!note] Esercitazioni
 >

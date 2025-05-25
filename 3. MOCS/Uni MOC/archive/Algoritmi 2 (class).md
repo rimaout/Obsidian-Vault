@@ -4,9 +4,11 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2025-02-27T16:31
-updated: 2025-04-28T08:11
+updated: 2025-05-24T12:02
 ---
 **Sito:** [link](https://twiki.di.uniroma1.it/twiki/view/Algoritmi2/PALGdiario2014_2)
+
+- [[Algo2 es tutor 19-05]]
 
 ---
 
@@ -38,6 +40,7 @@ updated: 2025-04-28T08:11
 >[!note] Paradigmi
 >- [[Problemi di Ottimizzazione]] 🟡 (da finire, mancano esempi)
 >- [[Algoritmi Greedy]] 🟢
->- [[Divide et Impera]] 🟡 (finito ma rivedere parte 120)
->- [[Programmazione Dinamica]]
+>- [[Divide et Impera]] 🟢
+>- [[Programmazione Dinamica]] 🟢
+>- [[Tecnica Backtracking]]
 

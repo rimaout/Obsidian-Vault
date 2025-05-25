@@ -3,15 +3,15 @@ type: Uni Note
 class: "[[Algoritmi 2 (class)]]"
 academic year: 2024/2025
 related: 
-completed: false
+completed: true
 created: 2025-04-27T17:15
-updated: 2025-04-30T16:19
+updated: 2025-05-24T12:02
 ---
 ## Introduzione
 
 La programmazione dinamica è una tecnica algoritmica che consiste nella memorizzazione delle soluzione di sotto problemi che si incontrano più volte durante il processo di risoluzione di un problema, in modo da non doverli ricomputare quando sono necessari in seguito.
 
-Questa semplice ottimizzazione, in alcuni casi, può riduce le complessità temporali da esponenziali a polinomiali.
+Questa ottimizzazione, in alcuni casi, può riduce le complessità temporali da esponenziali a polinomiali.
 
 >[!note] Fibonacci
 >
@@ -48,11 +48,11 @@ Questa semplice ottimizzazione, in alcuni casi, può riduce le complessità temp
 
 ## Memoizzazione
 
-Una tecnica molto semplice prende il nome di **memoizzazione** e consiste nel memorizzare i risultati precedenti. Questo permette di ridurre il tempo di calcolo, al costo di un piccolo *incremento di occupazione di memoria*.
+Una tecnica molto semplice prende il nome di **memoizzazione** e consiste nel memorizzare i risultati precedenti. Questo permette di ridurre il tempo di calcolo, al costo di un *incremento di occupazione di memoria*.
 
 >[!note] Fibonacci
 >
->Ad esempi un algoritmo iterativo, che utilizza la memoizzazione, per risolvere problema del calcolo dei numeri di fibonacci è:
+>Un algoritmo iterativo, che utilizza la memoizzazione, per risolvere problema del calcolo dei numeri di fibonacci è:
 >
 >```python
 >def Fib2(n):
@@ -88,7 +88,7 @@ Nella [[#^7790a2|versione ricorsiva]] del algoritmo per il calcolo dei numeri fi
 
 Nella [[#^5d0d3f|versione iterativa]], abbiamo utilizzato un approccio **bottom-up**. Ovvero si comincia col risolvere i sottoproblemi di dimensione sufficientemente piccola per poi passare a quelli di dimensione via via crescente fino ad arrivare alla soluzione del problema originario.
 
-## Esempio
+### Esempio
 
 Abbiamo `n` file di varie dimensioni ciascuna inferiore a `C` e un disco di capacità `C`, l’obbiettivo è trovare il sottoinsieme di file che può essere memorizzato sul disco e che massimizza lo spazio occupato.
 
@@ -112,14 +112,14 @@ Progettare un algoritmo che dati la capacità `C` e la lista `A` , dove `A[i]` �
 >	if i == 0 or C == 0: return 0
 >
 >	# lascio = spazio massimo che si riesce ad occupare lasciando l'ultimo elemento
->	lascio = es(A, i-1, C)   
+>	lascio = esR(A, i-1, C)   
 >	
 >	# se la dimensione del file corrente supera la capacità lo scarto
 >	if A[i] > C: 
 >		return lascio
 >
 >	# prendo = spazio massimo che si riesce ad occupare prendendo l'ultimo elemento
->	prendo = A[i] + es(A, i-1, C-A[i])
+>	prendo = A[i] + esR(A, i-1, C-A[i])
 >	return max(lascio, prendo)
 >```
 >
@@ -146,6 +146,8 @@ Progettare un algoritmo che dati la capacità `C` e la lista `A` , dove `A[i]` �
 l’esecuzione dell’istanza dove `C = 10` e `A = [1, 5, 3, 4, 2, 2]`.
 >
 >![[Pasted image 20250430110833.png|750]]
+
+^cdf2cd
 
 >[!note] Verisone divide et impera memoizzato
 >
@@ -174,6 +176,8 @@ l’esecuzione dell’istanza dove `C = 10` e `A = [1, 5, 3, 4, 2, 2]`.
 >
 >Quindi in `es()` la creazione di `T` ha costo $\Theta(nC)$ e tutte le chiamate ad `esMem()` possono avere al massimo un costo combinato di $\Omega(nC)$ quindi il costo totale di questo algoritmo è $\Theta(nC)$.
 
+^17ab86
+
 >[!question] Conviene utilizzare la versione memoizzata o non?
 >
 >Abbiamo visto che la versione memoizzata ha costo $\Theta(nC)$ molto minore rispetto al costo di $(2^{n})$ della versione non memoizzata, dove `n` è il numero di file.
@@ -191,7 +195,89 @@ l’esecuzione dell’istanza dove `C = 10` e `A = [1, 5, 3, 4, 2, 2]`.
 >
 >Quindi un computer con sufficiente memoria (dell’ordine delle centinaia di GB) può eseguire l’algoritmo memoizzato in meno di un’ora. Mentre con l’algoritmo non memoizzato, dovendo eseguire almeno $2^{1000}$ operazioni, il che anche utilizzando i computer del pianeta richiederebbe miliardi di anni.
 
->[!note] Versione Ricorsiva
+>[!note] Versione Iterativa
 >
+>Sia nella [[#^cdf2cd|versione greedy]] che nella [[#^17ab86|versione memoizzata]] abbiamo utilizzato la ricorsione insieme ad un approccio ***top-down***, l'utilizzo della ricorsione ha degli svantaggi:
+>- rischio di errori di tipo `maximum recursion depth exceeded`
+>- consumo di memoria (stack) dovuto alle chiamate ricorsive
 >
+>Per questo una volta trovata una versione ricorsiva può aver senso cercarne una iterativa. Solitamente nelle versione iterative si utilizza un approccio **bottom-up** al problema, partendo dai sotto problemi più piccoli per arrivare al problema principale.
+>
+>```python
+>def esI(A, C):
+>	T = [ [0]*(C+1) for i in range(len(A)+1) ]
+>	for i in range(1, n+1):
+>		for c in range(C+1):
+>			if c < A[i-1]:
+>				T[i][c] = T[i-1][c]
+>			else:
+>				T[i][c] = max( T[i-1][c], A[i-1] + T[i-1][c-A[i-1]] )
+>		
+>	return T[len(A)][C]
+>```
 
+## Utilizzo della tabella per determinare la soluzione
+
+Fino ad ora abbiamo utilizzato la tabella come uno strumento d'appoggio per memorizzare i risultati dei sotto problemi. Possiamo utilizzare per ricavare i passaggi che abbiamo effettuato per determinare la soluzione.
+
+L’idea consist nel partire dall’elemento che rappresenta il valore ottimo del problema e di percorrere all’indietro la tabella, di elemento in elemento seguendo a ritroso le ”decisioni” che hanno portato a determinare quel valore.
+
+>[!note] Esempio
+>
+>Come esempio consideriamo la tabella `T` del problema FILE relativamente all’istanza `C = 10` e `6` file di dimensioni `A = [1, 5, 3, 4, 2, 2]`.
+>
+>![[Pasted image 20250524110922.png|650]]
+>
+>Tenendo conto che la tabella è stata calcolata per mezzo della seguente formula ricorsiva:
+>
+>$$
+>T[i,c] = \begin{cases}
+>0 &\text{se } i=0 \\
+>T[i-1,c] &\text{se } c<A[i-1] \\
+>\max(T[i-1, c],\, A[i-1] + T[i-1,\, c-A[i-1]]) & \text{altrimenti} 
+>\end{cases}
+>$$
+>
+>Possiamo determinare che il percorso effettuato per arrivare alla soluzione ottima è stato:
+>
+>![[Pasted image 20250524114810.png|600]]
+>
+>Nella figura a partire da `T[n,C]` (elemento in basso a destra) da ogni elemento toccato della tabella `T[i,c]` è tracciata una freccia verso l’elemento in base al quale è stato calcolato `T[k, c]`:
+>- se la freccia è verso `T[i-1,c]` (una freccia verticale) vuol dire che il k-esimo file non è stato scelto.
+>- se la freccia è verso `T[i-1, c-A[i]]` (una freccia obliqua) vuol dire che il k-esimo file è stato scelto.
+>
+>Quindi le frecce rosse evidenziano le decisione prese a partire dall'elemento `T[n,C]` che fornisce il valore della soluzione ottima. In base a questo nell esempio è possibile determinare che la soluzione ottima sono i file di dimensione `4,5,1`.
+>
+>**Implementazione:**
+>
+>```python
+>def esI(A, C):
+>	n = len (A)
+>	T = [ [0]*(C+1) for i in range(n+1) ]
+>	
+>	for i in range(1, n+1):
+>		for c in range(C+1):
+>			if c < A[i-1]:
+>				T[i][c] = T[i-1][c]
+>			else:
+>				T[i][c] = max( T[i-1][c], A[i-1] + T[i-1][c - A[i-1]] )
+>
+>	# Determinare soluzione ottima:
+>	valore = T[n] [C]
+>	sol = []
+>	i = n
+>	while i > 0:
+>		if T[i][valore] != T[i-1][valore]:
+>			sol.append(i-1)
+>			valore -= A[i-1]
+>		i -= 1
+>	
+>	return T[n][C], sol
+>```
+>
+>**Costo:**
+>
+>- Nella *prima parte* viene pagato `O(nC)` per il calcolo della tabella.
+>- Nella *seconda parte*, alla ricerca dei file presenti nella soluzione ottima, la tabella viene visitata a partire dall’ultima cella `T[n, C]`, un riga in meno per volta. Il costo di questa visita è `O(n)`.
+>
+>La complessità è `O(nC)`

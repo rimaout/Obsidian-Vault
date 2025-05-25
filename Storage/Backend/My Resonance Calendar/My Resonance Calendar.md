@@ -1,6 +1,6 @@
 ---
 created: 2024-05-24T20:26
-updated: 2024-10-27T13:14
+updated: 2025-05-08T15:54
 ---
 Welcome to "My Resonance Calendar"; This is my organised space where I keep track of everything that resonates with me, including books, videos, articles, podcasts, and more.
 
@@ -22,4 +22,5 @@ Welcome to "My Resonance Calendar"; This is my organised space where I keep trac
 
 >[!abstract] Blog Posts
 >- [Beautiful Custom Keyboard (totem)](https://www.hackster.io/geist/totem-a-tiny-splitkeyboard-with-splay-cb2e43)
+>- [Design for 3d printing](https://blog.rahix.de/design-for-3d-printing/)
 
