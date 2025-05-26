@@ -6,7 +6,7 @@ related:
   - 
 completed: false
 created: 2025-05-06T14:28
-updated: 2025-05-22T09:34
+updated: 2025-05-25T23:48
 ---
 ## Internet Routing
 
@@ -122,7 +122,15 @@ Una **"connessione BGP"** consiste in coppie di router si scambiano le informazi
 
 >[!note] BGP interno (iBGP)
 >
->Una connessione è creata tra ogni possibile coppia di router all’interno di un AS
+>Una connessione è creata tra ogni possibile coppia di router all’interno di un AS.
+>
+>In questo dipo di conessione non tutti i nodi hanno messaggi da inviare, ma ogni nodo riceve.
+>
+>![[Pasted image 20250525234440.png|650]]
+>
+>l processo di aggiornamento non termina dopo il primo scambio di messaggi, in quest'esempio, `R1` dopo che ha ricevuto il messaggio di aggiornamento di `R2`, combina le informazioni circa la raggiungibilità di `AS3` con quelle che già conosceva relativamente a `AS1` e invia un nuovo messaggio d’aggiornamento a `R5` (che quindi sa come raggiungere AS1 e AS3).
 
 ^dad7e7
+
+## Scambio di messaggi
 

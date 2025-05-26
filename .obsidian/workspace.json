@@ -4,41 +4,83 @@
     "type": "split",
     "children": [
       {
-        "id": "652e3f4f523715eb",
+        "id": "7f733be9df40dca8",
         "type": "tabs",
         "children": [
           {
-            "id": "9fdc480e7e6edb27",
+            "id": "b77d8cd2cb0d7fdb",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Algoritmi 2 (class).md",
+                "file": "3. MOCS/Uni MOC/archive/Reti (class).md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "Algoritmi 2 (class)"
+              "title": "Reti (class)"
             }
           },
           {
-            "id": "74f2686e64a480d5",
+            "id": "b77a2e7b1cb51004",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Tecnica Backtracking.md",
+                "file": "3. MOCS/Uni MOC/archive/Sicurezza delle reti LAN.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tecnica Backtracking"
+              "title": "Sicurezza delle reti LAN"
+            }
+          },
+          {
+            "id": "89e01b040cc88918",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. MOCS/Uni MOC/archive/RIP - Routing Protocol Intra-Domino.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "RIP - Routing Protocol Intra-Domino"
+            }
+          },
+          {
+            "id": "f14b9c1207ceefb4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. MOCS/Uni MOC/archive/BCB - Routing Protocol Inter-Dominio.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "BCB - Routing Protocol Inter-Dominio"
+            }
+          },
+          {
+            "id": "395a310859644328",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. MOCS/Uni MOC/archive/BCB - Routing Protocol Inter-Dominio.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "BCB - Routing Protocol Inter-Dominio"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -101,8 +143,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -125,7 +166,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -137,7 +180,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Algoritmi 2 (class).md",
+                "file": "3. MOCS/Uni MOC/archive/Forwarding datagrammi IP e ICMP].md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +190,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Algoritmi 2 (class)"
+              "title": "Backlinks for Forwarding datagrammi IP e ICMP]"
             }
           },
           {
@@ -156,12 +199,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Storage/attachments/Pasted image 20241204080621.png",
+                "file": "3. MOCS/Uni MOC/archive/Internet Protocol v4 (IPv4).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Calcolo delle Probabilità (class)"
+              "title": "Outgoing links from Internet Protocol v4 (IPv4)"
             }
           },
           {
@@ -184,13 +227,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Algoritmi 2 (class).md",
+                "file": "3. MOCS/Uni MOC/archive/RIP - Routing Protocol.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Algoritmi 2 (class)"
+              "title": "Outline of RIP - Routing Protocol"
             }
           },
           {
@@ -212,13 +255,34 @@
         "dimension": 64.80263157894737,
         "children": [
           {
+            "id": "08bb0d9d4b18b672",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "To-Do/To-Do.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false
+                  ]
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-trello",
+              "title": "To-Do"
+            }
+          },
+          {
             "id": "6217f74dd2639932",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/UNION-FIND Data Structure.md",
+                "file": "3. MOCS/Uni MOC/archive/Web Caching.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -241,34 +305,13 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.9879921026303743,
+                  "scale": 0.1796914739738346,
                   "close": true
                 }
               },
               "pinned": true,
               "icon": "lucide-git-fork",
-              "title": "Graph of UNION-FIND Data Structure"
-            }
-          },
-          {
-            "id": "b4eca7dc7ac39fd0",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "To-Do/To-Do.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false
-                  ]
-                }
-              },
-              "pinned": true,
-              "icon": "lucide-trello",
-              "title": "To-Do"
+              "title": "Graph of Web Caching"
             }
           }
         ],
@@ -276,7 +319,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 385.5,
+    "width": 342.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -295,17 +338,20 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "74f2686e64a480d5",
+  "active": "395a310859644328",
   "lastOpenFiles": [
-    "3. MOCS/Uni MOC/archive/Algoritmi 2 (class).md",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250525234440.png",
+    "3. MOCS/Uni MOC/archive/Reti (class).md",
+    "3. MOCS/Uni MOC/archive/Sicurezza delle reti LAN.md",
     "3. MOCS/Uni MOC/archive/Tecnica Backtracking.md",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250525200221.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250525183016.png",
+    "3. MOCS/Uni MOC/archive/Algoritmi 2 (class).md",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250525124853.png",
     "3. MOCS/Uni MOC/archive/Programmazione Dinamica.md",
-    "3. MOCS/Uni MOC/archive/Sicurezza delle reti LAN.md",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250524114810.png",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250524110922.png",
     "3. MOCS/Uni MOC/archive/Algo2 es tutor 19/Algo2 es tutor 19-05.md",
-    "3. MOCS/Uni MOC/archive/Reti (class).md",
     "3. MOCS/Uni MOC/archive/BCB - Routing Protocol Inter-Dominio.md",
     "3. MOCS/Uni MOC/archive/RIP - Routing Protocol Intra-Domino.md",
     "3. MOCS/Uni MOC/archive/OSPF - Routing Protocol Intra-Domino.md",
@@ -319,10 +365,8 @@
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250520143821.png",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250520143735.png",
     "3. MOCS/Uni MOC/archive/Algo2 es tutor 19/attachments/Screenshot 2025-05-19 at 09.28.05.png",
-    "3. MOCS/Uni MOC/archive/Algo2 es tutor 19/attachments/Screenshot 2025-05-19 at 09.52.18.png",
     "3. MOCS/Uni MOC/archive/Algo2 es tutor 19/attachments",
     "3. MOCS/Uni MOC/archive/Algo2 es tutor 19",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250519091440.png",
     "3. MOCS/Uni MOC/archive/Internet Protocol v4 (IPv4) - Indirizzamento, DHCP, NAT, Forwarding.md",
     "3. MOCS/Uni MOC/archive/Divide et Impera.md",
     "Untitled.canvas",
