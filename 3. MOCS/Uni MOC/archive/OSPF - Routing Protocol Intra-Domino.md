@@ -5,7 +5,7 @@ academic year: 2024/2025
 related: 
 completed: true
 created: 2025-04-29T14:27
-updated: 2025-05-21T08:49
+updated: 2025-06-07T15:41
 ---
 ## Introduzione
 
@@ -13,7 +13,9 @@ Questo protocollo è basato sull'idea di **Link State**, ovvero il costo associa
 - $\infty$ indica un collegamento inesistente o interrotto
 - Ogni nodo deve conoscere i costi di tutti i collegamenti della rete
  
-Per la memorizzazione di queste informazioni è utilizzato un [[#Link State Database (LSDB)]]
+Per la memorizzazione di queste informazioni è utilizzato un [[#Link State Database (LSDB)]].
+
+>***oss:*** è un alternativa al [[RIP - Routing Protocol Intra-Domino#Algoritmo d’instradamento con vettore distanza (Distance Vector - DV)|distance vector (DC)]] utilizzato in [[RIP - Routing Protocol Intra-Domino|RIP]].
 
 ## Link State Database (LSDB)
 
@@ -41,7 +43,6 @@ Il link state database mantiene la *mappa completa della rete*, *ogni nodo ne ma
 >![[Screenshot 2025-05-18 at 10.06.16.png|900]]
 
 ^4c98a5
-
 ## Algoritmo Link State (LS)
 
 Per costruire il suo albero a costo minimo utilizzando il LSDB ogni nodo deve eseguire l’**algoritmo di Dijkstra**, in modo indipendente, scegliendo se stesso come nodo radice.
@@ -49,9 +50,9 @@ Per costruire il suo albero a costo minimo utilizzando il LSDB ogni nodo deve es
 Definiamo la seguente notazione:
 - $N$: insieme di nodi della rete.
 - $c(x,y)$: costo collegamento dal nodo `x` al nodo `y`.
-- $D(v)$: costo del commino minimo dal nodo origine alla destinazione `v` (nel iterazione corrente).
+- $D(v)$: costo del cammino minimo dal nodo origine alla destinazione `v` (nel iterazione corrente).
 - $p(v)$: immediato predecessore del nodo `v` lungo il cammino minimo.
-- $N'$: sottoinsieme dei nodi per cui il cammino a costo minimo dall'origine e definitivamente noto.
+- $N'$: sottoinsieme dei nodi per cui il cammino a costo minimo dall'origine è definitivamente noto.
 
 >[!note] Inizializzazione
 >
@@ -59,7 +60,7 @@ Definiamo la seguente notazione:
 >
 >```
 >N' = {r}
->for all nodi n:
+>for all nodi n in N:
 >	se n è adiacente a r
 >		allora D(n) = c(r,n)
 >	altrimenti D(n) = inf
@@ -67,15 +68,21 @@ Definiamo la seguente notazione:
 
 >[!note] Ciclo
 >
+>Una volta inizializzato il sottoinsieme con i nodi adiacenti alla radice, possiamo far partire il ciclo:
+>
 >```
->determina un n non in N' tale che D(n) sia minimo
->aggiungi n a N'
->per ogni nodo `a` adiacente a n e non in N' aggiorna D(a):
+>determina un `n` non in N' tale che D(n) sia minimo
+>
+>aggiungi `n` a N'
+>
+>per ogni nodo `a` adiacente a `n` e non in N' aggiorna D(a):
 >	D(a) = min(D(a), D(n) + c(n, a))
 >Termina quando N' = N
 >```
 
-ljdnfkanf fnlasfnjanfjksnd+
+Possiamo applicare Dijkstra per risolvere esercizi in modo “grafico”:
+
+
 
 ## Confronto tra algoritmi LS e DV
 

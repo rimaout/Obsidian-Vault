@@ -3,7 +3,7 @@ type: Uni Note
 academic year: 2024/2025
 completed: false
 created: 2025-02-27T14:31
-updated: 2025-05-31T16:38
+updated: 2025-06-07T13:38
 ---
 **Sito:** [link](https://classroom.google.com/c/MjEzMzIzMjE4MDBa)
 
@@ -38,7 +38,7 @@ updated: 2025-05-31T16:38
 >- [[Internet Control Message Protocol (ICMP)]] 🟢
 >- [[RIP - Routing Protocol Intra-Domino]] 🟢
 >- [[OSPF - Routing Protocol Intra-Domino]]
->- [[BCB - Routing Protocol Inter-Dominio]]
+>- [[BGB - Routing Protocol Inter-Dominio]] 🟢
 
 >[!note] Livello Collegamento
 >

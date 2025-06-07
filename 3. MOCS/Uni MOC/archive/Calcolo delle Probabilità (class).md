@@ -1,9 +1,11 @@
 ---
 created: 2024-09-23T16:18
-updated: 2025-02-17T17:17
+updated: 2025-06-07T16:00
 Main Moc: "[[Uni MOC]]"
 academic year: 2024/2025
 ---
+## Programma
+
 >[!note] Calcolo Combinatorio
 >- [[Principio fondamentale del calcolo combinatorio]] 🟢
 >- [[Permutazioni]] 🟢
@@ -38,3 +40,7 @@ academic year: 2024/2025
 >[!note] Variabili Aleatorie Continue e Gaussiane
 >- [[Variabili Aleatorie Continue]] 🟢
 >- [[Variabile Aleatoria Gaussiana]]
+
+## Formulario
+
+![[Formule CP.pdf]]

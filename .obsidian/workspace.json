@@ -4,71 +4,26 @@
     "type": "split",
     "children": [
       {
-        "id": "1d3df57368887a29",
+        "id": "7f733be9df40dca8",
         "type": "tabs",
         "children": [
           {
-            "id": "9b5ee948960d4911",
+            "id": "b77d8cd2cb0d7fdb",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Basi di Dati 1 (class).md",
-                "mode": "preview",
-                "source": false
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "Basi di Dati 1 (class)"
-            }
-          },
-          {
-            "id": "a21173ce5f5dcda3",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/archive/Basi di Dati 2 (class).md",
+                "file": "3. MOCS/Uni MOC/archive/Reti (class).md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "Basi di Dati 2 (class)"
-            }
-          },
-          {
-            "id": "67b03c332b863e31",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/archive/Quick Hospital.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Quick Hospital"
-            }
-          },
-          {
-            "id": "64b15fb9f0b11f8a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/archive/Dipendenti FOL.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Dipendenti FOL"
+              "title": "Reti (class)"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -101,10 +56,10 @@
               "type": "search",
               "state": {
                 "query": "tag:monthly-log",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
+                "matchingCase": true,
+                "explainSearch": true,
+                "collapseAll": true,
+                "extraContext": true,
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
@@ -135,7 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 494.5062494277954,
+    "width": 392.504789352417,
     "collapsed": true
   },
   "right": {
@@ -145,7 +100,7 @@
       {
         "id": "b33702b1304e824a",
         "type": "tabs",
-        "dimension": 42.06642066420663,
+        "dimension": 35.19736842105263,
         "children": [
           {
             "id": "73d6fce2365a09ef",
@@ -154,7 +109,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -166,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Basi 2 - L16 Apr.md",
+                "file": "3. MOCS/Uni MOC/archive/Forwarding datagrammi IP e ICMP].md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,7 +133,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Basi 2 - L16 Apr"
+              "title": "Backlinks for Forwarding datagrammi IP e ICMP]"
             }
           },
           {
@@ -185,12 +142,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Storage/Backend/Monthly Logs/⭐ November 2024 (Log).md",
+                "file": "3. MOCS/Uni MOC/archive/Internet Protocol v4 (IPv4).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from ⭐ November 2024 (Log)"
+              "title": "Outgoing links from Internet Protocol v4 (IPv4)"
             }
           },
           {
@@ -213,13 +170,23 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Basi 2 - L16 Apr.md",
+                "file": "3. MOCS/Uni MOC/archive/RIP - Routing Protocol.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Basi 2 - L16 Apr"
+              "title": "Outline of RIP - Routing Protocol"
+            }
+          },
+          {
+            "id": "2be710a38fb52417",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -228,8 +195,29 @@
       {
         "id": "0ee4f1dd2040ea54",
         "type": "tabs",
-        "dimension": 57.93357933579337,
+        "dimension": 64.80263157894737,
         "children": [
+          {
+            "id": "08bb0d9d4b18b672",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "To-Do/To-Do.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false
+                  ]
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-trello",
+              "title": "To-Do"
+            }
+          },
           {
             "id": "6217f74dd2639932",
             "type": "leaf",
@@ -237,7 +225,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "To-Do/To-Do.md",
+                "file": "3. MOCS/Uni MOC/archive/Web Caching.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -260,34 +248,13 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 1.4547352939090106,
+                  "scale": 0.1796914739738346,
                   "close": true
                 }
               },
               "pinned": true,
               "icon": "lucide-git-fork",
-              "title": "Graph of To-Do"
-            }
-          },
-          {
-            "id": "8bb5fd167d10c3d5",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "To-Do/To-Do.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false
-                  ]
-                }
-              },
-              "pinned": true,
-              "icon": "lucide-trello",
-              "title": "To-Do"
+              "title": "Graph of Web Caching"
             }
           }
         ],
@@ -295,11 +262,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 655.5,
+    "width": 342.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-kanban:Create new board": false,
       "obisidian-note-linker:Note Linker": false,
       "obsidian-git:Open Git source control": false,
       "omnisearch:Omnisearch": false,
@@ -310,24 +278,33 @@
       "command-palette:Open command palette": false,
       "audio-recorder:Start/stop recording": false,
       "workspaces:Manage workspace layouts": false,
-      "markdown-importer:Open format converter": false,
-      "obsidian-kanban:Create new board": false
+      "markdown-importer:Open format converter": false
     }
   },
-  "active": "a21173ce5f5dcda3",
+  "active": "b77d8cd2cb0d7fdb",
   "lastOpenFiles": [
-    "3. MOCS/Uni MOC/archive/Basi di Dati 1 (class).md",
-    "3. MOCS/Uni MOC/archive/Dipendenti FOL.md",
-    "3. MOCS/Uni MOC/archive/Basi di Dati 2 (class).md",
-    "3. MOCS/Uni MOC/archive/BCB - Routing Protocol Inter-Dominio.md",
+    "3. MOCS/Uni MOC/archive/Variabile Aleatoria Gaussiana.md",
+    "3. MOCS/Uni MOC/archive/Calcolo delle Probabilità (class).md",
+    "3. MOCS/Uni MOC/archive/attachments/Formule CP.pdf",
+    "3. MOCS/Uni MOC/archive/OSPF - Routing Protocol Intra-Domino.md",
     "3. MOCS/Uni MOC/archive/Reti (class).md",
+    "3. MOCS/Uni MOC/archive/Introduzione al Livello di Rete.md",
+    "3. MOCS/Uni MOC/archive/Protocollo TCP (Transmission Control Protocol).md",
+    "3. MOCS/Uni MOC/archive/BGB - Routing Protocol Inter-Dominio.md",
+    "2. Litterateur Notes/Books/The Martian Book.md",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250607121219.png",
+    "Storage/Backend/Product usage analysis/Product usage analysis.md",
+    "Storage/Backend/Product usage analysis/Rarely Used Products Analysis.md",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250607112702.png",
+    "3. MOCS/Uni MOC/archive/Dipendenti FOL.md",
+    "3. MOCS/Uni MOC/archive/Quick Hospital.md",
+    "3. MOCS/Uni MOC/archive/Basi di Dati 2 (class).md",
+    "3. MOCS/Uni MOC/archive/Basi di Dati 1 (class).md",
     "1. Easy Notes/Legge Anti Fumo.md",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250605175906.png",
-    "3. MOCS/Uni MOC/archive/OSPF - Routing Protocol Intra-Domino.md",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250605172726.png",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250605171823.png",
     "3. MOCS/Uni MOC/archive/Algoritmi 2 (class).md",
-    "3. MOCS/Uni MOC/archive/Quick Hospital.md",
     "3. MOCS/Uni MOC/archive/Documento di Specifica - UML.md",
     "3. MOCS/Uni MOC/archive/FOL nell’Analisi Concettuale.md",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250603115812.png",
@@ -342,15 +319,7 @@
     "3. MOCS/Uni MOC/archive/Progetto TuTubi.md",
     "3. MOCS/Uni MOC/archive/SQL.md",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250602113857.png",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250602113849.png",
     "3. MOCS/Uni MOC/archive/Problemi di Ottimizzazione.md",
-    "3. MOCS/Uni MOC/archive/Tecnica Backtracking.md",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250526095458.png",
-    "3. MOCS/Uni MOC/archive/Sicurezza delle reti LAN.md",
-    "3. MOCS/Uni MOC/archive/Programmazione Dinamica.md",
-    "3. MOCS/Uni MOC/archive/Algo2 es tutor 19/Algo2 es tutor 19-05.md",
-    "3. MOCS/Uni MOC/archive/RIP - Routing Protocol Intra-Domino.md",
-    "3. MOCS/Programming MOC/archive/Python MOC.md",
     "3. MOCS/Uni MOC/archive/Algo2 es tutor 19/attachments",
     "3. MOCS/Uni MOC/archive/Algo2 es tutor 19",
     "Untitled.canvas",
@@ -361,7 +330,6 @@
     "To-Do/attachments",
     "3. MOCS/Uni MOC/archive/attachments/Recording 20250319144542.m4a",
     "3. MOCS/Uni MOC/archive/Introduzione allo stack protocollare TCP",
-    "3. MOCS/Uni MOC/archive/attachments/Lez03A2Grafi2.pdf",
     "Buy List/Skin Care Buy List.canvas",
     "Buy List/Clothing Buy List.canvas",
     "Storage/Untitled.canvas",
