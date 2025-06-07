@@ -3,7 +3,7 @@ type: Uni Note
 academic year: 2024/2025
 completed: false
 created: 2025-02-27T14:31
-updated: 2025-05-22T14:21
+updated: 2025-05-31T16:38
 ---
 **Sito:** [link](https://classroom.google.com/c/MjEzMzIzMjE4MDBa)
 
@@ -46,8 +46,7 @@ updated: 2025-05-22T14:21
 
 >[!note] Altro
 >
->[[Sicurezza delle reti LAN]]
-
+>- [[Sicurezza delle reti LAN]]
 
 - [[Reti L8 - 25 Mar]] (esercizi)
 - [[Esercizi HTTP e DNS]]

@@ -1,11 +1,11 @@
 ---
 type: Uni Note
-class: 
+class: "[[Algoritmi 2 (class)]]"
 academic year: 2024/2025
 related: 
-completed: false
+completed: true
 created: 2025-05-12T14:19
-updated: 2025-05-26T10:57
+updated: 2025-05-31T16:37
 ---
 Il backtracking è una tecnica che utilizza il *brute forcing* per trovare tutte le soluzioni di un problema, in particolare è una tecnica di ricerca che esplora tutte le possibili configurazioni di un problema e da queste seleziona le soluzioni.
 
@@ -119,7 +119,7 @@ Prendiamo in considerazione questo problema risolvibile attraverso la tecnica de
 >\end{align*}
 >$$
 
-##### Costo senza funzione di taglio
+### Costo senza funzione di taglio
 
 Vedremo un algoritmo che esplora tutte le possibili configurazione e poi stampa soltanto quelle che rispettano le condizioni del problema:
 
@@ -156,7 +156,7 @@ Questo algoritmo genera un albero delle soluzioni che contiene tutte le possibil
 >
 >Mentre l'algoritmo da noi trovato ha complessità esponenziale $\Theta(2^{n} \cdot n)$, dato che visitiamo tutte le possibili soluzioni ($2^{n}$) su cui effettuiamo il controllo.
 
-##### Costo con funzione di taglio
+### Costo con funzione di taglio
 
 Adesso vediamo un altra soluzione al problema che utilizza una funzione di taglio per ridurre il costo computazionale:
 
@@ -196,11 +196,3 @@ In questo caso l'albero delle soluzione generato dell’algoritmo (con input `n=
 >$$
 >S(n,k) \cdot  n \cdot O(1) + S(n,k) \cdot  \Theta(n) = \Theta(S(n,k) \cdot n)
 >$$
-
-g(n) = Θ(n) -> (costo foglie)
-f(n) = Θ(1) -> (nodo intermedio)
-h = n -> altezza albero (che è anche il numero di nodi per ramo nel caso peggiore)
-S(n,k) = numero di foglie (è anche il numero di rami)
-
-- (numero di foglie) x (costo foglia) + (numero di nodi intermedi) x (costo nodi intermedio)
-- (S(n,k)) x (Θ(n)) + (S(n,k) x h ) x (Θ(1))

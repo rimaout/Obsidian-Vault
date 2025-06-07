@@ -4,37 +4,67 @@
     "type": "split",
     "children": [
       {
-        "id": "652e3f4f523715eb",
+        "id": "1d3df57368887a29",
         "type": "tabs",
         "children": [
           {
-            "id": "9fdc480e7e6edb27",
+            "id": "9b5ee948960d4911",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Algoritmi 2 (class).md",
+                "file": "3. MOCS/Uni MOC/archive/Basi di Dati 1 (class).md",
+                "mode": "preview",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Basi di Dati 1 (class)"
+            }
+          },
+          {
+            "id": "a21173ce5f5dcda3",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. MOCS/Uni MOC/archive/Basi di Dati 2 (class).md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "Algoritmi 2 (class)"
+              "title": "Basi di Dati 2 (class)"
             }
           },
           {
-            "id": "7dcc3fb6fa956491",
+            "id": "67b03c332b863e31",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Tecnica Backtracking.md",
+                "file": "3. MOCS/Uni MOC/archive/Quick Hospital.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tecnica Backtracking"
+              "title": "Quick Hospital"
+            }
+          },
+          {
+            "id": "64b15fb9f0b11f8a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. MOCS/Uni MOC/archive/Dipendenti FOL.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Dipendenti FOL"
             }
           }
         ],
@@ -71,10 +101,10 @@
               "type": "search",
               "state": {
                 "query": "tag:monthly-log",
-                "matchingCase": true,
-                "explainSearch": true,
-                "collapseAll": true,
-                "extraContext": true,
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
@@ -101,12 +131,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 392.504789352417,
+    "width": 494.5062494277954,
     "collapsed": true
   },
   "right": {
@@ -116,7 +145,7 @@
       {
         "id": "b33702b1304e824a",
         "type": "tabs",
-        "dimension": 35.19736842105263,
+        "dimension": 42.06642066420663,
         "children": [
           {
             "id": "73d6fce2365a09ef",
@@ -137,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Algoritmi 2 (class).md",
+                "file": "3. MOCS/Uni MOC/archive/Basi 2 - L16 Apr.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +176,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Algoritmi 2 (class)"
+              "title": "Backlinks for Basi 2 - L16 Apr"
             }
           },
           {
@@ -156,12 +185,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Storage/attachments/Pasted image 20241204080621.png",
+                "file": "Storage/Backend/Monthly Logs/⭐ November 2024 (Log).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Calcolo delle Probabilità (class)"
+              "title": "Outgoing links from ⭐ November 2024 (Log)"
             }
           },
           {
@@ -184,23 +213,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Algoritmi 2 (class).md",
+                "file": "3. MOCS/Uni MOC/archive/Basi 2 - L16 Apr.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Algoritmi 2 (class)"
-            }
-          },
-          {
-            "id": "2be710a38fb52417",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "title": "Outline of Basi 2 - L16 Apr"
             }
           }
         ],
@@ -209,7 +228,7 @@
       {
         "id": "0ee4f1dd2040ea54",
         "type": "tabs",
-        "dimension": 64.80263157894737,
+        "dimension": 57.93357933579337,
         "children": [
           {
             "id": "6217f74dd2639932",
@@ -218,7 +237,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/UNION-FIND Data Structure.md",
+                "file": "To-Do/To-Do.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -241,17 +260,17 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.9879921026303743,
+                  "scale": 1.4547352939090106,
                   "close": true
                 }
               },
               "pinned": true,
               "icon": "lucide-git-fork",
-              "title": "Graph of UNION-FIND Data Structure"
+              "title": "Graph of To-Do"
             }
           },
           {
-            "id": "b4eca7dc7ac39fd0",
+            "id": "8bb5fd167d10c3d5",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -276,12 +295,11 @@
       }
     ],
     "direction": "horizontal",
-    "width": 385.5,
+    "width": 655.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-kanban:Create new board": false,
       "obisidian-note-linker:Note Linker": false,
       "obsidian-git:Open Git source control": false,
       "omnisearch:Omnisearch": false,
@@ -292,49 +310,50 @@
       "command-palette:Open command palette": false,
       "audio-recorder:Start/stop recording": false,
       "workspaces:Manage workspace layouts": false,
-      "markdown-importer:Open format converter": false
+      "markdown-importer:Open format converter": false,
+      "obsidian-kanban:Create new board": false
     }
   },
-  "active": "7dcc3fb6fa956491",
+  "active": "a21173ce5f5dcda3",
   "lastOpenFiles": [
+    "3. MOCS/Uni MOC/archive/Basi di Dati 1 (class).md",
+    "3. MOCS/Uni MOC/archive/Dipendenti FOL.md",
+    "3. MOCS/Uni MOC/archive/Basi di Dati 2 (class).md",
+    "3. MOCS/Uni MOC/archive/BCB - Routing Protocol Inter-Dominio.md",
+    "3. MOCS/Uni MOC/archive/Reti (class).md",
+    "1. Easy Notes/Legge Anti Fumo.md",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250605175906.png",
+    "3. MOCS/Uni MOC/archive/OSPF - Routing Protocol Intra-Domino.md",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250605172726.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250605171823.png",
     "3. MOCS/Uni MOC/archive/Algoritmi 2 (class).md",
+    "3. MOCS/Uni MOC/archive/Quick Hospital.md",
+    "3. MOCS/Uni MOC/archive/Documento di Specifica - UML.md",
+    "3. MOCS/Uni MOC/archive/FOL nell’Analisi Concettuale.md",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250603115812.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250603104412.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250603104347.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250603104218.png",
+    "3. MOCS/Uni MOC/archive/Diagramma degli Use-case.md",
+    "3. MOCS/Uni MOC/archive/Crociere FOL.md",
+    "3. MOCS/Uni MOC/archive/Progetto ebuy.md",
+    "3. MOCS/Uni MOC/archive/Impiegati e Studenti.md",
+    "3. MOCS/Uni MOC/archive/Progetto Travel.md",
+    "3. MOCS/Uni MOC/archive/Progetto TuTubi.md",
+    "3. MOCS/Uni MOC/archive/SQL.md",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250602113857.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250602113849.png",
+    "3. MOCS/Uni MOC/archive/Problemi di Ottimizzazione.md",
     "3. MOCS/Uni MOC/archive/Tecnica Backtracking.md",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250526095458.png",
-    "3. MOCS/Uni MOC/archive/BCB - Routing Protocol Inter-Dominio.md",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250525234440.png",
-    "3. MOCS/Uni MOC/archive/Reti (class).md",
     "3. MOCS/Uni MOC/archive/Sicurezza delle reti LAN.md",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250525200221.png",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250525183016.png",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250525124853.png",
     "3. MOCS/Uni MOC/archive/Programmazione Dinamica.md",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250524114810.png",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250524110922.png",
     "3. MOCS/Uni MOC/archive/Algo2 es tutor 19/Algo2 es tutor 19-05.md",
     "3. MOCS/Uni MOC/archive/RIP - Routing Protocol Intra-Domino.md",
-    "3. MOCS/Uni MOC/archive/OSPF - Routing Protocol Intra-Domino.md",
     "3. MOCS/Programming MOC/archive/Python MOC.md",
-    "3. MOCS/Programming MOC/archive/Python Data Types.md",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250521081910.png",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250521081905.png",
-    "3. MOCS/Uni MOC/archive/Basi di Dati 2 (class).md",
-    "3. MOCS/Uni MOC/archive/Basi di Dati 1 (class).md",
-    "3. MOCS/Uni MOC/archive/SQL.md",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250520143821.png",
     "3. MOCS/Uni MOC/archive/Algo2 es tutor 19/attachments",
     "3. MOCS/Uni MOC/archive/Algo2 es tutor 19",
-    "3. MOCS/Uni MOC/archive/Internet Protocol v4 (IPv4) - Indirizzamento, DHCP, NAT, Forwarding.md",
-    "3. MOCS/Uni MOC/archive/Divide et Impera.md",
     "Untitled.canvas",
-    "3. MOCS/Uni MOC/archive/FOL nell’Analisi Concettuale.md",
-    "1. Easy Notes/I have invented a card game.md",
-    "To-Do/versione Gready.md",
-    "3. MOCS/Programming MOC/archive/Python map() function.md",
-    "3. MOCS/Uni MOC/archive/Introduzione Routing.md",
-    "3. MOCS/Uni MOC/archive/Introduzione al Livello di Rete.md",
-    "3. MOCS/Uni MOC/archive/Internet Control Message Protocol (ICMP).md",
-    "To-Do/Forwarding datagrammi IP e ICMP.md",
-    "3. MOCS/Programming MOC/archive/Singleton (Design Pattern).md",
     "3. MOCS/Uni MOC/archive/attachments/Slide A.4 - Logica del primo ordine (FOL) nell’Analisi Concettuale - BD2.pdf",
     "3. MOCS/Uni MOC/archive/Esonero 11/04",
     "3. MOCS/Uni MOC/archive/Esonero 11",

@@ -6,7 +6,7 @@ related:
   - 
 completed: false
 created: 2025-05-06T14:28
-updated: 2025-05-25T23:48
+updated: 2025-06-06T09:10
 ---
 ## Internet Routing
 
@@ -48,9 +48,9 @@ Ogni ISP è un **sistema autonomo (AS)** e quindi può eseguire un qualsiasi pro
 Ogni ISP è un sistema autonomo, ed ogni AS è identificato da un numero univoco a 16 bit chiamato **Autonomous number (ASN)** assegnato dall’ICANN (Internet Corporation for Assigned Names and Numbers).
 
 Gli AS possono avere *diverse dimensioni* e sono classificati in base al modo in cui sono connessi ad altri AS:
-- **AS stub** - ha un solo collegamento verso un altro AS. Il traffico è generato o destinato allo stub ma non transita attraverso di esso. (es. grande azienda)
-- **AS multihomed** - ha più di una connessione con altri AS ma non consente transito di traffico. (es. aziende che usano più di un network provider ma non forniscono connettività ad altri AS)
-- **AS di transito** - è collegato a più AS e consente il traffico al suo interno. (es. i network provider e le dorsali)
+- **AS stub** - ha un solo collegamento verso un altro AS. Il traffico è generato o destinato allo stub ma non transita attraverso di esso (es. grande azienda). ^dcda86
+- **AS multihomed** - ha più di una connessione con altri AS ma non consente transito di traffico (es. aziende che usano più di un network provider ma non forniscono connettività ad altri AS).
+- **AS di transito** - è collegato a più AS e consente il traffico al suo interno (es. i network provider e le dorsali). ^45a215
 
 ## Instradamento tra sistemi autonomi (inter-AS)
 
@@ -132,5 +132,61 @@ Una **"connessione BGP"** consiste in coppie di router si scambiano le informazi
 
 ^dad7e7
 
-## Scambio di messaggi
+## Tabelle di Percorso
 
+Dopo lo scambio di messaggi avvenuti in [[#eBGP e iBGP]], ogni router crea la propria tabella di percorso.
+
+Le tabelle di percorso contengono una riga per ogni AS (escluso l'AS del router che ha creato la tabella), con le seguenti informazioni:
+
+- Il _percorso_ rappresenta gli AS in cui si passa per raggiungere la rete, dove l'ultimo indica l'AS da raggiungere.
+- Il _prossimo router_ rappresenta il router addicente in cui si passa per raggiungere la rete
+- La _rete_ indica i nodi raggiungibili.
+
+Le tabelle di percorso ottenute da BGP non vengono usate di per sé per l’instradamento dei pacchetti bensì inserite nelle [[#Tabelle di Routing|tabelle di routing]] intra-dominio ([[RIP - Routing Protocol Intra-Domino|RIP]] o [[OSPF - Routing Protocol Intra-Domino|OSPF]]).
+
+>[!note] Esempio
+>
+>Esempio di tabelle di percorso generate dai nodi dell'[[#eBGP e iBGP|esempio precedente]]:
+>
+>![[Pasted image 20250602113849.png|800]]
+>
+>![[Pasted image 20250605171823.png|800]]
+
+## Tabelle di Routing
+
+La struttura delle tabelle di routing cambia in base se si trova in un router appartenete ad uno [[#^d6abab|AS stub]] o ad un [[#^98bc36|AS di transito]].
+
+In generale ogni riga è composta da tre elementi:
+- ***Des*** ovvero la destinazione da raggiungere
+- ***Pross*** ovvero il prossimo router adiacente a cui inoltrare il pacchetto che ha come destinazione *des*, se il nodo destinazione è adiacente al router non si scrive niente.
+- ***Costo*** ovvero **NON HO CAPITO COME SI DETERMINA IL COSTO**
+
+>[!note] Tabella Routing (AS Stub)
+>
+>Ricordiamo che un [[#^dcda86|AS stub]] è un sistema autonomo che ha un solo collegamento verso l'esterno.
+>
+>Quando il router fa parte di uno AS stub, la sua tabella di routing contiene una riga per ogni nodo della AS.
+>
+>Inoltre alla fine della tabella è presente una riga che indica indica come "raggiungere il mondo esterno", in particolare, se il router è:
+>- **Router di Confine** (gateway) allora contiene come prossimo router quello che si trova dall’altro lato della connessione eBGP (destinazione 0).
+>- **Router Intermedio** allora contiene come prossimo router il router di getaway (destinazione 0).
+>  
+>  Ad esempio:
+>  ![[Pasted image 20250605172726.png|900]]
+
+^d6abab
+
+>[!note] Tabella Routing (AS di Transito)
+>
+>Ricordiamo che un [[#^45a215|AS di transito]] è un sistema autonomo che è collegato collegato a più sistemi autonomi e permette il transito di traffico al suo interno.
+>
+>Quando il router fa parte di uno AS di transito, la sua tabella di routing contiene una riga per ogni nodo della AS.
+>
+>Inoltre alla fine della tabella di routing inseriamo tutte le righe che possono essere derivate dalla sua tabella di percorso, ma dove sono aggiunti i costi.
+>
+>>*Ad esempio:*
+>>![[Pasted image 20250605175906.png|800]]
+>
+>
+
+^98bc36
