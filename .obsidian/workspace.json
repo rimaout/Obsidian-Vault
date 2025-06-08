@@ -22,8 +22,23 @@
               "icon": "lucide-file",
               "title": "Reti (class)"
             }
+          },
+          {
+            "id": "81b6591da863118b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. MOCS/Uni MOC/archive/OSPF - Routing Protocol Intra-Domino.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "OSPF - Routing Protocol Intra-Domino"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -281,13 +296,21 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "b77d8cd2cb0d7fdb",
+  "active": "81b6591da863118b",
   "lastOpenFiles": [
+    "3. MOCS/Uni MOC/archive/RIP - Routing Protocol Intra-Domino.md",
+    "3. MOCS/Uni MOC/archive/OSPF - Routing Protocol Intra-Domino.md",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250607164231.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250607163417.png",
+    "3. MOCS/Uni MOC/archive/Reti (class).md",
+    "3. MOCS/Tech MOC/archive/How to add custom icon to site title - Quartz.md",
+    "3. MOCS/Programming MOC/archive/Quartz.md",
+    "To-Do/Untitled Kanban 3.md",
+    "3. MOCS/Tech MOC/archive/My Quartz Setup Process.md",
+    "To-Do/Untitled Kanban 2.md",
     "3. MOCS/Uni MOC/archive/Variabile Aleatoria Gaussiana.md",
     "3. MOCS/Uni MOC/archive/Calcolo delle Probabilità (class).md",
     "3. MOCS/Uni MOC/archive/attachments/Formule CP.pdf",
-    "3. MOCS/Uni MOC/archive/OSPF - Routing Protocol Intra-Domino.md",
-    "3. MOCS/Uni MOC/archive/Reti (class).md",
     "3. MOCS/Uni MOC/archive/Introduzione al Livello di Rete.md",
     "3. MOCS/Uni MOC/archive/Protocollo TCP (Transmission Control Protocol).md",
     "3. MOCS/Uni MOC/archive/BGB - Routing Protocol Inter-Dominio.md",
@@ -310,16 +333,8 @@
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250603115812.png",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250603104412.png",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250603104347.png",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250603104218.png",
     "3. MOCS/Uni MOC/archive/Diagramma degli Use-case.md",
     "3. MOCS/Uni MOC/archive/Crociere FOL.md",
-    "3. MOCS/Uni MOC/archive/Progetto ebuy.md",
-    "3. MOCS/Uni MOC/archive/Impiegati e Studenti.md",
-    "3. MOCS/Uni MOC/archive/Progetto Travel.md",
-    "3. MOCS/Uni MOC/archive/Progetto TuTubi.md",
-    "3. MOCS/Uni MOC/archive/SQL.md",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250602113857.png",
-    "3. MOCS/Uni MOC/archive/Problemi di Ottimizzazione.md",
     "3. MOCS/Uni MOC/archive/Algo2 es tutor 19/attachments",
     "3. MOCS/Uni MOC/archive/Algo2 es tutor 19",
     "Untitled.canvas",
