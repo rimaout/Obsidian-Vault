@@ -3,7 +3,7 @@ type: Uni Note
 academic year: 2024/2025
 completed: false
 created: 2025-02-27T14:31
-updated: 2025-06-07T13:38
+updated: 2025-06-09T10:56
 ---
 **Sito:** [link](https://classroom.google.com/c/MjEzMzIzMjE4MDBa)
 
@@ -36,13 +36,16 @@ updated: 2025-06-07T13:38
 >- [[Introduzione al Livello di Rete]] 🟢
 >- [[Internet Protocol v4 (IPv4) - Indirizzamento, DHCP, NAT, Forwarding]] 🟢
 >- [[Internet Control Message Protocol (ICMP)]] 🟢
->- [[RIP - Routing Protocol Intra-Domino]] 🟢
->- [[OSPF - Routing Protocol Intra-Domino]]
->- [[BGB - Routing Protocol Inter-Dominio]] 🟢
+>- [[RIP e DV - Routing Protocol Intra-Domino]] 🟢
+>- [[OSPF e LS - Routing Protocol Intra-Domino]] 🟢
+>- [[BGB e PV - Routing Protocol Inter-Dominio]] 🟢
+>- [[Routing Unicast, Broadcast e Multicast]] 🟢
+>- [[Internet Protocol v6 (IPv6)]] 🟢
 
 >[!note] Livello Collegamento
 >
->- [[Introduzione Livello Collegamento]]
+>- [[Introduzione Livello Collegamento]] 🟢
+>- [[Protocolli - Livello Collegamento]]
 
 >[!note] Altro
 >

@@ -5,16 +5,16 @@ academic year: 2024/2025
 related: 
 completed: true
 created: 2025-05-06T14:28
-updated: 2025-06-07T13:38
+updated: 2025-06-08T12:22
 ---
 ## Internet Routing
 
-Come viene eseguito il routing in Internet? Non è possibile utilizzare un solo protocollo di routing. I protocolli visto fino ad ora ([[RIP - Routing Protocol Intra-Domino|RIP]] e [[OSPF - Routing Protocol Intra-Domino|OSPF]]) lavorano su reti di "piccole" dimensioni, composte da router indistinguibili tra di loro (senza gerarchia).
+Come viene eseguito il routing in Internet? Non è possibile utilizzare un solo protocollo di routing. I protocolli visto fino ad ora ([[RIP e DV - Routing Protocol Intra-Domino|RIP]] e [[OSPF e LS - Routing Protocol Intra-Domino|OSPF]]) lavorano su reti di "piccole" dimensioni, composte da router indistinguibili tra di loro (senza gerarchia).
 
-Internet è una rete **gerarchica** composta da più **200 milioni di destinazioni**, utilizzare [[RIP - Routing Protocol Intra-Domino|RIP]] o [[OSPF - Routing Protocol Intra-Domino|OSPF]] in questo caso significherebbe:
+Internet è una rete **gerarchica** composta da più **200 milioni di destinazioni**, utilizzare [[RIP e DV - Routing Protocol Intra-Domino|RIP]] o [[OSPF e LS - Routing Protocol Intra-Domino|OSPF]] in questo caso significherebbe:
 - Ogni nodo dovrebbe avere una grandissima quantità di memoria per archiviare le informazioni d’instradamento per ciascuna destinazione.
-- Se si utilizza [[OSPF - Routing Protocol Intra-Domino#Algoritmo Link State (LS)|LS]], il traffico dati generato non lascerebbe spazio al traffico dei veri dati da trasmettere.
-- [[RIP - Routing Protocol Intra-Domino|DV]] non convergerebbe mai
+- Se si utilizza [[OSPF e LS - Routing Protocol Intra-Domino#Algoritmo Link State (LS)|LS]], il traffico dati generato non lascerebbe spazio al traffico dei veri dati da trasmettere.
+- [[RIP e DV - Routing Protocol Intra-Domino|DV]] non convergerebbe mai
 
 Inoltre in internet ogni rete è amministrata in modo diverso dal proprio ISP, **autorità amministrativa autonoma**, che utilizza proprie sottoreti come vuole e impone le politiche sul traffico.
 
@@ -53,7 +53,7 @@ Gli AS possono avere *diverse dimensioni* e sono classificati in base al modo in
 
 ## Instradamento tra sistemi autonomi (inter-AS)
 
-I protocolli [[RIP - Routing Protocol Intra-Domino|RIP]] e [[OSPF - Routing Protocol Intra-Domino|OSPF]] sono utilizzati per determinare i percorsi ottimali per le coppie origine-destinazione interne ad un sistema autonomo.
+I protocolli [[RIP e DV - Routing Protocol Intra-Domino|RIP]] e [[OSPF e LS - Routing Protocol Intra-Domino|OSPF]] sono utilizzati per determinare i percorsi ottimali per le coppie origine-destinazione interne ad un sistema autonomo.
 
 Per determinare percorsi per coppie origine-destinazione che interessano più sistemi autonomi si utilizza il Border Gateway Protocol **BGP**.
 
@@ -77,13 +77,13 @@ Il BGP è un protocollo di proprietà Cisco che permette di effettuare l'instrad
 
 ### Patch Vector Routing (PV)
 
-I protocolli [[OSPF - Routing Protocol Intra-Domino#Algoritmo Link State (LS)|LS]] e [[RIP - Routing Protocol Intra-Domino|DV]] determinano il percorso minimo ma non è sempre l'obbiettivo primario, ad esempio, si potrebbe voler evitare di far transitare i dati su determinati router.
+I protocolli [[OSPF e LS - Routing Protocol Intra-Domino#Algoritmo Link State (LS)|LS]] e [[RIP e DV - Routing Protocol Intra-Domino|DV]] determinano il percorso minimo ma non è sempre l'obbiettivo primario, ad esempio, si potrebbe voler evitare di far transitare i dati su determinati router.
 
 Attraverso il Path-vector routing (routing a vettore di percorso) la sorgente può controllare il percorso, **evitare dei nodi** ed **applicare delle politiche** per la scelta di questo ultimo.
 
 >[!note] Funzionamento
 >
->Simile a [[RIP - Routing Protocol Intra-Domino|distance vector (DV)]] ma vengono ***inviati percorsi*** invece che solo destinazioni.
+>Simile a [[RIP e DV - Routing Protocol Intra-Domino|distance vector (DV)]] ma vengono ***inviati percorsi*** invece che solo destinazioni.
 >
 >Ogni nodo quando riceve un path vector da un vicino, aggiorna il suo path vector applicando la sua politica (invece del costo minimo).
 >
@@ -141,7 +141,7 @@ Le tabelle di percorso contengono una riga per ogni AS (escluso l'AS del router 
 - Il _prossimo router_ rappresenta il router addicente in cui si passa per raggiungere la rete
 - La _rete_ indica i nodi raggiungibili.
 
-Le tabelle di percorso ottenute da BGP non vengono usate di per sé per l’instradamento dei pacchetti bensì inserite nelle [[#Tabelle di Routing|tabelle di routing]] intra-dominio ([[RIP - Routing Protocol Intra-Domino|RIP]] o [[OSPF - Routing Protocol Intra-Domino|OSPF]]).
+Le tabelle di percorso ottenute da BGP non vengono usate di per sé per l’instradamento dei pacchetti bensì inserite nelle [[#Tabelle di Routing|tabelle di routing]] intra-dominio ([[RIP e DV - Routing Protocol Intra-Domino|RIP]] o [[OSPF e LS - Routing Protocol Intra-Domino|OSPF]]).
 
 >[!note] Esempio
 >

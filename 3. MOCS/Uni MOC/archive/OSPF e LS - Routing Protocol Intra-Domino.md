@@ -5,7 +5,7 @@ academic year: 2024/2025
 related: 
 completed: true
 created: 2025-04-29T14:27
-updated: 2025-06-08T12:00
+updated: 2025-06-08T12:22
 ---
 ## Introduzione
 
@@ -15,7 +15,7 @@ Questo protocollo è basato sull'idea di **Link State**, ovvero il costo associa
  
 Per la memorizzazione di queste informazioni è utilizzato un [[#Link State Database (LSDB)]].
 
->***oss:*** è un alternativa al [[RIP - Routing Protocol Intra-Domino#Algoritmo d’instradamento con vettore distanza (Distance Vector - DV)|distance vector (DC)]] utilizzato in [[RIP - Routing Protocol Intra-Domino|RIP]].
+>***oss:*** è un alternativa al [[RIP e DV - Routing Protocol Intra-Domino#Algoritmo d’instradamento con vettore distanza (Distance Vector - DV)|distance vector (DC)]] utilizzato in [[RIP e DV - Routing Protocol Intra-Domino|RIP]].
 
 ## Link State Database (LSDB)
 
@@ -96,24 +96,24 @@ Al termine della procedura otteniamo, l'albero dei percorsi minimi che collega i
 >
 >Con algoritmi [[#Algoritmo Link State (LS)|LS]] se abbiamo `n` ed `E` collegati implica l'invio di `O(nE)` messaggi.
 >
->Con un algoritmo [[RIP - Routing Protocol Intra-Domino|DV]] è richiesto lo scambio di informazioni soltanto tra i nodi adiacenti, e quindi il tempo di convergenza è potenzialmente più basso, ma può variare.
+>Con un algoritmo [[RIP e DV - Routing Protocol Intra-Domino|DV]] è richiesto lo scambio di informazioni soltanto tra i nodi adiacenti, e quindi il tempo di convergenza è potenzialmente più basso, ma può variare.
 
 >[!note] Velocità di convergenza
 >
 >Con algoritmi [[#Algoritmo Link State (LS)|LS]] abbiamo complessità di $O(n^{2})$, dato che procede prima `n` nodi, poi `n-1`, `n-2`, etc , quindi `n(n+1)/2`.
 >
->Con algoritmi [[RIP - Routing Protocol Intra-Domino|DV]] abbiamo una convergenza più lenta, dato che:
+>Con algoritmi [[RIP e DV - Routing Protocol Intra-Domino|DV]] abbiamo una convergenza più lenta, dato che:
 >- può presentare cicli d’instradamento
 >- può presentare il problema del conteggio all’infinito (lo scambio di aggiornamenti infinito)
 
 >[!note] Robustezza
 >
->In generale l’OSPF ([[#Algoritmo Link State (LS)|LS]]) è più robusto di RIP ([[RIP - Routing Protocol Intra-Domino|DV]]), infatti cosa succede se un router funziona male?
+>In generale l’OSPF ([[#Algoritmo Link State (LS)|LS]]) è più robusto di RIP ([[RIP e DV - Routing Protocol Intra-Domino|DV]]), infatti cosa succede se un router funziona male?
 >
 >
 >Con OSPF che si basa su [[#Algoritmo Link State (LS)|LS]], se un router comunica a tutti un costo sbagliato per uno dei suoi collegamenti non compromette l’intera rete dato che ogni nodo calcola la tabella localmente.
 >
->Com RIP che si basa su [[RIP - Routing Protocol Intra-Domino|DV]], se un router comunica cammini errati significa che questa informazioni si diffonde su tutta la rete portando a calcoli errati.
+>Com RIP che si basa su [[RIP e DV - Routing Protocol Intra-Domino|DV]], se un router comunica cammini errati significa che questa informazioni si diffonde su tutta la rete portando a calcoli errati.
 
 ## Approfondimento Protocollo OSPF (Open Shortest Path First)
 

@@ -5,7 +5,7 @@ academic year: 2024/2025
 related: 
 completed: true
 created: 2025-05-08T15:55
-updated: 2025-05-11T16:44
+updated: 2025-06-10T20:07
 ---
 ## Introduzione
 
@@ -180,7 +180,7 @@ Per decidere qual'è l'indirizzo da assegnare ad un dispositivi (interfaccia) in
  
  Il protocollo **DHCP** consente ad un host di ottenere automaticamente (*plug-and-play*) un indirizzo IP ogni qualvolta si collega alla rete.
  
- Di default ogni volta che il dispositivo si ricollega alla rete un indirizzo potenzialmente diverso, anche se esistono metodi per associare degli indirizzi IP fissi a determinati postitivi.
+ Di default ogni volta che il dispositivo si collega alla rete gli viene assegnato un indirizzo potenzialmente diverso (indirizzo dinamico), anche se esistono metodi per associare degli indirizzi IP fissi a determinati postitivi (indirizzi fisso).
 - Questa tecnica consente il riuso degli indirizzi, permettendo di avere una quantità di indirizzi inferiore rispetto al numero totale di utenti.
 - Ad esempio: collegandomi alla rete ottengo l’indirizzo `x`, una volta sconnesso l'indirizzo `x` torna ad essere libero e può essere riutilizzato da altri host.
 
@@ -264,7 +264,7 @@ Nel caso occorra connettere ad Internet una rete locale che utilizza queste clas
 
 L'acronimo NAT sta per **Network Address Translation**, i router abilitati al NAT nascondono i dettagli della rete domestica al mondo esterno.
 
-Grazie a questa tecnologia p possibile:
+Grazie a questa tecnologia è possibile:
 - Non è necessario allocare un intervallo di indirizzi da un ISP, un unico indirizzo IP è sufficiente per tutte le macchine di una rete locale.
 - È possibile cambiare gli indirizzi delle macchine di una rete privata senza doverlo comunicare all’Internet globale.
 - È possibile cambiare ISP senza modificare gli indirizzi delle macchine della rete privata.
