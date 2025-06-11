@@ -5,7 +5,7 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2025-06-09T10:56
-updated: 2025-06-10T20:04
+updated: 2025-06-11T15:30
 ---
 
 ## Introduzione
@@ -36,10 +36,11 @@ I protocolli MAC (Multiple Access Connection) possono essere suddivisi in tre ca
 >
 >- [[#ALOHA]]
 >- [[#Slotted ALOHA]]
->- CSMA/CD
->- CSMA/CA
+>- [[#CSMA (Carrier Sense Multiple Access)]]
+>	- [[#CSMA/CD (collision detection)]]
+>	- CSMA/CA
 
->[!note] Controlled Acces (taking-turn)
+>[!note] Controlled Access (taking-turn)
 >
 >Nei protocolli **a rotazione** ciascun nodo ha il suo turno per trasmettere, chi deve trasmettere di più però avrà turni più lunghi.
 >- Reservation
@@ -139,7 +140,7 @@ L'ALOHA "puro" si basa su questo funzionamento:
 >
 >Il frame trasmesso a `t` si sovrappone con la trasmissione di qualsiasi altro frame inviato in `[t-1,t+1]`.
 
->[!note] Efficenza (Throuhgput)
+>[!note] Efficenza (Throughput)
 >
 >L’efficienza è definita come la frazione di slot vincenti in presenza di un elevato numero `N` di nodi attivi, che hanno sempre un elevato numero di pacchetti da spedire.
 >
@@ -219,10 +220,114 @@ Il protocollo CSMA sta pre *"Carrier Sense Multiple Access"* ovvero *"Accesso Mu
 
 Utilizzando questo tecnica possono ancora **avvenire collisioni**, infatti il ritardo di propagazione fa sì che due nodi potrebbero non rilevare la reciproca trasmissione.
 
-l tempo di vulnerabilità è dato quindi dal tempo di propagazione:
+l *tempo di vulnerabilità* è uguale al *tempo di propagazione* di un frame, nota che il tempo di propagazione è diverso dal tempo di trasmissione di un frame, infatti:
+- Tempo di Trasmissione = Grandezza frame / Velocità Trasmissione
+- Tempo di Propagazione = ***DA FINEREEE*** #to-do
 
-![[Pasted image 20250610185552.png|450]]
+>[!note] Esempio
+>
+>![[Pasted image 20250610185552.png|450]]
+>
+>Il nodo `B` all'istante di tempo `t0` controlla se il collegamento è occupato da un altra trasmissione, ma non lo è quindi inizia a trasmettere.
+>
+>Il nodo `D` nell'istante di tempo `t1` controlla se il collegamento è occupato da un altra trasmissione, al tempo `t1` dal suo punto di vista il collegamento era libero, ma in realtà anche il nodo `B` stava trasmettendo quindi si crea una collisione.
 
-- B invia in t0, D ascolta in t1 ma non c'è arriva ancora ninete quindi pena ch eil canale sia libero, quindi inzia ad invaire. ma in realtà A stava invaindo quindi poco dopo s ene accorge.
-  
-  
+Per **determinare la probabilità** che due avvenga una collisione dobbiamo anche tenere in considerazione la *distanza* e il *ritardo di propagazione*.
+
+### CSMA/CD (collision detection)
+
+Il CSMA con Collision Detection permette ai nodi di capire se è avventa una collisione:
+- Una volta iniziata la trasmissione, il nodo rimane in ascolto sul canale (anche durante la trasmissione)
+- Se il nodo rilevata la collisione, annulla la trasmissione .
+
+Rilevazione della collisione:
+- **Facile** nelle LAN *cablate*.
+- **Difficile** nelle LAN *wireless*.
+
+>[!note] Esempio
+>
+>![[Pasted image 20250611121238.png|800]]
+>
+>1.  `A` ascolta il canale e inizia la trasmissione al tempo `t1`.
+>2. `C` al tempo `t2` ascolta il canale (non rileva ancora il primo bit di `A`) e quindi inizia a trasmettere.
+>3. Al tempo `t3` C riceve il primo bit di `A` e interrompe la trasmissione perché c’è collisione.
+>4. Al tempo `t4` A riceve il primo bit di `C` e interrompe la trasmissione perché c’è collisione.
+
+>[!note] Dimensione Frame
+>
+>Poiché il Collision Detection funzioni il mittente deve poter rilevare le trasmissione mentre sta trasmettendo ovvero prima di inviare l’ultimo bit del frame.
+>
+>Per questo Il tempo di trasmissione deve essere almeno due volte il tempo di propagazione:
+>$$
+>T_{fr} \geq 2T_{p}
+>$$
+>
+>Quindi il primo nodo deve essere ancora in trasmissione dopo essere passati $2T_{p}$.
+>
+>>[!example] Esempio
+>>
+>>Una rete che utilizza il CSMA/CD ha un Rate di `10Mbps`. Se il tempo di propagazione massimo è `25.6μs`, qual è la dimensione minima del frame?
+>>
+>>Il tempo di trasmissione minimo del frame è: $T_{fr} = 2 \times T_{p} = 2 \times 25.6\mu s = 51.2s$
+>>
+>>Questo significa, nel peggiore dei casi, che un nodo deve trasmettere per un periodo di 51.2μs per poter rilevare la collisione.
+>>
+>>Quindi la dimensione minima del frame invece è:
+>>$$
+>>10Mbps \times  51.2\mu s = 512bit = 64byte
+>>$$
+
+###  Metodi di Persistenza
+
+Esistono tre metodi di persistenza:
+- [[#^45e5a2|Non persistente]]
+- [[#^5fc76e|1-persistente]]
+- [[#^2f10fa|p-persistente]]
+
+>[!note] Non persistente
+>- Se il canale è *libero* trasmette immediatamente
+>- Se il canale è *occupato* attende un tempo random ([[#^f175f9|backoff]]) prima di riprovare con il *carrier sense*
+>- Se c'è *collisione* effettua [[#^f175f9|backoff]] (interrompe trasmissione e riascolta dopo un tempo random)
+>
+>![[Pasted image 20250611145400.png|550]]
+
+^45e5a2
+
+>[!note] 1-persistente
+>- Se il canale è *libero* trasmette immediatamente
+>- Se il canale è *occupato* continua ad ascoltare (*carrier sense continuo*)
+>- Se c'è *collisione* effettua [[#^f175f9|backoff]] (interrompe trasmissione e riascolta dopo un tempo random)
+>
+>![[Pasted image 20250611145436.png|500]]  
+
+^5fc76e
+
+>[!note] p-persistente
+>
+>- Se il canale è libero trasmette con probabilità `p` (non trasmette con probabilità `1-p`)
+>- Se il canale è occupato usa la procedura di [[#^f175f9|backoff]] (si aspetta un tempo random e si riascolta)
+>- Se c'è *collisione* effettua [[#^f175f9|backoff]] (interrompe trasmissione e riascolta dopo un tempo random)
+>
+>![[Pasted image 20250611145915.png|850]]
+
+^2f10fa
+
+>[!warning] Efficenza (throughput)
+>
+>Con il protocollo CSMA/CD quando un solo nodo è in trasmissione può farlo al massimo `rate`, però se ci sono più nodi a trasmettere ovviamente il throughput è minore.
+>
+>Nonostante questo il throughput del CSMA/CD è comunque maggiore dell’[[#ALOHA]] (puro e slotted).
+>
+>In particolare per il metodo [[#^5fc76e|1-persistente]] il throughput massimo è del 50%.
+
+## Controlled Access Protocols
+
+Fino ad ora abbiamo visto i protocolli di tipo:
+- [[#Channel Partitions Protocols|Suddivisione del canale]]: Nodi condividono il canale equamente, efficientemente con carichi elevati ma inefficiente con carichi non elevati.
+- [[#Random Access Protocols|Accesso casuale]]: Efficienti anche con carichi non elevati (singolo nodo può usare l’intero canale) ma inefficiente con carichi elevati (molte collisioni).
+
+I **protocolli ad accesso controllato** anche detti controlli a rotazione cercano di realizzare un **compromesso** tra i precedenti.
+
+### Polling Protocol
+
+### Token-passing Protocol
