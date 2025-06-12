@@ -24,17 +24,17 @@
             }
           },
           {
-            "id": "dcb1c04906cf3e12",
+            "id": "5f1e3ebdb632af37",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Protocolli - Livello Collegamento.md",
-                "mode": "preview",
+                "file": "3. MOCS/Uni MOC/archive/Indirizzamento, Protocollo ARP, Ethernet, Switch, VLAN - Livello Collegamento.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Protocolli - Livello Collegamento"
+              "title": "Indirizzamento, Protocollo ARP, Ethernet, Switch, VLAN - Livello Collegamento"
             }
           }
         ],
@@ -296,28 +296,30 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "dcb1c04906cf3e12",
+  "active": "5f1e3ebdb632af37",
   "lastOpenFiles": [
+    "3. MOCS/Uni MOC/archive/Reti (class).md",
+    "3. MOCS/Uni MOC/archive/Indirizzamento, Protocollo ARP, Ethernet, Switch, VLAN - Livello Collegamento.md",
+    "To-Do/Indirizzamento, Protocollo ARP, Ethernet, Switch, VLAN - Livello Collegamento.md",
+    "To-Do/Reti L13 - 10 Apr.md",
+    "3. MOCS/Uni MOC/archive/Protocolli - Livello Collegamento.md",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250612131012.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250612130659.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250610185552.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250611121238.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250610140800.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250610120720.png",
+    "3. MOCS/Uni MOC/archive/Introduzione Livello Collegamento.md",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250611145915.png",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250611145436.png",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250611145400.png",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250611144712.png",
-    "3. MOCS/Uni MOC/archive/Protocolli - Livello Collegamento.md",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250611145100.png",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250611145046.png",
-    "3. MOCS/Uni MOC/archive/Reti (class).md",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250611121238.png",
     "3. MOCS/Uni MOC/archive/Internet Protocol v4 (IPv4) - Indirizzamento, DHCP, NAT, Forwarding.md",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250610185552.png",
     "1. Easy Notes/Politiche/Riforma dello strumento Referendario.md",
     "1. Easy Notes/Politiche",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250610140800.png",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250610120720.png",
     "3. MOCS/Uni MOC/archive/Sicurezza delle reti LAN.md",
     "3. MOCS/Uni MOC/archive/RIP e DV - Routing Protocol Intra-Domino.md",
     "3. MOCS/Uni MOC/archive/Introduzione al Livello di Rete.md",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250510135047.png",
-    "3. MOCS/Uni MOC/archive/Introduzione Livello Collegamento.md",
     "3. MOCS/Uni MOC/archive/Esercizi su Livello Trasporto.md",
     "3. MOCS/Uni MOC/archive/Internet Protocol v6 (IPv6).md",
     "3. MOCS/Uni MOC/archive/Routing Unicast, Broadcast e Multicast.md",
@@ -334,8 +336,6 @@
     "3. MOCS/Uni MOC/archive/Protocollo TCP (Transmission Control Protocol).md",
     "2. Litterateur Notes/Books/The Martian Book.md",
     "Storage/Backend/Product usage analysis/Product usage analysis.md",
-    "Storage/Backend/Product usage analysis/Rarely Used Products Analysis.md",
-    "3. MOCS/Uni MOC/archive/Dipendenti FOL.md",
     "3. MOCS/Uni MOC/archive/Algo2 es tutor 19/attachments",
     "3. MOCS/Uni MOC/archive/Algo2 es tutor 19",
     "Untitled.canvas",

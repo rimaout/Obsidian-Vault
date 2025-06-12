@@ -5,7 +5,7 @@ academic year: 2024/2025
 related: 
 completed: true
 created: 2025-06-09T08:54
-updated: 2025-06-09T10:55
+updated: 2025-06-11T17:20
 ---
 ## Livelli visti fino ad ora
 
@@ -92,10 +92,20 @@ Gli errori sono dovuti a interferenze che possono cambiare la forma del segnale.
 
 Molto spesso le interferenze coinvolgono più di un bit, questo perché la probabilità che avvenga un errore di tipo **burst** (a raffica) è più elevata rispetto a quella di un singolo bit in quanto la durata dell’interferenza (rumore) normalmente è più lunga rispetto a quella di un solo bit.
 
-Più precisamente il numero di bit coinvolti dipende dalla velocità di trasferimento dati e dalla durata del rumore. Ad esempio 1Kbps con un rumore di 1/100 sec può influire su 10bit.
-
 ![[Pasted image 20250609095320.png|1000]]
 
+>[!example] Esempio
+>Più precisamente il numero di bit coinvolti dipende dalla velocità di trasferimento dati e dalla durata del rumore, ad esempio: 
+>- $\text{Velocità trasmissione} = 1\, kps$
+>- $\text{Durata rumore} = 1/100\, s$
+>
+>Numero possibile di bit influenzati è:
+>$$
+>\begin{align*}
+>\text{velocità trasmissione} \times \text{durata rumore} = 1kps \times \frac{1}{100}s = 1000 \frac{bit}{s} :  100s = 10\, bit
+>
+>\end{align*}
+>$$
 
 ### Rilevazione degli errori
 

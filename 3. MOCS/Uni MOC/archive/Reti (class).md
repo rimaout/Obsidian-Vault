@@ -3,11 +3,9 @@ type: Uni Note
 academic year: 2024/2025
 completed: false
 created: 2025-02-27T14:31
-updated: 2025-06-09T10:56
+updated: 2025-06-12T13:13
 ---
 **Sito:** [link](https://classroom.google.com/c/MjEzMzIzMjE4MDBa)
-
-- [[Reti L13 - 10 Apr]]
 
 ---
 
@@ -45,7 +43,8 @@ updated: 2025-06-09T10:56
 >[!note] Livello Collegamento
 >
 >- [[Introduzione Livello Collegamento]] 🟢
->- [[Protocolli - Livello Collegamento]]
+>- [[Protocolli - Livello Collegamento]] 🟢
+>- [[Indirizzamento, Protocollo ARP, Ethernet, Switch, VLAN - Livello Collegamento]]
 
 >[!note] Altro
 >

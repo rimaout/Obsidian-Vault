@@ -3,11 +3,10 @@ type: Uni Note
 class: "[[Reti (class)]]"
 academic year: 2024/2025
 related: 
-completed: false
+completed: true
 created: 2025-06-09T10:56
-updated: 2025-06-11T15:30
+updated: 2025-06-12T13:10
 ---
-
 ## Introduzione
 
 Quando si utilizzano collegamenti broadcast, ovvero mezzi di comunicazione condivisi tra vari host, c'è il rischio che nello svolgimento di comunicazioni in parallelo avvengano collisioni.
@@ -108,8 +107,8 @@ L'ALOHA "puro" si basa su questo funzionamento:
 >$$
 >
 >Dove:
->- $R \in [0,\, 2^{k-1}]$
->- $K = \text{Numero tentativi}$
+>- $k = \text{Numero tentativi}$
+>- $R \in [0,\, 2^{k}-1]$ (valore "random")
 >- $T_{fr} = \text{tempo x invio di frame}$
 >- $K_{max} = 15$
 >  
@@ -125,6 +124,15 @@ L'ALOHA "puro" si basa su questo funzionamento:
 
 ^f175f9
 
+***NON DOVREBBE ESSERE COSI?????***
+- grandezza frame = C
+- Rate di invio = RA
+- Tempo di trasmissione = T_fr = C/RA
+
+- K = 2
+- R = [0, 2^2-1] = [0, 3] = {0,1,2,3}
+- T_B = R * T_fr
+
 >[!note] Tempo di vulnerabilità
 >
 >Il tempo di vulnerabilità è intervallo nel quale il frame è a rischio di collisioni e è uguale a:
@@ -136,7 +144,7 @@ L'ALOHA "puro" si basa su questo funzionamento:
 >Dove $T_{fr}$ è il tempo di trasmissione di un frame.
 >
 >  
->![[Pasted image 20250610120720.png|600]]
+>![[Pasted image 20250610120720.png|800]]
 >
 >Il frame trasmesso a `t` si sovrappone con la trasmissione di qualsiasi altro frame inviato in `[t-1,t+1]`.
 
@@ -156,15 +164,16 @@ L'ALOHA "puro" si basa su questo funzionamento:
 >
 >Allo stesso modo nessun nodo deve iniziare a trasmettere nel tempo `[t0, t0+1]`, e la probabilità di questo evento è ancora $(1- p)^{N-1}$.
 >
->La probabilità che un nodo trasmetta con successo è dunque $p(1-p)^{2(N-1)}$
+>- La probabilità che un nodo trasmetta con successo è dunque $p(1-p)^{2(N-1)}$
+>- La probabilità che ogni nodo abbia successo è$N \cdot p(1-p)^{2(N-1)}$
 >
 >Per calcolare l'efficenza supponiamo di avere un infinito numero di nodi e calcoliamo:
 >
 >$$
->\lim_{ N \to \infty } p(1-p)^{2(N-1)} = \frac{1}{2e} = 0.18
+>\lim_{ N \to \infty } N\cdot p(1-p)^{2(N-1)} = \frac{1}{2e} = 0.18
 >$$
 >
->Quindi otteniamo che il Il throughput non è `R` ma $0.18\cdot R\text{ bps}$, questo significa che nel caso migliore solo il 18% degli slot svolge un lavoro utile.
+>Quindi otteniamo che il Il throughput non è `R` ma $0.18\cdot R\text{ bps}$.
 
 ### Slotted ALOHA
 
@@ -220,9 +229,16 @@ Il protocollo CSMA sta pre *"Carrier Sense Multiple Access"* ovvero *"Accesso Mu
 
 Utilizzando questo tecnica possono ancora **avvenire collisioni**, infatti il ritardo di propagazione fa sì che due nodi potrebbero non rilevare la reciproca trasmissione.
 
-l *tempo di vulnerabilità* è uguale al *tempo di propagazione* di un frame, nota che il tempo di propagazione è diverso dal tempo di trasmissione di un frame, infatti:
-- Tempo di Trasmissione = Grandezza frame / Velocità Trasmissione
-- Tempo di Propagazione = ***DA FINEREEE*** #to-do
+>[!note] Definition
+>l **tempo di vulnerabilità** è uguale al **tempo di propagazione di un frame**, nota che il tempo di propagazione di un frame è uguale a:
+>$$
+>\text{Tempo di Trasmissione Frame} + \text{Tempo di Propagazione}
+>$$ 
+>
+>Dove:
+>- Tempo di Trasmissione = Grandezza frame / Velocità Trasmissione
+>- Tempo di Propagazione = Lunghezza rete / Velocità di Propagazione
+>- Lunghezza rete = è la distanza tra le due stazioni più lontane tra loro
 
 >[!note] Esempio
 >
@@ -238,7 +254,7 @@ Per **determinare la probabilità** che due avvenga una collisione dobbiamo anch
 
 Il CSMA con Collision Detection permette ai nodi di capire se è avventa una collisione:
 - Una volta iniziata la trasmissione, il nodo rimane in ascolto sul canale (anche durante la trasmissione)
-- Se il nodo rilevata la collisione, annulla la trasmissione .
+- Se il nodo rilevata la collisione, annulla la trasmissione.
 
 Rilevazione della collisione:
 - **Facile** nelle LAN *cablate*.
@@ -295,7 +311,7 @@ Esistono tre metodi di persistenza:
 
 >[!note] 1-persistente
 >- Se il canale è *libero* trasmette immediatamente
->- Se il canale è *occupato* continua ad ascoltare (*carrier sense continuo*)
+>- Se il canale è *occupato* continua ad ascoltare (*carrier sense continuo*), ed invia quando si libera il canale.
 >- Se c'è *collisione* effettua [[#^f175f9|backoff]] (interrompe trasmissione e riascolta dopo un tempo random)
 >
 >![[Pasted image 20250611145436.png|500]]  
@@ -330,4 +346,28 @@ I **protocolli ad accesso controllato** anche detti controlli a rotazione cercan
 
 ### Polling Protocol
 
+C’è un nodo principale che “sonda” gli altri a turno.
+
+**Vantaggi:**
+- Elimina le collisioni
+- Elimina gli slot vuoti
+
+**Svantaggi:**
+- Introduce il *Ritardo di polling*
+- Se il nodo principale (master) si guasta, l’intero canale resta inattivo
+
+![[Pasted image 20250612130659.png|400]]
+
 ### Token-passing Protocol
+
+Un messaggio di controllo (token) circola fra i nodi seguendo un ordine prefissato.
+
+**Vantaggi:**
+- Elimina le collisioni
+- Elimina gli slot vuoti
+- Decentralizzato
+- Altamente efficiente
+
+**Svantaggio:** il guasto di un nodo può mettere fuori uso l’intero canale.
+
+![[Pasted image 20250612131012.png|400]]
