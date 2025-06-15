@@ -3,7 +3,7 @@ type: Uni Note
 academic year: 2024/2025
 completed: false
 created: 2025-02-27T14:31
-updated: 2025-06-14T16:36
+updated: 2025-06-15T22:47
 ---
 **Sito:** [link](https://classroom.google.com/c/MjEzMzIzMjE4MDBa)
 
@@ -59,3 +59,8 @@ updated: 2025-06-14T16:36
 - [[Esercizi su Livello Trasporto]]
 - [[Esonero 11-04-2024]]
 - [[Esercizi su Routing]]
+
+$$
+D_{A}(x) = min(D_{A(x)},\ D_{A}(B) + D_{B}(x))
+$$
+

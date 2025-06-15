@@ -5,7 +5,7 @@ academic year: 2024/2025
 related: 
 completed: true
 created: 2025-04-29T14:27
-updated: 2025-06-08T12:22
+updated: 2025-06-15T17:34
 ---
 ## Introduzione
 
@@ -35,7 +35,7 @@ Il link state database mantiene la *mappa completa della rete*, *ogni nodo ne ma
 >
 >Ogni nodo esegue un **flooding**, ovvero:
 >- Invia a tutti i vicini il proprio LSP.
->- Quando riceve LSP da un vicino, se è nuovo allora lo inoltra anche ai suoi vicini, eccetto quello da cui lo ha ricevuto.
+>- Quando riceve LSP da un vicino, se è nuovo allora, aggiorna il suo LSP e lo inoltra a tutti suoi vicini, eccetto quello da cui lo ha ricevuto.
 >- In questo modo aggiorniamo tutta la rete.
 >
 >Una volta terminato questo processo abbiamo costruito l’LSDB.

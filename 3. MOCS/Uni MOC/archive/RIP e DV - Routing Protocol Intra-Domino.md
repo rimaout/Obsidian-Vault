@@ -5,7 +5,7 @@ academic year: 2024/2025
 related: 
 completed: true
 created: 2025-04-24T14:15
-updated: 2025-06-13T16:45
+updated: 2025-06-15T17:26
 ---
 ## Introduzione 
 
@@ -111,7 +111,7 @@ Questo è un [[#^4badd5|algoritmo di instradamento]] che utilizza l'*Equazione d
 
 ## Protocollo RIP (Routing Information Protocol)
 
-Il protocollo RIP è l’implementazione del [[#^32ab6e||algoritmo appena visto]], quindi si basa sul vettore delle distanze.
+Il protocollo RIP è l’implementazione del [[#^32ab6e|algoritmo appena visto]], quindi si basa sul vettore delle distanze.
 
 In particolare non è utilizzabile su reti di gradi dimensione dove il numero di salti non è maggiore di 15 (16 indica infinito), questo perché richiede che i router comunichino tra di loro.
 

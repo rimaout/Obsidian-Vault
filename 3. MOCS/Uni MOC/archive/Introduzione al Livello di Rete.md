@@ -5,7 +5,7 @@ academic year: 2024/2025
 related: 
 completed: true
 created: 2025-05-07T08:04
-updated: 2025-06-12T23:02
+updated: 2025-06-15T15:32
 ---
 ## Introduzione
 
@@ -13,7 +13,7 @@ Il livello di rete si occupa dell’**instradamento dei datagrammi** dal *mitten
 
 >[!note] Datagrammi
 >
->Il livello di rete prende i segmenti del livello di trasporto, e li incapsula trasformandoli in **datagrammi** . Quetsti vengono trasmessi al router più vicino facente parte del percorso.
+>Il livello di rete prende i segmenti del livello di trasporto, e li incapsula trasformandoli in **datagrammi** . Questi vengono trasmessi al router più vicino facente parte del percorso.
 >
 >Il datagramma viene instradato fra i vari router fino a raggiungere l’host destinatario, dove viene decapsulato e inviato al livello di trasporto.
 
@@ -24,11 +24,11 @@ Il livello di Rete si occupa di due funzioni principali:
 - **Inoltro** (forwarding): processo che *trasferisce i pacchetti* dall’*input* di un router all’*output* del router appropriato.
 
 Queste operazioni sono rese possibili attraverso:
-- Tramite gli **algoritmi di routing** vengono create le **tabelle di routing** (o forwarding table)
+- Gli **algoritmi di routing** utilizzati per create le **tabelle di routing** (o forwarding table)
 - Ogni router ne contiene una e specificano quale collegamento di uscita si deve prendere per raggiungere la destinazione dal forwarding.
 ## Switch e Router
 
-Gli switch e i router sono detti **packet switch (commutatore di pacchetto)** ovvero dei dispositivi che si occupano di trasferire dati da un’*interfaccia di ingresso* ad un *interfaccia di uscita* in base ai valori presenti nei datagrammi.
+Gli switch e i router sono detti **packet switch (commutatore di pacchetto)** ovvero dei dispositivi che si occupano di trasferire dati da un’*interfaccia di ingresso* ad un'*interfaccia di uscita* in base ai valori presenti nei datagrammi.
 
 **Link-layer switch** (commutatore a livello di collegamento) - Stabiliscono il percorso in base al campo presente nell’intestazione a [[Introduzione Livello Collegamento|livello di collegamento]] (livello 2). È principalmente utilizzato per collegare singoli computer all’interno di una LAN.
 
@@ -58,7 +58,7 @@ I pacchetti in un circuito virtuale hanno un’**etichetta di circuito** (***VC*
 >2. numeri VC, uno per ciascun collegamento
 >3. righe nella tabella d’inoltro in ciascun router
 >
->Il numero di VC rappresenta un etichetta di flusso e cambia su tutti i collegamenti del percorso. I nuovi VC sono rilevati dalla tabella d’inoltro.
+>Il numero di VC rappresenta un'etichetta di flusso e cambia su tutti i collegamenti del percorso. I nuovi VC sono rilevati dalla tabella d’inoltro.
 >
 >![[Pasted image 20250508120721.png|420]]
 >
@@ -76,7 +76,7 @@ I pacchetti in un circuito virtuale hanno un’**etichetta di circuito** (***VC*
 
 ### Reti a Datagramma
 
-***Internet*** è una **rete a datagramma** (packet switched), In questo caso non esiste il concetto di connessione. I pacchetti vengono semplicemente inoltrati ad altri router in base al loro indirizzo di destinazione.
+***Internet*** è una **rete a datagramma** (packet switched). In questo caso non esiste il concetto di connessione. I pacchetti vengono semplicemente inoltrati ad altri router in base al loro indirizzo di destinazione.
 
 Questo implica che i pacchetti, aventi la stessa origine e destinazione, potrebbero non seguire più lo stesso percorso.
 

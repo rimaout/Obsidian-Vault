@@ -5,11 +5,11 @@ academic year: 2024/2025
 related: 
 completed: true
 created: 2025-05-10T14:02
-updated: 2025-05-10T17:11
+updated: 2025-06-15T17:04
 ---
 ## ICMP
 
-L'Internet Control Message Protocol fa parte del livello di rete e ha il compito di **notificare gli errori** e lo stato da parte dei router agli host.
+L'Internet Control Message Protocol fa parte del livello di rete e ha il compito di **notificare** agli host lo stato e gli errori dei router.
 
 Queste notifiche sono inserite all'interno del campo dati dei datagrammi IP.
 
@@ -57,6 +57,6 @@ Quando l’n-esimo datagramma arriva all’ n-esimo router:
 - Invia all’origine un messaggio di allerta ICMP (tipo 11, codice 0).
 - Il messaggio include il nome del router e l’indirizzo IP.
 
-Quando il messaggio ICMP arriva arriva all'host che ha avviato il programma `tracerout`, è possibile calcolare il RTT (Round-Trip Time).
+Quando il messaggio ICMP arriva all'host che ha avviato il programma `tracerout`, è possibile calcolare il RTT (Round-Trip Time).
 
 ![[Pasted image 20250510162114.png|600]]

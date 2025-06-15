@@ -5,7 +5,7 @@ academic year: 2024/2025
 related: 
 completed: true
 created: 2025-05-06T14:28
-updated: 2025-06-08T12:22
+updated: 2025-06-15T18:29
 ---
 ## Internet Routing
 
@@ -63,7 +63,7 @@ Il BGP è un protocollo di proprietà Cisco che permette di effettuare l'instrad
 >
 >Questo protocollo utilizza un **path vector** che è simile al *distance vector* ma nel vettore non salviamo le distanze ma i percorsi.
 >
->Vedi [[#Patch Vector Routing (PV)]] per saperne di più.
+>Vedi [[#Path Vector Routing (PV)]] per saperne di più.
 
 >[!note] Funzionalità
 >
@@ -75,7 +75,7 @@ Il BGP è un protocollo di proprietà Cisco che permette di effettuare l'instrad
 >  
 >Più in generale permette ad una sottorete (AS) di comunicare al resto di Internet la sua esistenza.
 
-### Patch Vector Routing (PV)
+### Path Vector Routing (PV)
 
 I protocolli [[OSPF e LS - Routing Protocol Intra-Domino#Algoritmo Link State (LS)|LS]] e [[RIP e DV - Routing Protocol Intra-Domino|DV]] determinano il percorso minimo ma non è sempre l'obbiettivo primario, ad esempio, si potrebbe voler evitare di far transitare i dati su determinati router.
 

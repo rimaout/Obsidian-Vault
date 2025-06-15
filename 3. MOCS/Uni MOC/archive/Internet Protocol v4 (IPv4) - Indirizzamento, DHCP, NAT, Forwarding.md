@@ -5,7 +5,7 @@ academic year: 2024/2025
 related: 
 completed: true
 created: 2025-05-08T15:55
-updated: 2025-06-10T20:07
+updated: 2025-06-15T16:42
 ---
 ## Introduzione
 
@@ -75,6 +75,8 @@ Per effettuare questi procedimenti vengono utilizzate delle informazioni aggiunt
 >Può anche avvenire:
 >
 >![[Pasted image 20250508163535.png|700]]
+
+^f2b5a2
 
 ---
 ## Indirizzamento IPV4
@@ -174,7 +176,7 @@ L’indirizzamento senza classi è nato per avere maggiore flessibilità nel ass
 
 #### DHCP
 
-Per decidere qual'è l'indirizzo da assegnare ad un dispositivi (interfaccia) in una rete abbiamo 2 metodi:
+Per decidere qual è l'indirizzo da assegnare ad un dispositivi (interfaccia) in una rete abbiamo 2 metodi:
 - ***Assegnazione manuale*** - Eseguita una volta per dispositivo che manterrà sempre lo stesso indirizzo nella rete
 - ***DHCP (Dynamic Host Configuration Protocol)*** 
  
