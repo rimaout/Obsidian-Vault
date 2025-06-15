@@ -5,7 +5,7 @@ academic year: 2024/2025
 related: 
 completed: true
 created: 2025-04-07T10:07
-updated: 2025-04-07T10:07
+updated: 2025-06-13T16:43
 ---
 ## Introduzione
 
@@ -35,7 +35,7 @@ Per effettuare una ricerca dei cammini minimi in un grafo con pesi negativi dobb
 >
 >***Quindi:*** Questo garantisce che il costo minimo può essere calcolato considerando solo cammini di questa lunghezza.
 
-## # Algoritmo di Bellman - Ford
+## Algoritmo di Bellman - Ford
 
 Se il grafo `G` non contiene cicli negativi, allora per ogni nodo `t` raggiungibile dalla sorgente `s` esiste un cammino di costo minimo che attraversa al più `n - 1` archi.
 

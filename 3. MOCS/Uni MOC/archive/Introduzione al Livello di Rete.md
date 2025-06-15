@@ -5,7 +5,7 @@ academic year: 2024/2025
 related: 
 completed: true
 created: 2025-05-07T08:04
-updated: 2025-05-10T17:11
+updated: 2025-06-12T23:02
 ---
 ## Introduzione
 
@@ -24,16 +24,17 @@ Il livello di Rete si occupa di due funzioni principali:
 - **Inoltro** (forwarding): processo che *trasferisce i pacchetti* dall’*input* di un router all’*output* del router appropriato.
 
 Queste operazioni sono rese possibili attraverso:
-Tramite gli **algoritmi di routing** vengono create le **tabelle di routing** (o forwarding table), ogni router ne contiene una e specificano quale collegamento di uscita si deve prendere per raggiungere la destinazione dal forwarding.
+- Tramite gli **algoritmi di routing** vengono create le **tabelle di routing** (o forwarding table)
+- Ogni router ne contiene una e specificano quale collegamento di uscita si deve prendere per raggiungere la destinazione dal forwarding.
 ## Switch e Router
 
 Gli switch e i router sono detti **packet switch (commutatore di pacchetto)** ovvero dei dispositivi che si occupano di trasferire dati da un’*interfaccia di ingresso* ad un *interfaccia di uscita* in base ai valori presenti nei datagrammi.
 
-**Link-layer switch** (commutatore a livello di collegamento) - Stabiliscono il percorso in base al campo presente nell’intestazione a [[Introduzione Livello Collegamento|livello di collegamento]] (livello 2). È principalmente utilizzato per collegare singoli computer all’interno di una LAN
+**Link-layer switch** (commutatore a livello di collegamento) - Stabiliscono il percorso in base al campo presente nell’intestazione a [[Introduzione Livello Collegamento|livello di collegamento]] (livello 2). È principalmente utilizzato per collegare singoli computer all’interno di una LAN.
 
 **[[#Router]]** - Stabiliscono il percorso in base al campo presente nell’intestazione a [[Introduzione al Livello di Rete|livello di rete]] (livello 3). Riceve un insieme di informazioni (pacchetto) e in base alle tabelle di routing decide quale sarà il prossimo router su cui instradarlo.
 
-![[Pasted image 20250508115309.png|650]]
+![[Pasted image 20250508115309.png|900]]
 
 ## Circuit switching vs. Packet switching
 
@@ -75,7 +76,7 @@ I pacchetti in un circuito virtuale hanno un’**etichetta di circuito** (***VC*
 
 ### Reti a Datagramma
 
-***Internet*** è una **rete a datagramma** (packet switched), In questo caso non esiste in concetto di connessione i pacchetti vengono semplicemente inoltrati in altri router in base al loro indirizzo di destinazione.
+***Internet*** è una **rete a datagramma** (packet switched), In questo caso non esiste il concetto di connessione. I pacchetti vengono semplicemente inoltrati ad altri router in base al loro indirizzo di destinazione.
 
 Questo implica che i pacchetti, aventi la stessa origine e destinazione, potrebbero non seguire più lo stesso percorso.
 
@@ -88,7 +89,6 @@ Questo implica che i pacchetti, aventi la stessa origine e destinazione, potrebb
 >![[Pasted image 20250508124955.png|900]]
 
 ^e2e187
-
 ## Router
 
 Come abbiamo già visto i router si occupano di instradare (routing) i pacchetti e per fare ciò hanno bisogni di implementare soltanto 3 livelli dello [[Introduzione allo stack protocollare TCP-IP|stack protocollare TCP-IP]]:

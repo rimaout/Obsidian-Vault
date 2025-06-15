@@ -5,7 +5,7 @@ academic year: 2024/2025
 related: 
 completed: true
 created: 2025-04-24T14:15
-updated: 2025-05-17T15:51
+updated: 2025-06-13T16:45
 ---
 ## Introduzione 
 
@@ -44,6 +44,8 @@ Questo è un [[#^4badd5|algoritmo di instradamento]] che utilizza l'*Equazione d
 >![[Pasted image 20250516095550.png|550]]
 >
 >In questo esempio i percorsi `a->y`, `b->y`, `c->y` sono percorsi a costo minimo precedentemente stabiliti e `x->y` è un nuovo percorso a costo minimo.
+
+^bf2fa8
 
 >[!note] Vettore delle distanze
 >
@@ -101,7 +103,7 @@ Questo è un [[#^4badd5|algoritmo di instradamento]] che utilizza l'*Equazione d
 >
 >Possibili **soluzioni** a questo problema:
 >
->>***Spit Horizon*** - Si invia solo una parte della propria tabella di routing, se il nodo `B` ritiene che il percorso ottimale per raggiungere un nodo `X` passi attraverso `A`, allora non deve fornire questa informazione ad `A`, infatti lui la conosce già. Nell’esempio di prima quindi `B` dovrebbe eliminare la riga di `X` prima di inviare la tabella ad `A`.
+>>***Split Horizon*** - Si invia solo una parte della propria tabella di routing, se il nodo `B` ritiene che il percorso ottimale per raggiungere un nodo `X` passi attraverso `A`, allora non deve fornire questa informazione ad `A`, infatti lui la conosce già. Nell’esempio di prima quindi `B` dovrebbe eliminare la riga di `X` prima di inviare la tabella ad `A`.
 >
 >>***Poisoned Reverse*** - Si pone a infinito il valore del costo del percorso che passa attraverso il vicino a cui si sta inviando il vettore. Nell’esempio quindi `B` deve porre a infinito il costo verso `X` quando invia il vettore ad `A`.
 

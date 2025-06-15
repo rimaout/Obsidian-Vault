@@ -3,7 +3,7 @@ type: Uni Note
 academic year: 2024/2025
 completed: false
 created: 2025-02-27T14:31
-updated: 2025-06-12T13:13
+updated: 2025-06-14T16:36
 ---
 **Sito:** [link](https://classroom.google.com/c/MjEzMzIzMjE4MDBa)
 
@@ -43,12 +43,15 @@ updated: 2025-06-12T13:13
 >[!note] Livello Collegamento
 >
 >- [[Introduzione Livello Collegamento]] 🟢
->- [[Protocolli - Livello Collegamento]] 🟢
->- [[Indirizzamento, Protocollo ARP, Ethernet, Switch, VLAN - Livello Collegamento]]
+>- [[Protocolli del Livello Collegamento]] 🟢
+>- [[Indirizzamento MAC, Protocollo ARP, Ethernet, Switch, VLAN - Livello Collegamento]] 🟢
+>- [[Reti Wireless - Livello Collegamento]]
 
 >[!note] Altro
 >
 >- [[Sicurezza delle reti LAN]]
+
+[[Esame Reti Tips]]
 
 - [[Reti L8 - 25 Mar]] (esercizi)
 - [[Esercizi HTTP e DNS]]
