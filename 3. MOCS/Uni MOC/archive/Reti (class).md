@@ -3,64 +3,51 @@ type: Uni Note
 academic year: 2024/2025
 completed: false
 created: 2025-02-27T14:31
-updated: 2025-06-15T22:47
+updated: 2025-06-17T23:20
 ---
-**Sito:** [link](https://classroom.google.com/c/MjEzMzIzMjE4MDBa)
-
----
-
->[!note] Introduzione
->- [[Struttura delle Reti]] 🟢
->- [[Capacità e Prestazioni di una Rete]] 🟢
->- [[Introduzione allo stack protocollare TCP-IP]] 🟢
-
->[!note] Livello Applicazione (TCP-IP)
->- [[Introduzione Livello Applicazione (TCP-IP)]] 🟢
->- [[World Wide Web e HTTP]] 🟢
->- [[Cookie]] 🟢
->- [[Web Caching]] 🟢
->- [[DNS]] 🟢
->- [[File Transfer Protocol (FTP) ed Posta Electronica]] 🟢
-
->[!note] Livello Trasporto
+>[!colum | col2] 
 >
->- [[Introduzione Livello Trasporto]] 🟢
->- [[Protocollo UDP (User Datagram Protocol)]] 🟢
->- [[Introduzione ai Meccanismi del Protocollo TCP]] 🟢
->- [[Protocollo TCP (Transmission Control Protocol)]] 🔴
-
->[!note] Livello Rete
+>>[!note] Introduzione
+>>- [[Struttura delle Reti]]
+>>- [[Capacità e Prestazioni di una Rete]]
+>>- [[Introduzione allo stack protocollare TCP-IP]]
 >
->- [[Introduzione al Livello di Rete]] 🟢
->- [[Internet Protocol v4 (IPv4) - Indirizzamento, DHCP, NAT, Forwarding]] 🟢
->- [[Internet Control Message Protocol (ICMP)]] 🟢
->- [[RIP e DV - Routing Protocol Intra-Domino]] 🟢
->- [[OSPF e LS - Routing Protocol Intra-Domino]] 🟢
->- [[BGB e PV - Routing Protocol Inter-Dominio]] 🟢
->- [[Routing Unicast, Broadcast e Multicast]] 🟢
->- [[Internet Protocol v6 (IPv6)]] 🟢
-
->[!note] Livello Collegamento
+>>[!note] Livello Applicazione (TCP-IP)
+>>- [[Introduzione Livello Applicazione (TCP-IP)]]
+>>- [[World Wide Web e HTTP]]
+>>- [[Cookie]]
+>>- [[Web Caching]]
+>>- [[DNS]]
+>>- [[File Transfer Protocol (FTP) ed Posta Elettronica]]
 >
->- [[Introduzione Livello Collegamento]] 🟢
->- [[Protocolli del Livello Collegamento]] 🟢
->- [[Indirizzamento MAC, Protocollo ARP, Ethernet, Switch, VLAN - Livello Collegamento]] 🟢
->- [[Reti Wireless - Livello Collegamento]]
-
->[!note] Altro
+>>[!note] Livello Trasporto
+>>
+>>- [[Introduzione Livello Trasporto]]
+>>- [[Protocollo UDP (User Datagram Protocol)]]
+>>- [[Introduzione ai Meccanismi del Protocollo TCP]]
+>>- [[Protocollo TCP (Transmission Control Protocol)]] 🔴
 >
->- [[Sicurezza delle reti LAN]]
+>>[!note] Livello Rete
+>>
+>>- [[Introduzione al Livello di Rete]]
+>>- [[Internet Protocol v4 (IPv4) - Indirizzamento, DHCP, NAT, Forwarding]]
+>>- [[Internet Control Message Protocol (ICMP)]]
+>>- [[RIP e DV - Routing Protocol Intra-Domino]]
+>>- [[OSPF e LS - Routing Protocol Intra-Domino]]
+>>- [[BGB e PV - Routing Protocol Inter-Dominio]]
+>>- [[Routing Unicast, Broadcast e Multicast]]
+>>- [[Internet Protocol v6 (IPv6)]]
+>
+>>[!note] Livello Collegamento
+>>
+>>- [[Introduzione Livello Collegamento]]
+>>- [[Protocolli del Livello Collegamento]]
+>>- [[Indirizzamento MAC, Protocollo ARP, Ethernet, Switch, VLAN - Livello Collegamento]]
+>>- [[Reti Wireless - Livello Collegamento]] 🟡
 
-[[Esame Reti Tips]]
-
-- [[Reti L8 - 25 Mar]] (esercizi)
-- [[Esercizi HTTP e DNS]]
-- [[Esercitazione su prestazioni di rete e livello applicazione]]
-- [[Esercizi su Livello Trasporto]]
-- [[Esonero 11-04-2024]]
-- [[Esercizi su Routing]]
-
-$$
-D_{A}(x) = min(D_{A(x)},\ D_{A}(B) + D_{B}(x))
-$$
-
+>[!note] Extra
+>
+>- [[Sicurezza delle reti LAN]] 🔴
+>- [[Esercizi HTTP e DNS - Reti]]
+>- [[Esercitazione su prestazioni di rete e livello applicazione - Reti]]
+>- [[Esercizi su Livello Trasporto - Reti]]

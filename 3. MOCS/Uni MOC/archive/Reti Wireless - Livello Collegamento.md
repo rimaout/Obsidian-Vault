@@ -3,9 +3,9 @@ type: Uni Note
 class: 
 academic year: 2024/2025
 related: 
-completed: false
+completed: true
 created: 2025-06-14T16:36
-updated: 2025-06-15T12:40
+updated: 2025-06-17T23:19
 ---
 ## Introduzione
 
