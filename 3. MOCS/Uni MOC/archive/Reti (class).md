@@ -3,11 +3,11 @@ type: Uni Note
 academic year: 2024/2025
 completed: false
 created: 2025-02-27T14:31
-updated: 2025-06-17T23:20
+updated: 2025-06-17T23:37
 ---
->[!colum | col2] 
+>[!column | col2] 
 >
->>[!note] Introduzione
+>>[!note | wide-2] Introduzione
 >>- [[Struttura delle Reti]]
 >>- [[Capacità e Prestazioni di una Rete]]
 >>- [[Introduzione allo stack protocollare TCP-IP]]
@@ -21,14 +21,12 @@ updated: 2025-06-17T23:20
 >>- [[File Transfer Protocol (FTP) ed Posta Elettronica]]
 >
 >>[!note] Livello Trasporto
->>
 >>- [[Introduzione Livello Trasporto]]
 >>- [[Protocollo UDP (User Datagram Protocol)]]
 >>- [[Introduzione ai Meccanismi del Protocollo TCP]]
 >>- [[Protocollo TCP (Transmission Control Protocol)]] 🔴
 >
 >>[!note] Livello Rete
->>
 >>- [[Introduzione al Livello di Rete]]
 >>- [[Internet Protocol v4 (IPv4) - Indirizzamento, DHCP, NAT, Forwarding]]
 >>- [[Internet Control Message Protocol (ICMP)]]
@@ -39,15 +37,13 @@ updated: 2025-06-17T23:20
 >>- [[Internet Protocol v6 (IPv6)]]
 >
 >>[!note] Livello Collegamento
->>
 >>- [[Introduzione Livello Collegamento]]
 >>- [[Protocolli del Livello Collegamento]]
 >>- [[Indirizzamento MAC, Protocollo ARP, Ethernet, Switch, VLAN - Livello Collegamento]]
 >>- [[Reti Wireless - Livello Collegamento]] 🟡
-
->[!note] Extra
 >
->- [[Sicurezza delle reti LAN]] 🔴
->- [[Esercizi HTTP e DNS - Reti]]
->- [[Esercitazione su prestazioni di rete e livello applicazione - Reti]]
->- [[Esercizi su Livello Trasporto - Reti]]
+>>[!note | wide-2] Extra
+>>- [[Sicurezza delle reti LAN]] 🔴
+>>- [[Esercizi HTTP e DNS - Reti]]
+>>- [[Esercitazione su prestazioni di rete e livello applicazione - Reti]]
+>>- [[Esercizi su Livello Trasporto - Reti]]

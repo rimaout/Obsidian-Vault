@@ -2,11 +2,11 @@
 academic year: 2023/2024
 type: "[[Uni MOC]]"
 created: 2023-10-14T18:53
-updated: 2025-06-17T23:30
+updated: 2025-06-17T23:38
 ---
->[!column | wide-2]
+>[!column | col2]
 >
->>[!abstract] Prima parte (teoria degli insiemi)
+>>[!abstract | wide-2] Prima parte (teoria degli insiemi)
 >>- [[Teoria degli insiemi]]
 >>- [[Relazioni]]
 >>- [[Partizione di un insieme]], [[Relazioni di equivalenza#Insieme Quoziente|insieme quoziente]]
