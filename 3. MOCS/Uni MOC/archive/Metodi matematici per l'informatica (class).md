@@ -2,25 +2,23 @@
 academic year: 2023/2024
 type: "[[Uni MOC]]"
 created: 2023-10-14T18:53
-updated: 2025-06-17T23:38
+updated: 2025-06-17T23:47
 ---
->[!column | col2]
->
->>[!abstract | wide-2] Prima parte (teoria degli insiemi)
->>- [[Teoria degli insiemi]]
->>- [[Relazioni]]
->>- [[Partizione di un insieme]], [[Relazioni di equivalenza#Insieme Quoziente|insieme quoziente]]
->>- [[Funzioni]]
->>>**In Particolare:**
->>>- [[Funzioni Invertibili]]
->>>- [[Funzione d'identità]]
->>>- [[Cardinalità ed equipollenza, insiemi finiti ed infiniti, numerabili ed innumerabili]]
->
->>[!abstract] Seconda Parte (Logica)
->>- [[Principio dell'Induzione Matematica]], [[Sommatoria]] 
->>- [[Logica Proposizionale]]
->>- [[Logica del primo ordine (predicativa)]]
->
->>[!abstract] Terza Parte (Dimostrazione per Induzione)
->>- [[Dimostrazione Matematica]]
->>- [[Dimostrazione per induzione]] 🔴
+>[!abstract] Prima parte (teoria degli insiemi)
+>- [[Teoria degli insiemi]]
+>- [[Relazioni]]
+>- [[Partizione di un insieme]], [[Relazioni di equivalenza#Insieme Quoziente|insieme quoziente]]
+>- [[Funzioni]]
+>>**In Particolare:**
+>>- [[Funzioni Invertibili]]
+>>- [[Funzione d'identità]]
+>>- [[Cardinalità ed equipollenza, insiemi finiti ed infiniti, numerabili ed innumerabili]]
+
+>[!abstract] Seconda Parte (Logica)
+>- [[Principio dell'Induzione Matematica]], [[Sommatoria]] 
+>- [[Logica Proposizionale]]
+>- [[Logica del primo ordine (predicativa)]]
+
+>[!abstract] Terza Parte (Dimostrazione per Induzione)
+>- [[Dimostrazione Matematica]]
+>- [[Dimostrazione per induzione]] 🔴
