@@ -5,18 +5,18 @@ academic year: 2024/2025
 related: 
 completed: true
 created: 2025-03-18T09:25
-updated: 2025-03-18T09:26
+updated: 2025-06-18T12:09
 ---
 ## Introduzione
 
-In una generalizzazione, una sottoclasse non solo può avere proprietà aggiuntive rispetto alla super-classe, ma può anche **specializzare** le proprietà ereditate dalla super-classe, **restringendone il tipo**.
+In una generalizzazione, una sottoclasse non solo può avere proprietà aggiuntive rispetto alla super-classe, ma può anche **specializzare** le proprietà ereditate dalla super-classe.
 
 ## Specializzazione degli Attributi
 
-In una sotto classe possiamo specializzare gli attributi della super classe, ovvero possiamo respingere il tipo:
-- Super-classe `Reale` -> Sotto-classe `Intero` (**ammesso**)
-- Super-classe `Intero` -> Sotto-classe `Intero >= 2` (**ammesso**)
-- Super-classe `Intero` -> Sotto-classe `Reale` (**non ammesso**, non abbiamo ridotto il tipo)
+In una sotto classe possiamo specializzare gli attributi della super classe, ovvero possiamo restringere il tipo:
+- Super-classe `Reale` -> Sotto-classe `Intero` (*ammesso* ✅)
+- Super-classe `Intero` -> Sotto-classe `Intero >= 2` (*ammesso* ✅)
+- Super-classe `Intero` -> Sotto-classe `Reale` (*non ammesso* ❌, non abbiamo ridotto il tipo)
 
 >[!example] Esempio
 >
@@ -26,10 +26,10 @@ In una sotto classe possiamo specializzare gli attributi della super classe, ovv
 
 Anche un association class, essendo una classe, può essere specializzata ed essere soggetta alle specializzazioni che effettuiamo sulle classi.
 
-In particolare importante ricordare che le molteplicità delle associazioni devono essere sempre uguale restrittive, ovvero:
-- Super-associazione `1..*` -> Sotto-associazione `2..*` (**ammesso**)
-- Super-associazione `1..*` -> Sotto-associazione `2..5` (**ammesso**)
-- Super-associazione `2..*` -> Sotto-associazione `1..1` (**non ammesso**)
+In particolare importante ricordare che le **molteplicità** delle associazioni devono essere sempre uguale restrittive, ovvero:
+- Super-associazione `1..*` -> Sotto-associazione `2..*` (*ammesso* ✅)
+- Super-associazione `1..*` -> Sotto-associazione `2..5` (*ammesso* ✅)
+- Super-associazione `2..*` -> Sotto-associazione `1..1` (*non ammesso* ❌)
 
 >[!example] Esempio
 >

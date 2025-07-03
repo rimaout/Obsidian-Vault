@@ -5,7 +5,7 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2025-06-02T11:56
-updated: 2025-06-03T13:03
+updated: 2025-06-19T11:57
 ---
 ## Raffinamento
 
@@ -182,3 +182,43 @@ Non essendoci delle operazioni di classe nella mia implementazione non devo fare
 
 >***oss:*** all'esame non dobbiamo implementare tutte le operazioni di use case, ma soltanto quelle che sono segnate con una sbarra laterale nera.
 
+
+
+## Use Case
+
+Utenti:
+- Personale di accettazione
+- Medico
+
+Inserisci Paziente:
+- Utente: Personale Accettazione
+- Input: Info Paziente
+
+Inserisci Paziente Esterno:
+- Utente: Personale Accettazione
+- Input: Info paziente esterno
+
+Prestazione Medica:
+- Utente: Personale Accettazione
+- Input: Paziente Esterno, Data, Specializzazione, Descrizione
+
+Medici Idonei per Prestazione:
+- Utente: Personale Accettazione
+- Input: Prestazione Medica
+- Output: l'insieme dei medici idonei
+
+Ricovera Paziente:
+- Utente: Personale di accettazione
+- Input: paziente 
+- Precondizione: verifica disponibilità di posti letto, 
+- Info: Paziente, data inizio
+
+Dimetti Paziente:
+- Utente: Personale di accettazione
+- input: Ricovero
+- Precondizione: non deve essere già terminato
+
+Itinerario Visite:
+- Utente: Medico
+- Input: Medico
+- Output: lista ordinata di tuple, in cui il primo elemento è il piano e il secondo è il settore.

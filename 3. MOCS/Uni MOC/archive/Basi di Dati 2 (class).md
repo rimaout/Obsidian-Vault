@@ -4,7 +4,7 @@ type: Uni Note
 academic year: 2024/2025
 completed: false
 created: 2025-02-26T14:31
-updated: 2025-06-02T11:56
+updated: 2025-07-01T00:02
 ---
 **Sito:** [link](https://elearning.uniroma1.it/course/view.php?id=17659&section=5)
 - [[Basi 2 - L9 Apr]]
@@ -15,7 +15,6 @@ updated: 2025-06-02T11:56
 >[!note] Introduzione
 >- [[Conteso Organizzativo - Basi di Dati 2|Conteso Organizzativo]] 🟢
 >- [[Ciclo di Vita del Software - Basi di Dati 2|Ciclo di Vita del Software]] 🟢
-
 ## Fase di Analisi
 
 >[!note] UML
@@ -24,14 +23,28 @@ updated: 2025-06-02T11:56
 >- [[Associazione e Link (UML)|Associazione e Link]] 🟢
 >- [[Tipi di dato (UML)|Tipi di Dato]] 🟢
 >- [[Generalizzazione (UML)|Ereditarietà]] 🟢
->- [[Operazioni (UML)|Operazioni]] 🟢
+>- [[Operazioni di Classe (UML)|Operazioni]] 🟢
 >- [[Specializzazione (UML)|Specializzazione]] 🟢
 >- [[Diagramma degli Use-case]] 🟢
->- [[Documento di Specifica - UML]] 🟢
 
->[!note] FOL
->- [[Introduzione First Order Logic (FOL)]]
+>[!note] Documento Specifica
+>
+>Il documento di specifica è scritto in FOL per evitare incomprensioni dovute da un linguaggio informale:
+>- [[Introduzione alla First Order Logic (FOL)]]
 >- [[FOL nell’Analisi Concettuale]]
+>
+>---
+>
+>I documenti di specifica contengono:
+>- [[Specifica tipi di Dato]]
+>- [[Specifica Classi]]
+>- [[Specifica Vincoli Esterni]]
+>- [[Specifica Use-Case]]
+
+>[!note] Ristrutturazione
+>
+>- [[Ristrutturazione diagramma UML concettuale delle classi]]
+>- [[Traduzione UML ristrutturato in tabelle relazionali]]
 
 ## Fase di Progettazione
 
@@ -39,7 +52,6 @@ updated: 2025-06-02T11:56
 [[SQL]]
 
 ----
-
 
 >[!note] Esercitazioni
 >
@@ -64,4 +76,6 @@ updated: 2025-06-02T11:56
 >![[Pasted image 20250408182132.png|800]]
 >
 >In questo caso la prima versione è giusta la seconda no
+
+
 

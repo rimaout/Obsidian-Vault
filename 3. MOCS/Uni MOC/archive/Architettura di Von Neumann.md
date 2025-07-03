@@ -6,7 +6,7 @@ class:
 academic year: 2023/2024
 related: 
 completed: true
-updated: 2024-05-27T13:29
+updated: 2025-06-18T10:58
 ---
 ---
 >[!info] Index
@@ -77,5 +77,3 @@ Bus di Sistema, ossia un canale unico di comunicazione fra tutti i componenti, s
 - **Data Bus**, sul quale vengono scambiati i dati all’interno del sistema
 
 ![[Pasted image 20240316122901.png|600]]
-
----

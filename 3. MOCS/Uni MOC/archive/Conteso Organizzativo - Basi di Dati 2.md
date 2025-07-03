@@ -6,12 +6,11 @@ academic year: 2024/2025
 related: 
 completed: true
 created: 2025-02-27T09:23
-updated: 2025-03-04T10:04
+updated: 2025-06-30T09:30
 ---
 ## Introduzione
 
-
-Questo corso non `e ristretto esclusivamente alla progettazione di basi di dati, bens`ı fornisce cenni sulla progettazione di software di grandi dimensioni, supportati da basi di dati reali.
+Questo corso non è ristretto esclusivamente alla progettazione di basi di dati, bensì fornisce cenni sulla progettazione di software di grandi dimensioni, supportati da basi di dati reali.
 
 Il cliente fornisce le specifiche del progetto, ma non sa come verrà implementato o quali sono nello specifico tutte le funzionalità, un insieme di ingegneri del software, progettisti, e programmatori si occuperanno di ”tirare su” il lavoro completo nel tempo, e varie figure professionali verranno necessariamente coinvolte.
 

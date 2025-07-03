@@ -5,7 +5,7 @@ academic year: 2024/2025
 related: 
 completed: true
 created: 2025-05-12T14:19
-updated: 2025-05-31T16:37
+updated: 2025-07-03T09:52
 ---
 Il backtracking è una tecnica che utilizza il *brute forcing* per trovare tutte le soluzioni di un problema, in particolare è una tecnica di ricerca che esplora tutte le possibili configurazioni di un problema e da queste seleziona le soluzioni.
 
@@ -81,7 +81,7 @@ Questo avviene attraverso l'analisi di condizioni che, se non soddisfatte, indic
 >	    
 >	    if c not in sol:
 >	        sol.append(c)
->	        es(sol)
+>	        es1(sol)
 >	        sol.pop()
 >```
 
@@ -148,7 +148,7 @@ Questo algoritmo genera un albero delle soluzioni che contiene tutte le possibil
 >- `S(n,k)` è il numero di stringe da stampare (ovvero che rispettano la condizione "lunghe `n` che contengono al più `k` uni")
 >- `n` è il costo per dell'operazione `print` (il cui costo è proporzionale alla lunghezza della stringa in input)
 >
->Quindi nel caso di questo problema, se poniamo `k=2`, un buon algoritmo per dovrebbe avere complessità polinomiale `O(n^3)`, visto che:
+>Quindi nel caso di questo problema, se poniamo `k=2`, un buon algoritmo dovrebbe avere complessità polinomiale `O(n^3)`, visto che:
 >
 >$$
 >S(n,k) = 1 + n + \binom{n}{2} = \Theta(n^{2}) 

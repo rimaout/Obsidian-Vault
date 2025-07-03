@@ -5,7 +5,7 @@ academic year: 2024/2025
 related: 
 completed: true
 created: 2025-03-22T12:37
-updated: 2025-03-22T12:39
+updated: 2025-06-18T17:48
 ---
 ## Introduzione
 
@@ -58,24 +58,28 @@ Un associazione modella la possibilità di accesso, da parte di un attore, alle 
 >
 >Alcune funzionalità dello use-case A hanno bisogno di usare alcune funzionalità dello use-case B
 >
->>[!example] Esempio
->>
->>1. I docenti possono creare e valutare i test degli studenti.
->>2. Gli studenti possono rispondere ai test.
->>3. Test e le risposte degli studenti vanno memorizzati nel sistema.
->>   
->>![[Pasted image 20250322122229.png|450]]
+>---
+>
+>**Esempio:**
+>
+>1. I docenti possono creare e valutare i test degli studenti.
+>2. Gli studenti possono rispondere ai test.
+>3. Test e le risposte degli studenti vanno memorizzati nel sistema.
+>   
+>![[Pasted image 20250322122229.png|450]]
 
 >[!note] Estensione
 >
 >Alcune funzionalità dello use-case A, solo in alcuni casi particolari, sono estese con le funzionalità dello use-case B.
 >
->>[!example] Esempio
->>
->>1. Gli studenti possono iscriversi a corsi
->>2. Durante il processo di iscrizione, gli studenti possono optare per il pagamento online.
->>   
->>![[Pasted image 20250322122417.png|450]]
+>---
+>
+>**Esempio:**
+>
+>1. Gli studenti possono iscriversi a corsi
+>2. Durante il processo di iscrizione, gli studenti possono optare per il pagamento online.
+>
+>![[Pasted image 20250322122417.png|450]]
 
 ## Generalizzazione
 
@@ -83,25 +87,29 @@ Un associazione modella la possibilità di accesso, da parte di un attore, alle 
 >
 >Alcune funzionalità dello use-case A, solo in alcuni casi particolari, sono rimpiazzate con le funzionalità dello use-case B.
 >
->>[!example] Esempio
->>
->>1. Gli studenti devono potersi identificare
->>2. L’identificazione online avviene tramite password
->>3. Registrazione delle presenze ai corsi avviene tramite scansione impronta digitale dal lettore del tortello
->>   
->>![[Pasted image 20250322123252.png|450]]
+>
+>
+>1. Gli studenti devono potersi identificare
+>2. L’identificazione online avviene tramite password
+>3. Registrazione delle presenze ai corsi avviene tramite scansione impronta digitale dal lettore del tortello
+>
+>---
+>**Esempio:**
+>
+>![[Pasted image 20250322123252.png|450]]
 
 >[!note] Generalizzazione tra attori
 >
->L’attore B può fare le veci dell’attore A, e ne eredita tutte le associazioni
+>L’attore `B` può fare le veci dell’attore `A`, e ne eredita tutte le associazioni.
 >
->>[!example] Esempio
->>
->> I manager possono fare le veci della Segreteria, ed accedere a tutti gli use-case accessibili dalla Segreteria
->> 
->> ![[Pasted image 20250322123537.png|450]]
->> 
->>>***Attenzione:***  Il diagramma non implica che esistano le classi Segreteria e Manager nel diagramma delle classi, né tantomeno che la classe Manager sia una sottoclasse di Segreteria.
+>---
+>**Esempio:**
+>
+>I manager possono fare le veci della `Segreteria`, ed accedere a tutti gli use-case accessibili dalla `Segreteria`.
+>
+>![[Pasted image 20250322123537.png|450]]
+> 
+>***Attenzione:***  Il diagramma non implica che esistano le classi `Segreteria` e `Manager` nel diagramma delle classi, né tantomeno che la classe `Manager` sia una sottoclasse di `Segreteria`.
 
 ## Conclusione 
 
@@ -111,4 +119,4 @@ Il diagramma degli use-case è molto semplice, e dà solo una visione di alto li
 
 Si tratta di un diagramma facilmente comprensibile anche al committente, per questo:
 - Il diagramma **non** definisce le singole operazioni all’interno di ogni use-case
-- Ogni use-case del diagramma andrà affiancato da un [[Documento di Specifica - UML]] che entra nel dettaglio
+- Ogni use-case del diagramma andrà affiancato da un [[Specifica Use-Case]] che entra nel dettaglio

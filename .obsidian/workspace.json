@@ -4,40 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "7f733be9df40dca8",
+        "id": "652e3f4f523715eb",
         "type": "tabs",
         "children": [
           {
-            "id": "b77d8cd2cb0d7fdb",
+            "id": "9fdc480e7e6edb27",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Reti (class).md",
+                "file": "3. MOCS/Uni MOC/archive/Algoritmi 2 (class).md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "Reti (class)"
+              "title": "Algoritmi 2 (class)"
             }
           },
           {
-            "id": "941c79f3f6f14907",
+            "id": "c8ab51cf1a465afd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Metodi matematici per l'informatica (class).md",
+                "file": "3. MOCS/Uni MOC/archive/Tecnica Backtracking.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Metodi matematici per l'informatica (class)"
+              "title": "Tecnica Backtracking"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -100,7 +101,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -123,9 +125,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
+                "useHierarchy": true
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Forwarding datagrammi IP e ICMP].md",
+                "file": "3. MOCS/Uni MOC/archive/Algoritmi 2 (class).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Forwarding datagrammi IP e ICMP]"
+              "title": "Backlinks for Algoritmi 2 (class)"
             }
           },
           {
@@ -156,12 +156,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Internet Protocol v4 (IPv4).md",
+                "file": "Storage/attachments/Pasted image 20241204080621.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Internet Protocol v4 (IPv4)"
+              "title": "Outgoing links from Calcolo delle Probabilità (class)"
             }
           },
           {
@@ -184,13 +184,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/RIP e DV - Routing Protocol Intra-Domino.md",
+                "file": "3. MOCS/Uni MOC/archive/Algoritmi 2 (class).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of RIP e DV - Routing Protocol Intra-Domino"
+              "title": "Outline of Algoritmi 2 (class)"
             }
           },
           {
@@ -212,34 +212,13 @@
         "dimension": 64.80263157894737,
         "children": [
           {
-            "id": "08bb0d9d4b18b672",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "To-Do/To-Do.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false
-                  ]
-                }
-              },
-              "pinned": true,
-              "icon": "lucide-trello",
-              "title": "To-Do"
-            }
-          },
-          {
             "id": "6217f74dd2639932",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Web Caching.md",
+                "file": "3. MOCS/Uni MOC/archive/UNION-FIND Data Structure.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -262,13 +241,34 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 8,
+                  "scale": 0.9879921026303743,
                   "close": true
                 }
               },
               "pinned": true,
               "icon": "lucide-git-fork",
-              "title": "Graph of Web Caching"
+              "title": "Graph of UNION-FIND Data Structure"
+            }
+          },
+          {
+            "id": "b4eca7dc7ac39fd0",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "To-Do/To-Do.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false
+                  ]
+                }
+              },
+              "pinned": true,
+              "icon": "lucide-trello",
+              "title": "To-Do"
             }
           }
         ],
@@ -276,7 +276,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 342.5,
+    "width": 385.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -295,44 +295,45 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "b77d8cd2cb0d7fdb",
+  "active": "c8ab51cf1a465afd",
   "lastOpenFiles": [
-    "3. MOCS/Uni MOC/archive/Metodi matematici per l'informatica (class).md",
-    "3. MOCS/Uni MOC/archive/Reti (class).md",
-    "3. MOCS/Uni MOC/Uni MOC.md",
-    "3. MOCS/Uni MOC/archive/Protocollo TCP (Transmission Control Protocol).md",
-    "3. MOCS/Uni MOC/archive/Reti Wireless - Livello Collegamento.md",
-    "3. MOCS/Uni MOC/archive/Sicurezza delle reti LAN.md",
-    "3. MOCS/Uni MOC/archive/File Transfer Protocol (FTP) ed Posta Elettronica.md",
-    "3. MOCS/Uni MOC/archive/Esercizi HTTP e DNS - Reti.md",
-    "3. MOCS/Uni MOC/archive/Esercitazione su prestazioni di rete e livello applicazione - Reti.md",
-    "3. MOCS/Uni MOC/archive/Esercizi su Livello Trasporto - Reti.md",
-    "3. MOCS/Uni MOC/archive/Esame Reti Tips.md",
-    "3. MOCS/Uni MOC/archive/Esonero 11-04-2024.md",
-    "3. MOCS/Uni MOC/archive/Reti L8 - 25 Mar.md",
-    "3. MOCS/Uni MOC/archive/Esercizi su Routing.md",
-    "3. MOCS/Uni MOC/archive/RIP e DV - Routing Protocol Intra-Domino.md",
-    "3. MOCS/Uni MOC/archive/Indirizzamento MAC, Protocollo ARP, Ethernet, Switch, VLAN - Livello Collegamento.md",
-    "3. MOCS/Uni MOC/archive/OSPF e LS - Routing Protocol Intra-Domino.md",
-    "3. MOCS/Uni MOC/archive/BGB e PV - Routing Protocol Inter-Dominio.md",
-    "3. MOCS/Uni MOC/archive/Internet Control Message Protocol (ICMP).md",
-    "3. MOCS/Uni MOC/archive/Internet Protocol v4 (IPv4) - Indirizzamento, DHCP, NAT, Forwarding.md",
-    "3. MOCS/Uni MOC/archive/Introduzione al Livello di Rete.md",
-    "3. MOCS/Uni MOC/archive/PLA (programmable logic array).md",
-    "3. MOCS/Uni MOC/archive/Circuiti combinatori.md",
-    "3. MOCS/Uni MOC/archive/Progettazione Sistemi Digitali (class).md",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250615123615.png",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250615123554.png",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250615123439.png",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250615123321.png",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250615122825.png",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250615121133.png",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250615115531.png",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250614184923.png",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250614184316.png",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250614183736.png",
-    "3. MOCS/Uni MOC/archive/Protocolli del Livello Collegamento.md",
-    "3. MOCS/Uni MOC/archive/Introduzione Livello Collegamento.md",
+    "3. MOCS/Uni MOC/archive/Algoritmi 2 (class).md",
+    "3. MOCS/Uni MOC/archive/Basi di Dati 2 (class).md",
+    "3. MOCS/Uni MOC/archive/Ristrutturazione diagramma UML concettuale delle classi.md",
+    "3. MOCS/Uni MOC/archive/Traduzione UML ristrutturato in tabelle relazionali.md",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250630163504.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250630161056.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250630160746.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250630160920.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250630160042.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250630160039.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250630155655.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250630155545.png",
+    "3. MOCS/Uni MOC/archive/attachments/Screenshot 2025-06-30 at 15.54.02.png",
+    "3. MOCS/Uni MOC/archive/attachments/Screenshot 2025-06-30 at 15.52.57.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250630115012.png.sb-841bc5d8-BLuBbH",
+    "3. MOCS/Uni MOC/archive/Basi di Dati 1 (class).md",
+    "3. MOCS/Uni MOC/archive/Diagramma degli Use-case.md",
+    "3. MOCS/Uni MOC/archive/Ciclo di Vita del Software - Basi di Dati 2.md",
+    "3. MOCS/Uni MOC/archive/Conteso Organizzativo - Basi di Dati 2.md",
+    "3. MOCS/Uni MOC/archive/Introduzione UML.md",
+    "3. MOCS/Uni MOC/archive/FOL nell’Analisi Concettuale.md",
+    "3. MOCS/Uni MOC/archive/Specifica Use-Case.md",
+    "3. MOCS/Uni MOC/archive/Progetto Travel.md",
+    "3. MOCS/Uni MOC/archive/Operatori (Algebra Relazionale).md",
+    "3. MOCS/Uni MOC/archive/Introduzione alla First Order Logic (FOL).md",
+    "To-Do/Go.md",
+    "3. MOCS/Uni MOC/archive/Tipi di dato (UML).md",
+    "3. MOCS/Uni MOC/archive/Classi e Oggetti (UML).md",
+    "3. MOCS/Uni MOC/archive/Specializzazione (UML).md",
+    "3. MOCS/Uni MOC/archive/Generalizzazione (UML).md",
+    "3. MOCS/Uni MOC/archive/Basi 2 - L9 Apr.md",
+    "To-Do/To-Do.md",
+    "3. MOCS/Uni MOC/archive/Associazione e Link (UML).md",
+    "To-Do/Quartz Callouts Grid Layout.md",
+    "To-Do/OS L5 - 17 Mar.md",
+    "To-Do/Esercitazione E.A.1.1 - Azienda 1.md",
+    "3. MOCS/Uni MOC/archive/Quick Hospital.md",
     "Untitled.canvas",
     "1. Easy Notes/Politiche",
     "3. MOCS/Uni MOC/archive/attachments/Formule CP.pdf",
@@ -343,7 +344,6 @@
     "3. MOCS/Uni MOC/archive/Esonero 11",
     "attachments",
     "To-Do/attachments",
-    "3. MOCS/Uni MOC/archive/attachments/Recording 20250319144542.m4a",
     "Buy List/Skin Care Buy List.canvas",
     "Buy List/Clothing Buy List.canvas",
     "Storage/Untitled.canvas",

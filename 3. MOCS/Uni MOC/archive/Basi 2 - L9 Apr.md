@@ -5,12 +5,14 @@ academic year: 2024/2025
 related: 
 completed: false
 created: 2025-04-09T13:53
-updated: 2025-04-16T08:13
+updated: 2025-06-18T22:16
 ---
-# Introduzione
+## Introduzione
 
-La logia del primo ordine è una famiglia di **linguaggi formali** utilizzati per rappresentare informazioni e derivare conseguenze.
+La logica del primo ordine è una famiglia di **linguaggi formali** utilizzati per rappresentare informazioni e derivare conseguenze.
 Ogni logica (come ogni altro linguaggio formale) è definita da una sintassi e una semantica:
+- la **sintassi** definisce una serie di simboli e la struttura che le formule devono assumere per essere considerate valide
+- la **semantica** definisce il significato di tali formule
 
 >[!note] Sintassi
 >
