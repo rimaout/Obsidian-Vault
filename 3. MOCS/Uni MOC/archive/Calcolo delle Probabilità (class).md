@@ -1,6 +1,6 @@
 ---
 created: 2024-09-23T16:18
-updated: 2025-06-18T10:55
+updated: 2025-07-09T22:53
 Main Moc: "[[Uni MOC]]"
 academic year: 2024/2025
 ---
@@ -40,6 +40,10 @@ academic year: 2024/2025
 >[!note] Variabili Aleatorie Continue e Gaussiane
 >- [[Variabili Aleatorie Continue]]
 >- [[Variabile Aleatoria Gaussiana]]
+
+>[!danger] Extra
+>
+>- [[Differenza tra Varianza, Dispersione, Deviazione Standard, Coefficiente di variazione]]
 
 ## Formulario
 

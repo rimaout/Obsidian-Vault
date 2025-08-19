@@ -223,7 +223,7 @@
   "devMode": false,
   "templateFolderPath": "misc/Templates",
   "announceUpdates": true,
-  "version": "1.13.0",
+  "version": "1.18.1",
   "disableOnlineFeatures": true,
   "enableRibbonIcon": false,
   "ai": {
