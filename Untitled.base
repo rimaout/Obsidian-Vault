@@ -1,0 +1,21 @@
+formulas:
+  "": ""
+  Total Uses: ((today() - acquired).days / 30).floor() * note["monthly-uses"]
+  Price per Use: (price/formula["Total Uses"]).round(3)
+views:
+  - type: cards
+    name: Table
+    filters:
+      and:
+        - file.hasTag("type", "products")
+    order:
+      - file.name
+      - formula.
+      - price
+      - acquired
+      - monthly-uses
+      - formula.Total Uses
+      - formula.Price per Use
+    imageFit: ""
+  - type: cards
+    name: View

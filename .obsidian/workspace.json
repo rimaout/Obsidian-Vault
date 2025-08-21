@@ -4,149 +4,43 @@
     "type": "split",
     "children": [
       {
-        "id": "1d3df57368887a29",
+        "id": "6cd9850831fd6a14",
         "type": "tabs",
-        "dimension": 46.36904761904762,
         "children": [
           {
-            "id": "9b5ee948960d4911",
+            "id": "a8b661dc45f582e8",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Basi di Dati 1 (class).md",
-                "mode": "preview",
+                "file": "3. MOCS/Uni MOC/archive/Sistemi Operativi 2 (class).md",
+                "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "Basi di Dati 1 (class)"
+              "title": "Sistemi Operativi 2 (class)"
             }
           },
           {
-            "id": "7e9141572a62574e",
+            "id": "01abab4389c228fc",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Basi di Dati 2 (class).md",
+                "file": "3. MOCS/Uni MOC/archive/Sistemi Operativi 1 (class).md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "Basi di Dati 2 (class)"
-            }
-          },
-          {
-            "id": "075ea76c75d5f622",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Programming MOC/Programming MOC.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Programming MOC"
-            }
-          },
-          {
-            "id": "9a9fb637a9dbdda1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Programming MOC/archive/Swift.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Swift"
-            }
-          },
-          {
-            "id": "8106a43be3978e10",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/archive/PostgreSQL.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "PostgreSQL"
-            }
-          },
-          {
-            "id": "81acd7dc2b1433cf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/archive/PostgreSQL Constrains.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "PostgreSQL Constrains"
-            }
-          },
-          {
-            "id": "ecb96ad85f6e5be0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/archive/PostgreSQL Tables.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "PostgreSQL Tables"
-            }
-          },
-          {
-            "id": "1886015e86fb7e7c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/archive/PSQL (PostgreSQL Terminal Interface).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "PSQL (PostgreSQL Terminal Interface)"
+              "title": "Sistemi Operativi 1 (class)"
             }
           }
         ],
-        "currentTab": 3
-      },
-      {
-        "id": "737c332d84e9c8df",
-        "type": "tabs",
-        "dimension": 53.63095238095238,
-        "children": [
-          {
-            "id": "92422cd689f13eda",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/archive/API Call in Swift.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "API Call in Swift"
-            }
-          }
-        ]
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -178,25 +72,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:monthly-log",
-                "matchingCase": false,
+                "query": "",
+                "matchingCase": true,
                 "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
+                "collapseAll": true,
+                "extraContext": true,
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
               "title": "Search"
-            }
-          },
-          {
-            "id": "7f34f9e8b8261cab",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
             }
           },
           {
@@ -209,11 +93,12 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 494.5062494277954,
+    "width": 265.5062494277954,
     "collapsed": true
   },
   "right": {
@@ -223,8 +108,23 @@
       {
         "id": "b33702b1304e824a",
         "type": "tabs",
-        "dimension": 42.06642066420663,
+        "dimension": 55.59808612440192,
         "children": [
+          {
+            "id": "b5486e50ab568cef",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "3. MOCS/Uni MOC/archive/Sistemi Operativi 1 (class).md",
+                "followCursor": true,
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Sistemi Operativi 1 (class)"
+            }
+          },
           {
             "id": "73d6fce2365a09ef",
             "type": "leaf",
@@ -244,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/PostgreSQL Constrains.md",
+                "file": "3. MOCS/Uni MOC/archive/Sistemi Operativi 1 (class).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -254,7 +154,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for PostgreSQL Constrains"
+              "title": "Backlinks for Sistemi Operativi 1 (class)"
             }
           },
           {
@@ -263,12 +163,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/PostgreSQL Constrains.md",
+                "file": "3. MOCS/Uni MOC/archive/Sistemi Operativi 1 (class).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from PostgreSQL Constrains"
+              "title": "Outgoing links from Sistemi Operativi 1 (class)"
             }
           },
           {
@@ -284,38 +184,21 @@
               "icon": "lucide-archive",
               "title": "All properties"
             }
-          },
-          {
-            "id": "b5486e50ab568cef",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "3. MOCS/Uni MOC/archive/PostgreSQL Constrains.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of PostgreSQL Constrains"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "0ee4f1dd2040ea54",
         "type": "tabs",
-        "dimension": 57.93357933579337,
+        "dimension": 44.40191387559808,
         "children": [
           {
             "id": "6217f74dd2639932",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "To-Do/To-Do.md",
+                "file": "3. MOCS/Uni MOC/archive/Sistemi Operativi 1 (class).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -338,48 +221,24 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 1.4547352939090106,
+                  "scale": 1,
                   "close": true
                 }
               },
-              "pinned": true,
               "icon": "lucide-git-fork",
-              "title": "Graph of To-Do"
-            }
-          },
-          {
-            "id": "8bb5fd167d10c3d5",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "To-Do/To-Do.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false
-                  ]
-                }
-              },
-              "pinned": true,
-              "icon": "lucide-trello",
-              "title": "To-Do"
+              "title": "Graph of Sistemi Operativi 1 (class)"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 655.5,
-    "collapsed": true
+    "width": 439.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obisidian-note-linker:Note Linker": false,
-      "obsidian-git:Open Git source control": false,
-      "omnisearch:Omnisearch": false,
+      "bases:Create new base": false,
+      "obsidian-kanban:Create new board": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -388,58 +247,59 @@
       "audio-recorder:Start/stop recording": false,
       "workspaces:Manage workspace layouts": false,
       "markdown-importer:Open format converter": false,
-      "obsidian-kanban:Create new board": false
+      "obsidian-git:Open Git source control": false,
+      "omnisearch:Omnisearch": false,
+      "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "9a9fb637a9dbdda1",
+  "active": "01abab4389c228fc",
   "lastOpenFiles": [
-    "3. MOCS/Uni MOC/archive/API Call in Swift.md",
-    "3. MOCS/Programming MOC/archive/Swift.md",
-    "3. MOCS/Programming MOC/Programming MOC.md",
-    "3. MOCS/Uni MOC/archive/Java MOC.md",
-    "3. MOCS/Programming MOC/archive/Hello Word in java.md",
+    "3. MOCS/Uni MOC/archive/Cache.md",
+    "3. MOCS/Uni MOC/archive/Sistemi Operativi 1 (class).md",
+    "3. MOCS/Uni MOC/archive/Introduzione ai Sistemi Operativi.md",
+    "3. MOCS/Uni MOC/archive/Processi.md",
+    "3. MOCS/Uni MOC/archive/Interruzioni 101.md",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250821175846.png",
+    "3. MOCS/Uni MOC/archive/Sistemi Operativi 2 (class).md",
+    "3. MOCS/Uni MOC/archive/OS2 L7 - 26 Mar.md",
+    "3. MOCS/Programming MOC/archive/Puntatori.md",
+    "3. MOCS/Programming MOC/archive/C Data Types.md",
+    "3. MOCS/Uni MOC/archive/OS2 L6 - 19 Mar.md",
+    "To-Do/OS L5 - 17 Mar.md",
+    "3. MOCS/Uni MOC/archive/OS2 L4 - 14 Mar.md",
+    "3. MOCS/Uni MOC/archive/OS2 L3 - 10 Mar.md",
+    "3. MOCS/Uni MOC/archive/OS2 L2 - 5 Mar.md",
+    "3. MOCS/Uni MOC/archive/OS2 L1 - 3 Mar.md",
+    "3. MOCS/Uni MOC/archive/L4 Sistemi Operativi.md",
+    "3. MOCS/Uni MOC/archive/L1 Sistemi Operativi 1.md",
+    "3. MOCS/Uni MOC/archive/Input Output - Introduzione.md",
+    "3. MOCS/Uni MOC/Uni MOC.md",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250124120323.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20241220150200.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20241212111722.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20241210145425.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20241209165504.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20241207115755.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20241204112034.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20241130181929.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20241130135118.png",
+    "3. MOCS/Uni MOC/archive/attachments/Lez03A2Grafi2.pdf",
+    "3. MOCS/Uni MOC/archive/attachments/Formule CP.pdf",
+    "3. MOCS/Uni MOC/archive/attachments/20. Algoritmo di decomposizione - Esercizi.pdf",
     "3. MOCS/Tech MOC/Tech MOC.md",
-    "3. MOCS/Tech MOC/archive/New Quartz README.md",
-    "3. MOCS/Uni MOC/archive/PostgreSQL Constrains.md",
-    "3. MOCS/Uni MOC/archive/PostgreSQL.md",
-    "3. MOCS/Uni MOC/archive/Basi di Dati 2 (class).md",
-    "3. MOCS/Uni MOC/archive/Basi di Dati 1 (class).md",
-    "3. MOCS/Uni MOC/archive/PSQL (PostgreSQL Terminal Interface).md",
-    "3. MOCS/Uni MOC/archive/PostgreSQL Tables.md",
-    "To-Do/PostgresSQL.md",
-    "3. MOCS/Uni MOC/archive/PostgreSQL Query Basics.md",
-    "To-Do/PostgreSQL.md",
-    "3. MOCS/Uni MOC/archive/SQL.md",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250721170831.png",
-    "Storage/Backend/Monthly Logs/Monthly Logs.md",
-    "Storage/Backend/Monthly Logs/🎄 December 2024 (log).md",
-    "Storage/Backend/My Recipe Book/My Recipe Book.md",
-    "Storage/Backend/My Recipe Book/Recipes Markdown Formatting.md",
-    "Storage/Backend/My Resonance Calendar/My Resonance Calendar.md",
-    "Storage/Backend/Product usage analysis/Product usage analysis.md",
-    "3. MOCS/Uni MOC/archive/ciao licia.md",
-    "To-Do/ciao licia.md",
-    "3. MOCS/Uni MOC/archive/Algoritmi 2 (class).md",
-    "3. MOCS/Uni MOC/attachments/IMG_458D0A863DC2-1.jpeg",
-    "3. MOCS/Uni MOC/attachments/IMG_014F169AAD4F-1.jpeg",
-    "3. MOCS/Uni MOC/attachments/IMG_7FA353A337B7-1.jpeg",
-    "3. MOCS/Uni MOC/attachments/IMG_5D6532D13598-1.jpeg",
-    "3. MOCS/Uni MOC/attachments/IMG_4FC63CE225AB-1 2.jpeg",
-    "3. MOCS/Uni MOC/attachments/IMG_0C9357783BF9-1.jpeg",
-    "3. MOCS/Uni MOC/attachments/bb_bp.png",
-    "2. Litterateur Notes/Books/L'avvocato dell'atomo (book)/Death rate by energy source.png",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250711121322.png",
+    "To-Do/System Call.md",
+    "To-Do/To-Do.md",
+    "Note.md",
+    "3. MOCS/Personal MOC/Personal MOC.md",
+    "3. MOCS/Personal MOC/archive/Perché  la Russia (e la Cina) vogliono testare l'articolo 5 della nato.md",
+    "Untitled.base",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250630115012.png.sb-841bc5d8-BLuBbH",
     "Untitled.canvas",
     "1. Easy Notes/Politiche",
-    "3. MOCS/Uni MOC/archive/attachments/Formule CP.pdf",
     "3. MOCS/Uni MOC/archive/Algo2 es tutor 19/attachments",
     "3. MOCS/Uni MOC/archive/Algo2 es tutor 19",
     "3. MOCS/Uni MOC/archive/attachments/Slide A.4 - Logica del primo ordine (FOL) nell’Analisi Concettuale - BD2.pdf",
     "3. MOCS/Uni MOC/archive/Esonero 11/04",
-    "3. MOCS/Uni MOC/archive/Esonero 11",
-    "attachments",
-    "To-Do/attachments",
     "Buy List/Skin Care Buy List.canvas",
     "Buy List/Clothing Buy List.canvas",
     "Storage/Untitled.canvas",

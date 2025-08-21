@@ -1,19 +1,15 @@
 ---
 Main Moc: "[[Uni MOC]]"
-related: 
+related:
 created: 2024-09-24T15:33
-updated: 2024-12-13T18:42
+updated: 2025-08-21T18:10
 academic year: 2024/2025
 ---
-**Da archiviare:**
-- [[L1 Sistemi Operativi 1]]
-- [[L4 Sistemi Operativi]]
-
 >[!note] Introduzione
->- [[Interruzioni 101]]
->- [[Input Output - Introduzione]]
->- [[Cache]]
->- [[Introduzione ai Sistemi Operativi]]
+>- [[Interruzioni 101]] 🟢
+>- [[Input Output - Introduzione]] 🟢
+>- [[Cache]] 🟢
+>- [[Introduzione ai Sistemi Operativi]] 🟢
 
 >[!note] Processi & Theads
 >- [[Processi]] 🟢

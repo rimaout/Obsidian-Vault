@@ -7,7 +7,7 @@ related:
   - "[[Interruzioni 101]]"
 completed: true
 created: 2024-09-28T12:03
-updated: 2024-12-09T16:14
+updated: 2025-08-21T13:26
 ---
 
 >[!abstract] Related
@@ -32,7 +32,7 @@ Esistono tre modi principali in cui un sistema informatico può gestire l'I/O:
 >- Metodo più moderno per la gestione dell'I/O. 
 >- In questo approccio, quando un dispositivo di I/O è pronto per lo scambio di dati, invia un segnale di interruzione al processore. 
 >- Il processore interrompe l'esecuzione delle istruzioni e salva lo stato attuale, esegue un'apposita routine di gestione dell'interruzione, chiamata gestore di interruzione.
->- Quando l'operazione di I/O è completata completata, il processore riprende l'esecuzione delle istruzioni. 
+>- Quando l'operazione di I/O è completata, il processore riprende l'esecuzione delle istruzioni. 
 > 
 >Questo approccio è più efficiente dell'I/O programmato, poiché il processore non è bloccato durante l'attesa dell'operazione di I/O.
 >
@@ -40,7 +40,7 @@ Esistono tre modi principali in cui un sistema informatico può gestire l'I/O:
 
 >[!note] I/O con accesso diretto in memoria (DMA)
 >- Metodo Più efficiente per la gestione dell'I/O.
->- In questo approccio, un controller di I/O speciale, chiamato controller DMA, gestisce l'operazione di I/O senza l'intervento del processore.
+>- In questo approccio, un controller di I/O speciale, chiamato controller DMA (Direct Memory Access), gestisce l'operazione di I/O senza l'intervento del processore.
 >- Il controller DMA legge o scrive dati direttamente nella memoria del sistema, senza dover passare attraverso il processore. 
 >- Il processore viene interrotto soltanto al termine del trasferimento.
 >

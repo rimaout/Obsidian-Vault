@@ -3,22 +3,11 @@ type: Uni Note
 class:
   - "[[Sistemi Operativi 1 (class)]]"
 academic year: 2024/2025
-related: 
+related:
 completed: true
 created: 2024-10-04T18:51
-updated: 2025-03-21T17:39
+updated: 2025-08-21T17:49
 ---
->[!abstract] Index
->1. [[#Introduzione]]
->2. [[#Attributi]]
->3. [[#Stati di un Processo]]
->	1. [[#Stati di Base]]
->	2. [[#Modello a 2 Stati]]
->	3. [[#Modello a 5 Stati]]
->	4. [[#Modello con Stati Sospesi]]
->4. [[#Condivisione delle Risorse]]
->5. [[#Stato del Processore]]
-
 >[!abstract] Related
 >- [[Sistemi Operativi 1 (class)]]
 
