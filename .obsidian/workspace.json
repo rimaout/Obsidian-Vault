@@ -38,9 +38,37 @@
               "icon": "lucide-file",
               "title": "Sistemi Operativi 1 (class)"
             }
+          },
+          {
+            "id": "983d28478c2ae713",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. MOCS/Uni MOC/archive/File Hash.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "File Hash"
+            }
+          },
+          {
+            "id": "09868e2935a9c21f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. MOCS/Uni MOC/archive/File Hash.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "File Hash"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -116,13 +144,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Sistemi Operativi 1 (class).md",
+                "file": "3. MOCS/Uni MOC/archive/File Hash.md",
                 "followCursor": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Sistemi Operativi 1 (class)"
+              "title": "Outline of File Hash"
             }
           },
           {
@@ -144,7 +172,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Sistemi Operativi 1 (class).md",
+                "file": "3. MOCS/Uni MOC/archive/File Hash.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +182,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Sistemi Operativi 1 (class)"
+              "title": "Backlinks for File Hash"
             }
           },
           {
@@ -163,12 +191,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Sistemi Operativi 1 (class).md",
+                "file": "3. MOCS/Uni MOC/archive/File Hash.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Sistemi Operativi 1 (class)"
+              "title": "Outgoing links from File Hash"
             }
           },
           {
@@ -185,7 +213,8 @@
               "title": "All properties"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "0ee4f1dd2040ea54",
@@ -198,7 +227,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Sistemi Operativi 1 (class).md",
+                "file": "3. MOCS/Uni MOC/archive/File Hash.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -226,7 +255,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Sistemi Operativi 1 (class)"
+              "title": "Graph of File Hash"
             }
           }
         ]
@@ -238,7 +267,6 @@
   "left-ribbon": {
     "hiddenItems": {
       "bases:Create new base": false,
-      "obsidian-kanban:Create new board": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -252,13 +280,16 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "01abab4389c228fc",
+  "active": "09868e2935a9c21f",
   "lastOpenFiles": [
-    "3. MOCS/Uni MOC/archive/Cache.md",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250830185550.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20241212111722.png",
+    "3. MOCS/Uni MOC/archive/File Hash.md",
+    "3. MOCS/Uni MOC/archive/Interruzioni 101.md",
     "3. MOCS/Uni MOC/archive/Sistemi Operativi 1 (class).md",
+    "3. MOCS/Uni MOC/archive/Cache.md",
     "3. MOCS/Uni MOC/archive/Introduzione ai Sistemi Operativi.md",
     "3. MOCS/Uni MOC/archive/Processi.md",
-    "3. MOCS/Uni MOC/archive/Interruzioni 101.md",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250821175846.png",
     "3. MOCS/Uni MOC/archive/Sistemi Operativi 2 (class).md",
     "3. MOCS/Uni MOC/archive/OS2 L7 - 26 Mar.md",
@@ -276,7 +307,6 @@
     "3. MOCS/Uni MOC/Uni MOC.md",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250124120323.png",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20241220150200.png",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20241212111722.png",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20241210145425.png",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20241209165504.png",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20241207115755.png",
@@ -291,7 +321,6 @@
     "To-Do/To-Do.md",
     "Note.md",
     "3. MOCS/Personal MOC/Personal MOC.md",
-    "3. MOCS/Personal MOC/archive/Perché  la Russia (e la Cina) vogliono testare l'articolo 5 della nato.md",
     "Untitled.base",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250630115012.png.sb-841bc5d8-BLuBbH",
     "Untitled.canvas",

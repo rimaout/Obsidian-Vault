@@ -6,7 +6,7 @@ academic year: 2024/2025
 related:
 completed: true
 created: 2024-09-27T17:20
-updated: 2025-08-21T18:08
+updated: 2025-08-22T12:26
 ---
 >[!abstract] Related
 >- [[Sistemi Operativi 1 (class)]]
@@ -48,6 +48,22 @@ Le cause per cui potrebbe avvenire un interruzione sono molteplici, e danno luog
 ---
 ## Approfondimento Causa Interruzioni
 
+>[!note] Programma
+>Interruzione causate dall’esecuzione di un istruzione (di un programma) che richiede l'intervento del sistema operativo.
+>
+>**Cause principali sono:**
+>- ***Intenzionale:*** 
+>	- chiamata a system call
+>	- debugging: single step o breakpoint
+>- ***Non intenzionale:***
+>	- overflow
+>	- divisione per 0
+>	- riferimento ad indirizzo di memoria fuori dallo spazio disponibile al programma
+>	- riferimento ad indirizzo di memoria momentaneamente non disponibile
+>	- Istruzione macchina errata (opcode illegale, oppure operando non allineato) 
+>
+>>**oss:** Vengono anche chiamate **exception** nei processori intel.
+
 >[!note] Input/Output
 >La maggior parte dei dispositivi di input/output (I/O) sono più lenti del processore.
 >
@@ -58,7 +74,7 @@ Le cause per cui potrebbe avvenire un interruzione sono molteplici, e danno luog
 >**Related:** [[Input Output - Introduzione]]
 
 >[!note] Fallimento Hardware
->Interruzione che si verifica quando un dispositivo hardware del sistema non funziona correttamente o si verifica un errore hardware.
+>Interruzione che si verifica quando un dispositivo hardware del sistema non funziona correttamente.
 
 >[!note] Comunicazione tra CPU
 >Interruzione che si verifica quando una CPU richiede l'intervento di un'altra CPU in un sistema multiprocessore.
@@ -71,21 +87,6 @@ Le cause per cui potrebbe avvenire un interruzione sono molteplici, e danno luog
 >- Aggiornare la data e l'ora del sistema
 >- Eseguire una routine di backup dei dati
 >- Gestire la pianificazione dei processi
-
->[!note] Programma
->Interruzione causate dall’esecuzione di un istruzione (di un programma) che richiede l'intervento del sistema operativo.
->
->**Cause principali sono:**
->- overflow
->- divisione per 0
->- debugging: single step o breakpoint
->- riferimento ad indirizzo di memoria fuori dallo spazio disponibile al programma
->- riferimento ad indirizzo di memoria momentaneamente non disponibile
->- memoria virtuale: 
->- Istruzione macchina errata (opcode illegale, oppure operando non allineato)
->- chiamata a system call (intenzionale)
->
->>**oss:** Vengono anche chiamate **exception** nei processori intel.
 
 ---
 ## Termine di un Interruzione
@@ -110,11 +111,9 @@ Ad ogni **ciclo fetch-execute** dell'esecuzione di un istruzione, viene anche co
 
 Nel caso di un interruzione, il programma viene sospeso e viene eseguita una funzione che gestisce l’interruzione (**interrupt-handler routine**)
 
-![[Pasted image 20240928115435.png|500]]
+![[Pasted image 20240928115435.png|600]]
 
 ---
 ## Interruzioni Sequenziali ed Annidate
 
-![[Pasted image 20240928120256.png|600]]
-
----
+![[Pasted image 20240928120256.png|1000]]
