@@ -17,5 +17,5 @@ views:
       - formula.Total Uses
       - formula.Price per Use
     imageFit: ""
-  - type: cards
+  - type: table
     name: View

@@ -3,14 +3,14 @@ type: Uni Note
 class:
   - "[[Basi di Dati 1 (class)]]"
 academic year: 2024/2025
-related: 
+related:
 completed: false
 created: 2025-02-18T16:16
-updated: 2025-04-08T22:08
+updated: 2025-09-02T12:13
 ---
 >[!note]- Def 1: Dipendenza Funzionale 🟢
 >
->Dato uno schema relazionale `R`, una dipendenza funzionale su `R` è una coppia orinata di sottoinsiemi non vuoti `X` e `Y` di `R`.
+>Dato uno schema relazionale `R`, una dipendenza funzionale su `R` è una coppia ordinata di sottoinsiemi non vuoti `X` e `Y` di `R`.
 >
 >Denominata attraverso $X \to Y$, dove:
 >- `X` è il determinante
@@ -22,7 +22,7 @@ updated: 2025-04-08T22:08
 >
 >Se $t_{1}[X] = t_{2}[X]$ allora $t_{1}[Y] = t_{2}[Y]$
 >
->**oss:** un istanza di `R` non un insieme di tuple, può essere vista come una tabella che rappresenta le relazione.
+>**oss:** un istanza di `R` non è un insieme di tuple, può essere vista come una tabella che rappresenta le relazione.
 
 >[!note]- Def 1.2: Istanza Legale 🟢
 >
@@ -34,7 +34,7 @@ updated: 2025-04-08T22:08
 >
 >Dato uno schema relazionale `R` e un insieme di dipendenze funzionali `F` su `R`.
 >
->La chiusura di `F` è denotata con $F^{+}$ ed indica l’insieme che sono soddisfatte da ogni istanza legale di `R`
+>La chiusura di `F` è denotata con $F^{+}$ ed indica l’insieme di dipendenze funzionali che sono soddisfatte da ogni istanza legale di `R`.
 >
 >***oss:*** $F \subseteq F^{+}$ ($F$ è contenuto da $F^{+}$)
 
@@ -44,7 +44,7 @@ updated: 2025-04-08T22:08
 >
 >Un sottoinsieme `K` di `R` si dice chiave se:
 >- $K \to R \in F^{+}$
->- Per ogni sotto insieme `K'` si `k` si ha che $K' \to R \not \in F^{+}$
+>- Per ogni sottoinsieme *proprio* `K'` di `k` si ha che $K' \to R \not \in F^{+}$
 >  
 >
 
@@ -52,7 +52,7 @@ updated: 2025-04-08T22:08
 >Dati uno schema relazionale `R` e un insieme di dipendenze funzionali `F`.
 >
 >- Un attributo `A` di `R` si dice primo se appartiene ad una chiave di `R`.
->- Un sottoinsieme `X` di `R` si dice super-chiave se contiene una chiave di `R` o alternativamente contiene determina tutto `R` (ovvero la sua chiusura è uguale ad `R`)
+>- Un sottoinsieme `X` di `R` si dice super-chiave se contiene una chiave di `R` o alternativamente determina tutto `R` (ovvero la sua chiusura è uguale ad `R`)
 
 >[!note]- Def 4: Dipendenze Parziali e Transitive 🟢
 >
