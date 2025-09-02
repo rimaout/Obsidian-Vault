@@ -66,13 +66,13 @@
             }
           },
           {
-            "id": "d9056eaf41f1a910",
+            "id": "53c66d39a4bf2396",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "3. MOCS/Uni MOC/archive/Basi di Dati - Preparazione Orale.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -337,12 +337,13 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "d9056eaf41f1a910",
+  "active": "53c66d39a4bf2396",
   "lastOpenFiles": [
     "3. MOCS/Uni MOC/archive/Basi di Dati 1 (class).md",
     "3. MOCS/Uni MOC/archive/Basi di Dati 2 (class).md",
-    "3. MOCS/Uni MOC/archive/File B-Tree.md",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250124112959.png",
+    "3. MOCS/Uni MOC/archive/Basi di Dati - Preparazione Orale.md",
+    "3. MOCS/Uni MOC/archive/File B-Tree.md",
     "Untitled.base",
     "Storage/Backend/Product usage analysis/AirUp (product).md",
     "Storage/Backend/Product usage analysis/Product usage analysis.md",
@@ -368,7 +369,6 @@
     "3. MOCS/Uni MOC/archive/OS2 L3 - 10 Mar.md",
     "3. MOCS/Uni MOC/archive/OS2 L2 - 5 Mar.md",
     "3. MOCS/Uni MOC/archive/OS2 L1 - 3 Mar.md",
-    "3. MOCS/Uni MOC/archive/L4 Sistemi Operativi.md",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250124120323.png",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20241220150200.png",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20241210145425.png",
