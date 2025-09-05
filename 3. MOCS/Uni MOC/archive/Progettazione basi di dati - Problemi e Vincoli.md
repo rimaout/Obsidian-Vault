@@ -6,7 +6,7 @@ academic year: 2024/2025
 related: "[[Dipendenze Funzionali]]"
 completed: true
 created: 2024-10-24T16:33
-updated: 2024-11-08T17:46
+updated: 2025-09-04T16:51
 ---
 >[!abstract] Related
 >- [[Basi di Dati 1 (class)]]
@@ -19,9 +19,9 @@ Quando si progetta una base di dati, è fondamentale **ridurre la ridondanza** d
 
 >**Anomalia di aggiornamento:** si verifica quando si tenta di aggiornare un dato e si rischia di creare inconsistenze tra le diverse copie del dato.
 
-  >**Anomalia di inserimento:** si verifica quando si tenta di inserire un nuovo record e si rischia di creare inconsistenze tra i dati esistenti.
+>**Anomalia di inserimento:** si verifica quando si tenta di inserire un nuovo record e si rischia di creare inconsistenze tra i dati esistenti.
 
- >**Anomalia di cancellazione:** si verifica quando si tenta di cancellare un record e si rischia di creare inconsistenze tra i dati esistenti.
+>**Anomalia di cancellazione:** si verifica quando si tenta di cancellare un record e si rischia di creare inconsistenze tra i dati esistenti.
 
 >**Ridondanza:** si verifica quando lo stesso dato è memorizzato più volte in diverse parti del database.
 

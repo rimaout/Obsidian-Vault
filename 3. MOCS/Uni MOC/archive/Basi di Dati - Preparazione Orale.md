@@ -6,8 +6,35 @@ academic year: 2024/2025
 related:
 completed: false
 created: 2025-02-18T16:16
-updated: 2025-09-02T18:52
+updated: 2025-09-05T11:51
 ---
+>[!question]- Cosa viene Chiesto
+>
+>Per *Algebra Relazionale* tutto tranne:
+>- dimostrazione di correttezza dell'algoritmo per il calcolo della chiusura di X rispetto a G (dove G è l'insieme di dipendenze che risulta da una decomposizione) quindi NON si dimostra la parte la parte X+ rispetto a G contenuto in Z finale
+>- non si dimostrano le proprietà di mρ(r) ma bisogna AVER CAPITO la sua relazione con r
+>- parte se della dimostrazione di correttezza dell'algoritmo che verifica il join senza perdita, quindi non si dimostra che se la tabella finale ha una riga di tutte allora il join è senza perdita
+>- dimostrazione della parte aggiunta all'algoritmo di decomposizione, quindi non si dimostra che aggiungendo uno schema con una chiave si ottiene un join senza perdita
+>
+>Per l'*organizzazione fisica* occorre dimostrare di aver compreso le caratteristiche delle varie strutture ed essere in grado di dimostrare i costi delle operazioni.
+>
+>Per la *teoria della concorrenza* si dimostra SOLO il teorema del protocollo a 2 fasi, e la correttezza delle regole del timestamp (anche se non c'è un teorema)
+>
+>OVVIAMENTE non ci sono solo i teoremi, ma anche le definizioni e  occorre dimostrare di aver capito i concetti di base ... in pratica i concetti che trovate su slide e dispense TRA i teoremi
+
+## Algebra Relazionale
+
+>[!note]- Def 0: Obbiettivo della 3NF 🟢
+>
+ >La ***Terza Forma Normale (3FN)*** è una regola di normalizzazione dei database relazionali che mira a eliminare ridondanze e anomalie:
+>- **Anomalia di inserimento:** si verifica quando si tenta di inserire un nuovo record e si rischia di creare inconsistenze tra i dati esistenti.
+>- **Anomalia di cancellazione:** si verifica quando si tenta di cancellare un record e si rischia di creare inconsistenze tra i dati esistenti.
+>- **Anomalia di aggiornamento:** si verifica quando si tenta di aggiornare un dato e si rischia di creare inconsistenze tra le diverse copie del dato.
+>
+>Queste avvengono quando:
+>- **Più concetti:** un unica relazione è utilizzata per rappresentare più concetti
+>- **Ridondanza:** si verifica quando lo stesso dato è memorizzato più volte in diverse parti del database.
+
 >[!note]- Def 1: Dipendenza Funzionale 🟢
 >
 >Dato uno schema relazionale `R`, una dipendenza funzionale su `R` è una coppia ordinata di sottoinsiemi non vuoti `X` e `Y` di `R`.
@@ -22,7 +49,7 @@ updated: 2025-09-02T18:52
 >
 >Se $t_{1}[X] = t_{2}[X]$ allora $t_{1}[Y] = t_{2}[Y]$
 >
->**oss:** un istanza di `R` non è un insieme di tuple, può essere vista come una tabella che rappresenta le relazione.
+>**oss:** un istanza di `R` è un una tabella che rappresenta le relazione.
 
 >[!note]- Def 1.2: Istanza Legale 🟢
 >
@@ -51,8 +78,8 @@ updated: 2025-09-02T18:52
 >[!note]- Def 3: Attributo Primo e Super-chiave 🟢
 >Dati uno schema relazionale `R` e un insieme di dipendenze funzionali `F`.
 >
->- Un attributo `A` di `R` si dice primo se appartiene ad una chiave di `R`.
->- Un sottoinsieme `X` di `R` si dice super-chiave se contiene una chiave di `R` o alternativamente determina tutto `R` (ovvero la sua chiusura è uguale ad `R`)
+>- Un attributo `A` di `R` si dice **primo** se appartiene ad una chiave di `R`.
+>- Un sottoinsieme `X` di `R` si dice **super-chiave** se contiene una chiave di `R` o alternativamente determina tutto `R` (ovvero la sua chiusura è uguale ad `R`)
 
 >[!note]- Def 4: Dipendenze Parziali e Transitive 🟢
 >
@@ -75,6 +102,8 @@ updated: 2025-09-02T18:52
 >>![[Pasted image 20250220170956.png]]
 >>	  
 >>**oss:** non abbiamo dipendenze transitive se gli attributi che non appartengono alla chiave dipendono direttamente dalla chiave e non da altri attributi non chiave.
+>
+>Vedi: [[Terza Forma Normale (3NF)#Dipendenze Parziali e Transitive]] per esempi
 
 >[!note]- Def 5: Schema in 3NF 🟢
 >
@@ -204,7 +233,7 @@ updated: 2025-09-02T18:52
 >>
 >>Quindi date due tuple  `t1` e `t2` tali che `t1[X] = t2[X]`, banalmente si ha `t1[Y] = t2[Y]`.
 >
->>**2.** $X \to Y$ ottenuta applicando l'**assioma dell'aumento** ad una dipendenza $V \to W \in F^{A}$, dove quindi $X = VZ$ e $Y = WZ$ per qualche $Z\subseteq R$ (quindi $VZ \to WZ \in F^{A}$).
+>>**2.** $X \to Y$ ottenuta applicando l'**assioma dell'aumento** ad una dipendenza $V \to W \in F^{A}$, dove quindi $X = VZ$ e $Y = WZ$ per qualche $Z\subseteq R$ (quindi $X \to Y$ equivale a $VZ \to WZ$).
 >>
 >>Sia `r` un istanza di `R` e siano `t1` e `t2` due tuple in `r`tali che `t1​[X] = t2​[X]` (ovvero `t1[VZ] = t2[VZ]`) si avrà che `t1[V] = t2[V]` e `t1[Z] = t2[Z]`.
 >>
@@ -230,13 +259,13 @@ updated: 2025-09-02T18:52
 >>
 >>![[Pasted image 20250304115012.png|600]]
 >>
->>Sia `r` un istanza legale e supponiamo per assurdo che la dipendenza funzionale $V \to W \in F$ non sia soddisfatta (quindi `r` sarebbe non legale).
+>>Sia `r` un istanza legale e supponiamo per assurdo che la dipendenza funzionale $V \to W \in F$ non sia soddisfatta.
 >>
->>Questo implica che tutti le dipendenze in $F$ hanno uguali valori in `V` ed hanno diversi valori in `W` ed in particolare che $V \subset X^{+}$ e $W\cap(R-X^{+}) \not = \emptyset$.
+>>Questo implica che tutti le dipendenze in $F$ hanno uguali valori in `V` ed hanno diversi valori in `W`, ovvero che $V \subseteq X^{+}$ e $W\cap(R-X^{+}) \not = \emptyset$.
 >>
->>Poiché $V \subset X^{+}$, per il [[#^ad6bfd|Lemma 1]] otteniamo che $X \to V \in F^{A}$, e visto che $X \to V$ e $V \to X$ fanno parte di $F^{A}$ allora attraverso l'*assioma della transitività* possiamo dire che $X \to W \in F^{A}$.
+>>Poiché $V \subseteq X^{+}$, per il [[#^ad6bfd|Lemma 1]] otteniamo che $X \to V \in F^{A}$, e visto che $V \to W$ allora attraverso l'*assioma della transitività* possiamo dire che $X \to W \in F^{A}$.
 >>
->>Se applichiamo il [[#^ad6bfd|Lemma 1]] su $X \to W \in F^{A}$ otteniamo che $W \subseteq X^{+}$ che contraddice $V\cap( R-X^{+}) \not = \emptyset$ dimostrando che non esistono dipendenze funzionali in `R` che non soddisfano $V \to W$.
+>>Se applichiamo il [[#^ad6bfd|Lemma 1]] su $X \to W \in F^{A}$ otteniamo che $W \subseteq X^{+}$ che contraddice $W \cap( R-X^{+} ) \not = \emptyset$ dimostrando che non esistono dipendenze funzionali non soddisfatte da `r`.
 >
 >>La **seconda parte** consiste nel dimostrare che se $X \to F \in F^{+} \implies X \to Y \in F^{A}$.
 >>
@@ -376,6 +405,12 @@ updated: 2025-09-02T18:52
 >
 >
 
+3. Decomposizioni che hanno un join senza perdita
+Come si è detto nel paragrafo 1, se si decompone uno schema di relazione R che non è in 3NF si vuole che
+la decomposizione r={R1, R2,..., Rk} ottenuta sia tale che ogni istanza legale r di R sia ricostruibile mediante
+join naturale (⋈) da un istanza legale {r1, r2,..., rk} dello schema decomposto {R1, R2,..., Rk}. Poiché per
+ricostruire una tupla t di r è necessario che t[Ri]Îri, i=1,...,k, si deve avere ri=pRi (r), i=1,...,k.
+
 >[!note]- Def 10: Join senza perdita 🟢
 >
 >Sia $R$ uno schema relazionale. Una decomposizione di $\rho$ di $R$ ha un join senza perdita se per ogni istanza legale $r$ di $R$ si ha $r = \pi_{R_{i}}(r) \bowtie \dots \bowtie \pi_{R_{k}}(r)$
@@ -392,7 +427,17 @@ updated: 2025-09-02T18:52
 
 >[!note] Algo 4: Tabella 🔴
 
->[!note] Teorema 4: Dimostrazione Tabella 🔴
+>[!note] Teorema 7: Dimostrazione Tabella 🔴
+
+4. Decomposizioni in 3NF che conservano le dipendenze funzionali e hanno un join senza perdita
+In questo paragrafo mostreremo che dato uno schema di relazione R e un insieme di dipendenze funzionali F
+su R esiste sempre una decomposizione r={R1, R2,..., Rk} di R tale che:
+a. per ogni i, i=1,...,k, Ri è in 3NF
+b. r preserva F
+c. r ha un join senza perdita
+e che una tale decomposizione può essere calcolata in tempo polinomiale.
+A tal fine abbiamo bisogno di introdurre il concetto di copertura minimale di un insieme di dipendenze
+funzionali.
 
 >[!note] Def 11: Copertura minimale 🟢
 >
@@ -412,22 +457,12 @@ updated: 2025-09-02T18:52
 
 >[!note] Teorema 8
 
-- Quando Istanza legale? ->vuota solo elemento o rispetta definizione
-- Algoritmi degli esercizi visti allo scritto
-- definire chiusura di F
-- Cosa troviamo in  F^+
-- Quali sono gli assiomi di Armstrong
-- Quando una funzione di hash è buona
-- Cosa'è una dipendenza banale
-- Definizione di 3NF (fai attenzione a $A \not \in X$)
-- Calcolare costo di ricerca medio su file hash, se ho due tabelle diverse la ricerca media vale sempre n/2
-- Protocollo a due fasi (concorrenza)
-- Quali sono i vantaggi dei due fasi (è serializzabile + dimostrazione)
-		- Quando uno scheduler è serializabile
-		- 
-- Quando uno scheduler è seriale
-- Qual'è il metodo di controllo per vedere che uno scheduler è serializzabile
-- Time stamps
+>[!note] Teorema 9
 
-Dimostrare la algoritmo della validità della chiusura di $X$ (ovvero $X^{+}$)
+5. La forma normale di Boyce-Codd
+Successivamente alla terza forma normale sono state definite altre forme normali per gli schemi di relazione,
+alcune delle quali sono basate su vincoli (dipendenze multivalore e dipendenze di join) più generali delle
+dipendenze funzionali. Una forma normale che ancora si basa sul concetto di dipendenza funzionale è la
+cosidetta forma normale di Boyce-Codd.
 
+>[!note] Definizione 12

@@ -1,9 +1,9 @@
 ---
 Main Moc: "[[Uni MOC]]"
-related: 
-completed: 
+related:
+completed:
 created: 2024-09-25T15:37
-updated: 2025-03-18T09:07
+updated: 2025-09-04T18:20
 ---
 >[!note] Modello Relazionale
 >- [[Introduzione alle Basi di Dati]] 🔴 
