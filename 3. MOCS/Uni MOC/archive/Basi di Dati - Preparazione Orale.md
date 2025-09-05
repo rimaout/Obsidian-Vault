@@ -6,7 +6,7 @@ academic year: 2024/2025
 related:
 completed: false
 created: 2025-02-18T16:16
-updated: 2025-09-05T11:51
+updated: 2025-09-05T16:49
 ---
 >[!question]- Cosa viene Chiesto
 >
@@ -45,17 +45,17 @@ updated: 2025-09-05T11:51
 
 >[!note]- Def 1.1: Soddisfare Dipendenza Funzionale 🟢
 >
->Si dice che un istanza `r` di `R` soddisfa la dipendenza funzionale $X \to Y$ se per ogni coppia di tuple `t1` e `t2` abbiamo che:
+>Si dice che un'istanza `r` di `R` soddisfa la dipendenza funzionale $X \to Y$ se per ogni coppia di tuple `t1` e `t2` abbiamo che:
 >
 >Se $t_{1}[X] = t_{2}[X]$ allora $t_{1}[Y] = t_{2}[Y]$
 >
->**oss:** un istanza di `R` è un una tabella che rappresenta le relazione.
+>**oss:** un'istanza di `R` è un una tabella che rappresenta le relazione.
 
 >[!note]- Def 1.2: Istanza Legale 🟢
 >
 >Dati uno schema relazionale `R` e un insieme di dipendenze funzionali `F`.
 >
->Un istanza `r` di `R` si dice legale se soddisfa tutte le dipendenze funzionali in `F`.
+>Un'istanza `r` di `R` si dice legale se soddisfa tutte le dipendenze funzionali in `F`.
 
 >[!note]- Def 1.3: Chiusura F+ 🟢
 >
@@ -235,13 +235,13 @@ updated: 2025-09-05T11:51
 >
 >>**2.** $X \to Y$ ottenuta applicando l'**assioma dell'aumento** ad una dipendenza $V \to W \in F^{A}$, dove quindi $X = VZ$ e $Y = WZ$ per qualche $Z\subseteq R$ (quindi $X \to Y$ equivale a $VZ \to WZ$).
 >>
->>Sia `r` un istanza di `R` e siano `t1` e `t2` due tuple in `r`tali che `t1​[X] = t2​[X]` (ovvero `t1[VZ] = t2[VZ]`) si avrà che `t1[V] = t2[V]` e `t1[Z] = t2[Z]`.
+>>Sia `r` un'istanza di `R` e siano `t1` e `t2` due tuple in `r`tali che `t1​[X] = t2​[X]` (ovvero `t1[VZ] = t2[VZ]`) si avrà che `t1[V] = t2[V]` e `t1[Z] = t2[Z]`.
 >>
 >>Visto che per ***ipotesi induttiva*** $V \to W \in F^{+}$ allora possiamo dire che `t1[V] = t2[V]` porta ad avere `t1[W] = t2[W]`. Quindi otteniamo che `t1[Y] = T2[Y]` (ovvero  `t1[VZ] = t2[WZ]`).
 >
 >>**3.** $X \to Y$ ottenuta applicando l'**assioma della transitività** su due dipendenze $X \to Z$ e $Z \to Y$ appartenenti a $F^{A}$:
 >>
->>Sia `r` un istanza di `R` e siano `t1` e `t2` due tuple in `r`tali che `t1​[X] = t2​[X]`.
+>>Sia `r` un'istanza di `R` e siano `t1` e `t2` due tuple in `r`tali che `t1​[X] = t2​[X]`.
 >>
 >>Per ***ipotesi induttiva*** le dipendenze  $X \to Z$ e $Z \to Y$ fanno parte di $F^{+}$.
 >>
@@ -255,11 +255,11 @@ updated: 2025-09-05T11:51
 >
 >La dimostrazione è divisa in due parti.
 >
->>La **prima parte** consiste nel dimostrare che esiste un istanza legale di $R$ di questo tipo:
+>>La **prima parte** consiste nel dimostrare che esiste un'istanza legale di $R$ di questo tipo:
 >>
 >>![[Pasted image 20250304115012.png|600]]
 >>
->>Sia `r` un istanza legale e supponiamo per assurdo che la dipendenza funzionale $V \to W \in F$ non sia soddisfatta.
+>>Sia `r` un'istanza legale e supponiamo per assurdo che la dipendenza funzionale $V \to W \in F$ non sia soddisfatta.
 >>
 >>Questo implica che tutti le dipendenze in $F$ hanno uguali valori in `V` ed hanno diversi valori in `W`, ovvero che $V \subseteq X^{+}$ e $W\cap(R-X^{+}) \not = \emptyset$.
 >>
@@ -267,11 +267,11 @@ updated: 2025-09-05T11:51
 >>
 >>Se applichiamo il [[#^ad6bfd|Lemma 1]] su $X \to W \in F^{A}$ otteniamo che $W \subseteq X^{+}$ che contraddice $W \cap( R-X^{+} ) \not = \emptyset$ dimostrando che non esistono dipendenze funzionali non soddisfatte da `r`.
 >
->>La **seconda parte** consiste nel dimostrare che se $X \to F \in F^{+} \implies X \to Y \in F^{A}$.
+>>La **seconda parte** consiste nel dimostrare che se $X \to Y \in F^{+} \implies X \to Y \in F^{A}$.
 >>
 >>Supponiamo che $X \to Y \in F^{+}$
 >>
->>Abbiamo mostrato che `r` è un istanza legale che quindi soddisfa tutte le dipendenze di $F^{+}$, compresa $X \to Y$.
+>>Abbiamo mostrato che `r` è un'istanza legale che quindi soddisfa tutte le dipendenze di $F^{+}$, compresa $X \to Y$.
 >>
 >>Poiché $X \subseteq X^{+}$ le due tuple di `r` coincidono su gli attributi `X` 
 >>
@@ -281,7 +281,7 @@ updated: 2025-09-05T11:51
 
 ^7ae4ca
 
->[!note]- Algo 1  🟢
+>[!note]- Algo 1 (calcolo X+) 🟢
 >Prende come input uno schema `R`, un insieme `F` di dipendenze su `R` e un sottoinsieme `X` di `R`. Come output fornisce la chiusura di `X` rispetto ad `F` all’interno della variabile `Z`.
 >
 >![[Pasted image 20250304180030.png|1000]]
@@ -294,9 +294,9 @@ updated: 2025-09-05T11:51
 >
 >Indichiamo con $Z^{0}$ il valore iniziale di $Z$ (ovvero $Z^{0} = X$) e con $Z^{i}$ ed $S^{i}$, i valori di $Z$ e $S$ alla i-esima iterazione.
 >	
->>***oss:*** $Z^{i} \subseteq X^{+}$ per ogni $i$.
+>>***oss:*** $Z^{i} \subseteq Z^{i+1}$ per ogni $i$.
 >
->L'obbiettivo è dimostrare che esiste un $i$ tale che $A \in Z^{i}$ *se e solo se* $A \in X^{+}$, per fare ciò scomponiamo la dimostrazione in due parti:
+>L'obbiettivo è dimostrare che esiste una $i$ tale che $A \in Z^{i}$ *se e solo se* $A \in X^{+}$, per fare ciò scomponiamo la dimostrazione in due parti:
 >- Dimostrazione di $A \in Z^{i} \implies A \in X^{+}$
 >- Dimostrazione di $A \in X^{+} \implies A \in Z^{i}$
 >
@@ -308,7 +308,7 @@ updated: 2025-09-05T11:51
 >
 >***Ipotesi Induttiva:*** $Z^{i} \subseteq X^{+}$ per ogni `i`.
 >
->***Base dell'induzione:*** la base è `i = 0`, poiché $X^{(0)} = X$ e $X \subseteq X^{+}$, si ha che $Z^{(0)} \subseteq X^{+}$
+>***Base dell'induzione:*** la base è `i = 0`, poiché $Z^{(0)} = X$ e $X \subseteq X^{+}$, si ha che $Z^{(0)} \subseteq X^{+}$
 >
 >***Induzione:*** 
 >
@@ -334,13 +334,15 @@ updated: 2025-09-05T11:51
 >>
 >>![[Pasted image 20250309173754.png|700]]
 >>
->>Sia `r` un istanza legale e supponiamo per assurdo che la dipendenza funzionale $V \to W \in F$ non sia soddisfatta (quindi `r` sarebbe non legale).
+>>Sia `r` un'istanza legale e supponiamo per assurdo che la dipendenza funzionale $V \to W \in F$ non sia soddisfatta (quindi `r` sarebbe non legale).
 >>
 >>Questo implica che tutti le dipendenze in $F$ hanno uguali valori in `V` ed hanno diversi valori in `W` ed in particolare che $V \subset X^{+}$ e $W\cap(R-X^{+}) \not = \emptyset$.
 >>
->>Poiché $V \subset X^{+}$, per il [[#^ad6bfd|Lemma 1]] otteniamo che $X \to V \in F^{A}$, e visto che $X \to V$ e $V \to X$ fanno parte di $F^{A}$ allora attraverso l'*assioma della transitività* possiamo dire che $X \to W \in F^{A}$.
+>>Poiché $V \subset X^{+}$, per il [[#^ad6bfd|Lemma 1]] otteniamo che $X \to V \in F^{A}$, e visto che $X \to V$ e $V \to X$ allora attraverso l'*assioma della transitività* possiamo dire che $X \to W \in F^{A}$.
 >>
 >>Se applichiamo il [[#^ad6bfd|Lemma 1]] su $X \to W \in F^{A}$ otteniamo che $W \subseteq X^{+}$ che contraddice $V\cap( R-X^{+}) \not = \emptyset$ dimostrando che non esistono dipendenze funzionali in `R` che non soddisfano $V \to W$.
+>
+>>La **seconda parte** consiste nel dimostrare che 
 
 >[!note]- Def 7: Decomposizione 🟢
 >
@@ -408,7 +410,7 @@ updated: 2025-09-05T11:51
 3. Decomposizioni che hanno un join senza perdita
 Come si è detto nel paragrafo 1, se si decompone uno schema di relazione R che non è in 3NF si vuole che
 la decomposizione r={R1, R2,..., Rk} ottenuta sia tale che ogni istanza legale r di R sia ricostruibile mediante
-join naturale (⋈) da un istanza legale {r1, r2,..., rk} dello schema decomposto {R1, R2,..., Rk}. Poiché per
+join naturale (⋈) da un'istanza legale {r1, r2,..., rk} dello schema decomposto {R1, R2,..., Rk}. Poiché per
 ricostruire una tupla t di r è necessario che t[Ri]Îri, i=1,...,k, si deve avere ri=pRi (r), i=1,...,k.
 
 >[!note]- Def 10: Join senza perdita 🟢
