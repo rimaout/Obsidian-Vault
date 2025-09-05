@@ -6,7 +6,7 @@ academic year: 2024/2025
 related:
 completed: false
 created: 2025-02-18T16:16
-updated: 2025-09-05T16:49
+updated: 2025-09-05T17:23
 ---
 >[!question]- Cosa viene Chiesto
 >
@@ -286,7 +286,7 @@ updated: 2025-09-05T16:49
 >
 >![[Pasted image 20250304180030.png|1000]]
 
->[!note]- Teo 4: Dimostrazione Teo 4 🔴
+>[!note] Teo 4: Dimostrazione Algo 1 🔴
 >
 >L'algoritmo 1 calcola correttamente la chiusura di un insieme di attributi $X$ rispetto ad un insieme di dipendenze funzionali $F$.
 >
@@ -302,7 +302,7 @@ updated: 2025-09-05T16:49
 >
 >---
 >
->**Dimostrazione parte:** $A \in Z^{\text{i}} \implies A \in X^{+}$
+>**Parte:** $A \in Z^{\text{i}} \implies A \in X^{+}$
 >
 >L’obiettivo è dimostrare per induzione su `i` che $Z^{\text{i}} \subseteq X^{+}$ per ogni `i`, quindi:
 >
@@ -326,13 +326,33 @@ updated: 2025-09-05T16:49
 >
 >---
 >
->**Dimostrazione parte:** $A \in X^{+} \implies A \in Z^{i}$
+>**Parte:** $A \in X^{+} \implies A \in Z^{i}$
 >
+>Siano: 
+>- `A`  un elemento di $X^{+}$
+>- `j` tale che $S^{(j)} = Z^{(j)}$, ovvero $Z^{(j)}$ è il valore di `Z` quando l’algoritmo termina
+>  
+>L'obbiettivo è dimostrare che $A \in Z^{(j)}$
+>
+>***Dimostrazione:***
+>
+>- Poiché $A \in X^{+}$, si ha $X \to A \in F^{+}$ (per lemma1 + $F^{+} = F^{A}$)
+>- Pertanto $X \to A$ deve essere soddisfatta da ogni istanza legale di `R`.
+>
+>Si consideri la seguente istanza `r` di `R`:
+>
+>![[Pasted image 20250309173754.png|700]]
+>
+>>Mostriamo che `r` è un'istanza legale. Infatti, se, per assurdo, esistesse in `F` una dipendenza funzionale $V \to W$ non soddisfatta da `r`, si dovrebbe avere $S^{(j)} \not \subset Z^{(j)}$ (contraddizione).
+>>
+>>Quindi `r` è un *istanza legale*.
+
+
 >Questa dimostrazione si divide in altre due parti.
 >
 >>La **prima parte** consiste nel dimostrare che esiste una istanza legale di $R$ di questo tipo:
 >>
->>![[Pasted image 20250309173754.png|700]]
+>>
 >>
 >>Sia `r` un'istanza legale e supponiamo per assurdo che la dipendenza funzionale $V \to W \in F$ non sia soddisfatta (quindi `r` sarebbe non legale).
 >>
@@ -342,7 +362,7 @@ updated: 2025-09-05T16:49
 >>
 >>Se applichiamo il [[#^ad6bfd|Lemma 1]] su $X \to W \in F^{A}$ otteniamo che $W \subseteq X^{+}$ che contraddice $V\cap( R-X^{+}) \not = \emptyset$ dimostrando che non esistono dipendenze funzionali in `R` che non soddisfano $V \to W$.
 >
->>La **seconda parte** consiste nel dimostrare che 
+>>La **seconda parte** consiste nel dimostrare che  
 
 >[!note]- Def 7: Decomposizione 🟢
 >
