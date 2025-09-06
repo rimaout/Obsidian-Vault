@@ -6,7 +6,7 @@ academic year: 2024/2025
 related:
 completed: false
 created: 2025-02-18T16:16
-updated: 2025-09-06T12:09
+updated: 2025-09-06T17:41
 ---
 >[!question]- Cosa viene Chiesto
 >
@@ -407,11 +407,11 @@ Vedi come identificare le chiavi di uno schema
 
 ^c94635
 
->[!note]- Teorema 5 🔴
+>[!note] Teorema 5 🔴
 >
 >Sia `R` uno schema relazionale, `F` un insiemi di dipendenze funzionali su `R` e $\rho = \{ R_{1},\, R_{2}, \, \dots, R_{k} \}$ una decomposizione di `R` e `X` un sotto insieme di `R`.
 >
->L'algoritmo 3 calcola correttamente $X^{+}_{G}$
+>L'algoritmo 3 calcola correttamente $X^{+}_{G}$, dove $G = \cup_{i=1}^{k} R_{i}(F)$
 >
 >---
 >
@@ -419,12 +419,26 @@ Vedi come identificare le chiavi di uno schema
 >
 >Indichiamo con $Z^{(0)}$ il valore iniziale di $Z$ (ovvero $Z^{0} = X$), ed in particolare con $Z^{(\text{i})}$ il valore di $Z$ dopo l'i-esima iterazione dell'assegnazione $Z = Z \cup S$. 
 >
->Indichiamo con $Z^{f}$ il valore di $Z$ al termine dell algoritmo.
->
 >>***oss:*** $Z^{(\text{i})} \subseteq Z^{(\text{i}+1)}$
 >
+>Indichiamo con $Z^{f}$ il valore di $Z$ al termine dell algoritmo, proveremo che:
 >
+>$$
+>A \in Z^{f} \text{ se e solo se } A \in X^{+}_{G}
+>$$
 >
+>**Parte solo se:** $X^{(j)} \subseteq X^{+}_{G}$
+>
+>Mostreremo per induzione che su `i` che $Z^{(i)} \subseteq X^{+}_{G}$ per ogni `i`.
+>
+>- *Caso base:* `i = 0`, abbiamo che $Z^{(0)} = X$ e $X \subseteq X^{+}$, quindi $Z^{(0)} \subseteq X^{+}_{G}$
+>- *Ipotesi induttiva:* $Z^{(i-1)} \subseteq X^{+}_{G}$
+>
+>***Induzione:***
+>
+
+
+
 
 3. Decomposizioni che hanno un join senza perdita
 Come si è detto nel paragrafo 1, se si decompone uno schema di relazione R che non è in 3NF si vuole che
