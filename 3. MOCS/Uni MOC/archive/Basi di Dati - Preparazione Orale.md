@@ -6,7 +6,7 @@ academic year: 2024/2025
 related:
 completed: false
 created: 2025-02-18T16:16
-updated: 2025-09-05T17:23
+updated: 2025-09-06T12:09
 ---
 >[!question]- Cosa viene Chiesto
 >
@@ -23,6 +23,8 @@ updated: 2025-09-05T17:23
 >OVVIAMENTE non ci sono solo i teoremi, ma anche le definizioni e  occorre dimostrare di aver capito i concetti di base ... in pratica i concetti che trovate su slide e dispense TRA i teoremi
 
 ## Algebra Relazionale
+
+Vedi come identificare le chiavi di uno schema
 
 >[!note]- Def 0: Obbiettivo della 3NF 🟢
 >
@@ -96,7 +98,7 @@ updated: 2025-09-05T17:23
 >>La dipendenza si dice **transitiva** se contemporaneamente:
 >>- `A` non è primo
 >>- per ogni chiave `K` si ha che `X` non è contenuto interamente in `K` e a sua volta `X` non contiene `K`, ovvero:
->>	- $X$ non è contenuto in `K`
+>>	- $X \not \subset K$
 >>	- e $K - X \not = \emptyset$ (`X` non contiene nessuna chiave)
 >>	  
 >>![[Pasted image 20250220170956.png]]
@@ -285,8 +287,14 @@ updated: 2025-09-05T17:23
 >Prende come input uno schema `R`, un insieme `F` di dipendenze su `R` e un sottoinsieme `X` di `R`. Come output fornisce la chiusura di `X` rispetto ad `F` all’interno della variabile `Z`.
 >
 >![[Pasted image 20250304180030.png|1000]]
+>
+>**Spiegazione:**
+>
+>![[Pasted image 20250905180554.png|600]]
+>
+>![[Pasted image 20250905180609.png|600]]
 
->[!note] Teo 4: Dimostrazione Algo 1 🔴
+>[!note]- Teo 4: Dimostrazione Algo 1 🟠
 >
 >L'algoritmo 1 calcola correttamente la chiusura di un insieme di attributi $X$ rispetto ad un insieme di dipendenze funzionali $F$.
 >
@@ -341,28 +349,17 @@ updated: 2025-09-05T17:23
 >
 >Si consideri la seguente istanza `r` di `R`:
 >
->![[Pasted image 20250309173754.png|700]]
+>![[Pasted image 20250905175806.png|700]]
 >
->>Mostriamo che `r` è un'istanza legale. Infatti, se, per assurdo, esistesse in `F` una dipendenza funzionale $V \to W$ non soddisfatta da `r`, si dovrebbe avere $S^{(j)} \not \subset Z^{(j)}$ (contraddizione).
+>>Mostriamo che `r` è un'istanza legale. Infatti, se, per assurdo, esistesse in `F` una dipendenza funzionale $V \to W$ non soddisfatta da `r`, si dovrebbe avere $V \subseteq Z^{(j)}$ e $W \cap (R-Z^{(j)}) \not = \emptyset$. Ma si avrebbe che $S^{(j)} \not \subset Z^{(j)}$ (contraddizione).
+>>
+>>![[Pasted image 20250905175905.png|800]]
 >>
 >>Quindi `r` è un *istanza legale*.
-
-
->Questa dimostrazione si divide in altre due parti.
 >
->>La **prima parte** consiste nel dimostrare che esiste una istanza legale di $R$ di questo tipo:
->>
->>
->>
->>Sia `r` un'istanza legale e supponiamo per assurdo che la dipendenza funzionale $V \to W \in F$ non sia soddisfatta (quindi `r` sarebbe non legale).
->>
->>Questo implica che tutti le dipendenze in $F$ hanno uguali valori in `V` ed hanno diversi valori in `W` ed in particolare che $V \subset X^{+}$ e $W\cap(R-X^{+}) \not = \emptyset$.
->>
->>Poiché $V \subset X^{+}$, per il [[#^ad6bfd|Lemma 1]] otteniamo che $X \to V \in F^{A}$, e visto che $X \to V$ e $V \to X$ allora attraverso l'*assioma della transitività* possiamo dire che $X \to W \in F^{A}$.
->>
->>Se applichiamo il [[#^ad6bfd|Lemma 1]] su $X \to W \in F^{A}$ otteniamo che $W \subseteq X^{+}$ che contraddice $V\cap( R-X^{+}) \not = \emptyset$ dimostrando che non esistono dipendenze funzionali in `R` che non soddisfano $V \to W$.
+>Poiché `r` è un’istanza legale di `R` deve soddisfare $X \to A$ che si trova in $F^{A}$ (e anche $F^{+}$ per il teorema 3) ma, allora, poiché $X = Z^{(0)} \subseteq Z^{(j)}$, `A` deve essere in $Z^{(j)}$.
 >
->>La **seconda parte** consiste nel dimostrare che  
+>![[Pasted image 20250905180418.png|600]]
 
 >[!note]- Def 7: Decomposizione 🟢
 >
@@ -378,7 +375,7 @@ updated: 2025-09-05T17:23
 >
 >Siano $F$ e $G$ due insiemi di dipendenze funzionali, se $F \subseteq G^{+}$ allora $F^{+} \subseteq G^{+}$.
 >
->>**Dimostrazione:** Sia $f \in F^{+}-F$, poiché per il [[#^7ae4ca|teorema 3]] `f` è derivabile fa `F` mediante gli assiomi di Armstrong e ogni dipendenza funzionale in `F` è derivabile da `G` mediante gli assiomi di armstrong, `f` è derivabile da `G` mediante gli assiomi di Armstrong.
+>>**Dimostrazione:** Sia $f \in F^{+}-F$, poiché per il [[#^7ae4ca|teorema 3]] `f` è derivabile da `F` mediante gli assiomi di Armstrong e ogni dipendenza funzionale in `F` è derivabile da `G` mediante gli assiomi di armstrong, `f` è derivabile da `G` mediante gli assiomi di Armstrong.
 
 ^fcc7ac
 
@@ -400,7 +397,9 @@ updated: 2025-09-05T17:23
 >
 >![[Pasted image 20250310092640.png|800]]
 >
->Questo algoritmo richiede che venga calcolato $X^{+}_{G}$ ma noi non conosciamo $G$ quindi usiamo il prossimo algoritmo per calcolarlo ([[#^c94635|Algo 3]]).
+>Questo algoritmo richiede che venga calcolato $X^{+}_{G}$ quindi usiamo il prossimo algoritmo per calcolarlo ([[#^c94635|Algo 3]]).
+
+[[13.Decomposizioni che preservano le dipendenze 1.pdf]]
 
 >[!note]- Algo 3 🟡
 >

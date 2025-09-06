@@ -1,12 +1,14 @@
 ---
 type: Uni Note
-class: 
+class:
 academic year: 2024/2025
-related: 
+related:
 completed: false
 created: 2025-02-24T17:45
-updated: 2025-02-24T17:45
+updated: 2025-09-05T18:31
 ---
+[Link raccolta aglaia](https://aglaianorza.github.io/notesig/vault/basi-di-dati-1/domande-orale,-raccolte)
+
 **Definizione di Chiave**
 Una _chiave_ di una relazione è un attributo o un insieme di attributi che identifica univocamente una tupla
 
