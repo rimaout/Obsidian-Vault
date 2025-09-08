@@ -6,7 +6,7 @@ academic year: 2024/2025
 related:
 completed: false
 created: 2025-02-18T16:16
-updated: 2025-09-06T17:41
+updated: 2025-09-08T15:29
 ---
 >[!question]- Cosa viene Chiesto
 >
@@ -45,7 +45,15 @@ Vedi come identificare le chiavi di uno schema
 >- `X` è il determinante
 >- `Y` è il determinato
 
->[!note]- Def 1.1: Soddisfare Dipendenza Funzionale 🟢
+>[!note]- Def 1.1: Dipendenza Funzionale Banale 🟢
+>
+>Una dipendenza funzionale $X \to Y$ è detta **banale** se `Y` è un sottoinsieme di `X`.
+>
+>- $AB → A$ è banale perché $\{ A \} \subseteq \{ A, B \}$
+>- $C → C$ è banale $\{ C \} \subseteq \{ C \}$
+>- $AB → AB$ è banale $\{ A,B \} \subseteq \{ A, B \}$
+
+>[!note]- Def 1.2: Soddisfare Dipendenza Funzionale 🟢
 >
 >Si dice che un'istanza `r` di `R` soddisfa la dipendenza funzionale $X \to Y$ se per ogni coppia di tuple `t1` e `t2` abbiamo che:
 >
@@ -53,13 +61,13 @@ Vedi come identificare le chiavi di uno schema
 >
 >**oss:** un'istanza di `R` è un una tabella che rappresenta le relazione.
 
->[!note]- Def 1.2: Istanza Legale 🟢
+>[!note]- Def 1.3: Istanza Legale 🟢
 >
 >Dati uno schema relazionale `R` e un insieme di dipendenze funzionali `F`.
 >
 >Un'istanza `r` di `R` si dice legale se soddisfa tutte le dipendenze funzionali in `F`.
 
->[!note]- Def 1.3: Chiusura F+ 🟢
+>[!note]- Def 1.4: Chiusura F+ 🟢
 >
 >Dato uno schema relazionale `R` e un insieme di dipendenze funzionali `F` su `R`.
 >
@@ -89,7 +97,7 @@ Vedi come identificare le chiavi di uno schema
 >
 >>La dipendenza si dice **parziale** se contemporaneamente:
 >>- `A` non è primo
->>- `X` è contenuto propriamente da una chiave (contenuto ma diverso)
+>>- `X` è contenuto propriamente da una chiave ($X \subset K$ contenuto ma diverso)
 >>  
 >>![[Pasted image 20250218173714.png]]
 >>
@@ -114,6 +122,8 @@ Vedi come identificare le chiavi di uno schema
 >`R` è in **3NF** se per ogni dipendenza funzionale $X \to A \in F^{+}$ tale che $A \not \in X$ si ha che:
 >- `X` è una superchiave, oppure
 >- `A` è primo
+>
+>>***oss:*** non vanno controllate le dipendenze funzionali banali ovvero ($X \to A \ \ \ t.c. \ \  A \not \in X$)
 
 >[!note]- Teo 1: 3NF = no parziali e no transitive 🟢
 >
@@ -198,18 +208,19 @@ Vedi come identificare le chiavi di uno schema
 >
 >Dobbiamo **dimostrare** che $X\to Y \in F^{A} \iff Y \subseteq X^{+}$.
 >
->Sia $Y = A_{1} A_{2} \dots A_{n}$
+>Sia $Y = A_{1} A_{2} \dots A_{n}$ e $i = 0, \dots, n$
 >
 >>**Parte Se** ($X\to Y \in F^{A} \implies Y \subseteq X^{+}$)
 >>
->>Poiché $X \to Y \in F^{A}$ per la regola della *decomposizione* abbiamo che per ogni `i` $X \to A_{i}\in F^{A}$
->>
->>Questo significa che ogni $A_{i}$ è presente in $F^{A}$  e quindi $Y \subseteq X^{+}$.
->
+>>Partendo da $X \to Y \in F^{A}$:
+>> - per *decomposizione* abbiamo che per ogni `i` $X \to A_{i}\in F^{A}$
+>> - dato che ogni $A_{i} \in X^{+}$, allora per unione *unione* quindi $Y \subseteq X^{+}$.
 >
 >>**Parte Solo Se** ($Y \subseteq X^{+} \implies X\to Y \in F^{A}$)
 >>
->>Dato che $Y \subseteq X^{+}$, per ogni `i` si ha che $X \to A_{i} \in F^{A}$ pertanto per *unione* $X \to Y \in F^{A}$.
+>>Partendo da $Y \subseteq X^{+}$:
+>> - per ogni `i` si ha che $X \to A_{i} \in F^{A}$
+>> - pertanto per *unione* $X \to Y \in F^{A}$.
 
 ^ad6bfd
 
@@ -393,7 +404,7 @@ Vedi come identificare le chiavi di uno schema
 >
 >>***oss:*** Per verificare l'equivalenza tra $F$ e $G$ , dove $G = \bigcup^{k}_{i=1}\pi_{R_{i}}(F)$, ci basta verificare che $F \subseteq G^{+}$, infatti $G \subseteq ^{+}F$ sappiamo essere vero per definizione.
 
->[!note]- Algo 2 🟡
+>[!note]- Algo 2 (se $F \subseteq G^{+}$) 🟢
 >
 >![[Pasted image 20250310092640.png|800]]
 >
@@ -401,17 +412,17 @@ Vedi come identificare le chiavi di uno schema
 
 [[13.Decomposizioni che preservano le dipendenze 1.pdf]]
 
->[!note]- Algo 3 🟡
+>[!note]- Algo 3 ($X^{+}_{G}$) 🟢
 >
 >![[Pasted image 20250310093023.png|850]]
 
 ^c94635
 
->[!note] Teorema 5 🔴
+>[!note]- Teorema 5 (dim algo 3) 🟠
 >
 >Sia `R` uno schema relazionale, `F` un insiemi di dipendenze funzionali su `R` e $\rho = \{ R_{1},\, R_{2}, \, \dots, R_{k} \}$ una decomposizione di `R` e `X` un sotto insieme di `R`.
 >
->L'algoritmo 3 calcola correttamente $X^{+}_{G}$, dove $G = \cup_{i=1}^{k} R_{i}(F)$
+>L'algoritmo 3 calcola correttamente $X^{+}_{G}$, dove $G = \bigcup_{i=1}^{k} \pi R_{i}(F)$
 >
 >---
 >
@@ -427,7 +438,7 @@ Vedi come identificare le chiavi di uno schema
 >A \in Z^{f} \text{ se e solo se } A \in X^{+}_{G}
 >$$
 >
->**Parte solo se:** $X^{(j)} \subseteq X^{+}_{G}$
+>**Parte solo se:** $Z^{(f)} \subseteq X^{+}_{G}$
 >
 >Mostreremo per induzione che su `i` che $Z^{(i)} \subseteq X^{+}_{G}$ per ogni `i`.
 >
@@ -436,9 +447,17 @@ Vedi come identificare le chiavi di uno schema
 >
 >***Induzione:***
 >
-
-
-
+>Per ipotesi induttiva $Z^{(\text{i}-1)} \subseteq X^{+}$
+>
+>Sia `A` un attributo in $Z^{(\text{i})}-Z^{\text{i}-1}$ (ovvero un attributo aggiunto all'iterazione `i`)
+>
+>Deve esistere una dipendenza un indice `j` tale che $A \in (Z^{(i-1)} \cap R_{j})^{+}_{F}$ per questo:
+> - Poiché $A \in (Z^{(i-1)} \cap R_{j})^{+}_{F}$ si ha che $(Z^{(i-1)} \cap R_{j}) \to A\in F^{+}$ (per lemma1 + Teo $F^{+} = F^{A}$)
+> - Poiché $(Z^{(i-1)} \cap R_{j}) \to A \in F^{+}$ e $A \in R_{j}$ e $Z^{(i-1)} \cap R_{j} \subseteq R_{j}$ si ha che $(Z^{(i-1)} \cap R_{j}) \to A \in G$
+> - Poiché per ipotesi induttiva si ha che $X \to Z^{(i-1)} \in G^{+}$, per *decomposizione* otteniamo $X \to (Z^{(i-1)} \cap R_{j}) \to A \in G^{+}$
+> - Quindi per *transitività* $X^{+}_{G} \subseteq G^{+}$ ovvero $A \in X^{+}_{G}$
+>
+>Quindi $Z^{(i)} \subseteq X^{+}_{G}$
 
 3. Decomposizioni che hanno un join senza perdita
 Come si è detto nel paragrafo 1, se si decompone uno schema di relazione R che non è in 3NF si vuole che
