@@ -6,15 +6,15 @@ academic year: 2024/2025
 related:
 completed: false
 created: 2025-02-18T16:16
-updated: 2025-09-08T15:29
+updated: 2025-09-12T17:53
 ---
 >[!question]- Cosa viene Chiesto
 >
 >Per *Algebra Relazionale* tutto tranne:
->- dimostrazione di correttezza dell'algoritmo per il calcolo della chiusura di X rispetto a G (dove G è l'insieme di dipendenze che risulta da una decomposizione) quindi NON si dimostra la parte la parte X+ rispetto a G contenuto in Z finale
->- non si dimostrano le proprietà di mρ(r) ma bisogna AVER CAPITO la sua relazione con r
->- parte se della dimostrazione di correttezza dell'algoritmo che verifica il join senza perdita, quindi non si dimostra che se la tabella finale ha una riga di tutte allora il join è senza perdita
->- dimostrazione della parte aggiunta all'algoritmo di decomposizione, quindi non si dimostra che aggiungendo uno schema con una chiave si ottiene un join senza perdita
+> - [x] dimostrazione di correttezza dell'algoritmo per il calcolo della chiusura di X rispetto a G (dove G è l'insieme di dipendenze che risulta da una decomposizione) quindi NON si dimostra la parte la parte X+ rispetto a G contenuto in Z finale
+>- [x] non si dimostrano le proprietà di mρ(r) ma bisogna AVER CAPITO la sua relazione con r
+>- [x] parte se della dimostrazione di correttezza dell'algoritmo che verifica il join senza perdita, quindi non si dimostra che se la tabella finale ha una riga di tutte allora il join è senza perdita
+>- [ ] dimostrazione della parte aggiunta all'algoritmo di decomposizione, quindi non si dimostra che aggiungendo uno schema con una chiave si ottiene un join senza perdita
 >
 >Per l'*organizzazione fisica* occorre dimostrare di aver compreso le caratteristiche delle varie strutture ed essere in grado di dimostrare i costi delle operazioni.
 >
@@ -23,8 +23,6 @@ updated: 2025-09-08T15:29
 >OVVIAMENTE non ci sono solo i teoremi, ma anche le definizioni e  occorre dimostrare di aver capito i concetti di base ... in pratica i concetti che trovate su slide e dispense TRA i teoremi
 
 ## Algebra Relazionale
-
-Vedi come identificare le chiavi di uno schema
 
 >[!note]- Def 0: Obbiettivo della 3NF 🟢
 >
@@ -410,15 +408,13 @@ Vedi come identificare le chiavi di uno schema
 >
 >Questo algoritmo richiede che venga calcolato $X^{+}_{G}$ quindi usiamo il prossimo algoritmo per calcolarlo ([[#^c94635|Algo 3]]).
 
-[[13.Decomposizioni che preservano le dipendenze 1.pdf]]
-
 >[!note]- Algo 3 ($X^{+}_{G}$) 🟢
 >
 >![[Pasted image 20250310093023.png|850]]
 
 ^c94635
 
->[!note]- Teorema 5 (dim algo 3) 🟠
+>[!note]- Teorema 5 (dim algo 3) 🔴
 >
 >Sia `R` uno schema relazionale, `F` un insiemi di dipendenze funzionali su `R` e $\rho = \{ R_{1},\, R_{2}, \, \dots, R_{k} \}$ una decomposizione di `R` e `X` un sotto insieme di `R`.
 >
@@ -458,60 +454,130 @@ Vedi come identificare le chiavi di uno schema
 > - Quindi per *transitività* $X^{+}_{G} \subseteq G^{+}$ ovvero $A \in X^{+}_{G}$
 >
 >Quindi $Z^{(i)} \subseteq X^{+}_{G}$
-
-3. Decomposizioni che hanno un join senza perdita
-Come si è detto nel paragrafo 1, se si decompone uno schema di relazione R che non è in 3NF si vuole che
-la decomposizione r={R1, R2,..., Rk} ottenuta sia tale che ogni istanza legale r di R sia ricostruibile mediante
-join naturale (⋈) da un'istanza legale {r1, r2,..., rk} dello schema decomposto {R1, R2,..., Rk}. Poiché per
-ricostruire una tupla t di r è necessario che t[Ri]Îri, i=1,...,k, si deve avere ri=pRi (r), i=1,...,k.
+d
 
 >[!note]- Def 10: Join senza perdita 🟢
 >
->Sia $R$ uno schema relazionale. Una decomposizione di $\rho$ di $R$ ha un join senza perdita se per ogni istanza legale $r$ di $R$ si ha $r = \pi_{R_{i}}(r) \bowtie \dots \bowtie \pi_{R_{k}}(r)$
+>Sia $R$ uno schema relazionale. Una decomposizione di $\rho$ di $R$ ha un join senza perdita se per ogni istanza legale $r$ di $R$ si ha $r = \pi_{R_{i}}(r) \bowtie \dots \bowtie \pi_{R_{k}}(r)$.
 
->[!note] Teorema 6 🟢
+>[!note]- Teorema 6 🟢
 >
 >Sia $R$ uno schema relazionale e $\rho$ una decomposizione di $R$.
 >
->Per ogni istanza di $R$, indichiamo con $m_{\rho}(r) = \pi_{R_{1}}(r) \bowtie \dots \bowtie \pi_{R_{k}}(r)$ che ha queste 3 proprietà:
+>Per ogni istanza legale `r` di $R$, indichiamo con $m_{\rho}(r) = \pi_{R_{1}}(r) \bowtie \dots \bowtie \pi_{R_{k}}(r)$ che ha queste 3 proprietà:
 >
 >1. $r \subseteq m_{p}(r)$, indica che il risultato del join potrebbe avere introdotto nuove tuple nelle tabella, portando a una *perdita di informazioni*. Il join si dice senza perdita se $r = m_{\rho}(r)$.
 >2. $\pi_{R_{i}}(m_{\rho}​(r)) = \pi_{R_{i}​}(r)\ \text{ per ogni }\, i$, indica che se facciamo la proiezione di qualsiasi schema $R_{i}$ della decomposizione sul join, otteniamo lo stesso se effettuiamo la stessa proiezione sullo istanza originale `r`.
 >3. $m_{\rho}(m_{\rho}(r)) = m_{\rho}(r)$ 
 
->[!note] Algo 4: Tabella 🔴
+>[!note]- Algo 4: determina se decomposizione ha join senza perdita 🟠
+>
+> - ***Input:*** Uno schema relazionale `R`, un insieme di [[Dipendenze Funzionali]] su `R`, una decomposizione $\rho = \{ R_{1}, R_{2}, \dots , R_{n} \}$ di `R` .
+>
+> - ***Output:*** `true` se $\rho$ ha un join senza perdita.
+>
+>---
+>
+>L'obbiettivo è creare una tabella `r` e verificare che il join sia senza perdita. 
+>
+>*Struttura dalla tabella:*
+> - ad ogni colonna è assegnato un attributo diverso di $R$ (numero di colonne = $\mid R \mid$)
+> - ad ogni riga è assegnato un sotto schema diverso di $\rho$ (numero righe = $\mid \rho \mid$)
+>
+>*Inizializzazione dalla tabella* - all’incrocio tra la riga `i` e la colonna `j` inseriamo:
+> - il simbolo $\textcolor{orange}{a_{j}}$ se l’attributo $A_{j} \in R_{i}$
+> - il simbolo $\textcolor{orange}{b_{ij}}$ altrimenti
+>
+>Ora per ogni $X \to Y \in F$ se ci sono due tuple `t1` e `t2` in `r` tali che $t1[X] = t2[X]$ e $t1[Y] \not = t2[Y]$ allora per ogni $A_{j}$ in $Y$ (per ogni elemento della colonna `Y`):
+> 	- se $t_{1}[A_{j}]=a_{j}$ allora $t_{2}[A_{j}]:=a_{j}$
+> 	- altrimenti $t_{1}[A_{j}]=t_{2}[A_{j}]$
+>
+>Questo ciclo si ripete fino a quando non raggiungiamo una di queste due condizioni:
+>1. otteniamo una riga composta da sole `a` ($\rho$ ha join senza perdita)
+>2. otteniamo un iterazione che non modifica la tabella ($\rho$ non ha un join senza perdita)
+>   
+>---
+>**Versione Prof.***
+>
+>![[Pasted image 20250912173623.png]]
+>![[Pasted image 20250912173627.png]]
 
->[!note] Teorema 7: Dimostrazione Tabella 🔴
+>[!note]- Teorema 7: Dimostrazione Tabella 🟢
+>
+>Sia `R` uno schema di relazione, `F` un insieme di dipendenze funzionali su `R` e $\rho = \{R_{1}, R_{2}, \dots, R_{k}\}$ una decomposizione di R. 
+>
+>L’Algoritmo 4 determina correttamente se $\rho$ ha un join senza perdita.
+>
+>---
+>
+>Occorre **dimostrare** che:
+>$$
+>\begin{align*}
+>\rho \text{ ha un jo}&\text{in senza perdita} \\ 
+>& \iff \\ 
+>\text{quando l’algoritmo termina} & \text{ la tabella r ha una tupla con tutte 'a'}\\
+\end{align*}
+>$$
+>
+>>***oss:*** La tabella `r` può essere interpretata come un’istanza legale di `R`, in quanto l’algoritmo termina quando non ci sono più violazioni delle dipendenze in F. Infatti basta sostituire ai simboli `'a'` e `'b'` valori presi dai domini dei corrispondenti attributi in modo tale che ad uno stesso simbolo venga sostituito lo stesso valore.
+>
+>Dimostrazione *parte solo se* ovvero: 
+>$$
+>\rho \text{ ha un join senza perdita} \implies \text{ la tabella r ha una tupla con tutte 'a'}
+>$$
+>
+>Supponiamo per assurdo che $\rho$ abbia un join senza perdita e che quando l’algoritmo termina la tabella `r` non abbia una tupla con tutte `a`.
+>
+>Poiché nessun simbolo `a` che compare nella tabella costruita inizialmente viene mai modificato dall’algoritmo, abbiamo che_
+>- Per ogni i ($i = 0,\dots , 1$) $\pi_{R_{i}}(r)$ contiene una tupla con tutte `a`
+>- Pertanto $m_{\rho}(r)$ contiene una tupla con tutte `a` e, quindi, $m_{\rho}(r) \not = r$ (contraddizione).
 
-4. Decomposizioni in 3NF che conservano le dipendenze funzionali e hanno un join senza perdita
-In questo paragrafo mostreremo che dato uno schema di relazione R e un insieme di dipendenze funzionali F
-su R esiste sempre una decomposizione r={R1, R2,..., Rk} di R tale che:
-a. per ogni i, i=1,...,k, Ri è in 3NF
-b. r preserva F
-c. r ha un join senza perdita
-e che una tale decomposizione può essere calcolata in tempo polinomiale.
-A tal fine abbiamo bisogno di introdurre il concetto di copertura minimale di un insieme di dipendenze
-funzionali.
-
->[!note] Def 11: Copertura minimale 🟢
+>[!note]- Def 11: Copertura minimale 🟢
 >
 >Sia `F` un insieme di dipendenze funzionali, una **copertura minimale** di `F` è un insieme `G` di dipendenze funzionali equivalente ad `F`  tale che:
 >1. Ogni dipendenza in `G` ha la *parte destra singleton*
->2. Per nessuna dipendenza $X \to A\in G$ esiste un $X' \subseteq X$ tale che $G \equiv G - \{ X \to A \} \cup \{ X' \to A \}$
+>2. Per nessuna dipendenza $X \to A\in G$ esiste un $X' \subseteq X$ tale che $G \equiv G -  \{ X \to A \} \cup \{ X' \to A \}$
 >3. Per nessuna dipendenza $X\to A \in G$ deve accadere $G \equiv G−\{X\to A\}$.
 >
 >Ovvero:
 >- (1) Si capisce daii
 >- (2) *Gli attributi a sinistra non devono essere ridondanti* non devono esistere dipendenze funzionali in `G` tali che se sostituiamo il determinante con un suo sotto insieme `G` rimane equivalente a prima.
->- (3) *Le dipendenze funzionali non devono essere ridondanti* ovvero non deve esistere una dipendenza in `G` che se rimossa `G` rimane quivalente `
+>- (3) *Le dipendenze funzionali non devono essere ridondanti* ovvero non deve esistere una dipendenza in `G` che se rimossa `G` rimane quivalente.
+>  
+>>***oss:*** La copertura non è unica, ovvero per una data F possono esiste più comperture minimali
 
->[!note] Algo 5:
+>[!note]- Algo 5 (calcolo di $\rho$) 🟠
 >
+>Algoritmo che calcola in **tempo polinomiale** una decomposizione $\rho$. 
 >
+>**Input:** 
+>- uno schema relazionale `R`
+>- un insieme di dipendenze funzionali `F` su `R` (che è anche una copertura minimale)
+>
+>**Output:** una decomposizione $\rho$ di `R` che:
+> - preserva `F` 
+> - ogni schema di relazione in $\rho$ è in 3NF
+>
+>![[Pasted image 20250912175146.png]]
+>
+>>***oss:***`R` può avere anche più di una decomposizione valida, dato che possono esistere diverse 
+>coperture minimali `G` su `R`.
+
+^9a41f1
 
 >[!note] Teorema 8
 
 >[!note] Teorema 9
+
+
+
+
+
+
+
+
+
+
 
 5. La forma normale di Boyce-Codd
 Successivamente alla terza forma normale sono state definite altre forme normali per gli schemi di relazione,
@@ -519,4 +585,49 @@ alcune delle quali sono basate su vincoli (dipendenze multivalore e dipendenze d
 dipendenze funzionali. Una forma normale che ancora si basa sul concetto di dipendenza funzionale è la
 cosidetta forma normale di Boyce-Codd.
 
->[!note] Definizione 12
+>[!note] Definizione 12 🟢
+>
+>Uno schema è in forma normale Boyce-Codd se per ogni dipendenza funzionale $X \to A \in F^{+}$ tale che $A \not \in X$ si ha che $X$ è una superchiave.
+>
+>Se uno schema è in Boyce Codd allora è anche in 3NF ma non è vero il contrario.
+>
+>Non esiste sempre una decomposizione che:
+>- Tutti schemi in Boyce Codd
+>- preserva F
+>- Join senza perdita
+>
+>Invece esiste sempre:
+>- Tutti schemi in Boyce Codd
+>- Join Senza perdita. Ed esiste anche un algoritmo che genera tale decomposizione.
+
+
+## Domande orale
+
+- Quali sono le proprietà di una decomposizione
+	- ogni sottoschema ma in terza forma normale
+	- preserva f
+	- ha un join senza perdita
+Ciao a te cara e buona domenica anche se non è giornata di lavoro non è che mi 
+- cosa significa che un decomposizione ha un join senza perdita di controllo è un problema che si è creato con la mia famiglia e con i miei genitori e con i miei figli e la mamma di mia figlia che è 
+
+- Cosa significa che F equivale a G, che algoritmi utilizziamo
+- Come implementeresti un bucket : array con operazioni che se usate ci danno un resto(funzione hash)
+
+Cosa una transazione a due fasi non può fare:
+- una volta iniziati gli unlock lvkkòasjfòf
+
+Quali vantaggi ci da un protocollo a due fasi:
+- dòsfa
+
+Qual'è il probelma dell'aggregato non coretto:
+- adkfòljsljfhkljafh
+
+Cos'è grafo di sterilizzazione?
+
+Qual'è la differenza tra un schedule seriale e uno serializzabile?
+
+
+
+
+
+
