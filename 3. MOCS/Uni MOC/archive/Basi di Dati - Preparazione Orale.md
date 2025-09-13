@@ -6,7 +6,7 @@ academic year: 2024/2025
 related:
 completed: false
 created: 2025-02-18T16:16
-updated: 2025-09-13T12:19
+updated: 2025-09-13T18:23
 ---
 >[!question]- Cosa viene Chiesto
 >
@@ -528,7 +528,7 @@ d
 >
 >Supponiamo per assurdo che $\rho$ abbia un join senza perdita e che quando l’algoritmo termina la tabella `r` non abbia una tupla con tutte `a`.
 >
->Poiché nessun simbolo `a` che compare nella tabella costruita inizialmente viene mai modificato dall’algoritmo, abbiamo che_
+>Poiché nessun simbolo `a` che compare nella tabella costruita inizialmente viene mai modificato dall’algoritmo, abbiamo che:
 >- Per ogni i ($i = 0,\dots , 1$) $\pi_{R_{i}}(r)$ contiene una tupla con tutte `a`
 >- Pertanto $m_{\rho}(r)$ contiene una tupla con tutte `a` e, quindi, $m_{\rho}(r) \not = r$ (contraddizione).
 

@@ -2,10 +2,10 @@
 type: Uni Note
 class: "[[Basi di Dati 1 (class)]]"
 academic year: 2024/2025
-related: 
+related:
 completed: true
 created: 2024-12-12T14:26
-updated: 2025-01-24T14:15
+updated: 2025-09-13T16:55
 ---
 ## Introduzione
 
@@ -52,7 +52,7 @@ L'inserimento di un nuovo record all'interno del file principale inizia con la r
 Una volta trovato il blocco in procedimento dipende dal fatto se è presente spazio nel blocco oppure no:
 
 Se il blocco **non è pieno**, allora:
-- Possiamo aggiungere il nuovo record all'interno del record
+- Possiamo aggiungere il nuovo record all'interno del blocco
 - Costo `+1` per riscrivere il blocco con un record aggiuntivo
 
 Se il **blocco è pieno**, allora:
@@ -86,18 +86,16 @@ Il costo cancellazione del record può variare significativamente se dopo la can
 ---
 ## Modifica
 
-Il procedimento di modifica di un record dipende dal fatto che modifica coinvolge o meno campi chiave:
+Il procedimento di modifica di un record dipende dal fatto che coinvolge o meno campi chiave:
 
 Se la modifica **non coinvolge campi chiave**, allora:
 - ***Procedimento:*** dobbiamo effettuare una ricerca del record e poi sovrascriverlo.
 - ***Costo:*** `(h+1) + 1`, dove `(h+1)` costo ricerca e `+1` costo accesso di per riscrivere il blocco modificato
 
-Se la modifica **coinvolge campi chiave**, allora:
-- ***Procedimento:*** Ricercare il record da modificare, cancellarlo ed inserire un nuovo record con i campi modificati.
-- ***Costo:*** `ricerca` + `cancellazione` + `inserimento`
+Se la modifica **coinvolge campi chiave**, allora dobbiamo trovare e modificare il record del file indice che utilizzava il campo chiave.
 
 ## Altezza dell'albero
 
-L'altezza dell albero massima la otteniamo quando ogni blocco è riempito al minimo (50%). 
+L'altezza dell'albero massima la otteniamo quando ogni blocco è riempito al minimo (50%). 
 
 lkjnaskjlflfòhjsdlòkfhl da finire 
