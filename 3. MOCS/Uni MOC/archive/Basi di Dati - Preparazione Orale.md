@@ -6,7 +6,7 @@ academic year: 2024/2025
 related:
 completed: false
 created: 2025-02-18T16:16
-updated: 2025-09-12T17:53
+updated: 2025-09-13T12:19
 ---
 >[!question]- Cosa viene Chiesto
 >
@@ -14,7 +14,7 @@ updated: 2025-09-12T17:53
 > - [x] dimostrazione di correttezza dell'algoritmo per il calcolo della chiusura di X rispetto a G (dove G è l'insieme di dipendenze che risulta da una decomposizione) quindi NON si dimostra la parte la parte X+ rispetto a G contenuto in Z finale
 >- [x] non si dimostrano le proprietà di mρ(r) ma bisogna AVER CAPITO la sua relazione con r
 >- [x] parte se della dimostrazione di correttezza dell'algoritmo che verifica il join senza perdita, quindi non si dimostra che se la tabella finale ha una riga di tutte allora il join è senza perdita
->- [ ] dimostrazione della parte aggiunta all'algoritmo di decomposizione, quindi non si dimostra che aggiungendo uno schema con una chiave si ottiene un join senza perdita
+>- [x] dimostrazione della parte aggiunta all'algoritmo di decomposizione, quindi non si dimostra che aggiungendo uno schema con una chiave si ottiene un join senza perdita
 >
 >Per l'*organizzazione fisica* occorre dimostrare di aver compreso le caratteristiche delle varie strutture ed essere in grado di dimostrare i costi delle operazioni.
 >
@@ -516,7 +516,7 @@ d
 >\rho \text{ ha un jo}&\text{in senza perdita} \\ 
 >& \iff \\ 
 >\text{quando l’algoritmo termina} & \text{ la tabella r ha una tupla con tutte 'a'}\\
-\end{align*}
+>\end{align*}
 >$$
 >
 >>***oss:*** La tabella `r` può essere interpretata come un’istanza legale di `R`, in quanto l’algoritmo termina quando non ci sono più violazioni delle dipendenze in F. Infatti basta sostituire ai simboli `'a'` e `'b'` valori presi dai domini dei corrispondenti attributi in modo tale che ad uno stesso simbolo venga sostituito lo stesso valore.
@@ -566,18 +566,24 @@ d
 ^9a41f1
 
 >[!note] Teorema 8
-
->[!note] Teorema 9
-
-
-
-
-
-
-
-
-
-
+>
+>Sia `R` uno schema di relazione ed `F` un insieme di dipendenze funzionali su `R`, che è una copertura minimale. 
+>
+>L’algoritmo 5 permette di calcolare in tempo polinomiale una decomposizione $\rho$ di `R` tale che:
+> - ogni schema di relazione in $\rho$ è in 3NF
+> - $\rho$ preserva F.
+>   
+>---
+>
+>**Dimostrazione:** $\rho$ preserva $F$
+>
+>
+>
+>---
+>
+>**Dimostrazione:** ogni schema di relazione in $\rho$ è in 3NF
+>
+>
 
 5. La forma normale di Boyce-Codd
 Successivamente alla terza forma normale sono state definite altre forme normali per gli schemi di relazione,
