@@ -5,9 +5,11 @@ academic year: 2024/2025
 related:
 completed: false
 created: 2025-02-24T17:45
-updated: 2025-09-05T18:31
+updated: 2025-09-14T13:45
 ---
 [Link raccolta aglaia](https://aglaianorza.github.io/notesig/vault/basi-di-dati-1/domande-orale,-raccolte)
+
+[[Domande BD1 Dado]]
 
 **Definizione di Chiave**
 Una _chiave_ di una relazione è un attributo o un insieme di attributi che identifica univocamente una tupla

@@ -6,7 +6,7 @@ academic year: 2024/2025
 related:
 completed: false
 created: 2025-02-18T16:16
-updated: 2025-09-13T18:23
+updated: 2025-09-14T13:31
 ---
 >[!question]- Cosa viene Chiesto
 >
@@ -541,8 +541,8 @@ d
 >
 >Ovvero:
 >- (1) Si capisce daii
->- (2) *Gli attributi a sinistra non devono essere ridondanti* non devono esistere dipendenze funzionali in `G` tali che se sostituiamo il determinante con un suo sotto insieme `G` rimane equivalente a prima.
->- (3) *Le dipendenze funzionali non devono essere ridondanti* ovvero non deve esistere una dipendenza in `G` che se rimossa `G` rimane quivalente.
+>- (2) *Gli attributi a sinistra non devono essere ridondanti*, ovvero non devono esistere dipendenze funzionali in `G` tali che se sostituiamo il determinante con un suo sotto insieme, otteniaamo chr `G` rimane equivalente a prima.
+>- (3) *Le dipendenze funzionali non devono essere ridondanti*, ovvero non deve esistere una dipendenza in `G` che se rimossa, otteniamo che `G` rimane equivalente a prima.
 >  
 >>***oss:*** La copertura non è unica, ovvero per una data F possono esiste più comperture minimali
 
@@ -576,20 +576,22 @@ d
 >---
 >
 >**Dimostrazione:** $\rho$ preserva $F$
+> - `F` è la copertura minimale presa in input dall'algoritmo
+> - Sia `G` l'insieme delle dip. funzionali preservate dal $\rho$, appena calcolato dal algoritmo, ovvero $G = \bigcup^{n}_{i=1} \pi_{R_{i}}(F)$
+>   
+>L'obbiettivo è dimostrare che $F \equiv G$, ovvero che $F \subseteq G^{+}$ e $G \subseteq F^{+}$.
 >
+>$\textcolor{orange}{\text{ Dim. }F \subseteq G^{+}}$ - Per ogni dipendenza funzionale $X \to A \in F$ l'algoritmo crea un sottoschema $XA\in \rho$ e si ha che $X \to A \in G$, di conseguenza otteniamo che $F \subseteq G \implies F \subseteq G^{+}$.
 >
+>$\textcolor{orange}{\text{ Dim. }G \subseteq F^{+}}$ - L’inclusione $G \subseteq F^{+}$ è banalmente verificata in quanto, per definizione, $G \subseteq F+$
+>
+>Quindi $F \equiv G$
 >
 >---
 >
 >**Dimostrazione:** ogni schema di relazione in $\rho$ è in 3NF
 >
 >
-
-5. La forma normale di Boyce-Codd
-Successivamente alla terza forma normale sono state definite altre forme normali per gli schemi di relazione,
-alcune delle quali sono basate su vincoli (dipendenze multivalore e dipendenze di join) più generali delle
-dipendenze funzionali. Una forma normale che ancora si basa sul concetto di dipendenza funzionale è la
-cosidetta forma normale di Boyce-Codd.
 
 >[!note] Definizione 12 🟢
 >
