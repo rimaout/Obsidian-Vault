@@ -5,7 +5,7 @@ academic year: 2024/2025
 related:
 completed: true
 created: 2024-12-12T14:26
-updated: 2025-09-13T16:55
+updated: 2025-09-14T19:01
 ---
 ## Introduzione
 
@@ -98,4 +98,31 @@ Se la modifica **coinvolge campi chiave**, allora dobbiamo trovare e modificare 
 
 L'altezza dell'albero massima la otteniamo quando ogni blocco è riempito al minimo (50%). 
 
-lkjnaskjlflfòhjsdlòkfhl da finire 
+Quindi definiamo:
+- $N$ come il numero di record nel file principale
+- $2e-1$ come il numero di record per blocco del *file principale*
+- $2d - 1$ come il numero di record per blocco del *file indice*
+
+>***oss:*** li rendiamo dispari per semplificare i calcoli
+
+Siccome vogliamo che i blocchi devo essere pieni almeno per metta otteniamo che:
+- $e$ è il numero minimo di record che possono essere inseriti in un blocco del *file principale*
+- $d$ è il numero minimo di record che possono essere inseriti in un blocco del *file indice*
+
+Il file principale è il numero massimo di *blocchi* del *file principale* è $N / e$
+
+Il file indice:
+- numero di blocchi del `1°` livello è $\frac{N}{e \cdot d}$
+- numero di blocchi del `2°` livello è $\frac{N}{e \cdot d^{2}}$
+- numero di blocchi del `i°` livello è $\frac{N}{e \cdot d^{i}}$
+
+Se `k` è il numero di livelli del file indice abbiamo che il `k°` ha esattamente 1 blocco (la radice), quindi:
+- $\frac{N}{ed^{k}} \leq 1$ , e otteniamo $\lceil \frac{N}{e\cdot d^{k}} \rceil = 1$ 
+
+Per semplicità diciamo che $ed^{k} = N$ da cui troviamo che $d^{k} = \frac{N}{e}$ e infine:
+
+$$
+k = \log_{d} \left( \frac{N}{e} \right)
+$$
+
+Che rappresenta un valore che approssima sufficientemente il limite superiore per l’altezza dell’albero.

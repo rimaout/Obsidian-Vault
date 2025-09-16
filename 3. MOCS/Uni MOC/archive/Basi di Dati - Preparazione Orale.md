@@ -6,7 +6,7 @@ academic year: 2024/2025
 related:
 completed: false
 created: 2025-02-18T16:16
-updated: 2025-09-14T13:31
+updated: 2025-09-14T16:30
 ---
 >[!question]- Cosa viene Chiesto
 >
@@ -591,7 +591,21 @@ d
 >
 >**Dimostrazione:** ogni schema di relazione in $\rho$ è in 3NF
 >
+>Ci sono tre modi in cui un sotto schema può essere inserito in $\rho$:
 >
+>***Metodo 1:*** se $S \in \rho$ allora ogni attributo di $S$ non partecipa ad una dipendenza funzionale in `F`, quindi $S$ è chiave su `S`, quindi banalmente è in 3NF.
+>
+>***Metodo 2:***
+>
+>***Metodo 3:*** 
+>
+>Se $XA \in \rho$ allora:
+>- $X\to A \in F$, ma dato che $F$ è una copertura minimale allora non esiste $X' \to A \in F$ tale che $X' \subseteq X$
+>- quindi $X$ è chiave in $XA$ e $X\to A \in F$ non falsifica la 3NF di $XA \in \rho$, dato che `X` è superchiave.
+>
+>Se esiste $Y \to B \in F^{+}$ tale che $YB \subseteq XA$, allora neanche questa falsificherebbe la 3NF di $XA \in \rho$, dato che:
+> - se $B=A$ allora, poiché $F$ è una copertura minimale, $Y=X$ e quindi `Y` è superchiave.
+> - se $B \not = A$ allora $B \in X$ e quindi `B` è primo.
 
 >[!note] Definizione 12 🟢
 >
