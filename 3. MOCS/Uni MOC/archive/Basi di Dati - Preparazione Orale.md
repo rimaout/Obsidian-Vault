@@ -6,7 +6,7 @@ academic year: 2024/2025
 related:
 completed: false
 created: 2025-02-18T16:16
-updated: 2025-09-14T16:30
+updated: 2025-09-16T19:58
 ---
 >[!question]- Cosa viene Chiesto
 >
@@ -449,18 +449,17 @@ updated: 2025-09-14T16:30
 >
 >Deve esistere una dipendenza un indice `j` tale che $A \in (Z^{(i-1)} \cap R_{j})^{+}_{F}$ per questo:
 > - Poiché $A \in (Z^{(i-1)} \cap R_{j})^{+}_{F}$ si ha che $(Z^{(i-1)} \cap R_{j}) \to A\in F^{+}$ (per lemma1 + Teo $F^{+} = F^{A}$)
-> - Poiché $(Z^{(i-1)} \cap R_{j}) \to A \in F^{+}$ e $A \in R_{j}$ e $Z^{(i-1)} \cap R_{j} \subseteq R_{j}$ si ha che $(Z^{(i-1)} \cap R_{j}) \to A \in G$
+> - Poiché $(Z^{(i-1)} \cap R_{j}) \to A \in F^{+}$ e $A \in R_{j}$ e $Z^{(i-1)} \cap R_{j} \subseteq R_{j}$, per definizione di `G` si ha che $(Z^{(i-1)} \cap R_{j}) \to A \in G$
 > - Poiché per ipotesi induttiva si ha che $X \to Z^{(i-1)} \in G^{+}$, per *decomposizione* otteniamo $X \to (Z^{(i-1)} \cap R_{j}) \to A \in G^{+}$
 > - Quindi per *transitività* $X^{+}_{G} \subseteq G^{+}$ ovvero $A \in X^{+}_{G}$
 >
 >Quindi $Z^{(i)} \subseteq X^{+}_{G}$
-d
 
 >[!note]- Def 10: Join senza perdita 🟢
 >
 >Sia $R$ uno schema relazionale. Una decomposizione di $\rho$ di $R$ ha un join senza perdita se per ogni istanza legale $r$ di $R$ si ha $r = \pi_{R_{i}}(r) \bowtie \dots \bowtie \pi_{R_{k}}(r)$.
 
->[!note]- Teorema 6 🟢
+>[!note]- Teorema 6: Proprietà $m_{\rho}(r)$ 🟢
 >
 >Sia $R$ uno schema relazionale e $\rho$ una decomposizione di $R$.
 >
@@ -470,7 +469,7 @@ d
 >2. $\pi_{R_{i}}(m_{\rho}​(r)) = \pi_{R_{i}​}(r)\ \text{ per ogni }\, i$, indica che se facciamo la proiezione di qualsiasi schema $R_{i}$ della decomposizione sul join, otteniamo lo stesso se effettuiamo la stessa proiezione sullo istanza originale `r`.
 >3. $m_{\rho}(m_{\rho}(r)) = m_{\rho}(r)$ 
 
->[!note]- Algo 4: determina se decomposizione ha join senza perdita 🟠
+>[!note]- Algo 4: determina se decomposizione ha join senza perdita 🟢
 >
 > - ***Input:*** Uno schema relazionale `R`, un insieme di [[Dipendenze Funzionali]] su `R`, una decomposizione $\rho = \{ R_{1}, R_{2}, \dots , R_{n} \}$ di `R` .
 >
@@ -497,7 +496,7 @@ d
 >2. otteniamo un iterazione che non modifica la tabella ($\rho$ non ha un join senza perdita)
 >   
 >---
->**Versione Prof.***
+>**Versione Prof.**
 >
 >![[Pasted image 20250912173623.png]]
 >![[Pasted image 20250912173627.png]]
@@ -546,7 +545,7 @@ d
 >  
 >>***oss:*** La copertura non è unica, ovvero per una data F possono esiste più comperture minimali
 
->[!note]- Algo 5 (calcolo di $\rho$) 🟠
+>[!note]- Algo 5 (calcolo di $\rho$) 🟢
 >
 >Algoritmo che calcola in **tempo polinomiale** una decomposizione $\rho$. 
 >

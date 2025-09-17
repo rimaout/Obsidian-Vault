@@ -5,7 +5,7 @@ academic year: 2024/2025
 related:
 completed: false
 created: 2025-01-24T14:14
-updated: 2025-09-16T18:27
+updated: 2025-09-17T10:08
 ---
 
 ---
@@ -231,7 +231,7 @@ In un *sistema che utilizza i lock* per il controllo della concorrenza si posson
 >
 >![[Pasted image 20250916175402.png|400]]
 >
->>***Soluzione:*** dobbiamo necessariamente effettuare un [[#^7032b7|Abort]] di una delle transazioni coinvolte nello stallo e farla ripartire.
+>>***Soluzione:*** dobbiamo necessariamente effettuare un [[#^7032b7|rollback]] di una delle transazioni coinvolte nello stallo e farla ripartire.
 
 >[!note] Livelock
 >
@@ -239,21 +239,88 @@ In un *sistema che utilizza i lock* per il controllo della concorrenza si posson
 >
 >>***Soluzione:*** possiamo usare una strategia **first came-first served** oppure eseguendo le transazioni in base alla loro **priorità** e aumentando la priorità di una transazione in base al tempo in cui rimane in attesa.
 
+### Protocollo a due fasi stretto
+
+Protocollo utilizzato per risolvere il problema dei dati sporchi e il roll-back a cascata, impedendo alle transazioni di leggere dati sporchi.
+
+Una transazione soddisfa il protocollo a due fasi stretto se:
+1. non scrive sulla base di dati fino a quando non ha raggiunto il suo [[#^fe18e2|punto di commit]]
+2. non rilascia un lock finchè non ha finito di scrivere sulla base di dati.
+
+I protocolli di locking a due fasi stretti possono essere classificati in protocolli 
+- **Conservativi:** cercano di evitare le situazioni di stallo
+- **Aggressivi:** cercano di eseguire le transazioni nel modo più veloce possibile, anche causando situazioni di stallo (che vengono poi risolte con [[#^b46235|abort]]).
+
+>[!note] Protocolli Aggressivi
+>
+>In questa versione, una transazione deve richiedere un lock su un item subito prima di leggerlo o scriverlo, in questo modo sono possibili i deadlock.
+
+>[!note] Protocolli Conservativi
+>
+>In questa versione, una transazione deve richiedere all’inizio tutti gli item di cui può avere bisogno. 
+>
+>Lo scheduler permette alla transazione di procedere solo se tutti i lock che ha richiesto sono disponibili, altrimenti la mette in una coda di attesa.
+>
+>In questo modo non è possibile avere [[#Deadlock e livelock|deadlock]] ma è molto alto il rischio di ottenere [[#Deadlock e livelock|livelock]].
+>
+>Per evitare anche il verificarsi di livelock si può impedire ad una transazione `T` di procedere (anche se tutti i lock da essa richiesti sono disponibili) se c’è un’altra transazione che precede `T` nella coda che è in attesa di ottenere un lock richiesto da `T`.
+
 ## Definizioni Utili
 
->[!note] Abort di una Transazione
+>[!note]- Rollback
+>
+>Il roolback consiste in:
+>1. Abortire la transazione
+>2. Annullare i suoi effetti sulla base di dati, ripristinando quindi i valori dei dati precedenti all’inizio della transazione
+>3. Tutti i lock mantenuti dalla transazione vengono rilasciati
 
 ^7032b7
 
->[!note] Punto di Commit
+>[!note]- Abort di una Transazione
+>
+>Ci sono diversi casi in cui eseguiamo l’abort di una transazione:
+>
+>1. La transazione esegue un’operazione non corretta, ad esempio una divisione per 0
+>2. Lo scheduler rileva un deadlock
+>3. Lo scheduler fa abortire la transazione per garantire la serializzabilità (timestamp)
+>4. Si verifica un malfunzionamento hardware o software
 
->[!note] Dati Sporchi
+^b46235
 
->[!note] Rollback a Cascata
+>[!note]- Punto di Commit
+>
+>Il punto di commit di una transazione è il punto in cui la transazione:
+>
+>1. Ha ottenuto tutti i lock necessari
+>2. Ha effettuato tutti i calcoli
+>
+>Una volta raggiunto questo punto la transazione non può più essere abortita per i motivi 1 e 3 visti sopra.
+>
+>***Spiegazione:***
+>- la *condizione 1* garantisce che se una transazione è abortita allora non ha modificato nessun item nella base di dati
+>- la *condizione 2* garantisce che quando una transazione legge item scritto da un’altra transazione quest’ultima non può essere abortita (quindi nessuna transazione legge dati sporchi).
+
+^fe18e2
+
+>[!note]- Dati Sporchi
+>
+>Sono dei dati scritti da una transazione sulla base di dati prima che abbia raggiunto il suo punto di commit.
+>
+>I dati scritti da una transazione sulla base di dati prima che abbia raggiunto il punto di commit vengono detti dati sporchi. Il fatto che un dato sporco possa essere letto da qualche altra transazione può causare un effetto di roll-back a cascata.
+
+>[!note]- Roll-back a Cascata
+>
+>Quando una transazione `T` viene abortita abbiamo visto che devono essere annullati anche i suoi effetti prodotti sulla base di dati ma non solo di `T`, anche di tutte le transazioni che hanno letto i dati sporchi.
 
 ## Timestamp
 
+Il timestamp è un valore sequenziale e crescente che identifica una transazione. È assegnato alla transazione quando questa viene creata e può assumere diversi valori come ad esempio un contatore o anche l’ora di creazione.
 
+>[!note] Serializzabilità
+>
+>Uno schedule è serializzabile se è equivalente allo schedule seriale in cui le transazioni compaiono ordinate in base al loro timestamp.
+>
+>Quindi possiamo anche dire che uno shedule è serializzabile se per ciascun item acceduto da più transazioni, l’ordine in cui queste accedono è lo stesso ordine imposto dai timestamp.
 
 ## Problemi di Esecuzione
 
