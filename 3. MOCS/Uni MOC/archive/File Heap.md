@@ -6,7 +6,7 @@ related:
   - "[[Introduzione all'organizzazioni dei database]]"
 completed: true
 created: 2024-11-30T19:23
-updated: 2025-03-11T10:18
+updated: 2025-09-17T10:30
 ---
 >[!abstract] Related
 >- [[Introduzione all'organizzazioni dei database]]
@@ -45,7 +45,7 @@ Se vogliamo cercare un record specifico dobbiamo cercare in tutto il file, inizi
 - $R = \text{record x blocco} = \frac{rec}{B}$
 - $n = \text{numero totale di blocchi} = \frac{N}{R}$
 
->[!example] Esempio Pratico
+>[!example]- Esempio Pratico
 >- $N=151$ 
 >- Ogni record ha 30 byte
 >- Ogni blocco contiene 65 byte
@@ -88,8 +88,14 @@ Per ottenere il costo medio occorre sommare i costi per accedere ai singoli reco
 >
 >![[3. MOCS/Uni MOC/archive/attachments/Pasted image 20241204112034.png|700]]
 >
+>Siano:
+> - $N$ numero di record
+> - $R$ numero di record x blocco
+> - $B$ numero bucket
+> - $n$ numero di blocchi per bucket
+>
 >$$
->\text{Costi Medio} = \frac{\text{accessi}}{\text{num. blocchi}} =  \frac{R(1+2 + \dots+ n)}{N} = \frac{R}{N} \cdot  (1 + 2 + \dots + n) = \frac{1}{n} \cdot  \frac{n(n+1)}{2} \approx \frac{n}{2}
+>\text{Costi Medio} = \frac{\text{costo per accedere ogni recod del file}}{\text{num. record}} =  \frac{R(1+2 + \dots+ n)}{N} = \frac{R}{N} \cdot  (1 + 2 + \dots + n) = \frac{1}{n} \cdot  \frac{n(n+1)}{2} \approx \frac{n}{2}
 >$$
 >
 >>***Formule usate per le semplificazioni***

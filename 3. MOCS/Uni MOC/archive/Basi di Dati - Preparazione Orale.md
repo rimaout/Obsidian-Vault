@@ -6,7 +6,7 @@ academic year: 2024/2025
 related:
 completed: false
 created: 2025-02-18T16:16
-updated: 2025-09-16T19:58
+updated: 2025-09-17T21:21
 ---
 >[!question]- Cosa viene Chiesto
 >
@@ -606,7 +606,7 @@ updated: 2025-09-16T19:58
 > - se $B=A$ allora, poiché $F$ è una copertura minimale, $Y=X$ e quindi `Y` è superchiave.
 > - se $B \not = A$ allora $B \in X$ e quindi `B` è primo.
 
->[!note] Definizione 12 🟢
+>[!note]- Definizione 12 🟢
 >
 >Uno schema è in forma normale Boyce-Codd se per ogni dipendenza funzionale $X \to A \in F^{+}$ tale che $A \not \in X$ si ha che $X$ è una superchiave.
 >
@@ -620,35 +620,3 @@ updated: 2025-09-16T19:58
 >Invece esiste sempre:
 >- Tutti schemi in Boyce Codd
 >- Join Senza perdita. Ed esiste anche un algoritmo che genera tale decomposizione.
-
-
-## Domande orale
-
-- Quali sono le proprietà di una decomposizione
-	- ogni sottoschema ma in terza forma normale
-	- preserva f
-	- ha un join senza perdita
-Ciao a te cara e buona domenica anche se non è giornata di lavoro non è che mi 
-- cosa significa che un decomposizione ha un join senza perdita di controllo è un problema che si è creato con la mia famiglia e con i miei genitori e con i miei figli e la mamma di mia figlia che è 
-
-- Cosa significa che F equivale a G, che algoritmi utilizziamo
-- Come implementeresti un bucket : array con operazioni che se usate ci danno un resto(funzione hash)
-
-Cosa una transazione a due fasi non può fare:
-- una volta iniziati gli unlock lvkkòasjfòf
-
-Quali vantaggi ci da un protocollo a due fasi:
-- dòsfa
-
-Qual'è il probelma dell'aggregato non coretto:
-- adkfòljsljfhkljafh
-
-Cos'è grafo di sterilizzazione?
-
-Qual'è la differenza tra un schedule seriale e uno serializzabile?
-
-
-
-
-
-

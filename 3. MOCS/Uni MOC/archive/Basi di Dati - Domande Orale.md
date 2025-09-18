@@ -5,15 +5,9 @@ academic year: 2024/2025
 related:
 completed: false
 created: 2025-02-24T17:45
-updated: 2025-09-17T09:20
+updated: 2025-09-17T10:20
 ---
 [Link raccolta aglaia](https://aglaianorza.github.io/notesig/vault/basi-di-dati-1/domande-orale,-raccolte)
-
-## Domanda prese da me
-
-
-
----
 
 [[Domando Orale BD1 Mie]]
 [[Domande Orale BD1 Dado]]

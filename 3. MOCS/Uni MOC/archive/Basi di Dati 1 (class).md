@@ -3,7 +3,7 @@ Main Moc: "[[Uni MOC]]"
 related:
 completed:
 created: 2024-09-25T15:37
-updated: 2025-09-17T10:19
+updated: 2025-09-17T10:31
 ---
 >[!note] Modello Relazionale
 >- [[Introduzione alle Basi di Dati]] 🔴 
@@ -36,7 +36,7 @@ updated: 2025-09-17T10:19
 >- [[File Heap]] 🟢
 >- [[File Hash]] 🟢
 >- [[File con Indice]] 🟢
->- [[File BTree]] 🟡 rivedi ultima parte su altezza del albero
+>- [[File BTree]] 🟢
 
 >[!note] Concorrenza
 >- [[Controlo della Concorrenza]]

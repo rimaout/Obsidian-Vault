@@ -5,9 +5,7 @@ academic year: 2024/2025
 related:
 completed: false
 created: 2025-01-24T14:14
-updated: 2025-09-17T10:08
----
-
+updated: 2025-09-17T22:03
 ---
 ## Introduzione
 
@@ -323,6 +321,25 @@ Il timestamp è un valore sequenziale e crescente che identifica una transazione
 >Quindi possiamo anche dire che uno shedule è serializzabile se per ciascun item acceduto da più transazioni, l’ordine in cui queste accedono è lo stesso ordine imposto dai timestamp.
 
 ## Problemi di Esecuzione
+
+- Lost Update -> [[#Locking|Lock Binario]]
+- Aggregato non corretto -> [[#Protocollo di Locking a due Fasi]]
+- Dato Sporco -> [[#Protocollo a due fasi stretto]]
+
+Lost update:
+- Quando il write di un operazione non viene mai letto prima di essere sovrascritto
+- Risolto da locking binario, perché assicura che non può avvenire ...
+
+Aggregato non corretto: 
+- Quando una parte dei dati utilizzati non è corretta
+- ovvero i valori prodotti non sono nella stessa dalla stessa sequenza di operazioni di uno schedule seriale.
+- **Risolto da protocollo di locking a due fasi:** perché questo errore avviene in schedule non serializzabili ma, questo protocollo assicura che tutti gli shedule siano serializzabili
+  
+Dato Sporco:
+- Quando una transazione legge dati scritti da una transazione fallita.
+- Risolto da protocollo di loccking a due fasi stretto perche:
+	- Perchè assicura che i dati vengano scritti solo dopo il punto di commit
+	- e dopo il punto di commit la tranzazione non può più fallire.
 
 Vediamo a sinistra due transizioni `T1`, `T2` e a destra un loro possibile schedule.
 
