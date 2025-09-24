@@ -1,6 +1,6 @@
 ---
 created: 2023-09-26T10:14
-updated: 2025-03-23T15:52
+updated: 2025-09-24T08:15
 ---
 >**First year, first semester:**
 >- [[Matematica 0 (class)]]
@@ -25,3 +25,11 @@ updated: 2025-03-23T15:52
 >- [[Reti (class)]]
 >- [[Algoritmi 2 (class)]]
 >- [[Sistemi Operativi 2 (class)]]  
+
+>**Third year, first semester:**
+>- [[WASA (class)]]
+>- [[Programmazione Multicore (class)]]
+>- [[Automi (class)]]
+
+>**Third year, second semester:**
+

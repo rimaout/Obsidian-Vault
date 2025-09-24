@@ -4,7 +4,7 @@ related:
 completed: true
 Main Moc: "[[Tech MOC]]"
 created: 2024-03-19
-updated: 2025-04-13T15:07
+updated: 2025-09-23T19:32
 ---
 This website is built using [Quartz](https://quartz.jzhao.xyz/), a tool that transforms your Markdown notes into a static website. On this page, I've outlined every step I took to make the site look and behave as you see it.
 
@@ -95,7 +95,7 @@ Most of the setup follows the official [Quartz documentation](https://quartz.jzh
 
 >[!note] Add Grid Layout for Callouts
 >
->Here is [[Quartz Callouts Grid Layout|how to make it]].
+>Here is how to make it: [[Quartz Callouts Grid Layout]].
 >
 >![[callouts_grid_layout.webp|900]]
 
