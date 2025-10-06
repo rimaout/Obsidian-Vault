@@ -1,6 +1,6 @@
 ---
 created: 2023-09-26T10:14
-updated: 2025-09-24T08:15
+updated: 2025-10-04T11:03
 ---
 >**First year, first semester:**
 >- [[Matematica 0 (class)]]
@@ -30,6 +30,15 @@ updated: 2025-09-24T08:15
 >- [[WASA (class)]]
 >- [[Programmazione Multicore (class)]]
 >- [[Automi (class)]]
+>- [[Ingegneria del Software (class)]]
+>- [[LDP (class)]]
 
 >**Third year, second semester:**
 
+>**Tesis Options:**
+>- [Emiliano Casalicchio](https://sites.google.com/uniroma1.it/emilianocasalicchio-eng/internship-thesis-tirocinio)
+>- [Angelo Spognardi](https://netsecuritylab.github.io/thesis)
+>- Mattia Samory
+>- Daniele De Sensi
+>- Marco Esposito??
+>

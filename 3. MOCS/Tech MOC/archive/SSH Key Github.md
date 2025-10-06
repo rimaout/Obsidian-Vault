@@ -1,8 +1,8 @@
 ---
 created: 2023-11-19
-related: 
+related:
 completed: true
-updated: 2025-04-17T16:00
+updated: 2025-10-04T10:29
 ---
 ---
 
@@ -31,7 +31,6 @@ directory:
 
 ``` bash 
 cd ~/.ssh
-
 ```
 
 If this directory does not exist, first create it (`mkdir`), then move

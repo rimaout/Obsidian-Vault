@@ -4,9 +4,9 @@ class: "[[Basi di Dati 1 (class)]]"
 academic year: 2024/2025
 related:
   - "[[Calcolo di una Decomposizione]]"
-completed: false
+completed: true
 created: 2024-11-25T09:40
-updated: 2025-03-11T10:18
+updated: 2025-09-26T17:13
 ---
 >[!abstract] Related
 >- [[Calcolo di una Decomposizione]]

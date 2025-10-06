@@ -2,9 +2,9 @@
 created: 2024-03-09
 related:
   - "[[Git]]"
-completed: 
-type: 
-updated: 2024-05-27T13:29
+completed: true
+type:
+updated: 2025-10-04T10:29
 ---
 ---
 how to use a git hub repository as a other git hub repository directory

@@ -1,11 +1,9 @@
 ---
 type: "[[Uni MOC]]"
 academic year: 2024/2025
-related:
-  - "[[Uni MOC]]"
 completed: true
 created: 2025-02-27T16:31
-updated: 2025-07-03T09:53
+updated: 2025-09-29T10:52
 ---
 >[!note] Introduzione
 >- [[Ripasso Iniziale di Algo 1]]

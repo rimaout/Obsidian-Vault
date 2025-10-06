@@ -4,9 +4,9 @@ class:
   - "[[Basi di Dati 1 (class)]]"
 academic year: 2024/2025
 related:
-completed: false
+completed: true
 created: 2024-11-13T14:33
-updated: 2025-09-04T16:45
+updated: 2025-09-26T16:57
 ---
 ---
 ## Introduzione
@@ -68,7 +68,7 @@ La terza forma normale è importante perché aiuta a ridurre la ridondanza dei d
 
 >[!note] Definizione Alternativa
 >
->Siano R uno schema di relazione e F un insieme di dipendenze funzionali su R. Uno schema R è in 3NF **se e solo se** non esistono né [[#Dipendenze Parziali e Transitive|dipendenze parziali né transitive]] in R.
+>Siano R uno schema di relazione e F un insieme di dipendenze funzionali su R. Uno schema R è in 3NF **se e solo se** non esistono né [[#Dipendenze Parziali e Transitive|dipendenze parziali né transitive]] in `R`.
 >
 >>[!warning]- Dimostrazione di equivalenza con definizione originale
 >>![[Pasted image 20241115162920.png|650]]

@@ -4,9 +4,9 @@ class:
   - "[[Basi di Dati 1 (class)]]"
 academic year: 2024/2025
 related:
-completed: false
+completed: true
 created: 2025-02-18T16:16
-updated: 2025-09-17T21:21
+updated: 2025-09-26T17:11
 ---
 >[!question]- Cosa viene Chiesto
 >
@@ -264,9 +264,11 @@ updated: 2025-09-17T21:21
 >
 >**Dimostrazione:** $F^{+} \subseteq F^{A}$
 >
->La dimostrazione è divisa in due parti.
+>Il nostro obbiettivo è dimostrare che ogni dipendenza funzionale $X\to Y\in F^{+} \implies X \to Y \in F^{A}$ 
 >
->>La **prima parte** consiste nel dimostrare che esiste un'istanza legale di $R$ di questo tipo:
+>Questa dimostrazione è divisa in due sezioni:
+>
+>>La **prima parte** consiste nel dimostrare che esiste presa $X \to A \in F^{+}$ esiste un'istanza legale di $R$ di questo tipo:
 >>
 >>![[Pasted image 20250304115012.png|600]]
 >>
@@ -280,7 +282,7 @@ updated: 2025-09-17T21:21
 >
 >>La **seconda parte** consiste nel dimostrare che se $X \to Y \in F^{+} \implies X \to Y \in F^{A}$.
 >>
->>Supponiamo che $X \to Y \in F^{+}$
+>>Sappiamo che $X \to Y \in F^{+}$
 >>
 >>Abbiamo mostrato che `r` è un'istanza legale che quindi soddisfa tutte le dipendenze di $F^{+}$, compresa $X \to Y$.
 >>
@@ -303,7 +305,7 @@ updated: 2025-09-17T21:21
 >
 >![[Pasted image 20250905180609.png|600]]
 
->[!note]- Teo 4: Dimostrazione Algo 1 🟠
+>[!note]- Teo 4: Dimostrazione Algo 1 🟢
 >
 >L'algoritmo 1 calcola correttamente la chiusura di un insieme di attributi $X$ rispetto ad un insieme di dipendenze funzionali $F$.
 >
@@ -356,7 +358,7 @@ updated: 2025-09-17T21:21
 >- Poiché $A \in X^{+}$, si ha $X \to A \in F^{+}$ (per lemma1 + $F^{+} = F^{A}$)
 >- Pertanto $X \to A$ deve essere soddisfatta da ogni istanza legale di `R`.
 >
->Si consideri la seguente istanza `r` di `R`:
+>Si consideri la seguente istanza `r` di `R`, creata basandoci su $X \to A$:
 >
 >![[Pasted image 20250905175806.png|700]]
 >
@@ -414,7 +416,7 @@ updated: 2025-09-17T21:21
 
 ^c94635
 
->[!note]- Teorema 5 (dim algo 3) 🔴
+>[!note]- Teorema 5 (dim algo 3) 🟢
 >
 >Sia `R` uno schema relazionale, `F` un insiemi di dipendenze funzionali su `R` e $\rho = \{ R_{1},\, R_{2}, \, \dots, R_{k} \}$ una decomposizione di `R` e `X` un sotto insieme di `R`.
 >
@@ -564,7 +566,7 @@ updated: 2025-09-17T21:21
 
 ^9a41f1
 
->[!note] Teorema 8
+>[!note] Teorema 8 🟢
 >
 >Sia `R` uno schema di relazione ed `F` un insieme di dipendenze funzionali su `R`, che è una copertura minimale. 
 >

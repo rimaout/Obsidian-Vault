@@ -1,413 +1,5 @@
 {
   "workspaces": {
-    "Basi Dati": {
-      "main": {
-        "id": "c0e3ba1eaba3cf97",
-        "type": "split",
-        "children": [
-          {
-            "id": "1d3df57368887a29",
-            "type": "tabs",
-            "dimension": 46.36904761904762,
-            "children": [
-              {
-                "id": "9b5ee948960d4911",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/archive/Basi di Dati 1 (class).md",
-                    "mode": "preview",
-                    "source": false
-                  },
-                  "pinned": true,
-                  "icon": "lucide-file",
-                  "title": "Basi di Dati 1 (class)"
-                }
-              },
-              {
-                "id": "7e9141572a62574e",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/archive/Basi di Dati 2 (class).md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "pinned": true,
-                  "icon": "lucide-file",
-                  "title": "Basi di Dati 2 (class)"
-                }
-              },
-              {
-                "id": "075ea76c75d5f622",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Programming MOC/Programming MOC.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Programming MOC"
-                }
-              },
-              {
-                "id": "9a9fb637a9dbdda1",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Storage/Backend/Product usage analysis/Product usage analysis.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Product usage analysis"
-                }
-              },
-              {
-                "id": "8106a43be3978e10",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/archive/PostgreSQL.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "PostgreSQL"
-                }
-              },
-              {
-                "id": "81acd7dc2b1433cf",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/archive/PostgreSQL Constrains.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "PostgreSQL Constrains"
-                }
-              },
-              {
-                "id": "ecb96ad85f6e5be0",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/archive/PostgreSQL Tables.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "PostgreSQL Tables"
-                }
-              },
-              {
-                "id": "1886015e86fb7e7c",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/archive/PSQL (PostgreSQL Terminal Interface).md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "PSQL (PostgreSQL Terminal Interface)"
-                }
-              }
-            ],
-            "currentTab": 3
-          },
-          {
-            "id": "737c332d84e9c8df",
-            "type": "tabs",
-            "dimension": 53.63095238095238,
-            "children": [
-              {
-                "id": "92422cd689f13eda",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/archive/API Call in Swift.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "API Call in Swift"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical"
-      },
-      "left": {
-        "id": "ea17b4a25a7f38c6",
-        "type": "split",
-        "children": [
-          {
-            "id": "ed1111de2574fd88",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "ba7d0379bd9741ad",
-                "type": "leaf",
-                "state": {
-                  "type": "file-explorer",
-                  "state": {
-                    "sortOrder": "alphabetical",
-                    "autoReveal": false
-                  },
-                  "icon": "lucide-folder-closed",
-                  "title": "Files"
-                }
-              },
-              {
-                "id": "d4aca3edb3bdc908",
-                "type": "leaf",
-                "state": {
-                  "type": "search",
-                  "state": {
-                    "query": "tag:monthly-log",
-                    "matchingCase": false,
-                    "explainSearch": false,
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical"
-                  },
-                  "icon": "lucide-search",
-                  "title": "Search"
-                }
-              },
-              {
-                "id": "7f34f9e8b8261cab",
-                "type": "leaf",
-                "state": {
-                  "type": "starred",
-                  "state": {},
-                  "icon": "lucide-ghost",
-                  "title": "starred"
-                }
-              },
-              {
-                "id": "8720924e16a6a7ab",
-                "type": "leaf",
-                "state": {
-                  "type": "bookmarks",
-                  "state": {},
-                  "icon": "lucide-bookmark",
-                  "title": "Bookmarks"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 494.5062494277954
-      },
-      "right": {
-        "id": "1599d9a7234429ed",
-        "type": "split",
-        "children": [
-          {
-            "id": "b33702b1304e824a",
-            "type": "tabs",
-            "dimension": 42.06642066420663,
-            "children": [
-              {
-                "id": "73d6fce2365a09ef",
-                "type": "leaf",
-                "state": {
-                  "type": "tag",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "useHierarchy": true
-                  },
-                  "icon": "lucide-tags",
-                  "title": "Tags"
-                }
-              },
-              {
-                "id": "734f0b87ccb39174",
-                "type": "leaf",
-                "state": {
-                  "type": "backlink",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/archive/PostgreSQL Constrains.md",
-                    "collapseAll": false,
-                    "extraContext": false,
-                    "sortOrder": "alphabetical",
-                    "showSearch": false,
-                    "searchQuery": "",
-                    "backlinkCollapsed": false,
-                    "unlinkedCollapsed": false
-                  },
-                  "icon": "links-coming-in",
-                  "title": "Backlinks for PostgreSQL Constrains"
-                }
-              },
-              {
-                "id": "1899c835ee03ed03",
-                "type": "leaf",
-                "state": {
-                  "type": "outgoing-link",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/archive/PostgreSQL Constrains.md",
-                    "linksCollapsed": false,
-                    "unlinkedCollapsed": true
-                  },
-                  "icon": "links-going-out",
-                  "title": "Outgoing links from PostgreSQL Constrains"
-                }
-              },
-              {
-                "id": "c9dd3a742136f31e",
-                "type": "leaf",
-                "state": {
-                  "type": "all-properties",
-                  "state": {
-                    "sortOrder": "frequency",
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-archive",
-                  "title": "All properties"
-                }
-              },
-              {
-                "id": "b5486e50ab568cef",
-                "type": "leaf",
-                "state": {
-                  "type": "outline",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/archive/PostgreSQL Constrains.md",
-                    "followCursor": false,
-                    "showSearch": false,
-                    "searchQuery": ""
-                  },
-                  "icon": "lucide-list",
-                  "title": "Outline of PostgreSQL Constrains"
-                }
-              },
-              {
-                "id": "3afbe563c8035f19",
-                "type": "leaf",
-                "state": {
-                  "type": "footnotes",
-                  "state": {
-                    "file": "Storage/Backend/Product usage analysis/Product usage analysis.md"
-                  },
-                  "icon": "lucide-file-signature",
-                  "title": "Footnotes"
-                }
-              }
-            ],
-            "currentTab": 1
-          },
-          {
-            "id": "0ee4f1dd2040ea54",
-            "type": "tabs",
-            "dimension": 57.93357933579337,
-            "children": [
-              {
-                "id": "6217f74dd2639932",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "localgraph",
-                  "state": {
-                    "file": "To-Do/To-Do.md",
-                    "options": {
-                      "collapse-filter": true,
-                      "search": "",
-                      "localJumps": 1,
-                      "localBacklinks": true,
-                      "localForelinks": true,
-                      "localInterlinks": false,
-                      "showTags": false,
-                      "showAttachments": false,
-                      "hideUnresolved": false,
-                      "collapse-color-groups": true,
-                      "colorGroups": [],
-                      "collapse-display": true,
-                      "showArrow": false,
-                      "textFadeMultiplier": 0,
-                      "nodeSizeMultiplier": 1,
-                      "lineSizeMultiplier": 1,
-                      "collapse-forces": true,
-                      "centerStrength": 0.518713248970312,
-                      "repelStrength": 10,
-                      "linkStrength": 1,
-                      "linkDistance": 250,
-                      "scale": 1.4547352939090106,
-                      "close": true
-                    }
-                  },
-                  "pinned": true,
-                  "icon": "lucide-git-fork",
-                  "title": "Graph of To-Do"
-                }
-              },
-              {
-                "id": "8bb5fd167d10c3d5",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "kanban",
-                  "state": {
-                    "file": "To-Do/To-Do.md",
-                    "kanbanViewState": {
-                      "kanban-plugin": "board",
-                      "list-collapse": [
-                        false,
-                        false
-                      ]
-                    }
-                  },
-                  "pinned": true,
-                  "icon": "lucide-trello",
-                  "title": "To-Do"
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal",
-        "width": 655.5,
-        "collapsed": true
-      },
-      "left-ribbon": {
-        "hiddenItems": {
-          "bases:Create new base": false,
-          "obisidian-note-linker:Note Linker": false,
-          "obsidian-git:Open Git source control": false,
-          "omnisearch:Omnisearch": false,
-          "switcher:Open quick switcher": false,
-          "graph:Open graph view": false,
-          "canvas:Create new canvas": false,
-          "templates:Insert template": false,
-          "command-palette:Open command palette": false,
-          "audio-recorder:Start/stop recording": false,
-          "workspaces:Manage workspace layouts": false,
-          "markdown-importer:Open format converter": false,
-          "obsidian-kanban:Create new board": false
-        }
-      },
-      "active": "ba7d0379bd9741ad",
-      "mtime": "2025-08-20T11:24:12+02:00"
-    },
     "Sistemi Operativi": {
       "main": {
         "id": "c0e3ba1eaba3cf97",
@@ -449,7 +41,8 @@
                   "title": "Sistemi Operativi 2 (class)"
                 }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -498,8 +91,8 @@
                 "state": {
                   "type": "starred",
                   "state": {},
-                  "icon": "lucide-file",
-                  "title": "Plugin no longer active"
+                  "icon": "lucide-ghost",
+                  "title": "starred"
                 }
               },
               {
@@ -618,8 +211,8 @@
                     "mode": "source",
                     "source": false
                   },
-                  "icon": "lucide-file",
-                  "title": "To-Do"
+                  "icon": "lucide-ghost",
+                  "title": "kanban"
                 }
               },
               {
@@ -669,7 +262,7 @@
       },
       "left-ribbon": {
         "hiddenItems": {
-          "obsidian-kanban:Create new board": false,
+          "bases:Create new base": false,
           "switcher:Open quick switcher": false,
           "graph:Open graph view": false,
           "canvas:Create new canvas": false,
@@ -683,78 +276,50 @@
           "obisidian-note-linker:Note Linker": false
         }
       },
-      "active": "01abab4389c228fc",
-      "mtime": "2025-06-18T22:11:47+02:00"
+      "active": "a8b661dc45f582e8",
+      "mtime": "2025-09-29T10:49:39+02:00"
     },
-    "Algo": {
+    "WASA": {
       "main": {
         "id": "c0e3ba1eaba3cf97",
         "type": "split",
         "children": [
           {
-            "id": "652e3f4f523715eb",
+            "id": "6cd9850831fd6a14",
             "type": "tabs",
             "children": [
               {
-                "id": "9fdc480e7e6edb27",
+                "id": "dfe4611595b4b85d",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/archive/Algoritmi 2 (class).md",
+                    "file": "3. MOCS/Uni MOC/archive/WASA (class).md",
                     "mode": "source",
                     "source": false
                   },
                   "pinned": true,
                   "icon": "lucide-file",
-                  "title": "Algoritmi 2 (class)"
+                  "title": "WASA (class)"
                 }
               },
               {
-                "id": "b34aac5c0c6fd66f",
+                "id": "cb8ef39183a205db",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/archive/Tecnica Backtracking.md",
-                    "mode": "preview",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Tecnica Backtracking"
-                }
-              },
-              {
-                "id": "b3b54a33e0a70c25",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/archive/Combinazioni (Coefficiente Binomiale).md",
+                    "file": "3. MOCS/Uni MOC/archive/Introduzione a git.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "Combinazioni (Coefficiente Binomiale)"
-                }
-              },
-              {
-                "id": "946b261d6f16cb54",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/archive/Differenza tra Varianza, Dispersione, Deviazione Standard, Coefficiente di variazione.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Differenza tra Varianza, Dispersione, Deviazione Standard, Coefficiente di variazione"
+                  "title": "Introduzione a git"
                 }
               }
             ],
-            "currentTab": 2
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -788,7 +353,7 @@
                   "state": {
                     "query": "tag:monthly-log",
                     "matchingCase": true,
-                    "explainSearch": true,
+                    "explainSearch": false,
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "alphabetical"
@@ -803,8 +368,8 @@
                 "state": {
                   "type": "starred",
                   "state": {},
-                  "icon": "lucide-file",
-                  "title": "Plugin no longer active"
+                  "icon": "lucide-ghost",
+                  "title": "starred"
                 }
               },
               {
@@ -817,12 +382,11 @@
                   "title": "Bookmarks"
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "horizontal",
-        "width": 392.504789352417,
+        "width": 531.504789352417,
         "collapsed": true
       },
       "right": {
@@ -853,7 +417,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/archive/Algoritmi 2 (class).md",
+                    "file": "Storage/Backend/Monthly Logs/attachments/strandbeest_IMG.webp",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -863,7 +427,7 @@
                     "unlinkedCollapsed": false
                   },
                   "icon": "links-coming-in",
-                  "title": "Backlinks for Algoritmi 2 (class)"
+                  "title": "Backlinks for strandbeest_IMG"
                 }
               },
               {
@@ -872,12 +436,12 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "Storage/attachments/Pasted image 20241204080621.png",
+                    "file": "Storage/Backend/Monthly Logs/attachments/strandbeest_IMG.webp",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   },
                   "icon": "links-going-out",
-                  "title": "Outgoing links from Calcolo delle Probabilità (class)"
+                  "title": "Outgoing links from strandbeest_IMG"
                 }
               },
               {
@@ -900,27 +464,14 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/archive/Algoritmi 2 (class).md",
-                    "followCursor": false,
-                    "showSearch": false,
-                    "searchQuery": ""
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Sistemi Operativi 1 (class).md"
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of Algoritmi 2 (class)"
-                }
-              },
-              {
-                "id": "2be710a38fb52417",
-                "type": "leaf",
-                "state": {
-                  "type": "git-view",
-                  "state": {},
-                  "icon": "git-pull-request",
-                  "title": "Source Control"
+                  "title": "Outline of Sistemi Operativi 1 (class)"
                 }
               }
             ],
-            "currentTab": 4
+            "currentTab": 1
           },
           {
             "id": "0ee4f1dd2040ea54",
@@ -928,13 +479,26 @@
             "dimension": 64.80263157894737,
             "children": [
               {
+                "id": "08bb0d9d4b18b672",
+                "type": "leaf",
+                "state": {
+                  "type": "kanban",
+                  "state": {
+                    "file": "To-Do/To-Do.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-ghost",
+                  "title": "kanban"
+                }
+              },
+              {
                 "id": "6217f74dd2639932",
                 "type": "leaf",
-                "pinned": true,
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/archive/UNION-FIND Data Structure.md",
+                    "file": "Storage/Backend/Monthly Logs/attachments/strandbeest_IMG.webp",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -957,34 +521,12 @@
                       "repelStrength": 10,
                       "linkStrength": 1,
                       "linkDistance": 250,
-                      "scale": 0.9879921026303743,
+                      "scale": 1,
                       "close": true
                     }
                   },
-                  "pinned": true,
                   "icon": "lucide-git-fork",
-                  "title": "Graph of UNION-FIND Data Structure"
-                }
-              },
-              {
-                "id": "b4eca7dc7ac39fd0",
-                "type": "leaf",
-                "pinned": true,
-                "state": {
-                  "type": "kanban",
-                  "state": {
-                    "file": "To-Do/To-Do.md",
-                    "kanbanViewState": {
-                      "kanban-plugin": "board",
-                      "list-collapse": [
-                        false,
-                        false
-                      ]
-                    }
-                  },
-                  "pinned": true,
-                  "icon": "lucide-trello",
-                  "title": "To-Do"
+                  "title": "Graph of strandbeest_IMG"
                 }
               }
             ],
@@ -992,15 +534,12 @@
           }
         ],
         "direction": "horizontal",
-        "width": 385.5,
+        "width": 350.5,
         "collapsed": true
       },
       "left-ribbon": {
         "hiddenItems": {
-          "obsidian-kanban:Create new board": false,
-          "obisidian-note-linker:Note Linker": false,
-          "obsidian-git:Open Git source control": false,
-          "omnisearch:Omnisearch": false,
+          "bases:Create new base": false,
           "switcher:Open quick switcher": false,
           "graph:Open graph view": false,
           "canvas:Create new canvas": false,
@@ -1008,71 +547,648 @@
           "command-palette:Open command palette": false,
           "audio-recorder:Start/stop recording": false,
           "workspaces:Manage workspace layouts": false,
-          "markdown-importer:Open format converter": false
+          "markdown-importer:Open format converter": false,
+          "obsidian-git:Open Git source control": false,
+          "omnisearch:Omnisearch": false,
+          "obisidian-note-linker:Note Linker": false
         }
       },
-      "active": "b3b54a33e0a70c25",
-      "mtime": "2025-07-10T16:04:32+02:00"
+      "active": "cb8ef39183a205db",
+      "mtime": "2025-09-30T17:37:32+02:00"
     },
-    "Reti": {
+    "Multicore": {
       "main": {
         "id": "c0e3ba1eaba3cf97",
         "type": "split",
         "children": [
           {
-            "id": "43ec580a3e8405bd",
+            "id": "6cd9850831fd6a14",
             "type": "tabs",
-            "dimension": 44.53458582408198,
             "children": [
               {
-                "id": "a819f759e79ad818",
+                "id": "c7883166ddb2a372",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/archive/Programmazione Multicore (class).md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Programmazione Multicore (class)"
+                }
+              },
+              {
+                "id": "df4d23778da1722b",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Programming MOC/archive/C MOC.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "C MOC"
+                }
+              },
+              {
+                "id": "86ab2ab2944516a2",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Programming MOC/archive/C Structures.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "C Structures"
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "ea17b4a25a7f38c6",
+        "type": "split",
+        "children": [
+          {
+            "id": "ed1111de2574fd88",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "ba7d0379bd9741ad",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
+              },
+              {
+                "id": "d4aca3edb3bdc908",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "tag:monthly-log",
+                    "matchingCase": true,
+                    "explainSearch": false,
+                    "collapseAll": true,
+                    "extraContext": true,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              },
+              {
+                "id": "7f34f9e8b8261cab",
+                "type": "leaf",
+                "state": {
+                  "type": "starred",
+                  "state": {},
+                  "icon": "lucide-ghost",
+                  "title": "starred"
+                }
+              },
+              {
+                "id": "8720924e16a6a7ab",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 531.504789352417,
+        "collapsed": true
+      },
+      "right": {
+        "id": "1599d9a7234429ed",
+        "type": "split",
+        "children": [
+          {
+            "id": "b33702b1304e824a",
+            "type": "tabs",
+            "dimension": 35.19736842105263,
+            "children": [
+              {
+                "id": "73d6fce2365a09ef",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              },
+              {
+                "id": "734f0b87ccb39174",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "Storage/Backend/Monthly Logs/attachments/strandbeest_IMG.webp",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": false
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks for strandbeest_IMG"
+                }
+              },
+              {
+                "id": "1899c835ee03ed03",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "Storage/Backend/Monthly Logs/attachments/strandbeest_IMG.webp",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links from strandbeest_IMG"
+                }
+              },
+              {
+                "id": "c9dd3a742136f31e",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "All properties"
+                }
+              },
+              {
+                "id": "b5486e50ab568cef",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Sistemi Operativi 1 (class).md"
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of Sistemi Operativi 1 (class)"
+                }
+              }
+            ],
+            "currentTab": 1
+          },
+          {
+            "id": "0ee4f1dd2040ea54",
+            "type": "tabs",
+            "dimension": 64.80263157894737,
+            "children": [
+              {
+                "id": "08bb0d9d4b18b672",
+                "type": "leaf",
+                "state": {
+                  "type": "kanban",
+                  "state": {
+                    "file": "To-Do/To-Do.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-ghost",
+                  "title": "kanban"
+                }
+              },
+              {
+                "id": "6217f74dd2639932",
+                "type": "leaf",
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "file": "Storage/Backend/Monthly Logs/attachments/strandbeest_IMG.webp",
+                    "options": {
+                      "collapse-filter": true,
+                      "search": "",
+                      "localJumps": 1,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": false,
+                      "showTags": false,
+                      "showAttachments": false,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": true,
+                      "colorGroups": [],
+                      "collapse-display": true,
+                      "showArrow": false,
+                      "textFadeMultiplier": 0,
+                      "nodeSizeMultiplier": 1,
+                      "lineSizeMultiplier": 1,
+                      "collapse-forces": true,
+                      "centerStrength": 0.518713248970312,
+                      "repelStrength": 10,
+                      "linkStrength": 1,
+                      "linkDistance": 250,
+                      "scale": 1,
+                      "close": true
+                    }
+                  },
+                  "icon": "lucide-git-fork",
+                  "title": "Graph of strandbeest_IMG"
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "horizontal",
+        "width": 350.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "bases:Create new base": false,
+          "switcher:Open quick switcher": false,
+          "graph:Open graph view": false,
+          "canvas:Create new canvas": false,
+          "templates:Insert template": false,
+          "command-palette:Open command palette": false,
+          "audio-recorder:Start/stop recording": false,
+          "workspaces:Manage workspace layouts": false,
+          "markdown-importer:Open format converter": false,
+          "obsidian-git:Open Git source control": false,
+          "omnisearch:Omnisearch": false,
+          "obisidian-note-linker:Note Linker": false
+        }
+      },
+      "active": "df4d23778da1722b",
+      "mtime": "2025-10-01T17:39:06+02:00"
+    },
+    "Automi": {
+      "main": {
+        "id": "c0e3ba1eaba3cf97",
+        "type": "split",
+        "children": [
+          {
+            "id": "6cd9850831fd6a14",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "c7473876eceabd34",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/archive/Basi di Dati 2 (class).md",
+                    "file": "3. MOCS/Uni MOC/archive/Automi (class).md",
                     "mode": "source",
                     "source": false
                   },
                   "pinned": true,
                   "icon": "lucide-file",
-                  "title": "Basi di Dati 2 (class)"
+                  "title": "Automi (class)"
                 }
               },
               {
-                "id": "1ba06b5f470de39b",
+                "id": "165c0e8d064f4cd5",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/archive/Introduzione alla First Order Logic (FOL).md",
+                    "file": "3. MOCS/Uni MOC/archive/Espressioni Regolari.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "Introduzione alla First Order Logic (FOL)"
+                  "title": "Espressioni Regolari"
+                }
+              },
+              {
+                "id": "75ca6963b0c401d6",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/archive/Linguaggi Regolari e Chiusure.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Linguaggi Regolari e Chiusure"
+                }
+              },
+              {
+                "id": "a3e86c58d734be00",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/archive/Automi Non Deterministici (NFA).md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Automi Non Deterministici (NFA)"
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "ea17b4a25a7f38c6",
+        "type": "split",
+        "children": [
+          {
+            "id": "ed1111de2574fd88",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "ba7d0379bd9741ad",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
+              },
+              {
+                "id": "d4aca3edb3bdc908",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "tag:monthly-log",
+                    "matchingCase": true,
+                    "explainSearch": false,
+                    "collapseAll": true,
+                    "extraContext": true,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              },
+              {
+                "id": "7f34f9e8b8261cab",
+                "type": "leaf",
+                "state": {
+                  "type": "starred",
+                  "state": {},
+                  "icon": "lucide-ghost",
+                  "title": "starred"
+                }
+              },
+              {
+                "id": "8720924e16a6a7ab",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
                 }
               }
             ]
-          },
+          }
+        ],
+        "direction": "horizontal",
+        "width": 531.504789352417,
+        "collapsed": true
+      },
+      "right": {
+        "id": "1599d9a7234429ed",
+        "type": "split",
+        "children": [
           {
-            "id": "21e620c9a35ca66a",
+            "id": "b33702b1304e824a",
             "type": "tabs",
-            "dimension": 55.46541417591801,
+            "dimension": 35.19736842105263,
             "children": [
               {
-                "id": "8816d220f9702993",
+                "id": "73d6fce2365a09ef",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
+                  "type": "tag",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/archive/Traduzione UML ristrutturato in tabelle relazionali.md",
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              },
+              {
+                "id": "734f0b87ccb39174",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "Storage/Backend/Monthly Logs/attachments/strandbeest_IMG.webp",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": false
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks for strandbeest_IMG"
+                }
+              },
+              {
+                "id": "1899c835ee03ed03",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "Storage/Backend/Monthly Logs/attachments/strandbeest_IMG.webp",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links from strandbeest_IMG"
+                }
+              },
+              {
+                "id": "c9dd3a742136f31e",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "All properties"
+                }
+              },
+              {
+                "id": "b5486e50ab568cef",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Sistemi Operativi 1 (class).md"
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of Sistemi Operativi 1 (class)"
+                }
+              }
+            ],
+            "currentTab": 1
+          },
+          {
+            "id": "0ee4f1dd2040ea54",
+            "type": "tabs",
+            "dimension": 64.80263157894737,
+            "children": [
+              {
+                "id": "08bb0d9d4b18b672",
+                "type": "leaf",
+                "state": {
+                  "type": "kanban",
+                  "state": {
+                    "file": "To-Do/To-Do.md",
                     "mode": "source",
                     "source": false
                   },
+                  "icon": "lucide-ghost",
+                  "title": "kanban"
+                }
+              },
+              {
+                "id": "6217f74dd2639932",
+                "type": "leaf",
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "file": "Storage/Backend/Monthly Logs/attachments/strandbeest_IMG.webp",
+                    "options": {
+                      "collapse-filter": true,
+                      "search": "",
+                      "localJumps": 1,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": false,
+                      "showTags": false,
+                      "showAttachments": false,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": true,
+                      "colorGroups": [],
+                      "collapse-display": true,
+                      "showArrow": false,
+                      "textFadeMultiplier": 0,
+                      "nodeSizeMultiplier": 1,
+                      "lineSizeMultiplier": 1,
+                      "collapse-forces": true,
+                      "centerStrength": 0.518713248970312,
+                      "repelStrength": 10,
+                      "linkStrength": 1,
+                      "linkDistance": 250,
+                      "scale": 1,
+                      "close": true
+                    }
+                  },
+                  "icon": "lucide-git-fork",
+                  "title": "Graph of strandbeest_IMG"
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "horizontal",
+        "width": 350.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "bases:Create new base": false,
+          "switcher:Open quick switcher": false,
+          "graph:Open graph view": false,
+          "canvas:Create new canvas": false,
+          "templates:Insert template": false,
+          "command-palette:Open command palette": false,
+          "audio-recorder:Start/stop recording": false,
+          "workspaces:Manage workspace layouts": false,
+          "markdown-importer:Open format converter": false,
+          "obsidian-git:Open Git source control": false,
+          "omnisearch:Omnisearch": false,
+          "obisidian-note-linker:Note Linker": false
+        }
+      },
+      "active": "165c0e8d064f4cd5",
+      "mtime": "2025-10-03T17:44:15+02:00"
+    },
+    "IngSoftware": {
+      "main": {
+        "id": "c0e3ba1eaba3cf97",
+        "type": "split",
+        "children": [
+          {
+            "id": "6cd9850831fd6a14",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "01abab4389c228fc",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/archive/Sistemi Operativi 1 (class).md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "pinned": true,
                   "icon": "lucide-file",
-                  "title": "Traduzione UML ristrutturato in tabelle relazionali"
+                  "title": "Sistemi Operativi 1 (class)"
+                }
+              },
+              {
+                "id": "a8b661dc45f582e8",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/archive/Sistemi Operativi 2 (class).md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "Sistemi Operativi 2 (class)"
                 }
               }
             ]
@@ -1109,7 +1225,7 @@
                   "state": {
                     "query": "tag:monthly-log",
                     "matchingCase": true,
-                    "explainSearch": true,
+                    "explainSearch": false,
                     "collapseAll": true,
                     "extraContext": true,
                     "sortOrder": "alphabetical"
@@ -1124,8 +1240,8 @@
                 "state": {
                   "type": "starred",
                   "state": {},
-                  "icon": "lucide-file",
-                  "title": "Plugin no longer active"
+                  "icon": "lucide-ghost",
+                  "title": "starred"
                 }
               },
               {
@@ -1142,7 +1258,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 500.5062494277954,
+        "width": 531.504789352417,
         "collapsed": true
       },
       "right": {
@@ -1161,9 +1277,7 @@
                   "type": "tag",
                   "state": {
                     "sortOrder": "frequency",
-                    "useHierarchy": true,
-                    "showSearch": false,
-                    "searchQuery": ""
+                    "useHierarchy": true
                   },
                   "icon": "lucide-tags",
                   "title": "Tags"
@@ -1175,7 +1289,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/archive/Tipi di dato (UML).md",
+                    "file": "Storage/Backend/Monthly Logs/attachments/strandbeest_IMG.webp",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1185,7 +1299,7 @@
                     "unlinkedCollapsed": false
                   },
                   "icon": "links-coming-in",
-                  "title": "Backlinks for Tipi di dato (UML)"
+                  "title": "Backlinks for strandbeest_IMG"
                 }
               },
               {
@@ -1194,12 +1308,12 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/archive/Tipi di dato (UML).md",
+                    "file": "Storage/Backend/Monthly Logs/attachments/strandbeest_IMG.webp",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   },
                   "icon": "links-going-out",
-                  "title": "Outgoing links from Tipi di dato (UML)"
+                  "title": "Outgoing links from strandbeest_IMG"
                 }
               },
               {
@@ -1222,23 +1336,10 @@
                 "state": {
                   "type": "outline",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/archive/Tipi di dato (UML).md",
-                    "followCursor": false,
-                    "showSearch": false,
-                    "searchQuery": ""
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Sistemi Operativi 1 (class).md"
                   },
                   "icon": "lucide-list",
-                  "title": "Outline of Tipi di dato (UML)"
-                }
-              },
-              {
-                "id": "2be710a38fb52417",
-                "type": "leaf",
-                "state": {
-                  "type": "git-view",
-                  "state": {},
-                  "icon": "git-pull-request",
-                  "title": "Source Control"
+                  "title": "Outline of Sistemi Operativi 1 (class)"
                 }
               }
             ],
@@ -1252,32 +1353,24 @@
               {
                 "id": "08bb0d9d4b18b672",
                 "type": "leaf",
-                "pinned": true,
                 "state": {
                   "type": "kanban",
                   "state": {
                     "file": "To-Do/To-Do.md",
-                    "kanbanViewState": {
-                      "kanban-plugin": "board",
-                      "list-collapse": [
-                        false,
-                        false
-                      ]
-                    }
+                    "mode": "source",
+                    "source": false
                   },
-                  "pinned": true,
-                  "icon": "lucide-trello",
-                  "title": "To-Do"
+                  "icon": "lucide-ghost",
+                  "title": "kanban"
                 }
               },
               {
                 "id": "6217f74dd2639932",
                 "type": "leaf",
-                "pinned": true,
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/archive/Web Caching.md",
+                    "file": "Storage/Backend/Monthly Logs/attachments/strandbeest_IMG.webp",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -1300,13 +1393,12 @@
                       "repelStrength": 10,
                       "linkStrength": 1,
                       "linkDistance": 250,
-                      "scale": 1.6467862525191024,
+                      "scale": 1,
                       "close": true
                     }
                   },
-                  "pinned": true,
                   "icon": "lucide-git-fork",
-                  "title": "Graph of Web Caching"
+                  "title": "Graph of strandbeest_IMG"
                 }
               }
             ],
@@ -1314,15 +1406,12 @@
           }
         ],
         "direction": "horizontal",
-        "width": 481.5,
+        "width": 350.5,
         "collapsed": true
       },
       "left-ribbon": {
         "hiddenItems": {
-          "obsidian-kanban:Create new board": false,
-          "obisidian-note-linker:Note Linker": false,
-          "obsidian-git:Open Git source control": false,
-          "omnisearch:Omnisearch": false,
+          "bases:Create new base": false,
           "switcher:Open quick switcher": false,
           "graph:Open graph view": false,
           "canvas:Create new canvas": false,
@@ -1330,12 +1419,1077 @@
           "command-palette:Open command palette": false,
           "audio-recorder:Start/stop recording": false,
           "workspaces:Manage workspace layouts": false,
-          "markdown-importer:Open format converter": false
+          "markdown-importer:Open format converter": false,
+          "obsidian-git:Open Git source control": false,
+          "omnisearch:Omnisearch": false,
+          "obisidian-note-linker:Note Linker": false
         }
       },
-      "active": "a819f759e79ad818",
-      "mtime": "2025-07-03T10:05:29+02:00"
+      "active": "01abab4389c228fc",
+      "mtime": "2025-09-25T16:20:15+02:00"
+    },
+    "IUM": {
+      "main": {
+        "id": "c0e3ba1eaba3cf97",
+        "type": "split",
+        "children": [
+          {
+            "id": "2c2f783c93abf12e",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "90570ad5ffe3125b",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/archive/Ingegneria del Software (class).md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "Ingegneria del Software (class)"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "ea17b4a25a7f38c6",
+        "type": "split",
+        "children": [
+          {
+            "id": "ed1111de2574fd88",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "ba7d0379bd9741ad",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
+              },
+              {
+                "id": "d4aca3edb3bdc908",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "tag:monthly-log",
+                    "matchingCase": true,
+                    "explainSearch": false,
+                    "collapseAll": true,
+                    "extraContext": true,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              },
+              {
+                "id": "7f34f9e8b8261cab",
+                "type": "leaf",
+                "state": {
+                  "type": "starred",
+                  "state": {},
+                  "icon": "lucide-ghost",
+                  "title": "starred"
+                }
+              },
+              {
+                "id": "8720924e16a6a7ab",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 531.504789352417,
+        "collapsed": true
+      },
+      "right": {
+        "id": "1599d9a7234429ed",
+        "type": "split",
+        "children": [
+          {
+            "id": "b33702b1304e824a",
+            "type": "tabs",
+            "dimension": 35.19736842105263,
+            "children": [
+              {
+                "id": "73d6fce2365a09ef",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              },
+              {
+                "id": "734f0b87ccb39174",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "Storage/Backend/Monthly Logs/attachments/strandbeest_IMG.webp",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": false
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks for strandbeest_IMG"
+                }
+              },
+              {
+                "id": "1899c835ee03ed03",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "Storage/Backend/Monthly Logs/attachments/strandbeest_IMG.webp",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links from strandbeest_IMG"
+                }
+              },
+              {
+                "id": "c9dd3a742136f31e",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "All properties"
+                }
+              },
+              {
+                "id": "b5486e50ab568cef",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Sistemi Operativi 1 (class).md"
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of Sistemi Operativi 1 (class)"
+                }
+              }
+            ],
+            "currentTab": 1
+          },
+          {
+            "id": "0ee4f1dd2040ea54",
+            "type": "tabs",
+            "dimension": 64.80263157894737,
+            "children": [
+              {
+                "id": "08bb0d9d4b18b672",
+                "type": "leaf",
+                "state": {
+                  "type": "kanban",
+                  "state": {
+                    "file": "To-Do/To-Do.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-ghost",
+                  "title": "kanban"
+                }
+              },
+              {
+                "id": "6217f74dd2639932",
+                "type": "leaf",
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "file": "Storage/Backend/Monthly Logs/attachments/strandbeest_IMG.webp",
+                    "options": {
+                      "collapse-filter": true,
+                      "search": "",
+                      "localJumps": 1,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": false,
+                      "showTags": false,
+                      "showAttachments": false,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": true,
+                      "colorGroups": [],
+                      "collapse-display": true,
+                      "showArrow": false,
+                      "textFadeMultiplier": 0,
+                      "nodeSizeMultiplier": 1,
+                      "lineSizeMultiplier": 1,
+                      "collapse-forces": true,
+                      "centerStrength": 0.518713248970312,
+                      "repelStrength": 10,
+                      "linkStrength": 1,
+                      "linkDistance": 250,
+                      "scale": 1,
+                      "close": true
+                    }
+                  },
+                  "icon": "lucide-git-fork",
+                  "title": "Graph of strandbeest_IMG"
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "horizontal",
+        "width": 350.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "bases:Create new base": false,
+          "switcher:Open quick switcher": false,
+          "graph:Open graph view": false,
+          "canvas:Create new canvas": false,
+          "templates:Insert template": false,
+          "command-palette:Open command palette": false,
+          "audio-recorder:Start/stop recording": false,
+          "workspaces:Manage workspace layouts": false,
+          "markdown-importer:Open format converter": false,
+          "obsidian-git:Open Git source control": false,
+          "omnisearch:Omnisearch": false,
+          "obisidian-note-linker:Note Linker": false
+        }
+      },
+      "active": "90570ad5ffe3125b",
+      "mtime": "2025-09-29T14:50:41+02:00"
+    },
+    "HomeLab": {
+      "main": {
+        "id": "c0e3ba1eaba3cf97",
+        "type": "split",
+        "children": [
+          {
+            "id": "b41f338ea8a941a3",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "f90ad0e1e460c4f9",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/archive/Interazione Uomo Macchina (class).md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "Interazione Uomo Macchina (class)"
+                }
+              },
+              {
+                "id": "8c95f932917b58a2",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Debian server.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Debian server"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "ea17b4a25a7f38c6",
+        "type": "split",
+        "children": [
+          {
+            "id": "ed1111de2574fd88",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "ba7d0379bd9741ad",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
+              },
+              {
+                "id": "d4aca3edb3bdc908",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "tag:monthly-log",
+                    "matchingCase": true,
+                    "explainSearch": false,
+                    "collapseAll": true,
+                    "extraContext": true,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              },
+              {
+                "id": "7f34f9e8b8261cab",
+                "type": "leaf",
+                "state": {
+                  "type": "starred",
+                  "state": {},
+                  "icon": "lucide-ghost",
+                  "title": "starred"
+                }
+              },
+              {
+                "id": "8720924e16a6a7ab",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 531.504789352417,
+        "collapsed": true
+      },
+      "right": {
+        "id": "1599d9a7234429ed",
+        "type": "split",
+        "children": [
+          {
+            "id": "b33702b1304e824a",
+            "type": "tabs",
+            "dimension": 35.19736842105263,
+            "children": [
+              {
+                "id": "73d6fce2365a09ef",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              },
+              {
+                "id": "734f0b87ccb39174",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "Storage/Backend/Monthly Logs/attachments/strandbeest_IMG.webp",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": false
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks for strandbeest_IMG"
+                }
+              },
+              {
+                "id": "1899c835ee03ed03",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "Storage/Backend/Monthly Logs/attachments/strandbeest_IMG.webp",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links from strandbeest_IMG"
+                }
+              },
+              {
+                "id": "c9dd3a742136f31e",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "All properties"
+                }
+              },
+              {
+                "id": "b5486e50ab568cef",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Sistemi Operativi 1 (class).md"
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of Sistemi Operativi 1 (class)"
+                }
+              }
+            ],
+            "currentTab": 1
+          },
+          {
+            "id": "0ee4f1dd2040ea54",
+            "type": "tabs",
+            "dimension": 64.80263157894737,
+            "children": [
+              {
+                "id": "08bb0d9d4b18b672",
+                "type": "leaf",
+                "state": {
+                  "type": "kanban",
+                  "state": {
+                    "file": "To-Do/To-Do.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-ghost",
+                  "title": "kanban"
+                }
+              },
+              {
+                "id": "6217f74dd2639932",
+                "type": "leaf",
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "file": "Storage/Backend/Monthly Logs/attachments/strandbeest_IMG.webp",
+                    "options": {
+                      "collapse-filter": true,
+                      "search": "",
+                      "localJumps": 1,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": false,
+                      "showTags": false,
+                      "showAttachments": false,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": true,
+                      "colorGroups": [],
+                      "collapse-display": true,
+                      "showArrow": false,
+                      "textFadeMultiplier": 0,
+                      "nodeSizeMultiplier": 1,
+                      "lineSizeMultiplier": 1,
+                      "collapse-forces": true,
+                      "centerStrength": 0.518713248970312,
+                      "repelStrength": 10,
+                      "linkStrength": 1,
+                      "linkDistance": 250,
+                      "scale": 1,
+                      "close": true
+                    }
+                  },
+                  "icon": "lucide-git-fork",
+                  "title": "Graph of strandbeest_IMG"
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "horizontal",
+        "width": 350.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "bases:Create new base": false,
+          "switcher:Open quick switcher": false,
+          "graph:Open graph view": false,
+          "canvas:Create new canvas": false,
+          "templates:Insert template": false,
+          "command-palette:Open command palette": false,
+          "audio-recorder:Start/stop recording": false,
+          "workspaces:Manage workspace layouts": false,
+          "markdown-importer:Open format converter": false,
+          "obsidian-git:Open Git source control": false,
+          "omnisearch:Omnisearch": false,
+          "obisidian-note-linker:Note Linker": false
+        }
+      },
+      "active": "f90ad0e1e460c4f9",
+      "mtime": "2025-09-29T22:31:47+02:00"
+    },
+    "LDP": {
+      "main": {
+        "id": "c0e3ba1eaba3cf97",
+        "type": "split",
+        "children": [
+          {
+            "id": "d4c8158c666684c0",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "6dcff719de9c7d89",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/archive/LDP (class).md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "LDP (class)"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "ea17b4a25a7f38c6",
+        "type": "split",
+        "children": [
+          {
+            "id": "ed1111de2574fd88",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "ba7d0379bd9741ad",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
+              },
+              {
+                "id": "d4aca3edb3bdc908",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "tag:monthly-log",
+                    "matchingCase": true,
+                    "explainSearch": false,
+                    "collapseAll": true,
+                    "extraContext": true,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              },
+              {
+                "id": "7f34f9e8b8261cab",
+                "type": "leaf",
+                "state": {
+                  "type": "starred",
+                  "state": {},
+                  "icon": "lucide-ghost",
+                  "title": "starred"
+                }
+              },
+              {
+                "id": "8720924e16a6a7ab",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 531.504789352417,
+        "collapsed": true
+      },
+      "right": {
+        "id": "1599d9a7234429ed",
+        "type": "split",
+        "children": [
+          {
+            "id": "b33702b1304e824a",
+            "type": "tabs",
+            "dimension": 35.19736842105263,
+            "children": [
+              {
+                "id": "73d6fce2365a09ef",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              },
+              {
+                "id": "734f0b87ccb39174",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "Storage/Backend/Monthly Logs/attachments/strandbeest_IMG.webp",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": false
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks for strandbeest_IMG"
+                }
+              },
+              {
+                "id": "1899c835ee03ed03",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "Storage/Backend/Monthly Logs/attachments/strandbeest_IMG.webp",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links from strandbeest_IMG"
+                }
+              },
+              {
+                "id": "c9dd3a742136f31e",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "All properties"
+                }
+              },
+              {
+                "id": "b5486e50ab568cef",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Sistemi Operativi 1 (class).md"
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of Sistemi Operativi 1 (class)"
+                }
+              }
+            ],
+            "currentTab": 1
+          },
+          {
+            "id": "0ee4f1dd2040ea54",
+            "type": "tabs",
+            "dimension": 64.80263157894737,
+            "children": [
+              {
+                "id": "08bb0d9d4b18b672",
+                "type": "leaf",
+                "state": {
+                  "type": "kanban",
+                  "state": {
+                    "file": "To-Do/To-Do.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-ghost",
+                  "title": "kanban"
+                }
+              },
+              {
+                "id": "6217f74dd2639932",
+                "type": "leaf",
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "file": "Storage/Backend/Monthly Logs/attachments/strandbeest_IMG.webp",
+                    "options": {
+                      "collapse-filter": true,
+                      "search": "",
+                      "localJumps": 1,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": false,
+                      "showTags": false,
+                      "showAttachments": false,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": true,
+                      "colorGroups": [],
+                      "collapse-display": true,
+                      "showArrow": false,
+                      "textFadeMultiplier": 0,
+                      "nodeSizeMultiplier": 1,
+                      "lineSizeMultiplier": 1,
+                      "collapse-forces": true,
+                      "centerStrength": 0.518713248970312,
+                      "repelStrength": 10,
+                      "linkStrength": 1,
+                      "linkDistance": 250,
+                      "scale": 1,
+                      "close": true
+                    }
+                  },
+                  "icon": "lucide-git-fork",
+                  "title": "Graph of strandbeest_IMG"
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "horizontal",
+        "width": 350.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "bases:Create new base": false,
+          "switcher:Open quick switcher": false,
+          "graph:Open graph view": false,
+          "canvas:Create new canvas": false,
+          "templates:Insert template": false,
+          "command-palette:Open command palette": false,
+          "audio-recorder:Start/stop recording": false,
+          "workspaces:Manage workspace layouts": false,
+          "markdown-importer:Open format converter": false,
+          "obsidian-git:Open Git source control": false,
+          "omnisearch:Omnisearch": false,
+          "obisidian-note-linker:Note Linker": false
+        }
+      },
+      "active": "6dcff719de9c7d89",
+      "mtime": "2025-10-03T17:44:44+02:00"
+    },
+    "Develop": {
+      "main": {
+        "id": "c0e3ba1eaba3cf97",
+        "type": "split",
+        "children": [
+          {
+            "id": "ac20157446923cb6",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "dc9027bbe9cc32f6",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Tech MOC/Tech MOC.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "Tech MOC"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "ea17b4a25a7f38c6",
+        "type": "split",
+        "children": [
+          {
+            "id": "ed1111de2574fd88",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "ba7d0379bd9741ad",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
+              },
+              {
+                "id": "d4aca3edb3bdc908",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "tag:monthly-log",
+                    "matchingCase": true,
+                    "explainSearch": false,
+                    "collapseAll": true,
+                    "extraContext": true,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              },
+              {
+                "id": "7f34f9e8b8261cab",
+                "type": "leaf",
+                "state": {
+                  "type": "starred",
+                  "state": {},
+                  "icon": "lucide-ghost",
+                  "title": "starred"
+                }
+              },
+              {
+                "id": "8720924e16a6a7ab",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 531.504789352417,
+        "collapsed": true
+      },
+      "right": {
+        "id": "1599d9a7234429ed",
+        "type": "split",
+        "children": [
+          {
+            "id": "b33702b1304e824a",
+            "type": "tabs",
+            "dimension": 35.19736842105263,
+            "children": [
+              {
+                "id": "73d6fce2365a09ef",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              },
+              {
+                "id": "734f0b87ccb39174",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "Storage/Backend/Monthly Logs/attachments/strandbeest_IMG.webp",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": false
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks for strandbeest_IMG"
+                }
+              },
+              {
+                "id": "1899c835ee03ed03",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "Storage/Backend/Monthly Logs/attachments/strandbeest_IMG.webp",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links from strandbeest_IMG"
+                }
+              },
+              {
+                "id": "c9dd3a742136f31e",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "All properties"
+                }
+              },
+              {
+                "id": "b5486e50ab568cef",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/Uni_Archive/Sistemi Operativi 1 (class).md"
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of Sistemi Operativi 1 (class)"
+                }
+              }
+            ],
+            "currentTab": 1
+          },
+          {
+            "id": "0ee4f1dd2040ea54",
+            "type": "tabs",
+            "dimension": 64.80263157894737,
+            "children": [
+              {
+                "id": "08bb0d9d4b18b672",
+                "type": "leaf",
+                "state": {
+                  "type": "kanban",
+                  "state": {
+                    "file": "To-Do/To-Do.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-ghost",
+                  "title": "kanban"
+                }
+              },
+              {
+                "id": "6217f74dd2639932",
+                "type": "leaf",
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "file": "Storage/Backend/Monthly Logs/attachments/strandbeest_IMG.webp",
+                    "options": {
+                      "collapse-filter": true,
+                      "search": "",
+                      "localJumps": 1,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": false,
+                      "showTags": false,
+                      "showAttachments": false,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": true,
+                      "colorGroups": [],
+                      "collapse-display": true,
+                      "showArrow": false,
+                      "textFadeMultiplier": 0,
+                      "nodeSizeMultiplier": 1,
+                      "lineSizeMultiplier": 1,
+                      "collapse-forces": true,
+                      "centerStrength": 0.518713248970312,
+                      "repelStrength": 10,
+                      "linkStrength": 1,
+                      "linkDistance": 250,
+                      "scale": 1,
+                      "close": true
+                    }
+                  },
+                  "icon": "lucide-git-fork",
+                  "title": "Graph of strandbeest_IMG"
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "horizontal",
+        "width": 350.5,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "bases:Create new base": false,
+          "switcher:Open quick switcher": false,
+          "graph:Open graph view": false,
+          "canvas:Create new canvas": false,
+          "templates:Insert template": false,
+          "command-palette:Open command palette": false,
+          "audio-recorder:Start/stop recording": false,
+          "workspaces:Manage workspace layouts": false,
+          "markdown-importer:Open format converter": false,
+          "obsidian-git:Open Git source control": false,
+          "omnisearch:Omnisearch": false,
+          "obisidian-note-linker:Note Linker": false
+        }
+      },
+      "active": "dc9027bbe9cc32f6",
+      "mtime": "2025-10-05T16:04:21+02:00"
     }
   },
-  "active": "Basi Dati"
+  "active": "Sistemi Operativi"
 }

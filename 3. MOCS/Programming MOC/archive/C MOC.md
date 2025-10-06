@@ -1,8 +1,8 @@
 ---
 created: 2023-01-24
 type: "[[Programming MOC]]"
-related: 
-updated: 2024-05-27T13:28
+related:
+updated: 2025-10-01T15:43
 ---
 ---
 ## What is C?
@@ -35,7 +35,7 @@ updated: 2024-05-27T13:28
 - [[C Multi Dimensional Arrays]]
 - [[C Strings]] <--
 - [[C Structures]] 
-- [[C Unions]]
+- [[C Unions]] <--- **da vedere**
 
 **Operators:**
 - [[C Arithmetic Operators]]

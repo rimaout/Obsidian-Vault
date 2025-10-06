@@ -4,7 +4,7 @@ programming language:
 related:
 completed: false
 created: 2025-09-22T13:17
-updated: 2025-09-22T20:47
+updated: 2025-09-28T12:24
 ---
 In my case I have to 3 drives in my pc:
 1. one ssd with the os on (debian)
@@ -138,19 +138,17 @@ Explanation of options:
 >Disabling `atime` update can cause problem for certain workloads, but in my case for a home server shoud not create any problem
 
 ### 9) Create datasets and mountpoints
-- Example:
-  sudo zfs create -o mountpoint=/tank/data tank/data
-- Notes:
-  - Datasets are lightweight filesystems inside the pool. You can set individual properties (compression, atime) per dataset.
-  - mountpoint sets where the dataset is mounted in your filesystem (change /tank/data as desired).
 
-Verify mounts and usage:
-- sudo zfs list  
-- df -h /tank
+Datasets are lightweight filesystems inside the pool. You can set individual properties (compression, atime) per dataset.
+
+In particular i want to mount a dataset named data inside the home directory of my username (rima):
+
+1. Create a dataset mounted at the desired path: `sudo zfs create -o mountpoint=/home/rima/data tank/data`
+2. Ensure correct ownership so user rima can use it: `sudo chown -R rima:rima /home/rima/data`
+3. Verify:`sudo zfs list tank mount | grep /home/rima/data
 
 ### 10) Services and boot behavior
-- Ensure ZFS services enable auto-import/mount at boot:
-  sudo systemctl enable --now zfs-import-cache zfs-mount zfs.target
+- Ensure ZFS services enable auto-import/mount at boot: `sudo systemctl enable --now zfs-import-cache zfs-mount zfs.target`
 
 Why: zfs-import-cache imports pools at boot. zfs-mount mounts datasets. Enabling ensures your pool is available automatically.
 
@@ -165,14 +163,14 @@ Why: zfs-import-cache imports pools at boot. zfs-mount mounts datasets. Enabling
 ### 12) Replacing/upgrading a mirrored disk later
 - Typical workflow replacing the 1TB with a new 2TB:
   1) Optional: offline the old disk (if needed):
-     sudo zpool offline tank /dev/disk/by-id/<old-by-id>
+     `sudo zpool offline tank /dev/disk/by-id/<old-by-id>`
   2) Physically replace the disk.
   3) Replace in ZFS and start resilver:
-     sudo zpool replace tank <old-by-id> /dev/disk/by-id/<new-by-id>
+     `sudo zpool replace tank <old-by-id> /dev/disk/by-id/<new-by-id>`
   4) Monitor resilver:
      sudo zpool status -v
   5) Expand to use full size (if pool doesn't auto-expand):
-     sudo zpool online -e tank /dev/disk/by-id/<new-by-id>
+     `sudo zpool online -e tank /dev/disk/by-id/<new-by-id>`
 
 Notes:
 - ashift is set per vdev at creation and won’t change by replacing disks. To change ashift you must recreate the vdev/pool.  
@@ -180,26 +178,87 @@ Notes:
 
 ### 13) Quick reference commands
 - Create pool:
-  sudo zpool create -f -o ashift=12 tank mirror <by-id-for-sdb> <by-id-for-sdc>
-- Status:
-  sudo zpool status -v
-- List pools:
-  sudo zpool list
-- Create dataset:
-  sudo zfs create -o mountpoint=/tank/data tank/data
-- Set compression/atime:
-  sudo zfs set compression=lz4 tank  
-  sudo zfs set atime=off tank
+  `sudo zpool create -f -o ashift=12 tank mirror <by-id-for-sdb> <by-id-for-sdc>`
+- Status: `sudo zpool status -v`
+- List pools: `sudo zpool list`
+- Create dataset: `sudo zfs create -o mountpoint=/tank/data tank/data`
+- Set compression/atime: `sudo zfs set compression=lz4 tank` &  `sudo zfs set atime=off tank`
 - Scrub:
   sudo zpool scrub tank
 
 If you want this as a one-page printable checklist or automated scripts for scheduled scrubs, tell me which format you prefer.
 
-
 Initial maintenance:
-  sudo zpool scrub tank  
-  sudo zpool status -v   # monitor scrub progress
+  `sudo zpool scrub tank`
+  `sudo zpool status -v   # monitor scrub progress`
 
 >[!note] Note
 >
 >Reads all data, verifies checksums, and repairs errors using the mirror if a good copy exists. Run after creation and periodically (monthly is common).
+
+>[!note]- Importing a pool from another system
+>
+>### Assumptions
+>
+>- Pool name: replace "tank" with your pool name.
+>- You have root (sudo) access.
+>- Use by-id device paths when possible (e.g., /dev/disk/by-id/...).
+>
+>### 1 — See pools available for import
+>
+>- sudo zpool import
+>- Note pool name, ID, and any warnings (in use, feature flags, etc.).
+>
+>### 2 — Safe inspect (read-only)
+>
+>- sudo zpool import -o readonly=on tank
+>    - Verify status and datasets without risking writes:
+>        - sudo zpool status tank
+>        - sudo zfs list
+>
+>### 3 — Normal import
+>
+>- sudo zpool import tank
+>
+>### 4 — Force import (only if you’re sure no other system is using the pool)
+>
+>- sudo zpool import -f tank
+>
+>### 5 — Specify device directory if needed
+>
+>- sudo zpool import -d /dev/disk/by-id tank
+>- Or list all pools found under that directory:
+>    - sudo zpool import -d /dev/disk/by-id
+>
+>### 6 — If imported but datasets not mounted
+>
+>- sudo zfs mount -a
+>- Enable ZFS systemd services for boot:
+>    - sudo systemctl enable zfs-import-cache zfs-mount
+>    - sudo systemctl start zfs-import-cache zfs-mount
+>
+>### 7 — Handle feature flag/version errors
+>
+>- If ZFS reports unsupported feature flags, update/install a newer ZFS version compatible with the pool, then retry import.
+>
+>### 8 — Verify and scrub
+>
+>- sudo zpool status
+>- sudo zfs list
+>- Start a scrub:
+>    - sudo zpool scrub tank
+>- Check progress:
+>    - sudo zpool status tank
+>
+>### 11 — Troubleshooting commands to paste if you need help
+>
+>- sudo zpool import
+>- sudo zpool import -v tank
+>- sudo zpool status -v
+>- ls -l /dev/disk/by-id | grep -i sd
+>
+>That’s it — replace "tank" with your pool name and use -f only when safe.
+
+>[!note]- Deleting a dataset
+>
+>

@@ -5,9 +5,9 @@ class:
 academic year: 2024/2025
 related:
   - "[[Algebra Relazionale]]"
-completed: false
+completed: true
 created: 2024-10-09T16:36
-updated: 2024-10-24T18:05
+updated: 2025-09-26T17:12
 ---
 >[!abstract] Index
 >1. 
@@ -101,15 +101,3 @@ Una insieme di attributi $X$ per essere considerato una chiave di una relazione 
 I vincoli di integrità in algebra relazionale sono regole che definiscono le proprietà che i dati devono soddisfare per essere considerati validi e coerenti. 
 
 Una [[#^2d7705|istanza]] di base di dati è corretta se soddisfa tutti i vincoli di integrità associati al suo [[#^47e916|schema]].
-
-
-#### Vincoli Intra-relazionali
-
-Definiti sui valori di singoli attributi (di dominio) o tra valori di attributi di una stessa tupla o tra tuple della stessa relazione
-
-#### Vincoli Inter-relazionali
-
-
-
-
-

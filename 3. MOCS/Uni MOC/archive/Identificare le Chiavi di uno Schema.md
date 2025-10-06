@@ -3,14 +3,10 @@ type: Uni Note
 class:
   - "[[Basi di Dati 1 (class)]]"
 academic year: 2024/2025
-related: 
-completed: false
+related:
+completed: true
 created: 2024-11-19T11:57
-updated: 2024-11-20T10:07
----
->[!abstract] Related
->- 
-
+updated: 2025-09-26T17:12
 ---
 ## Verifica della Chiave
 

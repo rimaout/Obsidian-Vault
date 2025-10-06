@@ -4,9 +4,9 @@ class:
   - "[[Basi di Dati 1 (class)]]"
 academic year: 2024/2025
 related: "[[Algebra Relazionale]]"
-completed: false
+completed: true
 created: 2024-10-15T18:30
-updated: 2024-11-09T18:03
+updated: 2025-09-26T17:12
 ---
 >[!abstract] Index
 >1. [[#Quantificatore Esistenziale]]
