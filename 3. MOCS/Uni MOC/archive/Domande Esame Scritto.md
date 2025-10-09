@@ -4,9 +4,9 @@ class:
   - "[[Sistemi Operativi 2 (class)]]"
 academic year: 2024/2025
 related:
-completed: false
+completed: true
 created: 2025-10-06T16:35
-updated: 2025-10-06T21:08
+updated: 2025-10-08T12:22
 ---
 >[!note] Domanda Numero 1 🟢
 >
@@ -33,9 +33,9 @@ updated: 2025-10-06T21:08
 
 >[!note] Domanda Numero 2 🟢
 >
->Supponiamo di avere una directory `/home/dir` creata da root con permessi di accesso `0777/drwxrwxrwx` *(owner root)* ed al suo interno il file filename, creato da root, con permessi di accesso `0770/-rwxrwx---` *(owner root)*.
+>Supponiamo di avere una directory `/home/dir` creata da root con permessi di accesso `0777/drwxrwxrwx` *(owner root)* ed al suo interno il file `filename`, creato da `root`, con permessi di accesso `0770/-rwxrwx---` *(owner root)*.
 >
->Un qualsiasi utente può rimovere il file filename eseguendo, in user mode, il comando `rm /home/dir/filename`
+>Un qualsiasi utente può rimovere il file `filename` eseguendo, in user mode, il comando `rm /home/dir/filename`
 >
 >- [ ] Vero
 >- [ ] Falso
@@ -70,7 +70,7 @@ updated: 2025-10-06T21:08
 
 >[!note] Domanda Numero 3 🟢
 >
->Si consideri il comando `ln -s myfile mylink`. Dopo la sua esecuzione, l'output dei comandi `du myfile` e `du mylink` sarà diverso
+>Si consideri il comando `ln -s myfile mylink`. Dopo la sua esecuzione, l'output dei comandi `du myfile` e `du mylink` sarà diverso.
 >
 >- [ ] Falso
 >- [ ] Vero
@@ -109,7 +109,7 @@ updated: 2025-10-06T21:08
 
 >[!note] Domanda Numero 5 🟢
 >
->Nel comando `# cd ~/Lezione1/esempi/filesystem` e' stato utilizzato un path relativo:
+>Nel comando `# cd ~/Lezione1/esempi/filesystem` è stato utilizzato un path relativo:
 >
 >- [ ] Vero
 >- [ ] Falso
@@ -124,7 +124,7 @@ updated: 2025-10-06T21:08
 
 >[!note] Domanda Numero 6 🟢
 >
->Per visualizzare l'atime di un file quale dei seguenti comandi e' corretto?
+>Per visualizzare l'atime di un file quale dei seguenti comandi è corretto?
 >
 >- [ ] `ls -lu nomefile`
 >- [ ] `ls -lc nomefile`
@@ -176,11 +176,11 @@ updated: 2025-10-06T21:08
 
 >[!note] Domanda Numero 8 🟢
 >
->Si supponga di avere un file di testo `filein` contenente `abcdefghilmnopqrstuvwxyzABCDEFGHILMNOPQRSTUVWXYZ` dopo l'esecuzione del comando `dd if=filein of=fileout bs=2 skip=3 count=10` cosa conterrà `fileout`?
+>Si supponga di avere un file di testo `filein` contenente *abcdefghilmnopqrstuvwxyzABCDEFGHILMNOPQRSTUVWXYZ* dopo l'esecuzione del comando `dd if=filein of=fileout bs=2 skip=3 count=10` cosa conterrà `fileout`?
 >
->- [ ] `ghilmnopqrstuvwxyzAB`
->- [ ] `ghilmnopqrstuvwxyzABCDEFGHILMN`
->- [ ] `GHILMNOPQRSTUVWXYZ`
+>- [ ] *ghilmnopqrstuvwxyzAB*
+>- [ ] *ghilmnopqrstuvwxyzABCDEFGHILMN*
+>- [ ] *GHILMNOPQRSTUVWXYZ*
 >
 >>[!done]- Risposta
 >>
@@ -191,13 +191,13 @@ updated: 2025-10-06T21:08
 >>- `of=fileout`: specifica il file di output (`fileout`)
 >>- `bs=2`: imposta la dimensione del blocco a 2 byte
 >>- `skip=3`: salta i primi 3 blocchi di input, quindi 3 * 2 = 6 byte (ovvero salta `abcdef`)
->>- `count=10`: copia 10 blocchi (10 * 2 = 20 byte) dopo i byte saltati (ovvero copia `ghilmnopqrstuvwxyzAB)
+>>- `count=10`: copia 10 blocchi (10 * 2 = 20 byte) dopo i byte saltati (ovvero copia *ghilmnopqrstuvwxyzAB*)
 >>  
->>Pertanto, `fileout` conterrà `ghilmnopqrstuvwxyzAB`
+>>Pertanto, `fileout` conterrà *ghilmnopqrstuvwxyzAB*
 
 >[!note] Domanda Numero 9 🟢
 >
->Il comando `ls -ltc` restituisce la lista dei file nella CWD ordinati per `atime`
+>Il comando `ls -ltc` restituisce la lista dei file nella CWD ordinati per `atime`.
 >
 >- [ ] Falso
 >- [ ] Vero
@@ -210,7 +210,7 @@ updated: 2025-10-06T21:08
 
 >[!note] Domanda Numero 10 🟢
 >
->Sia `nomefile` un file memorizzato nella CWD, il comando `touch nomefile` crea un file vuoto che sostituisce il file esistente
+>Sia `nomefile` un file memorizzato nella CWD, il comando `touch nomefile` crea un file vuoto che sostituisce il file esistente.
 >
 >- [ ] Falso
 >- [ ] Vero
@@ -225,7 +225,7 @@ updated: 2025-10-06T21:08
 
 >[!note] Domanda Numero 11
 >
->Il valore "totale 1512" del seguente codice rappresenta la dimensione della directory in numero di blocchi su disco
+>Il valore *totale 1512* del seguente codice rappresenta la dimensione della directory in numero di blocchi su disco:
 >
 >```bash
 >studente@debian9 :~ $ ls -l apache-tomcat-8.0.27/ 
@@ -242,7 +242,7 @@ updated: 2025-10-06T21:08
 
 >[!note] Domanda Numero 12 🟢
 >
->Un utente che appartiene al gruppo `sudo` può direttamente accedere, in scrittura, al file `/etc/passwd`
+>Un utente che appartiene al gruppo `sudo` può direttamente accedere, in scrittura, al file `/etc/passwd`.
 >
 >- [ ] Falso
 >- [ ] Vero
@@ -255,7 +255,7 @@ updated: 2025-10-06T21:08
 
 >[!note] Domanda Numero 13
 >
->Entrambi i path che seguono sono path assoluti per l'utente studente
+>Entrambi i path che seguono sono path assoluti per l'utente studente:
 >
 >```bash
 >studente@debian9:~$ /home/studente/dir1/dir2 
@@ -271,7 +271,7 @@ updated: 2025-10-06T21:08
 
 >[!note] Domanda Numero 14 🟢
 >
->Consideriamo il file eseguibile `myProgram` con proprietario `utente1` e con permessi di accesso `-rwxr-xr-x`, se `utente2` esegue `myProgram` si osserva che il `RUID == EUID`
+>Consideriamo il file eseguibile `myProgram` con proprietario `utente1` e con permessi di accesso `-rwxr-xr-x`, se `utente2` esegue `myProgram` si osserva che il `RUID == EUID`.
 >
 >- [ ] Falso
 >- [ ] Vero
@@ -294,7 +294,7 @@ updated: 2025-10-06T21:08
 
 >[!note] Domanda Numero 15 🟢
 >
->Consideriamo il file eseguibile `myProgram` con proprietario `utente1` e con permessi di accesso `-rwsr-xr-x`, se `utente2` esegue `myProgram` si osserva che il `RUID == EUID`
+>Consideriamo il file eseguibile `myProgram` con proprietario `utente1` e con permessi di accesso `-rwsr-xr-x`, se `utente2` esegue `myProgram` si osserva che il `RUID == EUID`.
 >
 >- [ ] Falso
 >- [ ] Vero
@@ -311,7 +311,7 @@ updated: 2025-10-06T21:08
 >
 >Supponiamo di avere una directory `/home/dir` creata da `root` con permessi di accesso `1777/drwxrwxrwt` *(owner root)* ed al suo interno il file `filename`, creato da `root`, con permessi di accesso `0770/-rwxrwx ---` *(owner root)*. 
 >
->Un qualsiasi utente può rimovere il file filename eseguendo, in user mode, il comando `rm /home/dir/filename`
+>Un qualsiasi utente può rimovere il file filename eseguendo, in user mode, il comando `rm /home/dir/filename`.
 >
 >- [ ] Vero
 >- [ ] Falso
@@ -341,7 +341,7 @@ updated: 2025-10-06T21:08
 
 >[!note] Domanda Numero 18 🟢
 >
->I permessi di accesso del file eseguibile `/usr/bin/passwd` sono impostati a `1755/-rwxr-xr-t` per consentire ad un qualsiasi utente, operante in usermode, di eseguire il comando `passwd` e quindi modificare il file `/etc/passwd`
+>I permessi di accesso del file eseguibile `/usr/bin/passwd` sono impostati a `1755/-rwxr-xr-t` per consentire ad un qualsiasi utente, operante in usermode, di eseguire il comando `passwd` e quindi modificare il file `/etc/passwd`.
 >
 >- [ ] Vero
 >- [ ] Falso
@@ -350,13 +350,13 @@ updated: 2025-10-06T21:08
 >>
 >>Falso
 >>
->>**Motivazione:** é vero che i permessi `4755/-rwxr-xr-x` permettono ad un qualsiasi utente di eseguire il comando, ma in realtà il file `/usr/bin/passwd` ha come permessi `4755/-rwxr-xr-x` e non `1755/-rwxr-xr-t`.
+>>**Motivazione:** é vero che i permessi `1755/-rwxr-xr-t` permettono ad un qualsiasi utente di eseguire il comando, ma in realtà il file `/usr/bin/passwd` ha come permessi `4755/-rwxr-xr-x` e non `1755/-rwxr-xr-t`.
 >>
 >>Infatti lo *sticky bit (t)* è inutile quando utilizzato su un file quindi il comportamento di `4755/-rwxr-xr-x` è equivalente a `1755/-rwxr-xr-t`.
 
 >[!note] Domanda Numero 19 🟢
 >
->Il comando `chmod 6774 nomefile` imposta i permessi di `nomefile` a `-rwSrwSr--`
+>Il comando `chmod 6774 nomefile` imposta i permessi di `nomefile` a `- rwS rwS r--`.
 >
 >- [ ] Falso
 >- [ ] Vero
@@ -451,9 +451,12 @@ updated: 2025-10-06T21:08
 >>
 >>---
 >>
->>**Motivazione:** Quando un processo riceve il segnale `SIGINT` viene terminato ovvero va nello stato `T` (stopped)
+>>**Motivazione:** Quando un processo riceve il segnale `SIGINT` viene terminato ovvero viene cancellata la sua esecuzione (se facciamo `ps -e` non sarà più possibile trovarlo). 
 >>
->>>***Nota:*** Lo stato `I` non esiste
+>>>***Note:***
+>>>- Lo stato `I` non esiste
+>>>- `SIGINT` equivale al segnale `SIGKILL`
+>>>- `SIGINT` e `SIGKILL` sono i segnale che vengono mandati al processo running sulla shell quando premiamo i tasti `ctrl + c`.
 >>
 >>Per maggiori informazioni sugli stati di un processo vedi [[Processi in linux#^88b0db|Processi in linux - stati]] per maggiori informazioni su `kill` vedi [[Comandi linux per gestione processi#^ff47ab|Comandi linux per gestione processi - kill]]
 
@@ -484,7 +487,7 @@ updated: 2025-10-06T21:08
 
 >[!note] Domanda Numero 25 🟢
 >
->Per conoscere lo stato di un job in esecuzione si deve utilizzare il comando
+>Per conoscere lo stato di un job in esecuzione si deve utilizzare il comando:
 >
 >```bash
 >~$ jobs -p
@@ -586,10 +589,10 @@ SIGTERM
 >>
 >>**Morivazione:**
 >>
->|   |   |
->|---|---|
->|`sudo -u usertest`|Esegue un comando come l'utente `usertest` senza cambiare la shell corrente. Può essere usato per eseguire un comando specifico come quell'utente, ed è necessario che l'utente attuale abbia i permessi di sudo per farlo. In oltre richiede la password dell'utente che ha eseguito il comando|
->|`su -l usertest`|Cambia l'utente attivo a `usertest`, caricando l'ambiente dell'utente (incluso il path e le variabili di ambiente) come se l'utente avesse effettuato il login. Questo comando richiede la password dell'utente `usertest`.|
+>>|   |   |
+>>|---|---|
+>>|`sudo -u usertest`|Esegue un comando come l'utente `usertest` senza cambiare la shell corrente. Può essere usato per eseguire un comando specifico come quell'utente, ed è necessario che l'utente attuale abbia i permessi di sudo per farlo. In oltre richiede la password dell'utente che ha eseguito il comando|
+>>|`su -l usertest`|Cambia l'utente attivo a `usertest`, caricando l'ambiente dell'utente (incluso il path e le variabili di ambiente) come se l'utente avesse effettuato il login. Questo comando richiede la password dell'utente `usertest`.|
 
 >[!note] Domanda Numero 30 🟢
 >
@@ -610,11 +613,12 @@ SIGTERM
 >>---
 >>
 >>**Motivazione** - entrambi copiano i primi 100byte di `filein` in `fileout`, infatti:
->>- 
+>>- il primo copia un solo blocco da 100byte ($1 \cdot 100\text{byte} = 100\text{byte}$ )
+>>- il secondo copia 100 blocchi da un 1byte ($100 \cdot 1\text{byte} = 100\text{byte}$)
 
 >[!note] Domanda Numero 31 🟢
 >
->Supponiamo di avere un file di nome filename e di eseguire il comando `ln filename link1` i file `filename` e `link1` hanno inode diversi
+>Supponiamo di avere un file di nome filename e di eseguire il comando `ln filename link1` i file `filename` e `link1` hanno inode diversi.
 >
 >- [ ] Vero
 >- [ ] Falso
@@ -661,7 +665,7 @@ SIGTERM
 >>
 >>Possiamo vedere che entrambi hanno lo stesso Inode (62)
 
->[!note] Domanda Numero 32
+>[!note] Domanda Numero 32 🟢
 >
 >Si consideri il comando `ln -s myfile mylink`. Dopo la sua esecuzione, `myfile` e `mylink` avranno un diverso inode.
 >
@@ -671,10 +675,12 @@ SIGTERM
 >>[!done]- Risposta
 >>
 >>Vero
+>>
+>>**Motivazione:** `ls -s` crea un *soft*  link, che ha differenza del hard *link* non punta direttamente all’Inde del file originale.
 
 >[!note] Domanda Numero 33
 >
->Il comando `chmod 6774 nomefile` imposta i seguenti permessi per il file `nomefile` `-rwsrwsr--`
+>Il comando `chmod 6774 nomefile` imposta i seguenti permessi per il file `nomefile` `-rwsrwsr--`.
 >
 >- [ ] Falso
 >- [ ] Vero
@@ -683,7 +689,7 @@ SIGTERM
 >>
 >>Vero
 
->[!note] Domanda Numero 34
+>[!note] Domanda Numero 34 🟢
 >
 >Assuma di avere due shell aperte, etichettate come shell_1 e shell_2 e supponga di eseguire, in usemode, la sequenza di comandi che segue (shell_i: cmd indica che cmd è eseguito nella shell_i, i=1,2). Quale è il loro effetto sul processo xterm?
 >
@@ -697,13 +703,19 @@ SIGTERM
 >
 >- [ ] Il processo sleep viene prima portato nello stato `T` e poi mandato nuovamente in esecuzione in foreground
 >- [ ] Il processo sleep viene mandato in esecuzione in background
->- [ ] Nessuno. In usermode i processi ignorano il segnale di SIGSTOP. L'invio del segnale SIGCONT quindi non modifica lo stato del processo
+>- [ ] Nessuno. In usermode i processi ignorano il segnale di `SIGSTOP`. L'invio del segnale `SIGCONT` quindi non modifica lo stato del processo
 >
 >>[!done]- Risposta
 >>
 >>Il processo sleep viene mandato in esecuzione in background
+>>
+>>---
+>>
+>>**Motivazione:**
+>>- il segnale `SINGSTOP` manda il processo nello stato `T` (stopped)
+>>- il segnale `SIGCONT` manda il processo in esecuzione in background
 
->[!note] Domanda Numero 35
+>[!note] Domanda Numero 35 🟢
 >
 >Il comando `~$ sleep 30 | sleep 15 | sleep 10 &` crea 1 job in background
 >
@@ -713,8 +725,40 @@ SIGTERM
 >>[!done]- Risposta
 >>
 >>Vero
+>>
+>>---
+>>
+>>**Motivazione:** Quando si utilizza l'operatore pipeline (`|`) questo crea un unico job che contiene tutti i comandi specificati e l’operatore ampersand (`&`) lo manda in background.
+>>
+>>**Test Pratico:** Eseguiamo il comando `sleep 30 | sleep 15 | sleep 10 &`, ora se eseguiamo il comando `jobs` per vedere i job in esecuzione sulla shell otteniamo in output:
+>>
+>>```
+>>[1]  + running    sleep 30 | sleep 15 | sleep 10
+>>```
+>>
+>>Se dopo 10 secondi dall'inizio del job eseguiamo `jobs` otteniamo:
+>>
+>>```
+>>[1]  + running    sleep 30 | sleep 15 |
+>>        done       sleep 10
+>>```
+>>
+>>Se dopo 15 secondi dall'inizio del job eseguiamo `jobs` otteniamo:
+>>
+>>```
+>>[1]  + running    sleep 30 |
+>>        done       sleep 15 | sleep 10
+>>```
+>>
+>>Se dopo 30 secondi dall'inizio del job eseguiamo `jobs` otteniamo:
+>>
+>>```
+>>[1]  + 407 done       sleep 30 |
+>>        408 done       sleep 15 |
+>>        409 done       sleep 10
+>>```
 
->[!note] Domanda Numero 36
+>[!note] Domanda Numero 36 🟢
 >
 >La directory `/tmp` ha i permessi di accesso impostati a `1777/drwxrwxrwt` per consentire a tutti gli utenti di leggere, creare e rimuovere file anche se non hanno permessi di scrittura su di essi.
 >
@@ -724,8 +768,12 @@ SIGTERM
 >>[!done]- Risposta
 >>
 >>Falso
+>>
+>>---
+>>
+>>**Motivazione:** è vero che `\tmp` ha come permessi `1777/drwxrwxrwt` ma non è vero che questi permessi permettono a tutti di rimuovere i file dalla cartella, dato che lo sticky bit è attivo (drwxrwxrw**t**) questo obliga ad avere i diretti di esecuzione sul file per eliminarlo.
 
->[!note] Domanda Numero 37
+>[!note] Domanda Numero 37 🟢
 >
 >Consideriamo il file eseguibile `myProgram` con proprietario `utente1` e con permessi di accesso `-rwxr-xr-x`. Se `utente2` esegue myProgram si osserva che il RUID è diverso dal EUID
 >
@@ -735,6 +783,15 @@ SIGTERM
 >>[!done]- Risposta
 >>
 >>Falso
+>>
+>>---
+>>
+>>**Motivazione:** il `RUID` e il `EUID` di un processo sono sempre uguali tranne nei casi in cui:
+>>- il programma è eseguito con sudo
+>>- il fil eseguibile ha i bit `setuid` o `setgid` attivi
+>>  
+>>In questo caso `myProgram` non viene eseguito con `sudo` e non ha i bit `setuid` o `setgid` attivi, quando `RUID == EUID`.
+
 
 >[!note] Domanda Numero 38
 >
@@ -746,6 +803,14 @@ SIGTERM
 >>[!done]- Risposta
 >>
 >>Falso
+>>
+>>---
+>>
+>>**Motivazione:**
+>>- Dato che la directory `/home/dir` ha lo *sticky bit* (`t`) attivo se un utente vuole modificare in file deve avere i diritti di esecuzione du di esso.
+>>- Dato che i permessi del file `filename` sono impostati ha `-rwxrwx---` solo l'utente proprietario o gli utenti che fanno parte degli stessi gruppi dell'utente proprietario hanno diritto di esecuzione sul file.
+>>  
+>>Di conseguenza un utente qualsiasi non ha diritto di esecuzione sul file e quindi non può eliminarlo.
 
 >[!note] Domanda Numero 39 🟢
 >
@@ -767,7 +832,7 @@ SIGTERM
 >>  
 >>Infatti l'header dello shell (`studente@hostname~$`) mostra che l'utente è studente
 
->[!note] Domanda Numero 40
+>[!note] Domanda Numero 40 🟢
 >
 >Il comando `adduser utente1` e poi `adduser utente1 studente` , dopo aver creato l'utente `utente1`, genera errore nell'esecuzione del secondo comando in quanto `utente1` esiste già.
 >
@@ -777,6 +842,10 @@ SIGTERM
 >>[!done]- Risposta
 >>
 >>Falso
+>>
+>>Se faccio `adduser utente1 studente` non genera un errore perché l'utente `utente1` esiste già, infatti questo comando prova ad aggiungere l'utente `utente1` al gruppo `studente`.
+>>
+>>Gli unici casi in cui questo comando genera un errore è quando l' utente `utente1` non esiste, o quando il gruppo `studente` non esiste.
 
 >[!note] Domanda Numero 41 🟢
 >
@@ -823,9 +892,9 @@ SIGTERM
 >>Birth: -
 >>```
 
->[!note] Domanda Numero 42
+>[!note] Domanda Numero 42 🟢
 >
->Una directory con i permessi di accesso settati a `rw- --- ---` permette all'utente proprietario della directory di: leggere il contenuto della directory inclusi gli attributi del file; impostare la directory come cwd; attraversare la directory;
+>Una directory con i permessi di accesso impostati a `rw- --- ---` permette all'utente proprietario della directory di: leggere il contenuto della directory inclusi gli attributi del file; impostare la directory come cwd; attraversare la directory;
 >
 >- [ ] Vero
 >- [ ] Falso
@@ -833,3 +902,11 @@ SIGTERM
 >>[!done]- Risposta
 >>
 >>Falso
+>>
+>>---
+>>
+>>**Motivazione:** I permessi `rw- --- ---` permettono all'utente proprietario di:
+>>- "leggere" la directory (ad esempio utilizzare `ls` su di essa)
+>>- "scrivere" sulla directory ovvero creare e rimuovere file dalla directory (ma senza `x` in realtà non è possibile)
+>>
+>>Non può attraversare la directory quindi non può impostarla come `CWD`

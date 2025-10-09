@@ -6,7 +6,7 @@ academic year: 2024/2025
 related:
 completed: true
 created: 2025-10-05T19:14
-updated: 2025-10-06T20:42
+updated: 2025-10-07T08:56
 ---
 ## Rappresentazione dei processi
 
@@ -51,10 +51,10 @@ updated: 2025-10-06T20:42
 **Stati di un processo:** ^dc2ba3
 - *Running (R):* in esecuzione su un processore
 - *Runnable (R):* pronto per essere eseguito (non e in attesa di alcun evento); in attesa che lo scheduler lo (ri)seleziona per l’esecuzione
-- *(Interruptible) Sleep (S):* e in attesa di un qualche evento (ad esempio, lettura di blocchi dal disco), e non puo quindi essere scelto dallo scheduler
+- *(Interruptible) Sleep (S):* e in attesa di un qualche evento (ad esempio, lettura di blocchi dal disco), e non può quindi essere scelto dallo scheduler
 - *Zombie (Z):* il processo e’ terminato e le sue 6 aree di memoria non sono più in memoria; tuttavia, il suo PCB viene ancora mantenuto dal kernel perché il processo padre non ha ancora richiesto il suo “exit status" (ritorneremo su questo punto)
 - *Stopped (T):* caso particolare di sleeping: avendo ricevuto un segnale STOP, e in attesa di un segnale CONT
-- *Traced (t):* in esecuzione di debug, oppure in generale in attesa di un segnale (altro caso particolare di sleeping; vedremo piu avanti)
+- *Traced (t):* in esecuzione di debug, oppure in generale in attesa di un segnale (altro caso particolare di sleeping; vedremo più avanti)
 - *Uninterruptible sleep (D):* come sleep, ma tipicamente sta facendo operazioni di IO su dischi lenti e non puo essere interrotto ne ucciso
 
 >[!note] Esecuzione Foreground

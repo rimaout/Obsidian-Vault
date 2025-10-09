@@ -6,11 +6,11 @@ academic year: 2024/2025
 related:
 completed: true
 created: 2025-10-05T19:31
-updated: 2025-10-06T20:52
+updated: 2025-10-08T09:07
 ---
-## Esecuzione in background  di un comando (&)
+## Esecuzione in background di un comando (&)
 
-In Bash, il simbolo `&` messo *alla fine di un comando* serve per eseguire il comando in background. Questo permette di *continuare a usare il terminale* mentre il comando è ancora in esecuzione.
+In Bash, il simbolo `&` (ampersand) messo *alla fine di un comando* serve per eseguire il comando in background. Questo permette di *continuare a usare il terminale* mentre il comando è ancora in esecuzione.
 
 Ad esempio possiamo eseguire in background il comando `sleep` in questo modo:
 
@@ -56,7 +56,6 @@ Viene creato un solo job dove i comandi sono eseguiti **contemporaneamente** (in
 >- senza niente: mostra il *job number*, lo *stato* e il *comando* dei processi
 >- `-l`: aggiunge anche *PID*
 >- `-p`: mostra soltanto i *PID*
->- `-e` permette di vedere i processi in esecuzione in tutti il sistema (non soltanto shell attuale)
 >
 >```bash
 >sleep 60 &    # Avvia in background

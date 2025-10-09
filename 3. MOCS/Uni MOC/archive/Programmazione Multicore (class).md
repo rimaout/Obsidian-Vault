@@ -2,10 +2,13 @@
 Main Moc: "[[Uni MOC]]"
 academic year: 2025/2026
 created: 2025-09-23T17:21
-updated: 2025-10-01T15:36
+updated: 2025-10-08T14:31
 ---
 [sito corso]()
 [[C MOC]]
+
+[[PME - L7ott]]
+[[PME - L8ott]]
 
 **Chapters:**
 - Why parallel programming

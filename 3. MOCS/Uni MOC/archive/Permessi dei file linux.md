@@ -4,9 +4,9 @@ class:
   - "[[Sistemi Operativi 2 (class)]]"
 academic year: 2024/2025
 related:
-completed: false
+completed: true
 created: 2025-10-03T17:50
-updated: 2025-10-06T18:15
+updated: 2025-10-07T09:58
 ---
 
 I permessi di accesso indicano chi può fare cosa.

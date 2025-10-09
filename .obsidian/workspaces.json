@@ -40,6 +40,20 @@
                   "icon": "lucide-file",
                   "title": "Sistemi Operativi 2 (class)"
                 }
+              },
+              {
+                "id": "158f65c2fa4bc99b",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/archive/Comandi linux per gestione processi.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Comandi linux per gestione processi"
+                }
               }
             ],
             "currentTab": 1
@@ -277,7 +291,7 @@
         }
       },
       "active": "a8b661dc45f582e8",
-      "mtime": "2025-09-29T10:49:39+02:00"
+      "mtime": "2025-10-09T11:18:27+02:00"
     },
     "WASA": {
       "main": {
@@ -305,17 +319,17 @@
                 }
               },
               {
-                "id": "cb8ef39183a205db",
+                "id": "84893e73ea2c9214",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/archive/Introduzione a git.md",
+                    "file": "3. MOCS/Uni MOC/archive/API.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "Introduzione a git"
+                  "title": "API"
                 }
               }
             ],
@@ -553,8 +567,8 @@
           "obisidian-note-linker:Note Linker": false
         }
       },
-      "active": "cb8ef39183a205db",
-      "mtime": "2025-09-30T17:37:32+02:00"
+      "active": "84893e73ea2c9214",
+      "mtime": "2025-10-09T16:20:23+02:00"
     },
     "Multicore": {
       "main": {
@@ -568,6 +582,7 @@
               {
                 "id": "c7883166ddb2a372",
                 "type": "leaf",
+                "pinned": true,
                 "state": {
                   "type": "markdown",
                   "state": {
@@ -575,36 +590,23 @@
                     "mode": "source",
                     "source": false
                   },
+                  "pinned": true,
                   "icon": "lucide-file",
                   "title": "Programmazione Multicore (class)"
                 }
               },
               {
-                "id": "df4d23778da1722b",
+                "id": "b918b59ecda057ed",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Programming MOC/archive/C MOC.md",
+                    "file": "3. MOCS/Uni MOC/archive/PME - L8ott.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "C MOC"
-                }
-              },
-              {
-                "id": "86ab2ab2944516a2",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Programming MOC/archive/C Structures.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "C Structures"
+                  "title": "PME - L8ott"
                 }
               }
             ],
@@ -842,8 +844,8 @@
           "obisidian-note-linker:Note Linker": false
         }
       },
-      "active": "df4d23778da1722b",
-      "mtime": "2025-10-01T17:39:06+02:00"
+      "active": "b918b59ecda057ed",
+      "mtime": "2025-10-08T19:46:57+02:00"
     },
     "Automi": {
       "main": {
@@ -871,45 +873,17 @@
                 }
               },
               {
-                "id": "165c0e8d064f4cd5",
+                "id": "bd9d0dae707f996a",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/archive/Espressioni Regolari.md",
+                    "file": "To-Do/To-Do.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "Espressioni Regolari"
-                }
-              },
-              {
-                "id": "75ca6963b0c401d6",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/archive/Linguaggi Regolari e Chiusure.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Linguaggi Regolari e Chiusure"
-                }
-              },
-              {
-                "id": "a3e86c58d734be00",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/archive/Automi Non Deterministici (NFA).md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Automi Non Deterministici (NFA)"
+                  "title": "To-Do"
                 }
               }
             ],
@@ -1147,8 +1121,8 @@
           "obisidian-note-linker:Note Linker": false
         }
       },
-      "active": "165c0e8d064f4cd5",
-      "mtime": "2025-10-03T17:44:15+02:00"
+      "active": "bd9d0dae707f996a",
+      "mtime": "2025-10-09T16:22:36+02:00"
     },
     "IngSoftware": {
       "main": {
@@ -2488,8 +2462,8 @@
         }
       },
       "active": "dc9027bbe9cc32f6",
-      "mtime": "2025-10-05T16:04:21+02:00"
+      "mtime": "2025-10-09T11:18:25+02:00"
     }
   },
-  "active": "Sistemi Operativi"
+  "active": "Automi"
 }

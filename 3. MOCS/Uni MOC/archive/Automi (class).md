@@ -2,7 +2,7 @@
 type: "[[Uni MOC]]"
 academic year: 2024/2025
 created: 2025-09-24T08:15
-updated: 2025-10-03T14:40
+updated: 2025-10-09T16:23
 ---
 Risorse: [Daniele Venturi](https://corsidilaurea.uniroma1.it/it/users/danieleventuriuniroma1it), [Dispenze](https://dventuri83.github.io/projects/3_acc/)
 
@@ -15,9 +15,9 @@ Domande del corso: Quali sone le limitazioni intrinseche della computazione
 
 >[!note] Linguaggi Regolari
 >1. [[Linguaggi (definizioni base)]] 🟢
->2. [[Automi Deterministici (DFA)]] 🟢 c'è errore nell esempio
+>2. [[Automi Deterministici (DFA)]] 🟢
 >3. [[Automi Non Deterministici (NFA)]] 🟢
->4. [[Equivalenza tra DFA e NFA]] 🟠
->5. [[Linguaggi Regolari e Chiusure]] per ora finito ma nelle prossime lezioni continuerà
+>4. [[Equivalenza tra DFA e NFA]] 🟢
+>5. [[Linguaggi Regolari e Chiusure]] 🔴
 >6. [[Espressioni Regolari]]
 
