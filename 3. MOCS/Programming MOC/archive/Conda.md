@@ -2,9 +2,9 @@
 created: 2024-02-24
 type: Programming Note
 programming language: "[[Python MOC]]"
-related: 
+related:
 completed: false
-updated: 2024-12-10T14:31
+updated: 2025-10-14T11:11
 ---
 ## Common commands
 
@@ -28,5 +28,3 @@ conda activate ENV_NAME
 ```shell
 conda deactivate ENV_NAME
 ```
-
-***

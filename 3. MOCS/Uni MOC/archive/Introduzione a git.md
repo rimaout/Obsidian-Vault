@@ -4,9 +4,9 @@ class:
   - "[[WASA (class)]]"
 academic year: 2024/2025
 related:
-completed: false
+completed: true
 created: 2025-09-25T14:21
-updated: 2025-09-30T14:28
+updated: 2025-10-14T11:52
 ---
 >[!note] Definizioni
 >- *Commit:* un'istantanea del repository in un determinato momento.

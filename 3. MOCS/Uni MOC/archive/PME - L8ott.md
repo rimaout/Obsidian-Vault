@@ -5,16 +5,15 @@ academic year: 2024/2025
 related:
 completed: false
 created: 2025-10-08T14:31
-updated: 2025-10-08T16:12
+updated: 2025-10-11T15:07
 ---
 ## Sending order
 
-MPI requires that messages be nonovertaking. This means that if process `q` sends two messages to process `r`, then the first message sent by `q` must be available to `r` before the second message.
+MPI requires that messages be non-overtaking. This means that if process `q` sends two messages to process `r`, then the first message sent by `q` must be available to `r` before the second message.
 
 However, there is no restriction on the arrival of messages sent from different processes
 
 ## Data Types
-
 
 | MPI Datatype       | C Datatype           |
 | ------------------ | -------------------- |

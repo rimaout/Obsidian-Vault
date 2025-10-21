@@ -2,13 +2,17 @@
 Main Moc: "[[Uni MOC]]"
 academic year: 2025/2026
 created: 2025-09-23T17:21
-updated: 2025-10-08T14:31
+updated: 2025-10-13T14:37
 ---
 [sito corso]()
 [[C MOC]]
 
 [[PME - L7ott]]
 [[PME - L8ott]]
+
+>[!note] MPI
+>- [[Introduzione alla Memoria Distribuita con Libreria MPI (MPI_Recv, MPI_Send)]]
+
 
 **Chapters:**
 - Why parallel programming

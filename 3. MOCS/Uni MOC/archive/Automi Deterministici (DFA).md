@@ -6,7 +6,7 @@ academic year: 2024/2025
 related:
 completed: true
 created: 2025-09-25T16:48
-updated: 2025-10-01T17:51
+updated: 2025-10-10T12:13
 ---
 ## Definizione
 
@@ -36,8 +36,7 @@ updated: 2025-10-01T17:51
 >> - $\Sigma = \{ 0,1 \}$ è l'alfabeto dell'automa
 >> - $\delta:Q \times \Sigma \to Q$ è definita come:
 >>
->>![[Pasted image 20250926123114.png|300]]
-
+>>![[Pasted image 20251010121325.png|300]]
 ## Caratteristiche
 
 >[!note] Definizione: Stato Pozzo 🟢

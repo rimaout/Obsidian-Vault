@@ -6,7 +6,7 @@ related:
   - "[[Python Lists]]"
   - "[[Python Data Types#Mutable and Unmutable data types|Python Mutable and Unmutable datatypes]]"
 completed: true
-updated: 2024-05-27T13:29
+updated: 2025-10-14T11:11
 ---
 ---
 ## Index
@@ -135,7 +135,7 @@ print(shallow) #Output: ([1, 2], {3})
 print(deep)    #Output: ([1], {3})
 
 ```
-\
+
 ![[Pasted image 20231202184314.png|1100]]
 
 ---

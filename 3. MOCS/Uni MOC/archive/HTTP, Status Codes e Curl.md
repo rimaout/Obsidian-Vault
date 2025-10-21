@@ -3,9 +3,9 @@ type: Uni Note
 class:
 academic year: 2024/2025
 related:
-completed: false
+completed: true
 created: 2025-10-07T14:14
-updated: 2025-10-07T16:07
+updated: 2025-10-14T11:52
 ---
 ## HTTP
 
@@ -127,7 +127,6 @@ Ecco gli appunti scritti con la stessa struttura di quelli che mi avevi inviato 
 
 ### Altri metodi utili
 
-
 | Metodo    | Descrizione                                                                          |
 | --------- | ------------------------------------------------------------------------------------ |
 | `HEAD`    | Come `GET`, ma non trasferisce il contenuto della risposta (solo header)             |
@@ -137,4 +136,69 @@ Ecco gli appunti scritti con la stessa struttura di quelli che mi avevi inviato 
 
 ## Codici di Stato
 
-	## CURL
+Le richieste HTTP contengono sempre uno status code che descrive lo stato della richiesta, ne esistono di 5 categorie:
+
+
+| Categoria Codice      | Descrizione                                                                                |
+| --------------------- | ------------------------------------------------------------------------------------------ |
+| `1xx` (Informational) | La richiesta è stata ricevuta, processo in corso (*Hold on*).                              |
+| `2xx` (Successful)    | La richiesta è stata ricevuta, compresa e accettata con successo (*Here you go*).          |
+| `3xx` (Redirection)   | Sono necessarie ulteriori azioni per completare la richiesta (*Go away*).                  |
+| `4xx` (Client Error)  | La richiesta contiene sintassi errata o non può essere soddisfatta (*You fucked up*).      |
+| `5xx` (Server Error)  | Il server non è riuscito a soddisfare una richiesta apparentemente valida (*I fucked up*). |
+|                       |                                                                                            |
+
+>[!note] 1xx Comuni
+>
+>| Codice |  Descrizione  |
+>| --- | --- |
+>|     |     |
+ 
+>[!note] 2xx Comuni
+>
+>| Codice |  Descrizione  |
+>| --- | --- |
+>| `200` OK | In una richiesta GET, la risposta conterrà un'entità corrispondente alla risorsa richiesta; in una richiesta POST, la risposta conterrà un'entità che descrive o contiene il risultato dell'azione |
+>| `201` Created | La richiesta è stata soddisfatta, risultando nella creazione di una nuova risorsa |
+>| `204` No Content | Il server ha elaborato con successo la richiesta e non sta restituendo alcun contenuto |
+
+>[!note] 3xx Comuni
+>
+>| Codice |  Descrizione  |
+>| --- | --- |
+>| `301` Moved Permanently | Questa e tutte le richieste future dovrebbero essere indirizzate all'URI fornito |
+>| `302` Found | Guarda un'altra URL |
+
+>[!note] 4xx Comuni
+>
+>| Codice |  Descrizione  |
+>| --- | --- |
+>| `400` Bad Request | Apparente errore del client |
+>| `401` Unauthorized | È richiesta l'autenticazione |
+>| `403` Forbidden | La richiesta conteneva dati validi ed è stata compresa dal server, ma l'azione è proibita |
+>| `404` Not Found | La risorsa non è stata trovata ma potrebbe essere disponibile in futuro|
+>| `405` Method Not Allowed | Il metodo di richiesta non è supportato; ad esempio, una richiesta PUT su una risorsa di sola lettura |
+
+>[!note] 5xx Comuni
+>
+>| Codice |  Descrizione  |
+>| --- | --- |
+>| `500` Internal Server Error | Condizione inaspettata riscontrata |
+>| `501` Not Implemented | Metodo di richiesta non riconosciuto, oppure il server non ha la capacità di soddisfare la richiesta |
+>| `502` Bad Gateway | Un gateway o proxy ha ricevuto una risposta non valida dal server a monte |
+>| `503` Service Unavailable | Server sovraccarico o inattivo per manutenzione (temporaneo) |
+>| `504` Gateway Timeout | Il server non ha ricevuto una risposta tempestiva dal server a monte |
+
+##  Curl Basics
+
+
+| Metodo        | Scopo                                                         | Sintassi                                                                                                                          |
+| ------------- | ------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| GET (Default) | Scarica il contenuto della risorsa                            | `curl https://swapi.dev/api/people/1/`                                                                                            |
+| HEAD          | Richiede solo le intestazioni (Header), non il corpo          | `curl -I https://swapi.dev/api/people/1/`                                                                                         |
+| POST          | Invia dati per creare una nuova risorsa                       | `curl -X POST -H "Content-Type: application/json" -d {"title": "Test"} https://jsonplaceholder.typicode.com/posts`                |
+| PUT           | Invia dati per sostituire una risorsa esistente (Idempotente) | `curl -X PUT -H "Content-Type: application/json" -d {"id": 1, "title": "New Title"} https://jsonplaceholder.typicode.com/posts/1` |
+| DELETE        | Elimina la risorsa                                            | `curl -X DELETE https://jsonplaceholder.typicode.com/posts/1`                                                                     |
+| HEADERS       | Visualizza tutte le intestazioni (opzione per GET)            | `curl -i https://swapi.dev/api/people/1/`                                                                                         |
+
+

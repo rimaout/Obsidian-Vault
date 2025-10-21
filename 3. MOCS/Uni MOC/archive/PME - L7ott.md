@@ -5,7 +5,7 @@ academic year: 2024/2025
 related:
 completed: false
 created: 2025-10-07T17:18
-updated: 2025-10-07T18:08
+updated: 2025-10-11T16:25
 ---
 Scriveremo programmi che sono esplicitamente paralleli, per farlo useremo 4 differenti estensioni di `C`:
 - Message-Passing Interface (MPI) (Library)
@@ -47,11 +47,7 @@ L'obbiettivo quando si scrive codice è di sfruttare al massimo la località dei
 
 ----
 
-# Distributed memory programming’s with MPI
 
-In distributed memory programming (MPI) utilizziamo del hardware basato su sistemi dimemoria distribuiti:
-
-![[Pasted image 20251007175202.png|500]]
 
 ## Single-Program Multiple-Data (SPMD)
 

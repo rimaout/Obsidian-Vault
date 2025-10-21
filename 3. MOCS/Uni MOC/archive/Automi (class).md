@@ -2,7 +2,7 @@
 type: "[[Uni MOC]]"
 academic year: 2024/2025
 created: 2025-09-24T08:15
-updated: 2025-10-09T16:23
+updated: 2025-10-20T11:35
 ---
 Risorse: [Daniele Venturi](https://corsidilaurea.uniroma1.it/it/users/danieleventuriuniroma1it), [Dispenze](https://dventuri83.github.io/projects/3_acc/)
 
@@ -19,5 +19,13 @@ Domande del corso: Quali sone le limitazioni intrinseche della computazione
 >3. [[Automi Non Deterministici (NFA)]] 🟢
 >4. [[Equivalenza tra DFA e NFA]] 🟢
 >5. [[Linguaggi Regolari e Chiusure]] 🔴
->6. [[Espressioni Regolari]]
+>6. [[Espressioni Regolari]] 🟢
+>7. [[NFA Generalizzati (GNFA)]]
+>8. [[Pumping Lemma]]
+
+>[!note] Linguaggi Acontestuali
+>
+>- [[Grammatiche e Linguaggi Acontestuali]] 🟢
+>- [[Linguaggi Acontestuali]]
+>- [[Forma Normale di Chomsky]]
 
