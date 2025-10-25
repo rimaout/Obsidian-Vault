@@ -6,7 +6,7 @@ academic year: 2024/2025
 related:
 completed: true
 created: 2025-10-15T14:35
-updated: 2025-10-21T10:52
+updated: 2025-10-22T15:50
 ---
 ## Introduzione
 
@@ -178,29 +178,131 @@ $$
 >- $S \to aSc \mid T$
 >- $T \to bTc \mid \epsilon$
 
-## Ordine di derivazione e grammatiche ambigue
+## Ambiguità e Ordine di Derivazione 
 
+Alcune grammatiche possono **generare la stessa stringa in più modi diversi**, una tale stinga avrà diversi alberi sintattici e di conseguenza diversi significati.
 
->[!note] Osservazione: Più derivazioni per una stessa stringa
+Questa caratteristica in alcuni contesti può essere considerata indesiderata, ad esempio nei linguaggi di programmazione ogni programma deve avere un unica implementazione.
+
+>***Ad esempio:*** se prendiamo un CFG con le seguenti regole: $E \to E+E  \mid E E \mid (E) \mid a$ 
 >
->Sia $G$ una CFG. Data la stringa $w \in L(G),$ possono esistere più derivazioni di $w$
+>La stringa $a+a \times a$ può essere ottenuta in due modi:
+>
+>![[Pasted image 20251022092227.png|700]]
+
+In particolare una **stinga genera ambiguità** quando ha più di un albero sintattico, e non più differenti derivazioni. Infatti una stinga non ambigue può avere due derivazioni che differiscono nell'ordine delle sostituzioni, ma non nell struttura complessiva.
+
+Per definire formalmente il concetto di ambiguità, dobbiamo prima di tutto definire una derivazione a sinistra.
+
+>[!note] Def: Derivazione a sinistra
+>
+>Data una CFG $G = \big(V, \Sigma, R, S\big)$, definiamo la derivazione $S \overset{*}{\Rightarrow} w$ come derivazione sinistra se ad ogni produzione interna alla derivazione viene valutata la variabile più a sinistra.
+>
+>>[!example]- Esempio
+>>
+>>Riprendiamo la CFG dell’esempio precedente, ma riscriviamo le regole per renderlo più leggibile (rimane equivalente):
+>>- $E \to E+F \mid E \times E \mid (E) \mid a$
+>>- $F \to E$
+>>
+>>Una derivazione sinistra della stringa $a + a + a$ corrisponde a:
+>>
+>>$$
+>>E\ \Rightarrow \ E+F\ \Rightarrow \ E+F+F \ \Rightarrow \ a+F+F \ \Rightarrow \ a+E+F \ \Rightarrow \ a+a+F \ \Rightarrow \ a+a+E \ \Rightarrow \ a+a+a
+>>$$
+
+>[!note] Def: Grammatica ambigua
+>
+>Definiamo una grammatica $G$ come **ambigua** se $\exists w \in L(G)$ tale che esistono almeno due derivazioni a sinistra per $w$.
+
+Se abbiamo una grammatica ambigua, a volte è possibile trovare una grammatica non ambigua che genera lo stesso linguaggio.
+
+Tuttavia alcuni linguaggi context-free possono essere generati solo da grammatiche ambigue e vengono chiamati **linguaggi intrinsecamente ambigui**.
+
+## Progettazione di CFG
+
+Costruire grammatiche context-free è più complesso rispetto a creare degli automi finiti.
+
+Ora vedremo delle tecniche che utilizzate singolarmente o combinate, aiutano nella creazione di grammatiche context-free.
+
+>[!note] Unione tra CFL
+>
+>Molto CFG sono l'unione di CFG più semplici.
 >
 >---
 >
->**Esempio:**
+>**Esempio:** Per ottenere una grammatica che descrive il seguente linguaggio:
 >
+>$$
+>\{ 0^{n}1^{n} \mid n\geq 0 \} \cup  \{ 1^{n}0^{n} \mid n\geq 0 \}
+>$$
 >
+>Troviamo prima la gramatica $s_{1} \to 0S_{1}1 \mid \epsilon$ per il linguaggio $\{ 0^{n}1^{n} \mid n\geq 0 \}$.
+>
+>Poi troviamo la grammatica $s_{2} \to 1S_{2}0 \mid \epsilon$ per il linguaggio $\{ 1^{n}0^{n} \mid n\geq 0 \}$
+>
+>Ora possiamo unire le grammatiche aggiungendo la regola $S \to S_{1} \mid S_{2}$, per ottenere un CFG che descrive il linguaggio $\{ 0^{n}1^{n} \mid n\geq 0 \} \cup  \{ 1^{n}0^{n} \mid n\geq 0 \}$.
+>
+>- $S \to S_{1} \mid S_{2}$
+>- $s_{1} \to 0S_{1}1 \mid \epsilon$
+>- $s_{2} \to 1S_{2}0 \mid \epsilon$
 
-Alta grammatica:
-$$
-\begin{align*}
-&(R_{1})\ \ \ E \to  E + E\\
-&(R_{2})\ \ \ E \to  E * E\\
-&(R_{3})\ \ \ E \to  E + (E)\\
-&(R_{4})\ \ \ E \to  0|1|2|\dots|9
-\end{align*}
-$$
+>[!note] Grammatiche con "Memoria"
+>
+>Alcuni linguaggi context-free contengono delle stringhe con due sottostringhe che sono "collegate" tra loro, ovvero sottostringhe dove il numero di caratteri di una dipende dal numero di caratteri dell'altra.
+>
+>Ad esempio il linguaggio $\{ 0^{n}1^{2n} \mid n\geq 0 \}$ per essere riconosciuto dobbiamo avere una grammatica capace di ricordare il numero di simboli uguali a 0 per verificare che esso è uguale al numero di simboli uguali a 1.
+>
+>Si può costruire un CFG per gestire questa situazione usando la regola della forma $R \to 0R11$
 
+## Linguaggi acontestuali ad estensione dei regolari
 
+>[!note] Classe dei linguaggi acontestuali
+>Dato un alfabeto Σ, definiamo come classe dei linguaggi acontestuali di Σ il seguente insieme:
+>
+>$$
+>\text{CFL} = \big\{\,L \subseteq  \Sigma^{*} \mid \exists \text{CFG }\, G\ \text{ t.c }\ L = L(G)\, \big\}
+>$$
 
+>[!danger] Lemma: Conversione da DFA a CFG
+>Date le due classi dei linguaggi REG e CFL, si ha che: 
+>$$
+>\text{REG} \subset  \text{CFL}
+>$$
 
+>[!note] Costruire CFG partendo da DFA
+>
+>Se si deve costruire un CFG per un linguaggio regolare allora è possibile costruire prima un DFS per quel linguaggio. 
+>
+>Poi possiamo trasforma il DFA in un CFG equivalente, in questo modo:
+>- Creiamo una variabile $R_{i}$ per ogni stato $q_{i}$ del DFA
+>- Aggiungiamo la regola $R_{i} \to aR_{j}$ se $\delta(q_{i},a) = q_{j}$ è una transazione del DFA
+>- Aggiungiamo la regola $R_{i} \to \epsilon$ se $q_{i}$ se $q_{i}$ è uno stato accettante del DFA
+>- Assumiamo che $R_{0}$ è la variabile iniziale, dove $q_{0}$ è lo stato iniziale della macchina.
+>  
+>È possibile verificare che i linguaggi del DFA e CFG sono equivalenti.
+
+>[!example] Esempio
+>
+>Consideriamo il seguente DFA:
+>
+>![[Pasted image 20251022153826.png|800]]
+>
+>Un CFG $G = \big( V,\Sigma, R, S \big)$ equivalente è sostituito da:
+>- $V = \{ V_{1},V_{2},V_{3},V_{4} \}$
+>- $S = V_{1}$
+>- $R$ definito come:
+>
+>$$
+>\begin{align*}
+>& V_{1} \to  0V_{1} \mid 1V_{2}\\
+>& V_{2} \to  0V_{2} \mid 1V_{3}\\
+>& V_{3} \to  0V_{3} \mid 1V_{4}\\
+>& V_{4} \to  0V_{4} \mid 1V_{4} \mid \epsilon
+>\end{align*}
+>$$
+>
+>Sia il DFA che il CFG descrivono il linguaggio:
+>
+>$$
+>L = \{ w \in \Sigma^{*} \mid |w|_{1}\geq 3 \}
+>$$

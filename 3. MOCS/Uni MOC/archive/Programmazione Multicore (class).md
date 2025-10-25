@@ -2,13 +2,14 @@
 Main Moc: "[[Uni MOC]]"
 academic year: 2025/2026
 created: 2025-09-23T17:21
-updated: 2025-10-13T14:37
+updated: 2025-10-21T17:31
 ---
 [sito corso]()
 [[C MOC]]
 
 [[PME - L7ott]]
 [[PME - L8ott]]
+[[PME - L22ott]]
 
 >[!note] MPI
 >- [[Introduzione alla Memoria Distribuita con Libreria MPI (MPI_Recv, MPI_Send)]]

@@ -6,7 +6,7 @@ academic year: 2024/2025
 related:
 completed: true
 created: 2025-10-15T11:25
-updated: 2025-10-15T14:17
+updated: 2025-10-21T14:50
 ---
 ## Cos'è?
 
@@ -34,17 +34,18 @@ updated: 2025-10-15T14:17
 >
 >Una ***Uniform Resource Identifier (URI)*** è una *sequenza unica* di caratteri che *identifica* una risorsa logica o fisica (Esempio: `http://example.com/users`).
 >
->>**URI Best Practice:** Utilizzare ***sostantivi*** per indicare le risorse
+>>**URI Best Practice:** Utilizzare ***sostantivi*** per indicare le risorse (non verbi)
 >>- ***singolari*** per risorse singole
 >>- ***plurali*** per risorse multiple
 >  
 >>**URI Notation:** 
 >>1. Forward slash (`/`): Usato per esprimere la gerarchia
->>	- *﻿﻿﻿Suggerimento*: usare il *trailing slash* solo se la risorsa non è una *foglia*
->>2. ﻿﻿﻿Preferire i trattini (`-`) agli underscore (`_`)
->>3. ﻿﻿﻿Utilizzare solo lettere minuscole
->>4. ﻿﻿﻿Non utilizzare estensioni di file (il media type è comunicato negli header)
->>5. ﻿﻿﻿Utilizzare la **componente query** per filtrare (Esempio: `http://example.com/managed-devices/?region=USA`)
+>>	- *﻿﻿﻿Suggerimento*: usare il *trailing slash* solo se la risorsa non è una *foglia* ovvero se è una collezione di risorse
+>>	- *Esempio*: `.../users/` è una risorsa multipla, `.../users/admin` è una risorsa singola
+>>1. ﻿﻿﻿Preferire i trattini (`-`) agli underscore (`_`)
+>>2. ﻿﻿﻿Utilizzare solo lettere minuscole
+>>3. ﻿﻿﻿Non utilizzare estensioni di file (il media type è comunicato negli header)
+>>4. ﻿﻿﻿Utilizzare la **componente query** per filtrare (Esempio: `http://example.com/managed-devices/?region=USA`)
 >
 >| Regola | Esempio Positivo | Esempio Negativo |
 >|---|---|---|
@@ -148,3 +149,5 @@ Quindi gli URI identificano la cosa, i metodi HTTP definiscono cosa fare con que
 >>- *Esempio:* `PATCH /documents/{id}` con corpo: `{status: "published"}`
 >
 >Il secondo approccio (`PATCH`)  è preferito perché mantiene un modello più puro, in cui si agisce sullo *stato* della risorsa.
+
+
