@@ -6,7 +6,7 @@ academic year: 2024/2025
 related:
 completed: true
 created: 2025-10-06T16:35
-updated: 2025-10-08T12:22
+updated: 2025-10-25T16:29
 ---
 >[!note] Domanda Numero 1 🟢
 >
@@ -791,7 +791,6 @@ SIGTERM
 >>- il fil eseguibile ha i bit `setuid` o `setgid` attivi
 >>  
 >>In questo caso `myProgram` non viene eseguito con `sudo` e non ha i bit `setuid` o `setgid` attivi, quando `RUID == EUID`.
-
 
 >[!note] Domanda Numero 38
 >

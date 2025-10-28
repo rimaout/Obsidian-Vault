@@ -1,6 +1,6 @@
 ---
 created: 2023-09-26T10:14
-updated: 2025-10-04T11:03
+updated: 2025-10-27T11:25
 ---
 >**First year, first semester:**
 >- [[Matematica 0 (class)]]
@@ -31,7 +31,7 @@ updated: 2025-10-04T11:03
 >- [[Programmazione Multicore (class)]]
 >- [[Automi (class)]]
 >- [[Ingegneria del Software (class)]]
->- [[LDP (class)]]
+>- [[Linguaggi di Programmazione (class)]]
 
 >**Third year, second semester:**
 

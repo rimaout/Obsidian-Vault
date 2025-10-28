@@ -2,9 +2,11 @@
 Main Moc: "[[Uni MOC]]"
 related:
 created: 2024-09-24T15:33
-updated: 2025-09-25T16:17
+updated: 2025-10-25T16:23
 academic year: 2024/2025
 ---
+[[Domande Esame Scritto SO1]]
+
 >[!note] Introduzione
 >- [[Interruzioni 101]] 🟢
 >- [[Input Output - Introduzione]] 🟢
@@ -35,3 +37,4 @@ academic year: 2024/2025
 >[!note] Gestione dell'Input/Output
 >- [[Dispositivi di Input Output]]
 >- [[Progettazione dell'Input Output]]
+

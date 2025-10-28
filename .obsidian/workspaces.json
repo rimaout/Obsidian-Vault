@@ -40,20 +40,6 @@
                   "icon": "lucide-file",
                   "title": "Sistemi Operativi 2 (class)"
                 }
-              },
-              {
-                "id": "158f65c2fa4bc99b",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/archive/Comandi linux per gestione processi.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Comandi linux per gestione processi"
-                }
               }
             ],
             "currentTab": 1
@@ -123,8 +109,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 531.504789352417,
-        "collapsed": true
+        "width": 309.5062494277954
       },
       "right": {
         "id": "1599d9a7234429ed",
@@ -291,7 +276,7 @@
         }
       },
       "active": "a8b661dc45f582e8",
-      "mtime": "2025-10-09T11:18:27+02:00"
+      "mtime": "2025-10-25T16:29:58+02:00"
     },
     "WASA": {
       "main": {
@@ -317,23 +302,8 @@
                   "icon": "lucide-file",
                   "title": "WASA (class)"
                 }
-              },
-              {
-                "id": "47d4ca028d0e661c",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "To-Do/To-Do.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "To-Do"
-                }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "vertical"
@@ -513,7 +483,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "To-Do/To-Do.md",
+                    "file": "3. MOCS/Uni MOC/archive/Esercizio Nasoni - WASA.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -536,12 +506,12 @@
                       "repelStrength": 10,
                       "linkStrength": 1,
                       "linkDistance": 250,
-                      "scale": 1,
+                      "scale": 0.6147386005232408,
                       "close": true
                     }
                   },
                   "icon": "lucide-git-fork",
-                  "title": "Graph of To-Do"
+                  "title": "Graph of Esercizio Nasoni - WASA"
                 }
               }
             ],
@@ -549,7 +519,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 350.5
+        "width": 350.5,
+        "collapsed": true
       },
       "left-ribbon": {
         "hiddenItems": {
@@ -567,8 +538,8 @@
           "obisidian-note-linker:Note Linker": false
         }
       },
-      "active": "47d4ca028d0e661c",
-      "mtime": "2025-10-24T18:05:38+02:00"
+      "active": "dfe4611595b4b85d",
+      "mtime": "2025-10-28T17:17:02+01:00"
     },
     "Multicore": {
       "main": {
@@ -594,37 +565,8 @@
                   "icon": "lucide-file",
                   "title": "Programmazione Multicore (class)"
                 }
-              },
-              {
-                "id": "a5189822c58467cf",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/archive/PME - L22ott.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "PME - L22ott"
-                }
-              },
-              {
-                "id": "19d2820a344b3b44",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "To-Do/To-Do.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "To-Do"
-                }
               }
-            ],
-            "currentTab": 2
+            ]
           }
         ],
         "direction": "vertical"
@@ -858,8 +800,8 @@
           "obisidian-note-linker:Note Linker": false
         }
       },
-      "active": "19d2820a344b3b44",
-      "mtime": "2025-10-22T09:04:15+02:00"
+      "active": "c7883166ddb2a372",
+      "mtime": "2025-10-28T14:15:25+01:00"
     },
     "Automi": {
       "main": {
@@ -887,7 +829,35 @@
                 }
               },
               {
-                "id": "192c73d1a2c55e2a",
+                "id": "3593490ebf12d7e6",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/archive/Equivalenza tra PDA e CFG.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Equivalenza tra PDA e CFG"
+                }
+              },
+              {
+                "id": "e3badfe1293f9e5d",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/archive/Automi a Pila (PDA).md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Automi a Pila (PDA)"
+                }
+              },
+              {
+                "id": "f040d0a335806034",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -901,7 +871,7 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -1138,8 +1108,8 @@
           "obisidian-note-linker:Note Linker": false
         }
       },
-      "active": "192c73d1a2c55e2a",
-      "mtime": "2025-10-24T18:07:53+02:00"
+      "active": "f040d0a335806034",
+      "mtime": "2025-10-26T17:20:48+01:00"
     },
     "IngSoftware": {
       "main": {
@@ -1417,7 +1387,7 @@
         }
       },
       "active": "01abab4389c228fc",
-      "mtime": "2025-10-21T17:29:33+02:00"
+      "mtime": "2025-10-28T17:17:05+01:00"
     },
     "IUM": {
       "main": {
@@ -1973,13 +1943,27 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/archive/LDP (class).md",
+                    "file": "3. MOCS/Uni MOC/archive/Linguaggi di Programmazione (class).md",
                     "mode": "source",
                     "source": false
                   },
                   "pinned": true,
                   "icon": "lucide-file",
-                  "title": "LDP (class)"
+                  "title": "Linguaggi di Programmazione (class)"
+                }
+              },
+              {
+                "id": "acc82241da285a27",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/archive/Linguaggio Exp.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Linguaggio Exp"
                 }
               }
             ]
@@ -2217,7 +2201,7 @@
         }
       },
       "active": "6dcff719de9c7d89",
-      "mtime": "2025-10-24T17:40:43+02:00"
+      "mtime": "2025-10-27T19:27:21+01:00"
     },
     "Develop": {
       "main": {
@@ -2482,5 +2466,5 @@
       "mtime": "2025-10-09T11:18:25+02:00"
     }
   },
-  "active": "WASA"
+  "active": "Multicore"
 }

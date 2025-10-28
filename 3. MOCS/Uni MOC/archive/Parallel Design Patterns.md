@@ -1,21 +1,20 @@
 ---
 type: Uni Note
 class:
+  - "[[Programmazione Multicore (class)]]"
 academic year: 2024/2025
 related:
 completed: false
 created: 2025-10-21T17:31
-updated: 2025-10-21T18:42
+updated: 2025-10-27T19:30
 ---
 ## Parallel Design Patterns
 
-Sono dei [[design pattern]] ma applicati alla programmazione parallele, ovvero dei modi per risolvere problemi comuni incontrati nella programmazione  parallela, ci sono due principali tipologie:
-- Globally Parallel, Locally Sequential (GPLS)
-- Globally Sequential, Locally Parallel (GSLP)
+Sono dei [[design pattern]] ma applicati alla programmazione parallela, ovvero dei modi per risolvere problemi comuni incontrati nella programmazione  parallela. Ne esistono di due principali tipologie:
+- [[#Globally Parallel, Locally Sequential (GPLS)]]
+- [[#Globally Sequential, Locally Parallel (GSLP)]]
 
 ## Globally Parallel, Locally Sequential (GPLS)
-
-
 
 >[!note] Multiple Program Multiple Data
 >

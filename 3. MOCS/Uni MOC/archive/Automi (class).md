@@ -2,7 +2,7 @@
 type: "[[Uni MOC]]"
 academic year: 2024/2025
 created: 2025-09-24T08:15
-updated: 2025-10-24T18:06
+updated: 2025-10-26T11:34
 ---
 Risorse: [Daniele Venturi](https://corsidilaurea.uniroma1.it/it/users/danieleventuriuniroma1it), [Dispenze](https://dventuri83.github.io/projects/3_acc/)
 
@@ -26,7 +26,8 @@ Domande del corso: Quali sone le limitazioni intrinseche della computazione
 >[!note] Linguaggi Acontestuali
 >
 >- [[Grammatiche e Linguaggi Acontestuali (CFG)]] 🟢
->- [[Forma Normale di Chomsky (CNF)]] 🟠 (esempio da finire)
->- [[Automi a Pila]]
+>- [[Forma Normale di Chomsky (CNF)]] 🟢
+>- [[Automi a Pila (PDA)]] 🟠 (aggiungere esempi)
+>- [[Equivalenza tra PDA e CFG]]
 
 

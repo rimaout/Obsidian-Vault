@@ -6,38 +6,36 @@ academic year: 2024/2025
 related:
 completed: false
 created: 2025-10-23T17:18
-updated: 2025-10-24T17:20
+updated: 2025-10-26T11:30
 ---
 ## Introduzione
 
-Introduciamo un nuovo tipo di modello computazionale chiamato **automa a pila** (pushdown automata). Questi automi sono come gli automi finiti non deterministici ma hanno una componente in più chiamata pila (stack).
+Introduciamo un nuovo tipo di modello computazionale chiamato **automa a pila** (pushdown automata). Questi automi sono come gli automi finiti non deterministici ma hanno una componente in più, la pila (*stack*).
 
-Dimostreremo che la pila consente di creare automi che sono computazionali equivalenti a grammatiche context-free, ovvero automi che riconoscono linguaggi context-free.
+Dimostreremo che la pila consente di creare automi che sono computazionalmente equivalenti a grammatiche context-free, ovvero automi che *riconoscono linguaggi context-free*.
 
-Una pila è una struttura dati *last in, last out* dove tutte le operazioni sono effettuate dalla cima, in particolare ci sono:
+Una pila è una struttura dati **last in, last out** dove tutte le operazioni sono effettuate dalla cima, in particolare ci sono:
 - `push` che inserisce un simbolo in cima alla pila
 - `pop` che elimina l'elemento in cima alla pila
 
 ## Definizione PDA
 
 La definizione di un automa a pila è simile alla definizione di un automa finito $(Q, \Sigma, \delta,q_{0},F)$ ma a cui viene aggiunta la pila.
-
-La pila ha un suo alfabeto ($\Gamma$) che può essere diverso dall'alfabeto dell'automa.
-
-In particolare la funzione di transizione $\delta$ è diverse rispetto ad un automa finite.
+- La pila ha un suo alfabeto ($\Gamma$) che può essere diverso dall'alfabeto dell'automa.
+- La *funzione di transizione* $\delta$ è *diversa* rispetto ad un automa finite.
 
 Il **dominio** di $\delta$ è $Q \times \Sigma_{\epsilon} \times \Gamma_{\epsilon}$, quindi il futuro stati dipende da:
 - lo stato corrente
 - il simbolo in input letto
 - il simbolo in cima alla pila
 
->L'uno o l'altro simbolo può essere $\epsilon$, il che determina che la macchina si muova senza leggere un simbolo di input o senza leggere un simbolo dalla pila.
+>*Nota:* l'uno o l'altro simbolo può essere $\epsilon$, il che determina che la macchina si muova senza leggere un simbolo di input o senza leggere un simbolo dalla pila.
 
-Il condominio di $\delta$  è $\mathcal{P}(Q \times \Gamma_{\epsilon})$, quindi il risultato è descritto da:
+Il **condominio** di $\delta$  è $\mathcal{P}(Q \times \Gamma_{\epsilon})$, quindi il risultato è descritto da:
 - lo stato in cui ha portato la transizione
 - il carattere che è stato aggiunto in cima alla pila
 
->Il simbolo aggiunto alla pila può anche essere $\epsilon$, significando che non è stato aggiunto nessun simbolo.
+>*Nota:* il simbolo aggiunto alla pila può anche essere $\epsilon$, significando che non è stato aggiunto nessun simbolo.
 
 Quindi la funzione di transizione assume la forma:
 
@@ -87,3 +85,19 @@ $$
 
 ## Stringa accettata da un PDA
 
+Una PDA $P = \big( Q, \Sigma, \Gamma, \delta, q_{0}, F \big)$ accetta la stringa $w = w_{0}, \dots,w_{k} \in \Sigma_{\epsilon}$ se esistono:
+- una sequenza di stati $r_{0},\dots,r_{k+1} \in Q$ 
+- una sequenza di stringhe $s_{1}, \dots, s_{n} \in \Gamma^{*}$
+  
+che soddisfano le seguenti condizioni:
+1. $r_{0} = q_{0}$ e $s_{0}=\epsilon$, 
+	- questa condizione indica che $P$ inizia correttamente, ovvero nello stato iniziale e con una pila vuota
+2. $r_{k+1} \in F$ 
+	- questa condizione indica che alla fine dell'input $P$ si trova in uno stato di accettazione
+3. per ogni $i = 0, \dots,k$ abbiamo che $(r_{i+1},b) \in \delta(r_{i}, w_{i},a)$, dove: 
+	-  $s_{i} = at$ e $s_{i+1} = bt$ per qualche $a,b \in \Gamma_{\epsilon}$ e $t \in \Gamma^{*}$
+	- questa condizione indica che $P$ si muove correttamente in base allo stato, al simbolo di pila, e al prossimo simbolo in input
+
+## Esempi PDA
+
+libro pagina 71, exxis pagina 57

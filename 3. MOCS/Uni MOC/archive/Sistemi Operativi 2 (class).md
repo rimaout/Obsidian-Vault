@@ -2,7 +2,7 @@
 type: "[[Uni MOC]]"
 academic year: 2024/2025
 created: 2025-03-03T16:43
-updated: 2025-10-07T09:59
+updated: 2025-10-25T16:22
 ---
 ## Appunti Linux
 
@@ -16,7 +16,7 @@ updated: 2025-10-07T09:59
 - [[Processi in linux]] 🟢
 - [[Comandi linux per gestione processi]] 🟢
 
-[[Domande Esame Scritto]] 🟢
+[[Domande Esame Scritto SO2]] 🟢
 
 Comandi Utili:
 - `mkdir -p dir1/dir2` permette di creare directory `dir1` with inside a `dir2` directory
