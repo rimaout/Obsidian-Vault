@@ -1,6 +1,6 @@
 ---
 created: 2023-09-26T10:14
-updated: 2025-10-27T11:25
+updated: 2025-11-04T18:06
 ---
 >**First year, first semester:**
 >- [[Matematica 0 (class)]]
@@ -28,7 +28,7 @@ updated: 2025-10-27T11:25
 
 >**Third year, first semester:**
 >- [[WASA (class)]]
->- [[Programmazione Multicore (class)]]
+>- [[Programmazione Sistemi Multicore (class)]]
 >- [[Automi (class)]]
 >- [[Ingegneria del Software (class)]]
 >- [[Linguaggi di Programmazione (class)]]

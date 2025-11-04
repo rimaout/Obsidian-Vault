@@ -1,48 +1,77 @@
 ---
 type: Uni Note
 class:
-  - "[[Programmazione Multicore (class)]]"
+  - "[[Programmazione Sistemi Multicore (class)]]"
 academic year: 2024/2025
 related:
-completed: false
+completed: true
 created: 2025-10-21T17:31
-updated: 2025-10-27T19:30
+updated: 2025-11-04T18:06
 ---
 ## Parallel Design Patterns
 
-Sono dei [[design pattern]] ma applicati alla programmazione parallela, ovvero dei modi per risolvere problemi comuni incontrati nella programmazione  parallela. Ne esistono di due principali tipologie:
+Sono dei [[design pattern]] ma applicati alla programmazione parallela, ovvero dei modi per risolvere problemi comuni incontrati nella programmazione parallela. Ne esistono di due principali tipologie:
 - [[#Globally Parallel, Locally Sequential (GPLS)]]
 - [[#Globally Sequential, Locally Parallel (GSLP)]]
 
+![[Pasted image 20251103150451.png|600]]
+
 ## Globally Parallel, Locally Sequential (GPLS)
 
->[!note] Multiple Program Multiple Data
+L'applicazione esegue parallelamente diversi task (sequenziali), alcuni design patter di questo tipo sono:
+
+>[!note] Single-Program, Multiple Data
 >
->Single Program Multiple Data fallisce quando ...
+>Tutta la logica dell'applicazione è mantenuta in un singolo programma.
 >
->MPMD ha più eseguibili gh
+>Solitamente la struttura del programma è:
+>1. Inizializzazione del programma
+>2. Ottenimento degli identificatori
+>3. Esecuzione del programma in diverse ramificazioni in base ai core coinvolti (parte parallela)
+>4. Terminazione del programma
+>   
+>***Down sides***: questo design pattern non può essere utilizzato quando:
+>- requisiti di memoria troppo alti
+>- nodi di piattaforme diverse (non tutti uguali)
+>
+>Questi problemi sono risolti da: [[#^6aeff1|Multiple-Program Multiple Data]] design patern.
+
+^a2d304
+
+>[!note] Multiple-Program Multiple Data
+>
+>Ha gli stessi step di [[#^a2d304|Single-Program, Multiple Data]] ma il carico è suddiviso so più programmi che comunicano tra loro, e che lavorano su dati anche diversi.
+>
+>>***Nota:*** programmi possono essere eseguiti anche su piattaforme diverse.
 
 >[!note] Master-Worker
 >
->Quando un nodo finische il lavore ne riceve uno nuovo, quindi più il nodo è efficente più lavora
+>Design pattern che suddivide i processi/thread in due compiti:
+>- **Master**: un processo o thread che suddivide il problema in task, li distribuisce ai worker, raccoglie i risultati parziali e si occupa dell'I/O principale e dell'interfaccia utente.    
+>- **Worker**: più processi o thread che ricevono compiti dal master, li eseguono e restituiscono i risultati. I worker, una volta completato un task, chiedono subito il successivo al master, massimizzando l'uso delle risorse.
 >
->il nodo master deve rischia di essere un bottleneck, molto spesso si usa una gerarchia di master per suddividere il lavoro e non avere un unico punto di fallimento
+>>**Load balancing Implicito**: I worker più veloci eseguono più task, minimizzando i tempi morti.
+>
+>>**Master collo di bottiglia**: il master può saturare facilmente se i task sono troppo piccoli o il numero di worker è molto alto, per ridurre ridurre questo problema si utilizza una *gerarchia di master*.
 
 >[!note] Map-Reduce
 >
->Non è detto ci sono entrambe, a volte ce solo reduce e a volte solo map
+>Una versione modificata di Master-Worker, in cui i nodi worker eseguono due tipi di operazioni:
+>- **Map**: Esegue la computazione su un insieme di dati che risulta in un insieme di risultati parziali (ad esempio, esegue la somma su ogni elemento di un vettore)
+>- **Reduce**: Colleziona i risultati parziali e ne deriva un risultato finale (ad esempio, somma tutti gli elementi di un vettore ottenendo un unico scalare)
 >
->la principale differenza dal master e worker è che 
+
 ## Globally Sequential, Locally Parallel (GSLP)
+
+L'applicazione è composta da uno specifico "flusso" di esecuzione sequenziale, di cui alcune parti vengono eseguite in parallelo.
 
 >[!note] Fork/Join
 >
->In questo modello c'è un processo padre da cui parte l' esecuzione, i figli sono creati ad esecuzione quando ce ne è bisogno.
+>C'è un unico "padre" in cui parte l'esecuzione seriale, i figli sono creati attraverso una `fork` quando ce ne è bisogno, per eseguire le parti parallele, una volta che un figlio termina l'esecuzione viene "distutto".
 >
->Creare e distuggere un theread è costodo, quindi nella pratrica  i thread vengono creati e poi quanfdo hanno finito sno messi in idele, e se c'è un nuovo lavoro può essere assegnato ad uno idele.
+>>***Nota:*** creare e distruggere un thread è costoso, quindi nella pratica i figli vengono creati e poi quando hanno finito sono messi in idle, e se c'è un nuovo lavoro può essere assegnato ad uno di questi figli.
 >
->
->Torna utile quando abbiamo problemi ricorsivi ad esempio:
+>**Esempio** il fork join può tornare utile quando abbiamo problemi ricorsivi, ad esempio:
 >
 >```c
 >mergesort(A, lo, hi):
@@ -58,36 +87,6 @@ Sono dei [[design pattern]] ma applicati alla programmazione parallela, ovvero d
 
 >[!note] Loop Parallelism
 >
->Molto utilizzato per la sua semplicità e efficacia, naturalmente è utile soltanto in casi specifici in cui si hanno dei loop ...
-
-Fai esercizio trapezio
-
-## Input
-
-è convenzione che la gestione dell’input sia fatto dal processo (rank)
-
-Inoltre molte implementazioni di MPI permettono soltanto al rank 0 di leggere lo `stdin`, ad esempio se dobbiamo utilizzare una `scanf` (ovvero leggere lo stdin) deve essere fatta dal rank 0.
-
-Esempio di lettura user input:
-
-![[Pasted image 20251021182436.png|800]]
-
-in realtà non è un ottima implementazione, infatti in MPI c'è un modo ufficiale per fare una broadcast (ovvero un nodo che comunica a tutti gli altri un informazione). Inoltre c'è un altro problema ovvero vengono fatte due MPI_Send di due double consecutivamente, potevano essere raggruppate in un unica send.
-
-## Collettive
-
-Vedremo le collettive già implementate in MPI
-
-
->[!note] Reduce
+>Risulta estremamente semplice da utilizzare e viene spesso applicata quando un programma sequenziale deve essere adattato al multiprocesso. Consiste nel parallelizzare ogni esecuzione di un ciclo for , è necessario che le iterazioni però siano indipendenti fra loro.
 >
->È un operazione di riduzione a cui fa specificata un operazione (es. somma, massimo, media ...)
->
->Firma:
->
->- vettore in input
->- vettore in uscita
->- ...
->- Processo di destinazione
-
-
+>>***Nota:*** è la stessa cosa che hai fatto con il progetto python per la conversione da `flac` a `mp3`: [flac2mp3](https://github.com/rimaout/flac2mp3)

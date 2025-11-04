@@ -1,16 +1,16 @@
 ---
 created: 2025-07-19T15:42
-updated: 2025-09-29T23:27
+updated: 2025-11-02T17:01
 ---
 ## Installation
 
-Download the Debian ISO and create a bootable drive, I used ventoy.
+Download the Debian ISO and I used [ventoy](https://www.ventoy.net/en/index.html) to create and boot the bootable drive.
 
 Follow the Ubuntu graphical installation, in particular when asked install the ssh server, install it same thing for Nvidia proprietary graphics drivers.
 
 >[!tip] Give your machine a cool name
 >
->Also I decided that from now my machines will be named after the plates of *other wilds*, in this case I will call this server `timber-hearth`. So when asked during the installation I'm going to call it like this.
+>Also I decided that from now my machines will be named after the planets of *other wilds*, in this case I will call this server `timber-hearth`. So when asked during the installation I'm going to call it like this.
 
 ## SSH
 
@@ -72,7 +72,6 @@ Currently our `SSH` configuration is not really secure, do to the fact that is s
 >
 >**Restart ssh service:** `sudo systemctl restart ssh`
 
-
 Now if you want to log in via ssh you have to use `ssh username@server_ip_address -p 1234 -i ~/.ssh/key_name`, where:
 - `username@server_ip_address` is the same as before
 - `-p 1234` is the port you selected in the step before (replace 1234 with the port select, in the example is 3819)
@@ -82,14 +81,14 @@ Now if you want to log in via ssh you have to use `ssh username@server_ip_addres
 
 First we need to install OpenZFS:
 
-```
+```bash
 sudo apt update
 sudo apt install zfsutils-linux
 ```
 
 After that, we can check if ZFS was installed correctly by running `whereis zfs`, you should see output similar to the following:
 
-```
+```bash
 user@host:~$ whereis zfs
 zfs: /usr/bin/zfs /usr/sbin/zfs /etc/zfs /usr/share/zfs /usr/share/man/man8/zfs.8.gz /usr/share/man/man4/zfs.4.gz
 ```
@@ -98,30 +97,77 @@ Now there are many different options of pools, but since I had only two drives I
 
 ## Docker
 
-**Initialization:**
-- Installing Docker: `sudo apt install docker.io docker-compose -y`
-- Start at boot (and now): `sudo systemctl enable --now docker`
+>[!note] Initialization
+>
+>I followed the [official ubuntu installation guide](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository):
+>
+>1. Set up Docker's `apt` repository:
+>	```bash
+>	# Add Docker's official GPG key:
+>	sudo apt-get update
+>	sudo apt-get install ca-certificates curl
+>	sudo install -m 0755 -d /etc/apt/keyrings
+>	sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+>	sudo chmod a+r /etc/apt/keyrings/docker.asc
+>	
+>	# Add the repository to Apt sources:
+>	echo \
+>	  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+>	  $(. /etc/os-release && echo "${UBUNTU_CODENAME:-$VERSION_CODENAME}") stable" | \
+>	  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+>	sudo apt-get update
+>	```
+>1. Install the latest Docker packages:
+>	```bash
+>	sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+>	```
+>
+>To start the service at boot (and now) use: `sudo systemctl enable --now docker`
 
-**Adding the user to the docker group:**
-- `sudo /sbin/usermod -aG docker rima`
-- logout using `exit`
-- re-login
+>[!note] Post Installation
+>
+>1. Create the `docker` group `sudo groupadd docker`
+>2. Add your user to the `docker` group: `sudo usermod -aG docker rima`
+>
+>Now you have to  logout using `exit` and re-login
+
+## Docker Services
 
 Inside `/home/rima/data` (the mount point for the mirrored pool) create a *docker* a *media* directories: `mkdir docker` and `mkdir media`.
 
-In the docjer compose file we will often need the **PUID** and **PGID** are the user ID and group ID of the linux user (*rima*), who we want to run the home server apps as. Both of these can be obtained using the `id` command as shown below:
-```
-	  rima@timber-hearth:~/data/docker$ id 
-	  uid=1000(rima) gid=1000(rima) groups=1000(rima),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),101(lxd),111(docker)
+In the docker compose file we will often need the **PUID** and **PGID** are the user ID and group ID of the linux user (*rima*), who we want to run the home server apps as. Both of these can be obtained using the `id` command as shown below:
+```bash
+rima@timber-hearth:~/data/docker$ id 
+uid=1000(rima) gid=1000(rima) groups=1000(rima),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),101(lxd),111(docker)
 ```
 
 >[!note] NVIDIA Contain Toolkit
 >
 >Some of the container I'll install (jellyfin and immich) can take advantage of my nvidia GPU, first of all I have already installed the proprietary NVIDA drivers during the installation of ubuntu, now i just need to install NVIDIA Contain Toolkit following this guide: https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/index.html
 
-## Jellyfin
+### Immich
 
- Now we are going use docker compose to run a jellyfin container.
+Now i'm going to install [Immich](https://immich.app/) using docker compose, following the [official documentation](https://docs.immich.app/install/docker-compose).
+
+1. create and enter the `immich` directory
+2. download the `.env` and `docker-compose.yml` files
+3. modify the `.env` as described in the file itself
+4. run `docker compose up -d`
+
+>[!note] Hardware Transcoding (not compleated) 🔴
+>
+>I'm going to add hardware transcoding acceleration for my Nvidia gpu following the [official guide](https://docs.immich.app/features/hardware-transcoding).
+>
+>>***Prerequisites:*** to have installe the Nvidia drivers and *NVIDIA Contain Toolkit*, but i have already installed them
+>
+>**Steps:**
+>1. in the Immich directory i have created the `hwaccel.transcoding.yml` file (you can download it from [here](https://github.com/immich-app/immich/releases/latest/download/hwaccel.transcoding.yml))
+>2. In the `docker-compose.yml` under `immich-server`, uncomment the `extends` section and change `cpu` to the appropriate backend (in my case nvec)
+>3. Redeploy
+
+### Jellyfin
+
+Now we are going use docker compose to run a jellyfin container.
 
 First of I'm going to create a directory to contain the `docker-compose.yaml` file for Jellyfin.
 

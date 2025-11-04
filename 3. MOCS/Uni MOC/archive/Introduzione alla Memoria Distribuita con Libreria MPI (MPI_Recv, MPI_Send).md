@@ -1,12 +1,12 @@
 ---
 type: Uni Note
 class:
-  - "[[Programmazione Multicore (class)]]"
+  - "[[Programmazione Sistemi Multicore (class)]]"
 academic year: 2024/2025
 related:
-completed: false
+completed: true
 created: 2025-10-11T15:12
-updated: 2025-10-13T15:07
+updated: 2025-11-04T18:44
 ---
 ## Sistemi a memoria distribuita
 
@@ -154,8 +154,8 @@ La comunicazione tra i processi di uno stesso comunicatore avviene attraverso du
 >```
 >
 >Dove i parametri in input sono:
->- `void* send_buf`: puntatore all'inizio del buffer (area di memoria) in cui verrà salvato il messaggi
->- `int count`: numero di elementi contenuti nel `msg_buf` (intero non negativo)
+>- `void* send_buf`: puntatore all'inizio del buffer (area di memoria) che contiene il messaggio da inviare
+>- `int count`: numero di elementi contenuti nel `send_buf` (intero non negativo)
 >- `MPI_Datatype datatype`: tipo di elemento da trasferire (usa i [[#^b38a1a|datatype di MPI]])
 >- `int dest`: rank del processo destinatario
 >- `int tag`: un tag da dare al messaggio per identificarlo
@@ -296,3 +296,6 @@ Esistono altre varianti di `Wait` e `Test`
 • `Testany`
 • etc...
 
+---
+
+![[Loop con chiamate non bloccanti (MPI)]]

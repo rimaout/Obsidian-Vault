@@ -1,7 +1,7 @@
 ---
 Main Moc: "[[Uni MOC]]"
 created: 2025-09-23T14:13
-updated: 2025-10-24T18:34
+updated: 2025-10-28T19:27
 ---
 - [[Introduzione a git]] 🟢
 - [[HTTP, Status Codes e Curl]] 🟢
@@ -13,3 +13,6 @@ updated: 2025-10-24T18:34
 - `componets` definiamo le componenti che poi possiamo utilizzare in altri oggetti e 
 
 [[Esercizio Nasoni - WASA]] 🟢
+
+
+[[Analisi]]

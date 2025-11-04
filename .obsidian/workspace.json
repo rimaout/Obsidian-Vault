@@ -14,27 +14,27 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Programmazione Multicore (class).md",
+                "file": "3. MOCS/Uni MOC/archive/Programmazione Sistemi Multicore (class).md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "Programmazione Multicore (class)"
+              "title": "Programmazione Sistemi Multicore (class)"
             }
           },
           {
-            "id": "0c8a01be2b9de125",
+            "id": "1c4ae3fcdc4ea76f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/PEM - 28ott.md",
+                "file": "3. MOCS/Uni MOC/archive/Operazioni Collettivi (MPI).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PEM - 28ott"
+              "title": "Operazioni Collettivi (MPI)"
             }
           }
         ],
@@ -272,35 +272,37 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "0c8a01be2b9de125",
+  "active": "1c4ae3fcdc4ea76f",
   "lastOpenFiles": [
-    "3. MOCS/Uni MOC/archive/Programmazione Multicore (class).md",
+    "3. MOCS/Uni MOC/archive/Programmazione Sistemi Multicore (class).md",
+    "3. MOCS/Uni MOC/archive/Operazioni Collettivi (MPI).md",
     "3. MOCS/Uni MOC/archive/PEM - 28ott.md",
+    "3. MOCS/Uni MOC/archive/Introduzione alla Memoria Distribuita con Libreria MPI (MPI_Recv, MPI_Send).md",
+    "3. MOCS/Uni MOC/archive/Loop con chiamate non bloccanti (MPI).md",
+    "3. MOCS/Uni MOC/archive/Parallel Design Patterns.md",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20251103150451.png",
+    "3. MOCS/Uni MOC/archive/PME - L7ott.md",
+    "3. MOCS/Uni MOC/archive/Hello World (MPI).md",
+    "3. MOCS/Programming MOC/archive/Hello World in java.md",
+    "3. MOCS/Uni MOC/archive/PEM - 29ott.md",
+    "To-Do/To-Do.md",
+    "Ubuntu Server.md",
+    "3. MOCS/Uni MOC/archive/DNS.md",
+    "3. MOCS/Uni MOC/archive/Analisi.md",
     "3. MOCS/Uni MOC/archive/Sistemi Operativi 1 (class).md",
+    "3. MOCS/Uni MOC/archive/Automi (class).md",
     "3. MOCS/Uni MOC/archive/WASA (class).md",
-    "Debian Server.md",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20251028172632.png",
     "3. MOCS/Uni MOC/archive/Esercizio Nasoni - WASA.md",
     "3. MOCS/Uni MOC/archive/Calcolo Integrale (MPI).md",
-    "3. MOCS/Uni MOC/archive/Parallel Design Patterns.md",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20251028105756.png",
-    "3. MOCS/Uni MOC/archive/PME - L7ott.md",
     "To-Do/design pattern.md",
     "3. MOCS/Uni MOC/archive/PME - L8ott.md",
-    "3. MOCS/Uni MOC/archive/Introduzione alla Memoria Distribuita con Libreria MPI (MPI_Recv, MPI_Send).md",
     "3. MOCS/Uni MOC/archive/Linguaggi di Programmazione (class).md",
     "3. MOCS/Uni MOC/archive/Linguaggio Exp.md",
     "3. MOCS/Uni MOC/archive/Sintassi astratta dei linguaggi.md",
     "To-Do/Linguaggio Fun.md",
     "3. MOCS/Uni MOC/archive/Appunti LDP.md",
-    "3. MOCS/Uni MOC/archive/Algebre e strutture dati induttive.md",
-    "To-Do/To-Do.md",
-    "3. MOCS/Uni MOC/archive/Equivalenza tra PDA e CFG.md",
-    "3. MOCS/Uni MOC/archive/Automi (class).md",
-    "3. MOCS/Uni MOC/archive/Automi a Pila (PDA).md",
-    "3. MOCS/Uni MOC/archive/Metodologie di Programmazione (class).md",
-    "3. MOCS/Uni MOC/archive/Forma Normale di Chomsky (CNF).md",
-    "3. MOCS/Uni MOC/archive/Sistemi Operativi 2 (class).md",
-    "3. MOCS/Uni MOC/archive/Domande Esame Scritto SO2.md",
     "3. MOCS/Uni MOC/archive/Algo2 es tutor 19/attachments/Screenshot 2025-05-19 at 09.52.18.png",
     "3. MOCS/Uni MOC/archive/Algo2 es tutor 19/attachments/Screenshot 2025-05-19 at 09.28.05.png",
     "Untitled.base",
@@ -310,8 +312,6 @@
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20251022153826 1.png",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20251022153826.png",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20251022153811.png",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20251022153754.png",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20251022092227.png",
     "3. MOCS/Uni MOC/archive/attachments/13.Decomposizioni che preservano le dipendenze 1.pdf",
     "3. MOCS/Uni MOC/archive/attachments/13.Decomposizioni che preservano le dipendenze.pdf",
     "3. MOCS/Uni MOC/archive/attachments/Lez03A2Grafi2.pdf",

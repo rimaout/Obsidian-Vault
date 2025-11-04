@@ -302,8 +302,23 @@
                   "icon": "lucide-file",
                   "title": "WASA (class)"
                 }
+              },
+              {
+                "id": "c3bd5f60e7aa0761",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "To-Do/To-Do.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "To-Do"
+                }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -370,8 +385,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 531.504789352417,
-        "collapsed": true
+        "width": 531.504789352417
       },
       "right": {
         "id": "1599d9a7234429ed",
@@ -538,8 +552,8 @@
           "obisidian-note-linker:Note Linker": false
         }
       },
-      "active": "dfe4611595b4b85d",
-      "mtime": "2025-10-28T17:17:02+01:00"
+      "active": "c3bd5f60e7aa0761",
+      "mtime": "2025-11-03T10:51:30+01:00"
     },
     "Multicore": {
       "main": {
@@ -565,8 +579,37 @@
                   "icon": "lucide-file",
                   "title": "Programmazione Multicore (class)"
                 }
+              },
+              {
+                "id": "e3501b09cfd5e87d",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/archive/PEM - 29ott.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "PEM - 29ott"
+                }
+              },
+              {
+                "id": "a6e393e1bcd54a54",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/archive/PEM - 29ott.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "PEM - 29ott"
+                }
               }
-            ]
+            ],
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -800,8 +843,8 @@
           "obisidian-note-linker:Note Linker": false
         }
       },
-      "active": "c7883166ddb2a372",
-      "mtime": "2025-10-28T14:15:25+01:00"
+      "active": "a6e393e1bcd54a54",
+      "mtime": "2025-10-30T12:12:22+01:00"
     },
     "Automi": {
       "main": {
@@ -1109,7 +1152,7 @@
         }
       },
       "active": "f040d0a335806034",
-      "mtime": "2025-10-26T17:20:48+01:00"
+      "mtime": "2025-11-03T10:51:35+01:00"
     },
     "IngSoftware": {
       "main": {
@@ -1387,7 +1430,7 @@
         }
       },
       "active": "01abab4389c228fc",
-      "mtime": "2025-10-28T17:17:05+01:00"
+      "mtime": "2025-10-29T14:19:17+01:00"
     },
     "IUM": {
       "main": {
