@@ -6,7 +6,7 @@ academic year: 2024/2025
 related:
 completed: true
 created: 2025-10-28T10:43
-updated: 2025-11-04T18:06
+updated: 2025-11-04T19:51
 ---
 ## Introduzione
 
@@ -120,7 +120,21 @@ double Integrale_Coseno_Seriale(double a, double b, int num_seg) {
 }
 ```
 
-Possiamo semplificare il codice utilizzando `MPI_REDUCE` invece di `MPI_send` e `MPI_Recv`:
+## MPI_Reduce
+
+Se riprendiamo la prima versione dell'esempio del [[Calcolo Integrale (MPI)|calcolo dell'integrale utilizzando MPI]] è possibile notare che il processo di rank zero ha un carico di lavoro superiore rispetto ogni altro processo, infatti, quest’ultimo oltre la somma dei suoi trapezi locali, deve calcolare la somma totale, inoltre deve occuparsi di ricevere i dati da tutti gli altri processi.
+
+Una possibile soluzione consiste nel suddividere il carico utilizzando una struttura ad albero, così che il lavoro aggiuntivo dovuto alla comunicazione e all’aggregazione dei dati parziali risulti distribuito in modo logaritmico rispetto al numero dei processi coinvolti.
+
+>[!note] Esempi strutture a l’albero 
+>
+>![[Pasted image 20251104194141.png|900]]
+>
+>>*oss:* sono tutte e due soluzioni valide, ottimalità di una soluzione piuttosto che di un altra può dipendere da diversi fattori non sempre analizzabili, come la topologia fisica della rete attraverso cui sono collegate le macchine che eseguono i processi.
+
+Ma utilizzando MPI non dobbiamo preoccuparci di implementare ogni volta un codice che suddivide il carico della riduzione su più nodi, infatti esiste la chiamata collettiva `MPI_Reduce` che in automatico sceglierà l'algoritmo migliore per suddividere il carico della aggregazione dei dati parziali. 
+
+Quindi possiamo semplificare e ottimizzare il codice utilizzando `MPI_REDUCE` invece di `MPI_send` e `MPI_Recv`:
 
 ```c
 #include <stdio.h>

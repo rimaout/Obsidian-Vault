@@ -2,7 +2,7 @@
 Main Moc: "[[Uni MOC]]"
 academic year: 2025/2026
 created: 2025-09-23T17:21
-updated: 2025-11-04T19:00
+updated: 2025-11-04T19:10
 ---
 [sito corso]()
 
@@ -17,7 +17,7 @@ updated: 2025-11-04T19:00
 
 >[!note] MPI
 >- [[Introduzione alla Memoria Distribuita con Libreria MPI (MPI_Recv, MPI_Send)]] 🟢
->- [[Operazioni Collettivi (MPI)]]
+>- [[Operazioni Collettive (MPI)]]
 >- [[User Input in MPI]]
 
 

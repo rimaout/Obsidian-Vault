@@ -6,7 +6,7 @@ academic year: 2024/2025
 related:
 completed: true
 created: 2025-02-18T16:16
-updated: 2025-09-26T17:11
+updated: 2025-11-04T22:00
 ---
 >[!question]- Cosa viene Chiesto
 >
@@ -566,7 +566,7 @@ updated: 2025-09-26T17:11
 
 ^9a41f1
 
->[!note] Teorema 8 🟢
+>[!note]- Teorema 8 🟢
 >
 >Sia `R` uno schema di relazione ed `F` un insieme di dipendenze funzionali su `R`, che è una copertura minimale. 
 >
