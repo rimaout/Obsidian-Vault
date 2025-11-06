@@ -6,7 +6,7 @@ academic year: 2024/2025
 related:
 completed: true
 created: 2025-10-28T10:43
-updated: 2025-11-04T19:51
+updated: 2025-11-05T08:57
 ---
 ## Introduzione
 
@@ -175,3 +175,44 @@ int main(void) {
     return 0;
 }
 ```
+
+Possiamo rendere il programma leggermente più efficiente dal punto di vista del consumo della memoria, rendendo la variabile `total_sum` una variabile prendete nel solo processo di `rank 0`.
+
+```c
+int main(void) {
+    //calcoliamo l'integrale della funzione coseno da 0 a 1
+    int n_seg = 1000;   // numero di segmenti, più è grande, più la stima sarà precisa
+    double a = 0.0;     // estremo sinistro di integrazione
+    double b = 1.0;     // estremo destro di integrazione
+    
+    double h = (b-a)/n_seg;  // altezza dei segmenti
+    double local_a, local_b;
+    double local_sum;
+    int local_n_seg;
+
+    int my_rank, comn_size;
+    MPI_Init(NULL,NULL);
+    MPI_Comm_rank(MPI_COMM_WORLD, &my_rank);
+    MPI_Comm_size(MPI_COMM_WORLD, &comn_size);
+
+    local_n_seg = n_seg/comn_size;  // numero di segmenti per ogni processo
+    local_a = a + (h * local_n_seg * my_rank);
+    local_b = local_a + (h * local_n_seg);
+    local_sum = Integrale_Coseno_Seriale(local_a, local_b, local_n_seg);
+
+    if (my_rank != 0) {
+        MPI_Reduce(&local_sum, NULL, 1, MPI_DOUBLE, MPI_SUM, 0, MPI_COMM_WORLD);
+    } else {
+        double total_sum;
+        MPI_Reduce(&local_sum, &total_sum, 1, MPI_DOUBLE, MPI_SUM, 0, MPI_COMM_WORLD);
+        printf("con n = %d trapezoidi, il calcolo dell'integrale approssimato della funzione coseno da %f a %f è %f\n",
+            n_seg, a, b, total_sum); 
+    }
+   
+    MPI_Finalize();
+    return 0;
+}
+```
+
+>***Nota:*** in questo caso dato che `MPI_Reduce` ha una chiamata differente se è chiamato in rank 0, possiamo mettere un puntatore a `NULL` per l'output in tutti i rank diversi da 0. Questo perché impostando il `dest_process` a 0 abbiamo detto a `MPI_Reduce` di salvare l'output della riduzione soltanto nel rank `0`.
+

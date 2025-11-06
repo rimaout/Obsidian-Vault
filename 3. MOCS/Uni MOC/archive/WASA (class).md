@@ -1,18 +1,16 @@
 ---
 Main Moc: "[[Uni MOC]]"
 created: 2025-09-23T14:13
-updated: 2025-10-28T19:27
+updated: 2025-11-06T14:18
 ---
-- [[Introduzione a git]] 🟢
-- [[HTTP, Status Codes e Curl]] 🟢
-- [[Introduzione a JSON e YAML]] 🟢
-- [[API]] 🟢
-- [[Introduzione REST]] 🟢
+>[!note] Introduzione
+>- [[Introduzione a git]] 🟢
+>- [[HTTP, Status Codes e Curl]] 🟢
 
-- `paths` permette di definire gli endpoint utilizzabili per le api
-- `componets` definiamo le componenti che poi possiamo utilizzare in altri oggetti e 
+>[!note] API Documentation
+>- [[Introduzione a JSON e YAML]] 🟢
+>- [[API]] 🟢
+>- [[Introduzione REST]] 🟢
+
 
 [[Esercizio Nasoni - WASA]] 🟢
-
-
-[[Analisi]]

@@ -8,65 +8,50 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c7883166ddb2a372",
+            "id": "dfe4611595b4b85d",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Programmazione Sistemi Multicore (class).md",
+                "file": "3. MOCS/Uni MOC/archive/WASA (class).md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "Programmazione Sistemi Multicore (class)"
+              "title": "WASA (class)"
             }
           },
           {
-            "id": "22c4d3b09ce31bed",
+            "id": "647937afb88792b9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Basi di Dati - Preparazione Orale.md",
+                "file": "3. MOCS/Uni MOC/archive/Esercizio Nasoni - WASA.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Basi di Dati - Preparazione Orale"
+              "title": "Esercizio Nasoni - WASA"
             }
           },
           {
-            "id": "64ed7832cd0fb92f",
+            "id": "c3bd5f60e7aa0761",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Calcolo Integrale (MPI).md",
+                "file": "To-Do/To-Do.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Calcolo Integrale (MPI)"
-            }
-          },
-          {
-            "id": "2abff389a418edc6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/archive/Calcolo Integrale (MPI).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Calcolo Integrale (MPI)"
+              "title": "To-Do"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -152,7 +137,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -164,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Storage/Backend/Monthly Logs/attachments/strandbeest_IMG.webp",
+                "file": "3. MOCS/Uni MOC/archive/14 ott wasa.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +161,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for strandbeest_IMG"
+              "title": "Backlinks for 14 ott wasa"
             }
           },
           {
@@ -217,8 +204,7 @@
               "title": "Outline of Sistemi Operativi 1 (class)"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "0ee4f1dd2040ea54",
@@ -245,7 +231,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Storage/Backend/Monthly Logs/attachments/strandbeest_IMG.webp",
+                "file": "3. MOCS/Uni MOC/archive/Esercizio Nasoni - WASA.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -268,12 +254,12 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 1,
+                  "scale": 0.6147386005232408,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of strandbeest_IMG"
+              "title": "Graph of Esercizio Nasoni - WASA"
             }
           }
         ],
@@ -300,11 +286,22 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "22c4d3b09ce31bed",
+  "active": "dfe4611595b4b85d",
   "lastOpenFiles": [
+    "3. MOCS/Uni MOC/archive/Analisi.md",
+    "3. MOCS/Uni MOC/archive/WASA (class).md",
+    "3. MOCS/Uni MOC/archive/Esercizio Nasoni - WASA.md",
+    "To-Do/To-Do.md",
+    "3. MOCS/Uni MOC/archive/Linguaggi di Programmazione (class).md",
     "3. MOCS/Uni MOC/archive/Operazioni Collettive (MPI).md",
-    "3. MOCS/Uni MOC/archive/Calcolo Integrale (MPI).md",
     "3. MOCS/Uni MOC/archive/Programmazione Sistemi Multicore (class).md",
+    "3. MOCS/Uni MOC/archive/User Input in MPI.md",
+    "3. MOCS/Uni MOC/archive/Loop con chiamate non bloccanti (MPI).md",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20251105162438.png",
+    "3. MOCS/Uni MOC/archive/Metodologie di Programmazione (class).md",
+    "3. MOCS/Uni MOC/archive/Java - Heap Stack Metaspace.md",
+    "3. MOCS/Uni MOC/archive/Calcolo Integrale (MPI).md",
+    "3. MOCS/Uni MOC/archive/Basi di Dati - Preparazione Orale.md",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20251104194141.png",
     "1. Easy Notes/idee.md",
     "To-Do/Esercitazione E.A.1.1 - Azienda 1.md",
@@ -315,20 +312,11 @@
     "To-Do/Untitled.md",
     "3. MOCS/Uni MOC/archive/PEM - 28ott.md",
     "3. MOCS/Uni MOC/archive/Introduzione alla Memoria Distribuita con Libreria MPI (MPI_Recv, MPI_Send).md",
-    "3. MOCS/Uni MOC/archive/Loop con chiamate non bloccanti (MPI).md",
     "3. MOCS/Uni MOC/archive/Parallel Design Patterns.md",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20251103150451.png",
     "3. MOCS/Uni MOC/archive/PME - L7ott.md",
     "3. MOCS/Uni MOC/archive/Hello World (MPI).md",
     "3. MOCS/Programming MOC/archive/Hello World in java.md",
-    "3. MOCS/Uni MOC/archive/PEM - 29ott.md",
-    "To-Do/To-Do.md",
-    "Ubuntu Server.md",
-    "3. MOCS/Uni MOC/archive/DNS.md",
-    "3. MOCS/Uni MOC/archive/Analisi.md",
-    "3. MOCS/Uni MOC/archive/Sistemi Operativi 1 (class).md",
-    "3. MOCS/Uni MOC/archive/Automi (class).md",
-    "3. MOCS/Uni MOC/archive/WASA (class).md",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20251028172632.png",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20251028105756.png",
     "3. MOCS/Uni MOC/archive/Algo2 es tutor 19/attachments/Screenshot 2025-05-19 at 09.52.18.png",
@@ -338,7 +326,6 @@
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20251021145956.png",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20251024171301.png",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20251022153826 1.png",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20251022153826.png",
     "3. MOCS/Uni MOC/archive/attachments/13.Decomposizioni che preservano le dipendenze 1.pdf",
     "3. MOCS/Uni MOC/archive/attachments/13.Decomposizioni che preservano le dipendenze.pdf",
     "3. MOCS/Uni MOC/archive/attachments/Lez03A2Grafi2.pdf",

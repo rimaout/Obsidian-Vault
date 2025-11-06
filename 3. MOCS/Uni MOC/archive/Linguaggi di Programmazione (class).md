@@ -3,7 +3,7 @@ type: "[[Uni MOC]]"
 academic year: 2024/2025
 completed: false
 created: 2025-09-30T12:25
-updated: 2025-10-27T18:20
+updated: 2025-11-06T11:53
 ---
 - [Dispenze Prof.]()
 - [Dispenze Exiss.](https://raw.githubusercontent.com/Exyss/university-notes/main/Bachelor/Terzo%20Anno/Linguaggi%20di%20Programmazione.pdf)
@@ -110,5 +110,12 @@ Ora implementiamo times (prodotto):
 val times = fn u => fn v => (u (fn z => (plus z v)) zero);
 ```
 
-## Lezione 27 ott
+## Nov 8
+
+**Utente:**
+- nome
+- id
+- foto
+
+
 
