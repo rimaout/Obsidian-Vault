@@ -5,7 +5,7 @@ academic year: 2024/2025
 related:
 completed: true
 created: 2025-10-07T14:14
-updated: 2025-10-14T11:52
+updated: 2025-11-07T21:52
 ---
 ## HTTP
 
@@ -63,7 +63,6 @@ Questi metodi possono avere queste tre proprietà:
 >>Es: `PUT`e `DELETE` 
 
 ### Operazioni
-Ecco gli appunti scritti con la stessa struttura di quelli che mi avevi inviato inizialmente:
 
 >[!note] PUT
 >

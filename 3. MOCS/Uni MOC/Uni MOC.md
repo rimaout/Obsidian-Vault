@@ -1,6 +1,6 @@
 ---
 created: 2023-09-26T10:14
-updated: 2025-11-04T18:06
+updated: 2025-11-13T11:42
 ---
 >**First year, first semester:**
 >- [[Matematica 0 (class)]]
@@ -32,6 +32,7 @@ updated: 2025-11-04T18:06
 >- [[Automi (class)]]
 >- [[Ingegneria del Software (class)]]
 >- [[Linguaggi di Programmazione (class)]]
+>- [[Interazione Uomo Macchina (class)]]
 
 >**Third year, second semester:**
 

@@ -1,15 +1,18 @@
 ---
 created: 2023-09-24T12:21
-updated: 2025-10-08T19:47
+updated: 2025-12-15T10:25
 ---
 >[!note] Programming Tools
 >- [[Git]]
 >- [[Nvim]]
+>-  [[MacOS Setup]]
 
 >[!note] Personal Websites
 >- [[Quartz]] 
 >  [[My Quartz Setup Process]]
 >- [[Jekyll]]
+
+---
 
 Docker environments commands:
 - `brew services start colima`

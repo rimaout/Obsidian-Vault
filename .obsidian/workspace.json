@@ -8,50 +8,37 @@
         "type": "tabs",
         "children": [
           {
-            "id": "dfe4611595b4b85d",
+            "id": "c7883166ddb2a372",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/WASA (class).md",
+                "file": "3. MOCS/Uni MOC/archive/Programmazione Sistemi Multicore (class).md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "WASA (class)"
+              "title": "Programmazione Sistemi Multicore (class)"
             }
           },
           {
-            "id": "647937afb88792b9",
+            "id": "75039840c9e208f5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Esercizio Nasoni - WASA.md",
+                "file": "3. MOCS/Uni MOC/archive/PEM - 9dec.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Esercizio Nasoni - WASA"
-            }
-          },
-          {
-            "id": "c3bd5f60e7aa0761",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "To-Do/To-Do.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "To-Do"
+              "title": "PEM - 9dec"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -118,8 +105,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 531.504789352417,
-    "collapsed": true
+    "width": 531.504789352417
   },
   "right": {
     "id": "1599d9a7234429ed",
@@ -137,9 +123,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
+                "useHierarchy": true
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -151,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/14 ott wasa.md",
+                "file": "Storage/Backend/Monthly Logs/attachments/strandbeest_IMG.webp",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +145,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 14 ott wasa"
+              "title": "Backlinks for strandbeest_IMG"
             }
           },
           {
@@ -203,8 +187,21 @@
               "icon": "lucide-list",
               "title": "Outline of Sistemi Operativi 1 (class)"
             }
+          },
+          {
+            "id": "78a9f8b8408f3a45",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "3. MOCS/Uni MOC/archive/Collettive per matrici (MPI).md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for Collettive per matrici (MPI)"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       },
       {
         "id": "0ee4f1dd2040ea54",
@@ -231,7 +228,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Esercizio Nasoni - WASA.md",
+                "file": "3. MOCS/Uni MOC/archive/Collettive per matrici (MPI).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -254,12 +251,12 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.6147386005232408,
+                  "scale": 1,
                   "close": true
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Esercizio Nasoni - WASA"
+              "title": "Graph of Collettive per matrici (MPI)"
             }
           }
         ],
@@ -286,55 +283,55 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "dfe4611595b4b85d",
+  "active": "75039840c9e208f5",
   "lastOpenFiles": [
-    "3. MOCS/Uni MOC/archive/Analisi.md",
-    "3. MOCS/Uni MOC/archive/WASA (class).md",
-    "3. MOCS/Uni MOC/archive/Esercizio Nasoni - WASA.md",
-    "To-Do/To-Do.md",
-    "3. MOCS/Uni MOC/archive/Linguaggi di Programmazione (class).md",
-    "3. MOCS/Uni MOC/archive/Operazioni Collettive (MPI).md",
     "3. MOCS/Uni MOC/archive/Programmazione Sistemi Multicore (class).md",
-    "3. MOCS/Uni MOC/archive/User Input in MPI.md",
-    "3. MOCS/Uni MOC/archive/Loop con chiamate non bloccanti (MPI).md",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20251105162438.png",
-    "3. MOCS/Uni MOC/archive/Metodologie di Programmazione (class).md",
-    "3. MOCS/Uni MOC/archive/Java - Heap Stack Metaspace.md",
-    "3. MOCS/Uni MOC/archive/Calcolo Integrale (MPI).md",
-    "3. MOCS/Uni MOC/archive/Basi di Dati - Preparazione Orale.md",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20251104194141.png",
-    "1. Easy Notes/idee.md",
-    "To-Do/Esercitazione E.A.1.1 - Azienda 1.md",
-    "3. MOCS/Uni MOC/archive/Flyweight.md",
-    "3. MOCS/Uni MOC/archive/Reti L9 - 27 Mar1.md",
-    "1. Easy Notes/Minecraft Vanilla Mods.md",
-    "3. MOCS/Uni MOC/archive/Esercizi Esame.md",
-    "To-Do/Untitled.md",
-    "3. MOCS/Uni MOC/archive/PEM - 28ott.md",
-    "3. MOCS/Uni MOC/archive/Introduzione alla Memoria Distribuita con Libreria MPI (MPI_Recv, MPI_Send).md",
-    "3. MOCS/Uni MOC/archive/Parallel Design Patterns.md",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20251103150451.png",
-    "3. MOCS/Uni MOC/archive/PME - L7ott.md",
-    "3. MOCS/Uni MOC/archive/Hello World (MPI).md",
-    "3. MOCS/Programming MOC/archive/Hello World in java.md",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20251028172632.png",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20251028105756.png",
-    "3. MOCS/Uni MOC/archive/Algo2 es tutor 19/attachments/Screenshot 2025-05-19 at 09.52.18.png",
-    "3. MOCS/Uni MOC/archive/Algo2 es tutor 19/attachments/Screenshot 2025-05-19 at 09.28.05.png",
-    "Untitled.base",
-    "WebClips",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20251021145956.png",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20251024171301.png",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20251022153826 1.png",
-    "3. MOCS/Uni MOC/archive/attachments/13.Decomposizioni che preservano le dipendenze 1.pdf",
-    "3. MOCS/Uni MOC/archive/attachments/13.Decomposizioni che preservano le dipendenze.pdf",
-    "3. MOCS/Uni MOC/archive/attachments/Lez03A2Grafi2.pdf",
-    "3. MOCS/Uni MOC/archive/attachments/Formule CP.pdf",
-    "3. MOCS/Uni MOC/archive/attachments/20. Algoritmo di decomposizione - Esercizi.pdf",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20250630115012.png.sb-841bc5d8-BLuBbH",
+    "3. MOCS/Uni MOC/Uni MOC.md",
+    "3. MOCS/Tech MOC/Tech MOC.md",
+    "3. MOCS/Programming MOC/Programming MOC.md",
+    "3. MOCS/Personal MOC/Personal MOC.md",
+    "To-Do/To-Do.md",
+    "3. MOCS/Tech MOC/archive/Quartz Callouts Grid Layout.md",
+    "To-Do/Untitled 1.base",
+    "To-Do/Untitled 2.md",
+    "To-Do/Untitled 1.md",
+    "To-Do/Untitled.base",
+    "Attachmets.md",
+    "Attachmets 1.md",
+    "Resources for Studying API Pagination and Messagin.md",
+    "Ubuntu Server.md",
+    "3. MOCS/Uni MOC/archive/Introduzione a OpenMP.md",
+    "3. MOCS/Uni MOC/archive/PEM - 9dec.md",
+    "3. MOCS/Uni MOC/archive/PEM - 2dec.md",
+    "3. MOCS/Uni MOC/archive/GPU.md",
+    "3. MOCS/Uni MOC/archive/PEM - 29ott.md",
+    "3. MOCS/Uni MOC/archive/Cicli For Paralleli (OpenMP).md",
+    "3. MOCS/Uni MOC/archive/Sistemi Operativi 2 (class).md",
+    "WebClips/🔐 How to Sign GitHub Commits Using SSH (Windows, macOS & Linux).md",
+    "3. MOCS/Tech MOC/archive/SSH Key Github.md",
+    "3. MOCS/Programming MOC/archive/MacOS Setup.md",
+    "Storage/Backend/Product usage analysis/MacBook M1.md",
+    "3. MOCS/Uni MOC/archive/Interazione Uomo Macchina (class).md",
+    "3. MOCS/Uni MOC/archive/Sviluppo di sistemi interattivi - IUM.md",
+    "3. MOCS/Uni MOC/archive/attachments/Screenshot 2025-12-18 at 10.11.05.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20251217180332.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20251217180032.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20251217175925.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20251216180323.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20251216172154.png",
+    "3. MOCS/Uni MOC/archive/attachments/Screenshot 2025-12-16 at 17.17.10.png",
+    "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",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20251216162015.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20251216161602.png",
+    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20251216150820.png",
     "Untitled.canvas",
-    "1. Easy Notes/Politiche",
-    "3. MOCS/Uni MOC/archive/Algo2 es tutor 19/attachments",
     "Buy List/Skin Care Buy List.canvas",
     "Buy List/Clothing Buy List.canvas",
     "Storage/Untitled.canvas",

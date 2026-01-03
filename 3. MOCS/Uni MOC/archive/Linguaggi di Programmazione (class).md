@@ -3,7 +3,7 @@ type: "[[Uni MOC]]"
 academic year: 2024/2025
 completed: false
 created: 2025-09-30T12:25
-updated: 2025-11-06T11:53
+updated: 2025-12-11T10:11
 ---
 - [Dispenze Prof.]()
 - [Dispenze Exiss.](https://raw.githubusercontent.com/Exyss/university-notes/main/Bachelor/Terzo%20Anno/Linguaggi%20di%20Programmazione.pdf)
@@ -18,6 +18,20 @@ updated: 2025-11-06T11:53
 >
 >- [[Linguaggio Exp]]
 >- [[Linguaggio Fun]]
+
+$$
+x = \begin{cases}
+
+\end{cases}
+$$
+
+>[!note] Paradigma Imperativo
+>
+>
+
+>[!note] Correttezza dei Programmi
+
+>[!note] Sistema dei Tipi
 
 
 
@@ -110,12 +124,17 @@ Ora implementiamo times (prodotto):
 val times = fn u => fn v => (u (fn z => (plus z v)) zero);
 ```
 
-## Nov 8
+## Nov 24
 
-**Utente:**
-- nome
-- id
-- foto
+**pol:** il prof non vuole tirare le bombe nucleari sul USA
+**info:** dice di essere neuro divergente
 
+>[!note] Boll di church
+>
+>- **true:** $f_{n}\ xy \to x$
+>- **false:** $f_{n}\ xy \to y$
+>
+>Operazione **not:** $f_{n}\ z \to \big( f_{n}\ xy \to zyx\big)$
 
-
+esempio per il progetto:
+![[Recording 20251211101001.m4a]]

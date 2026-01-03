@@ -6,13 +6,23 @@ academic year: 2024/2025
 related:
 completed: false
 created: 2025-11-04T19:00
-updated: 2025-11-05T17:16
+updated: 2025-11-06T16:57
 ---
 ## Introduzione
 
-Le operazioni collettive ...
+Le operazioni collettive sono operazioni che coinvolgono tutti i processi di un gruppo di comunicazione (comunicatore), queste operazioni permettono di eseguire azioni coordinate tra tutti i processi, come la comunicazione di dati o la sincronizzazione.
 
-Quando viene chiamata una funzione collettiva, è importante che ogni processo del comunicatore la chiami, altrimenti l’esecuzione rimane bloccata in uno stato di attesa, dato che ogni processo attende che tutti gli altri siano arrivati a tale operazione. 
+Queste operazioni sono diventate particolarmente importanti nell’ultimo periodo in quanto sono utilizzate nella stragrande maggioranza dei programmi paralleli che vengono eseguiti per il training delle reti neurali odierne. Le grosse aziende di cup/gpu e di informatica, hanno iniziato a produrre delle proprie librerie proprietarie:
+- NCCL (Nvidia)
+- RCCL (AMD)
+- OneCCL (Intel)
+- MSCCL (Microsoft)
+
+Infatti MPI durante le operazioni aggregate utilizza delle euristiche per stimare quale sia il miglior modo di condividere i dati fra i nodi, è possibile forzare tale decisione attraverso delle opportune variabili d’ambiente. Il punto è che MPI non è consapevole dell’hardware sul quale i processi sono eseguiti, per questo le aziende hanno iniziato a produrre librerie proprietarie, appositamente ottimizzate per girare sulle piattaforme dedicate.
+
+>[!bug] Attenzione a questo errore
+>
+>Quando viene chiamata una funzione collettiva, è importante che **ogni processo** del comunicatore la chiami, altrimenti l’esecuzione rimane bloccata in uno stato di attesa, dato che ogni processo attende che tutti gli altri siano arrivati a tale operazione. 
 
 ## MPI_Reduce
 
@@ -27,9 +37,9 @@ L'**output** è un `int`,  in input prende i seguenti parametri:
 - `MPI_Datatype datatype` il tipo dei valori
 - `MPI_Op operator` è l’operazione di aggregazione
 - `int dest_process` è il rank del processo che riceverà il risultato
-- `MPI_Comm comm` il comunicatore
+- `MPI_Comm comm` è il comunicatore
 
->***Nota:*** `utput_data_p` può essere impostato a `NULL` in tutti rank diversi da `dest_process`.
+>***Nota:*** `output_data_p` può essere impostato a `NULL` in tutti rank diversi da `dest_process`.
 
 Le **operazioni di aggregazione** supportate da MPI sono le seguenti:
 
@@ -59,7 +69,7 @@ Le **operazioni di aggregazione** supportate da MPI sono le seguenti:
 - `int count` è il numero di elementi da condividere
 - `MPI_Datatype datatype` è il tipo dei valori in questione
 - `int source_process` è il rank del processo che condivide il valore
-- `MPI_Comm comm` il comunicatore in questione
+- `MPI_Comm comm` è il comunicatore
 
 >[!note] Nota
 >
@@ -74,3 +84,11 @@ Un caso specifico in cui la `MPI_Bcast` è molto utile è quando si vuole legger
 Se si vuole fare un operazione di aggregato, per poi avere il risultato condiviso fra tutti i processi, concettualmente, ciò equivale ad eseguire una `MPI_Reduce` seguita da una `MPI_Bcast`.
 
 MPI fornisce una funzione, ottimizzata per fare proprio questo ossia `MPI_Allreduce` , con i seguenti parametri:
+- `void* input_data_p` puntatore all'area di memoria in contenente i dati parziali da aggregare
+- `void* output_data_p` puntatore all'area di memoria in cui verranno salvati il totale dei valori aggregati (e condivisi)
+- `int count` in numero di elementi da aggregare (e condividere)
+- `MPI_Datatype datatype` il tipo dei valori
+- `MPI_Op operator` è l’operazione di aggregazione
+- `MPI_Comm comm` è il comunicatore
+
+I parametri sono identici alla `MPI_Reduce`, eccetto per l’assenza del processo di destinazione, dato che in questo caso, ogni processo avrà il risultato.

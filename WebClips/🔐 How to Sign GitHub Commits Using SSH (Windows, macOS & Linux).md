@@ -1,6 +1,6 @@
 ---
 created: 2025-10-25T12:57
-updated: 2025-10-25T13:00
+updated: 2025-12-14T14:57
 ---
 WebClip form: https://dev.to/udara_dananjaya/how-to-sign-github-commits-using-ssh-windows-macos-linux-24mi
 
@@ -54,17 +54,14 @@ Now we give GitHub your **public key** so it can verify your commits.
 how your public key:
 
 - **macOS/Linux:**  
-    
     ```
     cat ~/.ssh/id_ed25519.pub
     ```
-    
-- **Windows (PowerShell):**  
-    
+
+- **Windows (PowerShell):**     
     ```
     type $env:USERPROFILE\.ssh\id_ed25519.pub
     ```
-
 
 Copy the entire key that starts with `ssh-ed25519`.
 
@@ -73,7 +70,6 @@ Copy the entire key that starts with `ssh-ed25519`.
 1. Go to: [https://github.com/settings/ssh](https://github.com/settings/ssh)
 2. Click **New SSH key**
 3. Fill in:
-    
     - **Title**: Something like `GitHub Signing Key`
     - **Key type**: Signing Key
     - **Key**: Paste the key you copied
@@ -90,4 +86,3 @@ git config --global gpg.format ssh
 git config --global user.signingkey ~/.ssh/id_ed25519
 git config --global commit.gpgsign true
 ```
-

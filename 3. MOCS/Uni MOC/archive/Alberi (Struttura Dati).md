@@ -7,7 +7,7 @@ academic year: 2023/2024
 related:
   - "[[Strutture Dati]]"
 completed: true
-updated: 2025-02-27T18:34
+updated: 2025-12-16T10:04
 ---
 ---
 
@@ -82,5 +82,3 @@ Se un nodo ha $k$ figli, allora vi è un figlio che viene considerato primo, uno
 
 Una particolare sottoclasse di alberi radicati e ordinati è quella degli [[Alberi Binari (Struttura Dati)|Alberi Binari]], che hanno la particolarità che ogni nodo ha al più due
 figli.
-
----

@@ -6,7 +6,7 @@ academic year: 2024/2025
 related:
 completed: false
 created: 2025-10-27T13:59
-updated: 2025-10-27T16:57
+updated: 2025-11-12T18:08
 ---
 ## Introduzione Linguaggi Funzionali
 
@@ -14,9 +14,9 @@ updated: 2025-10-27T16:57
  
  Arricchendo questo linguaggio con la nozione di funzione (ovvero l’astrazione di un termine rispetto ad una variabile) otterremo poi un linguaggio estremamente espressivo, [[Linguaggio Fun|Fun]] dove impareremo a codificare booleani, liste, numeri e gran parte dell’aritmetica.
 
-`Exp` e `Fun` ci permetteranno di mettere a confronto il binding **statico** e quello **dinamico**.
-
-Studieremo inoltre due strategie di valutazione dei programmi, quella **eager** e quella **lazy**.
+`Exp` e `Fun` ci permetteranno di mettere a confronto:
+- il binding **statico** e quello **dinamico**.
+- le strategie di valutazione **eager** e quella **lazy**.
 
 |           | **statico** | **dinamico** |
 | --------- | ----------- | ------------ |

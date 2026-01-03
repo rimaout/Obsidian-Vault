@@ -276,7 +276,7 @@
         }
       },
       "active": "a8b661dc45f582e8",
-      "mtime": "2025-10-25T16:29:58+02:00"
+      "mtime": "2026-01-03T18:24:11+01:00"
     },
     "WASA": {
       "main": {
@@ -304,17 +304,45 @@
                 }
               },
               {
-                "id": "c3bd5f60e7aa0761",
+                "id": "750db018075c8aa9",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "To-Do/To-Do.md",
+                    "file": "3. MOCS/Uni MOC/archive/WASAAPP OpenApi Doc.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "To-Do"
+                  "title": "WASAAPP OpenApi Doc"
+                }
+              },
+              {
+                "id": "a118828c8edd8287",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/archive/HTTP, Status Codes e Curl.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "HTTP, Status Codes e Curl"
+                }
+              },
+              {
+                "id": "fb9b56c046a72515",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/archive/WASAAPP OpenApi Doc.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "WASAAPP OpenApi Doc"
                 }
               }
             ],
@@ -385,7 +413,8 @@
           }
         ],
         "direction": "horizontal",
-        "width": 531.504789352417
+        "width": 531.504789352417,
+        "collapsed": true
       },
       "right": {
         "id": "1599d9a7234429ed",
@@ -552,8 +581,8 @@
           "obisidian-note-linker:Note Linker": false
         }
       },
-      "active": "c3bd5f60e7aa0761",
-      "mtime": "2025-11-03T10:51:30+01:00"
+      "active": "750db018075c8aa9",
+      "mtime": "2025-12-15T10:11:46+01:00"
     },
     "Multicore": {
       "main": {
@@ -581,35 +610,35 @@
                 }
               },
               {
-                "id": "cdab6d4506c15bb2",
+                "id": "aefbb73413295ff2",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/archive/Operazioni Collettive (MPI).md",
+                    "file": "3. MOCS/Uni MOC/archive/Introduzione a OpenMP.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "Operazioni Collettive (MPI)"
+                  "title": "Introduzione a OpenMP"
                 }
               },
               {
-                "id": "544e13e3a8c004a8",
+                "id": "c335fb1ddefbae6c",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/archive/Operazioni Collettive (MPI).md",
+                    "file": "3. MOCS/Uni MOC/archive/Cicli For Paralleli (OpenMP).md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "Operazioni Collettive (MPI)"
+                  "title": "Cicli For Paralleli (OpenMP)"
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           }
         ],
         "direction": "vertical"
@@ -759,9 +788,21 @@
                   "icon": "lucide-list",
                   "title": "Outline of Sistemi Operativi 1 (class)"
                 }
+              },
+              {
+                "id": "78a9f8b8408f3a45",
+                "type": "leaf",
+                "state": {
+                  "type": "file-properties",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/archive/Collettive per matrici (MPI).md"
+                  },
+                  "icon": "lucide-info",
+                  "title": "File properties for Collettive per matrici (MPI)"
+                }
               }
             ],
-            "currentTab": 1
+            "currentTab": 5
           },
           {
             "id": "0ee4f1dd2040ea54",
@@ -788,7 +829,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "Storage/Backend/Monthly Logs/attachments/strandbeest_IMG.webp",
+                    "file": "3. MOCS/Uni MOC/archive/Collettive per matrici (MPI).md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -816,7 +857,7 @@
                     }
                   },
                   "icon": "lucide-git-fork",
-                  "title": "Graph of strandbeest_IMG"
+                  "title": "Graph of Collettive per matrici (MPI)"
                 }
               }
             ],
@@ -843,8 +884,8 @@
           "obisidian-note-linker:Note Linker": false
         }
       },
-      "active": "cdab6d4506c15bb2",
-      "mtime": "2025-11-06T08:17:38+01:00"
+      "active": "c335fb1ddefbae6c",
+      "mtime": "2026-01-02T18:04:22+01:00"
     },
     "Automi": {
       "main": {
@@ -872,49 +913,21 @@
                 }
               },
               {
-                "id": "3593490ebf12d7e6",
+                "id": "ff5a938f1bfe288a",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/archive/Equivalenza tra PDA e CFG.md",
+                    "file": "3. MOCS/Uni MOC/archive/L 26 Nov Automi.md",
                     "mode": "source",
                     "source": false
                   },
                   "icon": "lucide-file",
-                  "title": "Equivalenza tra PDA e CFG"
-                }
-              },
-              {
-                "id": "e3badfe1293f9e5d",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "3. MOCS/Uni MOC/archive/Automi a Pila (PDA).md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "Automi a Pila (PDA)"
-                }
-              },
-              {
-                "id": "f040d0a335806034",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "To-Do/To-Do.md",
-                    "mode": "source",
-                    "source": false
-                  },
-                  "icon": "lucide-file",
-                  "title": "To-Do"
+                  "title": "L 26 Nov Automi"
                 }
               }
             ],
-            "currentTab": 3
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -1151,8 +1164,8 @@
           "obisidian-note-linker:Note Linker": false
         }
       },
-      "active": "f040d0a335806034",
-      "mtime": "2025-11-03T10:51:35+01:00"
+      "active": "ff5a938f1bfe288a",
+      "mtime": "2025-11-26T11:44:27+01:00"
     },
     "IngSoftware": {
       "main": {
@@ -1438,26 +1451,69 @@
         "type": "split",
         "children": [
           {
-            "id": "2c2f783c93abf12e",
+            "id": "b2a941acaa60bdab",
             "type": "tabs",
             "children": [
               {
-                "id": "90570ad5ffe3125b",
+                "id": "7d48b641a836e375",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "3. MOCS/Uni MOC/archive/Ingegneria del Software (class).md",
+                    "file": "3. MOCS/Uni MOC/archive/Interazione Uomo Macchina (class).md",
                     "mode": "source",
                     "source": false
                   },
                   "pinned": true,
                   "icon": "lucide-file",
-                  "title": "Ingegneria del Software (class)"
+                  "title": "Interazione Uomo Macchina (class)"
+                }
+              },
+              {
+                "id": "e2fc8a7c55edf455",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/archive/Sviluppo di sistemi interattivi - IUM.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Sviluppo di sistemi interattivi - IUM"
+                }
+              },
+              {
+                "id": "0cf860ed38d8be7f",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Storage/Backend/Product usage analysis/MacBook M1.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "MacBook M1"
+                }
+              },
+              {
+                "id": "da7c444e8c4ae194",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "WebClips/🔐 How to Sign GitHub Commits Using SSH (Windows, macOS & Linux).md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "🔐 How to Sign GitHub Commits Using SSH (Windows, macOS & Linux)"
                 }
               }
-            ]
+            ],
+            "currentTab": 3
           }
         ],
         "direction": "vertical"
@@ -1555,7 +1611,7 @@
                 "state": {
                   "type": "backlink",
                   "state": {
-                    "file": "Storage/Backend/Monthly Logs/attachments/strandbeest_IMG.webp",
+                    "file": "3. MOCS/Uni MOC/archive/Tecniche di valutazione - IUM.md",
                     "collapseAll": false,
                     "extraContext": false,
                     "sortOrder": "alphabetical",
@@ -1565,7 +1621,7 @@
                     "unlinkedCollapsed": false
                   },
                   "icon": "links-coming-in",
-                  "title": "Backlinks for strandbeest_IMG"
+                  "title": "Backlinks for Tecniche di valutazione - IUM"
                 }
               },
               {
@@ -1574,12 +1630,12 @@
                 "state": {
                   "type": "outgoing-link",
                   "state": {
-                    "file": "Storage/Backend/Monthly Logs/attachments/strandbeest_IMG.webp",
+                    "file": "3. MOCS/Uni MOC/archive/Tecniche di valutazione - IUM.md",
                     "linksCollapsed": false,
                     "unlinkedCollapsed": true
                   },
                   "icon": "links-going-out",
-                  "title": "Outgoing links from strandbeest_IMG"
+                  "title": "Outgoing links from Tecniche di valutazione - IUM"
                 }
               },
               {
@@ -1609,7 +1665,7 @@
                 }
               }
             ],
-            "currentTab": 1
+            "currentTab": 2
           },
           {
             "id": "0ee4f1dd2040ea54",
@@ -1636,7 +1692,7 @@
                 "state": {
                   "type": "localgraph",
                   "state": {
-                    "file": "Storage/Backend/Monthly Logs/attachments/strandbeest_IMG.webp",
+                    "file": "3. MOCS/Uni MOC/archive/Tecniche di valutazione - IUM.md",
                     "options": {
                       "collapse-filter": true,
                       "search": "",
@@ -1664,7 +1720,7 @@
                     }
                   },
                   "icon": "lucide-git-fork",
-                  "title": "Graph of strandbeest_IMG"
+                  "title": "Graph of Tecniche di valutazione - IUM"
                 }
               }
             ],
@@ -1691,8 +1747,8 @@
           "obisidian-note-linker:Note Linker": false
         }
       },
-      "active": "90570ad5ffe3125b",
-      "mtime": "2025-09-29T14:50:41+02:00"
+      "active": "da7c444e8c4ae194",
+      "mtime": "2025-12-26T16:14:49+01:00"
     },
     "HomeLab": {
       "main": {
@@ -1996,6 +2052,20 @@
                 }
               },
               {
+                "id": "278e9892a4505773",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "3. MOCS/Uni MOC/archive/Linguaggio Exp.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Linguaggio Exp"
+                }
+              },
+              {
                 "id": "acc82241da285a27",
                 "type": "leaf",
                 "state": {
@@ -2007,6 +2077,20 @@
                   },
                   "icon": "lucide-file",
                   "title": "Linguaggio Exp"
+                }
+              },
+              {
+                "id": "ef82e8d43ab21ecf",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Resources for Studying API Pagination and Messagin.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "Resources for Studying API Pagination and Messagin"
                 }
               }
             ]
@@ -2244,7 +2328,7 @@
         }
       },
       "active": "6dcff719de9c7d89",
-      "mtime": "2025-11-06T14:15:44+01:00"
+      "mtime": "2025-12-12T10:10:19+01:00"
     },
     "Develop": {
       "main": {
@@ -2509,5 +2593,5 @@
       "mtime": "2025-10-09T11:18:25+02:00"
     }
   },
-  "active": "WASA"
+  "active": "Multicore"
 }

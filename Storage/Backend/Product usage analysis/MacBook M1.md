@@ -5,13 +5,14 @@ name: MacBook M1
 product-category: PC
 maker: Apple
 model: M1 Pro
-rating: 
+rating:
 price: 950
 monthly-uses: 28
 acquired: 2022-10-19
 tags:
   - products
-link: 
+link:
 created: 2024-10-01T21:46
-updated: 2024-10-01T21:47
+updated: 2025-12-12T15:27
 ---
+[[MacOS Setup]]
