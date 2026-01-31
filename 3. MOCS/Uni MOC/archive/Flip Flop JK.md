@@ -9,7 +9,7 @@ related:
   - "[[Latch]]"
   - "[[Flip Flop SR (master slave)]]"
 completed: true
-updated: 2024-07-09T11:50
+updated: 2026-01-31T13:32
 ---
 >[!abstract] Index
 >1. [[#Introduzione]]

@@ -6,7 +6,7 @@ academic year: 2024/2025
 related: "[[Dipendenze Funzionali]]"
 completed: true
 created: 2024-10-24T16:33
-updated: 2025-09-04T16:51
+updated: 2026-01-31T13:32
 ---
 >[!abstract] Related
 >- [[Basi di Dati 1 (class)]]

@@ -7,7 +7,7 @@ related:
   - "[[Terza Forma Normale (3NF)]]"
 completed: true
 created: 2024-11-16T16:31
-updated: 2024-11-16T17:16
+updated: 2026-01-31T13:32
 ---
 >[!abstract] Related
 >- [[Terza Forma Normale (3NF)]]

@@ -6,7 +6,7 @@ related:
   - "[[Java MOC]]"
 completed: true
 created: 2025-01-26T13:52
-updated: 2025-01-26T14:05
+updated: 2026-01-31T13:32
 ---
 Il risultato dell'utilizzo della keyword `final` dipende dal tipo di elemento su cui la si sta applicando:
 

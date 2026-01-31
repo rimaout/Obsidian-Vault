@@ -2,10 +2,10 @@
 type: Uni Note
 class: "[[Algoritmi 2 (class)]]"
 academic year: 2024/2025
-related: 
+related:
 completed: true
 created: 2025-05-12T14:19
-updated: 2025-07-03T09:52
+updated: 2026-01-31T13:32
 ---
 Il backtracking è una tecnica che utilizza il *brute forcing* per trovare tutte le soluzioni di un problema, in particolare è una tecnica di ricerca che esplora tutte le possibili configurazioni di un problema e da queste seleziona le soluzioni.
 

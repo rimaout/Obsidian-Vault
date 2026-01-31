@@ -1,6 +1,6 @@
 ---
 created: 2024-06-20T18:32
-updated: 2024-06-20T22:17
+updated: 2026-01-31T13:32
 ---
 
 ## MVC (Model View Controller)

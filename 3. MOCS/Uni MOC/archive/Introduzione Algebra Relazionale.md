@@ -7,7 +7,7 @@ related:
   - "[[Algebra Relazionale]]"
 completed: true
 created: 2024-10-09T16:36
-updated: 2025-09-26T17:12
+updated: 2026-01-31T13:32
 ---
 >[!abstract] Index
 >1. 

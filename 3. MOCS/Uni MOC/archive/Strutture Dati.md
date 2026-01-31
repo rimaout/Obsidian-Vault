@@ -4,9 +4,9 @@ type: Uni Note
 class:
   - "[[Algoritmi 1 (class)]]"
 academic year: 2023/2024
-related: 
+related:
 completed: true
-updated: 2025-03-05T14:55
+updated: 2026-01-31T13:32
 ---
 ---
 

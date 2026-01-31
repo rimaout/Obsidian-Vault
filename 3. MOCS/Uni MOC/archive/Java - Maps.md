@@ -6,7 +6,7 @@ related:
   - "[[Java MOC]]"
 completed: true
 created: 2025-02-07T19:05
-updated: 2025-02-08T12:36
+updated: 2026-01-31T13:32
 ---
 Sono strutture dati che *implementano l'interfaccia* `Map` ed organizzano i dati in coppie chiave-valore, dove non possono esistere due elementi con la stessa chiave.
 

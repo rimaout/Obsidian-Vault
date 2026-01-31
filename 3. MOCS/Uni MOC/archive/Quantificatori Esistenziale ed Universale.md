@@ -6,7 +6,7 @@ academic year: 2024/2025
 related: "[[Algebra Relazionale]]"
 completed: true
 created: 2024-10-15T18:30
-updated: 2025-09-26T17:12
+updated: 2026-01-31T13:32
 ---
 >[!abstract] Index
 >1. [[#Quantificatore Esistenziale]]

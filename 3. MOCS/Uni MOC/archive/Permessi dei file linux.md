@@ -6,7 +6,7 @@ academic year: 2024/2025
 related:
 completed: true
 created: 2025-10-03T17:50
-updated: 2025-10-07T09:58
+updated: 2026-01-31T13:32
 ---
 
 I permessi di accesso indicano chi può fare cosa.

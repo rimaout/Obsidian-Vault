@@ -9,7 +9,7 @@ related:
   - "[[Funzioni]]"
   - "[[Studio di Funzione]]"
 completed: true
-updated: 2024-06-28T15:44
+updated: 2026-01-31T13:32
 ---
 
 >[!abstract] Index

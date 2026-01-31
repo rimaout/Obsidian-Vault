@@ -6,7 +6,7 @@ academic year: 2024/2025
 related:
 completed: true
 created: 2025-10-05T19:31
-updated: 2025-10-08T09:07
+updated: 2026-01-31T13:32
 ---
 ## Esecuzione in background di un comando (&)
 

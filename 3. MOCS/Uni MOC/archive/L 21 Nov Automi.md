@@ -5,7 +5,7 @@ academic year: 2024/2025
 related:
 completed: false
 created: 2025-11-21T09:21
-updated: 2025-11-21T09:39
+updated: 2026-01-31T13:32
 ---
 Adesso studieremo il calcolo della complessità di un algoritmo, ovvero l'utilizzo di risorse di una macchina di Turing.
 

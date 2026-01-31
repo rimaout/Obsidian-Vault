@@ -7,7 +7,7 @@ class:
 related:
   - "[[Funzioni]]"
   - "[[Funzione Inniettiva, Surriettiva, Biettiva, Inversa#Funzione Biettiava|Funzione Biettiva]]"
-updated: 2024-06-28T14:45
+updated: 2026-01-31T13:32
 completed: true
 ---
 >[!abstract] Index

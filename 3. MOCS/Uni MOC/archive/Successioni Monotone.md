@@ -6,7 +6,7 @@ class:
 related:
   - "[[Successioni Reali]]"
 completed: true
-updated: 2024-06-28T20:32
+updated: 2026-01-31T13:32
 ---
 >[!abstract] Index
 >1. [[#Monotonia Globale]]

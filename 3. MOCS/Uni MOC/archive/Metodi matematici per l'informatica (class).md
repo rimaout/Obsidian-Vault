@@ -2,7 +2,7 @@
 academic year: 2023/2024
 type: "[[Uni MOC]]"
 created: 2023-10-14T18:53
-updated: 2025-06-17T23:47
+updated: 2026-01-31T13:32
 ---
 >[!abstract] Prima parte (teoria degli insiemi)
 >- [[Teoria degli insiemi]]

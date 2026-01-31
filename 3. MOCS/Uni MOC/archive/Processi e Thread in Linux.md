@@ -6,8 +6,8 @@ academic year: 2024/2025
 related: "[[Interruzioni 101]]"
 completed: true
 created: 2024-10-26T10:56
-updated: 2024-11-07T11:58
-info: 
+updated: 2026-01-31T13:32
+info:
 ---
 >[!abstract] Index
 >1. [[#Thread in Linux]]

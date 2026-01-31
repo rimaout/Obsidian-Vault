@@ -6,7 +6,7 @@ related:
   - "[[Introduzione all'organizzazioni dei database]]"
 completed: true
 created: 2024-12-04T11:50
-updated: 2025-08-30T18:57
+updated: 2026-01-31T13:32
 ---
 ## Introduzione
 

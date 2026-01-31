@@ -1,6 +1,6 @@
 ---
 created: 2023-10-20T10:06
-updated: 2024-06-28T01:50
+updated: 2026-01-31T13:32
 ---
 >[!abstract] Related
 >- [[Matematica 0 (class)]]

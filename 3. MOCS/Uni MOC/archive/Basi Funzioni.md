@@ -8,7 +8,7 @@ related:
   - "[[Funzioni]]"
 completed: true
 created: 2024-06-28T14:12
-updated: 2024-06-28T14:21
+updated: 2026-01-31T13:32
 ---
 >[!abstract] Index
 >1. [[#Definizione]]

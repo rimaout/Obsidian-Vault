@@ -6,7 +6,7 @@ class:
 related:
   - "[[Circuiti combinatori]]"
 completed: true
-updated: 2024-11-18T20:21
+updated: 2026-01-31T13:32
 ---
 >[!abstract] Related
 >- [[Circuiti combinatori]]

@@ -4,7 +4,7 @@ type: Uni Note
 academic year: 2024/2025
 completed: false
 created: 2025-02-26T14:31
-updated: 2025-09-26T17:57
+updated: 2026-01-31T13:32
 ---
 >[!note] Introduzione
 >- [[Conteso Organizzativo - Basi di Dati 2|Conteso Organizzativo]] 🟢

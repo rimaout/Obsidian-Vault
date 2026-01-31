@@ -6,8 +6,8 @@ class:
 related:
   - "[[Circuiti combinatori]]"
   - "[[Circuiti sequenziali]]"
-completed: 
-updated: 2024-06-28T00:26
+completed:
+updated: 2026-01-31T13:32
 ---
 
 >[!abstract] Related

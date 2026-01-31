@@ -8,7 +8,7 @@ related:
   - "[[Esponenziali]]"
   - "[[Logaritmi]]"
 completed: true
-updated: 2024-06-29T13:06
+updated: 2026-01-31T13:32
 ---
 ---
 

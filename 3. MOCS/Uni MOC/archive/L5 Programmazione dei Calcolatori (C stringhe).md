@@ -1,3 +1,7 @@
+---
+created: 2026-01-31T13:32
+updated: 2026-01-31T13:32
+---
 Academic Year: 2022-2023
 Class: [[Programmazione Calcolatori (Class)]]
 Created: March 29, 2023

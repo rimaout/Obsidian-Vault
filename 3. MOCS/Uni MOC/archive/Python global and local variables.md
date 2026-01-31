@@ -4,8 +4,8 @@ type: Programming Note
 programming language: "[[Python MOC]]"
 related:
   - "[[Python Variables]]"
-completed: 
-updated: 2024-05-27T13:29
+completed:
+updated: 2026-01-31T13:32
 ---
 ---
 ## Indice

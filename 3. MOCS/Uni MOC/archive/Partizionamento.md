@@ -1,11 +1,11 @@
 ---
 type: Uni Note
-class: 
+class:
 academic year: 2024/2025
-related: 
+related:
 completed: false
 created: 2024-11-17T15:05
-updated: 2024-11-18T11:18
+updated: 2026-01-31T13:32
 ---
 >[!abstract] Related
 >- 

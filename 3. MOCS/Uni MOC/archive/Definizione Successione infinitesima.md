@@ -8,7 +8,7 @@ academic year: 2023/2024
 related:
   - "[[Successioni Reali]]"
 completed: true
-updated: 2024-06-28T19:31
+updated: 2026-01-31T13:32
 ---
 >[!abstract] Related
 >- [[Successioni Reali]]

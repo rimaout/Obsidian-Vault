@@ -5,7 +5,7 @@ academic year: 2024/2025
 related:
 completed: true
 created: 2025-10-05T16:06
-updated: 2025-10-05T19:11
+updated: 2026-01-31T13:32
 ---
 ## Redirezione output in bash
 

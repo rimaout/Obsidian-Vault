@@ -3,10 +3,10 @@ type: Uni Note
 class:
   - "[[Algoritmi 2 (class)]]"
 academic year: 2024/2025
-related: 
+related:
 completed: true
 created: 2025-03-05T08:36
-updated: 2025-03-25T09:41
+updated: 2026-01-31T13:32
 ---
 ## Grafo
 

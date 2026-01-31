@@ -8,7 +8,7 @@ related:
   - "[[Latch]]"
   - "[[Flip Flop]]"
 completed: true
-updated: 2024-07-09T11:51
+updated: 2026-01-31T13:32
 ---
 >[!abstract] Index
 >1. [[#Introduzione]]

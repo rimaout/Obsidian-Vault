@@ -1,6 +1,6 @@
 ---
 created: 2024-05-31T18:30
-updated: 2025-06-07T11:50
+updated: 2026-01-31T13:32
 ---
 Welcome to the analysis of not frequently used products. Here, we track the cost per use of these items, updating the usage count manually each time a product is used. This approach provides a more accurate reflection of the cost for these rarely used products.
 

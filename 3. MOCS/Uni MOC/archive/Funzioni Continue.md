@@ -8,7 +8,7 @@ related:
   - "[[Funzioni]]"
   - "[[Operazioni tra funzioni continue]]"
 completed: true
-updated: 2024-06-29T13:27
+updated: 2026-01-31T13:32
 ---
 
 >[!abstract] Index

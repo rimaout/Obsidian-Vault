@@ -10,7 +10,7 @@ related:
   - "[[Codifica modulo e segno (MS)]]"
   - "[[Sistema di numerazione binario]]"
 completed: true
-updated: 2024-07-09T11:14
+updated: 2026-01-31T13:32
 ---
 >[!abstract] Index
 >1. [[#Definizione]]

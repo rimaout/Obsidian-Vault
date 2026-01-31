@@ -6,7 +6,7 @@ academic year: 2024/2025
 related:
 completed: true
 created: 2025-09-25T14:21
-updated: 2025-10-14T11:52
+updated: 2026-01-31T13:32
 ---
 >[!note] Definizioni
 >- *Commit:* un'istantanea del repository in un determinato momento.

@@ -1,9 +1,9 @@
 ---
-Main Moc: 
-related: 
-completed: 
+Main Moc:
+related:
+completed:
 created: 2024-07-18T12:35
-updated: 2024-09-28T11:30
+updated: 2026-01-31T13:32
 ---
 These are not rules or anything official for the sub.
 

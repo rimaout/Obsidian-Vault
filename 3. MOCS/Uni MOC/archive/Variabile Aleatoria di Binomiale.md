@@ -6,7 +6,7 @@ related:
   - "[[Variabile Aleatoria di Binomiale]]"
 completed: true
 created: 2024-11-30T11:05
-updated: 2025-02-17T17:09
+updated: 2026-01-31T13:32
 ---
 >[!abstract] Related
 >- [[Variabile Aleatoria di Binomiale]]

@@ -8,7 +8,7 @@ related:
   - "[[Funzioni]]"
 completed: true
 created: 2024-06-28T20:37
-updated: 2024-06-28T20:41
+updated: 2026-01-31T13:32
 ---
 
 >[!abstract] Related

@@ -2,10 +2,10 @@
 type: Uni Note
 class: "[[Sistemi Operativi 1 (class)]]"
 academic year: 2024/2025
-related: 
+related:
 completed: true
 created: 2024-12-09T16:13
-updated: 2025-03-11T10:18
+updated: 2026-01-31T13:32
 ---
 >[!abstract] Related
 >- [[Input Output - Introduzione]]

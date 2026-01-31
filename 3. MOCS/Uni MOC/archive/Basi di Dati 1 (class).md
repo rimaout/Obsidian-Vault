@@ -3,7 +3,7 @@ Main Moc: "[[Uni MOC]]"
 related:
 completed: true
 created: 2024-09-25T15:37
-updated: 2025-09-26T17:12
+updated: 2026-01-31T13:32
 ---
 >[!note] Modello Relazionale
 >- [[Introduzione Algebra Relazionale]] 🟢

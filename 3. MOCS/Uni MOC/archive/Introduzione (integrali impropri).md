@@ -9,7 +9,7 @@ related:
   - "[[Calcolo Integrale (class)]]"
   - "[[Integrali Impropri]]"
 completed: true
-updated: 2024-05-27T13:29
+updated: 2026-01-31T13:32
 ---
 ---
 

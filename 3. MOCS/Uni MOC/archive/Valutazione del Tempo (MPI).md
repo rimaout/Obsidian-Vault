@@ -6,7 +6,7 @@ academic year: 2024/2025
 related:
 completed: true
 created: 2025-11-09T08:56
-updated: 2025-11-10T14:06
+updated: 2026-01-31T13:32
 ---
 Le immagini e buona parte del testo di questa nota sono stati presi degli [appunti](https://github.com/CasuFrost/university-notes-Informatica/blob/main/Terzo%20Anno/Programmazione%20di%20Sistemi%20Multicore/letexSrcFile/Programmazione%20di%20Sistemi%20Multicore.pdf) di [@CasuFrost](https://github.com/CasuFrost).
 

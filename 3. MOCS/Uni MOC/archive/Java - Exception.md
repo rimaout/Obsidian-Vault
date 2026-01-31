@@ -6,7 +6,7 @@ related:
   - "[[Java MOC]]"
 completed: false
 created: 2025-02-08T22:04
-updated: 2025-02-11T19:44
+updated: 2026-01-31T13:32
 ---
 
 Le eccezioni sono classi che ereditano `Exception`, sono utilizzate per segnalare una condizione anomale che impediscono la normale prosecuzione del programma.

@@ -4,9 +4,9 @@ type: Uni Note
 class:
   - "[[Calcolo Differenziale (class)]]"
 academic year: 2023/2024
-related: 
+related:
 completed: true
-updated: 2024-05-27T13:29
+updated: 2026-01-31T13:32
 ---
 ---
 ## Index

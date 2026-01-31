@@ -8,7 +8,7 @@ related:
   - "[[Algebra Booleana]]"
   - "[[Forma POS (Congiuntiva) e SOP (Disgiuntiva)]]"
 completed: true
-updated: 2024-06-27T22:54
+updated: 2026-01-31T13:32
 ---
 >[!abstract] Index
 >1. [[#Tavola di verità]]

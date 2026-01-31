@@ -6,7 +6,7 @@ academic year: 2024/2025
 related:
 completed: true
 created: 2025-11-05T16:40
-updated: 2025-11-05T17:14
+updated: 2026-01-31T13:32
 ---
 In MPI la lettura dell'input dell'utente può essere fatta fatta soltanto dal processo con rank 0, infatti è l'unico che può interagire con l'`stdin`, quindi una volta effettuata la lettura il valore dovrà poi essere comunicato ai restanti processi.
 

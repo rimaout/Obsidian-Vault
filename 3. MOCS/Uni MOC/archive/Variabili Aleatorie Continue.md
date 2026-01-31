@@ -7,7 +7,7 @@ related:
   - "[[Variabile Aleatoria Discreta]]"
 completed: true
 created: 2024-11-30T11:48
-updated: 2025-03-11T10:18
+updated: 2026-01-31T13:32
 ---
 >[!abstract] Related
 >- [[Variabili Aleatorie]]

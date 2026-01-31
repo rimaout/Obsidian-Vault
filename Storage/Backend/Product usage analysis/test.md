@@ -5,14 +5,14 @@ name: test
 product-category: Alarm
 maker: test
 model: test
-rating: 
+rating:
 price: 1
 monthly-uses: 1
 acquired: 2024-02-14
 discontinued: 2024-10-01
 tags:
   - products
-link: 
+link:
 created: 2024-10-01T21:55
-updated: 2024-10-01T21:58
+updated: 2026-01-31T13:32
 ---

@@ -6,7 +6,7 @@ related:
   - "[[Java MOC]]"
 completed: true
 created: 2025-02-07T22:44
-updated: 2025-02-08T11:45
+updated: 2026-01-31T13:32
 ---
 Le liste sono strutture dati che implementano l'interfaccia `List` e memorizzano i dati in modo sequenziale e dinamico. Ciò significa che le liste possono aumentare o diminuire la loro dimensione in base alle esigenze.
 

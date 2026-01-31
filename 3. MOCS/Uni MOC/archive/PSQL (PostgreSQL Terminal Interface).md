@@ -1,11 +1,11 @@
 ---
 type: Uni Note
-class: 
+class:
 academic year: 2024/2025
-related: 
+related:
 completed: false
 created: 2025-07-21T19:42
-updated: 2025-07-22T19:49
+updated: 2026-01-31T13:32
 ---
 `psql` is a terminal-based front-end to [[PostgreSQL]]. It enables you to type in queries interactively, issue them to PostgreSQL, and see the query results.
 

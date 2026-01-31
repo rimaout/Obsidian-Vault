@@ -1,6 +1,6 @@
 ---
 created: 2025-11-12T20:35
-updated: 2025-11-12T20:35
+updated: 2026-01-31T13:32
 ---
 # Resources for Studying API Pagination and Messaging Design
 

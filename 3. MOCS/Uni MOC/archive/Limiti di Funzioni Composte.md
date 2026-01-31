@@ -7,7 +7,7 @@ related:
   - "[[Limiti]]"
   - "[[Funzioni Composte]]"
 completed: true
-updated: 2024-06-29T13:09
+updated: 2026-01-31T13:32
 ---
 >[!abstract] Index
 >1. [[#Definizione]]

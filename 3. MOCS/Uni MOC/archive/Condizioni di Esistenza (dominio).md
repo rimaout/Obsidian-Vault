@@ -3,9 +3,9 @@ created: 2022-05-09
 type: Uni Note
 class:
   - "[[Matematica 0 (class)]]"
-related: 
+related:
 completed: true
-updated: 2024-06-28T01:27
+updated: 2026-01-31T13:32
 ---
 
 >[!abstract] Index

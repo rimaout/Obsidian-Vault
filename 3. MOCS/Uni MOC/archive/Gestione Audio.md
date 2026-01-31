@@ -1,11 +1,11 @@
 ---
 type: Uni Note
-class: 
+class:
 academic year: 2023/2024
-related: 
+related:
 completed: false
 created: 2024-09-18T10:49
-updated: 2024-09-26T19:15
+updated: 2026-01-31T13:32
 ---
 ---
 L'audio manager è la classe responsabile della gestione della riproduzione dei suoni all'interno del programma.

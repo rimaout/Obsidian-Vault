@@ -2,10 +2,10 @@
 type: Uni Note
 class: "[[Reti (class)]]"
 academic year: 2024/2025
-related: 
+related:
 completed: false
 created: 2025-05-22T14:21
-updated: 2025-05-22T14:42
+updated: 2026-01-31T13:32
 ---
 >[!note] Attacco
 >

@@ -6,7 +6,7 @@ related:
   - "[[Java MOC]]"
 completed: true
 created: 2025-01-29T19:14
-updated: 2025-02-07T10:01
+updated: 2026-01-31T13:32
 ---
 In Java, l'overloading e l'overriding sono due concetti fondamentali della programmazione orientata agli oggetti ([[OOP]]).
 

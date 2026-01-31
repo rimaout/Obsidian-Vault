@@ -4,9 +4,9 @@ type: Uni Note
 class:
   - "[[Architettura dei calcolatori (class)]]"
 academic year: 2023/2024
-related: 
+related:
 completed: false
-updated: 2024-11-19T11:31
+updated: 2026-01-31T13:32
 ---
 ---
 

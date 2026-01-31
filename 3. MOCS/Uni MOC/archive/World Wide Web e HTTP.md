@@ -6,7 +6,7 @@ related:
   - "[[Introduzione Livello Applicazione (TCP-IP)]]"
 completed: true
 created: 2025-03-17T09:41
-updated: 2025-04-11T13:02
+updated: 2026-01-31T13:32
 ---
 ## Introduzione
 

@@ -6,7 +6,7 @@ academic year: 2024/2025
 related:
 completed: false
 created: 2025-10-27T13:59
-updated: 2025-11-12T18:08
+updated: 2026-01-31T13:32
 ---
 ## Introduzione Linguaggi Funzionali
 

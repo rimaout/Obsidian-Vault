@@ -8,7 +8,7 @@ related:
   - "[[Limiti]]"
   - "[[Limiti Notevoli]]"
 completed: true
-updated: 2024-10-23T12:01
+updated: 2026-01-31T13:32
 ---
 >[!abstract] Index
 >1. [[#Proprietà]]

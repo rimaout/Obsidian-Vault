@@ -3,9 +3,9 @@ created: 2023-05-28
 type: Uni Note
 class:
   - "[[Calcolo Differenziale (class)]]"
-related: 
-completed: 
-updated: 2024-06-28T20:33
+related:
+completed:
+updated: 2026-01-31T13:32
 ---
 
 >[!abstract] Related

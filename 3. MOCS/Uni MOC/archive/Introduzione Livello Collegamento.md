@@ -2,10 +2,10 @@
 type: Uni Note
 class: "[[Reti (class)]]"
 academic year: 2024/2025
-related: 
+related:
 completed: true
 created: 2025-06-09T08:54
-updated: 2025-06-11T17:20
+updated: 2026-01-31T13:32
 ---
 ## Livelli visti fino ad ora
 

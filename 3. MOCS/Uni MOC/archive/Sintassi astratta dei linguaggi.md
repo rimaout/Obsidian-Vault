@@ -6,7 +6,7 @@ academic year: 2024/2025
 related:
 completed: true
 created: 2025-10-27T11:25
-updated: 2025-10-27T14:08
+updated: 2026-01-31T13:32
 ---
 Appunti rubati da [@exiss](https://github.com/Exyss/university-notes)
 

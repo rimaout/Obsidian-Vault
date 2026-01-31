@@ -6,7 +6,7 @@ related:
   - "[[Java MOC]]"
 completed: false
 created: 2025-02-09T20:09
-updated: 2025-02-11T14:26
+updated: 2026-01-31T13:32
 ---
 Sono oggetti in grado di ridurre il numero di elementi dello stream e/o di collezionali all'interno di una struttura dati.
 

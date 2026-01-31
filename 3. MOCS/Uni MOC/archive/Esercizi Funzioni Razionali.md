@@ -1,11 +1,11 @@
 ---
 created: 2024-05-22T09:50
 type: Uni Note
-class: 
+class:
 academic year: 2023/2024
-related: 
+related:
 completed: false
-updated: 2024-05-27T13:29
+updated: 2026-01-31T13:32
 ---
 ---
 

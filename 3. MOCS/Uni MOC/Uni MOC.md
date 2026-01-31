@@ -1,6 +1,6 @@
 ---
 created: 2023-09-26T10:14
-updated: 2025-11-13T11:42
+updated: 2026-01-31T13:32
 ---
 >**First year, first semester:**
 >- [[Matematica 0 (class)]]

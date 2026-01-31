@@ -4,9 +4,9 @@ academic year: 2022/2023
 class:
   - "[[Progettazione Sistemi Digitali (class)]]"
 type: Uni Note
-related: 
+related:
 completed: true
-updated: 2024-06-27T23:56
+updated: 2026-01-31T13:32
 ---
 
 >[!abstract] Index

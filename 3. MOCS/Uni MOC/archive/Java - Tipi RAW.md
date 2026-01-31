@@ -6,7 +6,7 @@ related:
   - "[[Java MOC]]"
 completed: true
 created: 2025-02-06T19:25
-updated: 2025-02-06T22:34
+updated: 2026-01-31T13:32
 ---
 I tipi generici sono stati implementati nella versione di Java 5, e per mantenere la retro compatibilità con il vecchio codice è possibile istanziare delle classi generiche senza definire alcun tipo.
 

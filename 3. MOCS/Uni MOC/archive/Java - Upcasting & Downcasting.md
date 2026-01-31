@@ -6,7 +6,7 @@ related:
   - "[[Java MOC]]"
 completed: true
 created: 2025-01-28T22:37
-updated: 2025-02-09T11:00
+updated: 2026-01-31T13:32
 ---
 In Java, l'[[#Upcasting|upcasting]] e il [[#Downcasting|downcasting]] sono due concetti fondamentali nella programmazione orientata agli oggetti ([[OOP]]) che si riferiscono alla conversione di tipi di dati tra classi e sottoclassi.
 

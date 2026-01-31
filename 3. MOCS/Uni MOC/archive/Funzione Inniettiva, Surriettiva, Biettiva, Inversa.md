@@ -6,7 +6,7 @@ class:
 related:
   - "[[Funzioni]]"
 completed: true
-updated: 2024-11-04T22:57
+updated: 2026-01-31T13:32
 ---
 
 >[!abstract] Index

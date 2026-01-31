@@ -3,10 +3,10 @@ type: Uni Note
 class:
   - "[[Calcolo delle Probabilità (class)]]"
 academic year: 2024/2025
-related: 
+related:
 completed: true
 created: 2024-10-24T15:17
-updated: 2024-10-24T15:19
+updated: 2026-01-31T13:32
 ---
 Siamo in un gioco dove dobbiamo scegliere 1 fra 3 porte, in una di queste è presente una macchina mentre nelle altre due abbiamo delle pecore.
 

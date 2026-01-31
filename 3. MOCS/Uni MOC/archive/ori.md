@@ -1,3 +1,7 @@
+---
+created: 2026-01-31T13:32
+updated: 2026-01-31T13:32
+---
 ##### `ori`
 
 The `ori` instruction stands for "or immediate". It is used to **perform a bitwise OR operation between a register and a 16-bit constant**, with the result being stored in a register. Unlike `li`, `move`, and `la`, `ori` is not a pseudo-instruction.

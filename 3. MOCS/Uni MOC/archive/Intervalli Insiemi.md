@@ -8,7 +8,7 @@ related:
   - "[[Teoria degli insiemi]]"
   - "[[Estremo Superiore e Inferiore, Massimo, Minimo, Maggiorante e Minorante di un insieme]]"
 completed: true
-updated: 2024-06-28T14:08
+updated: 2026-01-31T13:32
 ---
 
 >[!abstract] Index

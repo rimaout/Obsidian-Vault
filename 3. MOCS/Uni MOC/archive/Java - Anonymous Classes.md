@@ -6,7 +6,7 @@ related:
   - "[[Java MOC]]"
 completed: true
 created: 2025-02-02T20:45
-updated: 2025-02-10T11:25
+updated: 2026-01-31T13:32
 ---
 Le classi anonime in Java sono classi che non hanno un nome esplicito. Sono utilizzate per creare oggetti che implementano un'interfaccia o estendono una classe, senza dover definire una classe separata.
 

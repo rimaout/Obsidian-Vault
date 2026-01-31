@@ -6,7 +6,7 @@ class:
 related:
   - "[[Logica Proposizionale]]"
 completed: true
-updated: 2025-04-16T15:55
+updated: 2026-01-31T13:32
 ---
 ---
 # Info

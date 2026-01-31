@@ -6,7 +6,7 @@ class:
 related:
   - "[[Condizioni di Esistenza (dominio)]]"
 completed: true
-updated: 2024-06-28T12:50
+updated: 2026-01-31T13:32
 ---
 
 >[!abstract] Index

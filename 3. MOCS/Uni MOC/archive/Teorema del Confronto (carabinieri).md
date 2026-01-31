@@ -4,9 +4,9 @@ type: Uni Note
 class:
   - "[[Calcolo Differenziale (class)]]"
   - "[[Limiti]]"
-related: 
+related:
 completed: true
-updated: 2024-06-29T13:15
+updated: 2026-01-31T13:32
 ---
 >[!abstract] Index
 >1. [[#Definizione]]

@@ -6,7 +6,7 @@ academic year: 2024/2025
 related:
 completed: true
 created: 2025-10-09T14:45
-updated: 2025-10-14T12:34
+updated: 2026-01-31T13:32
 ---
 Un **API (Application Programing Interface)** è la definizione delle interazioni consentite tra due parti si un software.
 

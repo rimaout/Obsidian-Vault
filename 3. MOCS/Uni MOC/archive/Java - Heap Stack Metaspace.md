@@ -6,7 +6,7 @@ related:
   - "[[Java MOC]]"
 completed: true
 created: 2024-06-13T18:38
-updated: 2025-02-11T11:14
+updated: 2026-01-31T13:32
 ---
 In Java la memoria è suddivisa in 3 aree principali `Heap`, `Stack` e `Metaspace`, dove:
 - **Stack:** è la memoria più veloce ma piccola, è utilizzata per le variabili locali ed i frame di attivazione dei metodi, è una stack ovvero una pila, questo vuol dire che l'ultimo metodo chiamato sarà il primo ad essere chiuso.

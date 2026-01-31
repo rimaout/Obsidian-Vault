@@ -6,7 +6,7 @@ related:
   - "[[Java MOC]]"
 completed: false
 created: 2025-02-11T12:42
-updated: 2025-02-11T12:44
+updated: 2026-01-31T13:32
 ---
 Un `Optional` è un oggetto che contiene un riferimento ad oggetto che può essere `null` o meno. È utilizzato per evitare eccezione di tipo `NullPointerExeption`.
 

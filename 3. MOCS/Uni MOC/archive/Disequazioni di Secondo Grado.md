@@ -9,7 +9,7 @@ related:
   - "[[Disequazioni]]"
   - "[[Equazioni di Secondo Grado]]"
 completed: true
-updated: 2024-08-26T20:00
+updated: 2026-01-31T13:32
 ---
 ---
 ## Index

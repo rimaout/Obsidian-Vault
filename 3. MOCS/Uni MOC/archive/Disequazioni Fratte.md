@@ -6,8 +6,8 @@ class:
 related:
   - "[[Equazioni]]"
   - "[[Equazioni Fratte]]"
-completed: 
-updated: 2024-05-27T13:29
+completed:
+updated: 2026-01-31T13:32
 ---
 **Metodo:**
 1. [[Condizioni di Esistenza (dominio)]] 

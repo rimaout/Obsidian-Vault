@@ -6,7 +6,7 @@ related:
   - "[[Java MOC]]"
 completed: true
 created: 2025-02-05T18:55
-updated: 2025-02-08T15:07
+updated: 2026-01-31T13:32
 ---
 L'algoritmo per la cancellazione del tipo utilizzato dal *compilatore* per traduce il metodo/la classe generica in [[#^d36635|bytecode]] Java:
 1. Elimina la sezione del tipo parametrico e sostituisce il tipo parametrico con quello reale

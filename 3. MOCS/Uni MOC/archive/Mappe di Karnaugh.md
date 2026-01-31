@@ -8,7 +8,7 @@ related:
   - "[[Algebra Booleana]]"
   - "[[Tabelle di verità, Maxtermini e Mintermini]]"
 completed: true
-updated: 2024-06-27T23:32
+updated: 2026-01-31T13:32
 ---
 >[!abstract] Index
 >1. [[#Introduzione]]

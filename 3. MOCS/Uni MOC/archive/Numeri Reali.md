@@ -7,8 +7,8 @@ class:
 academic year: 2023/2024
 related:
   - "[[Insiemi Numerici]]"
-completed: 
-updated: 2024-05-27T13:29
+completed:
+updated: 2026-01-31T13:32
 ---
 ---
 ## Indice

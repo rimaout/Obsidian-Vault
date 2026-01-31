@@ -6,7 +6,7 @@ related:
   - "[[Java MOC]]"
 completed: true
 created: 2025-02-10T15:17
-updated: 2025-02-11T10:08
+updated: 2026-01-31T13:32
 ---
 In Java il simbolo `::` è chiamato **operatore di riferimento a metodo**, permette di fare riferimento a metodi senza invocarli direttamente attraverso una lambda expression.
 

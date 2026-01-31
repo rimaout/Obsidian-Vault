@@ -8,7 +8,7 @@ related:
   - "[[Circuito ed espressione minimale]]"
   - "[[Algebra Booleana]]"
 completed: true
-updated: 2024-06-27T23:46
+updated: 2026-01-31T13:32
 ---
 >[!abstract] Index
 >1. [[#Procedimento di Sintesi]]

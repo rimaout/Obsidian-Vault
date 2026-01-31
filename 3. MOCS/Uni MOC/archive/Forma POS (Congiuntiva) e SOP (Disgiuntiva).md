@@ -7,7 +7,7 @@ academic year: 2023/2024
 related:
   - "[[Algebra Booleana]]"
 completed: true
-updated: 2024-06-27T20:16
+updated: 2026-01-31T13:32
 ---
 >[!abstract] Index
 >1. [[#Definizione]]

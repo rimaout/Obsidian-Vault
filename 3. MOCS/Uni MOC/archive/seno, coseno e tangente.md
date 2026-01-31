@@ -7,7 +7,7 @@ class:
 related:
   - "[[Trigonometria]]"
 completed: true
-updated: 2024-06-28T01:52
+updated: 2026-01-31T13:32
 ---
 
 >[!abstract] Index

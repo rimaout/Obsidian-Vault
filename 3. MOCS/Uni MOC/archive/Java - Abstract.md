@@ -6,7 +6,7 @@ related:
   - "[[Java MOC]]"
 completed: true
 created: 2025-01-26T14:57
-updated: 2025-01-27T09:53
+updated: 2026-01-31T13:32
 ---
 Abstract è un modificatore che può essere utilizzato soltanto su `classi` e `metodi`:
 

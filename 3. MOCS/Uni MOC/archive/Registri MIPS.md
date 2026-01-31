@@ -8,7 +8,7 @@ related:
   - "[[Architettura MIPS]]"
   - "[[Introduzione all'architettura MIPS]]"
 completed: true
-updated: 2024-05-27T13:29
+updated: 2026-01-31T13:32
 ---
 - I 32 Registri, indicizzati da 0 a 31, della CPU principale:
 	- Registro `$zero` (`$0`), contenente un valore costante pari a **0** ed immutabile

@@ -7,8 +7,8 @@ related:
   - "[[Funzioni]]"
   - "[[Successioni Reali]]"
   - "[[Esponenziali]]"
-completed: 
-updated: 2024-06-29T13:22
+completed:
+updated: 2026-01-31T13:32
 ---
 
 >[!abstract] Related

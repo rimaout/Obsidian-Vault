@@ -2,10 +2,10 @@
 type: Uni Note
 class: "[[Sistemi Operativi 1 (class)]]"
 academic year: 2024/2025
-related: 
+related:
 completed: false
 created: 2024-12-09T17:49
-updated: 2025-03-11T10:18
+updated: 2026-01-31T13:32
 ---
 >[!abstract] Related
 >- [[Introduzione ai Sistemi Operativi]]

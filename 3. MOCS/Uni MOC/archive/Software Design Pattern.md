@@ -4,9 +4,9 @@ type: Uni Note
 class:
   - "[[Metodologie di Programmazione (class)]]"
 academic year: 2023/2024
-related: 
+related:
 completed: false
-updated: 2024-07-12T18:02
+updated: 2026-01-31T13:32
 ---
 >[!abstract] Index
 >1. [[#Introduzione]]

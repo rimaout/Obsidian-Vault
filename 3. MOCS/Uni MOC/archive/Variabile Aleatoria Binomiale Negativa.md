@@ -1,11 +1,11 @@
 ---
 type: Uni Note
-class: 
+class:
 academic year: 2024/2025
-related: 
+related:
 completed: true
 created: 2024-11-30T11:24
-updated: 2025-02-17T17:11
+updated: 2026-01-31T13:32
 ---
 >[!abstract] Related
 >- [[Variabile Aleatoria di Binomiale]]

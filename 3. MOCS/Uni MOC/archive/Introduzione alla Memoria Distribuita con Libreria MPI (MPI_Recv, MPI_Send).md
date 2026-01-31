@@ -6,7 +6,7 @@ academic year: 2024/2025
 related:
 completed: true
 created: 2025-10-11T15:12
-updated: 2025-11-04T18:44
+updated: 2026-01-31T13:32
 ---
 ## Sistemi a memoria distribuita
 

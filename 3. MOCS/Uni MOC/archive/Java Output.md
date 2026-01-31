@@ -2,9 +2,9 @@
 created: 2024-03-08
 type: "[[Programming MOC]]"
 programming language: "[[Java MOC]]"
-related: 
+related:
 completed: false
-updated: 2025-02-07T10:11
+updated: 2026-01-31T13:32
 ---
 ---
 

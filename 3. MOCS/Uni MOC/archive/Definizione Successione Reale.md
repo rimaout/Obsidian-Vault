@@ -7,7 +7,7 @@ related:
   - "[[Successioni Reali]]"
 completed: true
 created: 2024-06-28T16:08
-updated: 2024-06-28T19:20
+updated: 2026-01-31T13:32
 ---
 >[!abstract] Index
 >1. [[#Definizione di Successione]]

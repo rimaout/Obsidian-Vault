@@ -3,9 +3,9 @@ created: 2023-04-19
 type: Uni Note
 class:
   - "[[Matematica 0 (class)]]"
-related: 
-completed: 
-updated: 2024-06-28T01:51
+related:
+completed:
+updated: 2026-01-31T13:32
 ---
 >[!abstract] Related
 >- [[Trigonometria]]

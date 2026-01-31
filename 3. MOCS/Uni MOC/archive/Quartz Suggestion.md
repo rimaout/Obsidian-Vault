@@ -1,11 +1,11 @@
 ---
 type: Uni Note
-class: 
+class:
 academic year: 2024/2025
-related: 
+related:
 completed: false
 created: 2024-10-03T10:32
-updated: 2024-10-19T00:34
+updated: 2026-01-31T13:32
 ---
 - Do not accept merge from the bot 
 - Use `npx quartz update` to update.

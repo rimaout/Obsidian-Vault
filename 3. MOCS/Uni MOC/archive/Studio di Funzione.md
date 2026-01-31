@@ -6,8 +6,8 @@ class:
 related:
   - "[[Funzioni]]"
   - "[[Limiti]]"
-completed: 
-updated: 2024-06-28T15:46
+completed:
+updated: 2026-01-31T13:32
 ---
 >[!abstract] Related
 >- [[Funzioni]]

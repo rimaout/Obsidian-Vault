@@ -4,11 +4,11 @@ programming language:
 related:
 completed: false
 created: 2025-12-12T15:27
-updated: 2025-12-22T18:29
+updated: 2026-01-31T13:33
 ---
 ## Apps
 
-`brew install --cask bitwarden zen discord obsidian onlyoffice raycast karabiner-elements`
+`brew install --cask bitwarden ente-auth zen discord obsidian onlyoffice raycast karabiner-elements`
 
 `brew install --cask github visual-studio-code ghostty`
 

@@ -6,7 +6,7 @@ related:
   - "[[Java MOC]]"
 completed: true
 created: 2025-01-28T17:43
-updated: 2025-01-29T22:02
+updated: 2026-01-31T13:32
 ---
 `clone()` è un metodo ogni classe eredita dalla super classe `object` e restituisce una copia dell’oggetto clonato (ovvero una nuova istanza dell'oggetto con stessi campi ma area di memoria diversa).
 

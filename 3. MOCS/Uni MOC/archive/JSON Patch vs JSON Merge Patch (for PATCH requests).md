@@ -5,7 +5,7 @@ academic year: 2024/2025
 related:
 completed: false
 created: 2025-12-01T11:58
-updated: 2025-12-01T11:59
+updated: 2026-01-31T13:32
 ---
 
 Both are used with `PATCH` for partial updates, but they behave differently.

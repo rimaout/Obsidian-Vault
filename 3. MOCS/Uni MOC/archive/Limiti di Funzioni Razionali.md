@@ -6,7 +6,7 @@ class:
 related:
   - "[[Limiti]]"
   - "[[Funzioni Razionali]]"
-updated: 2024-06-29T00:38
+updated: 2026-01-31T13:32
 completed: true
 ---
 >[!abstract] Index

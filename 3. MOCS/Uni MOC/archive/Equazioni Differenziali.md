@@ -2,10 +2,10 @@
 type: Uni Note
 class: "[[Calcolo Integrale (class)]]"
 academic year: 2024/2025
-related: 
+related:
 completed: true
 created: 2024-12-03T12:12
-updated: 2024-12-03T12:13
+updated: 2026-01-31T13:32
 ---
 >[!abstract] Related
 >- [[Calcolo Integrale (class)]]

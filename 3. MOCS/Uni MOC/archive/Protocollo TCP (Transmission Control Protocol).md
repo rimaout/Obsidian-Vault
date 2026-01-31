@@ -2,10 +2,10 @@
 type: Uni Note
 class: "[[Reti (class)]]"
 academic year: 2024/2025
-related: 
+related:
 completed: false
 created: 2025-04-14T16:12
-updated: 2025-06-17T23:20
+updated: 2026-01-31T13:32
 ---
 Non ho finito questa parte degli appunti :(
 

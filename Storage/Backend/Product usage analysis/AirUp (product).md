@@ -5,14 +5,14 @@ name: AirUp
 product-category: Water Bottle
 maker: AirUp
 model: 850ml
-rating: 
+rating:
 price: 70
-manually-count: 
+manually-count:
 acquired: 2023-05-20
 monthly-uses: 5
 tags:
   - products
-link: 
+link:
 created: 2024-05-24T21:50
-updated: 2024-05-31T20:00
+updated: 2026-01-31T13:32
 ---

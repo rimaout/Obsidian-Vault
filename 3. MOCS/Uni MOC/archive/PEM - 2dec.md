@@ -5,7 +5,7 @@ academic year: 2024/2025
 related:
 completed: false
 created: 2025-12-02T17:24
-updated: 2025-12-02T18:07
+updated: 2026-01-31T13:32
 ---
 ## The schedule Clause
 

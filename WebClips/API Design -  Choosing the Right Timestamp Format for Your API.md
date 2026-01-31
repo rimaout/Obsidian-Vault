@@ -1,3 +1,7 @@
+---
+created: 2026-01-31T13:32
+updated: 2026-01-31T13:32
+---
 ## API Design: Choosing the Right Timestamp Format
 
 I've seen countless API debates melt down over one simple question: "Should we use Unix timestamps or ISO 8601?" It's one of those decisions that seems trivial at first but ripples through your entire system—affecting parsing, timezone handling, and the developer experience your API users will love (or rage about). Let me walk you through the major formats and help you make the right choice for your API.

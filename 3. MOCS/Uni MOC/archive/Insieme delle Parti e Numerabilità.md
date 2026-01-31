@@ -8,7 +8,7 @@ related:
   - "[[Teoria degli insiemi]]"
 completed: true
 created: 2024-10-05T16:45
-updated: 2024-10-05T16:56
+updated: 2026-01-31T13:32
 ---
 >[!abstract] Related
 >- [[Cardinalità ed equipollenza, insiemi finiti ed infiniti, numerabili ed innumerabili]]

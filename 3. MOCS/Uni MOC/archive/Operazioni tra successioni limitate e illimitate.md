@@ -9,7 +9,7 @@ related:
   - "[[Limiti di successioni]]"
   - "[[Successioni limitate e illimitate]]"
 completed: false
-updated: 2024-06-28T20:57
+updated: 2026-01-31T13:32
 ---
 
 >[!abstract] Related

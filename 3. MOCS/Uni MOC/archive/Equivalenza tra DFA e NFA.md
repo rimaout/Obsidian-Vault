@@ -6,7 +6,7 @@ academic year: 2024/2025
 related:
 completed: true
 created: 2025-10-03T14:14
-updated: 2025-10-09T13:21
+updated: 2026-01-31T13:32
 ---
 ## Teorema
 

@@ -7,7 +7,7 @@ academic year: 2023/2024
 related:
   - "[[Registri]]"
 completed: false
-updated: 2024-07-09T11:27
+updated: 2026-01-31T13:32
 ---
 >[!abstract] Indice
 >1. [[#PIPO Shift Register]]

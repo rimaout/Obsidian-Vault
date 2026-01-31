@@ -7,7 +7,7 @@ academic year: 2023/2024
 related:
   - "[[Sistema di numerazione binario]]"
 completed: true
-updated: 2024-06-28T00:05
+updated: 2026-01-31T13:32
 ---
 >[!abstract] Index
 >1. [[#Introduzione]]

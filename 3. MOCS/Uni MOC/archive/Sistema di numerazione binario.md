@@ -7,7 +7,7 @@ type: Uni Note
 related:
   - "[[Sistemi numerici]]"
 completed: true
-updated: 2024-07-09T11:13
+updated: 2026-01-31T13:32
 ---
 >[!abstract] Index
 >1. [[#Introduzione]]

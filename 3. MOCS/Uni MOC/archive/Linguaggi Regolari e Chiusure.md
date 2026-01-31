@@ -6,7 +6,7 @@ academic year: 2024/2025
 related:
 completed: false
 created: 2025-09-26T08:36
-updated: 2025-10-03T14:37
+updated: 2026-01-31T13:32
 ---
 >[!note] Insieme dei Linguaggi Regolari
 >

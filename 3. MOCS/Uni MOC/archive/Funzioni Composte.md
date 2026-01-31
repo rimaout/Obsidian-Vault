@@ -1,9 +1,9 @@
 ---
 created: 2023-10-24T14:43
-updated: 2024-10-29T15:19
+updated: 2026-01-31T13:32
 related:
   - "[[Funzioni]]"
-completed: 
+completed:
 class:
   - "[[Metodi matematici per l'informatica (class)]]"
 ---

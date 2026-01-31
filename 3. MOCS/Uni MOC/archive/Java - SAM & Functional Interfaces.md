@@ -6,7 +6,7 @@ related:
   - "[[Java MOC]]"
 completed: true
 created: 2025-01-30T18:35
-updated: 2025-02-09T17:52
+updated: 2026-01-31T13:32
 ---
 ## Functional Interfaces
 

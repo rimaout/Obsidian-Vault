@@ -8,7 +8,7 @@ academic year: 2023/2024
 related:
   - "[[Teoria degli insiemi]]"
 completed: true
-updated: 2024-06-28T13:50
+updated: 2026-01-31T13:32
 ---
 
 >[!abstract] Index

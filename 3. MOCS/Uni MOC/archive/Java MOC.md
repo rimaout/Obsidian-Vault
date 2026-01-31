@@ -4,7 +4,7 @@ type: "[[Programming MOC]]"
 related:
   - "[[Programmazione ad Oggetti]]"
   - "[[Metodologie di Programmazione (class)]]"
-updated: 2025-11-03T12:21
+updated: 2026-01-31T13:32
 ---
 >[!abstract] Basics
 >- [[Hello World in java]] 🟢

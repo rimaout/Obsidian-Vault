@@ -7,7 +7,7 @@ related:
   - "[[Variabile Aleatorie Congiunte]]"
 completed: true
 created: 2024-12-02T10:35
-updated: 2025-02-04T16:18
+updated: 2026-01-31T13:32
 ---
 >[!abstract] Related
 >- [[Variabili Aleatorie]]

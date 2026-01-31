@@ -8,7 +8,7 @@ related:
   - "[[Registri]]"
   - "[[Shift Registers]]"
 completed: true
-updated: 2024-07-09T11:24
+updated: 2026-01-31T13:32
 ---
 >[!abstract] Indice
 >1. [[#Definizione]]

@@ -6,7 +6,7 @@ academic year: 2024/2025
 related: "[[Teoria degli insiemi]]"
 completed: true
 created: 2024-10-15T14:15
-updated: 2024-10-15T14:19
+updated: 2026-01-31T13:32
 ---
 >[!abstract] Related
 >- [[Teoria degli insiemi]]

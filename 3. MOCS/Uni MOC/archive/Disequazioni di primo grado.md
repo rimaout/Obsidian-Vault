@@ -8,7 +8,7 @@ related:
   - "[[Disequazioni]]"
   - "[[Equazioni di Primo Grado]]"
 completed: true
-updated: 2024-05-27T13:29
+updated: 2026-01-31T13:32
 ---
 ---
 ## Index

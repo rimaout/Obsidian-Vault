@@ -9,7 +9,7 @@ related:
   - "[[Codifica complemento a due (CA2)]]"
   - "[[Codifica modulo e segno (MS)]]"
 completed: true
-updated: 2024-11-18T20:21
+updated: 2026-01-31T13:32
 ---
 >[!abstract] Index
 >1. [[#Definizione]]

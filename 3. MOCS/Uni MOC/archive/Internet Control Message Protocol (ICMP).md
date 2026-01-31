@@ -2,10 +2,10 @@
 type: Uni Note
 class: "[[Reti (class)]]"
 academic year: 2024/2025
-related: 
+related:
 completed: true
 created: 2025-05-10T14:02
-updated: 2025-06-15T17:04
+updated: 2026-01-31T13:32
 ---
 ## ICMP
 

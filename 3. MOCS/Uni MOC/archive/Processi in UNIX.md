@@ -6,7 +6,7 @@ academic year: 2024/2025
 related: "[[Processi]]"
 completed: true
 created: 2024-10-20T15:08
-updated: 2024-10-26T10:54
+updated: 2026-01-31T13:32
 ---
 >[!abstract] Index
 >1. [[#Esecuzione dei processi in UNIX]]

@@ -3,8 +3,8 @@ created: 2023-05-09
 type: Uni Note
 class:
   - "[[Matematica 0 (class)]]"
-completed: 
-updated: 2024-05-27T13:29
+completed:
+updated: 2026-01-31T13:32
 ---
 ---
 ## Indice

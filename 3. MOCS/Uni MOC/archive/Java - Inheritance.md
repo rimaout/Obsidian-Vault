@@ -6,7 +6,7 @@ related:
   - "[[Java MOC]]"
 completed: true
 created: 2025-01-27T20:03
-updated: 2025-01-28T17:44
+updated: 2026-01-31T13:32
 ---
 L'ereditarietà è uno dei meccanismi fondamentali della programmazione orientata agli oggetti, che consente di ridurre la ridondanza del codice permettendo alle classi figlie di ereditare campi e i metodi della classe madre.
 

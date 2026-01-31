@@ -5,8 +5,8 @@ class:
   - "[[Calcolo Differenziale (class)]]"
 related:
   - "[[Derivate]]"
-completed: 
-updated: 2024-06-28T01:52
+completed:
+updated: 2026-01-31T13:32
 ---
 >[!abstract] Related
 >- [[Trigonometria]]

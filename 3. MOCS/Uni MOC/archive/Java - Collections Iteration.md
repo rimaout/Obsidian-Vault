@@ -6,7 +6,7 @@ related:
   - "[[Java MOC]]"
 completed: true
 created: 2025-02-07T16:01
-updated: 2025-02-09T18:42
+updated: 2026-01-31T13:32
 ---
 
 È possibile **iterare esternamente** ad una collezione attraverso:

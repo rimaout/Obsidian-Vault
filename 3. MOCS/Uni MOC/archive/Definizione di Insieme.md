@@ -8,7 +8,7 @@ related:
   - "[[Teoria degli insiemi]]"
 completed: true
 created: 2024-07-15T12:39
-updated: 2024-10-02T11:53
+updated: 2026-01-31T13:32
 ---
 >[!abstract] Related
 >- [[Teoria degli insiemi]]

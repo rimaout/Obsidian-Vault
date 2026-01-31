@@ -8,7 +8,7 @@ related:
   - "[[Tabelle di verità, Maxtermini e Mintermini]]"
   - "[[Algebra Booleana]]"
 completed: true
-updated: 2024-06-27T23:12
+updated: 2026-01-31T13:32
 ---
 >[!abstract] Index
 >1. [[#Forma normale]]

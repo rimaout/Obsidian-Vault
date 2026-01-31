@@ -4,9 +4,9 @@ type: Uni Note
 class:
   - "[[Metodi matematici per l'informatica (class)]]"
   - "[[Calcolo Differenziale (class)]]"
-related: 
+related:
 completed: true
-updated: 2024-10-02T11:51
+updated: 2026-01-31T13:32
 ---
 >[!abstract] Related
 >1. [[Calcolo Differenziale (class)]]

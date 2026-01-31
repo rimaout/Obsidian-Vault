@@ -1,9 +1,9 @@
 ---
 type: Uni Note
-class: 
+class:
 academic year: 2023/2024
-related: 
+related:
 completed: false
 created: 2024-09-24T17:18
-updated: 2024-10-01T11:41
+updated: 2026-01-31T13:32
 ---

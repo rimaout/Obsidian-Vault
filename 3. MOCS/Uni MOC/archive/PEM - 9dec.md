@@ -5,7 +5,7 @@ academic year: 2024/2025
 related:
 completed: false
 created: 2025-12-09T17:17
-updated: 2025-12-09T18:30
+updated: 2026-01-31T13:32
 ---
 Mantenere la coerenza è molto difficile dato che ogni core ha la sua memoria cache, poi ci sono la cache condivise e poi c'è la memoria ram condivisa.
 

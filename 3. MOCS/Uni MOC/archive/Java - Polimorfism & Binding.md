@@ -6,7 +6,7 @@ related:
   - "[[Java MOC]]"
 completed: true
 created: 2025-01-29T16:25
-updated: 2025-02-09T11:09
+updated: 2026-01-31T13:32
 ---
 ## Polimorfismo
 

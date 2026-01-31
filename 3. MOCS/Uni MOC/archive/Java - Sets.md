@@ -6,7 +6,7 @@ related:
   - "[[Java MOC]]"
 completed: true
 created: 2025-02-07T17:38
-updated: 2025-02-09T22:35
+updated: 2026-01-31T13:32
 ---
 Gli insiemi sono [[Java - Collections|collezioni]] **prive di duplicati** che estendono la classe `AbstractSet` ed implementano l'interfaccia `Set`. Gli oggetti inseriti nei set devono implementare correttamente i metodi [[Java - HashCode & Equals Methods|hashCode() ed equals()]].
 

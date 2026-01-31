@@ -6,7 +6,7 @@ related:
   - "[[Java MOC]]"
 completed: false
 created: 2025-02-10T20:17
-updated: 2025-02-12T12:43
+updated: 2026-01-31T13:32
 ---
 I design pattern sono soluzioni note di problemi specifici, che possono essere seguite passo passo.
 

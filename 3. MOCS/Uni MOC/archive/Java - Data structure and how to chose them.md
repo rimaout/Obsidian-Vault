@@ -6,7 +6,7 @@ related:
   - "[[Java MOC]]"
 completed: true
 created: 2025-02-08T12:15
-updated: 2025-02-08T13:18
+updated: 2026-01-31T13:32
 ---
 ## Strutture dati comuni
 

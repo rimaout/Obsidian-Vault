@@ -6,7 +6,7 @@ academic year: 2024/2025
 related: "[[Definizioni e Assiomi della Probabilità#Spazio di Probabilità]]"
 completed: false
 created: 2024-10-13T13:35
-updated: 2025-02-05T09:22
+updated: 2026-01-31T13:32
 ---
 >[!abstract] Index
 >1. [[#Introduzione]]

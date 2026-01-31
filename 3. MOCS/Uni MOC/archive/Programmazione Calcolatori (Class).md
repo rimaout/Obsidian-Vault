@@ -4,7 +4,7 @@ academic year: 2022/2023
 related:
   - "[[C MOC]]"
 created: 2023-03-25T13:24
-updated: 2024-07-09T12:09
+updated: 2026-01-31T13:32
 ---
 >[!abstract] Lezioni
 >1. [[L1 Programmazione dei Calcolatori (C Intro)]]

@@ -7,7 +7,7 @@ related:
   - "[[Principio di non contraddizione]]"
   - "[[Principio del terzo Escluso]]"
 completed: true
-updated: 2024-05-27T13:29
+updated: 2026-01-31T13:32
 ---
 ---
 # Definizione
