@@ -6,7 +6,7 @@ academic year: 2024/2025
 related: "[[Scheduling]]"
 completed: true
 created: 2024-11-06T19:33
-updated: 2026-01-31T13:32
+updated: 2026-02-04T12:36
 ---
 >[!abstract] Related
 >- [[Scheduling]]
@@ -31,11 +31,11 @@ In UNIX vengono utilizzati diversi algoritmi di scheduling insieme, nello specif
 ---
 ## Priorità
 
-Per scegliere quale processo eseguire viene data una prioritaria ad ognuno ed ogni secondo viene aggiornata.
+Per scegliere quale processo eseguire viene data una prioritaria ad ognuno dei processi, e ogni secondo cengono aggiornate le priorità.
 
 >[!note] Caratteristiche
 >- Più il valore è basso più è alta la priorità di esecuzione
->- Formula sufficientemente semplice da avere un overhead basso (ovvero il calcolo non deve essere troppo dispendioso per la CPU) ma allo stesso tempo deve assicurare delle buone performance\
+>- Formula sufficientemente semplice da avere un overhead basso (ovvero il calcolo non deve essere troppo dispendioso per la CPU) ma allo stesso tempo deve assicurare delle buone performance
 
 >[!danger] Formula
 >
@@ -67,5 +67,3 @@ In quest immagine i blocchi colorati rappresentano i processi in esecuzione, Pri
 >- Dopo un quanto (1 secondo) avviene un l’interrupt che arresta il processo **A**, il suo valore $\text{CPU}$ diventa $\frac{2}{60}$​ e nella priorità viene ridiviso per 2 e sommato a base quindi otteniamo 15+60=75 di priorità.
 >- Viene quindi scelto **B** dato che è arrivato prima di **C** e ha priorità più bassa di A.
 >- Vengono effettuati gli stessi passaggi di prima…
-
----

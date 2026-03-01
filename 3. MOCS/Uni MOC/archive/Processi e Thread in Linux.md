@@ -6,7 +6,7 @@ academic year: 2024/2025
 related: "[[Interruzioni 101]]"
 completed: true
 created: 2024-10-26T10:56
-updated: 2026-01-31T13:32
+updated: 2026-02-04T11:58
 info:
 ---
 >[!abstract] Index
@@ -31,8 +31,8 @@ Il kernel Linux non fa una distinzione netta tra processi e thread, ma piuttosto
 >I thread sono chiamati **LWP** (Lightweight Process) 
 >
 >Esistono sia i **[[Threads#ULT vs KLT|KLT (kernel level threads)]]** che gli **[[Threads#ULT vs KLT|ULT (user level threads)]]** ma:
->- KLT sono usati principalmente del sistema operativo
->- ULT possono essere scritti da qualsiasi utente, poi solitamente vengono convertiti in KLT (esempio se si usa la libreria `pthreads`)
+>- `KLT` sono usati principalmente del sistema operativo
+>- `ULT` possono essere scritti da qualsiasi utente, poi solitamente vengono convertiti in `KLT` (esempio se si usa la libreria `pthreads`)
 
 >[!note] Identificazione dei Thread
 >Ogni Thread (LWP), proprio come i processi, ha il proprio [[Processi#Proces Control Block (PCB)|PCB (process control block)]], e in quest’ultimo sono presenti tutte le informazioni necessarie per la gestione dei thead.
@@ -55,9 +55,9 @@ Questa è la rappresentazione ad alto del [[Processi#Proces Control Block (PCB)|
 ![[Pasted image 20241027111758.png|500]]
 
 >[!info] 
->Nel [[Processi#Proces Control Block (PCB)|PCB]] di linux è possibile trovare sia il **TID** che il **TGID**, Le frecce indicano i puntatori, a delle strutture esterne al PCB. 
+>Nel [[Processi#Proces Control Block (PCB)|PCB]] di linux è possibile trovare sia il **TID** che il **TGID**, le frecce indicano i puntatori a delle strutture esterne al PCB. 
 >
->Il puntatore a **thread info**, contiene diverse informazioni a basso livello, tra cui questa il _kernel stack_, ovvero lo stack che contiene le chiamate per il codice di sistema (esempio le system call).
+>Il puntatore a **thread info** contiene diverse informazioni a basso livello, tra cui il _kernel stack_, ovvero lo stack che contiene le chiamate per il codice di sistema (esempio le system call).
 >
 >>[!caption|right]
 >> 
@@ -72,7 +72,7 @@ Questa è la rappresentazione ad alto del [[Processi#Proces Control Block (PCB)|
 
 In Linux il modello degli stati è molto simile al [[Processi#Modello a 5 Stati|modello a 5 stati]], visto precedentemente -
 
-Tuttavia ci sono degli stati "atipici" rispetti al [[Processi#Modello a 5 Stati|modello a 5 stati]]:
+Tuttavia ci sono degli stati "atipici" rispetto al [[Processi#Modello a 5 Stati|modello a 5 stati]]:
 - Non è presente lo stato `suspended`, questo significa che un processo può essere sospeso ma non per scelta dell'OS.
 - `TASK_RUNNIG`: non è presente la distinzione tra sia *Ready* che *Running*.
 - `TASK_INTERRUPTIBLE`, `TASK_UNINTERRUPTIBLE`, `TASK_STOPPED`, `TASK_TRACED`: sono tutti **Blocked** ma differiscono per il motivo per cui il processo è stato bloccato.

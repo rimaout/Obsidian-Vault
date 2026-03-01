@@ -6,9 +6,8 @@ academic year: 2024/2025
 related:
 completed: true
 created: 2024-10-01T16:00
-updated: 2026-01-31T13:32
+updated: 2026-02-04T10:49
 ---
-
 >[!abstract] Related
 >- [[Sistemi Operativi 1 (class)]]
 

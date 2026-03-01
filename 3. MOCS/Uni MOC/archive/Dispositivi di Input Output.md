@@ -5,7 +5,7 @@ academic year: 2024/2025
 related:
 completed: true
 created: 2024-12-09T16:13
-updated: 2026-01-31T13:32
+updated: 2026-02-04T13:11
 ---
 >[!abstract] Related
 >- [[Input Output - Introduzione]]
@@ -15,8 +15,8 @@ updated: 2026-01-31T13:32
 ## Introduzione
 
 l problemi principali della gestione Input Output sono: 
-- ci sono tantissimi dispositivi tutti molto diversi fra loro
-- grande varietà di applicazioni che utilizzano questi dispositivi.
+- ci sono *tantissimi dispositivi* tutti molto *diversi* fra loro
+- grande *varietà di applicazioni* che utilizzano questi dispositivi.
 
 Per questo scrivere un S.O. in grado di gestirli tutti è quindi molto difficile.
 

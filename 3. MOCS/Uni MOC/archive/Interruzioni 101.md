@@ -6,7 +6,7 @@ academic year: 2024/2025
 related:
 completed: true
 created: 2024-09-27T17:20
-updated: 2026-01-31T13:32
+updated: 2026-02-03T11:09
 ---
 >[!abstract] Related
 >- [[Sistemi Operativi 1 (class)]]
@@ -17,10 +17,10 @@ updated: 2026-01-31T13:32
 Le **Interruzioni** sono un meccanismo fondamentale di un qualsiasi sistema operativo che permette di interrompere il processo in esecuzione sul processore.
 
 Le cause per cui potrebbe avvenire un interruzione sono molteplici, e danno luogo a diversi tipi di interruzioni:
-- da programma ([[#^8c821c|sincrone]])
-- da I/O ([[#^e40f58|asincrone]])
-- da fallimento hardware ([[#^e40f58|asincrone]])
-- da timer ([[#^e40f58|asincrone]])
+- da `programma` ([[#^8c821c|sincrone]])
+- da `I/O` ([[#^e40f58|asincrone]])
+- da `fallimento hardware` ([[#^e40f58|asincrone]])
+- da `timer` ([[#^e40f58|asincrone]])
 
 ---
 ## Interruzioni Sincrone ed Asincrone

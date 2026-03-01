@@ -6,7 +6,7 @@ academic year: 2024/2025
 related: "[[Processi]]"
 completed: true
 created: 2024-10-20T15:08
-updated: 2026-01-31T13:32
+updated: 2026-02-04T11:39
 ---
 >[!abstract] Index
 >1. [[#Esecuzione dei processi in UNIX]]
@@ -25,7 +25,7 @@ updated: 2026-01-31T13:32
 
 Linux utilizza un misto tra [[#^1fa6c4|Kernel Interno ai Processi Utente]] e [[#^338496|Kernel Basato sui Processi]].
 
-Le funzioni del Kernel sono eseguito per lo più tramite interrupt per conto del processo corrente, ma ci sono dei processi di sistema chiamati **kernel threads** che partecipano alla normale competizione del processore.
+Le funzioni del Kernel sono eseguite per lo più tramite interrupt per conto del processo corrente, ma ci sono dei processi di sistema chiamati **kernel threads** che partecipano alla normale competizione del processore.
 
 Di solito sono periodici, ed eseguono una specifica operazione come ad esempio:
 - Riorganizzare la RAM liberando spazio
@@ -37,8 +37,8 @@ Di solito sono periodici, ed eseguono una specifica operazione come ad esempio:
 >
 >- **User Running:** in esecuzione in modalità utente
 >- **Kernel Running:** in esecuzione in modalità kernel o sistema
->- **Ready to Run:** in Memory può andare in esecuzione non appena il kernel lo seleziona
->- **Asleep in Memory:** non può essere eseguito finch ́e un qualche evento non si manifesta; il processo è in memoria
+>- **Ready to Run in Memory:** può andare in esecuzione non appena il kernel lo seleziona
+>- **Asleep in Memory:** non può essere eseguito finché un qualche evento non si manifesta; il processo è in memoria
 >- **Ready to Run:** Swapped può andare in esecuzione (non è in attesa di eventi esterni), ma prima dovrà essere portato in memoria
 >- **Sleeping o Swapped:** non può essere eseguito finché un qualche evento non si manifesta; il processo non è in memoria primaria
 >- **Preempted:** il kernel ha appena tolto l’uso del processore a questo processo (preemption), per fare un context switch
@@ -92,7 +92,7 @@ Il [[Processi#Proces Control Block (PCB)|PCB]] del processo UNIX è formato da 3
     3. Copia l’immagine del padre escludendo la memoria condivisa, una volta fatto questo sia padre che figlio vorranno eseguire la stessa istruzione successiva al fork.
     4. Incrementa i contatori di ogni file aperto dal padre dato che ora sono anche del figlio
     5. Assegna al processo lo stato **Ready to Run**
-    6. La fork ritorna il [[PID]] del figlio al padre e 0 al figlio, nello specifico all’interno del codice posso inserire un _if_ sul valore della fork, se è 0 sono nel figlio e posso eseguire le istruzioni che voglio, se non è 0 sono il padre e allora posso continuare con le vecchie istruzioni oppure ad esempio aspettare la terminazione del figlio.
+    6. La fork ritorna il [[PID]] del figlio al padre e 0 al figlio, nello specifico all’interno del codice posso inserire un `if` sul valore della fork, se è 0 sono nel figlio e posso eseguire le istruzioni che voglio, se non è 0 sono il padre e allora posso continuare con le vecchie istruzioni oppure ad esempio aspettare la terminazione del figlio.
 
 Quindi quando creiamo un processo figlio, inizialmente questo è una copia del padre, si è notato che è la cosa più efficiente dato che è la situazione più comune quella dove un figlio esegue una parte del codice del padre.
 

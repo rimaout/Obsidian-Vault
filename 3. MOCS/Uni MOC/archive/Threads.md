@@ -6,7 +6,7 @@ academic year: 2024/2025
 related:
 completed: true
 created: 2024-10-20T16:57
-updated: 2026-01-31T13:32
+updated: 2026-02-04T11:50
 ---
 >[!abstract] Related
 >- [[Sistemi Operativi 1 (class)]]
@@ -21,7 +21,7 @@ Ad esempio per un’applicazione grafica possiamo avere:
 - Uno per disegnare su schermo
 - Un altro per effettuare i calcoli richiesti
 
->**oss:** Ricordiamo che di per sé è un **processo unico** ma ci sono **più threads**.
+>**oss:** Ricordiamo che di per sé, è un **processo unico**, ma ci sono **più threads**.
 
 >[!note] Risorse
 >Diversi threads di uno stesso processo condividono tutte le risorse del processo tranne **lo stack delle chiamate** e **il processore**.
@@ -33,17 +33,17 @@ Ad esempio per un’applicazione grafica possiamo avere:
 
 Il concetto di processo come visto prima ha 2 caratteristiche principale:
 - **Gestione delle risorse** che per quanto riguarda i processi vanno visti come blocco unico
-- **Scheduling** ovvero che i processi possono contenere diverse _tracce_ ovvero diversi _threads_ Nel caso di più threads vanno trattati in maniera diversa.
+- **Scheduling**: i processi possono contenere diverse _tracce_ ovvero diversi _threads_, nel caso di più threads vanno trattati in maniera diversa.
 
 >[!done] Vantaggio dei Thread
 >
 >I Thread rispetto hai processi sono più *efficienti*, è inoltre più semplice *crearli*, *terminarli* e fare lo *switching*.
 >
->Ogni processo viene creato con un thread al suo interno, dopo il programmatore può utilizzare questo thread per 
+>Ogni processo viene creato con un thread al suo interno, dopo il programmatore può utilizzare questo thread per crearne altri.
 >
 >Dopodiché è possibile fare le seguenti operazioni:
->- **Spawn:** permette creare altri thread con una chiamata di sistema (più leggera del fork dato che ha meno istruzioni da fare, non crea tutti gli spazi necessari per un processo)
->- **Block:** che permette di interrompere l'esecuzione del thread (non per I/O ad esmpio perchè deve aspettare un altro thread)
+>- **Spawn:** permette di creare altri thread con una chiamata di sistema (più leggera del fork dato che ha meno istruzioni da fare, non crea tutti gli spazi necessari per un processo)
+>- **Block:** che permette di interrompere l'esecuzione del thread (non per I/O ad esempio perché deve aspettare un altro thread)
 >- **Unblock:** rimuove il blocco a un thread
 >- **Finish:** si può eliminare un thread
 >
@@ -67,7 +67,7 @@ Il concetto di processo come visto prima ha 2 caratteristiche principale:
 
 >[!note] Definition
 >
->Bisogna fare una differenza fra Thread a livello Utente (ULT) e Thread a livello di Sistema (KLT)
+>Bisogna fare una differenza fra *Thread a livello Utente* (ULT) e *Thread a livello di Sistema* (KLT)
 >
 >![[Pasted image 20241020202110.png]]
 >
@@ -86,5 +86,3 @@ Il concetto di processo come visto prima ha 2 caratteristiche principale:
 >- Se **un thread si blocca**, si *bloccano tutti i thread di quel processo* (KLT può bloccare i thread singolarmente)
 >- Anche se il si hanno più processori o cores, tutti i thread dello stesso processo devono usare un solo processore comune.
 >- Se il sistema operativo non ha i KLT, niente thread per le routine del sistema operativo stesso
-
----

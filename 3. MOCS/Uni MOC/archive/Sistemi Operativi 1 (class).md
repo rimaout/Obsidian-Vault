@@ -2,7 +2,7 @@
 Main Moc: "[[Uni MOC]]"
 related:
 created: 2024-09-24T15:33
-updated: 2026-01-31T13:32
+updated: 2026-02-06T12:13
 academic year: 2024/2025
 ---
 [[Domande Esame Scritto SO1]]
@@ -35,6 +35,10 @@ academic year: 2024/2025
 >**Da finire**
 
 >[!note] Gestione dell'Input/Output
->- [[Dispositivi di Input Output]]
->- [[Progettazione dell'Input Output]]
+>- [[Dispositivi di Input Output]] 🟢
+>- [[Progettazione dell'Input Output]] 🟢
+>- [[Buffering (input output - so1)|Buffering]] 🟢
+>- [[Scheduling dell'disco]]
+>- [[Cacheing dell'disco]]
 
+>[!note] 

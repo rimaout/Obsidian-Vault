@@ -6,7 +6,7 @@ academic year: 2024/2025
 related:
 completed: true
 created: 2024-10-04T18:51
-updated: 2026-01-31T13:32
+updated: 2026-02-04T11:32
 ---
 >[!abstract] Related
 >- [[Sistemi Operativi 1 (class)]]
@@ -61,8 +61,8 @@ Un processo ha 4 possibili stati `creazione`, `running`, `not running` e `termin
 >
 >>**oss:** Il vecchio processo resta in esecuzione, quindi si passa da $n$ processi ad $n + 1$ processi.
 
->[!warning] Esecuzione (running & not running )
->Quando un processo è attivo (in esecuzione) , può avere due stati:
+>[!warning] Esecuzione (running & not running)
+>Quando un processo è attivo (in esecuzione), può avere due stati:
 >- **running:** ovvero che il processore sta eseguendo le istruzioni del processo.
 >- **not running:** ovvero che sta aspettando il suo turno per essere eseguito da processore.
 >  
@@ -114,7 +114,7 @@ Un processo ha 4 possibili stati `creazione`, `running`, `not running` e `termin
 
 Quando il processore è principalmente inutilizzato o la memoria principale è sovraccarica si possono spostare i processi in attesa dalla memoria principale al disco, cosi da liberare memoria e non lasciare il processore inoperoso. 
 
-- Questi tecnica è chiamata sospensione dei processi.
+- Questa tecnica è chiamata sospensione dei processi.
 - L'azione di spostare un processo dalla RAM ad un disco è chiamata `memory swap`.
 - Il processo che è stato spostato dalla RAM al disco e detto sospeso.
 
@@ -304,7 +304,6 @@ Il Sistema Operativo deve:
 
 Con switching si intendo l'azione di sostituire un processo in esecuzione con un altro che era in uno stato di attesa.
 
-
 **Quando viene effettuato uno switch di processo:**
 
 | Meccanismo     | Causa                                             | Uso                                                                                 |
@@ -364,13 +363,3 @@ Inoltre ricordiamo che non è necessario eseguire un process switch ma soltanto 
 >![[2010241446.png]]
 
 Qui **tutto è un processo** anche gli interrupt del Sistema Operativo, l’unica cosa che non lo è sono le funzioni che permettono il **process switching**. In questo caso quindi anche i processi del sistema operativo si trovano all’interno delle varie code.
-
----
-
-
-
-
-
-
-
-

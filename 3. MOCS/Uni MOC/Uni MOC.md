@@ -1,6 +1,6 @@
 ---
 created: 2023-09-26T10:14
-updated: 2026-01-31T13:32
+updated: 2026-02-24T20:49
 ---
 >**First year, first semester:**
 >- [[Matematica 0 (class)]]
@@ -35,11 +35,4 @@ updated: 2026-01-31T13:32
 >- [[Interazione Uomo Macchina (class)]]
 
 >**Third year, second semester:**
-
->**Tesis Options:**
->- [Emiliano Casalicchio](https://sites.google.com/uniroma1.it/emilianocasalicchio-eng/internship-thesis-tirocinio)
->- [Angelo Spognardi](https://netsecuritylab.github.io/thesis)
->- Mattia Samory
->- Daniele De Sensi
->- Marco Esposito??
->
+>- [[TPFI]] 

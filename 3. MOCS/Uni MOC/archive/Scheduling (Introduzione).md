@@ -6,7 +6,7 @@ academic year: 2024/2025
 related: "[[Scheduling]]"
 completed: true
 created: 2024-10-27T15:31
-updated: 2026-01-31T13:32
+updated: 2026-02-04T12:16
 ---
 [!abstract] Related
 >- [[Scheduling]]
@@ -85,7 +85,7 @@ Decide quali programmi sono ammessi nel sistema per essere eseguiti:
 
 Il **Medium-Term Scheduling** si occupa della gestione del *memory swap* ovvero il passaggio delle informazioni associate ad un processo dalla memoria principale (ram) alla memoria secondarie (disco).
 
-Importante per il controllo del grado di multiprogrammazione b
+Importante per il controllo del grado di multiprogrammazione.
 
 ---
 ## Short-Term Scheduling (dispatcher)
@@ -141,11 +141,20 @@ Ora approfondiamo tutti i criteri visti precedentemente per lo short tern schedu
 
 #### Response Time
 
-Questo è più utilizzato per i processi interattivi, è il tempo tra l’invio del programma e il suo completamento.
+Tempo tra la sottomissione di una richiesta e l’inizio della risposta-
+- Ok per processi interattivi e nei quali si comincia a dare una risposta mentre ancora il processo non è finito
 
-Lo scheduler ha due obiettivi in questo caso:
-- Minimizzare il tempo di risposta
-- Massimizzare il numero di utenti con un buon tempo di risposta
+Duplice obiettivo per lo scheduler
+- minimizzare il tempo di risposta medio
+- massimizzare il numero di utenti con un buon tempo di risposta
+
+| Metrica                 | **Turn-Around Time**                                                   | **Response Time**                                                         |
+| ----------------------- | ---------------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| **Definizione**         | Tempo totale dal momento dell'arrivo del processo alla sua completezza | Tempo tra l'arrivo del processo e il suo primo output/esecuzione iniziale |
+| **Calcolo**             | Fine esecuzione - Tempo di arrivo                                      | Primo avvio - Tempo di arrivo                                             |
+| **Componenti Incluse**  | - Tempo di attesa in coda- Tempo di esecuzione- Eventuali tempi di I/O | - Tempo di attesa in coda- Primo tempo di esecuzione                      |
+| **Significato Pratico** | Misura la performance complessiva del processo                         | Misura la reattività iniziale del sistema                                 |
+
 #### Deadline e Predicibilità
 
 Ci sono dei sistemi operativi che ci permettono di dare una deadline ai processi, ovvero possiamo inserire un tempo massimo di esecuzione. Lo scheduler cerca di rispettare questo limite imposto dall’utente e il suo obiettivo è quindi quello di massimizzare il numero di scadenze rispettate.
@@ -168,7 +177,7 @@ Lo scheduler deve fare in modo che le risorse vengano usate il più possibile, q
 
 #### Fairness e priorità
 
-Se non ci sono specifiche sulla priorità allora tutti i processi devono essere trattati allo stesso modo, se c’è vanno favoriti quelli con priorità più alta, ogni priorità avrà una coda.
+Se non ci sono specifiche sulla priorità allora tutti i processi devono essere trattati allo stesso modo. Se esistono processi con priorità vanno favoriti quelli con priorità più alta, ogni priorità avrà una coda.
 
 Non deve verificarsi _starvation_ ovvero come detto prima, processi che aspettano la loro esecuzione senza mai andarci.
   

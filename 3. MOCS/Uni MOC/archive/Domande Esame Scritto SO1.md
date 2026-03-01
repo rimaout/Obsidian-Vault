@@ -6,7 +6,7 @@ academic year: 2024/2025
 related:
 completed: false
 created: 2025-10-25T16:22
-updated: 2026-01-31T13:32
+updated: 2026-02-04T10:41
 ---
 >[!note] Domanda Numero 1
 >
@@ -1966,8 +1966,7 @@ updated: 2026-01-31T13:32
 >>
 >>---
 >>
->>**Motivazione:**
->>-
+>>**Motivazione:** Non impedisce la generazione di nuove interruzioni, ma ne blocca la gestione immediata
 
 >[!note] Domanda Numero 99
 >
@@ -2431,7 +2430,7 @@ updated: 2026-01-31T13:32
 
 >[!note] Domanda Numero 122
 >
->___> fornisce l’indirizzo della prossima istruzione che deve essere eseguita dal processo corrente?
+>fornisce l’indirizzo della prossima istruzione che deve essere eseguita dal processo corrente?
 >
 >
 > Scegli un'alternativa:

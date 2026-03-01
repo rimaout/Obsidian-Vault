@@ -2,7 +2,7 @@
 type: "[[Uni MOC]]"
 academic year: 2024/2025
 created: 2025-03-03T16:43
-updated: 2026-01-31T13:32
+updated: 2026-02-16T09:45
 ---
 ## Appunti Linux
 
@@ -36,3 +36,5 @@ File importanti:
 [[Homework C1]]
 [[C Data Types]]
 [[Puntatori]]
+
+[[Scaletta SO2]]

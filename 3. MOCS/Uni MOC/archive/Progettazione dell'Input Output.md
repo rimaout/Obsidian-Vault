@@ -3,9 +3,9 @@ type: Uni Note
 class: "[[Sistemi Operativi 1 (class)]]"
 academic year: 2024/2025
 related:
-completed: false
+completed: true
 created: 2024-12-09T17:49
-updated: 2026-01-31T13:32
+updated: 2026-02-04T14:30
 ---
 >[!abstract] Related
 >- [[Introduzione ai Sistemi Operativi]]
@@ -65,7 +65,6 @@ Il sistema operativo ha degli obbiettivi specifici riguardanti la gestione dell 
 
 Per raggiungere questi obbiettivi è utilizzata la [[#Progettazione Gerarchica]]
 
----
 ### Efficienza
 
 La maggior parte di dispositivi I/O sono molto più lenti rispetto alla RAM, proprio per questo la [[Introduzione ai Sistemi Operativi#Programmazione Singola e Multi Programmazione|Multi Programmazione]] è stata implementata in modo tale da sfruttare le pause dei programmi quando eseguono operazioni di I/O.
@@ -74,7 +73,6 @@ Ma questo non basta, infatti anche con l'utilizzo della multi programmazione c'�
 
 È necessario quindi cercare soluzioni software dedicate a livello di S.O., come visto prima in particolare per il disco.
 
----
 ### Generalità
 
 Esistono tantissimi tipi diversi di dispositivi di I/O, ma nonostante questo il sistema operativo deve fare del suo meglio per ***gestirli in modo uniforme***, nascondere la maggior parte dei dettagli dei dispositivi nelle operazioni a basso livello.

@@ -2,7 +2,7 @@
 Main Moc: "[[Uni MOC]]"
 academic year: 2025/2026
 created: 2025-09-23T17:21
-updated: 2026-01-31T13:32
+updated: 2026-02-20T13:03
 ---
 - [sito corso]()
 - [[PEM - 29ott]]
@@ -37,7 +37,8 @@ updated: 2026-01-31T13:32
 **Cose da prioritizzare per il progetto:
 
 - evitare sezioni critiche
-- utilizzo della shared memory
+- utilizzo della shared memory (cuda)
 - evitare di fare operazioni continue quando non ce ne è bisogno
-- 
-![[Recording 20251209182938.m4a]]
+
+
+[[Appunti per Relazione Cuda]]

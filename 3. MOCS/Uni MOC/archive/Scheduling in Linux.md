@@ -8,7 +8,7 @@ related:
   - "[[Scheduling in UNIX]]"
 completed: true
 created: 2024-11-07T12:31
-updated: 2026-01-31T13:32
+updated: 2026-02-04T13:05
 ---
 >[!abstract] Related
 >- [[Scheduling]]
@@ -44,8 +44,8 @@ Lo scheduler Linux è derivato dallo [[Scheduling in UNIX|scheduler Unix]], con 
 >- Modalità di decisione [[Algoritmi di Scheduling#^363dc9|Preemptiv]]
 >- Probabilità **Dinamica**
 >  
->Con probabilità dinamica si intende che la probabilità che un processo:
->- aumenta man mano che i processo è in attesa di essere eseguito
+>Con probabilità dinamica si intende che la probabilità che un processo sia eseguito:
+>- aumenta man mano che i processo è in attesa
 >- diminuisca man mano che il processo è in esecuzione
 
 ---
@@ -56,18 +56,15 @@ Lo scheduler linux ha importanti correzioni che gli permettono di:
 - servire in modo appropriato i processi real-time
 
 >[!warning] Come?
-> Lo **scheduler** viene attivato da un interrupt ogni *1 ms*. Valore ottima infatti se si sceglie un intervallo:
+> Lo **scheduler** viene attivato da un interrupt ogni *1 ms*. Valore ottimale infatti se si sceglie un intervallo:
 > - **minore** il sistema operativo viene eseguito troppo spesso rispetto al processi user.
 > - **lungo** ci sono problemi per i processi real-time.
 >   
 >Il fatto che lo scheduler venga eseguito ogni 1 ms implica che i processi vengano eseguiti per un quanto di tempo `multiplo` di 1 ms. Il valore di questo `multiplo` dipende dal tipo di processo:
 >
->- **Interattivi:**
->    - Da quando è avvenuta l'interazione con programma bisogna eseguirli in CPU entro 150ms (altrimenti l'utente può percepire rallentamenti)
->- **Batch:**
->    - Sono penalizzati dallo scheduler, infatti l’utente non dovendo usare il programma attivamente non ricerca reattività
->- **Real Time:**
->    - I 2 tipi precedenti vengono individuati da Linux in modo autonomo tramite dei suoi metodi, per questo tipo di processi invece deve essere presente la system call `sched_setscheduler` nel codice sorgente.
+>- **Interattivi:** Da quando è avvenuta l'interazione con programma bisogna eseguirli in CPU entro 150ms (altrimenti l'utente può percepire rallentamenti)
+>- **Batch:** Sono penalizzati dallo scheduler, infatti l’utente non dovendo usare il programma attivamente
+>- **Real Time:** I 2 tipi precedenti vengono individuati da Linux in modo autonomo tramite dei suoi metodi, per questo tipo di processi invece deve essere presente la system call `sched_setscheduler` nel codice sorgente.
 >    - Normalmente sono utilizzati solo dai KLT (Kernel Level Thread) di sistema.
 
 ---
@@ -75,9 +72,9 @@ Lo scheduler linux ha importanti correzioni che gli permettono di:
 
 Ci sono principalmente 3 classi di scheduling:
 
-- **SCHED_FIFO** per processi *real-time*
-- **SCHED_RR** (round robin) per i processi *real time*
+- **SCHED_FIFO** e **SCHED_RR** (round robin) per processi *real-time*
 - **SCHED_OTHER** (round robin) per tutti gli altri
+- versioni più recenti del kernel hanno anche altre classi
 
 >[!note] Livelli di priorità
 >

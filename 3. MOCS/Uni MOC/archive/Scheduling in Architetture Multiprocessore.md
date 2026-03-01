@@ -6,7 +6,7 @@ academic year: 2024/2025
 related: "[[Scheduling]]"
 completed: true
 created: 2024-11-07T11:56
-updated: 2026-01-31T13:32
+updated: 2026-02-04T12:56
 ---
 >[!abstract] Related
 >- [[Scheduling]]
@@ -28,6 +28,7 @@ Il processo di scegliere su quale processore eseguire un processo è chiamato as
 
 ---
 ### Assegnamento Statico
+
 - Quando un processo viene creato gli viene assegnato un processore e per tutta la sua durata andrà sempre in esecuzione su di lui.
 - Possiamo utilizzare uno scheduler per ogni processore
 - Come vantaggio abbiamo che è semplice da realizzare e poco **overhead** (lavoro aggiuntivo)
