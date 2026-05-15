@@ -4,7 +4,7 @@ academic year: 2024/2025
 related:
 completed: false
 created: 2025-11-13T11:42
-updated: 2026-02-23T11:07
+updated: 2026-03-12T23:06
 ---
 
 - [[Introduzione alle Interfacce - IUM]] 🟠
@@ -32,3 +32,8 @@ Difficoltà che penso le persone possano avere:
 Idee:
 - Fai ripple effect per AI
 - Fai che le cosa aggiunte dall'ai sono rosa/viola e quelle dall'utente celeste
+
+Lineguida apple:
+- vibrazione apriche per segnalare errori o azioni importanti
+	- New post / new comment
+	- Errore quando il form non è completo ma si prova comunque a postare

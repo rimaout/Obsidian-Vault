@@ -4,8 +4,8 @@ class:
 academic year: 2024/2025
 related:
 completed: false
-created: 2026-03-01T22:46
-updated: 2026-03-01T22:51
+created: 2026-03-02T17:17
+updated: 2026-03-08T14:46
 ---
 ## Codice
 
@@ -18,31 +18,66 @@ updated: 2026-03-01T22:51
 #include "energy_storms.h"
 
 #define NUM_THREADS_PER_BLOCK 256
+#define SHARED_TILE_SIZE 1000  // 1 KB in bytes
+
+struct Particle {
+    int position;
+    int energy;
+};
 
 struct max_pos {
     float max;
     int pos;
 };
 
-__global__ void layerUpdateKernel(float* layer, int layer_size, int* d_posval, int num_impacts, float threshold, float energy_scale) {
-    int myID = blockIdx.x * blockDim.x + threadIdx.x;
+#define MAX_PARTICLES_PER_TILE (SHARED_TILE_SIZE / sizeof(struct Particle))
 
+__global__ void layerUpdateKernel(float* layer, int layer_size, struct Particle* d_particles, int num_impacts, float threshold, float energy_scale) {
+    __shared__ struct Particle s_particles[MAX_PARTICLES_PER_TILE];
+    
+    int myID = blockIdx.x * blockDim.x + threadIdx.x;   
+    int tid = threadIdx.x;
+    int num_tiles = (num_impacts + MAX_PARTICLES_PER_TILE - 1) / MAX_PARTICLES_PER_TILE;
+    
+    float total_energy_to_add = 0.0f;
     if (myID < layer_size) {
-        float total_energy_to_add = layer[myID];    // use register to accumulate energy
+        total_energy_to_add = layer[myID];
+    }
 
-        for (int j = 0; j < num_impacts; j++) {
-            int position = d_posval[j*2];
-            float energy = (float)d_posval[j*2+1] * energy_scale;
+    for (int t = 0; t < num_tiles; t++) {
 
-            int distance = abs(position - myID) + 1;
-            float inv_atenuacion = rsqrtf((float)distance);
-            float energy_k = energy * inv_atenuacion;
+        // TILE BOUNDARIES CALCULATION
+        int tile_start = t * MAX_PARTICLES_PER_TILE;
+        int particles_in_tile = (num_impacts - tile_start > MAX_PARTICLES_PER_TILE) 
+                                ? MAX_PARTICLES_PER_TILE 
+                                : (num_impacts - tile_start);
 
-            if (energy_k >= threshold || energy_k <= -threshold) {
-                total_energy_to_add += energy_k;
+        // COOPERATIVE LOADING
+        for (int i = tid; i < particles_in_tile; i += blockDim.x) {
+            s_particles[i] = d_particles[tile_start + i];
+        }
+        __syncthreads();
+
+        // COMPUTATION
+        if (myID < layer_size) {
+            for (int j = 0; j < particles_in_tile; j++) {
+                int position = s_particles[j].position;
+                float energy = (float)s_particles[j].energy * energy_scale;
+
+                int distance = abs(position - myID) + 1;
+                float atenuacion = sqrtf((float)distance);
+                float energy_k = energy / atenuacion;
+
+                if (energy_k >= threshold || energy_k <= -threshold) {
+                    total_energy_to_add += energy_k;
+                }
             }
         }
+        
+        __syncthreads();
+    }
 
+    if (myID < layer_size) {
         layer[myID] = total_energy_to_add;
     }
 }
@@ -64,7 +99,7 @@ __global__ void local_max_kernel(float* layer, struct max_pos* max_per_block, in
     __shared__ struct max_pos local_max[NUM_THREADS_PER_BLOCK]; // Assuming blockDim.x <= 256
 
     local_max[local_thread_id].max = -INFINITY; // Initialize to negative infinity
-    local_max[local_thread_id].pos = -1; // Initialize to invalid position
+    local_max[local_thread_id].pos = -1;        // Initialize to invalid position
 
     if (myID < layer_size) {
         if (layer[myID] > local_max[local_thread_id].max) {
@@ -151,13 +186,13 @@ void core(int layer_size, int num_storms, Storm *storms, float *maximum, int *po
         return;
     }
 
-    // - POSVAL ARRAY ALLOCATION ON DEVICE
+    // - PARTICLES ARRAY ALLOCATION ON DEVICE
     int max_storm_size = 0;
     for(int i=0; i<num_storms; i++) { 
         if(storms[i].size > max_storm_size) max_storm_size = storms[i].size; 
     }
-    int *d_posval;
-    cudaError_t err3 = cudaMalloc((void**)&d_posval, max_storm_size * 2 * sizeof(int)); // * 2 sice each particle has position and energy 
+    struct Particle *d_particles;
+    cudaError_t err3 = cudaMalloc((void**)&d_particles, max_storm_size * sizeof(struct Particle));
     if (err3 != cudaSuccess) {
         printf("CUDA Error allocating device particles array: %s\n", cudaGetErrorString(err3));
         return;
@@ -175,10 +210,10 @@ void core(int layer_size, int num_storms, Storm *storms, float *maximum, int *po
     for( int i=0; i<num_storms; i++) {
         
         // - Move the particles of the current storm to device
-        cudaMemcpy(d_posval, storms[i].posval, sizeof(int) * storms[i].size * 2, cudaMemcpyHostToDevice);
+        cudaMemcpy(d_particles, storms[i].posval, sizeof(struct Particle) * storms[i].size, cudaMemcpyHostToDevice);
 
-        // - Update Layer
-        layerUpdateKernel<<<blocksPerGrid, threadsPerBlock>>>(d_layer, layer_size, d_posval, storms[i].size, threshold, energy_scale);
+        // - Update Layer (with dynamic shared memory)
+        layerUpdateKernel<<<blocksPerGrid, threadsPerBlock, MAX_PARTICLES_PER_TILE * sizeof(struct Particle)>>>(d_layer, layer_size, d_particles, storms[i].size, threshold, energy_scale);
 
         // Copy layer to layer_copy for the next step
         cudaMemcpy(d_layer_copy, d_layer, sizeof(float) * layer_size, cudaMemcpyDeviceToDevice);
@@ -210,57 +245,45 @@ void core(int layer_size, int num_storms, Storm *storms, float *maximum, int *po
     // Cleanup
     cudaFree(d_layer);
     cudaFree(d_layer_copy);
-    cudaFree(d_posval);
+    cudaFree(d_particles);
     cudaFree(d_block_local_max);
     cudaFreeHost(layer);
 }
 ```
 
-## Cambiamenti
+## Modifiche
 
-In `layerUpdateKernel`invece di calcolare la `sqrtf` calcoliamo l'inverso della radice ovvero rsqrtf, questo ci permette di non fare la divisione che è molto costosa come operazione.
+feat(cuda): use shared-memory tiling in layerUpdateKernel of particles
+- introduce a Particle struct (just for code clarity)
+- switch the layer update kernel to a tiled, shared-memory processing model.
 
-Prima:
-```c
-int distance = abs(position - myID) + 1;
-float inv_atenuacion = rsqrtf((float)distance);
-float energy_k = energy * inv_atenuacion; 
-```
+The kernel now cooperatively loads particle tiles into shared memory and iterates per-tile to accumulate energy contributions.
 
-Dopo:
-```c
-int distance = abs(position - myID) + 1;
-float atenuacion = sqrtf((float)distance);
-float energy_k = energy / atenuacion;
-```
-
-**Nota:** questo non lo abbiamo farro su MPI_OMP, vedere se funziona anche li.
+This add a small time improvement, in test 2 is went from 28ms to 26ms, probably the L1 cache was already doing a good job.
 
 ## Tempi
-
-Passati da 28ms a 16ms su test2
 
 **TEST1 Simulation:**
 
 ```c
 srun -N 1 -n 1 ./energy_storms_cuda 20 test_files/test_01_a35_p8_w1 test_files/test_01_a35_p7_w2 test_files/test_01_a35_p5_w3 test_files/test_01_a35_p8_w4
 
-Time: 0.004638
-Result: 14 19098.355469 14 24859.304688 10 30043.429688 3 54815.644531
+Time: 0.004726
+Result: 14 19098.357422 14 24859.306641 10 30043.429688 3 54815.644531
 ```
 
 ```c
 srun -N 1 -n 1 ./energy_storms_cuda 20 test_files/test_01_a35_p8_w1 test_files/test_01_a35_p7_w2 test_files/test_01_a35_p5_w3 test_files/test_01_a35_p8_w4
 
-Time: 0.004427
-Result: 14 19098.355469 14 24859.304688 10 30043.429688 3 54815.644531
+Time: 0.004684
+Result: 14 19098.357422 14 24859.306641 10 30043.429688 3 54815.644531
 ```
 
 ```c
 srun -N 1 -n 1 ./energy_storms_cuda 20 test_files/test_01_a35_p8_w1 test_files/test_01_a35_p7_w2 test_files/test_01_a35_p5_w3 test_files/test_01_a35_p8_w4
 
-Time: 0.004490
-Result: 14 19098.355469 14 24859.304688 10 30043.429688 3 54815.644531
+Time: 0.004702
+Result: 14 19098.357422 14 24859.306641 10 30043.429688 3 54815.644531
 ```
 
 **TEST2 Simulation:**
@@ -268,22 +291,22 @@ Result: 14 19098.355469 14 24859.304688 10 30043.429688 3 54815.644531
 ```c
 srun -N 1 -n 1 ./energy_storms_cuda 20000 test_files/test_02_a30k_p20k_w1 test_files/test_02_a30k_p20k_w2 test_files/test_02_a30k_p20k_w3 test_files/test_02_a30k_p20k_w4 test_files/test_02_a30k_p20k_w5 test_files/test_02_a30k_p20k_w6
 
-Time: 0.016849
-Result: 17197 1654.755371 17223 3274.643311 17229 5727.363281 17222 8155.511230 15849 11403.597656 15924 14647.188477
+Time: 0.027565
+Result: 17197 1654.755371 17223 3274.642822 17229 5727.363770 17222 8155.511230 15849 11403.597656 15924 14647.188477
 ```
 
 ```c
 srun -N 1 -n 1 ./energy_storms_cuda 20000 test_files/test_02_a30k_p20k_w1 test_files/test_02_a30k_p20k_w2 test_files/test_02_a30k_p20k_w3 test_files/test_02_a30k_p20k_w4 test_files/test_02_a30k_p20k_w5 test_files/test_02_a30k_p20k_w6
 
-Time: 0.016539
-Result: 17197 1654.755371 17223 3274.643311 17229 5727.363281 17222 8155.511230 15849 11403.597656 15924 14647.188477
+Time: 0.026774
+Result: 17197 1654.755371 17223 3274.642822 17229 5727.363770 17222 8155.511230 15849 11403.597656 15924 14647.188477
 ```
 
 ```c
 srun -N 1 -n 1 ./energy_storms_cuda 20000 test_files/test_02_a30k_p20k_w1 test_files/test_02_a30k_p20k_w2 test_files/test_02_a30k_p20k_w3 test_files/test_02_a30k_p20k_w4 test_files/test_02_a30k_p20k_w5 test_files/test_02_a30k_p20k_w6
 
-Time: 0.016518
-Result: 17197 1654.755371 17223 3274.643311 17229 5727.363281 17222 8155.511230 15849 11403.597656 15924 14647.188477
+Time: 0.026368
+Result: 17197 1654.755371 17223 3274.642822 17229 5727.363770 17222 8155.511230 15849 11403.597656 15924 14647.188477
 ```
 
 **TEST3 Simulation:**
@@ -291,22 +314,22 @@ Result: 17197 1654.755371 17223 3274.643311 17229 5727.363281 17222 8155.511230 
 ```c
 srun -N 1 -n 1 ./energy_storms_cuda 20 test_files/test_03_a20_p4_w1
 
-Time: 0.004320
-Result: 10 12966.629883
+Time: 0.004461
+Result: 10 12966.631836
 ```
 
 ```c
 srun -N 1 -n 1 ./energy_storms_cuda 20 test_files/test_03_a20_p4_w1
 
-Time: 0.004339
-Result: 10 12966.629883
+Time: 0.004551
+Result: 10 12966.631836
 ```
 
 ```c
 srun -N 1 -n 1 ./energy_storms_cuda 20 test_files/test_03_a20_p4_w1
 
-Time: 0.004345
-Result: 10 12966.629883
+Time: 0.004384
+Result: 10 12966.631836
 ```
 
 **TEST4 Simulation:**
@@ -314,22 +337,22 @@ Result: 10 12966.629883
 ```c
 srun -N 1 -n 1 ./energy_storms_cuda 20 test_files/test_04_a20_p4_w1
 
-Time: 0.004363
-Result: 16 12966.631836
+Time: 0.004511
+Result: 16 12966.632812
 ```
 
 ```c
 srun -N 1 -n 1 ./energy_storms_cuda 20 test_files/test_04_a20_p4_w1
 
-Time: 0.004394
-Result: 16 12966.631836
+Time: 0.004490
+Result: 16 12966.632812
 ```
 
 ```c
 srun -N 1 -n 1 ./energy_storms_cuda 20 test_files/test_04_a20_p4_w1
 
-Time: 0.004311
-Result: 16 12966.631836
+Time: 0.004404
+Result: 16 12966.632812
 ```
 
 **TEST5 Simulation:**
@@ -337,22 +360,22 @@ Result: 16 12966.631836
 ```c
 srun -N 1 -n 1 ./energy_storms_cuda 20 test_files/test_05_a20_p4_w1
 
-Time: 0.004327
-Result: 9 12829.286133
+Time: 0.004532
+Result: 9 12829.288086
 ```
 
 ```c
 srun -N 1 -n 1 ./energy_storms_cuda 20 test_files/test_05_a20_p4_w1
 
-Time: 0.004326
-Result: 9 12829.286133
+Time: 0.004399
+Result: 9 12829.288086
 ```
 
 ```c
 srun -N 1 -n 1 ./energy_storms_cuda 20 test_files/test_05_a20_p4_w1
 
-Time: 0.004360
-Result: 9 12829.286133
+Time: 0.004418
+Result: 9 12829.288086
 ```
 
 **TEST6 Simulation:**
@@ -360,22 +383,22 @@ Result: 9 12829.286133
 ```c
 srun -N 1 -n 1 ./energy_storms_cuda 20 test_files/test_06_a20_p4_w1
 
-Time: 0.004444
-Result: 16 12829.286133
+Time: 0.004497
+Result: 16 12829.288086
 ```
 
 ```c
 srun -N 1 -n 1 ./energy_storms_cuda 20 test_files/test_06_a20_p4_w1
 
-Time: 0.004367
-Result: 16 12829.286133
+Time: 0.004464
+Result: 16 12829.288086
 ```
 
 ```c
 srun -N 1 -n 1 ./energy_storms_cuda 20 test_files/test_06_a20_p4_w1
 
-Time: 0.004331
-Result: 16 12829.286133
+Time: 0.004440
+Result: 16 12829.288086
 ```
 
 **TEST7 Simulation:**
@@ -383,21 +406,21 @@ Result: 16 12829.286133
 ```c
 srun -N 1 -n 1 ./energy_storms_cuda 1000000 test_files/test_07_a1M_p5k_w1 test_files/test_07_a1M_p5k_w2 test_files/test_07_a1M_p5k_w3 test_files/test_07_a1M_p5k_w4
 
-Time: 0.050580
+Time: 0.082927
 Result: 507805 12177.073242 400548 23157.617188 511786 34230.769531 511786 44824.339844
 ```
 
 ```c
 srun -N 1 -n 1 ./energy_storms_cuda 1000000 test_files/test_07_a1M_p5k_w1 test_files/test_07_a1M_p5k_w2 test_files/test_07_a1M_p5k_w3 test_files/test_07_a1M_p5k_w4
 
-Time: 0.051574
+Time: 0.082496
 Result: 507805 12177.073242 400548 23157.617188 511786 34230.769531 511786 44824.339844
 ```
 
 ```c
 srun -N 1 -n 1 ./energy_storms_cuda 1000000 test_files/test_07_a1M_p5k_w1 test_files/test_07_a1M_p5k_w2 test_files/test_07_a1M_p5k_w3 test_files/test_07_a1M_p5k_w4
 
-Time: 0.051398
+Time: 0.082228
 Result: 507805 12177.073242 400548 23157.617188 511786 34230.769531 511786 44824.339844
 ```
 
@@ -406,21 +429,21 @@ Result: 507805 12177.073242 400548 23157.617188 511786 34230.769531 511786 44824
 ```c
 srun -N 1 -n 1 ./energy_storms_cuda 100000000 test_files/test_08_a100M_p1_w1 test_files/test_08_a100M_p1_w2 test_files/test_08_a100M_p1_w3
 
-Time: 0.690554
+Time: 0.699851
 Result: 10 0.000080 658423 0.000081 658423 0.000078
 ```
 
 ```c
 srun -N 1 -n 1 ./energy_storms_cuda 100000000 test_files/test_08_a100M_p1_w1 test_files/test_08_a100M_p1_w2 test_files/test_08_a100M_p1_w3
 
-Time: 0.692855
+Time: 0.711713
 Result: 10 0.000080 658423 0.000081 658423 0.000078
 ```
 
 ```c
 srun -N 1 -n 1 ./energy_storms_cuda 100000000 test_files/test_08_a100M_p1_w1 test_files/test_08_a100M_p1_w2 test_files/test_08_a100M_p1_w3
 
-Time: 0.697037
+Time: 0.702876
 Result: 10 0.000080 658423 0.000081 658423 0.000078
 ```
 
@@ -429,7 +452,7 @@ Result: 10 0.000080 658423 0.000081 658423 0.000078
 ```c
 srun -N 1 -n 1 ./energy_storms_cuda 16 test_files/test_09_a16-17_p3_w1
 
-Time: 0.004474
+Time: 0.004636
 Result: 15 241.892746
 ```
 
@@ -438,8 +461,7 @@ Result: 15 241.892746
 ```c
 srun -N 1 -n 1 ./energy_storms_cuda 17 test_files/test_09_a16-17_p3_w1
 
-Time: 0.004395
-Result: 15 193.299576
+Time: 0.004452
+Result: 15 193.299606
 ```
-
 

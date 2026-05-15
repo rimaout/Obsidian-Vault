@@ -4,7 +4,7 @@ programming language:
 related:
 completed: false
 created: 2025-09-22T13:17
-updated: 2025-09-28T12:24
+updated: 2026-05-13T18:11
 ---
 In my case I have to 3 drives in my pc:
 1. one ssd with the os on (debian)
@@ -38,7 +38,7 @@ sdc                           8:32   0 931.5G  0 disk
 
 - `sda` is the ssd with the debian os partition
 - `sdb` is the 2tb empty drive
-- `sdc` is the 1tb drive, but it has a `sdc1` partition with some data one 
+- `sdc` is the 1tb drive, but it has a `sdc1` partition with some data on it
 
 ### 3) Clean disk partition tables (remove sdc1)
 
@@ -46,15 +46,16 @@ Since `sdc1` is not a ZFS partition I have to remove it, so after copy all the t
 
 1. Unmount partition if mounted: `sudo umount /dev/sdc1 || true`
 2. Wipe signatures and partition table:
-	```bash
-	sudo wipefs -a /dev/sdc  
-	```
+
+```bash
+sudo wipefs -a /dev/sdc  
+```
   
 >[!note]- Notes
 >- wipefs removes filesystem signatures; sgdisk --zap-all clears the GPT/MBR. Both will erase existing data.
 >- GPT (GUID Partition Table) and MBR (Master Boot Record) are partition table schemes that define how disk partitioning and boot information are stored.
 
-### 4) Check sector sizes (to pick ashift)
+### 4) Check sector sizes (to pick `ashift`)
 
 Before creating the ZFS pool we have to see what's the physical sector size of the drives (sdb, sdc): 
 
@@ -148,27 +149,33 @@ In particular i want to mount a dataset named data inside the home directory of 
 3. Verify:`sudo zfs list tank mount | grep /home/rima/data
 
 ### 10) Services and boot behavior
-- Ensure ZFS services enable auto-import/mount at boot: `sudo systemctl enable --now zfs-import-cache zfs-mount zfs.target`
 
-Why: zfs-import-cache imports pools at boot. zfs-mount mounts datasets. Enabling ensures your pool is available automatically.
+Ensure ZFS services enable auto-import/mount at boot: `sudo systemctl enable --now zfs-import-cache zfs-mount zfs.target`
+
+Why:
+- `zfs-import-cache` imports pools at boot. 
+- `zfs-mount` mounts datasets. 
 
 ### 11) Maintenance tasks
-- Regular scrub (monthly recommended):
-  sudo zpool scrub tank  
-  Monitor: sudo zpool status -v
-- Monitor pool health:
-  sudo zpool status  
-  sudo zpool list
+
+Regular scrub (monthly recommended):
+- `sudo zpool scrub tank`
+- `sudo zpool status -v`
+
+Monitor pool health:
+- `sudo zpool status`
+- `sudo zpool list`
 
 ### 12) Replacing/upgrading a mirrored disk later
-- Typical workflow replacing the 1TB with a new 2TB:
+
+Typical workflow replacing the 1TB with a new 2TB:
   1) Optional: offline the old disk (if needed):
      `sudo zpool offline tank /dev/disk/by-id/<old-by-id>`
   2) Physically replace the disk.
   3) Replace in ZFS and start resilver:
      `sudo zpool replace tank <old-by-id> /dev/disk/by-id/<new-by-id>`
   4) Monitor resilver:
-     sudo zpool status -v
+     `sudo zpool status -v`
   5) Expand to use full size (if pool doesn't auto-expand):
      `sudo zpool online -e tank /dev/disk/by-id/<new-by-id>`
 

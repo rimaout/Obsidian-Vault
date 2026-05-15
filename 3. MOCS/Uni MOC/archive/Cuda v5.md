@@ -5,7 +5,7 @@ academic year: 2024/2025
 related:
 completed: false
 created: 2026-03-01T15:57
-updated: 2026-03-01T22:34
+updated: 2026-03-08T12:17
 ---
 ## Codice
 
@@ -426,3 +426,191 @@ Time: 0.004492
 Result: 15 193.299606
 ```
 
+## Super Test
+```
+make run-tests-sequential
+chmod +x run_all_tests_sequential.sh
+./run_all_tests_sequential.sh 1 2 3 4 5 6 7 8 9 10
+# Sequential run started
+# Tests: 1 2 3 4 5 6 7 8 9 10
+# Poll interval: 15s
+
+==================================================
+# Submitting test 1
+# Submitted job id: 919132
+# Waiting for job 919132 to leave queue...
+# Job 919132 completed
+# Parsing test_1_results_919132.raw
+Parsing raw results from: test_1_results_919132.raw
+size: 32         test: 1 mean: 0.003827 stddev: 0.000086 fails: 100.00%
+size: 64         test: 1 mean: 0.003811 stddev: 0.000078 fails: 100.00%
+size: 128        test: 1 mean: 0.003815 stddev: 0.000078 fails: 100.00%
+size: 256        test: 1 mean: 0.003814 stddev: 0.000072 fails: 100.00%
+size: 512        test: 1 mean: 0.003810 stddev: 0.000070 fails: 100.00%
+size: 1024       test: 1 mean: 0.003810 stddev: 0.000071 fails: 100.00%
+
+==================================================
+# Submitting test 2
+# Submitted job id: 919133
+# Waiting for job 919133 to leave queue...
+^Cmake: *** [Makefile:30: run-tests-sequential] Interrupt
+
+ricchiuto_2134560@submitter:~/exam-waves/testing$ squeue
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+            919133  students cuda_wav ricchiut  R       0:41      1 node120
+            919124  students last_los verde_20  R       5:06      1 node120
+ricchiuto_2134560@submitter:~/exam-waves/testing$ squeue
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+            919124  students last_los verde_20  R       5:43      1 node120
+ricchiuto_2134560@submitter:~/exam-waves/testing$ squeue
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+            919124  students last_los verde_20  R       5:44      1 node120
+ricchiuto_2134560@submitter:~/exam-waves/testing$ make run-tests-sequential
+chmod +x run_all_tests_sequential.sh
+./run_all_tests_sequential.sh 1 2 3 4 5 6 7 8 9 10
+# Sequential run started
+# Tests: 1 2 3 4 5 6 7 8 9 10
+# Poll interval: 15s
+
+==================================================
+# Submitting test 1
+# Submitted job id: 919134
+# Waiting for job 919134 to leave queue...
+# Job 919134 completed
+# Parsing test_1_results_919134.raw
+Parsing raw results from: test_1_results_919134.raw
+size: 32         test: 1 mean: 0.003832 stddev: 0.000086 fails: 0.00%
+size: 64         test: 1 mean: 0.003808 stddev: 0.000077 fails: 0.00%
+size: 128        test: 1 mean: 0.003815 stddev: 0.000071 fails: 0.00%
+size: 256        test: 1 mean: 0.003796 stddev: 0.000083 fails: 0.00%
+size: 512        test: 1 mean: 0.003819 stddev: 0.000078 fails: 0.00%
+size: 1024       test: 1 mean: 0.003805 stddev: 0.000071 fails: 0.00%
+
+==================================================
+# Submitting test 2
+# Submitted job id: 919135
+# Waiting for job 919135 to leave queue...
+# Job 919135 completed
+# Parsing test_2_results_919135.raw
+Parsing raw results from: test_2_results_919135.raw
+size: 32         test: 2 mean: 0.027646 stddev: 0.001474 fails: 0.00%
+size: 64         test: 2 mean: 0.027437 stddev: 0.000124 fails: 0.00%
+size: 128        test: 2 mean: 0.028033 stddev: 0.000169 fails: 0.00%
+size: 256        test: 2 mean: 0.029073 stddev: 0.000123 fails: 0.00%
+size: 512        test: 2 mean: 0.029427 stddev: 0.000077 fails: 0.00%
+size: 1024       test: 2 mean: 0.038906 stddev: 0.000164 fails: 0.00%
+
+==================================================
+# Submitting test 3
+# Submitted job id: 919136
+# Waiting for job 919136 to leave queue...
+# Job 919136 completed
+# Parsing test_3_results_919136.raw
+Parsing raw results from: test_3_results_919136.raw
+size: 32         test: 3 mean: 0.003701 stddev: 0.000085 fails: 0.00%
+size: 64         test: 3 mean: 0.003726 stddev: 0.000077 fails: 0.00%
+size: 128        test: 3 mean: 0.003707 stddev: 0.000071 fails: 0.00%
+size: 256        test: 3 mean: 0.003709 stddev: 0.000075 fails: 0.00%
+size: 512        test: 3 mean: 0.003703 stddev: 0.000094 fails: 0.00%
+size: 1024       test: 3 mean: 0.003708 stddev: 0.000070 fails: 0.00%
+
+==================================================
+# Submitting test 4
+# Submitted job id: 919137
+# Waiting for job 919137 to leave queue...
+# Job 919137 completed
+# Parsing test_4_results_919137.raw
+Parsing raw results from: test_4_results_919137.raw
+size: 32         test: 4 mean: 0.003684 stddev: 0.000087 fails: 0.00%
+size: 64         test: 4 mean: 0.003713 stddev: 0.000076 fails: 0.00%
+size: 128        test: 4 mean: 0.003709 stddev: 0.000074 fails: 0.00%
+size: 256        test: 4 mean: 0.003700 stddev: 0.000076 fails: 0.00%
+size: 512        test: 4 mean: 0.003745 stddev: 0.000082 fails: 0.00%
+size: 1024       test: 4 mean: 0.003721 stddev: 0.000072 fails: 0.00%
+
+==================================================
+# Submitting test 5
+# Submitted job id: 919138
+# Waiting for job 919138 to leave queue...
+# Job 919138 completed
+# Parsing test_5_results_919138.raw
+Parsing raw results from: test_5_results_919138.raw
+size: 32         test: 5 mean: 0.003705 stddev: 0.000089 fails: 0.00%
+size: 64         test: 5 mean: 0.003697 stddev: 0.000073 fails: 0.00%
+size: 128        test: 5 mean: 0.003712 stddev: 0.000070 fails: 0.00%
+size: 256        test: 5 mean: 0.003707 stddev: 0.000112 fails: 0.00%
+size: 512        test: 5 mean: 0.003703 stddev: 0.000083 fails: 0.00%
+size: 1024       test: 5 mean: 0.003713 stddev: 0.000074 fails: 0.00%
+
+==================================================
+# Submitting test 6
+# Submitted job id: 919139
+# Waiting for job 919139 to leave queue...
+# Job 919139 completed
+# Parsing test_6_results_919139.raw
+Parsing raw results from: test_6_results_919139.raw
+size: 32         test: 6 mean: 0.003704 stddev: 0.000088 fails: 0.00%
+size: 64         test: 6 mean: 0.003698 stddev: 0.000071 fails: 0.00%
+size: 128        test: 6 mean: 0.003689 stddev: 0.000069 fails: 0.00%
+size: 256        test: 6 mean: 0.003684 stddev: 0.000070 fails: 0.00%
+size: 512        test: 6 mean: 0.003707 stddev: 0.000068 fails: 0.00%
+size: 1024       test: 6 mean: 0.003698 stddev: 0.000072 fails: 0.00%
+
+==================================================
+# Submitting test 7
+# Submitted job id: 919140
+# Waiting for job 919140 to leave queue...
+# Job 919140 completed
+# Parsing test_7_results_919140.raw
+Parsing raw results from: test_7_results_919140.raw
+size: 32         test: 7 mean: 0.112191 stddev: 0.003780 fails: 0.00%
+size: 64         test: 7 mean: 0.086424 stddev: 0.000294 fails: 0.00%
+size: 128        test: 7 mean: 0.085678 stddev: 0.000992 fails: 0.00%
+size: 256        test: 7 mean: 0.086102 stddev: 0.000234 fails: 0.00%
+size: 512        test: 7 mean: 0.087346 stddev: 0.000368 fails: 0.00%
+size: 1024       test: 7 mean: 0.119114 stddev: 0.312465 fails: 0.00%
+
+==================================================
+# Submitting test 8
+# Submitted job id: 919141
+# Waiting for job 919141 to leave queue...
+# Job 919141 completed
+# Parsing test_8_results_919141.raw
+Parsing raw results from: test_8_results_919141.raw
+size: 32         test: 8 mean: 0.739623 stddev: 0.018428 fails: 0.00%
+size: 64         test: 8 mean: 0.742372 stddev: 0.018712 fails: 0.00%
+size: 128        test: 8 mean: 0.739914 stddev: 0.020038 fails: 0.00%
+size: 256        test: 8 mean: 0.741508 stddev: 0.022210 fails: 0.00%
+size: 512        test: 8 mean: 0.741082 stddev: 0.017994 fails: 0.00%
+size: 1024       test: 8 mean: 0.751162 stddev: 0.022866 fails: 0.00%
+
+==================================================
+# Submitting test 9
+# Submitted job id: 919143
+# Waiting for job 919143 to leave queue...
+# Job 919143 completed
+# Parsing test_9_results_919143.raw
+Parsing raw results from: test_9_results_919143.raw
+size: 32         test: 9 mean: 0.003729 stddev: 0.000093 fails: 100.00%
+size: 64         test: 9 mean: 0.003717 stddev: 0.000079 fails: 100.00%
+size: 128        test: 9 mean: 0.003721 stddev: 0.000074 fails: 100.00%
+size: 256        test: 9 mean: 0.003755 stddev: 0.000074 fails: 100.00%
+size: 512        test: 9 mean: 0.003735 stddev: 0.000075 fails: 100.00%
+size: 1024       test: 9 mean: 0.003730 stddev: 0.000077 fails: 100.00%
+
+==================================================
+# Submitting test 10
+# Submitted job id: 919144
+# Waiting for job 919144 to leave queue...
+# Job 919144 completed
+# Parsing test_10_results_919144.raw
+Parsing raw results from: test_10_results_919144.raw
+size: 32         test: 10 mean: 0.003759 stddev: 0.000090 fails: 0.00%
+size: 64         test: 10 mean: 0.003719 stddev: 0.000086 fails: 0.00%
+size: 128        test: 10 mean: 0.003716 stddev: 0.000077 fails: 0.00%
+size: 256        test: 10 mean: 0.003817 stddev: 0.000097 fails: 0.00%
+size: 512        test: 10 mean: 0.003738 stddev: 0.000075 fails: 0.00%
+size: 1024       test: 10 mean: 0.003812 stddev: 0.000085 fails: 0.00%
+
+# Sequential run finished
+```

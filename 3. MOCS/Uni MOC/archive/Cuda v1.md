@@ -5,7 +5,7 @@ academic year: 2024/2025
 related:
 completed: false
 created: 2026-02-20T13:03
-updated: 2026-02-20T15:18
+updated: 2026-03-02T17:25
 ---
 ```c
 #include <stdio.h>
@@ -116,6 +116,6 @@ void core(int layer_size, int num_storms, Storm *storms, float *maximum, int *po
 ```
 
 Problemi:
-- Non facciamo tutto in GPU, quindi la cpu e la gpu ad ogni storm devono essere sincronizzate e fare memcopy (molto costoso) -> obbiettivo parallelizzare tutto
+- Non facciamo tutto in GPU, quindi la cpu e la gpu ad ogni storm devono essere sincronizzate e fare memcopy (molto costoso) -> obbiettivo parallelizzare tutto (fatto [[Cuda v4|v4]])
 - avendo messo layer kernel dentro il for `for( int j=0; j<storms[i].size; j++ )` viene ri inizializzato 20000 volte (almeno nel test che abbiamo fato), soluzione fare tutto in un solo kernel, ovvero ad ogni thread (che rappresenta una cella del layer) facciamo fare l'update su tutte le particelle della storm. Risolto in [[Cuda v2]]
 

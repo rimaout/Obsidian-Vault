@@ -6,7 +6,7 @@ academic year: 2024/2025
 related:
 completed: true
 created: 2025-11-09T08:56
-updated: 2026-01-31T13:32
+updated: 2026-05-12T09:35
 ---
 Le immagini e buona parte del testo di questa nota sono stati presi degli [appunti](https://github.com/CasuFrost/university-notes-Informatica/blob/main/Terzo%20Anno/Programmazione%20di%20Sistemi%20Multicore/letexSrcFile/Programmazione%20di%20Sistemi%20Multicore.pdf) di [@CasuFrost](https://github.com/CasuFrost).
 
@@ -148,7 +148,7 @@ Per la stima dei tempi si definiscono le seguenti **variabili**:
 
 ## Scalabilità Forte e Scalabilità Debole
 
-Prima di tutto dobbiamo tenere in considerazione che lo strong scaling e il weak scaling  non sono uno l'opposto dell'altro, uno programma può essere sia week scalable che strongly scalable.
+Prima di tutto dobbiamo tenere in considerazione che lo strong scaling e il weak scaling non sono uno l'opposto dell'altro, uno programma può essere sia week scalable che strongly scalable.
 
 Un programma si dice **strongly scalable** se, data una *dimensione fissa dell’input* `n`, all’aumentare dei processi:
 - lo speed up ha una buona crescita (ovvero l’efficienza rimane stabile)
@@ -242,18 +242,10 @@ S(n,p) = (1-\alpha) + \alpha p
 $$
 
 >[!warning] Week Scaling
->A differenza della legge di Amdahl, la legge di Gustafson tiene conto dello week scaling.
+>A differenza della legge di Amdahl, la legge di Gustafson tiene conto dello week scaling. Ovvero all'aumentare del numero dei processi viene proporzionalmente aumentata il tempo della parte parallela.  
 
 ## Mondo Reale
 
 Nel caso reale, l’aumentare del numero di processi potrebbe far incrementare la frazione seriale.
 
 ![[Pasted image 20251110120751.png]]
-
-## Cosa sono i Thread
-
-I **core** sono le unità di calcolo fisiche di un processore: ognuno esegue istruzioni in modo indipendente. I **thread** (o processori logici) sono unità di esecuzione virtuali ottenute tramite tecniche di multithreading (es. Hyper-Threading).
-
-Nel caso di 8 core e 16 thread, ogni core può gestire contemporaneamente due thread diversi grazie a due "contesti di esecuzione" separati (registri, program counter, stack), ma *le principali risorse hardware del core (ALU, cache L1) sono condivise* tra i due thread.
-
-Il vantaggio è che quando un thread è bloccato (ad esempio in attesa di dati), l'altro può utilizzare subito le unità di calcolo del core, migliorando l'efficienza in certe situazioni.

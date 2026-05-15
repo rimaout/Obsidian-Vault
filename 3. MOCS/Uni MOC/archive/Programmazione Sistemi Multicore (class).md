@@ -2,8 +2,10 @@
 Main Moc: "[[Uni MOC]]"
 academic year: 2025/2026
 created: 2025-09-23T17:21
-updated: 2026-02-20T13:03
+updated: 2026-05-12T09:38
 ---
+[[Domande Orale - PEM]]
+
 - [sito corso]()
 - [[PEM - 29ott]]
 - [[GPU]]
@@ -17,10 +19,10 @@ updated: 2026-02-20T13:03
 >- [[Valutazione del Tempo (MPI)]] 🟢
 >  
 >**Operazioni Collettive:**
->- [[Introduzione alle Operazioni Collettive (MPI) + Reduce, Bcast, AllReduce]]
->- [[Collettive per matrici (MPI)]]
+>- [[Introduzione alle Operazioni Collettive (MPI) + Reduce, Bcast, AllReduce]] 🟠
+>- [[Collettive per matrici (MPI)]] 🟠
 
->[!note] MP
+>[!note] OpenMP
 >
 >- [[Introduzione a OpenMP]]
 >- [[Cicli For Paralleli (OpenMP)]]
@@ -40,5 +42,8 @@ updated: 2026-02-20T13:03
 - utilizzo della shared memory (cuda)
 - evitare di fare operazioni continue quando non ce ne è bisogno
 
-
 [[Appunti per Relazione Cuda]]
+
+[[Test Scaling]]
+
+

@@ -5,7 +5,7 @@ academic year: 2024/2025
 related:
 completed: false
 created: 2026-02-20T15:16
-updated: 2026-02-20T16:35
+updated: 2026-03-02T17:22
 ---
 ```c
 #include <stdio.h>
@@ -131,7 +131,7 @@ void core(int layer_size, int num_storms, Storm *storms, float *maximum, int *po
 ```
 
 Cosa abbiamo fatto dalla [[Cuda v1]]?
-- Non ri inizzializziamo più il layer il layerKernel 20000, ma solo una per storm (da 400ms a 38ms)
+- Non ri inizializziamo più il layer il layerKernel 20000, ma solo una per storm (da 400ms a 38ms)
   
 ### Why this is incredibly fast on a GPU:
 

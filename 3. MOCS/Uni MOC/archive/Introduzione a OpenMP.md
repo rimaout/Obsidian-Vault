@@ -6,7 +6,7 @@ academic year: 2024/2025
 related:
 completed: false
 created: 2025-11-11T19:32
-updated: 2026-01-31T13:32
+updated: 2026-05-13T16:50
 ---
 ## Introduzione
 
@@ -132,7 +132,7 @@ Quando un programma eseguito con OpenMP, contiene più thread che accedono alle 
 >}
 >```
 >
->Questo perché eseguiamo `Local_trap( ... )` all'interno della sezione critica anche se non ce ne è bisogno, una versione ottimizzata è:
+>Questo perché eseguiamo `Local_trap(...)` all'interno della sezione critica anche se non ce ne è bisogno, una versione ottimizzata è:
 >
 >```c
 >global_result = 0.0;
@@ -175,7 +175,7 @@ reduction(<operator>:<reduction variable>)
 ```
 
 Dove:
-- gli ***operatori*** disponibili sono: `+ * - & | ^ && ||`
+- gli ***operatori*** disponibili sono: `+ * - & | ^ && ||` (o è possibile definire operazioni custom).
 - ***reduction variable*** è la variabile che verrà ridotta, e deve essere dichiarata prima della reduction. 
 
 Ad esempio:
@@ -219,3 +219,39 @@ Una variabile può essere:
 >
 >Ovvero una variabile accessibile da un singolo thread, le variabili dichiarate all’interno di un blocco parallelo sono private, ed ogni thread ne avrà una sua copia distinta dalle altre.
 
+È possibile specificare la visibilità delle variabili utilizzando le seguenti clausole:
+
+>[!note] shared(...)
+>
+>È il comportamento di default delle variabili al di fuori del blocco parallelo, va quindi  specificata per queste ultime solo se presente anche la clausola `default(none)`.
+
+>[!note] reduction(...)
+>
+>Specifica che una variabile dovrà essere soggetta ad un operazione di riduzione. Ci  saranno delle copie di quest’ultima private per ogni thread, ma il risultato finale sarà condiviso.
+>
+>>Vedi [[#Riduzione]] per maggiori informazioni.
+
+>[!note] private(...)
+>
+>La variabile avrà una copia privata per ogni thread nel blocco. Le variabili private di default non sono inizializzate.
+>
+>Ad esempio:
+>
+>```c
+>int x = 5;
+>#pragma omp parallel private(x)
+>{
+>	x = x+1;
+>}
+>
+>printf(" x is %d, x)
+>```
+>
+>Nel blocco di codice mostrato, la chiamata di funzione printf stamperà in output "x is 5" in quanto `x` è privata ed inoltre l’incremento di `x` all’interno del blocco parallelo può causare errore in quanto `x` non inizializzata di default.
+
+Esistono altre 4 clausole per specificare lo scope di una variabile:
+
+- **firstprivate**: come private ma la copia locale viene inizializzata con il valore della variabile originale (quella "esterna" al blocco) prima che il blocco venga eseguito.
+- **lastprivate**: come private ma sl termine dell’esecuzione del blocco parallelo, il valore della copia locale dell’ultimo thread che ha completato il ciclo viene copiato nella variabile originale (quella "esterna" al blocco).8
+- **threadprivate**:
+- **copyin**:

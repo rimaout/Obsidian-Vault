@@ -1,6 +1,6 @@
 ---
 created: 2025-07-19T15:42
-updated: 2026-01-31T13:32
+updated: 2026-05-14T19:24
 ---
 ## Installation
 
@@ -207,3 +207,11 @@ services:
     extra_hosts:
       - 'host.docker.internal:host-gateway' 
 ```
+
+## Backups
+
+See this guide: [[Ubuntu Server Backups]]
+
+## Hard-disks Health Checks
+
+See this guide: [[Ubuntu Server Hard-disks Health Checks]]

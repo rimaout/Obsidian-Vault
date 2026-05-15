@@ -5,7 +5,7 @@ academic year: 2024/2025
 related:
 completed: false
 created: 2026-02-20T16:36
-updated: 2026-02-26T10:36
+updated: 2026-03-03T16:27
 ---
 ```c
 #include <stdio.h>
@@ -135,11 +135,11 @@ void core(int layer_size, int num_storms, Storm *storms, float *maximum, int *po
 ```
 
 
-Qui abbiamo fatto una versione base dello stancil
+Qui abbiamo fatto una versione base dello stencil
 
-TODO: 
-- in futuro dobbiamo usare una array temporaneo salvato nella memoria shared per evitare di scrivere e leggere in ram in continuazione.
-- Finire di parallelizzare la ricerca del massimo, infatti ora la gpu deve mandare alla cpu tutto il layer dopo ogni storm (costoso), soluzione aprallelizare anche il massimo in moda tale da tenere sembpre in gpu totto il layer e mandare soltanto una piccola lista di massimi locali. (fatto in [[Cuda v4|v4]])
+**Future Modifiche:**
+- in futuro dobbiamo usare una array temporaneo salvato nella memoria shared per evitare di scrivere e leggere in ram in continuazione. (fatto in [[Cuda v8]] in realtà usiamo shuffle che è meglio )
+- Finire di parallelizzare la ricerca del massimo, infatti ora la gpu deve mandare alla cpu tutto il layer dopo ogni storm (costoso), soluzione parallelizzare anche il massimo in moda tale da tenere in gpu tutto il layer e mandare soltanto una piccola lista di massimi locali. (fatto in [[Cuda v4|v4]])
 
 
 
