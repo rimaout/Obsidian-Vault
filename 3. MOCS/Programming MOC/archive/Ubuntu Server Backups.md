@@ -4,9 +4,9 @@ programming language:
 related:
 completed: false
 created: 2026-05-14T19:22
-updated: 2026-05-16T13:43
+updated: 2026-05-16T14:22
 ---
-## Introduction
+	## Introduction
 
 I already use zfs to create a software mirror between my drives, but I want to follow the The 3-2-1 Rule.
 
@@ -160,7 +160,7 @@ else
     MSG+="⚠️ An error occurred during the Borg backup or Rclone sync. Please check the server logs."
 fi
 
-curl -s -X POST "[https://api.telegram.org/bot$TOKEN/sendMessage](https://api.telegram.org/bot$TOKEN/sendMessage)" \
+curl -s -X POST "https://api.telegram.org/bot$TOKEN/sendMessage" \
 --data-urlencode "chat_id=$CHAT_ID" \
 --data-urlencode "parse_mode=HTML" \
 --data-urlencode "text=$MSG"
@@ -183,45 +183,42 @@ sudo vim /etc/borgmatic.d/immich.yaml
   
 And write this configuration (Replace the `encryption_passphrase` field with you actual repository passfrase)
 
-```YAML
-location:
-    source_directories:
-        - [PATH_TO_YOUR_IMMICH_DIRECTORY]
-    
-    repositories:
-        - /mnt/backup_ssd/borg_backup
+```yaml
+source_directories:
+    - [PATH_TO_YOUR_IMMICH_DIRECTORY]
 
-    exclude_patterns:
-        - '**/thumbs'
-        - '**/encoded-video'
-        - '**/postgres_data'
+repositories:
+    - path: /mnt/backup_ssd/borg_backup
+      label: external_ssd
 
-storage:
-    encryption_passphrase: "YOUR_SECURE_PASSWORD"
-    compression: lz4
+exclude_patterns:
+    - '**/thumbs'
+    - '**/encoded-video'
+    - '**/postgres_data'
 
-retention:
-    keep_daily: 7
-    keep_weekly: 4
-    keep_monthly: 6
+encryption_passphrase: "YOUR_SECURE_PASSWORD"
+compression: lz4
 
-hooks:
-    before_backup:
-        - echo "Creating directory for DB dump if it doesn't exist..."
-        - mkdir -p [PATH_TO_YOUR_IMMICH_DIRECTORY]/database-backup
-        - echo "Dumping database..."
-        - docker exec -t immich_postgres pg_dumpall --clean --if-exists -U postgres > /home/rima/data/docker/immich/database-backup/immich-database.sql
-    
-    after_backup:
-        - rm [PATH_TO_YOUR_IMMICH_DIRECTORY]/immich-database.sql
-        - echo "Local backup complete. Syncing to Google Drive..."
-        - rclone sync -P /mnt/backup_ssd/borg_backup gdrive:Backups/immich
-        - echo "Sending Telegram success report..."
-        - /usr/local/bin/borg_telegram.sh success
+keep_daily: 7
+keep_weekly: 4
+keep_monthly: 6
 
-    on_error:
-        - echo "Backup failed! Sending Telegram error report..."
-        - /usr/local/bin/borg_telegram.sh error
+before_backup:
+    - echo "Creating directory for DB dump if it doesn't exist..."
+    - mkdir -p [PATH_TO_YOUR_IMMICH_DIRECTORY]/database-backup
+    - echo "Dumping database..."
+    - docker exec -t immich_postgres pg_dumpall --clean --if-exists -U postgres > [PATH_TO_YOUR_IMMICH_DIRECTORY]/database-backup/immich-database.sql
+
+after_backup:
+    - rm [PATH_TO_YOUR_IMMICH_DIRECTORY]/database-backup/immich-database.sql
+    - echo "Local backup complete. Syncing to Google Drive..."
+    - rclone sync -P /mnt/backup_ssd/borg_backup gdrive:Backups/immich
+    - echo "Sending Telegram success report..."
+    - /usr/local/bin/borg_telegram.sh success
+
+on_error:
+    - echo "Backup failed! Sending Telegram error report..."
+    - /usr/local/bin/borg_telegram.sh error
 ```
 
 ***Replace:***

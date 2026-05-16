@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Programmazione Sistemi Multicore (class).md",
+                "file": "3. MOCS/Programming MOC/archive/Ubuntu Server Backups.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Programmazione Sistemi Multicore (class)"
+              "title": "Ubuntu Server Backups"
             }
           }
         ]
@@ -258,10 +258,10 @@
   },
   "active": "344e0c8572215f96",
   "lastOpenFiles": [
-    "3. MOCS/Programming MOC/archive/Ubuntu Server Hard-disks Health Checks.md",
+    "3. MOCS/Programming MOC/archive/Ubuntu Server Backups.md",
     "Ubuntu Server.md",
     "3. MOCS/Uni MOC/archive/Programmazione Sistemi Multicore (class).md",
-    "3. MOCS/Programming MOC/archive/Ubuntu Server Backups.md",
+    "3. MOCS/Programming MOC/archive/Ubuntu Server Hard-disks Health Checks.md",
     "3. MOCS/Uni MOC/archive/Ubuntu Server Telegram Bot.md",
     "3. MOCS/Uni MOC/archive/Ubuntu Server Backups.md",
     "3. MOCS/Programming MOC/archive/How I setup a ZFS mirror pool.md",
