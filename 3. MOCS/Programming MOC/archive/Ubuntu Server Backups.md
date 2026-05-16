@@ -4,7 +4,7 @@ programming language:
 related:
 completed: false
 created: 2026-05-14T19:22
-updated: 2026-05-14T19:23
+updated: 2026-05-16T13:43
 ---
 ## Introduction
 
@@ -53,7 +53,7 @@ lrwxrwxrwx 1 root root 10 May 13 17:30 usb-Realtek_RTL9210_NVME_012345678904-0:0
 
 So in my case the ***by-id*** of the ssd is `usb-Realtek_RTL9210_NVME_012345678904-0:0-part1`.
 
->[!note] by-id
+>[!warning]  by-id
 >
 >We use **`by-id`** because unlike a `UUID` (which changes if you reformat the drive) or `/dev/sdb` (which changes if you plug it into a different port), the `by-id` is tied to the **physical serial number** of the SSD.
 
@@ -113,38 +113,80 @@ Initialize your repository on the SSD using this command:
 borg init --encryption=repokey /mnt/backup_ssd/borg_backup
 ```
 
-***Replace:***
-- `/mnt/backup_ssd/borg_backup` with the path where you want to create the repo, in particular replace `/mnt/backup_ssd` with the path to where you mounted your ssd.
-
-***Password:*** After running it it will ask you to paste a password, do not lose it, (i used bitwarden to generate and save the password)
+- ***Replace:*** `/mnt/backup_ssd/borg_backup` with the path where you want to create the repo.
+- ***Password:*** After running it, it will ask you to create/paste a password. Do not lose it (I used Bitwarden to generate and save the password).
 
 **Step 2: export repository key**
 
-It's a good roule to export and save you repokey that borg automatically generates
-
-Use this command to print the key on the terminal:
+It's a good rule to export and save your repokey that Borg automatically generates. Print the key on the terminal:
 
 ```bash
 borg key export /mnt/backup_ssd/borg_backup
 ```
   
-Copy it and save it somewhere save, i printed it on a sheet of paper and also saved it in bitwarden.
+Copy it and save it somewhere safe (I printed it on a sheet of paper and also saved it in Bitwarden).
   
-**Step 3: Create the Backup automation**
+**Step 3: Create the Telegram Notification Script**
 
-Let's create a the automation file for borgmatic, with these commands:
+Create the file:
+
+```bash
+sudo vim /usr/local/bin/borg_telegram.sh
+```
+
+Paste this configuration (Make sure to replace your Telegram credentials,  see [[Ubuntu Server Telegram Bot]] for more informations):
+
+```bash
+#!/bin/bash
+
+# --- CONFIGURATION ---
+TOKEN="YOUR_REDACTED_TOKEN"
+CHAT_ID="YOUR_REDACTED_ID"
+
+STATUS=$1 # 'success' or 'error' passed from borgmatic
+
+if [ "$STATUS" == "success" ]; then
+    REPO_SIZE=$(du -sh /mnt/backup_ssd/borg_backup | awk '{print $1}')
+    SSD_FREE=$(df -h /mnt/backup_ssd | awk 'NR==2 {print $4}')
+    
+    MSG="✅ <b>Immich Backup & Sync Successful!</b>"$'\n\n'
+    MSG+="🖥 <b>Host:</b> $(hostname)"$'\n'
+    MSG+="📦 <b>Borg Repo Size:</b> ${REPO_SIZE}"$'\n'
+    MSG+="💾 <b>SSD Free Space:</b> ${SSD_FREE}"$'\n'
+    MSG+="☁️ <b>Off-site:</b> Synced to Google Drive"
+else
+    MSG="🚨 <b>IMMICH BACKUP FAILED!</b>"$'\n\n'
+    MSG+="🖥 <b>Host:</b> $(hostname)"$'\n'
+    MSG+="⚠️ An error occurred during the Borg backup or Rclone sync. Please check the server logs."
+fi
+
+curl -s -X POST "[https://api.telegram.org/bot$TOKEN/sendMessage](https://api.telegram.org/bot$TOKEN/sendMessage)" \
+--data-urlencode "chat_id=$CHAT_ID" \
+--data-urlencode "parse_mode=HTML" \
+--data-urlencode "text=$MSG"
+```
+
+Make the script executable:
+
+```bash
+sudo chmod +x /usr/local/bin/borg_telegram.sh
+```
+
+**Step 4: Create the Backup automation**
+
+Let's create the automation file for Borgmatic with these commands:
 
 ```bash
 sudo mkdir -p /etc/borgmatic.d
 sudo vim /etc/borgmatic.d/immich.yaml
 ```
   
-  And write this:
+And write this configuration (Replace the `encryption_passphrase` field with you actual repository passfrase)
 
-```yaml
+```YAML
 location:
     source_directories:
-        - /home/rima/data/docker/immich
+        - [PATH_TO_YOUR_IMMICH_DIRECTORY]
     
     repositories:
         - /mnt/backup_ssd/borg_backup
@@ -155,7 +197,7 @@ location:
         - '**/postgres_data'
 
 storage:
-    encryption_passphrase: "ln6kG#j%jV#0ilUO"
+    encryption_passphrase: "YOUR_SECURE_PASSWORD"
     compression: lz4
 
 retention:
@@ -166,21 +208,25 @@ retention:
 hooks:
     before_backup:
         - echo "Creating directory for DB dump if it doesn't exist..."
-        - mkdir -p /home/rima/data/docker/immich/database-backup
+        - mkdir -p [PATH_TO_YOUR_IMMICH_DIRECTORY]/database-backup
         - echo "Dumping database..."
         - docker exec -t immich_postgres pg_dumpall --clean --if-exists -U postgres > /home/rima/data/docker/immich/database-backup/immich-database.sql
     
     after_backup:
-        - rm /home/rima/data/docker/immich/database-backup/immich-database.sql
+        - rm [PATH_TO_YOUR_IMMICH_DIRECTORY]/immich-database.sql
         - echo "Local backup complete. Syncing to Google Drive..."
         - rclone sync -P /mnt/backup_ssd/borg_backup gdrive:Backups/immich
-        - echo "All backups finished successfully!"
+        - echo "Sending Telegram success report..."
+        - /usr/local/bin/borg_telegram.sh success
+
+    on_error:
+        - echo "Backup failed! Sending Telegram error report..."
+        - /usr/local/bin/borg_telegram.sh error
 ```
 
-**Replace:**
+***Replace:***
 - `[PATH_TO_YOUR_IMMICH_DIRECTORY]` with your path to the immich directory in my case it is `/home/rima/data/docker/immich`
-- `"YourSecurePasswordHere"` with a real secure password, mine is saved on bitwarden
-  
+- `YOUR_SECURE_PASSWORD` with the passphrase of your borg repo, mine is saved on bitwarden
   
 **Step 4: Test Run**
 

@@ -1,6 +1,6 @@
 ---
 created: 2025-07-19T15:42
-updated: 2026-05-14T19:24
+updated: 2026-05-16T13:39
 ---
 ## Installation
 
@@ -207,6 +207,10 @@ services:
     extra_hosts:
       - 'host.docker.internal:host-gateway' 
 ```
+
+## Telegram Bot
+
+See this guide: [[Ubuntu Server Telegram Bot]], it is needed for [[Ubuntu Server Backups]] and [[Ubuntu Server Hard-disks Health Checks]].
 
 ## Backups
 
