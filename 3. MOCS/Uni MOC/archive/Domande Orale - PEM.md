@@ -6,7 +6,7 @@ academic year: 2024/2025
 related:
 completed: false
 created: 2026-04-13T20:30
-updated: 2026-05-11T18:14
+updated: 2026-05-22T17:03
 ---
 >[!danger] Good to know
 >
@@ -19,13 +19,19 @@ updated: 2026-05-11T18:14
 
 >[!note]- 1.1 Cos'è il False Scaring? 🟠
 >
->Il **False Sharing** è un problema di calo delle prestazioni che si verifica nella programmazione concorrente. Succede quando due o più thread, in esecuzione su core diversi, modificano variabili *differenti* , che però risiedono fisicamente all'interno della stessa **cache line**.
+>Il _false sharing_ è un "effetto collaterale" dei sistemi di coerenza della cache che porta ad un degradamento delle performance. Si verifica quando due o più thread, in esecuzione parallela su core diversi, modificano variabili logicamente distinte che però risiedono fisicamente all'interno della stessa linea di cache (_cache line_).
 >
->Per capire il problema, dobbiamo ricordare che i dati non vengono spostati dalla memoria principale alla cache del processore come singole variabili, ma in blocchi chiamati **cache line**. Per esempio, se una cache line è grande 64 Byte, può contenere 16 interi da 4 Byte adiacenti in memoria. Il problema sorge con il meccanismo di coerenza della cache: quando un thread modifica un dato, l'hardware deve **invalidare l'intera cache line** per gli altri core, non solo la singola variabile modificata.
+>Per comprendere il problema, occorre ricordare che i dati non vengono trasferiti dalla memoria principale alla cache del processore come singole variabili, ma a blocchi di dimensione fissa chiamati, appunto, cache line. Ad esempio, in un'architettura con cache line da 64 Byte, un singolo blocco può contenere fino a 16 interi da 4 Byte adiacenti in memoria.
 >
->Come risolverlo?
+>Il collo di bottiglia prestazionale sorge a causa del meccanismo di coerenza della cache hardware: quando un thread modifica la propria variabile, l'intero blocco di cache viene contrassegnato come "invalido" per tutti gli altri core. Di conseguenza, gli altri thread saranno costretti a ricaricare l'intera linea dalla memoria principale (o da una cache condivisa di livello superiore), anche se stavano lavorando su variabili completamente diverse e non modificate.
 >
->. Padding, allinemamneto, e far gestire zono diverse della memeoria ad ongi theread
+>Come risolvere il False Sharing?
+>
+>Per mitigare o eliminare questo problema si utilizzano principalmente tre strategie:
+>
+>- **Data Padding (Riempimento):** Consiste nell'inserire dello spazio vuoto (byte di _padding_) tra le variabili utilizzate dai diversi thread. In questo modo si "allontanano" i dati in memoria, costringendoli a risiedere su cache line separate. 
+>- **Allineamento della memoria (Alignment):** Sfruttare direttive del compilatore (come `alignas` in C++ o `@Contended` in Java) per allineare l'indirizzo di inizio di una struttura dati esattamente al confine di una cache line.
+>- **Localizzazione dei dati (Thread-local storage):** Progettare l'algoritmo in modo che ogni thread lavori principalmente su zone di memoria separate o su copie locali dei dati (es. registri o stack privato), accumulando i risultati in una struttura globale solo al termine dell'elaborazione.
 
 >[!note]- 1.2 Differenze tra Array of Structs (AOS) e Struct of Arrays (SOA) 🟠
 >
@@ -112,24 +118,54 @@ updated: 2026-05-11T18:14
 >
 >Dove $\alpha$ è la sezione del problema che è paralellizabile, e $1-\alpha$ è la sezione di programma non parallelizzabile.
 >
->La Gustafson laws invece tiene conto dello week scaling, ovvero che all'aumentare del numero di processori, aumenta in modo proporzionale anche la dimensione del programma.
+>La Gustafson law invece tiene conto dello week scaling, ovvero che all'aumentare del numero di processori, aumenta in modo proporzionale anche la dimensione del programma.
 >
 >$$
->S(n,p) = (1-\alpha) + \alpha p
+>S(p) = \frac{(1-\alpha) + \alpha p}{(1-\alpha) + \alpha} =  \frac{(1-\alpha) + \alpha p}{1} = (1-\alpha) + \alpha p
 >$$
 >
 >---
 >
->**Limitazioni dell'Amdahl Law**: l'Amdahl Law da per scontato che la dimensione della parte seriale rimanga costante all'aumentare del numero di processori, ma questo nel mondo reale raramente è vero.
+>**Limitazioni dell'Amdahl Law e Gustafson Law**: danno per scontato che la dimensione della parte seriale rimanga costante all'aumentare del numero di processori, ma questo nel mondo reale raramente è vero.
 
->[!note]- 1.6 C'è il  Roofline Model? 🔴
+>[!note]- 1.6 Cos'è il Roofline Model? 🔴
 
->[!note]- 1.7 Cos'è il tiling? 🔴
+>[!note]- 1.7 Cos'è il tiling? 🟠
+>
+>Il **tiling** è una tecnica di ottimizzazione per gli accessi in memoria per la programmazione GPU.
+>
+>Consiste nel suddividere grandi strutture dati (tipicamente matrici) in blocchi più piccoli e gestibili chiamati **"tiles"**.
+>
+>L'idea centrale è caricare questi tasselli nella **shared memory** della GPU invece di continuare a leggerli dalla memoria globale, il titiling è necessario in quanto la shared memory solitamente non è abbastanza grande per contenere i dati per intero..
+>
+>In un'implementazione con tiling, i thread di uno stesso blocco collaborano: ogni thread carica una piccola porzione della "tile" dalla memoria globale alla shared memory. Poi vengono effettuati i calcoli se qui dati. Una volta finito si caricano in shared la nuova tile.
+>
+>Questo permette di **ridurre il traffico verso la memoria globale**. Poiché la memoria globale è lenta (alta latenza) mentre la shared memory è molto veloce (on-chip, simile alla cache L1), riutilizzare i dati caricati nella shared memory aumenta drasticamente l'efficienza.
 
 >[!note]- 1.8 Cos'è la Pinned Memory? 🔴
 
->[!note]- 1.9 How is a read-write lock managed? 🔴
-
+>[!note]- 1.9 Com'è gestito un read-write lock? 🟠
+>
+>Un **read-write lock** (RW lock) è un meccanismo di sincronizzazione, simile a una mutex, progettato per gestire l'accesso a strutture dati condivise in modo più efficiente quando le operazioni di sola lettura sono molto frequenti rispetto a quelle di modifica.
+>
+>Ecco come viene gestito e quali sono le sue regole di funzionamento:
+>
+>Logica di Accesso
+>
+>La caratteristica principale di un read-write lock è la distinzione tra l'accesso in lettura e quello in scrittura:
+>
+>- **Lettura multipla:** Più thread possono ottenere contemporaneamente il lock in lettura e accedere alla risorsa, a patto che nessun thread detenga o abbia richiesto il lock in scrittura.
+>- **Scrittura esclusiva:** Solo un thread alla volta può ottenere il lock in scrittura. Mentre un thread scrive, nessun altro thread può accedere alla risorsa, né in lettura né in scrittura.
+>
+>Interazioni tra i Lock
+>
+>La gestione delle attese segue regole precise basate sullo stato attuale della risorsa:
+>- **Se la risorsa è libera:** Un thread può ottenere immediatamente sia un lock in lettura che uno in scrittura.
+>- **Se c'è un lock in lettura attivo:**
+>    - Altri thread che richiedono un **lock in lettura** lo ottengono immediatamente.
+>    - Thread che richiedono un **lock in scrittura** devono attendere che tutti i lettori correnti rilascino la risorsa.
+>- **Se c'è un lock in scrittura attivo:**
+>    - Qualsiasi altra richiesta (sia di lettura che di scrittura) viene messa in attesa fino al rilascio del lock.
 ## MPI
 
 >[!note]- 2.1 `MPI_Status` fields: in which cases do we need to get the missing tag or rank using `MPI_Status`? 🔴
@@ -194,7 +230,7 @@ updated: 2026-05-11T18:14
 
 >[!note]- 3.3 Why is there no false sharing on GPU? 🔴
 
->[!note]- 3.4 Write a CUDA kernel which sums two arrays ✅
+>[!note]- 3.4 Scrivi un CUDA kernel che effettua la somma di due array ✅
 >
 >```c
 >__gobal__ void arrSum(int* d_A, int* d_B, int* d_C, int n) {
@@ -206,7 +242,7 @@ updated: 2026-05-11T18:14
 >}
 >```
 
->[!note]- 3.5 Write a CUDA kernel that computes the (element-wise) product between two arrays. ✅
+>[!note]- 3.5 Scrivi un CUDA kernel che calcola l'(element-wise) product between two arrays. ✅
 >
 >```c
 >__gobal__ void arrMult(int* d_A, int* d_B, int* d_C, int n) {
@@ -240,4 +276,3 @@ for i in 0..n:
 >
 
 >[!note]- 3.9 How does `cudaMemcpy()` work between CPU and GPU? 🔴
-

@@ -4,24 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "2c2f783c93abf12e",
+        "id": "bafc0758c8b8353b",
         "type": "tabs",
         "children": [
           {
-            "id": "344e0c8572215f96",
+            "id": "32adbbf212779090",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. MOCS/Uni MOC/archive/Programmazione Sistemi Multicore (class).md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Programmazione Sistemi Multicore (class)"
+            }
+          },
+          {
+            "id": "5b3da3eaeb464b17",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Programming MOC/archive/Ubuntu Server Backups.md",
+                "file": "3. MOCS/Uni MOC/archive/Domande Orale - PEM.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Ubuntu Server Backups"
+              "title": "Domande Orale - PEM"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -256,11 +273,11 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "344e0c8572215f96",
+  "active": "5b3da3eaeb464b17",
   "lastOpenFiles": [
+    "3. MOCS/Uni MOC/archive/Programmazione Sistemi Multicore (class).md",
     "3. MOCS/Programming MOC/archive/Ubuntu Server Backups.md",
     "Ubuntu Server.md",
-    "3. MOCS/Uni MOC/archive/Programmazione Sistemi Multicore (class).md",
     "3. MOCS/Programming MOC/archive/Ubuntu Server Hard-disks Health Checks.md",
     "3. MOCS/Uni MOC/archive/Ubuntu Server Telegram Bot.md",
     "3. MOCS/Uni MOC/archive/Ubuntu Server Backups.md",

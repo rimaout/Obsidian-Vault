@@ -4,9 +4,9 @@ programming language:
 related:
 completed: false
 created: 2026-05-14T19:22
-updated: 2026-05-16T14:22
+updated: 2026-05-16T14:42
 ---
-	## Introduction
+## Introduction
 
 I already use zfs to create a software mirror between my drives, but I want to follow the The 3-2-1 Rule.
 
