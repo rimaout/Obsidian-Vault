@@ -5,6 +5,6 @@ academic year: 2024/2025
 related:
 completed: false
 created: 2025-06-18T20:15
-updated: 2026-01-31T13:32
+updated: 2026-06-06T16:49
 ---
-## 
+Vedi [[Logica del primo ordine (predicativa)]]

@@ -4,41 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "bafc0758c8b8353b",
+        "id": "b2a941acaa60bdab",
         "type": "tabs",
         "children": [
           {
-            "id": "32adbbf212779090",
+            "id": "d027191171395884",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Programmazione Sistemi Multicore (class).md",
+                "file": "3. MOCS/Uni MOC/archive/TPFI.md",
                 "mode": "source",
                 "source": false
               },
-              "pinned": true,
               "icon": "lucide-file",
-              "title": "Programmazione Sistemi Multicore (class)"
+              "title": "TPFI"
             }
           },
           {
-            "id": "5b3da3eaeb464b17",
+            "id": "14273fc7cb57e964",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Domande Orale - PEM.md",
+                "file": "Storage/Backend/Product usage analysis/MacBook M1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Domande Orale - PEM"
+              "title": "MacBook M1"
+            }
+          },
+          {
+            "id": "0309589f3bbd2b36",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "3. MOCS/Programming MOC/archive/MacOS Setup.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "MacOS Setup"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -70,12 +82,12 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:monthly-log",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
                 "extraContext": true,
-                "sortOrder": "alphabetical"
+                "sortOrder": "byModifiedTime"
               },
               "icon": "lucide-search",
               "title": "Search"
@@ -106,7 +118,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 531.504789352417,
     "collapsed": true
   },
   "right": {
@@ -137,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Domande Orale - PEM.md",
+                "file": "3. MOCS/Uni MOC/archive/Tecniche di valutazione - IUM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +159,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Domande Orale - PEM"
+              "title": "Backlinks for Tecniche di valutazione - IUM"
             }
           },
           {
@@ -156,12 +168,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Storage/Backend/Monthly Logs/attachments/strandbeest_IMG.webp",
+                "file": "3. MOCS/Uni MOC/archive/Tecniche di valutazione - IUM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from strandbeest_IMG"
+              "title": "Outgoing links from Tecniche di valutazione - IUM"
             }
           },
           {
@@ -191,7 +203,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "0ee4f1dd2040ea54",
@@ -218,7 +230,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Domande Orale - PEM.md",
+                "file": "3. MOCS/Uni MOC/archive/Tecniche di valutazione - IUM.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -246,7 +258,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Domande Orale - PEM"
+              "title": "Graph of Tecniche di valutazione - IUM"
             }
           }
         ],
@@ -273,53 +285,54 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "5b3da3eaeb464b17",
+  "active": "0309589f3bbd2b36",
   "lastOpenFiles": [
-    "3. MOCS/Uni MOC/archive/Programmazione Sistemi Multicore (class).md",
-    "3. MOCS/Uni MOC/archive/Domande Orale - PEM.md",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20260522175357.png",
-    "3. MOCS/Programming MOC/archive/Ubuntu Server Backups.md",
-    "Ubuntu Server.md",
-    "3. MOCS/Programming MOC/archive/Ubuntu Server Hard-disks Health Checks.md",
-    "3. MOCS/Uni MOC/archive/Ubuntu Server Telegram Bot.md",
-    "3. MOCS/Uni MOC/archive/Ubuntu Server Backups.md",
-    "3. MOCS/Programming MOC/archive/How I setup a ZFS mirror pool.md",
-    "3. MOCS/Uni MOC/archive/Valutazione del Tempo (MPI).md",
-    "3. MOCS/Uni MOC/archive/Introduzione alle Operazioni Collettive (MPI) + Reduce, Bcast, AllReduce.md",
-    "3. MOCS/Uni MOC/archive/Introduzione a OpenMP.md",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20260506114320.png",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20260506114304.png",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20260506114254.png",
     "Storage/Backend/Product usage analysis/MacBook M1.md",
-    "3. MOCS/Programming MOC/archive/MacOS Setup.md",
-    "2. Litterateur Notes/Books/L'avvocato dell'atomo (book)/L’avvocato dell’atomo (Book).md",
-    "3. MOCS/Uni MOC/archive/Appunti per Relazione Cuda.md",
-    "3. MOCS/Uni MOC/archive/Cuda v4.md",
-    "3. MOCS/Uni MOC/archive/Cuda v5.md",
-    "3. MOCS/Uni MOC/archive/Test Scaling.md",
-    "3. MOCS/Uni MOC/archive/Cuda v8.md",
-    "3. MOCS/Uni MOC/archive/Cuda v9.md",
-    "3. MOCS/Uni MOC/archive/Cuda v10.md",
-    "3. MOCS/Uni MOC/archive/attachments/Pasted image 20260402162627.png",
+    "3. MOCS/Uni MOC/archive/Laws and Proofs (equational reasoning) - Haskell.md",
+    "3. MOCS/Uni MOC/archive/TPFI.md",
+    "3. MOCS/Uni MOC/archive/let & where - Haskell.md",
+    "3. MOCS/Uni MOC/archive/Voting Systems (Perla) - TPFI.md",
+    "3. MOCS/Uni MOC/archive/Fold, Scan, Fusion Law - Haskell.md",
+    "3. MOCS/Uni MOC/archive/Function Composition - Haskell.md",
+    "To-Do/John Backus Map Application - Haskell.md",
+    "3. MOCS/Uni MOC/archive/attachments/Screenshot 2026-06-08 at 16.09.37.png",
+    "3. MOCS/Uni MOC/archive/attachments/Screenshot 2026-06-08 at 16.09.37.pxd",
+    "3. MOCS/Uni MOC/archive/attachments/Screenshot 2026-06-08 at 16.09.48 1 1.png",
+    "3. MOCS/Uni MOC/archive/attachments/Screenshot 2026-06-08 at 16.09.48 1.png",
+    "3. MOCS/Uni MOC/archive/attachments/Screenshot 2026-06-08 at 16.09.48.png",
+    "C Client - Server.pdf",
+    "C Precompiler.pdf",
+    "Resources for Studying API Pagination and Messagin.md",
+    "How to Test - Precompiler.pdf",
+    "How to Test - Client & Server.pdf",
+    "To-Do/To-Do.md",
+    "WebClips/🔐 How to Sign GitHub Commits Using SSH (Windows, macOS & Linux).md",
     "To-Do/Predictive Programming Lesson.md",
-    "To-Do/attachments/image1.png",
+    "To-Do/Quartz Callouts Grid Layout.md",
+    "To-Do/attachments/Screenshot 2026-03-16 at 23.52.08.png",
+    "To-Do/attachments/Screenshot 2026-03-16 at 23.51.01.png",
+    "To-Do/attachments/Screenshot 2025-03-23 at 16.51.27.png",
     "To-Do/attachments/Pasted image 20260317173917.png",
     "To-Do/attachments/Pasted image 20260317172509.png",
     "To-Do/attachments/Pasted image 20260317000218.png",
-    "To-Do/attachments/Screenshot 2026-03-16 at 23.52.08.png",
-    "To-Do/Quartz Callouts Grid Layout.md",
-    "To-Do/To-Do.md",
-    "How to Test - Precompiler.pdf",
-    "How to Test - Client & Server.pdf",
-    "C Precompiler.pdf",
-    "C Client - Server.pdf",
-    "To-Do/Scaletta SO2.md",
+    "3. MOCS/Uni MOC/archive/attachments/Screenshot 2026-06-08 at 16.09.48 1.pxd",
+    "3. MOCS/Uni MOC/archive/attachments/Screenshot 2026-06-08 at 16.09.48.pxd",
+    "To-Do/Screenshot 2026-06-08 at 16.09.48.png.md",
+    "3. MOCS/Uni MOC/archive/Classes and Subtyping - Haskell.md",
+    "3. MOCS/Uni MOC/archive/Program Calculations - Haskell.md",
+    "3. MOCS/Uni MOC/archive/Lists - Haskell.md",
+    "3. MOCS/Uni MOC/archive/Types, Polymorphism and Classes - Haskell.md",
+    "3. MOCS/Uni MOC/archive/Why Functional Programming?.md",
+    "3. MOCS/Uni MOC/archive/John Backus Map Application - Haskell.md",
+    "3. MOCS/Uni MOC/archive/Introduzione alla First Order Logic (FOL).md",
+    "3. MOCS/Uni MOC/archive/Logica del primo ordine (predicativa).md",
+    "3. MOCS/Uni MOC/archive/Metodi matematici per l'informatica (class).md",
+    "3. MOCS/Uni MOC/archive/Haskell Lists1.md",
+    "3. MOCS/Uni MOC/Uni MOC.md",
+    "3. MOCS/Uni MOC/archive/Domande Orale - PEM.md",
     "Buffering dell'I",
     "3. MOCS/Uni MOC/archive/attachments/Recording 20251211101001.m4a",
     "3. MOCS/Uni MOC/archive/attachments/Recording 20251209182938.m4a",
-    "3. MOCS/Uni MOC/archive/attachments/Recording 20251209182829.m4a",
-    "3. MOCS/Uni MOC/archive/attachments/Recording 20251209181637.m4a",
-    "3. MOCS/Uni MOC/archive/attachments/Recording 20251209181321.m4a",
     "Untitled.canvas",
     "Buy List/Skin Care Buy List.canvas",
     "Buy List/Clothing Buy List.canvas",
