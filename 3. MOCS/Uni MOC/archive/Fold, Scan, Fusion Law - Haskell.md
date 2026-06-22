@@ -5,7 +5,7 @@ academic year: 2024/2025
 related:
 completed: false
 created: 2026-06-07T15:38
-updated: 2026-06-09T16:16
+updated: 2026-06-10T16:13
 ---
 
 ## Introduzione ai Funzionali di Ripiegamento
@@ -44,19 +44,36 @@ L'idea fondamentale è che un `fold` agisce sostituendo sistematicamente i costr
 >
 >- **Vantaggio**: Riduce drasticamente il consumo di spazio, passando da una complessità $\Theta(n)$ a una costante $\Theta(1)$.
 
+## Proprietà di Foldr
 
-## Fusion Law per foldr
+>[!note]  Fusion Law per foldr
+>
+>La **Fusion Law** è una proprietà teorica che permette di combinare una funzione con un `foldr` in un unico passaggio. Essa ha la forma: **`f . foldr g a = foldr h b`**.
+>
+>Secondo il teorema, questa uguaglianza è valida se sono soddisfatte tre condizioni:
+>
+>1. **`f`** è una funzione **stretta** (`f undefined = undefined`).
+>2. **`f a = b`**.
+>3. **`f (g x y) = h x (f y)`** per ogni `x, y`.
+>
+>Questa legge funge da meccanismo di induzione generalizzata e viene usata per ottimizzare i programmi o dimostrarne la correttezza tramite ragionamento equazionale.
 
-La **Fusion Law** è una proprietà teorica che permette di combinare una funzione con un `foldr` in un unico passaggio. Essa ha la forma: **`f . foldr g a = foldr h b`**.
-
-Secondo il teorema, questa uguaglianza è valida se sono soddisfatte tre condizioni:
-
-1. **`f`** è una funzione **stretta** (`f undefined = undefined`).
-2. **`f a = b`**.
-3. **`f (g x y) = h x (f y)`** per ogni `x, y`.
-
-Questa legge funge da meccanismo di induzione generalizzata e viene usata per ottimizzare i programmi o dimostrarne la correttezza tramite ragionamento equazionale.
-
+>[!note] Distributività di foldr
+>
+>Una delle proprietà più rilevanti riguarda la sua capacità di "distribuirsi" rispetto alla concatenazione (`++`).
+>
+>```haskell
+>foldr f e (xs ++ ys) = foldr f e xs # foldr f e ys
+>```
+>
+>Questa proprietà è valida soltanto se sono soddisfatte le seguenti condizioni:
+>
+>1. `e` **è l'elemento neutro (sinistro)** dell'operazione `#`: affinché il caso base sia verificato, deve valere l'uguaglianza `e # v = v`.
+>2. **Sussiste un rapporto di "associatività" tra** `f` e `#`: per il passo induttivo, le funzioni devono soddisfare la proprietà `f x (y # z) = (f x y) # z`.
+>
+>In particolare, queste condizioni sono sempre verificate se si verificano due casi comuni:
+>- `f` **coincide con** `#` (ovvero `f = #`).
+>- **L'operatore `#` è associativo** e `e` è il suo elemento neutro
 ## Esempi Pratici
 
 Molte funzioni standard sono istanze di questi schemi:

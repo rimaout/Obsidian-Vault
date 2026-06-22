@@ -2,7 +2,7 @@
 Main Moc: "[[Uni MOC]]"
 related:
 created: 2024-09-24T15:33
-updated: 2026-02-06T12:13
+updated: 2026-06-19T22:01
 academic year: 2024/2025
 ---
 [[Domande Esame Scritto SO1]]
@@ -41,4 +41,10 @@ academic year: 2024/2025
 >- [[Scheduling dell'disco]]
 >- [[Cacheing dell'disco]]
 
->[!note] 
+>[!note] File System
+
+>[!note] Gestione Concorrenza
+>
+
+>[!note] Dead Lock
+

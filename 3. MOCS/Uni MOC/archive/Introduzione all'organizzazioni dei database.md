@@ -5,7 +5,7 @@ academic year: 2024/2025
 related:
 completed: true
 created: 2024-11-30T15:34
-updated: 2026-01-31T13:32
+updated: 2026-06-22T16:47
 ---
 ## Introduzione
 
@@ -81,7 +81,7 @@ Un Record non è altro che la rappresentazione fisica di una **tupla**, ovvero u
 
 I blocchi sono gli spazzi fisici sul disco in cui vengono salvati i record.
 
-**Importantemente:** posso memorizzare in un certo blocco soltanto un numero intero di record 
+**Importante:** all'interno di un blocco è possibile memorizzare soltanto un numero intero di record 
 
 >[!note] Informazioni Aggiuntive
 >

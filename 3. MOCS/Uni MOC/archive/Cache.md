@@ -6,7 +6,7 @@ academic year: 2024/2025
 related:
 completed: true
 created: 2024-09-28T16:52
-updated: 2026-01-31T13:32
+updated: 2026-06-19T23:09
 ---
 
 >[!abstract] Related
@@ -30,7 +30,7 @@ updated: 2026-01-31T13:32
 
 ## Struttura
 
-Data una memoria RAM parla con $2^{n}$ indirizzi di memoria disponibili, suddivisi in blocchi di dimensione $K$ (il numero di parole in un blocco).
+Data una memoria RAM con $2^{n}$ indirizzi di memoria disponibili, suddivisi in blocchi di dimensione $K$ (il numero di parole in un blocco).
 
 Una memoria cache avrà in numero di blocchi (`C`) molto minore al numero di blocchi della RAM ($\frac{2^{n}}{K}$). Questo significa che non tutti i blocchi della RAM possono essere memorizzati nella cache contemporaneamente.
 

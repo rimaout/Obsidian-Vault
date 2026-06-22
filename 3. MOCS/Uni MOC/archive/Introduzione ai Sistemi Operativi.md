@@ -6,7 +6,7 @@ academic year: 2024/2025
 related:
 completed: true
 created: 2024-10-01T16:00
-updated: 2026-02-04T10:49
+updated: 2026-06-19T23:37
 ---
 >[!abstract] Related
 >- [[Sistemi Operativi 1 (class)]]
@@ -67,7 +67,7 @@ I casi visti precedentemente ([[#Programmazione Singola e Multi Programmazione|q
 >[!note] Batch
 >Un **Sistema Batch** che eseguono programmi in modo sequenziale, senza intervento umano diretto. I sistemi Batch sono considerati statici ovvero, le istruzioni da eseguire sono definite in anticipo e non cambiano durante l'esecuzione.
 >
->>**Svantaggi:** Non adatti a sistemi con iterazione utente, e multi user.
+>>**Svantaggi:** Non adatti a sistemi con interazione utente, e multi user.
 
 >[!note] Time Sharing
 > Un sistema **Time Sharing** è sistema operativo che consente a più utenti di accedere e utilizzare le risorse di un computer contemporaneamente, permettendo

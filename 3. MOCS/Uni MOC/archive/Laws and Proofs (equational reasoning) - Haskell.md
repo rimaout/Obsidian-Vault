@@ -6,7 +6,7 @@ academic year: 2024/2025
 related:
 completed: false
 created: 2026-06-08T15:11
-updated: 2026-06-09T23:09
+updated: 2026-06-10T15:48
 ---
 ## Introduzione
 
@@ -215,5 +215,152 @@ Per provare che una proprietà `P(xs)` vale per tutte le liste (o strutture rico
 >>	= f x                   -- per definizione di `head`
 >>```
 
-## Dimostrate Map Funtore
+>[!note] Map Funtore
+>
+>Proviamo la proprietà più importante di map **`map f . g xs = map f . map g xs`**.
+>
+>##### Caso Base (`[]`)
+>
+>***Parte Sinistra:*** 
+>```haskell
+>map (f . g) [] 
+>	= []       -- per def. di `map`
+>```
+>
+>***Parte Destra:***
+>```haskell
+>map f . map g []
+>	= map f (map g []) -- per def di `.`
+>	= map f []         -- per def di `map`
+>	= []               -- per def di `map`
+>```
+>
+>Ottenendo lo stesso risultato abbiamo dimostrato che il _caso base è verificato_.
+>
+>##### Passo Induttivo (`x:xs`)
+>
+>- _Ipotesi Induttiva:_ Si assume che la proprietà (`map f . g xs = map f . map g xs`) sia vera per `xs` e si cerca di dimostrarla per `(x:xs)`.
+>  
+>***Parte Sinistra:***
+>
+>```haskell
+>map f . g (x:xs)
+>	= (f . g x) : (map f . g xs)     -- per def. di `map`
+>	= (f . g x) : (map f . map g xs) -- per ipotesi induttiva
+>```
+>
+>***Parte Destra:***
+>```haskell
+>map f . map g (x:xs)
+>	= map f (map g (x:xs))       -- per def. di `.`
+>	= map f (g x : map g xs)     -- per def. di `map` su secondo map
+>	= f (g x) : map f (map g xs) -- per def. di `map` su primo map
+>	= (f . g x) : (map f . map g xs) -- per def. di `.`
+>```
+>
+>Ottenendo lo stesso risultato abbiamo dimostrato che l'induzione è verificata.
 
+## Proprietà di Foldr
+
+**Introduzione:** `foldr` generalizza tutte quelle ricorsioni in cui si "raccolgono" e calcolano i risultati al rientro dalla ricorsione.
+
+La figura può essere evocativa di cosa faccia `foldr` con una funzione binaria generica `#` e un valore `v`: 
+```haskell
+            [x, y, z] = x : (y : (z : [])) 
+foldr (#) v [x, y, z] = x # (y # (z # v ))
+```
+
+In particolare `foldr` può essere implementata in modo trasparente attraverso il pattern matching:
+
+```haskell
+myFoldr :: (a -> b -> b) -> b -> [a] -> b 
+myFoldr f v   []   = v
+myFoldr f v (x:xs) = f x (myFoldr f v xs) 
+``` 
+
+>[!note] Proprietà “distributività” di foldr
+>
+>Una delle proprietà più rilevanti riguarda la sua capacità di "distribuirsi" rispetto alla concatenazione (`++`).
+>
+>L'obiettivo della dimostrazione è verificare sotto quali condizioni valga l'uguaglianza:
+>```haskell
+>foldr f e (xs ++ ys) = foldr f e xs # foldr f e ys
+>```
+>
+>In questa equazione, l'operatore **#** rappresenta una funzione binaria incognita. Attraverso il calcolo simbolico (**program calculation**), cercheremo di determinare quali vincoli devono soddisfare `f`, `e` e `#` affinché la piegatura di una lista concatenata equivalga alla combinazione dei risultati di due piegature separate. 
+>
+>Come vedremo, questa proprietà non è universale, ma dipende strettamente dalla scelta dei parametri, richiedendo solitamente che `e` sia l'**elemento neutro** di `#` e che sussista un rapporto di **associatività** tra le funzioni coinvolte.
+>
+>##### Caso Base (`[]`)
+>
+>![[Screenshot 2026-06-10 at 10.18.13.png|700]]
+>
+>>[!warning] Elemento Neutro
+>>
+>>Da questo risultato deriviamo che, per verificare il caso base `e` deve essere l’*elemento neutro* (sinistro) dell’operazione `#`.
+>>
+>>Ovvero **`e # v = v`**, dove `v` è un valore qualsiasi.
+>
+>## Passo Induttivo (`x:xs`)
+>
+>- _Ipotesi Induttiva:_ Si assume che la proprietà (`foldr f e (xs ++ ys) = foldr f e xs # foldr f e ys`) sia vera per `xs` e si cerca di dimostrarla per `(x:xs)`.
+>  
+>  
+>***Parte Sinistra:***
+>```haskell
+>foldr f e ((x:xs) ++ ys)
+>	= foldr f e (x:(xs++ys))            -- per def. di `++`
+>	= f x (fold f e (xs++ys))           -- per def. di `fold`
+>	= f x (foldr f e xs # foldr f e ys) -- per ipotesi induttiva
+>```
+>
+>***Parte Destra:***
+>```haskell
+>foldr f e (x:xs) # foldr f e ys
+>	= f x (foldr e xs) # foldr f e ys
+>```
+>
+>Per ottenere l’uguaglianza tra *parte sinistra* e *parte destra* è necessario che `f` e `#` soddisfano la proprietà:  
+>```haskell
+>f x (y # z) = (f x y) # z
+>```
+>
+>È  importante notare che questa condizione è sempre verificata se:
+>1. `f = #` (le due funzioni coincidono)
+>2. `#` è associativa
+>   
+>>[!warning] Esempi
+>>
+>>- **Somma (`+`):** Se `#` è `+`, allora `e` deve essere `0`, perché `0 + v = v`.
+>>- **Concatenazione (`++`):** Se `#` è `++`, allora `e` deve essere la lista vuota `[]`, perché `[] ++ v = v`.
+>>- **Prodotto (`*`):** Se `#` fosse la moltiplicazione, `e` dovrebbe essere `1`, perché `1 * v = v`.
+
+>[!note] Proprietà distributiva `sum` e `concat` 
+>
+>Per dimostrare la proprietà distributiva su `sum` e `concat` ovvero:
+>
+>```haskell
+>sum (xs ++ ys) = sum xs + sum ys
+>concat (xss ++ yss) = concat xss ++ concat yss
+>```
+>
+>Non è necessario effettuare alcuna dimostrazione per induzione, in quanto sono definite utilizzando `foldr`:
+>
+>```haskell
+>mySum = foldr (+) 0
+>myConcat = foldr (++) []
+>```
+>
+>Per `sum` abbiamo che `f = (+)` ed `e = 0`, proviamo a vedere se l'uguaglianza regge scegliendo come operatore binario `# = +`:
+>- **Elemento neutro:** `e` (che è `0`) è l'elemento neutro di `#` (che è `+`)? *Sì*, perché `0 + v = v`.
+>- **Associatività:** `f` (che è `+`) è uguale a `#` (che è `+`)? **Sì**. L'operatore `+` è associativo? **Sì**.
+>
+>Poiché le condizioni sono soddisfatte, possiamo scrivere: `foldr (+) 0 (xs ++ ys) = foldr (+) 0 xs + foldr (+) 0 ys` che, sostituendo la definizione di `sum`, diventa: `sum (xs ++ ys) = sum xs + sum ys`.
+>
+>Per `concat` abbiamo che `f = (++)` ed `e = []`, proviamo a vedere se l'uguaglianza regge scegliendo come operatore binario `# = ++`:
+>- **Elemento neutro:** `e` (che è `[]`) è l'elemento neutro di `#` (che è `++`)? *Sì*, perché `[] + v = v`.
+>- **Associatività:** `f` (che è `++`) è uguale a `#` (che è `++`)? **Sì**. L'operatore `++` è associativo? **Sì**.
+>
+>Poiché le condizioni sono soddisfatte, possiamo scrivere: `foldr (++) [] (xss ++ yss) = foldr (++) [] xss + foldr (++) [] yss` che, sostituendo la definizione di `concat`, diventa: `concat (xss ++ yss) = concat xss + concat yss`.
+
+## Proprietà di Foldl

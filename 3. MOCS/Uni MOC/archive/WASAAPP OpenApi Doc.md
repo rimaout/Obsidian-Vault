@@ -5,7 +5,7 @@ academic year: 2024/2025
 related:
 completed: false
 created: 2025-11-07T14:16
-updated: 2026-01-31T13:32
+updated: 2026-06-18T13:04
 ---
 ## Operazioni da fare (pefforza)
 
@@ -105,3 +105,5 @@ replyToMessageID:
 
 - When you just want to **reference a schema and add a description**, you can put `$ref` and `description` as siblings directly (this is valid in OpenAPI 3.0+ and works in most tooling).
 - `allOf` is only needed when you want to **combine or extend multiple schemas**, which is not the case here
+  
+  

@@ -4,9 +4,9 @@ class:
   - "[[TPFI]]"
 academic year: 2024/2025
 related:
-completed: false
+completed: true
 created: 2026-06-05T14:49
-updated: 2026-06-06T17:19
+updated: 2026-06-11T10:24
 ---
 ## Introduzione
 
@@ -25,50 +25,6 @@ Tutte le liste hanno la forma `x:xs` dove:
 >[!note] Attenzione! 
 >
 >L’applicazione di funzione associa sempre più di tutto e quindi `f x:xs` viene inteso come `(f x):xs` e non come `f (x:xs)`.
-
-## DIY Functions
-
-Most of the default functions in the `Prelude` are easy to recreate yourself, even the on that operate on lists.
-
-```haskell
-myNull :: [a] -> Bool
-myNull [] = True
-myNull _ = False
-
-myLast :: [a] -> a
-myLast [x] = x
-myLast (_:xs) = myLast xs
-
-myInit :: [a] -> [a]
-myInit [x] = []
-myInit (x:xs) = x : myInit xs
-
-mySum :: (Num a) => [a] -> a
-mySum [] = 0
-mySum (x:xs) = x + sum xs
-
-myLenght :: [a] -> Int
-myLenght [] = 0
-myLenght (x:xs) = 1 + sum xs
-
-myAnd :: [Bool] -> Bool
-myAnd [] = True
-myAnd (x:xs) = x && myAnd xs
-
-myMinimum :: (Ord a) => [a] -> a
-myMinimum [x] = x
-myMinimum (x:xs) = min x (minimum xs)
-
-myReverse :: [a] -> [a]
-myReverse [] = []
-myReverse (x:xs) = myReverse xs ++ [x]
-
-myZip :: [a] -> [b] -> [(a,b)]
-myZip [] _ = []
-myZip _ [] = []
-myZip (x:xs) (y:ys) = (x,y) : (zip xs ys)
-```
-
 ## Lists Enumerations
 
 Esistono **quattro modi** per dichiarare le enumerazioni di liste in Haskell:
@@ -143,4 +99,73 @@ Le **list comprehension** in Haskell sono un modo sintetico ed espressivo per ma
 >
 >- Se si usa una list comprehension con un filtro su una lista infinita e si cerca un elemento che non esiste, la computazione **non terminerà mai**.
 >- **Esempio critico**: Cercare i fattori di un numero in una lista infinita di naturali senza un limite superiore porterà il programma a scansionare numeri all'infinito dopo aver trovato l'ultimo divisore. In questi casi è meglio usare funzioni come `takeWhile`.
+
+## Funzioni su Liste
+
+Most of the default functions in the `Prelude` are easy to recreate yourself, even the on that operate on lists.
+
+
+**Taglio**: `take n` , `drop n` , `splitAt n` (tupla con take e drop).
+
+```haskell
+take 2 [1, 2, 3, 4]    -- risultato: [1, 2]
+drop 2 [1, 2, 3, 4]    -- risultato: [3, 4]
+splitAt 2 [1, 2, 3, 4] -- risultato: ([1, 2], [3, 4])
+```
+
+**Liste annidate/multiple:é
+- `concat` (appiattisce liste di liste),
+- `zip` (unisce liste in coppie, fermandosi alla più corta)
+
+```haskell
+concat [[1, 2], [3, 4]]    -- risultato: [1, 2, 3, 4]
+zip [1, 2] ['a', 'b', 'c'] -- risultato: [(1, 'a'), (2, 'b')]
+```
+
+**Operazioni Logiche:**
+```haskell
+and [True, False]   -- risultato: False
+or [True, False]    -- risultato: True
+any (> 2) [1, 2, 3] -- risultato: True (almeno uno è > 2)
+all (> 0) [1, 2, 3] -- risultato: True (tutti sono > 0)
+```
+
+```haskell
+myNull :: [a] -> Bool
+myNull [] = True
+myNull _ = False
+
+myLast :: [a] -> a
+myLast [x] = x
+myLast (_:xs) = myLast xs
+
+myInit :: [a] -> [a]
+myInit [x] = []
+myInit (x:xs) = x : myInit xs
+
+mySum :: (Num a) => [a] -> a
+mySum [] = 0
+mySum (x:xs) = x + sum xs
+
+myLenght :: [a] -> Int
+myLenght [] = 0
+myLenght (x:xs) = 1 + sum xs
+
+myAnd :: [Bool] -> Bool
+myAnd [] = True
+myAnd (x:xs) = x && myAnd xs
+
+myMinimum :: (Ord a) => [a] -> a
+myMinimum [x] = x
+myMinimum (x:xs) = min x (minimum xs)
+
+myReverse :: [a] -> [a]
+myReverse [] = []
+myReverse (x:xs) = myReverse xs ++ [x]
+
+myZip :: [a] -> [b] -> [(a,b)]
+myZip [] _ = []
+myZip _ [] = []
+myZip (x:xs) (y:ys) = (x,y) : (zip xs ys)
+```
 

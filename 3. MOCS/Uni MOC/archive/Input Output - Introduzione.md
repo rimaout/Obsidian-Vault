@@ -7,9 +7,8 @@ related:
   - "[[Interruzioni 101]]"
 completed: true
 created: 2024-09-28T12:03
-updated: 2026-01-31T13:32
+updated: 2026-06-19T23:06
 ---
-
 >[!abstract] Related
 >- [[Interruzioni 101]]
 >- [[Sistemi Operativi 1 (class)]]
@@ -39,7 +38,7 @@ Esistono tre modi principali in cui un sistema informatico può gestire l'I/O:
 >**Related:** [[Interruzioni 101]]
 
 >[!note] I/O con accesso diretto in memoria (DMA)
->- Metodo Più efficiente per la gestione dell'I/O.
+>- Metodo più efficiente per la gestione dell'I/O.
 >- In questo approccio, un controller di I/O speciale, chiamato controller DMA (Direct Memory Access), gestisce l'operazione di I/O senza l'intervento del processore.
 >- Il controller DMA legge o scrive dati direttamente nella memoria del sistema, senza dover passare attraverso il processore. 
 >- Il processore viene interrotto soltanto al termine del trasferimento.
