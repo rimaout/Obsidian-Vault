@@ -29,30 +29,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. MOCS/Uni MOC/archive/Operatori (Algebra Relazionale).md",
+                "file": "3. MOCS/Uni MOC/archive/Basi di Dati 1 (class).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Operatori (Algebra Relazionale)"
-            }
-          },
-          {
-            "id": "f7e59a75eeb7a195",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3. MOCS/Uni MOC/archive/Introduzione all'organizzazioni dei database.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Introduzione all'organizzazioni dei database"
+              "title": "Basi di Dati 1 (class)"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -276,10 +262,18 @@
       "obisidian-note-linker:Note Linker": false
     }
   },
-  "active": "f7e59a75eeb7a195",
+  "active": "0fda878372ed03dc",
   "lastOpenFiles": [
-    "3. MOCS/Uni MOC/archive/Join-Naturale e Theta-Join (Algebra Relazionale).md",
+    "test/export.zip.crswap",
+    "test/export.zip",
+    "test",
     "3. MOCS/Uni MOC/archive/Operatori (Algebra Relazionale).md",
+    "3. MOCS/Uni MOC/archive/Progettazione Sistemi Digitali (class).md",
+    "3. MOCS/Uni MOC/Uni MOC.md",
+    "3. MOCS/Uni MOC/archive/Algoritmi 2 (class).md",
+    "3. MOCS/Uni MOC/archive/Algoritmi 1 (class).md",
+    "3. MOCS/Uni MOC/archive/Introduzione all'organizzazioni dei database.md",
+    "3. MOCS/Uni MOC/archive/Join-Naturale e Theta-Join (Algebra Relazionale).md",
     "3. MOCS/Uni MOC/archive/Basi di Dati 1 (class).md",
     "3. MOCS/Uni MOC/archive/Scheduling dell'disco.md",
     "3. MOCS/Uni MOC/archive/Sistemi Operativi 1 (class).md",
@@ -298,12 +292,6 @@
     "3. MOCS/Uni MOC/archive/Alberi Ricerca Binaria.md",
     "3. MOCS/Uni MOC/archive/Forme Normali - Lambda Calcolo1.md",
     "3. MOCS/Uni MOC/archive/TPFI.md",
-    "3. MOCS/Uni MOC/archive/identità.md",
-    "3. MOCS/Uni MOC/archive/Forme Normali - Lambda Calcolo.md",
-    "3. MOCS/Uni MOC/archive/Laziness in Haskell.md",
-    "3. MOCS/Uni MOC/archive/Lambda Calcolo 101.md",
-    "3. MOCS/Uni MOC/archive/Funzioni di Ordine Superiore, Currificazione e η-regola.md",
-    "3. MOCS/Uni MOC/archive/Laws and Proofs (equational reasoning) - Haskell.md",
     "3. MOCS/Uni MOC/archive/attachments/Screenshot 2026-06-10 at 10.18.13.png",
     "3. MOCS/Uni MOC/archive/attachments/Pasted image 20260610093023.png",
     "3. MOCS/Uni MOC/archive/attachments/Screenshot 2026-06-08 at 16.09.37.png",
@@ -322,8 +310,6 @@
     "3. MOCS/Uni MOC/archive/attachments/Screenshot 2026-06-08 at 16.09.48 1.pxd",
     "3. MOCS/Uni MOC/archive/attachments/Screenshot 2026-06-08 at 16.09.48.pxd",
     "Buffering dell'I",
-    "3. MOCS/Uni MOC/archive/attachments/Recording 20251211101001.m4a",
-    "3. MOCS/Uni MOC/archive/attachments/Recording 20251209182938.m4a",
     "Untitled.canvas",
     "Buy List/Skin Care Buy List.canvas",
     "Buy List/Clothing Buy List.canvas",

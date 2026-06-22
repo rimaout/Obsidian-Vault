@@ -3,7 +3,8 @@ type: "[[Uni MOC]]"
 academic year: 2024/2025
 completed: true
 created: 2025-02-27T16:31
-updated: 2026-01-31T13:32
+updated: 2026-06-22T18:24
+tags: "#algo2"
 ---
 >[!note] Introduzione
 >- [[Ripasso Iniziale di Algo 1]]

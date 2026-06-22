@@ -1,6 +1,8 @@
 ---
 created: 2023-09-26T10:14
-updated: 2026-02-24T20:49
+updated: 2026-06-22T18:24
+tags:
+  - "#UniMoc"
 ---
 >**First year, first semester:**
 >- [[Matematica 0 (class)]]

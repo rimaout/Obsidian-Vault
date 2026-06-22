@@ -1,5 +1,7 @@
 {
   "ignoredFolders": [
     "Storage/Templates"
-  ]
+  ],
+  "createdPropertyName": "created",
+  "updatedPropertyName": "updated"
 }

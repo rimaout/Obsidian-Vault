@@ -2,7 +2,9 @@
 academic year: 2023/2024
 type: "[[Uni MOC]]"
 created: 2024-01-19T16:28
-updated: 2026-01-31T13:32
+updated: 2026-06-22T18:25
+tags:
+  - "#psd"
 ---
 >[!info] Basi
 >- [[Sistemi numerici]] 🟢
