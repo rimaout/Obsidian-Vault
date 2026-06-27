@@ -2,7 +2,7 @@
 Main Moc: "[[Uni MOC]]"
 related:
 created: 2024-09-24T15:33
-updated: 2026-06-19T22:01
+updated: 2026-06-27T11:20
 academic year: 2024/2025
 ---
 [[Domande Esame Scritto SO1]]
@@ -26,7 +26,7 @@ academic year: 2024/2025
 >- [[Scheduling in Architetture Multiprocessore]] 🟢
 >- [[Scheduling in Linux]] 🟢
 
->[!note] Gestione della Memoria
+>[!note] Gestione della Memoria (RAM)
 >- [[Gestione della Memoria (introduzione)]]
 >- [[Partizionamento]]
 >- [[Paginazione e Segmentazione (semplice)]]
@@ -37,14 +37,26 @@ academic year: 2024/2025
 >[!note] Gestione dell'Input/Output
 >- [[Dispositivi di Input Output]] 🟢
 >- [[Progettazione dell'Input Output]] 🟢
->- [[Buffering (input output - so1)|Buffering]] 🟢
->- [[Scheduling dell'disco]]
->- [[Cacheing dell'disco]]
+>- [[Buffering IO - SO1|Buffering]] 🟢
+>- [[Scheduling del disco (HDD) - SO1|Scheduling del disco (HDD)]] 🟢
+>- [[Cacheing del disco - SO1|Cacheing del disco]] 🟢
+>- [[Raid - SO1|Raid]] 🟢
 
 >[!note] File System
+>- [[Introduzione ai File System|Introduzione]] 🟢
+>- [[Directory & File Systems - SO1|Directory]] 🟢
+>- [[Gestione Memoria Secondaria - File System - SO1|Gestione Memoria Secondaria]] 🟢
+>- [[Gestione dei file in UNIX - SO1 - File Systems|Gestione dei file in UNIX]] 🟢
+>- [[Gestione dei file su Windows - SO1 - File Systems|Gestione dei file su Windows]]
 
 >[!note] Gestione Concorrenza
 >
+>
 
 >[!note] Dead Lock
+>
+>
 
+>[!note] Sicurezza
+>
+>

@@ -6,7 +6,7 @@ academic year: 2024/2025
 related:
 completed: true
 created: 2026-02-04T14:34
-updated: 2026-02-05T11:24
+updated: 2026-06-27T16:54
 ---
 ## Introduzione
 
@@ -54,7 +54,7 @@ Lettura e scrittura nel buffer sono separate e sequenziali.
 >  
 >***Problema di Concorrenza (produttore/consumatore):***
 >
->Il buffering può essere visto attraverso il prisma del problema di concorrenza classico noto come "produttore/consumatore". Ecco come si struttura:
+>Il buffering può essere visto attraverso il problema di concorrenza classico noto come "produttore/consumatore". Ecco come si struttura:
 >
 >- **Produttore**: Questo è il componente che produce dati. Ad esempio, un sensore che rileva temperature o un dispositivo che entra in un input.
 >- **Consumatore**: Questo è il componente responsabile della lettura dei dati. Può essere un programma che visualizza i dati sullo schermo o un algoritmo che elabora i valori in tempo reale.
@@ -79,13 +79,13 @@ Il **buffer circolare** è composto da più di due buffer collegati in una strut
 ## Buffer: Pro e Contro
 
 **Pro:**
-- Il buffer riesce a mantenere il processore non in idle anche con tanto richieste I/O.
+- Il buffer riesce a mantenere il processore non in idle anche con tante richieste I/O.
 
-**Difficoltà** (ne problemi ne contro solo cose da tenere in considerazione):
-- Ma se c’è molta domanda i buffer si riempiono e il vantaggio si perde
+**Difficoltà** (non sono gradi problemi ma solo cose da tenere in considerazione):
+- S c’è molta domanda i buffer si riempiono e il vantaggio si perde
 - Risultati si vedono soprattutto quando ci sono molti e vari dispositivi di I/O da servire
 
-**Problemi:** ***overhead*** a causa della copia intermedia in kernel memory:
+**Problemi:** ***overhead*** a causa della copia intermedia in kernel memoryxx:
 
 ![[Pasted image 20260205111818.png|600]]
 

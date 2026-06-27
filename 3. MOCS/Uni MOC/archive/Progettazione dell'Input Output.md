@@ -5,7 +5,7 @@ academic year: 2024/2025
 related:
 completed: true
 created: 2024-12-09T17:49
-updated: 2026-02-04T14:30
+updated: 2026-06-27T16:34
 ---
 >[!abstract] Related
 >- [[Introduzione ai Sistemi Operativi]]
@@ -21,9 +21,9 @@ Per implementare l'I/O ci sono principalmente 4 modalità, che sono riassunte da
 | **Passando per la CPU**     | I/O programmato        | I/O guidato dalle interruzioni |
 | **Direttamente in Memoria** |                        | DMA                            |
 
->[!note] DMA
+>[!note] DMA (Direct Memory Access)
 >
->- Il processo delega le operazioni di I/O al modulo DMA.
+>- Il processo delega le operazioni di I/O al modulo DMA (no utilizzo processore)
 >- Il modulo trasferisce i dati direttamente da o verso la memoria principale
 >- Quando l’operazione è terminata, il modulo genera l’interrupt per il processore
 >  
@@ -42,18 +42,18 @@ Per implementare l'I/O ci sono principalmente 4 modalità, che sono riassunte da
 Nel tempo la gestione dell'input output si è evoluta:
 
 >***1)*** Inizialmente era il *processore* a controllare i dispositivi periferici
-
+ 
 >***2)*** Successivamente ad ogni dispositivo è stato introdotto un **modulo (controllore)** di I/O
 >- I/O programmato, **senza interrupt**
 >- Il processore non si occupa di tutti i dettagli del dispositivi periferici
-
+ 
 >***3)*** Successivamente è stato introdotto il **modulo** (controllore) di I/O **con interrupt**
 >- miglioramento dell’efficienza, il processore non deve aspettare che il dispositivo finisca l'operazione
-
+ 
 >***4)*** Successivamente è stato implementato il [[#^ca893f|DMA]]
 >- dati sono trasferiti direttamente tra dispositivo e memoria senza usare il processore
 >- processore utilizzato soltanto all’inizio e alla fine dell’operazione.
-
+ 
 >***5)*** Viene migliorato il [[#^ca893f|DMA]], il modulo I/O diventa un processore separato chiamato **I/O Channel**, successivamente gli viene data anche una **RAM dedicata**. Quindi molti dispositivi di ultima generazione sono dei “mini computer” a tutti gli effetti.
 
 ---

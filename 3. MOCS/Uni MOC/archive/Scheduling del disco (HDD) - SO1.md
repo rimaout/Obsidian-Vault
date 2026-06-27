@@ -4,13 +4,13 @@ class:
   - "[[Sistemi Operativi 1 (class)]]"
 academic year: 2024/2025
 related:
-completed: false
+completed: true
 created: 2026-02-04T14:35
-updated: 2026-06-22T00:27
+updated: 2026-06-25T12:24
 ---
->[!danger]
+>[!danger] Attenzione
 >
->Quello che diremo vale per gli hard drive disk (HDD), non per i solid state disk (SSD).
+>Queste informazioni valgono solamente per gli **hard drive** disk (HDD), non per i solid state disk (SSD).
 
 ## Introduzione agli  HDD
 
@@ -72,17 +72,16 @@ Se ci sono molti processi in esecuzione, le prestazioni sono simili allo schedul
 
 Politica di scheduling dove i processi hanno una priorità assegnata, e in base a questa si decide l'ordine di accesso al disco.
 
-Con questo tipo di politica l’obiettivo non è ottimizzare il disco, ma raggiungere altri obiettivi.
-
-Quindi non va bene per DBMS.
+Con questo tipo di politica l’obiettivo non è ottimizzare il disco, ma raggiungere altri obiettivi, quindi:
+- non va bene per DBMS.
 
 ### LIFO
 
-Politica di scheduling dove il disco è dato al processo più che ha effettuato la richiesta più recentemente.
+Politica di scheduling dove il disco è dato al processo che ha effettuato la richiesta più recentemente.
 
 Utile quando:
 - se si tratta dello stesso utente, probabilmente sta accedendo sequenzialmente ad un file quindi, è più efficiente mandare avanti lui
-- Ottimo per DBMS con transazioni
+- ottimo per DBMS con transazioni
 
 ### SSTF (Shortest Seek Time First)
 
@@ -92,7 +91,7 @@ Politica di scheduling utilizzata per la gestione delle richieste di I/O nei dis
 
 ![[Pasted image 20260205160512.png|500]]
 
-## SCAN
+### SCAN
 
 Anche noto come algoritmo "Elevator", è un metodo di scheduling dei dischi per ottimizzare l'accesso alle richieste di lettura e scrittura nei dischi rigidi.
 
@@ -108,7 +107,7 @@ Poco Fair perché favorisce le le richieste che si trovano nelle vicinanze della
 
 ![[Pasted image 20260205160554.png|500]]
 
-## C-SCAN
+### C-SCAN
 
 Politica di Scheduling simile a SCAN ma che è **fair**.
 
@@ -116,7 +115,29 @@ Per fare ciò nella marcia indietro non si accettano richieste.
 
 ![[Pasted image 20260205160840.png|500]]
 
-## FSCAN
+### FSCAN
 
-Politica di Scheduling che evolve SCAN rendendolo **fair**, introducendo due code anziché una sola.
+Politica di Scheduling che evolve [[#SCAN]] rendendolo **fair**, utilizzando due code distinte per separare il lavoro "in corso" da quello "in arrivo".
+
+**Funzionamento:**
+0. Si utilizzano due code: la coda **F** (di servizio) e la coda **R** (di raccolta).
+1. All'inizio, tutte le richieste da gestire sono in `F`, mentre `R` è vuota.
+2. Mentre le richieste in `F` vengono servite utilizzando la politica [[#SCAN]] , _tutte_ le nuove richieste in arrivo vengono aggiunta ad `R`
+3. Quando la coda `F` è completamente svuotata, le due code si scambiano i ruoli: `R` diventa la nuova `F` da servire, e si ricomincia.
+
+**Vantaggio:** Questo garantisce _fairness_ (equità), perché nessuna nuova richiesta può ritardare all'infinito quelle vecchie.
+
+**Limite:** Poiché la coda `R` raccoglie _tutte_ le richieste che arrivano mentre si serve `F`, non abbiamo alcun controllo su quanto `R` possa diventare grande. Se `F` impiega molto tempo per essere smaltita, la prima richiesta finita in `R` subirà un tempo di attesa lunghissimo e imprevedibile
+
+### N-step-SCAN
+
+N-step-SCAN è l'evoluzione diretta di [[#FSCAN]]. Risolve il problema del tempo di attesa imprevedibile segmentando le richieste in più code di **dimensione massima prefissata**.
+
+É una generalizzazione della politica di scheduling [[#FSCAN]] con `N > 2` (dove `N` è il numero di code)
+- Le nuove richieste in arrivo vengono inserite nella coda i-esima fino al raggiungimento della sua **capienza massima**.
+- Una volta piena, le richieste successive vengono deviate nella coda successiva, ovvero la `(i+1) mod N` (modulo `N` serve a ricominciare dalla prima coda quando si arriva all'ultima)
+- La testina serve una coda alla volta usando sempre il movimento ottimizzato dello [[#SCAN]]. Durante il servizio, alla coda non viene aggiunta nessuna nuova richiesta.
+  
+Imponendo un limite al riempimento della singola coda, il sistema garantisce un **tempo di attesa massimo calcolabile** (Bounded Delay). Nessuna richiesta rimarrà bloccata per ore in una mega-coda in continua crescita, rendendo il sistema più reattivo e le attese molto più prevedibili.
+
 
