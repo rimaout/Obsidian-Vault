@@ -8,7 +8,7 @@ related:
   - "[[Scheduling in UNIX]]"
 completed: true
 created: 2024-11-07T12:31
-updated: 2026-02-04T13:05
+updated: 2026-06-29T18:22
 ---
 >[!abstract] Related
 >- [[Scheduling]]
@@ -41,7 +41,7 @@ Lo scheduler Linux è derivato dallo [[Scheduling in UNIX|scheduler Unix]], con 
 
 >[!note] Decision Mode & Priority
 >Come in unix, lo scheduler linux utilizza un [[Algoritmi di Scheduling|algoritmi di scheduling]] con:
->- Modalità di decisione [[Algoritmi di Scheduling#^363dc9|Preemptiv]]
+>- Modalità di decisione [[Algoritmi di Scheduling#^363dc9|Preemptive]]
 >- Probabilità **Dinamica**
 >  
 >Con probabilità dinamica si intende che la probabilità che un processo sia eseguito:
@@ -72,7 +72,7 @@ Lo scheduler linux ha importanti correzioni che gli permettono di:
 
 Ci sono principalmente 3 classi di scheduling:
 
-- **SCHED_FIFO** e **SCHED_RR** (round robin) per processi *real-time*
+- **SCHED_FIFO** e **SCHED_RR** (dove RR sta per round robin) per processi *real-time*
 - **SCHED_OTHER** (round robin) per tutti gli altri
 - versioni più recenti del kernel hanno anche altre classi
 
@@ -89,7 +89,7 @@ Ci sono principalmente 3 classi di scheduling:
 >   - Nessun processo in $n$ è in stato di _RUNNING_ (ready).
 
 >[!note] Preemption
->Come detto la modalità di decisione dello schedulerè [[Algoritmi di Scheduling#^363dc9|Preemptiv]], in questo caso lo scheduler può bloccare un processo in esecuzione per eseguirne un altro per 2 emotivi:
+>Come detto la modalità di decisione dello scheduler [[Algoritmi di Scheduling#^363dc9|Preemptive]], in questo caso lo scheduler può bloccare un processo in esecuzione per eseguirne un altro per 2 emotivi:
 >1. Se il processo in esecuzione ha esaurisce il suo quanto di tempo.
 >2. Se un altro processo ad alta priorità passa da uno stato _blocked_ a _RUNNING_ (ready).
 >

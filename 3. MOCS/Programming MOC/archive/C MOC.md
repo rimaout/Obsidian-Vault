@@ -2,7 +2,7 @@
 created: 2023-01-24
 type: "[[Programming MOC]]"
 related:
-updated: 2025-10-01T15:43
+updated: 2026-06-28T12:22
 ---
 ---
 ## What is C?
@@ -58,12 +58,12 @@ updated: 2025-10-01T15:43
 - [[C Pointers]]
 - [[C Pointers and Arrays]]
 - [[C Pointers and Structures]]
+- - [[C Dynamic Libraries]]
 
 **Functions:**
 - [[How to define a new function in c]]
 - [[C main function]]
 - [[C Embedded  Functions]]
-
 ### Libraries 
 
 ### Projects

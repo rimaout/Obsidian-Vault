@@ -6,7 +6,7 @@ academic year: 2024/2025
 related: "[[Scheduling]]"
 completed: true
 created: 2024-11-07T11:56
-updated: 2026-02-04T12:56
+updated: 2026-06-29T17:15
 ---
 >[!abstract] Related
 >- [[Scheduling]]
@@ -15,14 +15,14 @@ updated: 2026-02-04T12:56
 ---
 ## Introduzione 
 
-Esistono tre tipi di sistemi multiprocessore:
+Esistono tre tipi di sistemi multi-processore:
 - **Cluster:** Ogni processore ha la sua RAM e una rete locale.
 - **Processori Specializzati:** Ad esempio ogni I/O ha un suo processore
-- **Multiprocessore e/o multicore:** Condividono la RAM e c’è un solo sistema operativo che controlla tutto. 
+- **Multi-processore e/o multi-core:** Condividono la RAM e c’è un solo sistema operativo che controlla tutto. 
 
-In questa sezione ci concentriamo sui sistemi **Multiprocessore e/o multicore** dove a differenza dei sistemi mono-processore visti fino ad ora capire se un processo è _ready_ e si deve anche decidere su quale processore eseguire il processo.
+In questa sezione ci concentriamo sui sistemi **Multi-processore e/o multi-core** dove a differenza dei sistemi mono-processore visti fino ad ora capire se un processo è _ready_ e si deve anche decidere su quale processore eseguire il processo.
 
-Il processo di scegliere su quale processore eseguire un processo è chiamato assegnamento:
+Il meccanismo per scegliere su quale processore eseguire un processo è chiamato assegnamento:
 - [[#Assegnamento Statico]]
 - [[#Assegnamento Dinamico]]
 
@@ -31,8 +31,8 @@ Il processo di scegliere su quale processore eseguire un processo è chiamato as
 
 - Quando un processo viene creato gli viene assegnato un processore e per tutta la sua durata andrà sempre in esecuzione su di lui.
 - Possiamo utilizzare uno scheduler per ogni processore
-- Come vantaggio abbiamo che è semplice da realizzare e poco **overhead** (lavoro aggiuntivo)
-- Come svantaggio abbiamo che qualche processore può rimanere in idle, causato appunto dal fatto che scegliamo sempre lo stesso processore per ogni processo
+- Come **vantaggio** abbiamo che è semplice da realizzare e poco **overhead** (lavoro aggiuntivo)
+- Come **svantaggio** abbiamo che qualche processore può rimanere in **idle**, causato appunto dal fatto che scegliamo sempre lo stesso processore per ogni processo
 
 ---
 ### Assegnamento Dinamico

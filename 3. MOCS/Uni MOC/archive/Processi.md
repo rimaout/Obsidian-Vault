@@ -6,7 +6,7 @@ academic year: 2024/2025
 related:
 completed: true
 created: 2024-10-04T18:51
-updated: 2026-02-04T11:32
+updated: 2026-06-29T14:55
 ---
 >[!abstract] Related
 >- [[Sistemi Operativi 1 (class)]]
@@ -248,7 +248,7 @@ La maggior parte dei sistemi operativi supporta due modalità di esecuzione:
   
 I processori possono avere altre modalità di esecuzione, ma sistemi operativi come Linux utilizzano soltanto le corrispettive modalità kernel e utente.
   
->[!note] Modalità **[[Kernel]]**
+>[!note] Modalità Kernel
 >Modalità (senza limitazioni) che permette di avere il pieno controllo sulla macchina 
 >  
 > Operazioni possibili:
@@ -277,7 +277,7 @@ I processori possono avere altre modalità di esecuzione, ma sistemi operativi c
 
 ^5571a8
 
-L’interrupt handler può essere eseguito in diversi “modi”, e in tutti questi dobbiamo essere in kernl mode.
+L’interrupt handler può essere eseguito in diversi “modi”, e in tutti questi dobbiamo essere in kernel mode.
 
 Eseguito per conto dello stesso processo interrotto che lo ha esplicitamente voluto
 - System calls oppure in risposta ad una sua richiesta di I/O

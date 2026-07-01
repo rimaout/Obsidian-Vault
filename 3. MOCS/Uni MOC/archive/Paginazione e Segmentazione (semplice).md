@@ -5,7 +5,7 @@ academic year: 2024/2025
 related:
 completed: false
 created: 2024-11-17T18:40
-updated: 2026-01-31T13:32
+updated: 2026-06-29T23:07
 ---
 >[!abstract] Related
 >- 
@@ -13,7 +13,7 @@ updated: 2026-01-31T13:32
 ---
 ## Introduzione
 
-La paginazione - e a volte la segmentazione -  con [[Memoria Virtuale|memoria virtuale]] è il metodo principale con cui i sistemi operativi moderni gestiscono la memoria, però prima dobbiamo vedere come funzionano la paginazione e segmentazione senza memoria virtuale, anche dette semplici:
+La [[Paginazione e Segmentazione (semplice)]], con [[Memoria Virtuale|memoria virtuale]] è il metodo principale con cui i sistemi operativi moderni gestiscono la memoria, però prima dobbiamo vedere come funzionano la paginazione e segmentazione senza memoria virtuale, anche dette semplici:
 - [[#Paginazione Semplice]]
 - [[#Segmentazione Semplice]]
 
@@ -65,7 +65,7 @@ Il funzionamento è simile al [[Partizionamento#Partizionamento Dinamico|partizi
 >
 >![[3. MOCS/Uni MOC/archive/attachments/Screenshot 2024-11-23 at 11.26.16.png|900]]
 >
->**Primo caso (a) riguarda gli [[Gestione della Memoria (introduzione)#^cc500d|indirizzi relativi]]:**
+>**Primo caso (a) riguarda gli [[Gestione della Memoria (Introduzione)#^cc500d|indirizzi relativi]]:**
 >- Per andare ad un determinato indirizzo dobbiamo sapere dove comincia il processo, e sommare il suo indirizzo iniziale (base) a quello dell’istruzione (relativo).
 >
 >**Secondo caso (b) riguarda la [[#Paginazione Semplice]]:**

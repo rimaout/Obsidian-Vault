@@ -5,7 +5,7 @@ academic year: 2024/2025
 related:
 completed: false
 created: 2024-11-17T15:05
-updated: 2026-01-31T13:32
+updated: 2026-06-28T12:48
 ---
 >[!abstract] Related
 >- 
@@ -36,7 +36,7 @@ Il partizionamento fisso può essere diviso in due categorie: [[#^c53361|uniform
 >
 >>[!danger] Problemi
 >>1. **Inefficienza:** se un processo è una *dimensione minore* rispetto alla grandezza delle partizioni comunque ne occuperà una intera.
->>2. **Difficolta per il programmatore:** se un processo ha una *dimensione superiore* alla grandezza delle partizioni deve essere il programmatore ad utilizzare tecniche di riduzione del consumo di memoria, come l'[[Gestione della Memoria (introduzione)#^0b705b|overlaying]].
+>>2. **Difficolta per il programmatore:** se un processo ha una *dimensione superiore* alla grandezza delle partizioni deve essere il programmatore ad utilizzare tecniche di riduzione del consumo di memoria, come l'[[Gestione della Memoria (Introduzione)#^0b705b|overlaying]].
 >>3. **Inflessibilità:** una volta avviato il sistema e scelta la grandezza (e quindi anche il numero) delle partizioni non è più possibile cambiarle.
 >
 

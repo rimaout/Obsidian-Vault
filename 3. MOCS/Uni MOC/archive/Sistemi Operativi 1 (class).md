@@ -2,7 +2,7 @@
 Main Moc: "[[Uni MOC]]"
 related:
 created: 2024-09-24T15:33
-updated: 2026-06-27T11:20
+updated: 2026-07-01T11:21
 academic year: 2024/2025
 ---
 [[Domande Esame Scritto SO1]]
@@ -27,7 +27,7 @@ academic year: 2024/2025
 >- [[Scheduling in Linux]] 🟢
 
 >[!note] Gestione della Memoria (RAM)
->- [[Gestione della Memoria (introduzione)]]
+>- [[Gestione della Memoria (Introduzione)]]
 >- [[Partizionamento]]
 >- [[Paginazione e Segmentazione (semplice)]]
 >- [[Memoria Virtuale]]
@@ -47,11 +47,10 @@ academic year: 2024/2025
 >- [[Directory & File Systems - SO1|Directory]] 🟢
 >- [[Gestione Memoria Secondaria - File System - SO1|Gestione Memoria Secondaria]] 🟢
 >- [[Gestione dei file in UNIX - SO1 - File Systems|Gestione dei file in UNIX]] 🟢
->- [[Gestione dei file su Windows - SO1 - File Systems|Gestione dei file su Windows]]
+>- [[Gestione dei file su Windows e confronto con Linux - SO1 - File Systems|Gestione dei file su Windows e confronto con Linux]] 🟢
 
 >[!note] Gestione Concorrenza
->
->
+
 
 >[!note] Dead Lock
 >

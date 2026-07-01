@@ -6,7 +6,7 @@ academic year: 2024/2025
 related: "[[Interruzioni 101]]"
 completed: true
 created: 2024-10-26T10:56
-updated: 2026-02-04T11:58
+updated: 2026-06-29T15:47
 info:
 ---
 >[!abstract] Index
@@ -97,7 +97,6 @@ Tuttavia ci sono degli stati "atipici" rispetto al [[Processi#Modello a 5 Stati|
 >- oss: alcuni signal hanno degli handler che non possono essere sovrascritti
 >
 >Tutti i **Signal Handler** sono eseguiti in *user mode*, al contrario degli **Interrupt Handlers**, che gestiscono le interruzioni, sono eseguiti in *kernel mode*.
-
 
 >[!warning] Casi Particolari
 >I segnali possono essere anche inviati da un processo che si trova in modalità sistema, spesso però se accade significa che sia dovuto ad un interrupt a monte, _esempio_:

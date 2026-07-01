@@ -6,7 +6,7 @@ academic year: 2024/2025
 related:
 completed: true
 created: 2026-02-04T14:35
-updated: 2026-06-25T12:24
+updated: 2026-06-27T17:16
 ---
 ## Introduzione
 
@@ -47,7 +47,7 @@ Approccio ibrido tra [[#LRU - Least Recently Used|LRU]]  e [[#LFU - Least Freque
 >[!note] Idea Iniziale - Divisione in 2 parti (Nuova e Vecchia)
 >
 >La struttura nasce dalla combinazione di:
->- puntatori a blocchi sotto forma di **stack**, come in [[LRU]]
+>- puntatori a blocchi sotto forma di **stack**, come in [[#LRU - Least Recently Used|LRU]]
 >- ogni blocco ha anche un **contatore degli accessi**, come in [[#LFU - Least Frequently Used|LFU]]
 >
 >Dove lo stack viene diviso in due zone (Nuova e Vecchia), con regole diverse:

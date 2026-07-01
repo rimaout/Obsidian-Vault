@@ -6,7 +6,7 @@ academic year: 2024/2025
 related: "[[Scheduling]]"
 completed: true
 created: 2024-10-27T15:31
-updated: 2026-02-04T12:16
+updated: 2026-06-29T16:31
 ---
 [!abstract] Related
 >- [[Scheduling]]
@@ -95,7 +95,7 @@ Viene chiamato anche **dispatcher**, è lo scheduler eseguito più frequentemen
 - Interruzioni I/O
 - Chiamate di sistema
 - Segnali
-- alto ...
+- altro ...
 
 >[!note] Scopo
 >Il suo scopo è quello di ottimizzare l’intero sistema decidendo che programma mandare in esecuzione, ma per valutare una **politica di scheduling** vanno definiti dei criteri:

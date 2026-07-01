@@ -6,7 +6,7 @@ academic year: 2024/2025
 related: "[[Scheduling]]"
 completed: true
 created: 2024-10-28T16:51
-updated: 2026-01-31T13:32
+updated: 2026-06-29T16:43
 ---
 
 >[!abstract] Related
@@ -154,8 +154,8 @@ Quando verrà eseguito il quanto di tempo sarà uguale alla porzione del quanto 
 
 >[!danger] Problemi
 >- La **predicibilità** dei processi lunghi è *ridotta* ovvero, è più difficile dire quando andranno in esecuzione.
->- Se il **tempo di esecuzione** stimato si rivela **inesatto**, il sistema operativo può *abortire\* il processo.
->- I **processi lunghi** potrebbero soffrire di *starvation*.
+>- Se il **tempo di esecuzione** stimato si rivela **inesatto**, il sistema operativo può *abortire* il processo.
+>- I *processi lunghi* potrebbero soffrire di **starvation**.
 
 >[!warning] Stima del tempo di esecuzione
 >In sistemi dove alcuni processi sono eseguiti più volte è possibile stimare il tempo di esecuzione guardando alle precedenti esecuzioni, ed esistono due tecniche

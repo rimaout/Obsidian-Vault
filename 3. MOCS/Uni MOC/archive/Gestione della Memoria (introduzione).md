@@ -5,7 +5,7 @@ academic year: 2024/2025
 related:
 completed: false
 created: 2024-11-16T19:24
-updated: 2026-01-31T13:32
+updated: 2026-06-28T12:26
 ---
 >[!abstract] Related
 >- 
@@ -58,6 +58,8 @@ La rilocazione è un aspetto cruciale nella gestione della memoria da parte del 
 >Questo *load module*, può essere caricato in memoria principale per essere eseguito attraverso il **loader**, in questo procedimento potrebbe esserci il bisogno di utilizzare *librerie dinamiche* che vengono chiamate a tempo di esecuzione.
 >
 >![[Pasted image 20241116231342.png|650]]
+>
+>>Vedi esempio C per Librerie Dinamiche: [[C Dynamic Libraries]]
 
 >[!note] Indirizzi
 >

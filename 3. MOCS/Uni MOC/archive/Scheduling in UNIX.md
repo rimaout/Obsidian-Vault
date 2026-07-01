@@ -6,7 +6,7 @@ academic year: 2024/2025
 related: "[[Scheduling]]"
 completed: true
 created: 2024-11-06T19:33
-updated: 2026-02-04T12:36
+updated: 2026-06-29T17:10
 ---
 >[!abstract] Related
 >- [[Scheduling]]
@@ -15,8 +15,8 @@ updated: 2026-02-04T12:36
 ---
 ## Introduzione
 
-In UNIX vengono utilizzati diversi algoritmi di scheduling insieme, nello specifico è combinata il concetto di priorità con l’algoritmo [[Algoritmi di Scheduling#Round Robin|Round Robin]]
-
+In UNIX vengono utilizzati diversi algoritmi di scheduling insieme, nello specifico è combinata il concetto di priorità con l’algoritmo [[Algoritmi di Scheduling#Round Robin|Round Robin]], solitamente è chiamato **scheduler a code multiple con feedback**.
+ 
 >[!note] Caratteristiche
 >- Un processo resta in esecuzione per un quanto (un secondo in unix) a meno che non termini o si blocchi.
 >- Ci sono diverse code per ogni priorità e su ognuna si utilizza il Round-Robin
@@ -31,7 +31,7 @@ In UNIX vengono utilizzati diversi algoritmi di scheduling insieme, nello specif
 ---
 ## Priorità
 
-Per scegliere quale processo eseguire viene data una prioritaria ad ognuno dei processi, e ogni secondo cengono aggiornate le priorità.
+Per scegliere quale processo eseguire viene data una prioritaria ad ognuno dei processi, e ogni secondo vengono aggiornate le priorità.
 
 >[!note] Caratteristiche
 >- Più il valore è basso più è alta la priorità di esecuzione
@@ -54,7 +54,7 @@ Per scegliere quale processo eseguire viene data una prioritaria ad ognuno dei p
 ---
 ## Esempio
 
-In quest immagine i blocchi colorati rappresentano i processi in esecuzione, Priority rappresenta $P_{j}$, CPU count rappresenta $CPU_{j}$ e Time i quanti di tempo
+In questa immagine i blocchi colorati rappresentano i processi in esecuzione, Priority rappresenta $P_{j}$, CPU count rappresenta $CPU_{j}$ e Time i quanti di tempo
 
 ![[Pasted image 20241107092942.png|400]]
 
