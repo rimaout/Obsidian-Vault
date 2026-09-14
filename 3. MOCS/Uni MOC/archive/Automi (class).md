@@ -2,7 +2,7 @@
 type: "[[Uni MOC]]"
 academic year: 2024/2025
 created: 2025-09-24T08:15
-updated: 2026-01-31T13:32
+updated: 2026-09-11T14:16
 ---
 Risorse: [Daniele Venturi](https://corsidilaurea.uniroma1.it/it/users/danieleventuriuniroma1it), [Dispenze](https://dventuri83.github.io/projects/3_acc/)
 
@@ -38,3 +38,5 @@ Domande del corso: Quali sone le limitazioni intrinseche della computazione
 >
 >[[L 21 Nov Automi]]
 >[[L 26 Nov Automi]]
+
+[[Dimostrazioni Automi - 11-09-2026]]

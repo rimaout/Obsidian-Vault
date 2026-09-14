@@ -6,13 +6,13 @@ academic year: 2024/2025
 related:
 completed: true
 created: 2026-06-05T14:49
-updated: 2026-06-11T10:24
+updated: 2026-07-08T16:11
 ---
 ## Introduzione
 
 **Lists** are *homogeneous* (= same type) sequences of values, that can be processed sequentially. 
 
-The simpler way to construct a list is by using the constructor `[]`, but this is just syntactic sugar for the  *infix operator*  **cons** ( `:`). It it can be seen as a *head insert* and its name derives from *constructor*.
+The simpler way to construct a list is by using the constructor `[]`, but this is just syntactic sugar for the  *infix operator*  **cons** (`:`). It it can be seen as a *head insert* and its name derives from *constructor*.
 
 Foe example this writing `[1,2,3]` it's just syntactic sugar for `1:2:3:[]`.
 
@@ -113,7 +113,7 @@ drop 2 [1, 2, 3, 4]    -- risultato: [3, 4]
 splitAt 2 [1, 2, 3, 4] -- risultato: ([1, 2], [3, 4])
 ```
 
-**Liste annidate/multiple:é
+**Liste annidate/multiple:**
 - `concat` (appiattisce liste di liste),
 - `zip` (unisce liste in coppie, fermandosi alla più corta)
 
@@ -123,14 +123,13 @@ zip [1, 2] ['a', 'b', 'c'] -- risultato: [(1, 'a'), (2, 'b')]
 ```
 
 **Operazioni Logiche:**
+
 ```haskell
 and [True, False]   -- risultato: False
 or [True, False]    -- risultato: True
 any (> 2) [1, 2, 3] -- risultato: True (almeno uno è > 2)
 all (> 0) [1, 2, 3] -- risultato: True (tutti sono > 0)
-```
 
-```haskell
 myNull :: [a] -> Bool
 myNull [] = True
 myNull _ = False

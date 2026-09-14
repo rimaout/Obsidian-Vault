@@ -6,7 +6,7 @@ academic year: 2024/2025
 related:
 completed: true
 created: 2025-09-25T16:47
-updated: 2026-01-31T13:32
+updated: 2026-08-06T16:51
 ---
 >[!note] Definizione 1: Alfabeto 🟢
 >
@@ -20,7 +20,7 @@ updated: 2026-01-31T13:32
 >
 >Data una sequenza di simboli $c_{1}, . . . , c_{n} \in \Sigma$, definiamo: $w := c_{1} . . . c_{n}$ come stringa (o parola) di $\Sigma$.
 >
->***Esempio:*** Dato l’alfabeto $\Sigma = \{0, 1, x, y, z\}$, una stringa di $Simga$ è $0x1yyy0$.
+>***Esempio:*** Dato l’alfabeto $\Sigma = \{0, 1, x, y, z\}$, una stringa di $\Sigma$ è $0x1yyy0$.
 
 >[!note] Definizione 3: Linguaggio 🟢
 >

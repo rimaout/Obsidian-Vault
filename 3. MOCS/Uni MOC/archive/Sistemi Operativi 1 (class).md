@@ -2,10 +2,15 @@
 Main Moc: "[[Uni MOC]]"
 related:
 created: 2024-09-24T15:33
-updated: 2026-07-01T11:21
+updated: 2026-07-07T12:02
 academic year: 2024/2025
 ---
-[[Domande Esame Scritto SO1]]
+[Domande Esame Scritto SO1]]
+
+>[!warning] DeepDives
+>
+>- [[How a Process sees memory]] 
+>- [[Thread - modelli, gestione su Linux, PCB vs TCB]]
 
 >[!note] Introduzione
 >- [[Interruzioni 101]] 🟢
@@ -48,14 +53,3 @@ academic year: 2024/2025
 >- [[Gestione Memoria Secondaria - File System - SO1|Gestione Memoria Secondaria]] 🟢
 >- [[Gestione dei file in UNIX - SO1 - File Systems|Gestione dei file in UNIX]] 🟢
 >- [[Gestione dei file su Windows e confronto con Linux - SO1 - File Systems|Gestione dei file su Windows e confronto con Linux]] 🟢
-
->[!note] Gestione Concorrenza
-
-
->[!note] Dead Lock
->
->
-
->[!note] Sicurezza
->
->

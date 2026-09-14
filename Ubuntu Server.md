@@ -1,8 +1,10 @@
 ---
 created: 2025-07-19T15:42
-updated: 2026-05-16T13:39
+updated: 2026-07-05T16:29
 ---
 ## Installation
+
+[[Android Termux Server]]
 
 Download the Debian ISO and I used [ventoy](https://www.ventoy.net/en/index.html) to create and boot the bootable drive.
 

@@ -6,7 +6,7 @@ academic year: 2024/2025
 related:
 completed: false
 created: 2025-10-25T16:22
-updated: 2026-06-23T13:42
+updated: 2026-07-02T17:15
 ---
 >[!note] Domanda Numero 1
 >
@@ -246,7 +246,7 @@ updated: 2026-06-23T13:42
 >>---
 >>
 >>**Motivazione:**
->>-
+>>
 
 >[!note] Domanda Numero 13
 >

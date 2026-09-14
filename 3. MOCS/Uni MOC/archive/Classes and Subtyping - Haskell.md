@@ -7,9 +7,9 @@ related:
   - "[[Types, Polymorphism and Classes - Haskell]]"
 completed: true
 created: 2026-06-07T16:23
-updated: 2026-06-08T15:10
+updated: 2026-07-11T15:38
 ---
->[!note] Related
+[!note] Related
 >
 >- [[Types, Polymorphism and Classes - Haskell]]
 

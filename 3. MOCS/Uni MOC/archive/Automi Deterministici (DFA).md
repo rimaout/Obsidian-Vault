@@ -6,7 +6,7 @@ academic year: 2024/2025
 related:
 completed: true
 created: 2025-09-25T16:48
-updated: 2026-01-31T13:32
+updated: 2026-08-06T18:41
 ---
 ## Definizione
 
@@ -89,7 +89,7 @@ updated: 2026-01-31T13:32
 > - `q` è un stato dell'automa
 > - `w` è una stringa che può essere ottenuta attraverso l’alfabeto dell'automa
 >   
->**Configurazione Universale:** $(q_{0}, x)$ dove $q_{0}$ è lo stato iniziale di $M$????
+>**Configurazione Universale:** $(q_{0}, x)$ dove $q_{0}$ è lo stato iniziale di $M$
 
 >[!note] Definizione: Passo di computazione 🟢
 >
@@ -115,7 +115,7 @@ updated: 2026-01-31T13:32
 >
 >>*nota:* $\exists!$ significa esiste un unico
 
->[!note] Definizione: Chiusura riflessiva e transitiva 🟠
+>[!note] Definizione: Chiusura riflessiva e transitiva 🟢
 >
 >Sia $M := (Q,\Sigma,\delta,q_{0},F)$ un DFA. La chiusura riflessiva e transitiva di $\vdash_{M}$ indicata come $\vdash_{M}^{*}$, gode delle seguenti proprietà:
 >$$
@@ -126,6 +126,29 @@ updated: 2026-01-31T13:32
 >$$
 >
 >E ovviamente vale tutto quello detto precedentemente quindi: $(p_{1}, aw) \vdash_{M}(q_{1},w) \implies (p_{1}, aw) \vdash_{M}^{*}(q_{1},w)$
+>
+>>[!warning]- Approfondimento
+>> 
+>> Sia $M = (Q, \Sigma, \delta, q_0, F)$ un DFA.  
+>> 
+>> La relazione $\vdash_M$ descrive un **singolo passo** di computazione tra due **configurazioni** (cioè coppie $(stato,\, parola\;residua)$):
+>> 
+>> $$(p,\, a\,w) \;\vdash_M\; (q,\, w) \qquad \text{se } \delta(p,a)=q.$$
+>>
+>> Spesso però ci serve ragionare su **zero o più passi**: nasce così la **chiusura riflessiva e transitiva** $\vdash_M^*$, che gode di queste proprietà:
+>>
+>> 1. **Riflessività (zero passi):**  
+>>	- Ogni configurazione è in relazione con se stessa.  
+>>	- In simboli: $(q,\, x)\;\vdash_M^*\;(q,\, x)$ per qualunque stato $q$ e qualunque stringa $x$.
+>> 
+>> 2. **Transitività (concatenare passi):**  
+>>    - Se due passi singoli sono uno di seguito all'altro, allora l'intera sequenza è coperta da $\vdash_M^*$:
+>>
+>>$$(q_1,\, a\,b\,y) \;\vdash_M\; (q_2,\, b\,y)\; \wedge \; (q_2,\, b\,y) \;\vdash_M\; (q_3,\, y) \quad\Longrightarrow\quad (q_1,\, a\,b\,y) \;\vdash_M^*\; (q_3,\, y).$$
+>>
+>> Di conseguenza, ogni **singolo passo** è anche un caso particolare di $\vdash_M^*$ (perché 1 passo rientra in "zero o più"):
+>>
+> $$(p,\, a\,w) \;\vdash_M\; (q,\, w) \quad\Longrightarrow\quad (p,\, a\,w) \;\vdash_M^*\; (q,\, w).$$
 
 ## Esempio creazione di un Automa
 
@@ -144,10 +167,10 @@ Notiamo quindi che questo accetta soltanto le stringhe che iniziano con il carat
 >Adesso dobbiamo dimostrare che questo DFA accetta il linguaggio, quindi più formalmente:
 >
 >$$
->\text{DFA accett}\ x \iff X \in L
+>\text{DFA accetta}\ x \iff x \in L
 >$$
 >
->Iniziamo osservando che se ci troviamo in $q_{1}$​ rimarremo sempre in $q_{1}$​ e stessa cosa anche per $q_{1}$​, formalmente:
+>Iniziamo osservando che se ci troviamo in $q_{1}$​ rimarremo sempre in $q_{1}$​ e stessa cosa anche per $q_{2}$​, formalmente:
 >
 >$$
 >\begin{align*}
@@ -177,7 +200,7 @@ Notiamo quindi che questo accetta soltanto le stringhe che iniziano con il carat
 >>Adesso prendiamo una stringa $|x| = n+1$ e la pensiamo costruita come $x=au$ con $a\in \{0,1\}$ e $u\in \{0,1\}^{*}$, la funzione di transizione ci restituirà:
 >>
 >>$$
->>\delta^{*}(q0​,x) = \delta^{*}(q0​,au)=\delta^{*}(\underbrace{\delta(q_{0}​,a)}_{\text{solo 2 soluzioni}}​​,u)
+>>\delta^{*}(q_{0}​,x) = \delta^{*}(q_{0}​,au)=\delta^{*}(\underbrace{\delta(q_{0}​,a)}_{\text{solo 2 soluzioni}}​​,u)
 >>$$
 >>
 >>Le due soluzione del passaggio sono:

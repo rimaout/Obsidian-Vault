@@ -4,9 +4,9 @@ class:
   - "[[TPFI]]"
 academic year: 2024/2025
 related:
-completed: false
+completed: true
 created: 2026-06-05T09:46
-updated: 2026-06-05T10:05
+updated: 2026-07-11T15:47
 ---
 ## Type of Languages
 
@@ -17,7 +17,7 @@ updated: 2026-06-05T10:05
 >- Instructions: Assignments, loops
 >- Data Types: abstraction of memory cells: type checks!
 >- Definition of new data types.
->- Control: loops + procedural/funzional abstraction.
+>- Control: loops + procedural/functional abstraction.
 
 >**Functional Languages**
 >
@@ -33,8 +33,8 @@ updated: 2026-06-05T10:05
 Because it’s beautiful and elegant, but mainly because:
 - emphasis functions and their application rather than commands and memory transformations.
 - uses relatively **simple mathematical notations** to describe problems and solutions in a *clear and coincise* way.
-- enables **reasoning about correctness** (and program equivalence) through [[equational reasoning]].
-- many of its core features have been incorporated in other paradigms and programming patterns. However it is instructive to study them in their pure form (recursion, generic types, immutable data, compositionality).
+- enables **reasoning about correctness** (and program equivalence) through [[Laws and Proofs (equational reasoning) - Haskell|equational reasoning]].
+- many of its core features have been incorporated in other paradigms and programming patterns. However it is instructive to study them in their pure form (recursion, generic types, immutable data, compositionallity).
 
 ## Why no Memory Matters
 

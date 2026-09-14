@@ -6,7 +6,7 @@ academic year: 2024/2025
 related:
 completed: true
 created: 2026-06-07T13:30
-updated: 2026-06-08T12:07
+updated: 2026-07-14T12:07
 ---
 ## Introduzione
 
@@ -22,7 +22,7 @@ Dal punto di vista matematico, la composizione di due funzioni $f$ e $g$ si scri
 
 Questo significa che il risultato della funzione $g$ (applicata all'argomento $x$) diventa l'input per la funzione $f$.
 
->[!note] Definition Il Politipo della Composizione
+>[!note] Il Politipo della Composizione
 >
 >L'operatore `.` è una funzione di **ordine superiore** perché accetta altre funzioni come argomenti. Il suo tipo è:
 >
@@ -50,7 +50,7 @@ Questo significa che il risultato della funzione $g$ (applicata all'argomento $x
 >
 >La composizione è fondamentale per provare la correttezza dei programmi. Un'equazione celebre è: `map (f . g) = (map f) . (map g)`. Questa legge afferma che mappare una funzione composta su una lista è equivalente a mappare la prima funzione sul risultato della mappatura della seconda.
 
-## 3. Utilizzi ed Esempi Pratici
+## Utilizzi ed Esempi Pratici
 
 >[!note] Grandi Composizioni
 >

@@ -1,9 +1,10 @@
 ---
 Main Moc: "[[Uni MOC]]"
 created: 2025-09-23T14:13
-updated: 2026-06-14T13:03
+updated: 2026-09-10T20:13
 ---
 >[!note] Introduzione
+>- [[WASA - Domande Orale]]
 >- [[Introduzione a git]] 🟢
 >- [[HTTP, Status Codes e Curl]] 🟢
 
@@ -17,8 +18,6 @@ updated: 2026-06-14T13:03
 >  [[Trucchetti YAML]]
 
 [[Esercizio Nasoni - WASA]] 🟢
-
-[[WASAAPP OpenApi Doc]]
 
 >[!note] Extra
 >

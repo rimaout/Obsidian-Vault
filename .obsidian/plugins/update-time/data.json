@@ -3,5 +3,6 @@
     "Storage/Templates"
   ],
   "createdPropertyName": "created",
-  "updatedPropertyName": "updated"
+  "updatedPropertyName": "updated",
+  "saveDelayInSeconds": 2
 }

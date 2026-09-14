@@ -6,7 +6,7 @@ academic year: 2024/2025
 related:
 completed: true
 created: 2026-06-25T19:53
-updated: 2026-06-27T13:10
+updated: 2026-07-05T17:17
 ---
 ## Introduzione
 
@@ -75,7 +75,6 @@ Tutti e ***necessitano di una tabella di allocazione dei file***, e devono rispe
 |**Allocation frequency**|Once|Low to high|High|Low|
 |**Time to allocate**|Medium|Long|Short|Medium|
 |**File allocation table size**|One entry|One entry|Large|Medium|
-
 #### Allocazione Contigua (Contiguous Allocation)
 
 Prevede che a ogni file sia assegnato un insieme di blocchi **consecutivi** sul disco. Richiede necessariamente la preallocazione (dobbiamo sapere in anticipo quanto spazio servirà).
@@ -173,7 +172,7 @@ Ogni blocco del disco ha un numero sequenziale identificativo, e i numeri dei bl
 
 - **Il problema della RAM:** A differenza delle tabelle dei file (che vengono caricate in RAM solo quando un file viene aperto), le informazioni sullo spazio libero devono essere **sempre** disponibili al SO.
 - **La soluzione (Pila/Stack):** Il SO carica in RAM solo una porzione di questa lista di numeri. Questa porzione viene gestita tipicamente come una **Pila (Stack)**.
-- **Operazioni:** Si usa un'operazione di _pop_ per estrarre un numero (allocare spazio per un file) e una di _push_ per inserire un numero (deallocare spazio dopo una cancellazione).
+- **Operazioni:** Si usa un'operazione di _pop_ per estrarre un numero (allocare spazio per un file) e una di _push_ per inserire un numero (de-allocare spazio dopo una cancellazione).
 - **Ricarico:** Quando i numeri nella porzione in RAM finiscono, il SO va a leggere e caricare la porzione successiva dal disco.
 - **Alternative:** Questa struttura dati in RAM può essere gestita anche in altri modi, ad esempio tramite una Coda (Queue).
 
@@ -189,7 +188,7 @@ Un **volume** rappresenta un disco "logico". Non coincide necessariamente con un
 All'interno del file system operiamo una distinzione fondamentale tra due tipi di informazioni:
 - **Dati:** Il contenuto effettivo del file (es. il testo di un documento, i pixel di una foto).
 - **Metadati:** Le informazioni strutturali gestite dal SO per controllare il file (es. lista dei blocchi liberi, puntatori ai blocchi del file, date di creazione/modifica, permessi e proprietario).
-    
+
 >[!note] Il problema della Consistenza
 >
 >I dati e i metadati devono persistere sul disco, ma per ragioni di performance vengono caricati e modificati anche in **RAM**. Aggiornare costantemente il disco a ogni singola modifica in RAM sarebbe estremamente inefficiente (generando troppe operazioni di I/O). Per questo motivo, il SO sincronizza la RAM sul disco **periodicamente** (ad esempio quando il sistema è in idle o quando si accumulano molte modifiche).
