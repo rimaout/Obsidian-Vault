@@ -1,6 +1,6 @@
 ---
 created: 2023-09-26T10:14
-updated: 2026-06-22T18:24
+updated: 2026-09-28T10:18
 tags:
   - "#UniMoc"
 ---
@@ -37,4 +37,5 @@ tags:
 >- [[Interazione Uomo Macchina (class)]]
 
 >**Third year, second semester:**
->- [[TPFI]] 
+>- [[TPFI]]
+>- [[Bachelor Thesis]]

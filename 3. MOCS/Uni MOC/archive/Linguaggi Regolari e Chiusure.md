@@ -6,7 +6,7 @@ academic year: 2024/2025
 related:
 completed: false
 created: 2025-09-26T08:36
-updated: 2026-01-31T13:32
+updated: 2026-09-29T17:55
 ---
 >[!note] Insieme dei Linguaggi Regolari
 >
@@ -47,6 +47,8 @@ Obbiettivo dimostrare che se $L_{1},L_{2} \in REG$, allora:
 >[!danger] Teorema: Chiusura del complemento in REG
 >
 >>[!warning]- Dimostrazione
+>
+>Nota questa dimostrazione è vera soltanto per i DFA, e non per un NFA. Infatti per gli nfa dobbammo prima convertire l'NFA in DFA e dopo possiamo usare questa tecnica per costruire l'NFA "negato".
 
 >[!danger] Teorema: Chiusura della concatenazione in REG
 >

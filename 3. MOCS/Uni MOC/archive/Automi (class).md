@@ -2,7 +2,7 @@
 type: "[[Uni MOC]]"
 academic year: 2024/2025
 created: 2025-09-24T08:15
-updated: 2026-09-11T14:16
+updated: 2026-10-01T13:45
 ---
 Risorse: [Daniele Venturi](https://corsidilaurea.uniroma1.it/it/users/danieleventuriuniroma1it), [Dispenze](https://dventuri83.github.io/projects/3_acc/)
 
@@ -40,3 +40,56 @@ Domande del corso: Quali sone le limitazioni intrinseche della computazione
 >[[L 26 Nov Automi]]
 
 [[Dimostrazioni Automi - 11-09-2026]]
+[[Dimostrazioni Automi - 17-09-2026]]
+[[Dimostrazioni Automi - 21-09-2026]]
+
+>[!note] Esorcizzi
+>
+>- [[auto-esame-set-2026]]
+
+[[ESERCIZZI AUTOMI]]
+
+[[AUTOMI TUTTO]]
+
+**Forma Base:**
+
+G:
+- $S \to 1A$
+- $A \to 1A \mid 0A \mid \epsilon$
+
+**Forma Normale di Chomsky** 
+
+G:
+- $S_{0} \to S$
+- $S \to  AB\mid$ 
+- $A \to 1$
+- $B\to BB \mid 1 \mid 0$
+
+**Dimostrazione di Correttezza:**
+
+Obiettivo dimostrare che la gramatica $G$ riconosce il linguaggio $1\Sigma^{*}$ dove $\Sigma = \{ 0,1 \}$.
+
+Facciamo induzione sulla lunghezza (`n`) di una stringa `w` appartenente a $L(G)$.
+
+- *Caso Base:* Se `n = 1` allora `w = 1`.
+
+- *Ipotesi Induttiva:* 
+
+
+Dato $A := (Q, \Sigma, \delta_{A}, q_{0_{A}}, F_{A})$ l'NFA che riconosce il linguaggio $X$ ovvero $L(A) = X$
+
+Sia $B := (Q_{B}, \Sigma, \delta_{B}, q_{0_{B}}, F_{B})$ l'NFA che dovrà riconoscere il linguaggio $X^{R}$ ovvero $L(B) = X^{R}$ dove:
+- $Q_{B} = Q_{A} \cup \{ s \}$
+- $q_{0_{B}} = s$
+- $F_{B} = \{ q_{0_{A}} \}$
+
+
+$$
+\delta_{B}(q,a) \begin{cases}
+F_{A} & \text{if } q=q_{0_{B}} \wedge  a = \epsilon \\
+X & \text{if } \forall q \in X \wedge  q \in \delta_{A}(p,a)
+\end{cases}
+$$
+
+
+
